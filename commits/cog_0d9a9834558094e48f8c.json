@@ -1,0 +1,35 @@
+{
+  "actor": "claude-code@alma-test",
+  "created_at": "2026-11-04T15:37:43.867499Z",
+  "episode_ids": [],
+  "event_refs": [
+    "evt_45c1b6e514933f56db9d@1"
+  ],
+  "id": "cog_0d9a9834558094e48f8c",
+  "kind": "extract",
+  "memory_ids": [
+    "mem_0b7fdd949302daedb884",
+    "mem_0b7420748d116ff7bcb6",
+    "mem_66e41825f3b900e3810f",
+    "mem_f2c90270817c2229f73f",
+    "mem_409a5ee89151b5edb236"
+  ],
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v2",
+  "relation_ids": [
+    "rel_9859614188a1f54373cf"
+  ],
+  "repository_head": "",
+  "revision_ids": [
+    "rev_b6f257c8cbfaaa3fea38",
+    "rev_87fd519581b5d4c74071",
+    "rev_bd3459c1cb63e087324b",
+    "rev_ca75381d68d836d00312",
+    "rev_b0fddafe8590db1b0a18"
+  ],
+  "summary": {
+    "add": 5,
+    "relation": 1
+  },
+  "sync_remote": true
+}

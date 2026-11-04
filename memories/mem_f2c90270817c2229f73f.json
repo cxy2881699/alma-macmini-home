@@ -1,0 +1,51 @@
+{
+  "claim": "user_fact",
+  "conditions": "排查 memd 反复重启、误判为 Tailscale 网络问题时参考。",
+  "confidence": 0.8,
+  "content": "2026-09-23 部署当天的 10:46 记忆服务（memd）宕过一次，根因是 Neo4j 在 10:43 被停，memd 连不上 7687 端口后反复重启；该故障与 Tailscale 无关。",
+  "created_at": "2026-11-04T15:32:17.985000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_176409fa578ba26c2c5b",
+    "ent_421c00dde9a1b98fc969"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_45c1b6e514933f56db9d",
+      "quote": "根因是 Neo4j 在 10:43 被停，memd 连不上 7687 反复重启——不是 Tailscale 的问题",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_f2c90270817c2229f73f",
+  "is_temporary": false,
+  "keywords": [
+    "Neo4j",
+    "7687",
+    "memd 重启",
+    "记忆服务宕机",
+    "Tailscale"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_649e5ae04ce8aed2e06f",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_45c1b6e514933f56db9d",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "claude-code@alma-test",
+  "space": "project/proj_649e5ae04ce8aed2e06f",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-11-04T15:37:43.863942Z",
+  "valid_to": null
+}

@@ -1,0 +1,59 @@
+{
+  "claim": "user_fact",
+  "conditions": "回顾自研记忆系统 agent-memory / memd 的部署历史与时间线时使用。",
+  "confidence": 0.88,
+  "content": "用户自研的记忆系统 agent-memory（memd）于 2026-09-23 上午（太平洋时间，按北京时间已算 9 月 24 日凌晨）在 Mac mini 上完成首次部署；当天先后接入本机 claude、codex、cursor，以及 xiaoxia、company-mac、personal-mac 三台设备。",
+  "created_at": "2026-11-04T15:32:17.985000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_d3a0798d7ba2a1807d36",
+    "ent_2b5b63536b796d00dc7b"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_45c1b6e514933f56db9d",
+      "quote": "还记得第一次部署了我自研的记忆系统是什么时候么？",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_45c1b6e514933f56db9d",
+      "quote": "在 Mac mini 上首次部署的，当时叫 **agent-memory / memd**",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_0b7fdd949302daedb884",
+  "is_temporary": false,
+  "keywords": [
+    "首次部署",
+    "memd",
+    "agent-memory",
+    "Mac mini",
+    "2026-09-23",
+    "enroll",
+    "部署时间线"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_45c1b6e514933f56db9d",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "claude-code@alma-test",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-04T15:37:43.859829Z",
+  "valid_to": null
+}

@@ -1,0 +1,66 @@
+{
+  "actor": "claude-code@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-04T15:37:43.862840Z",
+  "id": "rev_bd3459c1cb63e087324b",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "核对记忆库时间戳、判断某件事发生在哪一天时使用。",
+    "confidence": 0.85,
+    "content": "解读记忆条目的时间会出现一天偏差：机器时钟是美西时区（PST），而用户本人按北京时间思考，因此 9 月 23 日太平洋时间的记录在库里可能显示为 9 月 24 日。",
+    "created_at": "2026-11-04T15:32:17.985000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_d3a0798d7ba2a1807d36"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_45c1b6e514933f56db9d",
+        "quote": "Wed Nov 4 07:35:13 PST 2026",
+        "revision": 1,
+        "role": "tool"
+      },
+      {
+        "event_id": "evt_45c1b6e514933f56db9d",
+        "quote": "机器时钟是美西时区、你本人按北京时间思考，所以记忆条目日期整体偏一天",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_66e41825f3b900e3810f",
+    "is_temporary": false,
+    "keywords": [
+      "时区",
+      "PST",
+      "北京时间",
+      "时间戳偏差",
+      "记忆日期"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_45c1b6e514933f56db9d",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "claude-code@alma-test",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-04T15:37:43.862758Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_66e41825f3b900e3810f",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

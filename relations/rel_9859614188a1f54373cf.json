@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-11-04T15:37:43.858744Z",
+  "evidence": [
+    {
+      "event_id": "evt_45c1b6e514933f56db9d",
+      "quote": "在 Mac mini 上首次部署的，当时叫 **agent-memory / memd**",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "rel_9859614188a1f54373cf",
+  "object": "ent_d3a0798d7ba2a1807d36",
+  "predicate": "部署在",
+  "source_agent": "claude-code@alma-test",
+  "space": "user/shared",
+  "status": "active",
+  "subject": "ent_9f82bdbcda91e1775def",
+  "sync_remote": true,
+  "updated_at": "2026-11-04T15:37:43.858751Z",
+  "valid_from": "2026-11-04",
+  "valid_to": ""
+}
