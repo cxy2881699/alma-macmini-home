@@ -1,0 +1,65 @@
+{
+  "claim": "agent_action",
+  "conditions": "适用于 codex 由全局 npm 安装、且包内 vendor/aarch64-apple-darwin/codex/codex 缺失的 macOS ARM64 环境",
+  "confidence": 0.8,
+  "content": "2026-11-04，用户终端运行 codex 再次报 spawn ENOENT 无法启动；原因是全局 npm 安装路径 /Users/seancao/coding/nodejs/node-v22.16.0 下的 @openai/codex 缺少 darwin-arm64 原生二进制，Agent 用 npm pack @openai/codex@0.114.0-darwin-arm64 打包解压回包内 node_modules/@openai/codex-darwin-arm64 后，codex --version 恢复正常。",
+  "created_at": "2026-09-23T17:20:56.973000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_092e79276be1572146d8"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_2ff0c1defb522ad38c60",
+      "quote": "users-seancao-desktop-agent-memory % codex Error: spawn",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_2ff0c1defb522ad38c60",
+      "quote": "npm pack @openai/codex@0.114.0-darwin-arm64 (exit 0)",
+      "revision": 1,
+      "role": "tool"
+    },
+    {
+      "event_id": "evt_2ff0c1defb522ad38c60",
+      "quote": "codex --version (exit 0)",
+      "revision": 1,
+      "role": "tool"
+    }
+  ],
+  "id": "mem_97e30483e817efe65538",
+  "is_temporary": false,
+  "keywords": [
+    "Codex CLI",
+    "ENOENT",
+    "二进制缺失",
+    "darwin-arm64",
+    "npm pack",
+    "@openai/codex",
+    "启动失败"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_2ff0c1defb522ad38c60",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "codex@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-11-04T14:03:25.186691Z",
+  "valid_to": null
+}
