@@ -141,9 +141,19 @@
       "quote": "目前三个hook成功选中了，状态是active",
       "revision": 1,
       "text": "用户报告重装官方 Codex CLI 后三个 hook 已成功选中且状态为 active；Agent 查服务端审计发现最新召回仍来自 OpenClaw、尚无新的 Codex 召回，因此要求在运行 codex 的终端里发一条普通消息、/exit 重新进入后再发一条，并检查是否出现 actor=cred:cred_45e362dcfbd6c2e4、action=recall、result=ok，同时提醒桌面聊天窗口与 CLI 是两个不同运行环境。"
+    },
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-23T17:28:07.882000Z",
+      "event_id": "evt_d1ac9ffcb12bebc57788",
+      "kind": "note",
+      "order": 13,
+      "quote": "Codex 仍需要单独确认，不能用 OpenClaw 的成功记录代替。",
+      "revision": 1,
+      "text": "应用户要求复核 agent-memory 部署记忆后，重申三个 launchd 服务与 healthz 正常、OpenClaw 已修复并恢复召回，但 Codex 的自动召回仍未获服务端确认，必须用 agent_kind=codex、action=recall、result=ok 的审计记录单独验证"
     }
   ],
   "sync_remote": true,
   "title": "确认 Codex 每轮自动读取记忆是否生效",
-  "updated_at": "2026-11-04T14:04:23.541501Z"
+  "updated_at": "2026-11-04T14:04:36.263612Z"
 }
