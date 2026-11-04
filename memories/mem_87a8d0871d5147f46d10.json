@@ -1,0 +1,49 @@
+{
+  "claim": "user_fact",
+  "conditions": "仅在常规搜索接口不可用时作为降级方案。",
+  "confidence": 0.85,
+  "content": "当 web_search 与百度 API 不可用时，用户允许改用 browser 打开百度网页搜索并 evaluate 提取结果，再 web_fetch 正文的替代路径完成检索。",
+  "created_at": "2026-10-27T18:34:20.867000Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_d4ea596374d100c7cd4f",
+      "quote": "web_search和百度API可能不可用，可用browser打开百度网页搜索并evaluate提取结果，再web_fetch正文。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_87a8d0871d5147f46d10",
+  "is_temporary": false,
+  "keywords": [
+    "web_search不可用",
+    "百度",
+    "browser",
+    "evaluate",
+    "web_fetch",
+    "降级检索"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d4ea596374d100c7cd4f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "convention",
+  "updated_at": "2026-11-04T14:25:46.866061Z",
+  "valid_to": null
+}

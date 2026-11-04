@@ -1,0 +1,59 @@
+{
+  "claim": "agent_action",
+  "conditions": "指火山引擎与七家汽车企业战略合作公开稿核查中的奇瑞案例。",
+  "confidence": 0.72,
+  "content": "Agent 核查公开稿确认：奇瑞汽车与火山引擎于 2026-04-24 在北京签署战略合作，火山引擎出席人为总裁谭待、副总裁兰杰、副总裁杨立伟，奇瑞出席人为执行副总裁高新华、副总裁谢保军；2026-04-30 星途 EX7 上市稿明确其行业首发搭载豆包实时语音模型，属量产落地，但协议中智驾、公有云等方向尚无公开落地证据。",
+  "created_at": "2026-10-27T18:34:20.867000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_7d1a8b2d0370b729952b",
+    "ent_b6e5f07139d194f4aaa5",
+    "ent_c188d84379bbcd470dd4"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_d4ea596374d100c7cd4f",
+      "quote": "**签约日期**：2026-04-24，北京。",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_d4ea596374d100c7cd4f",
+      "quote": "星途EX7已全球上市，行业首发搭载豆包实时语音模型",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_b85c22a05f933230bade",
+  "is_temporary": false,
+  "keywords": [
+    "奇瑞汽车",
+    "火山引擎",
+    "星途EX7",
+    "豆包实时语音",
+    "2026-04-24",
+    "量产"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d4ea596374d100c7cd4f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-04T14:25:46.861820Z",
+  "valid_to": null
+}
