@@ -6,14 +6,16 @@
     "ent_58d1acad7ff0fc1caf07",
     "ent_f18082c6c564869030be",
     "ent_764b4bc7ab4b39647fee",
-    "ent_3d2f68a038ff0d2b8362"
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_f26263c9722cf552a58d"
   ],
   "follows": "ep_cb76ece566f8926236a8",
   "goal": "定位桌面版 ChatGPT 无法连接的原因并恢复可用",
   "id": "ep_1e7abde76707491e706c",
   "memory_ids": [
     "mem_79e7ae5ed34d26e7bcd7",
-    "mem_b202dca8a22649123b10"
+    "mem_b202dca8a22649123b10",
+    "mem_cb4f9b0075719aa340fb"
   ],
   "outcome": "",
   "project_id": "proj_44e381f71d50cb6ce0c0",
@@ -41,9 +43,19 @@
       "quote": "实测 HTTP 200，链路通了。",
       "revision": 1,
       "text": "排除 VPN 后定位为本地回环请求：3456 是 Claude Code Router，只支持 /v1/chat/completions；Agent 把 ~/.codex/config.toml 的 wire_api 从 responses 改成 chat，并把不存在的模型 gpt-6-luna 换成 ark,deepseek-v4-1-flash-261017，本机实测 HTTP 200"
+    },
+    {
+      "agent_id": "openclaw@macmini-home",
+      "at": "2026-11-04T15:47:47.667000Z",
+      "event_id": "evt_2cd9eda335aff41ce844",
+      "kind": "decision",
+      "order": 3,
+      "quote": "让桌面版直接连方舟；CCR 继续给 Claude 用，不动它。",
+      "revision": 2,
+      "text": "新版桌面端已彻底禁用 wire_api=\"chat\",Agent 改回 responses 并放弃 CCR 协议转换,改为让桌面版直连火山方舟原生 /v1/responses,Codex CLI 0.156.1 端到端验证返回 OK,等用户在桌面版点 Retry 确认"
     }
   ],
   "sync_remote": true,
   "title": "排查 ChatGPT 桌面版连不上网",
-  "updated_at": "2026-11-04T15:42:03.946074Z"
+  "updated_at": "2026-11-04T15:48:09.616209Z"
 }

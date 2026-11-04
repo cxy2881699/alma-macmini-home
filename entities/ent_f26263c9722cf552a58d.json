@@ -1,5 +1,8 @@
 {
-  "aliases": [],
+  "aliases": [
+    "方舟",
+    "火山方舟"
+  ],
   "created_at": "2026-11-04T14:25:20.623692Z",
   "description": "模型接口服务，到此调用 doubao-seed-evolving",
   "id": "ent_f26263c9722cf552a58d",
@@ -7,5 +10,5 @@
   "space": "user/shared",
   "sync_remote": true,
   "type": "tool",
-  "updated_at": "2026-11-04T14:25:20.633229Z"
+  "updated_at": "2026-11-04T15:48:09.617872Z"
 }

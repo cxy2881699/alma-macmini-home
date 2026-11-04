@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "3456 本机路由"
+    "3456 本机路由",
+    "CCR"
   ],
   "created_at": "2026-11-04T15:42:03.940896Z",
   "description": "监听本机 3456 端口的模型路由，只支持 /v1/chat/completions",
@@ -9,5 +10,5 @@
   "space": "project/proj_44e381f71d50cb6ce0c0",
   "sync_remote": true,
   "type": "tool",
-  "updated_at": "2026-11-04T15:42:03.946111Z"
+  "updated_at": "2026-11-04T15:48:09.619142Z"
 }

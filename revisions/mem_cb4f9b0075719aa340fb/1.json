@@ -1,0 +1,78 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": null,
+  "created_at": "2026-11-04T15:48:09.621748Z",
+  "id": "rev_acb0ce91671ce3ffb61d",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "适用于新版 Codex 桌面端（0.156.x 及以后）在本机配置模型路由的场景：新版已禁用 wire_api=\"chat\",必须使用 responses 协议。",
+    "confidence": 0.88,
+    "content": "2026-11-04，用户的新版 ChatGPT 桌面端因 ~/.codex/config.toml 中 wire_api = \"chat\" 已不再被支持而无法启动（Codex 要求改回 responses）；Agent 将 wire_api 恢复为 responses，并放弃经 Claude Code Router（本机 3456，只提供 /v1/chat/completions）做协议转换，改为让桌面版直连火山方舟原生的 /v1/responses 接口（实测返回 HTTP 200 与正常 OK），用 Codex CLI 0.156.1 跑同一份配置端到端返回 OK。",
+    "created_at": "2026-11-04T15:47:47.667000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_d17ee659c08797cd44bd",
+      "ent_f26263c9722cf552a58d",
+      "ent_764b4bc7ab4b39647fee"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_2cd9eda335aff41ce844",
+        "quote": "`wire_api = \"chat\"` is no longer supported.",
+        "revision": 2,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_2cd9eda335aff41ce844",
+        "quote": "我刚用真实请求测过，返回 200 和正常 `OK`",
+        "revision": 2,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_2cd9eda335aff41ce844",
+        "quote": "让桌面版直接连方舟；CCR 继续给 Claude 用，不动它。",
+        "revision": 2,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_cb4f9b0075719aa340fb",
+    "is_temporary": false,
+    "keywords": [
+      "wire_api",
+      "responses",
+      "chat",
+      "Codex 桌面端",
+      "火山方舟",
+      "Ark",
+      "Claude Code Router",
+      "config.toml"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_2cd9eda335aff41ce844",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@macmini-home",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-04T15:48:09.621574Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_cb4f9b0075719aa340fb",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
