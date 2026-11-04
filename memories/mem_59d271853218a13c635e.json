@@ -1,0 +1,49 @@
+{
+  "claim": "user_fact",
+  "conditions": "Agent 在不了解对方口味与餐食时给出具体酒款推荐后,用户再次以追问确定性的方式检验依据。",
+  "confidence": 0.9,
+  "content": "用户在被给出建议后,会通过追问\"你确定么\"来检验对方是否有依据,而不是接受看似自信的推荐。",
+  "created_at": "2026-09-25T08:36:10.419000Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_cba7676006be064cd2bd",
+      "quote": "你确定么？",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_59d271853218a13c635e",
+  "is_temporary": false,
+  "keywords": [
+    "你确定么",
+    "追问",
+    "质疑",
+    "依据",
+    "推荐",
+    "skepticism"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_cba7676006be064cd2bd",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "codex@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-11-04T14:07:58.151026Z",
+  "valid_to": null
+}
