@@ -234,9 +234,19 @@
       "quote": "这个app是这样的界面，没找到你说的订阅",
       "revision": 1,
       "text": "用户在手机上找不到「添加订阅」入口，Agent 改为让用户从剪贴板导入 DMIT-443 单节点链接"
+    },
+    {
+      "agent_id": "openclaw@old-memd",
+      "at": "2026-11-04T06:59:03.755000Z",
+      "event_id": "evt_575488db4cc223d3d173",
+      "kind": "result",
+      "order": 20,
+      "quote": "你其实已经导入成功了",
+      "revision": 1,
+      "text": "用户发来 Streisand 界面截图，Agent 确认订阅其实已导入成功，改为让用户回首页点订阅地址那一行、选 DMIT-443、再按电源键连接，并提醒别选 IPv6 节点。"
     }
   ],
   "sync_remote": true,
   "title": "排查开启 VPN 后整机断网",
-  "updated_at": "2026-11-04T14:27:55.912417Z"
+  "updated_at": "2026-11-04T14:28:03.762644Z"
 }
