@@ -1,0 +1,58 @@
+{
+  "actor": "codex@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-04T15:39:17.686710Z",
+  "id": "rev_123bcced2b98eeac51ab",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "验收自建记忆系统部署成果时",
+    "confidence": 0.9,
+    "content": "用户验收自研记忆系统首次部署是否成功的方式是：部署完成后主动提出几个问题，根据回答是否正确来判断记忆系统是否真的生效。",
+    "created_at": "2026-11-04T15:38:26.815000Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_b034f359cd37da8adcff",
+        "quote": "我记得我当时还问了几个问题来验证是否成功",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_494ff2f8e453f2097a34",
+    "is_temporary": false,
+    "keywords": [
+      "验收",
+      "部署验证",
+      "提问验证",
+      "记忆系统",
+      "首次部署"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_b034f359cd37da8adcff",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "codex@alma-test",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-11-04T15:39:17.686570Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_494ff2f8e453f2097a34",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
