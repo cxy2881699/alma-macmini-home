@@ -1,0 +1,74 @@
+{
+  "actor": "openclaw@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:13:33.728974Z",
+  "id": "rev_4723b8c2642da833b07b",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "",
+    "confidence": 0.9,
+    "content": "2026-09-27 晚（PDT），Agent 以分身身份产出 ICLR 2026 MemAgents Workshop 论文总结初版：实际抓取 30/48 篇 arXiv abstract，其余因 OpenReview 验证墙或未定位 ID 的部分按已知信息撰写并逐条标注“未获取原文”，按综述/写入/读取/经验自进化/效率/安全/评测七大主题写入 /Users/seancao/.openclaw/workspace/paper-summaries-MemAgents.md（约 23KB），每篇落到 PRD 的 FR 编号或章节，结尾给出 P0 9 条 / P1 13 条 / P2 7 条 修订优先级总表，且未改动 PRD 本身。",
+    "created_at": "2026-09-28T03:18:24.791000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_e44cb152899e6702c87f",
+      "ent_803e29983b18f51d0780"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_4ead9e010ef9d7e33330",
+        "quote": "任务：为 ICLR 2026 MemAgents Workshop 的 agent 记忆论文逐篇写简短总结，并对比宇哥的 PRD 指出有价值可借鉴的点。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_4ead9e010ef9d7e33330",
+        "quote": "**产出**：`/Users/seancao/.openclaw/workspace/paper-summaries-MemAgents.md`（约 23KB）",
+        "revision": 1,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_4ead9e010ef9d7e33330",
+        "quote": "结尾给出 P0（9 条）/P1（13 条）/P2（7 条）修订优先级总表 + 三个总体判断",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_aff47b55c7d9e38b0870",
+    "is_temporary": false,
+    "keywords": [
+      "MemAgents",
+      "论文逐篇总结",
+      "paper-summaries-MemAgents.md",
+      "arXiv abstract",
+      "P0/P1/P2",
+      "未获取原文"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_4ead9e010ef9d7e33330",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-11-04T14:13:33.728727Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_aff47b55c7d9e38b0870",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
