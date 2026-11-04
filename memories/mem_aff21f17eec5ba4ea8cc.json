@@ -1,0 +1,47 @@
+{
+  "claim": "user_fact",
+  "conditions": "",
+  "confidence": 0.85,
+  "content": "用户对模型或服务的响应延迟较敏感，会主动追问是否卡住并要求区分 Agent 回复慢与模型流式输出慢。",
+  "created_at": "2026-09-23T17:49:48.911000Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_8e2ff4a27bcaf2af9eca",
+      "quote": "但是可能search的速度有点慢，帮我测试一下每次对话之前，搜索记忆库要多久的时间",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_aff21f17eec5ba4ea8cc",
+  "is_temporary": false,
+  "keywords": [
+    "延迟敏感",
+    "响应速度",
+    "卡顿",
+    "性能"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8e2ff4a27bcaf2af9eca",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "codex@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-11-04T14:06:57.600053Z",
+  "valid_to": null
+}

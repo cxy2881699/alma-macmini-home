@@ -1,19 +1,24 @@
 {
   "entities": [
-    "ent_176409fa578ba26c2c5b"
+    "ent_176409fa578ba26c2c5b",
+    "ent_1c6b296bc5cb579536f2",
+    "ent_421c00dde9a1b98fc969",
+    "ent_3d2f68a038ff0d2b8362"
   ],
   "follows": "ep_8f8b6e659dda66ef3a14",
   "goal": "找出记忆服务挂掉的原因并按正确顺序恢复",
   "id": "ep_4873c08674d165a84ac5",
   "memory_ids": [
-    "mem_ba773798517ba0d02d48"
+    "mem_ba773798517ba0d02d48",
+    "mem_aff21f17eec5ba4ea8cc",
+    "mem_56f3695a4dcb3468e47f"
   ],
-  "outcome": "",
+  "outcome": "Neo4j 停止导致的重启循环已修复，记忆服务恢复稳定；随后本机实测对话前召回 20–40ms、最慢 110ms，排除记忆检索作为 OpenClaw 变慢的原因",
   "project_id": "",
   "source_agent": "codex@old-memd",
   "space": "user/shared",
   "started_at": "2026-09-23T17:46:20.615000Z",
-  "status": "ongoing",
+  "status": "succeeded",
   "steps": [
     {
       "agent_id": "codex@old-memd",
@@ -24,9 +29,19 @@
       "quote": "直接原因是 Neo4j 在 10:43 左右被停止",
       "revision": 1,
       "text": "定位到 Neo4j 在 10:43 左右被停止,memd 连续连不上 127.0.0.1:7687 并进入重启循环"
+    },
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-23T17:49:48.911000Z",
+      "event_id": "evt_8e2ff4a27bcaf2af9eca",
+      "kind": "result",
+      "order": 2,
+      "quote": "记忆服务现在依旧稳定运行，但是可能search的速度有点慢",
+      "revision": 1,
+      "text": "用户确认记忆服务恢复后稳定运行，并让 Agent 实测对话前记忆搜索耗时；实测常规召回 20–40ms、最慢 110ms，搜索不是卡顿来源"
     }
   ],
   "sync_remote": true,
   "title": "排查记忆服务再次宕机",
-  "updated_at": "2026-11-04T14:06:38.823237Z"
+  "updated_at": "2026-11-04T14:06:57.597806Z"
 }
