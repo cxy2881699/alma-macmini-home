@@ -1,0 +1,47 @@
+{
+  "claim": "user_fact",
+  "conditions": "",
+  "confidence": 0.9,
+  "content": "用户在代理/VPS 方案上更关注长期稳定和防再封，而不只是一次性救急；可接受为更干净 IP、中国优化线路和可免费换 IP 支付更高价格。",
+  "created_at": "2026-10-27T01:56:06.261000Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_15c14187ec9b91537226",
+      "quote": "肯定是要有个干净的情况下，干净的ip，相对贵一点也能接受",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_2a7cb50166a80e55bf85",
+  "is_temporary": false,
+  "keywords": [
+    "干净 IP",
+    "价格",
+    "长期稳定",
+    "防封"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_15c14187ec9b91537226",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-11-04T14:22:24.245066Z",
+  "valid_to": null
+}
