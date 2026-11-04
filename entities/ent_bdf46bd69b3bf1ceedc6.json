@@ -1,0 +1,14 @@
+{
+  "aliases": [
+    "隔离测试 Hub",
+    "isolated test hub"
+  ],
+  "created_at": "2026-11-04T10:20:46.512470Z",
+  "description": "用于隔离测试的 Alma 实例运行环境",
+  "id": "ent_bdf46bd69b3bf1ceedc6",
+  "name": "alma_test",
+  "space": "project/proj_f98e218e8fd28baa6780",
+  "sync_remote": true,
+  "type": "component",
+  "updated_at": "2026-11-04T10:20:46.512719Z"
+}
