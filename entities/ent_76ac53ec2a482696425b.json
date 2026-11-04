@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "dmit.io"
+  ],
+  "created_at": "2026-11-04T14:22:02.289107Z",
+  "description": "自持 CN2 GIA 上游的 VPS 商家，用户的主力候选",
+  "id": "ent_76ac53ec2a482696425b",
+  "name": "DMIT",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "organization",
+  "updated_at": "2026-11-04T14:22:02.307628Z"
+}

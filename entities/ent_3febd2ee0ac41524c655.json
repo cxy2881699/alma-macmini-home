@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "BandwagonHost"
+  ],
+  "created_at": "2026-11-04T14:22:02.292814Z",
+  "description": "自持 CN2 GIA 线路的 VPS 商家，备选",
+  "id": "ent_3febd2ee0ac41524c655",
+  "name": "搬瓦工",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "organization",
+  "updated_at": "2026-11-04T14:22:02.309602Z"
+}
