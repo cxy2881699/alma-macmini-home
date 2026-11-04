@@ -1,0 +1,60 @@
+{
+  "claim": "user_fact",
+  "conditions": "在 alma-memory-system 部署、测试及后续接入、导入、维护期间成立。",
+  "confidence": 0.85,
+  "content": "在 alma-memory-system 部署与接入期间，用户要求与正在运行的现有记忆系统保持隔离：不停止、不改配置、不写入 memd（8787 端口）、Neo4j 和旧 agent-memory 目录；旧记忆只做只读导出或一致性快照，验证兼容后再导入。接入范围上，截至 2026-11-03 夜用户收窄为：完全不碰 OpenClaw，先只接 Codex 和 Claude Code，各自独立做写入与召回验证，Cursor 和其他 Agent 暂缓。",
+  "created_at": "2026-11-04T10:42:17.751000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_d470e82d81fd9b9a6747",
+    "ent_176409fa578ba26c2c5b",
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_8d4a6236f9839ab1ae76",
+      "quote": "Respect every safeguard and preserve existing work.",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_8d4a6236f9839ab1ae76",
+      "quote": "Do not modify the legacy memd on 8787/7687 or any `com.agentmemory.*` jobs",
+      "revision": 1,
+      "role": "tool"
+    }
+  ],
+  "id": "mem_7165eb361abfb543f14d",
+  "is_temporary": false,
+  "keywords": [
+    "隔离",
+    "safeguard",
+    "memd",
+    "8787",
+    "Neo4j",
+    "legacy",
+    "不提交"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_f98e218e8fd28baa6780",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8d4a6236f9839ab1ae76",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "claude-code@alma-test",
+  "space": "project/proj_f98e218e8fd28baa6780",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "convention",
+  "updated_at": "2026-11-04T14:31:36.833653Z",
+  "valid_to": null
+}

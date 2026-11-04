@@ -1,0 +1,70 @@
+{
+  "actor": "claude-code@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:31:36.830761Z",
+  "id": "rev_e36968d70fec3eed8a99",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "涉及 alma-memory-system 的记忆语义、抽取与召回逻辑时参考。",
+    "confidence": 0.85,
+    "content": "2026-11-04 Agent 在 alma-memory-system 的记忆模型中加入 Claim 枚举（user_instruction / user_fact / agent_action），把抽取 prompt 升级为 extract-v3 并加入校验，召回时排除 agent_action，旧记忆默认按 user_fact 处理且不做批量重写。",
+    "created_at": "2026-11-04T10:42:17.751000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_d470e82d81fd9b9a6747",
+      "ent_d5862f6475fc2bc0a570",
+      "ent_253ff460083fb4e3de07"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_8d4a6236f9839ab1ae76",
+        "quote": "extract-v3 prompt + validator, agent actions excluded from recall",
+        "revision": 1,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_8d4a6236f9839ab1ae76",
+        "quote": "old memories default to `user_fact` with no bulk rewrite",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_0556e01cb374ce7c3aa5",
+    "is_temporary": false,
+    "keywords": [
+      "Claim",
+      "user_fact",
+      "agent_action",
+      "user_instruction",
+      "extract-v3",
+      "召回",
+      "语义区分"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_f98e218e8fd28baa6780",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8d4a6236f9839ab1ae76",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "claude-code@alma-test",
+    "space": "project/proj_f98e218e8fd28baa6780",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-11-04T14:31:36.830678Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_0556e01cb374ce7c3aa5",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

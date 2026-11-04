@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "claim 枚举"
+  ],
+  "created_at": "2026-11-04T14:31:36.806711Z",
+  "description": "区分用户指令、用户事实与 Agent 动作的记忆字段",
+  "id": "ent_d5862f6475fc2bc0a570",
+  "name": "Claim",
+  "space": "project/proj_f98e218e8fd28baa6780",
+  "sync_remote": true,
+  "type": "concept",
+  "updated_at": "2026-11-04T14:31:36.824763Z"
+}
