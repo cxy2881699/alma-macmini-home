@@ -1,0 +1,48 @@
+{
+  "claim": "user_instruction",
+  "conditions": "适用于继续推进 agent-memory 记忆服务稳定性工作时。",
+  "confidence": 0.95,
+  "content": "用户于 2026-10-26 明确授权执行 memd 修复方案：重启 memd、调整连接池、批量重试失败任务。Agent 已完成备份、修改代码、重启并重试，方案落地，不再是待用户决定的事项。",
+  "created_at": "2026-10-27T04:20:35.986000Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_9d10a69084bd77edc45a",
+      "quote": "执行吧，优化一下目前的记忆链路",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_23fdfcff4bf843ac5309",
+  "is_temporary": false,
+  "keywords": [
+    "memd",
+    "连接池",
+    "批量重试",
+    "修复",
+    "授权"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_9d10a69084bd77edc45a",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "decision",
+  "updated_at": "2026-11-04T14:25:20.637813Z",
+  "valid_to": null
+}

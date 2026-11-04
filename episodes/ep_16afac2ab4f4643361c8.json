@@ -1,0 +1,34 @@
+{
+  "entities": [
+    "ent_f26263c9722cf552a58d",
+    "ent_96c0b441ea1924f90288"
+  ],
+  "follows": "ep_f77d31e7c72e0bf700ce",
+  "goal": "消除 memd 后台 extract/sleep 任务因 PoolTimeout 大量失败的问题，恢复新对话的长期记忆整理",
+  "id": "ep_16afac2ab4f4643361c8",
+  "memory_ids": [
+    "mem_23fdfcff4bf843ac5309",
+    "mem_da65ec171bd6510ac42d"
+  ],
+  "outcome": "",
+  "project_id": "",
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "started_at": "2026-10-27T04:20:35.986000Z",
+  "status": "ongoing",
+  "steps": [
+    {
+      "agent_id": "openclaw@old-memd",
+      "at": "2026-10-27T04:20:35.986000Z",
+      "event_id": "evt_9d10a69084bd77edc45a",
+      "kind": "result",
+      "order": 1,
+      "quote": "重启后 22 个请求全 200，**0 个 PoolTimeout，0 个新增失败**",
+      "revision": 1,
+      "text": "Agent 备份代码与数据库，把 ark 客户端连接池 16→64、池满等待 5s→60s、keepalive 30s 过期，重启 memd 后批量重试 197 个失败任务全部成功，验证 22 个请求全 200 且无新增 PoolTimeout；仍有 162 个 extract 在队列中消化。"
+    }
+  ],
+  "sync_remote": true,
+  "title": "修复 memd 连接池耗尽导致的记忆加工积压",
+  "updated_at": "2026-11-04T14:25:20.633136Z"
+}
