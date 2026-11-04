@@ -1,0 +1,60 @@
+{
+  "claim": "agent_action",
+  "conditions": "仅反映当日 cron 晨报的交付结果与当时搜索工具可用性。",
+  "confidence": 0.85,
+  "content": "2026-11-04 北京时间晨报由 cron 触发执行一次;Agent 报告 Brave 缺 API key、百度鉴权失败,搜索工具故障延续至当日,遂按降级流程使用公开 RSS、官方页面与 Open-Meteo 等公开数据 API 核验,逐条附直达链接并完成自检清单,仅发送一次。",
+  "created_at": "2026-11-04T02:05:06.081000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_8af30aaf05c25f7a6c8a",
+    "ent_ce78bf334c2c4d063359",
+    "ent_c40fcc1d8ece988ca353"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_21ec0a807d8ab8a39f8f",
+      "quote": "备注：Brave 缺 API key、百度鉴权失败；本期按降级流程使用公开 RSS、官方页面与公开数据 API",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_21ec0a807d8ab8a39f8f",
+      "quote": "✅ 防重复：按北京时间确认 11 月 4 日尚未发送；本期仅由 cron reply 单次交付。",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_3a3236ea2e8f8313387a",
+  "is_temporary": false,
+  "keywords": [
+    "晨报",
+    "morning-briefing",
+    "Brave API key",
+    "百度鉴权失败",
+    "降级信源",
+    "自检清单",
+    "防重复"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_21ec0a807d8ab8a39f8f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-04T14:26:57.263432Z",
+  "valid_to": null
+}
