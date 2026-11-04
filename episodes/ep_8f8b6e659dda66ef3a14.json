@@ -76,9 +76,19 @@
       "quote": "怎么打开codex代码会话？或终端会话？",
       "revision": 1,
       "text": "用户仍没找到 Codex 代码会话/终端入口,转而再问如何打开代码会话或终端会话;Agent 仍按通用界面指引(New task → Terminal 标签 → codex)回答,钩子信任依旧未完成。"
+    },
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-23T17:16:56.940000Z",
+      "event_id": "evt_f43c83f7f1f5cdacef20",
+      "kind": "obstacle",
+      "order": 7,
+      "quote": "从你截图看，当前是 Codex 的聊天界面，里面没有我之前说的 **Terminal/终端** 标签。我前面的说明不准确，抱歉。",
+      "revision": 1,
+      "text": "用户发截图追问终端入口“在哪？”，Agent 看到截图后确认当前 Codex 桌面聊天界面没有 Terminal/终端标签，承认此前指导不准确，并说明 /hooks 只在 Codex 命令行版本中才生效"
     }
   ],
   "sync_remote": true,
   "title": "确认 Codex 每轮自动读取记忆是否生效",
-  "updated_at": "2026-11-04T14:02:20.806357Z"
+  "updated_at": "2026-11-04T14:02:27.821876Z"
 }
