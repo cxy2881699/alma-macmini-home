@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "谷歌邮箱"
+  ],
+  "created_at": "2026-11-04T14:16:05.559471Z",
+  "description": "用于注册 Claude 的新邮箱",
+  "id": "ent_a057cb830c1a4b9553a9",
+  "name": "Gmail",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "tool",
+  "updated_at": "2026-11-04T14:16:05.564689Z"
+}
