@@ -3,7 +3,8 @@
     "ent_f18082c6c564869030be",
     "ent_b1d51f89b3518adf7781",
     "ent_f90a16b26a8ab1d551fc",
-    "ent_be07139e0614ab262534"
+    "ent_be07139e0614ab262534",
+    "ent_c42dac5ae99195f63d24"
   ],
   "follows": "ep_880b3a50c98918e62bc0",
   "goal": "让 Clash Verge 成功写入 macOS 系统代理，使浏览器能正常访问外网",
@@ -12,7 +13,8 @@
     "mem_2f028eb8c48c6e56d7c0",
     "mem_83c65b5c683e844733c6",
     "mem_93c9a7818fa7130b0e26",
-    "mem_1793fcebd36fa81c90ef"
+    "mem_1793fcebd36fa81c90ef",
+    "mem_88c4c4e1bbdcf0df41bf"
   ],
   "outcome": "",
   "project_id": "",
@@ -80,9 +82,19 @@
       "quote": "sudo networksetup -setwebproxy Wi-Fi 127.0.0.1 7897 && sudo networksetup -setsecurewebproxy Wi-Fi 127.0.0.1 7897",
       "revision": 1,
       "text": "用户按指示整块执行两条 networksetup 写入命令，终端打印“写入完成”，但随即 scutil --proxy 仍只有 HTTPEnable : 0；Agent 转而要求分别输出 networksetup -getwebproxy Wi-Fi、killall -HUP configd 后的全局视图以及 networksetup -listnetworkserviceorder 中 en0 对应的服务，判断是缓存未刷新还是网络服务识别问题。"
+    },
+    {
+      "agent_id": "openclaw@old-memd",
+      "at": "2026-10-18T15:18:40.037000Z",
+      "event_id": "evt_10853d0c7dcf8fdb980b",
+      "kind": "obstacle",
+      "order": 7,
+      "quote": "(3) Wi-Fi (Hardware Port: Wi-Fi, Device: en0)",
+      "revision": 1,
+      "text": "用户回贴三条输出：Wi-Fi 服务自身已显示 Enabled: Yes + 127.0.0.1:7897，en0 确认对应 Wi-Fi，但 HUP configd 后 scutil 全局仍为 HTTPEnable: 0；Agent 改为杀掉 configd 重读配置，仍不行则重启机器。"
     }
   ],
   "sync_remote": true,
   "title": "排查 MacBook 上 Clash Verge 未接管系统代理",
-  "updated_at": "2026-11-04T14:15:25.637128Z"
+  "updated_at": "2026-11-04T14:15:38.125385Z"
 }
