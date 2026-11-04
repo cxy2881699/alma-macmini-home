@@ -55,9 +55,19 @@
       "quote": "/hooks",
       "revision": 1,
       "text": "用户又一次把 /hooks 发给当前聊天窗口而非在 Codex 输入框中执行，Agent 再次指出位置错误并说明须在 Codex 代码/终端会话里输入 /hooks 才会弹出钩子审核面板"
+    },
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-23T17:15:31.394000Z",
+      "event_id": "evt_4a5c0994d66a8656b56a",
+      "kind": "obstacle",
+      "order": 5,
+      "quote": "怎么打开codex代码会话？或中断对话？",
+      "revision": 1,
+      "text": "用户仍未找到 Codex 代码会话/终端入口，转而询问如何打开 Codex 代码会话以及如何中断对话，尚未完成 /hooks 钩子信任"
     }
   ],
   "sync_remote": true,
   "title": "确认 Codex 每轮自动读取记忆是否生效",
-  "updated_at": "2026-11-04T14:01:56.896924Z"
+  "updated_at": "2026-11-04T14:02:03.574859Z"
 }
