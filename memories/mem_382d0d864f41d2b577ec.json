@@ -1,0 +1,51 @@
+{
+  "claim": "user_fact",
+  "conditions": "涉及 agent-memory 记忆服务的审计与日志设计时适用。",
+  "confidence": 0.75,
+  "content": "用户认为记忆服务应把每次读取/召回的记忆记录也持久化保存（不只保存对话），这样以后排查记忆链路故障会快很多。",
+  "created_at": "2026-09-23T17:12:12.571000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_0796872cfc79a9328bad",
+      "quote": "理论上来说各种读取过的日志也要保存的，这样排查这个故障应该会快很多",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_382d0d864f41d2b577ec",
+  "is_temporary": false,
+  "keywords": [
+    "审计日志",
+    "读取日志",
+    "recall 记录",
+    "排查故障",
+    "可观测性",
+    "audit"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_0796872cfc79a9328bad",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "codex@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-11-04T14:01:33.861111Z",
+  "valid_to": null
+}
