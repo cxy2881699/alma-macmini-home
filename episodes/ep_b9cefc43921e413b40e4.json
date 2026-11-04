@@ -26,9 +26,19 @@
       "quote": "OK-ALMA-CLAUDE",
       "revision": 1,
       "text": "向 Claude 发送只回复 OK-ALMA-CLAUDE 且不调用工具的探针，Claude 原样回复"
+    },
+    {
+      "agent_id": "codex@alma-test",
+      "at": "2026-11-04T08:53:15.070000Z",
+      "event_id": "evt_0aeb6eefdd7221b32e7f",
+      "kind": "attempt",
+      "order": 2,
+      "quote": "alma_test codex probe: 请只回复 OK-ALMA-CODEX，不要调用工具",
+      "revision": 1,
+      "text": "再次通过 alma_test 向 Codex 发送只回复 OK-ALMA-CODEX 且不调用工具的探针；本轮窗口仍未记录到 Codex 的回复。"
     }
   ],
   "sync_remote": true,
   "title": "alma_test 跨通道极简探针测试",
-  "updated_at": "2026-11-04T10:20:52.612635Z"
+  "updated_at": "2026-11-04T10:20:58.906854Z"
 }
