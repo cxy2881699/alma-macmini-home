@@ -121,9 +121,19 @@
       "quote": "users-seancao-desktop-agent-memory % codex Error: spawn",
       "revision": 1,
       "text": "用户按要求在项目目录运行 codex，却因全局 npm 安装的包缺少 darwin-arm64 原生二进制而报 spawn ENOENT，无法进入 CLI 执行 /hooks"
+    },
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-23T17:22:50.833000Z",
+      "event_id": "evt_91a8ea1810469466278d",
+      "kind": "obstacle",
+      "order": 11,
+      "quote": "“codex” was not opened because it contains malware.",
+      "revision": 1,
+      "text": "Agent 从 npm 包补回的 Codex ARM64 二进制被 macOS 判定含恶意软件并隔离删除，无法进入 CLI 信任 /hooks；Agent 提出需经用户同意后重装官方 @openai/codex"
     }
   ],
   "sync_remote": true,
   "title": "确认 Codex 每轮自动读取记忆是否生效",
-  "updated_at": "2026-11-04T14:03:25.178213Z"
+  "updated_at": "2026-11-04T14:03:43.326470Z"
 }
