@@ -46,9 +46,19 @@
       "quote": "vps挂了？ 我刚买这么几天，这怎么办",
       "revision": 1,
       "text": "用户担心刚买几天的 VPS 是不是挂了；Agent 用 check-host 从 6 国节点复测 TCP 443 全部可达，确认服务器存活，故障是单 IP 被 GFW 封锁，建议先找商家换 IP 并考虑加 GEOIP,CN,DIRECT 规则"
+    },
+    {
+      "agent_id": "openclaw@old-memd",
+      "at": "2026-10-27T01:37:22.061000Z",
+      "event_id": "evt_3210ae8eb43d60bbb142",
+      "kind": "note",
+      "order": 4,
+      "quote": "手机也连不上 → GFW 封 IP（换 IP 解决）",
+      "revision": 1,
+      "text": "用户追问“谁把我墙了”；Agent 指出除 GFW 单 IP 封锁外，还存在服务器侧 iptables/fail2ban 按源 IP 封禁的可能，二者现象一样，建议用手机 4G 关 Wi-Fi 直连该 IP 来区分"
     }
   ],
   "sync_remote": true,
   "title": "排查开启 VPN 后整机断网",
-  "updated_at": "2026-11-04T14:20:24.517867Z"
+  "updated_at": "2026-11-04T14:20:32.712919Z"
 }
