@@ -1,0 +1,67 @@
+{
+  "claim": "agent_action",
+  "conditions": "本机 OpenClaw 出现卡住、记忆不自动召回,且配置已改动但 gateway 进程未重载时。",
+  "confidence": 0.85,
+  "content": "2026-11-04 再次排查 OpenClaw 自动召回失败:直接原因仍是当前版本不支持的 plugins.entries.agent-memory.hooks 字段,以及本机代理转发 Tailscale 私网地址;删除该字段并把记忆服务地址改为 http://127.0.0.1:8787 后,Agent Memory 插件显示 loaded、直接测试召回成功、记忆服务本机健康检查正常。但 `openclaw gateway restart` 返回 exit 1、`launchctl restart/stop` 被系统拒绝,旧网关进程仍在运行未重载新配置,需用户手动执行 openclaw gateway restart 或重启 OpenClaw 应用/Mac 才生效。",
+  "created_at": "2026-09-23T17:06:07.893000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_1c6b296bc5cb579536f2",
+    "ent_4488e0fdf8d04896269e",
+    "ent_421c00dde9a1b98fc969"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_1d9f495f128ccc9b4e0f",
+      "quote": "已移除 OpenClaw 不支持的 `plugins.entries.agent-memory.hooks` 配置。",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_1d9f495f128ccc9b4e0f",
+      "quote": "OpenClaw 的 Agent Memory 插件现在显示为 **loaded**。",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_1d9f495f128ccc9b4e0f",
+      "quote": "系统当前拒绝 `launchctl restart/stop` 操作，所以旧进程仍在运行；这也是 OpenClaw 仍可能卡住的原因。",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_68a44faaf0bbbbca38d5",
+  "is_temporary": false,
+  "keywords": [
+    "OpenClaw",
+    "自动召回",
+    "Agent Memory",
+    "hooks",
+    "127.0.0.1:8787",
+    "gateway restart",
+    "launchctl",
+    "Tailscale"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1d9f495f128ccc9b4e0f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "codex@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-11-04T14:00:34.027685Z",
+  "valid_to": null
+}

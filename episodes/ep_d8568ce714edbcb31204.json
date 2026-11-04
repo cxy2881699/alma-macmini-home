@@ -4,7 +4,8 @@
     "ent_1c6b296bc5cb579536f2",
     "ent_6cf84e1c3c276ec690be",
     "ent_9f82bdbcda91e1775def",
-    "ent_421c00dde9a1b98fc969"
+    "ent_421c00dde9a1b98fc969",
+    "ent_4488e0fdf8d04896269e"
   ],
   "follows": "ep_0152c14c051d0e196c57",
   "goal": "确认记忆服务是否真正接入 Codex、OpenClaw,每一轮对话是否都经过记忆服务检索",
@@ -12,7 +13,8 @@
   "memory_ids": [
     "mem_040ce5f984b22caece8f",
     "mem_a2f0891629102127dacc",
-    "mem_882015ff4fe736a473e7"
+    "mem_882015ff4fe736a473e7",
+    "mem_68a44faaf0bbbbca38d5"
   ],
   "outcome": "",
   "project_id": "",
@@ -40,9 +42,19 @@
       "quote": "这两处可以先按现有版本修复，不需要升级：删除不兼容字段，让这台 Mac 上的客户端连接本机地址。",
       "revision": 1,
       "text": "Agent 定位 OpenClaw 召回失败源于不支持的 hooks 配置字段与代理转发 Tailscale 私网域名,删除不兼容字段并把客户端改为连接本机地址后重启网关验证"
+    },
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-23T17:06:07.893000Z",
+      "event_id": "evt_1d9f495f128ccc9b4e0f",
+      "kind": "result",
+      "order": 3,
+      "quote": "配置已经修好，重启 OpenClaw Gateway 后即可生效。",
+      "revision": 1,
+      "text": "删除不兼容 hooks 字段并把记忆服务改为本机地址后,OpenClaw 插件 loaded、直接测试召回成功,但 gateway 旧进程未重载配置,仍需手动重启才能让自动召回真正生效。"
     }
   ],
   "sync_remote": true,
   "title": "验证 Codex 与 OpenClaw 的自动召回是否真正生效",
-  "updated_at": "2026-11-04T14:00:15.016358Z"
+  "updated_at": "2026-11-04T14:00:34.025930Z"
 }
