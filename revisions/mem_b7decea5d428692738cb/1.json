@@ -1,0 +1,78 @@
+{
+  "actor": "openclaw@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:29:11.776434Z",
+  "id": "rev_153f448bab6bbe974f7b",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "在 alma-memory-system 部署、测试及后续接入、导入、维护期间成立。",
+    "confidence": 0.9,
+    "content": "在 alma-memory-system 部署与接入期间，用户要求与正在运行的现有记忆系统保持隔离：不停止、不改配置、不写入 memd（8787 端口）、Neo4j 和旧 agent-memory 目录；旧记忆只做只读导出或一致性快照，验证兼容后再导入。接入范围上，截至 2026-11-03 夜用户收窄为：完全不碰 OpenClaw，先只接 Codex 和 Claude Code，各自独立做写入与召回验证，Cursor 和其他 Agent 暂缓。",
+    "created_at": "2026-11-04T07:56:36.049000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_d470e82d81fd9b9a6747",
+      "ent_1c6b296bc5cb579536f2",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_51b9c91560022845906c",
+      "ent_176409fa578ba26c2c5b"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_53586875adf51621b503",
+        "quote": "那先不搞OpenClaw，先接Codex claudecode",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_53586875adf51621b503",
+        "quote": "OpenClaw 完全不动",
+        "revision": 1,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_53586875adf51621b503",
+        "quote": "旧记忆配置继续保留，Alma 并行接入、分别做写入和召回验证",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_b7decea5d428692738cb",
+    "is_temporary": false,
+    "keywords": [
+      "隔离",
+      "接入范围",
+      "OpenClaw",
+      "Codex",
+      "Claude Code",
+      "只读导入",
+      "回滚"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_53586875adf51621b503",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "convention",
+    "updated_at": "2026-11-04T14:29:11.776225Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_b7decea5d428692738cb",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

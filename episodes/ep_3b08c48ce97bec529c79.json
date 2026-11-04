@@ -4,7 +4,8 @@
     "ent_176409fa578ba26c2c5b",
     "ent_1c6b296bc5cb579536f2",
     "ent_3d2f68a038ff0d2b8362",
-    "ent_1e8088308ba9691af4dc"
+    "ent_1e8088308ba9691af4dc",
+    "ent_51b9c91560022845906c"
   ],
   "follows": "ep_8efa78af0d0831198686",
   "goal": "把用户开发的 alma-memory-system 在独立环境（独立目录、端口、数据库）中部署并测试通过，同时完全不影响现有 memd/Neo4j/agent-memory，并评估旧记忆导入可行性",
@@ -15,7 +16,8 @@
     "mem_1ef1b2a0a53a4dd8090b",
     "mem_eafebe03670d01dd9717",
     "mem_940dbd4bdfeea590fc63",
-    "mem_6e1c9cabee56e0bd726a"
+    "mem_6e1c9cabee56e0bd726a",
+    "mem_b7decea5d428692738cb"
   ],
   "outcome": "",
   "project_id": "",
@@ -43,9 +45,19 @@
       "quote": "范围升级成两件事：**Alma 并行接入这台机器上的各个 Agent**，以及**把旧库做只读快照后导入 Alma**",
       "revision": 1,
       "text": "用户把范围扩大到接入本机所有 Agent 并直接导入旧记忆，Agent 追加两项任务：只读盘点 OpenClaw/Codex/Claude Code/Cursor 接入点做并行可回滚接入、对旧库做只读快照导入 Alma 并核对数量与抽样检索；因 Codex ARM64 二进制缺失改用其他 Agent 执行。"
+    },
+    {
+      "agent_id": "openclaw@old-memd",
+      "at": "2026-11-04T07:56:36.049000Z",
+      "event_id": "evt_53586875adf51621b503",
+      "kind": "decision",
+      "order": 3,
+      "quote": "那先不搞OpenClaw，先接Codex claudecode",
+      "revision": 1,
+      "text": "用户决定暂不接 OpenClaw，先只接 Codex 和 Claude Code，Alma 与旧系统并行运行"
     }
   ],
   "sync_remote": true,
   "title": "隔离部署并测试全新记忆系统 alma-memory-system",
-  "updated_at": "2026-11-04T14:29:02.254305Z"
+  "updated_at": "2026-11-04T14:29:11.773696Z"
 }
