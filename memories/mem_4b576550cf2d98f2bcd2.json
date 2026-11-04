@@ -1,0 +1,49 @@
+{
+  "claim": "user_fact",
+  "conditions": "任务修复完成、需要交付结果说明时",
+  "confidence": 0.75,
+  "content": "用户要求：修复工作全部完成后提交一份工作完成报告，逐项写清问题是什么、问题产生的原因、修改方式、以及修改后将会是什么样子。",
+  "created_at": "2026-11-04T11:05:09.617000Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_93865a20520adec80717",
+      "quote": "都改好之后，给我发一个工作完成的报告，捋清楚问题、问题产生原因、你怎么改的、后面会是什么样子",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_4b576550cf2d98f2bcd2",
+  "is_temporary": false,
+  "keywords": [
+    "工作完成报告",
+    "修复报告",
+    "问题成因",
+    "修改说明",
+    "报告格式",
+    "FIX_REPORT"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_93865a20520adec80717",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@alma-test",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-11-04T14:32:38.087135Z",
+  "valid_to": null
+}
