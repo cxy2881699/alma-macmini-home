@@ -1,0 +1,24 @@
+{
+  "actor": "codex@alma-test",
+  "created_at": "2026-11-04T08:48:35.426869Z",
+  "episode_ids": [],
+  "event_refs": [
+    "evt_5207a6446ad1bed99c0a@1"
+  ],
+  "id": "cog_e03bb3f1e84649eec30b",
+  "kind": "explicit",
+  "memory_ids": [
+    "mem_729ebefecca3283471c4"
+  ],
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "relation_ids": [],
+  "repository_head": "",
+  "revision_ids": [
+    "rev_d928ff6ad9dff595c008"
+  ],
+  "summary": {
+    "explicit": 1
+  },
+  "sync_remote": true
+}

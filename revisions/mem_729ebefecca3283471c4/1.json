@@ -1,0 +1,51 @@
+{
+  "actor": "codex@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-04T08:48:35.426385Z",
+  "id": "rev_d928ff6ad9dff595c008",
+  "memory": {
+    "conditions": "",
+    "confidence": 1.0,
+    "content": "alma_test smoke probe: isolated Alma instance on port 8790 works",
+    "created_at": "2026-11-04T08:48:35.426311Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_5207a6446ad1bed99c0a",
+        "quote": "alma_test smoke probe: isolated Alma instance on port 8790 works",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_729ebefecca3283471c4",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_5207a6446ad1bed99c0a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "codex@alma-test",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T08:48:35.426352Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_729ebefecca3283471c4",
+  "policy_version": "extract-v2",
+  "reason": "记住",
+  "revision": 1
+}

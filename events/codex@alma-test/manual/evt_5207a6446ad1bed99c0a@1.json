@@ -1,0 +1,20 @@
+{
+  "agent_id": "codex@alma-test",
+  "assistant_text": "",
+  "content_hash": "88deb71449860cf4857bd7f045245730c47f3173b76e5837bc012d2e8daab68f",
+  "cwd": "",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_5207a6446ad1bed99c0a",
+  "kind": "explicit",
+  "native_event_id": "",
+  "occurred_at": "2026-11-04T08:48:35.424694Z",
+  "privacy_mode": "normal",
+  "project_id": "",
+  "received_at": "2026-11-04T08:48:35.424702Z",
+  "revision": 1,
+  "session_id": "manual",
+  "space": "user/shared",
+  "tools": [],
+  "turn_index": 0,
+  "user_text": "alma_test smoke probe: isolated Alma instance on port 8790 works"
+}
