@@ -1,0 +1,57 @@
+{
+  "claim": "agent_action",
+  "conditions": "2026-11-04 当天 deep_recall 的调用审计统计",
+  "confidence": 0.85,
+  "content": "agent-memory 的 deep_recall 深度召回依赖方舟 Embedding 与 Neo4j 向量检索；2026-11-04 当天 12 次 deep_recall 中 7 次报 network: ConnectError，最后一次 07:33 仍是 error，导致向量召回失效、只剩轻量图检索，疑似仍与本机 127.0.0.1:8118 代理有关，尚未修复。",
+  "created_at": "2026-11-04T15:37:45.990000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_176409fa578ba26c2c5b"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_f4030bbc5523b4685448",
+      "quote": "今天 12 次 deep_recall 里 7 次",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_f4030bbc5523b4685448",
+      "quote": "向量那条路断了（大概率还是 8118 代理）",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_33608ff06317fe4ddcec",
+  "is_temporary": true,
+  "keywords": [
+    "deep_recall",
+    "ConnectError",
+    "方舟 Embedding",
+    "向量召回",
+    "8118 代理",
+    "Neo4j"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_649e5ae04ce8aed2e06f",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_f4030bbc5523b4685448",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "claude-code@alma-test",
+  "space": "project/proj_649e5ae04ce8aed2e06f",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-11-04T15:39:58.076283Z",
+  "valid_to": null
+}

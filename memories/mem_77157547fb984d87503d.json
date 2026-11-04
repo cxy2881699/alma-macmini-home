@@ -1,0 +1,64 @@
+{
+  "claim": "agent_action",
+  "conditions": "按事件数与时间跨度统计的接入情况快照，数值会随时间增长",
+  "confidence": 0.88,
+  "content": "2026-11-04 Agent 统计 agent-memory 各 Agent 实际接入量：openclaw@xiaoxia 84 条（09-27 起）、codex@mac-mini 49 条（09-23 起）、claude@mac-mini 13 条（10-21 起）、codex@personal-mac 11 条（仅 09-26~09-27）、cursor@mac-mini 仅 1 条（09-23）、company-mac 零条；即 Cursor 与 company-mac 实际未接入。",
+  "created_at": "2026-11-04T15:37:45.990000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_1c6b296bc5cb579536f2",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_51b9c91560022845906c",
+    "ent_1e8088308ba9691af4dc",
+    "ent_ee47c2b3853ef9cc5da2",
+    "ent_2b5b63536b796d00dc7b"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_f4030bbc5523b4685448",
+      "quote": "Cursor 实际上等于没接进来（只有 1 条，之后全无记录），company-mac 零条。",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_f4030bbc5523b4685448",
+      "quote": "| claude | mac-mini | 13 | 10-21 起 |",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_77157547fb984d87503d",
+  "is_temporary": false,
+  "keywords": [
+    "接入情况",
+    "事件数",
+    "Cursor",
+    "company-mac",
+    "xiaoxia",
+    "mac-mini",
+    "个人 Mac",
+    "公司 Mac"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_649e5ae04ce8aed2e06f",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_f4030bbc5523b4685448",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "claude-code@alma-test",
+  "space": "project/proj_649e5ae04ce8aed2e06f",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-04T15:39:58.078028Z",
+  "valid_to": null
+}
