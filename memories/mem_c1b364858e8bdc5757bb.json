@@ -1,0 +1,54 @@
+{
+  "claim": "user_instruction",
+  "conditions": "用户对外展示自建 agent-memory 时",
+  "confidence": 0.9,
+  "content": "2026-11-04,用户再次要求总结个人记忆系统的作用、价值以及与市面 Agent 服务的区别,用于发朋友圈展示;Agent 输出了强调跨 Agent 共享、跨设备持续、自动检索与自主可控的朋友圈文案。",
+  "created_at": "2026-09-23T17:33:17.364000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_1e8088308ba9691af4dc",
+    "ent_51b9c91560022845906c",
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_a70cfaa6e07356943403",
+      "quote": "帮我总结一下这个记忆系统的真正的作用和价值,并且和市面上的agent服务的区别,我要发一个朋友圈炫耀一下",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_c1b364858e8bdc5757bb",
+  "is_temporary": false,
+  "keywords": [
+    "朋友圈",
+    "炫耀",
+    "记忆系统价值",
+    "跨Agent",
+    "宣传文案",
+    "Moments"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_a70cfaa6e07356943403",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "codex@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-04T14:04:54.473887Z",
+  "valid_to": null
+}
