@@ -1,0 +1,67 @@
+{
+  "claim": "user_fact",
+  "conditions": "仅适用于 MacBook 上从 MonoProxy/8118 切换到 Clash Verge/7897 的清理过程。",
+  "confidence": 0.9,
+  "content": "2026-10-18，用户的 MacBook 联网故障被定位为三层旧代理问题：MonoProxy 的 LaunchAgent 保活脚本会写回 8118、shell 配置（~/.zshrc、~/.zprofile）export 了 8118、Wi-Fi 系统代理也指向旧代理；用户在终端执行了清理：把 mono 保活 plist 移到 ~/Library/LaunchAgents-disabled、删除两个 shell 文件里的 8118 行，并把 Clash Verge 的 enable_system_proxy 改为 true 后重启 Verge。",
+  "created_at": "2026-10-18T15:36:13.508000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f90a16b26a8ab1d551fc",
+    "ent_938e46918a00d3c0f0f5",
+    "ent_c42dac5ae99195f63d24"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_21f5a5863fc6f61fded0",
+      "quote": "mv ~/Library/LaunchAgents/com.seancao.monoproxy-ensure.plist ~/Library/LaunchAgents-disabled/",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_21f5a5863fc6f61fded0",
+      "quote": "sed -i '' '/8118/d' ~/.zshrc ~/.zprofile",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_21f5a5863fc6f61fded0",
+      "quote": "mono 保活脚本已挪走 ✅ - shell 里的 8118 已删 ✅",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_4c856ac74b7dd1a324c0",
+  "is_temporary": false,
+  "keywords": [
+    "MonoProxy",
+    "8118",
+    "LaunchAgents",
+    "zshrc",
+    "Clash Verge",
+    "系统代理",
+    "enable_system_proxy",
+    "代理残留"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_21f5a5863fc6f61fded0",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-04T14:16:43.986517Z",
+  "valid_to": null
+}

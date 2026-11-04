@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "Verge"
+  ],
+  "created_at": "2026-11-04T14:16:43.964789Z",
+  "description": "用户 MacBook 上使用的 Clash 客户端",
+  "id": "ent_938e46918a00d3c0f0f5",
+  "name": "Clash Verge",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "tool",
+  "updated_at": "2026-11-04T14:16:43.982193Z"
+}
