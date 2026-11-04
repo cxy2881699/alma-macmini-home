@@ -2,7 +2,8 @@
   "aliases": [
     "alma-memory-system.git",
     "全新记忆系统",
-    "Alma"
+    "Alma",
+    "cxy2881699/alma-memory-system"
   ],
   "created_at": "2026-11-04T14:28:21.238201Z",
   "description": "用户自己开发的新记忆系统仓库",
@@ -11,5 +12,5 @@
   "space": "user/shared",
   "sync_remote": true,
   "type": "project",
-  "updated_at": "2026-11-04T14:29:02.254368Z"
+  "updated_at": "2026-11-04T14:32:07.413280Z"
 }

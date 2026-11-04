@@ -1,0 +1,69 @@
+{
+  "actor": "alma-mem@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:32:07.417481Z",
+  "id": "rev_e0306ee2b5971d0b1d99",
+  "memory": {
+    "claim": "user_instruction",
+    "conditions": "修复完成且相关测试通过后执行；只推送源代码、测试和必要文档。",
+    "confidence": 0.92,
+    "content": "用户要求：本轮四项修复（记忆分页、详情条目内展开、区分用户指令/用户事实/Agent 行为、接入名改为 openclaw@alma-test、图谱流动效果）改完并测试通过后，把修改过的代码推送到 GitHub 仓库 cxy2881699/alma-memory-system 的 main 分支；截至 2026-11-04 尚未推送。",
+    "created_at": "2026-11-04T10:44:56.950000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_d470e82d81fd9b9a6747",
+      "ent_5510d6f408cb181c5c42"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_d5e66539e412a5e6ec71",
+        "quote": "改好之后把修改过的代码推送到[alma-memory-system]",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_d5e66539e412a5e6ec71",
+        "quote": "行，改完并测试通过后直接推到 **`cxy2881699/alma-memory-system` 的 main 分支**。",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_43c67c7b65e1c69e33c3",
+    "is_temporary": false,
+    "keywords": [
+      "推送",
+      "push",
+      "main 分支",
+      "alma-memory-system",
+      "github",
+      "commit",
+      "验收"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d5e66539e412a5e6ec71",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "alma-mem@alma-test",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-11-04T14:32:07.417286Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_43c67c7b65e1c69e33c3",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
