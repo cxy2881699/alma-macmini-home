@@ -1,0 +1,31 @@
+{
+  "actor": "openclaw@old-memd",
+  "created_at": "2026-11-04T14:29:02.267466Z",
+  "episode_ids": [
+    "ep_3b08c48ce97bec529c79"
+  ],
+  "event_refs": [
+    "evt_8be79b8b278d0ffdcd05@1"
+  ],
+  "id": "cog_ffb740183842ad99cb83",
+  "kind": "extract",
+  "memory_ids": [
+    "mem_eafebe03670d01dd9717",
+    "mem_940dbd4bdfeea590fc63",
+    "mem_6e1c9cabee56e0bd726a"
+  ],
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v2",
+  "relation_ids": [],
+  "repository_head": "",
+  "revision_ids": [
+    "rev_f88d71763590e7b077fb",
+    "rev_d3526dd7d7cbda2f9a9d",
+    "rev_c72877a7bd1f5768a904"
+  ],
+  "summary": {
+    "add": 3,
+    "episode": 1
+  },
+  "sync_remote": true
+}

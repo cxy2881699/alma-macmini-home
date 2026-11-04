@@ -1,0 +1,68 @@
+{
+  "actor": "openclaw@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:29:02.264606Z",
+  "id": "rev_c72877a7bd1f5768a904",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "在这台 Mac mini 上通过 @openai/codex 的 ARM64 包装调用 codex exec 时。",
+    "confidence": 0.85,
+    "content": "2026-11-03 夜在本机调用 Codex 执行任务时，Codex CLI 包装存在，但它指向的 @openai/codex-darwin-arm64/vendor/aarch64-apple-darwin/bin/codex 可执行文件不存在，导致 codex exec 实际没有跑起来；解决办法是改用本机其他可用 Agent 继续执行。",
+    "created_at": "2026-11-04T07:24:54.700000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_d470e82d81fd9b9a6747"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_8be79b8b278d0ffdcd05",
+        "quote": "Codex 这边掉链子了：CLI 在，但它要找的 ARM64 可执行文件不存在，所以刚才实际没跑起来。",
+        "revision": 1,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_8be79b8b278d0ffdcd05",
+        "quote": "'/Users/seancao/.local/lib/node_modules/@openai/codex/node_modules/@openai/codex-darwin-arm64/vendor/aarch64-apple-darwin/bin/codex' --version",
+        "revision": 1,
+        "role": "tool"
+      }
+    ],
+    "id": "mem_6e1c9cabee56e0bd726a",
+    "is_temporary": false,
+    "keywords": [
+      "Codex CLI",
+      "ARM64",
+      "codex-darwin-arm64",
+      "二进制缺失",
+      "调用失败",
+      "@openai/codex"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8be79b8b278d0ffdcd05",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-04T14:29:02.264508Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_6e1c9cabee56e0bd726a",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

@@ -1,0 +1,62 @@
+{
+  "claim": "user_instruction",
+  "conditions": "在 alma-memory-system 部署、测试及后续接入、导入、维护期间成立。",
+  "confidence": 0.92,
+  "content": "在 alma-memory-system 部署与接入期间，用户要求与正在运行的现有记忆系统保持隔离：不停止、不改配置、不写入 memd（8787 端口）、Neo4j 和旧 agent-memory 目录；同时要求 Alma 尝试接入这台 Mac mini 上已有的全部 Agent（OpenClaw、Codex、Claude Code、Cursor），并把旧记忆系统的历史数据导入 Alma（先只读导出或一致性快照，验证兼容后再导入）。",
+  "created_at": "2026-11-04T07:24:54.700000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_d470e82d81fd9b9a6747",
+    "ent_1c6b296bc5cb579536f2",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_1e8088308ba9691af4dc"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_8be79b8b278d0ffdcd05",
+      "quote": "尝试介入当前这台Macmini里面所有的agent，看看能否正常运行。并且过去的记忆系统里面也保存了很多记忆数据，能否直接导入呢？",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_8be79b8b278d0ffdcd05",
+      "quote": "范围升级成两件事：**Alma 并行接入这台机器上的各个 Agent**，以及**把旧库做只读快照后导入 Alma**",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_eafebe03670d01dd9717",
+  "is_temporary": false,
+  "keywords": [
+    "alma-memory-system",
+    "Alma",
+    "接入",
+    "隔离",
+    "记忆导入",
+    "OpenClaw",
+    "Codex",
+    "Cursor"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8be79b8b278d0ffdcd05",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "convention",
+  "updated_at": "2026-11-04T14:29:02.257985Z",
+  "valid_to": null
+}
