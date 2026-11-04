@@ -1,0 +1,67 @@
+{
+  "claim": "agent_action",
+  "conditions": "本机 3456 端口跑的是 Claude Code Router；若换成真正的 OpenAI 兼容网关，需重新确认 wire_api 选择。",
+  "confidence": 0.88,
+  "content": "2026-11-04，本机 ChatGPT 桌面版报错 `POST http://127.0.0.1:3456/v1/responses` 返回 404「Route POST:/v1/responses not found」。Agent 查明 3456 端口是本机 Claude Code Router，只提供 /v1/chat/completions；根因是 ~/.codex/config.toml 中 `wire_api = \"responses\"` 写错协议，同时 model 写成路由内不存在的 `gpt-6-luna`。Agent 备份配置后把 wire_api 改为 `chat`、模型对齐到 `ark,deepseek-v4-1-flash-261017`，本机 /v1/chat/completions 实测 HTTP 200，链路打通，需 Cmd+Q 完全退出客户端重开才能加载新配置。",
+  "created_at": "2026-11-04T15:41:42.858000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_d17ee659c08797cd44bd",
+    "ent_764b4bc7ab4b39647fee",
+    "ent_3d2f68a038ff0d2b8362"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_5450b8f00e1fee67a1eb",
+      "quote": "Route POST:/v1/responses not found",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_5450b8f00e1fee67a1eb",
+      "quote": "实测 HTTP 200，链路通了。",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_5450b8f00e1fee67a1eb",
+      "quote": "而 `3456` 是 **Claude Code Router**，它走的是 **`/v1/chat/completions`**。",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_b202dca8a22649123b10",
+  "is_temporary": false,
+  "keywords": [
+    "wire_api",
+    "responses",
+    "chat/completions",
+    "3456",
+    "Claude Code Router",
+    "config.toml",
+    "404",
+    "gpt-6-luna"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_5450b8f00e1fee67a1eb",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-11-04T15:42:03.948694Z",
+  "valid_to": null
+}

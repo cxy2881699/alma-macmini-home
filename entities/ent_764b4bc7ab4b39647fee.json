@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "3456 本机路由"
+  ],
+  "created_at": "2026-11-04T15:42:03.940896Z",
+  "description": "监听本机 3456 端口的模型路由，只支持 /v1/chat/completions",
+  "id": "ent_764b4bc7ab4b39647fee",
+  "name": "Claude Code Router",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "sync_remote": true,
+  "type": "tool",
+  "updated_at": "2026-11-04T15:42:03.946111Z"
+}
