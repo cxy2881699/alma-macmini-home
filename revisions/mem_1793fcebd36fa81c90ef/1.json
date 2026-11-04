@@ -1,0 +1,60 @@
+{
+  "actor": "openclaw@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:15:25.639968Z",
+  "id": "rev_d0fd8e15e93531073836",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "手动把 Wi-Fi 的 HTTP/HTTPS 代理写到 127.0.0.1:7897 后立即读取全局代理状态时成立。",
+    "confidence": 0.85,
+    "content": "2026-10-18（PDT）用户把 networksetup 两条代理写入命令合并成一条链在 MacBook 上执行，终端打印了“写入完成”，但紧接着的 scutil --proxy 仍显示 HTTPEnable : 0，再次证明命令成功提示不等于 Wi-Fi 系统代理已在全局生效。",
+    "created_at": "2026-10-18T15:17:23.062000Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_b513ec84f98cca74efd9",
+        "quote": "sudo networksetup -setwebproxy Wi-Fi 127.0.0.1 7897 && sudo networksetup -setsecurewebproxy Wi-Fi 127.0.0.1 7897",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_1793fcebd36fa81c90ef",
+    "is_temporary": false,
+    "keywords": [
+      "networksetup",
+      "scutil",
+      "HTTPEnable",
+      "系统代理",
+      "写入完成",
+      "7897",
+      "macOS"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_b513ec84f98cca74efd9",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T14:15:25.639759Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_1793fcebd36fa81c90ef",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
