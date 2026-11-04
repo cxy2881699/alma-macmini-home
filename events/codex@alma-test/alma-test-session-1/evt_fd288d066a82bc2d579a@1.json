@@ -1,0 +1,20 @@
+{
+  "agent_id": "codex@alma-test",
+  "assistant_text": "已记录 alma_test 端口 8790",
+  "content_hash": "604e1639ab2a83add2bfc0fc580899a05cdef19523bf85ed964a01ec7628af15",
+  "cwd": "/Users/seancao/Desktop/项目文件夹/alma-memory-system",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_fd288d066a82bc2d579a",
+  "kind": "conversation",
+  "native_event_id": "alma_test_turn_1",
+  "occurred_at": "2026-11-04T08:48:20Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_f98e218e8fd28baa6780",
+  "received_at": "2026-11-04T08:48:39.706591Z",
+  "revision": 1,
+  "session_id": "alma-test-session-1",
+  "space": "project/proj_f98e218e8fd28baa6780",
+  "tools": [],
+  "turn_index": 0,
+  "user_text": "alma_test: 请记录端口 8790 是隔离测试 Hub"
+}
