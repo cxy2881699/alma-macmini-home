@@ -45,9 +45,19 @@
       "quote": "怎么找到你说的这三项？我已经发了/hooks",
       "revision": 1,
       "text": "用户已在 Codex 中发送 /hooks，但不知道如何在面板里找到三个 agent-memory 钩子；Agent 给出定位路径：User hooks → 展开 ~/.codex/hooks.json → 找 UserPromptSubmit、PostToolUse、Stop → 点 Trust，并说明信任绑定钩子内容哈希、文件改动后需重新信任。"
+    },
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-23T17:14:42.948000Z",
+      "event_id": "evt_252ca75591c5d6dd0331",
+      "kind": "obstacle",
+      "order": 4,
+      "quote": "/hooks",
+      "revision": 1,
+      "text": "用户又一次把 /hooks 发给当前聊天窗口而非在 Codex 输入框中执行，Agent 再次指出位置错误并说明须在 Codex 代码/终端会话里输入 /hooks 才会弹出钩子审核面板"
     }
   ],
   "sync_remote": true,
   "title": "确认 Codex 每轮自动读取记忆是否生效",
-  "updated_at": "2026-11-04T14:01:51.296151Z"
+  "updated_at": "2026-11-04T14:01:56.896924Z"
 }
