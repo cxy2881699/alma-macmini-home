@@ -1,0 +1,53 @@
+{
+  "claim": "user_fact",
+  "conditions": "在 alma-memory-system 部署、测试及后续维护期间成立。",
+  "confidence": 0.9,
+  "content": "部署和测试 alma-memory-system 时，用户要求与正在运行的现有记忆系统完全隔离：不停止、不改配置、不写入 memd（8787 端口）、Neo4j 和旧 agent-memory 目录；旧记忆只做只读导出，验证兼容后才考虑导入。",
+  "created_at": "2026-11-04T07:11:25.089000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_d470e82d81fd9b9a6747",
+    "ent_176409fa578ba26c2c5b"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_e3b8e78ba716c9aa2d70",
+      "quote": "不要影响当前正在运行的记忆系统，要隔离开。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_98ae047d0fd99347ceaa",
+  "is_temporary": false,
+  "keywords": [
+    "隔离",
+    "isolation",
+    "memd",
+    "8787",
+    "Neo4j",
+    "旧系统",
+    "独立环境"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_e3b8e78ba716c9aa2d70",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "convention",
+  "updated_at": "2026-11-04T14:28:21.265826Z",
+  "valid_to": null
+}

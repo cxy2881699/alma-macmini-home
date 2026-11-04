@@ -1,0 +1,51 @@
+{
+  "claim": "user_fact",
+  "conditions": "",
+  "confidence": 0.95,
+  "content": "用户开发了一套全新的记忆系统 alma-memory-system，仓库地址为 https://github.com/cxy2881699/alma-memory-system.git，2026-11-03 晚交给 Agent 拉取代码、部署并测试。",
+  "created_at": "2026-11-04T07:11:25.089000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_d470e82d81fd9b9a6747"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_e3b8e78ba716c9aa2d70",
+      "quote": "https://github.com/cxy2881699/alma-memory-system.git 这是我开发的全新记忆系统，你拉去一下代码，部署一下，测试一下。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_8cc8ce3de35bc698e451",
+  "is_temporary": false,
+  "keywords": [
+    "alma-memory-system",
+    "记忆系统",
+    "memory system",
+    "仓库",
+    "github",
+    "全新记忆系统"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_e3b8e78ba716c9aa2d70",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-04T14:28:21.261739Z",
+  "valid_to": null
+}

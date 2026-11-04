@@ -1,0 +1,60 @@
+{
+  "actor": "openclaw@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:28:21.268758Z",
+  "id": "rev_a749754e412b52668d15",
+  "memory": {
+    "claim": "user_instruction",
+    "conditions": "在 alma-memory-system 部署测试通过后，且不影响旧系统的前提下。",
+    "confidence": 0.85,
+    "content": "用户希望最多尝试把现有 agent-memory 的历史记忆导入 alma-memory-system；截至 2026-11-04 尚未执行，需先只读导出、验证兼容后再导入。",
+    "created_at": "2026-11-04T07:11:25.089000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_d470e82d81fd9b9a6747"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_e3b8e78ba716c9aa2d70",
+        "quote": "最多可以尝试把之前的记忆导入进去。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_1ef1b2a0a53a4dd8090b",
+    "is_temporary": false,
+    "keywords": [
+      "记忆导入",
+      "迁移",
+      "migration",
+      "历史记忆",
+      "兼容性"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_e3b8e78ba716c9aa2d70",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-11-04T14:28:21.268685Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_1ef1b2a0a53a4dd8090b",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
