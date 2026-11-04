@@ -1,0 +1,29 @@
+{
+  "actor": "claude-code@alma-test",
+  "created_at": "2026-11-04T10:20:52.614541Z",
+  "episode_ids": [
+    "ep_b9cefc43921e413b40e4"
+  ],
+  "event_refs": [
+    "evt_1dd614a2d1cbe5b66972@1"
+  ],
+  "id": "cog_0c32002463b554bc5a18",
+  "kind": "extract",
+  "memory_ids": [
+    "mem_b3e97cb6b5268cfbc8b2",
+    "mem_5758f6f88e3a7174fd80"
+  ],
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v2",
+  "relation_ids": [],
+  "repository_head": "",
+  "revision_ids": [
+    "rev_2977ac314438b0f2b975",
+    "rev_170f363a8da17c10f097"
+  ],
+  "summary": {
+    "add": 2,
+    "episode": 1
+  },
+  "sync_remote": true
+}

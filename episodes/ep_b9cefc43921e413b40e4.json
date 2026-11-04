@@ -1,0 +1,34 @@
+{
+  "entities": [
+    "ent_bdf46bd69b3bf1ceedc6",
+    "ent_51b9c91560022845906c"
+  ],
+  "follows": "",
+  "goal": "验证 alma_test 到各 Agent（Codex、Claude 等）通道的消息送达与极简指令遵从",
+  "id": "ep_b9cefc43921e413b40e4",
+  "memory_ids": [
+    "mem_b3e97cb6b5268cfbc8b2",
+    "mem_5758f6f88e3a7174fd80"
+  ],
+  "outcome": "",
+  "project_id": "proj_f98e218e8fd28baa6780",
+  "source_agent": "claude-code@alma-test",
+  "space": "project/proj_f98e218e8fd28baa6780",
+  "started_at": "2026-11-04T08:52:41.673000Z",
+  "status": "ongoing",
+  "steps": [
+    {
+      "agent_id": "claude-code@alma-test",
+      "at": "2026-11-04T08:52:41.673000Z",
+      "event_id": "evt_1dd614a2d1cbe5b66972",
+      "kind": "result",
+      "order": 1,
+      "quote": "OK-ALMA-CLAUDE",
+      "revision": 1,
+      "text": "向 Claude 发送只回复 OK-ALMA-CLAUDE 且不调用工具的探针，Claude 原样回复"
+    }
+  ],
+  "sync_remote": true,
+  "title": "alma_test 跨通道极简探针测试",
+  "updated_at": "2026-11-04T10:20:52.612635Z"
+}

@@ -1,0 +1,60 @@
+{
+  "actor": "claude-code@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-04T10:20:52.614038Z",
+  "id": "rev_170f363a8da17c10f097",
+  "memory": {
+    "conditions": "用户在正式研究任务前进行通道和基础响应测试。",
+    "confidence": 0.9,
+    "content": "用户会用极简指令测试跨通道连通性与指令遵从,例如要求只回复固定四字或只回数字。",
+    "created_at": "2026-11-04T08:52:41.673000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_bdf46bd69b3bf1ceedc6",
+      "ent_51b9c91560022845906c"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_1dd614a2d1cbe5b66972",
+        "quote": "请只回复 OK-ALMA-CLAUDE，不要调用工具",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_5758f6f88e3a7174fd80",
+    "is_temporary": false,
+    "keywords": [
+      "极简指令",
+      "通道测试",
+      "probe",
+      "指令遵从",
+      "连通性"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v2",
+    "project_id": "proj_f98e218e8fd28baa6780",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_1dd614a2d1cbe5b66972",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "claude-code@alma-test",
+    "space": "project/proj_f98e218e8fd28baa6780",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T10:20:52.614008Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_5758f6f88e3a7174fd80",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
