@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "Alma"
+  ],
+  "created_at": "2026-11-04T14:29:25.213331Z",
+  "description": "用户开发的隔离部署记忆系统",
+  "id": "ent_e1a174d95438503423a9",
+  "name": "alma-memory-system",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "component",
+  "updated_at": "2026-11-04T14:29:25.215105Z"
+}

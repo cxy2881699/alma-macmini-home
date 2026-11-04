@@ -1,0 +1,59 @@
+{
+  "claim": "agent_action",
+  "conditions": "把长时间部署/测试任务交给 Codex 后台会话执行时；判断是否真在运行要看进程、仓库改动和测试报告，而不是看会话是否建立。",
+  "confidence": 0.6,
+  "content": "2026-11-04 凌晨在 alma-memory-system 接入任务中，交给 Codex 的后台任务在启动阶段就中断了：Codex 进程消失，仓库无改动，也没有生成测试报告，表面看像“还在跑”实际早已停下；Agent 改由 Claude Code 接手后进程才确认在运行。",
+  "created_at": "2026-11-04T08:32:32.687000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_51b9c91560022845906c",
+    "ent_e1a174d95438503423a9"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_fb4c1e421b4e9aa50d48",
+      "quote": "后台 Codex 进程已经消失，仓库没改动、测试报告也没生成",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_fb4c1e421b4e9aa50d48",
+      "quote": "现在已经换成 **Claude Code 接手，进程确认在跑**",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_224a1ed02a3eaa8b6da2",
+  "is_temporary": false,
+  "keywords": [
+    "Codex 后台任务",
+    "进程中断",
+    "Claude Code 接手",
+    "alma-memory-system",
+    "部署测试",
+    "后台会话"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_fb4c1e421b4e9aa50d48",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-11-04T14:29:25.219252Z",
+  "valid_to": null
+}
