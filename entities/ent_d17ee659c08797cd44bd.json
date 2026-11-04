@@ -1,0 +1,14 @@
+{
+  "aliases": [
+    "桌面版 ChatGPT",
+    "ChatGPT 桌面版"
+  ],
+  "created_at": "2026-11-04T15:38:02.246498Z",
+  "description": "用户的 ChatGPT macOS 客户端",
+  "id": "ent_d17ee659c08797cd44bd",
+  "name": "ChatGPT",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "sync_remote": true,
+  "type": "tool",
+  "updated_at": "2026-11-04T15:38:02.263918Z"
+}

@@ -1,0 +1,79 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": null,
+  "created_at": "2026-11-04T15:38:02.268486Z",
+  "id": "rev_35536f381780ff690120",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "适用于通过 Clash Verge 访问 OpenAI/ChatGPT 网页与桌面版时出现 403 而非超时的场景；结论是 IP 信誉/Cloudflare 风控而非本机网络故障。",
+    "confidence": 0.85,
+    "content": "2026-11-04 早上，用户反馈 ChatGPT 桌面版连不上网（VPN 已可用）。Agent 只读排查发现：ChatGPT 的网络进程确实连着 Clash Verge 的 7897 端口，系统 HTTP/HTTPS/SOCKS 代理均启用，出口为 DMIT 美国节点，OpenAI API 返回正常的 401；问题卡在 chatgpt.com 返回 Cloudflare 人机验证 403，而不是 TCP/HTTPS 断网。当时 AI 流量实际走 DMIT-2083 而非 DMIT-443，Agent 把 Clash Verge 里的“AI服务”分组单独切到 DMIT-443（其他翻墙流量未动），并要求用户用 Cmd+Q 完全退出桌面 ChatGPT 后重开，因为只关窗口旧连接不会换节点。",
+    "created_at": "2026-11-04T15:37:34.134000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_d17ee659c08797cd44bd",
+      "ent_cb721ade93b583ee5181",
+      "ent_b380c2c962bff526d724",
+      "ent_58d1acad7ff0fc1caf07",
+      "ent_f18082c6c564869030be"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_ed94b2eede47a01e4dbb",
+        "quote": "我的桌面版chatgpt为什么连不上网了？ 明明vpn已经能用了",
+        "revision": 3,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_ed94b2eede47a01e4dbb",
+        "quote": "不是 VPN 没连上，是 ChatGPT 被 Cloudflare 风控验证卡住了",
+        "revision": 3,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_ed94b2eede47a01e4dbb",
+        "quote": "AI 服务单独从 DMIT-2083 切到 DMIT-443",
+        "revision": 3,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_79e7ae5ed34d26e7bcd7",
+    "is_temporary": false,
+    "keywords": [
+      "ChatGPT",
+      "桌面版",
+      "Cloudflare",
+      "403 人机验证",
+      "DMIT-443",
+      "DMIT-2083",
+      "Clash Verge",
+      "AI服务"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_ed94b2eede47a01e4dbb",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@macmini-home",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-04T15:38:02.268199Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_79e7ae5ed34d26e7bcd7",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
