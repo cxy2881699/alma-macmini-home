@@ -1,0 +1,68 @@
+{
+  "actor": "openclaw@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:29:33.576574Z",
+  "id": "rev_680c7074d786a033a80b",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "适用于在后台以非交互方式启动 Claude Code 执行较长任务时；表现为进程存活但 0 CPU、无输出、无文件改动。",
+    "confidence": 0.7,
+    "content": "2026-11-04，Agent 以后台非交互方式启动 Claude Code 执行 alma-memory-system 接入任务时，进程虽存活 5 分多钟，但 CPU 占用为 0、没有任何输出、仓库没有改动、虚拟环境没有创建，据此判定它卡在启动或模型响应阶段；Agent 决定再观察约 10 分钟，如果仍无实质动作就杀掉进程，改用交互模式并带上调试日志重新运行。",
+    "created_at": "2026-11-04T08:37:54.019000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_51b9c91560022845906c"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_8879e8d42f10cde59d84",
+        "quote": "但 **0 CPU、没有任何输出**",
+        "revision": 1,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_8879e8d42f10cde59d84",
+        "quote": "所以它现在大概率卡在**启动或模型响应阶段**，不算正常推进",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_12eec9370f137b1d7553",
+    "is_temporary": false,
+    "keywords": [
+      "Claude Code",
+      "后台任务",
+      "卡住",
+      "0 CPU",
+      "无输出",
+      "非交互模式",
+      "alma-memory-system"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8879e8d42f10cde59d84",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-04T14:29:33.576364Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_12eec9370f137b1d7553",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
