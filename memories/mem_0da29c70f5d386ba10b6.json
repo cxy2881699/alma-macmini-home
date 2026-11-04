@@ -1,0 +1,65 @@
+{
+  "claim": "agent_action",
+  "conditions": "",
+  "confidence": 0.85,
+  "content": "2026-11-03 晚，Agent 将用户的 Clash Verge 切换到朋友提供的新 DMIT 订阅（配置 DMIT-new）：8443/2083/443 三个节点实测可用、IPv6 节点不通不可选，Google 代理测试返回 204、百度直连 200，旧配置与备份保留可回滚。",
+  "created_at": "2026-11-04T06:50:11.544000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_d7f7439272ef6024e4d3",
+    "ent_76ac53ec2a482696425b",
+    "ent_ce78bf334c2c4d063359"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_90a896842b4062ee6da8",
+      "quote": "搞定，已经切到 **DMIT-new**。",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_90a896842b4062ee6da8",
+      "quote": "三个节点实测可用",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_90a896842b4062ee6da8",
+      "quote": "IPv6 那条不通，别选",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_0da29c70f5d386ba10b6",
+  "is_temporary": false,
+  "keywords": [
+    "DMIT-new",
+    "Clash Verge",
+    "节点测试",
+    "回滚",
+    "备份",
+    "分流"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_90a896842b4062ee6da8",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-04T14:27:15.374743Z",
+  "valid_to": null
+}

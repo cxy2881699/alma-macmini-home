@@ -1,0 +1,52 @@
+{
+  "claim": "user_fact",
+  "conditions": "",
+  "confidence": 0.9,
+  "content": "用户翻墙用的代理订阅是朋友给的 DMIT 订阅（订阅服务器 179.253.235.134:2082），不是自己购买的；2026-11-03 已在 Clash Verge 中启用该订阅，配置名 DMIT-new。",
+  "created_at": "2026-11-04T06:50:11.544000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_76ac53ec2a482696425b",
+    "ent_d7f7439272ef6024e4d3"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_90a896842b4062ee6da8",
+      "quote": "我朋友给了新的VPN地址，http://179.253.235.134:2082/sub/dmit.yaml",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_1ab28204a9ac4c6f9589",
+  "is_temporary": false,
+  "keywords": [
+    "VPN",
+    "订阅",
+    "DMIT",
+    "DMIT-new",
+    "Clash Verge",
+    "朋友"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_90a896842b4062ee6da8",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-04T14:27:15.370081Z",
+  "valid_to": null
+}
