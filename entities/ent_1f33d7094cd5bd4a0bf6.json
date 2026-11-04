@@ -1,0 +1,14 @@
+{
+  "aliases": [
+    "数字生命",
+    "数字个体"
+  ],
+  "created_at": "2026-11-04T14:11:46.292615Z",
+  "description": "用户设想的可随互动持续成长、接近本人三观与性格的数字存在",
+  "id": "ent_1f33d7094cd5bd4a0bf6",
+  "name": "赛博生命",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "concept",
+  "updated_at": "2026-11-04T14:11:46.294076Z"
+}

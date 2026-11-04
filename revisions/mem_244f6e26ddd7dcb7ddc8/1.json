@@ -1,0 +1,68 @@
+{
+  "actor": "codex@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:11:46.312658Z",
+  "id": "rev_33749d34ad53bf4c33f4",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "",
+    "confidence": 0.9,
+    "content": "用户认为个体的差异一定来自不同的人生经历，并相信收集去世亲人生前的全部数据和口述经历上传记忆系统后，一定能重建三观、性格非常接近且能随互动持续成长的赛博生命。",
+    "created_at": "2026-09-26T08:27:56.458000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_1f33d7094cd5bd4a0bf6"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_a99923ff94a563e3d706",
+        "quote": "个体的差异一定来自于不同的人生经历",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_a99923ff94a563e3d706",
+        "quote": "一定可以重建一个三观、性格非常接近的这个去世亲人的赛博生命",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_244f6e26ddd7dcb7ddc8",
+    "is_temporary": false,
+    "keywords": [
+      "人生经历",
+      "个体差异",
+      "逝者",
+      "赛博生命",
+      "数字生命",
+      "记忆重建",
+      "口述历史"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_a99923ff94a563e3d706",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "codex@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T14:11:46.312444Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_244f6e26ddd7dcb7ddc8",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
