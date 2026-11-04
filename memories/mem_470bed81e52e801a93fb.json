@@ -1,0 +1,49 @@
+{
+  "claim": "user_fact",
+  "conditions": "在需要海外手机号验证的注册场景（如 Gmail、Claude）下适用",
+  "confidence": 0.75,
+  "content": "用户没有可用于注册验证的海外手机号，只能使用国内的 +86 号码。",
+  "created_at": "2026-10-18T15:32:48.902000Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_8533e2ec50fb8f1261be",
+      "quote": "我哪来的手机号，实在不行只能买一个成品号了",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_470bed81e52e801a93fb",
+  "is_temporary": false,
+  "keywords": [
+    "手机号",
+    "海外手机号",
+    "+86",
+    "注册验证",
+    "短信验证",
+    "成品号"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8533e2ec50fb8f1261be",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-04T14:15:57.500974Z",
+  "valid_to": null
+}
