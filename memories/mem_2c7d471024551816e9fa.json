@@ -1,4 +1,5 @@
 {
+  "claim": "user_fact",
   "conditions": "需要识别价格爬虫定时任务的命令及其完成后不发送消息的要求。",
   "confidence": 0.95,
   "content": "用户配置了一个 cron 定时任务“大模型API价格爬虫”,执行命令为 cd ~/.openclaw/workspace && python3 scripts/model_price_scraper.py --headless;任务完成后不需要发送消息,应保持静默。",
@@ -14,6 +15,24 @@
       "quote": "用户配置了一个 cron 定时任务“大模型API价格爬虫”,执行命令为 cd ~/.openclaw/workspace && python3 scripts/model_price_scraper.py --headless;任务完成后不需要发送消息,应保持静默。",
       "revision": 1,
       "role": "user"
+    },
+    {
+      "event_id": "evt_0949a95848ea1b3763dc",
+      "quote": "执行模型价格爬虫脚本: cd ~/.openclaw/workspace && python3 scripts/model_price_scraper.py --headless",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_0949a95848ea1b3763dc",
+      "quote": "爬取完成后不需要发送任何消息，保持静默。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_0949a95848ea1b3763dc",
+      "quote": "NO_REPLY",
+      "revision": 1,
+      "role": "assistant"
     }
   ],
   "id": "mem_2c7d471024551816e9fa",
@@ -34,16 +53,12 @@
     "价格爬取",
     "价格抓取",
     "NO_RELEASE",
-    "API 价格监控",
-    "静默爬取",
-    "API价格监控",
-    "NO_RELLY",
-    "API 报价"
+    "API 价格监控"
   ],
   "layer": "memory",
   "level": 0,
   "model_version": "doubao-seed-evolving-latest-version",
-  "policy_version": "extract-v2",
+  "policy_version": "extract-v3",
   "project_id": "",
   "relations": [
     {
@@ -52,13 +67,13 @@
       "type": "derived_from"
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "source_agent": "old-memd@legacy",
   "space": "user/shared",
   "status": "active",
   "status_reason": "",
   "sync_remote": true,
   "type": "fact",
-  "updated_at": "2026-09-24T16:30:51.482010Z",
+  "updated_at": "2026-11-04T14:26:38.445686Z",
   "valid_to": null
 }
