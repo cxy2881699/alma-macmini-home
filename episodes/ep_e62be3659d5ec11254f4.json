@@ -24,9 +24,19 @@
       "quote": "scutil --proxy | grep HTTPPort 输入了没反应，是不是clash没有成功写入",
       "revision": 1,
       "text": "用户执行 scutil --proxy | grep HTTPPort 无输出，说明系统代理处于全关状态，Clash Verge 未成功写入"
+    },
+    {
+      "agent_id": "openclaw@old-memd",
+      "at": "2026-10-18T14:26:31.022000Z",
+      "event_id": "evt_f42fd72f43db274ce516",
+      "kind": "obstacle",
+      "order": 2,
+      "quote": "很奇怪，我已经开了，但是还是打不开，点击测试发现很多都是通过的",
+      "revision": 1,
+      "text": "用户反馈 Clash Verge 已开启但浏览器仍打不开，节点测试大多通过；Agent 要求先跑 scutil --proxy、不带 -x 的 curl 与 Verge 最新日志，以区分“系统代理已接管但 Chrome 侧（DoH/缓存）有问题”与“系统层根本没接管”。"
     }
   ],
   "sync_remote": true,
   "title": "排查 MacBook 上 Clash Verge 未接管系统代理",
-  "updated_at": "2026-11-04T14:14:28.140541Z"
+  "updated_at": "2026-11-04T14:14:37.876157Z"
 }
