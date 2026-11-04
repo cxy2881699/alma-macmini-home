@@ -1,0 +1,28 @@
+{
+  "entities": [],
+  "follows": "",
+  "goal": "找出本机 OpenClaw 突然不能用的原因并恢复服务",
+  "id": "ep_20d071003c97600046cb",
+  "memory_ids": [],
+  "outcome": "",
+  "project_id": "",
+  "source_agent": "cursor@old-memd",
+  "space": "user/shared",
+  "started_at": "2026-09-23T16:45:00Z",
+  "status": "ongoing",
+  "steps": [
+    {
+      "agent_id": "cursor@old-memd",
+      "at": "2026-09-23T16:45:00Z",
+      "event_id": "evt_65495d2ba5242fb6dfc1",
+      "kind": "obstacle",
+      "order": 1,
+      "quote": "网关和飞书消息都正常，问题出在大模型调用超时和模型离线（qianfan/kimi-k2.5 报 403）",
+      "revision": 1,
+      "text": "确认网关与飞书通道正常,但大模型调用超时、kimi-k2.5 报 403,主会话长时间跑安装脚本导致消息排队;网关在 9:31、9:34 两次重启原因未明"
+    }
+  ],
+  "sync_remote": true,
+  "title": "排查本机 OpenClaw 突然不可用",
+  "updated_at": "2026-11-04T13:56:32.000284Z"
+}
