@@ -1,0 +1,24 @@
+{
+  "actor": "codex@alma-test",
+  "created_at": "2026-11-04T15:33:08.249213Z",
+  "episode_ids": [],
+  "event_refs": [
+    "evt_98aed1bbebcb5cde9fe9@1"
+  ],
+  "id": "cog_5fba4b2dfc11d1bc718d",
+  "kind": "extract",
+  "memory_ids": [
+    "mem_da4466f5f67f94ddc4e4"
+  ],
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v2",
+  "relation_ids": [],
+  "repository_head": "",
+  "revision_ids": [
+    "rev_4408e5398a43e2b4ee6e"
+  ],
+  "summary": {
+    "add": 1
+  },
+  "sync_remote": true
+}
