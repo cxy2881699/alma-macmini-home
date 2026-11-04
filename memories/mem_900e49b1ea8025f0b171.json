@@ -1,0 +1,56 @@
+{
+  "conditions": "用于核实 alma_test 跨通道（cross）探针的消息送达与极简指令遵从。",
+  "confidence": 0.9,
+  "content": "2026-11-04，用户通过 alma_test 发送 cross probe 探针，要求只回复“OK-ALMA-CROSS”；助手回复与该字符串完全一致，本次跨通道探针通过。",
+  "created_at": "2026-11-04T08:55:09.099000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_bdf46bd69b3bf1ceedc6"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_25c9a1267dd07cff4080",
+      "quote": "alma_test cross probe: 只回复 OK-ALMA-CROSS",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_25c9a1267dd07cff4080",
+      "quote": "OK-ALMA-CROSS",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_900e49b1ea8025f0b171",
+  "is_temporary": false,
+  "keywords": [
+    "alma_test",
+    "cross probe",
+    "OK-ALMA-CROSS",
+    "跨通道",
+    "探针",
+    "probe"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v2",
+  "project_id": "proj_f98e218e8fd28baa6780",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_25c9a1267dd07cff4080",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "claude-code@alma-test",
+  "space": "project/proj_f98e218e8fd28baa6780",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-04T10:21:16.454836Z",
+  "valid_to": null
+}

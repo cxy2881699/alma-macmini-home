@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "隔离测试 Hub"
+  ],
+  "created_at": "2026-11-04T10:21:16.453435Z",
+  "description": "用于验证跨通道链路的隔离测试实例",
+  "id": "ent_0292a01a3df32ef2480a",
+  "name": "alma_test",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "component",
+  "updated_at": "2026-11-04T10:21:16.453946Z"
+}
