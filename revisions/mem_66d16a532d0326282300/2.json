@@ -1,0 +1,66 @@
+{
+  "actor": "codex@alma-test",
+  "base_revision": 1,
+  "created_at": "2026-11-04T14:29:55.728483Z",
+  "id": "rev_ce1d5b7d547ff160f140",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "涉及 alma_test 测试环境、Alma 隔离实例或端口分配时使用。",
+    "confidence": 0.9,
+    "content": "alma_test 的隔离测试 Hub 运行在端口 8790，隔离的 Alma 实例在该端口可用。",
+    "created_at": "2026-11-04T08:48:20Z",
+    "derived_from": [],
+    "entities": [
+      "ent_bdf46bd69b3bf1ceedc6"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_fd288d066a82bc2d579a",
+        "quote": "请记录端口 8790 是隔离测试 Hub",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_66d16a532d0326282300",
+    "is_temporary": false,
+    "keywords": [
+      "alma_test",
+      "8790",
+      "端口",
+      "隔离测试",
+      "Hub",
+      "Alma 实例",
+      "isolated instance",
+      "端口 8790",
+      "隔离测试 Hub",
+      "isolated test hub",
+      "port"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_f98e218e8fd28baa6780",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_fd288d066a82bc2d579a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 2,
+    "source_agent": "codex@alma-test",
+    "space": "project/proj_f98e218e8fd28baa6780",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T14:29:55.728386Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_66d16a532d0326282300",
+  "policy_version": "extract-v2",
+  "reason": "确认",
+  "revision": 2
+}

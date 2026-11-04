@@ -1,4 +1,5 @@
 {
+  "claim": "user_fact",
   "conditions": "涉及 alma_test 测试环境、Alma 隔离实例或端口分配时使用。",
   "confidence": 0.9,
   "content": "alma_test 的隔离测试 Hub 运行在端口 8790，隔离的 Alma 实例在该端口可用。",
@@ -25,12 +26,16 @@
     "隔离测试",
     "Hub",
     "Alma 实例",
-    "isolated instance"
+    "isolated instance",
+    "端口 8790",
+    "隔离测试 Hub",
+    "isolated test hub",
+    "port"
   ],
   "layer": "memory",
   "level": 0,
   "model_version": "ark/deepseek-v4-1-flash-261017",
-  "policy_version": "extract-v2",
+  "policy_version": "extract-v3",
   "project_id": "proj_f98e218e8fd28baa6780",
   "relations": [
     {
@@ -39,13 +44,13 @@
       "type": "derived_from"
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "source_agent": "codex@alma-test",
   "space": "project/proj_f98e218e8fd28baa6780",
   "status": "active",
   "status_reason": "",
   "sync_remote": true,
   "type": "fact",
-  "updated_at": "2026-11-04T10:20:46.513237Z",
+  "updated_at": "2026-11-04T14:29:55.728386Z",
   "valid_to": null
 }
