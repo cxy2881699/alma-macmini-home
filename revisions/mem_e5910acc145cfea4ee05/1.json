@@ -1,0 +1,77 @@
+{
+  "actor": "openclaw@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:29:48.175525Z",
+  "id": "rev_bf43ff0e49c1f7b3c2a4",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "适用于用 Claude Code / 其他编程 Agent 的后台非交互方式跑长任务时卡住无输出的排查",
+    "confidence": 0.85,
+    "content": "在 2026-11-04 排查发现：用 Claude Code 的非交互模式（claude -p）在后台跑长任务时，如果把超长提示词直接塞进命令行，进程会长时间停在启动/模型响应阶段，表现为 0 CPU、无输出、仓库无改动；实际网络与鉴权正常（最小 Claude 请求 2.8 秒返回），VPN 不是根因。解决办法是把任务写进任务文件（如 ALMA_TASK.md），用短启动指令加 --debug-file 调试日志重跑，日志随即显示其在执行 Bash、Read 和 API 请求。",
+    "created_at": "2026-11-04T08:43:08.857000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_51b9c91560022845906c",
+      "ent_e1a174d95438503423a9",
+      "ent_ee4721c32266c439d5cb"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_fc5cd0cb87bb057bc46a",
+        "quote": "卡住的是之前那种**超长提示词直接塞进后台非交互进程**的启动方式，模型根本没进入执行阶段",
+        "revision": 1,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_fc5cd0cb87bb057bc46a",
+        "quote": "最小 Claude 请求 2.8 秒成功返回",
+        "revision": 1,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_fc5cd0cb87bb057bc46a",
+        "quote": "我已经换成「任务文件 + 短启动指令 + 调试日志」重跑",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_e5910acc145cfea4ee05",
+    "is_temporary": false,
+    "keywords": [
+      "Claude Code",
+      "非交互",
+      "claude -p",
+      "后台任务",
+      "卡住",
+      "超长提示词",
+      "debug-file",
+      "ALMA_TASK.md"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_fc5cd0cb87bb057bc46a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-04T14:29:48.175345Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e5910acc145cfea4ee05",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
