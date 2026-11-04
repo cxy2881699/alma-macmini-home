@@ -179,9 +179,19 @@
       "quote": "现在看起来codex cli中的对话内容也成功进入数据库了",
       "revision": 1,
       "text": "用户确认 Codex CLI 对话内容已进入数据库，追问 Agent 是否每轮都搜索记忆、今天最早发生了什么；Agent 指出保存成功不等于每轮召回成功，仍需 agent_kind=codex、action=recall、result=ok 的服务端审计，并说明因时区偏移无法确定当天最早事件的准确时间。"
+    },
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-23T17:37:03.428000Z",
+      "event_id": "evt_e255c16e5b36c919f3a5",
+      "kind": "note",
+      "order": 16,
+      "quote": "再早点的记忆呢?记忆项目部署之后出现了不少问题,你知道是什么么?",
+      "revision": 1,
+      "text": "用户追问更早的记忆，问记忆项目部署后出现过哪些问题；Agent 依据记忆库复述了九层叠加故障（代理访问 Tailscale 私网失败、OpenClaw 请求被 8118 代理劫持、不兼容 hooks 字段、Gateway 重启假象、Codex CLI 缺 ARM64 二进制并被 Gatekeeper 隔离、召回需服务端审计、admin.html 未展示来源字段、selftest 残留数据、时区偏移），内容与已有记忆一致，未产生新信息。"
     }
   ],
   "sync_remote": true,
   "title": "确认 Codex 每轮自动读取记忆是否生效",
-  "updated_at": "2026-11-04T14:05:46.579466Z"
+  "updated_at": "2026-11-04T14:06:03.904322Z"
 }
