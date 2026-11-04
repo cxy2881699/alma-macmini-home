@@ -230,9 +230,19 @@
       "quote": "`UserPromptSubmit`、`PostToolUse` 和 `Stop` 均显示 **Trusted**",
       "revision": 1,
       "text": "2026-11-04 在新的 Codex CLI 会话中执行 /hooks，确认 agent-memory 的 UserPromptSubmit、PostToolUse、Stop 三个钩子仍为 Trusted 且各有 1 个 Active，无需重复信任。"
+    },
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-26T07:48:08.080000Z",
+      "event_id": "evt_91c7280992f4a13aa52f",
+      "kind": "note",
+      "order": 21,
+      "quote": "你现在跟我对话的内容也能存进去吧，并且每轮对话的时候你是否都会先searh一下",
+      "revision": 1,
+      "text": "用户再次确认当前这段对话能否入库、每轮提交前是否都会先搜索记忆；Agent 说明由 UserPromptSubmit 钩子尝试召回、Stop 钩子尝试保存，超时或服务出错会放行，需服务端审计逐轮确认。"
     }
   ],
   "sync_remote": true,
   "title": "确认 Codex 每轮自动读取记忆是否生效",
-  "updated_at": "2026-11-04T14:09:53.345314Z"
+  "updated_at": "2026-11-04T14:10:16.493133Z"
 }
