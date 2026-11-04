@@ -1,4 +1,5 @@
 {
+  "claim": "user_fact",
   "conditions": "排查记忆系统在 Codex 和 OpenClaw 中无法自动召回、OpenClaw 卡住不返回内容的问题。",
   "confidence": 0.7,
   "content": "用户要求分别排查 Codex 和 OpenClaw 自动召回失败原因,并授权必要时升级 OpenClaw;排查确认 OpenClaw 版本支持所需接口、无需升级,故障来自不兼容的 hooks 配置字段和 Tailscale MagicDNS 域名被代理转发。",
@@ -8,7 +9,8 @@
     "ent_6cf84e1c3c276ec690be",
     "ent_9f82bdbcda91e1775def",
     "ent_421c00dde9a1b98fc969",
-    "ent_3d2f68a038ff0d2b8362"
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_1c6b296bc5cb579536f2"
   ],
   "epistemic": "observed",
   "evidence": [
@@ -17,6 +19,18 @@
       "quote": "用户要求分别排查 Codex 和 OpenClaw 自动召回失败原因,并授权必要时升级 OpenClaw;排查确认 OpenClaw 版本支持所需接口、无需升级,故障来自不兼容的 hooks 配置字段和 Tailscale MagicDNS 域名被代理转发。",
       "revision": 1,
       "role": "user"
+    },
+    {
+      "event_id": "evt_e592743b9360c4d4c4fb",
+      "quote": "自动召回没能启动成功的问题是什么？分别检查codex和openclaw，如果是说openclaw版本太老，可以升级（需要我的同意）",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_e592743b9360c4d4c4fb",
+      "quote": "OpenClaw 当前版本已经支持记忆插件使用的 `before_prompt_build` 和上下文注入接口，所以暂时没有必须升级的依据。",
+      "revision": 1,
+      "role": "assistant"
     }
   ],
   "id": "mem_a2f0891629102127dacc",
@@ -29,12 +43,14 @@
     "MagicDNS",
     "代理",
     "hooks",
-    "fetch failed"
+    "fetch failed",
+    "recall",
+    "升级"
   ],
   "layer": "memory",
   "level": 0,
   "model_version": "doubao-seed-evolving-latest-version",
-  "policy_version": "extract-v2",
+  "policy_version": "extract-v3",
   "project_id": "",
   "relations": [
     {
@@ -43,13 +59,13 @@
       "type": "derived_from"
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "source_agent": "old-memd@legacy",
   "space": "user/shared",
   "status": "active",
   "status_reason": "",
   "sync_remote": true,
   "type": "event",
-  "updated_at": "2026-09-23T17:06:32.060349Z",
+  "updated_at": "2026-11-04T14:00:15.018706Z",
   "valid_to": null
 }

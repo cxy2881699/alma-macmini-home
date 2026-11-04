@@ -1,0 +1,51 @@
+{
+  "claim": "agent_action",
+  "conditions": "OpenClaw 插件配置含当前版本不支持的字段并反复报 Unrecognized key 时。",
+  "confidence": 0.8,
+  "content": "2026-11-04 排查 OpenClaw 召回失败时发现:安装配置里不支持的 hooks 字段会让插件反复报错,OpenClaw Gateway 错误日志因此膨胀到约 5.9 GB;删除不兼容字段后报错才停止,排查此类问题时需先检查日志体积。",
+  "created_at": "2026-09-23T16:59:40.107000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_e592743b9360c4d4c4fb",
+      "quote": "另外，不支持的配置字段正在引发反复报错，网关日志已增长到约 5.9 GB。",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_882015ff4fe736a473e7",
+  "is_temporary": false,
+  "keywords": [
+    "OpenClaw",
+    "网关日志",
+    "5.9GB",
+    "Unrecognized key",
+    "hooks",
+    "磁盘占用"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_e592743b9360c4d4c4fb",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "codex@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-11-04T14:00:15.021816Z",
+  "valid_to": null
+}

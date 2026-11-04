@@ -1,13 +1,18 @@
 {
   "entities": [
     "ent_3d2f68a038ff0d2b8362",
-    "ent_1c6b296bc5cb579536f2"
+    "ent_1c6b296bc5cb579536f2",
+    "ent_6cf84e1c3c276ec690be",
+    "ent_9f82bdbcda91e1775def",
+    "ent_421c00dde9a1b98fc969"
   ],
   "follows": "ep_0152c14c051d0e196c57",
   "goal": "确认记忆服务是否真正接入 Codex、OpenClaw,每一轮对话是否都经过记忆服务检索",
   "id": "ep_d8568ce714edbcb31204",
   "memory_ids": [
-    "mem_040ce5f984b22caece8f"
+    "mem_040ce5f984b22caece8f",
+    "mem_a2f0891629102127dacc",
+    "mem_882015ff4fe736a473e7"
   ],
   "outcome": "",
   "project_id": "",
@@ -25,9 +30,19 @@
       "quote": "写入通了，自动召回还需要修复。",
       "revision": 1,
       "text": "Agent 查审计、配置与插件日志后确认:Codex 只通了写入、没有 recall 记录;OpenClaw 有写入但 recall failed: fetch failed,且当前版本不接受 hooks 字段。"
+    },
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-23T16:59:40.107000Z",
+      "event_id": "evt_e592743b9360c4d4c4fb",
+      "kind": "result",
+      "order": 2,
+      "quote": "这两处可以先按现有版本修复，不需要升级：删除不兼容字段，让这台 Mac 上的客户端连接本机地址。",
+      "revision": 1,
+      "text": "Agent 定位 OpenClaw 召回失败源于不支持的 hooks 配置字段与代理转发 Tailscale 私网域名,删除不兼容字段并把客户端改为连接本机地址后重启网关验证"
     }
   ],
   "sync_remote": true,
   "title": "验证 Codex 与 OpenClaw 的自动召回是否真正生效",
-  "updated_at": "2026-11-04T13:59:57.312746Z"
+  "updated_at": "2026-11-04T14:00:15.016358Z"
 }
