@@ -1,0 +1,20 @@
+{
+  "agent_id": "codex@alma-test",
+  "assistant_text": "",
+  "content_hash": "dd6aa7fd316cce95b4bc48ee9fafe59655fb5146bbad7ab4fccb3295a636b3bc",
+  "cwd": "/Users/seancao/Documents/Codex/2026-11-04/1",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_f2c50f133fc9c05fb364",
+  "kind": "conversation",
+  "native_event_id": "01a1a760-3c44-7861-84a2-767121c1fc5b",
+  "occurred_at": "2026-11-04T16:24:24.559000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_f8dbc6ec58090d0eee13",
+  "received_at": "2026-11-04T16:26:12.773635Z",
+  "revision": 1,
+  "session_id": "01a1a760-3a57-74b2-aef1-c6506f93df72",
+  "space": "project/proj_f8dbc6ec58090d0eee13",
+  "tools": [],
+  "turn_index": 0,
+  "user_text": "1"
+}
