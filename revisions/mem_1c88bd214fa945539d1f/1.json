@@ -1,0 +1,69 @@
+{
+  "actor": "codex@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:12:26.178119Z",
+  "id": "rev_bffe50c1c734ad77a484",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "用户准备把成长引擎设计落到服务端实现时",
+    "confidence": 0.95,
+    "content": "用户希望在现有 agent-memory 基础上设计可增量兼容、可修改、可持续进化的“成长引擎”，而不是推倒重做；截至 2026-11-04 用户尚未提供服务端仓库，Agent 已请求 GitHub 仓库链接及所运行分支或版本，以便把设计映射到实际表结构、处理任务和接口扩展。",
+    "created_at": "2026-09-26T08:30:46.405000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_c4c070d9e51b143c2a63",
+      "ent_5510d6f408cb181c5c42"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_cffe2aae6fb0e35071d1",
+        "quote": "要基于我当前的记忆系统来设计，并且未来还要可兼容可修改",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_cffe2aae6fb0e35071d1",
+        "quote": "请把当前记忆系统的 GitHub 仓库链接发我；如果服务器运行的版本与默认分支不同，也请注明分支或版本。",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_1c88bd214fa945539d1f",
+    "is_temporary": false,
+    "keywords": [
+      "GitHub 仓库",
+      "服务端代码",
+      "成长引擎",
+      "分支版本",
+      "架构映射",
+      "agent-memory",
+      "可兼容"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_cffe2aae6fb0e35071d1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "codex@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-11-04T14:12:26.177964Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_1c88bd214fa945539d1f",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

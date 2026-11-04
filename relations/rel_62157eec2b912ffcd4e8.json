@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-11-04T14:12:26.164770Z",
+  "evidence": [
+    {
+      "event_id": "evt_cffe2aae6fb0e35071d1",
+      "quote": "在现有 agent-memory 上增加一层“成长引擎”",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "rel_62157eec2b912ffcd4e8",
+  "object": "ent_9f82bdbcda91e1775def",
+  "predicate": "基于",
+  "source_agent": "codex@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "subject": "ent_c4c070d9e51b143c2a63",
+  "sync_remote": true,
+  "updated_at": "2026-11-04T14:12:26.164782Z",
+  "valid_from": "2026-09-26",
+  "valid_to": ""
+}
