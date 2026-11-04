@@ -1,0 +1,59 @@
+{
+  "actor": "alma-mem@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-04T10:21:36.741866Z",
+  "id": "rev_c60facfdaed8ca1abf5e",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "用户决定把支付方式改用 Polar。",
+    "created_at": "2026-11-04T10:20:57.933971Z",
+    "derived_from": [],
+    "entities": [
+      "ent_5d4ff7d52bb250c5b3d2"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_fd44a1b7e662b79da3ce",
+        "quote": "支付改用 Polar",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_0a1d551fa7d366e52a79",
+    "is_temporary": false,
+    "keywords": [
+      "支付",
+      "Polar",
+      "支付渠道",
+      "payment",
+      "收款"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_fd44a1b7e662b79da3ce",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "alma-mem@alma-test",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "decision",
+    "updated_at": "2026-11-04T10:21:36.741776Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_0a1d551fa7d366e52a79",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
