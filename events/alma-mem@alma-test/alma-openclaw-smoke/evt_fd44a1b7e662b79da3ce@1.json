@@ -1,0 +1,20 @@
+{
+  "agent_id": "alma-mem@alma-test",
+  "assistant_text": "好的，已切换到 Polar。",
+  "content_hash": "f2933ce9a2c1b4e300905789159324dfdec631b8df2e0564291bd150c95aa7d8",
+  "cwd": "/path/to/project",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_fd44a1b7e662b79da3ce",
+  "kind": "conversation",
+  "native_event_id": "1",
+  "occurred_at": "2026-11-04T10:20:57.933971Z",
+  "privacy_mode": "normal",
+  "project_id": "",
+  "received_at": "2026-11-04T10:20:57.934051Z",
+  "revision": 1,
+  "session_id": "alma-openclaw-smoke",
+  "space": "user/shared",
+  "tools": [],
+  "turn_index": 0,
+  "user_text": "支付改用 Polar"
+}
