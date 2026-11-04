@@ -35,9 +35,19 @@
       "quote": "/hooks",
       "revision": 1,
       "text": "用户仍在当前聊天窗口发送 /hooks，未在 Codex 输入框中执行信任操作，钩子信任仍未完成"
+    },
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-23T17:13:33.797000Z",
+      "event_id": "evt_41c6dc707d77230c6ef7",
+      "kind": "obstacle",
+      "order": 3,
+      "quote": "怎么找到你说的这三项？我已经发了/hooks",
+      "revision": 1,
+      "text": "用户已在 Codex 中发送 /hooks，但不知道如何在面板里找到三个 agent-memory 钩子；Agent 给出定位路径：User hooks → 展开 ~/.codex/hooks.json → 找 UserPromptSubmit、PostToolUse、Stop → 点 Trust，并说明信任绑定钩子内容哈希、文件改动后需重新信任。"
     }
   ],
   "sync_remote": true,
   "title": "确认 Codex 每轮自动读取记忆是否生效",
-  "updated_at": "2026-11-04T14:01:43.387243Z"
+  "updated_at": "2026-11-04T14:01:51.296151Z"
 }
