@@ -1,0 +1,60 @@
+{
+  "claim": "agent_action",
+  "conditions": "",
+  "confidence": 0.85,
+  "content": "2026-09-27 分身在 /tmp/pdftxt/ 全文到位后重写了 /Users/seancao/.openclaw/workspace/paper-summaries-MemAgents.md（约 25KB），实际覆盖 41 篇编号论文（任务所称 42 篇中 8252eae… 文件实为一份保理合同，已排除）；核心结论是检索方法造成的精度差约 20 点、远大于写入策略的 3–8 点，零 LLM 调用的原始分块可打平昂贵摘要管线，因此建议 PRD 把 hybrid Retriever 升为 M1 最高工程优先级，并用 TierMem 的不变原始日志 + provenance 支撑“原始记忆不删除”原则。",
+  "created_at": "2026-09-28T03:52:17.554000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_803e29983b18f51d0780",
+    "ent_e44cb152899e6702c87f",
+    "ent_6a242ac46c0b54ee42c0"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_3567af8b8693e96c3d81",
+      "quote": "检索方法造成 20 点精度差、写入策略仅 3–8 点，零 LLM 调用的原始分块打平昂贵摘要管线",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_3567af8b8693e96c3d81",
+      "quote": "41 篇论文已全部阅读完毕",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_0a0d322515b8fb328f15",
+  "is_temporary": false,
+  "keywords": [
+    "paper-summaries-MemAgents.md",
+    "全文版",
+    "ICLR 2026 MemAgents Workshop",
+    "检索",
+    "Retriever",
+    "TierMem",
+    "provenance"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_3567af8b8693e96c3d81",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-04T14:14:02.087551Z",
+  "valid_to": null
+}

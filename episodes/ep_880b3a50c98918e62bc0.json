@@ -1,20 +1,23 @@
 {
   "entities": [
     "ent_e44cb152899e6702c87f",
-    "ent_803e29983b18f51d0780"
+    "ent_803e29983b18f51d0780",
+    "ent_6a242ac46c0b54ee42c0"
   ],
   "follows": "ep_0e4dbb146ee86059d939",
   "goal": "对 MemAgents Workshop 的 45+ 篇 agent 记忆论文逐篇总结，并对照宇哥的可进化记忆系统 PRD 给出可借鉴点与修订优先级",
   "id": "ep_880b3a50c98918e62bc0",
   "memory_ids": [
-    "mem_aff47b55c7d9e38b0870"
+    "mem_aff47b55c7d9e38b0870",
+    "mem_2c33b20c2dfa29c0cce5",
+    "mem_0a0d322515b8fb328f15"
   ],
-  "outcome": "",
+  "outcome": "全文版总结覆盖写入同一 Markdown 文件，产出 P0/P1/P2 修订总表；任务所称 42 篇中有一份为保理合同已排除，实际覆盖 41 篇。",
   "project_id": "",
   "source_agent": "openclaw@old-memd",
   "space": "user/shared",
   "started_at": "2026-09-28T03:18:24.791000Z",
-  "status": "ongoing",
+  "status": "succeeded",
   "steps": [
     {
       "agent_id": "openclaw@old-memd",
@@ -25,9 +28,19 @@
       "quote": "48 篇按七大主题逐篇总结，每篇含一句话/机制/对 PRD 的具体价值（落到 FR 编号或章节）",
       "revision": 1,
       "text": "分身抓取 30/48 篇 arXiv 摘要，其余标注“未获取原文”，按七大主题写入 paper-summaries-MemAgents.md 并附 P0/P1/P2 修订总表"
+    },
+    {
+      "agent_id": "openclaw@old-memd",
+      "at": "2026-09-28T03:52:17.554000Z",
+      "event_id": "evt_3567af8b8693e96c3d81",
+      "kind": "result",
+      "order": 2,
+      "quote": "41 篇编号论文全部基于 PDF 全文重写",
+      "revision": 1,
+      "text": "基于 41 篇 PDF 全文覆盖重写 paper-summaries-MemAgents.md，按七大主题分组并附 P0 9 / P1 22 / P2 11 修订总表与 5 项关键发现"
     }
   ],
   "sync_remote": true,
   "title": "为 ICLR 2026 MemAgents Workshop 论文做逐篇总结并对标 PRD",
-  "updated_at": "2026-11-04T14:13:33.726456Z"
+  "updated_at": "2026-11-04T14:14:02.081722Z"
 }
