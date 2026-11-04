@@ -1,0 +1,22 @@
+{
+  "actor": "openclaw@old-memd",
+  "created_at": "2026-11-04T14:24:09.141158Z",
+  "episode_ids": [
+    "ep_d0304c6db006fee77290"
+  ],
+  "event_refs": [
+    "evt_3d8e9a54e4b001ea6a33@1"
+  ],
+  "id": "cog_5aa3165914b675cd174b",
+  "kind": "extract",
+  "memory_ids": [],
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v2",
+  "relation_ids": [],
+  "repository_head": "",
+  "revision_ids": [],
+  "summary": {
+    "episode": 1
+  },
+  "sync_remote": true
+}

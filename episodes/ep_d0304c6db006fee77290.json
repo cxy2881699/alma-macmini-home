@@ -9,12 +9,12 @@
   "memory_ids": [
     "mem_628fb44aa76bd7e5c3d7"
   ],
-  "outcome": "",
+  "outcome": "OpenClaw 主模型已从 DeepSeek 切换到 ark/kimi-k3-1-pro-261024 并完成验证，保留备份与 --rollback 回滚手段；上下文窗口/输出上限参数需按官方值复核。",
   "project_id": "",
   "source_agent": "openclaw@old-memd",
   "space": "user/shared",
   "started_at": "2026-10-27T02:25:17.729000Z",
-  "status": "ongoing",
+  "status": "succeeded",
   "steps": [
     {
       "agent_id": "openclaw@old-memd",
@@ -25,9 +25,19 @@
       "quote": "先写一个脚步，如果切换失败，自动使用脚本回滚",
       "revision": 1,
       "text": "Agent 写好 ~/.openclaw/workspace/tools/switch-model.sh（真实 API 预检、备份 openclaw.json、改 primary、config validate、重启 Gateway、失败自动恢复），并跑通 dry-run 预检，确认模型在 ark 账号可用；等用户确认后执行切换。"
+    },
+    {
+      "agent_id": "openclaw@old-memd",
+      "at": "2026-10-27T02:48:27.551000Z",
+      "event_id": "evt_3d8e9a54e4b001ea6a33",
+      "kind": "result",
+      "order": 2,
+      "quote": "切换成功。当前主模型是 `ark/kimi-k3-1-pro-261024`，日志已全部通过验证",
+      "revision": 1,
+      "text": "用户在 setsid 假启动问题后追问启动是否完成，Agent 确认切换成功：主模型现为 ark/kimi-k3-1-pro-261024，预检→备份→写入→重启（1 秒就绪）→agent 实跑验证全部通过，旧 DeepSeek 仍保留在列表中可切回，备份 pre-model-switch-20261026-194047.json，可用 switch-model.sh --rollback 回滚；同时提示填入的 262144/32768 参数若与官方不一致可能影响长对话。"
     }
   ],
   "sync_remote": true,
   "title": "编写切换到 kimi-k3-1-pro-261024 的自动回滚脚本",
-  "updated_at": "2026-11-04T14:23:45.647103Z"
+  "updated_at": "2026-11-04T14:24:09.138922Z"
 }
