@@ -1,0 +1,36 @@
+{
+  "conditions": "Agent 建议用户按 MINJA、Diagnosing、Demo 系列顺序转发 PDF。",
+  "confidence": 0.72,
+  "content": "在论文对照 PRD 的调研中,用户接受并配合按影响优先级补材料:先转安全冲击最大和缺原文的重点论文,而非一次性平均处理全部文献。",
+  "created_at": "2026-10-04T19:03:21.259484Z",
+  "derived_from": [],
+  "entities": [
+    "ent_12e60967bd71bfb38736",
+    "ent_c87b0f368df97ddbb460"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_01aece9d75c4c9b860d6",
+  "is_temporary": false,
+  "keywords": [
+    "优先级补传",
+    "重点论文",
+    "安全冲击",
+    "缺原文"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-04T19:03:21.259484Z",
+  "valid_to": null
+}

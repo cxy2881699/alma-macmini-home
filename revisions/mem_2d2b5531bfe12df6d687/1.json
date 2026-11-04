@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-25T08:37:10.940033Z",
+  "id": "rev_f6da341533f004087b16",
+  "memory": {
+    "conditions": "用户为 2026-09-26 晚与大学好友重聚选酒，并关注 Agent 是否调用了记忆服务",
+    "confidence": 0.7,
+    "content": "用户就明晚与从美国回来的大学好友重聚带什么酒征求建议,Agent 未先查记忆就推荐格兰杰,被用户质疑后承认武断并补做记忆检索,未找到双方饮酒偏好记录。",
+    "created_at": "2026-09-25T08:37:10.940033Z",
+    "derived_from": [],
+    "entities": [
+      "ent_774067d2559ca01157a7"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_16a5121fc9adff39be5f",
+        "quote": "用户就明晚与从美国回来的大学好友重聚带什么酒征求建议,Agent 未先查记忆就推荐格兰杰,被用户质疑后承认武断并补做记忆检索,未找到双方饮酒偏好记录。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_2d2b5531bfe12df6d687",
+    "is_temporary": false,
+    "keywords": [
+      "带酒推荐",
+      "大学同学重聚",
+      "记忆检索",
+      "饮酒偏好",
+      "格兰杰",
+      "美国回来"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_16a5121fc9adff39be5f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-25T08:37:10.940033Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_2d2b5531bfe12df6d687",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

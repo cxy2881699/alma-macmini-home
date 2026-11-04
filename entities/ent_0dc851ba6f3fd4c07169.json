@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "memory/agent-memory改进方向调研-20260923.md"
+  ],
+  "created_at": "2026-09-23T18:16:37.304622Z",
+  "description": "OpenClaw 在 2026-09-23 深夜完成的 agent-memory 完善方向调研报告，存档于 workspace memory 目录",
+  "id": "ent_0dc851ba6f3fd4c07169",
+  "name": "agent-memory改进方向调研报告",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T08:56:50.223314Z"
+}

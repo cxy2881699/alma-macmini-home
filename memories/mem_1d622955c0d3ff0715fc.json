@@ -1,0 +1,33 @@
+{
+  "conditions": "用户让通读49篇论文整理文档，明确点名想了解研究到哪了、能做到哪些以前做不到的事",
+  "confidence": 0.8,
+  "content": "用户做文献调研时最关心「现在能做到哪些以前做不到的事」,即能力增量/突破点,而非纯方法罗列;要求综述务实、无AI套话、术语保留英文、附量化结果。",
+  "created_at": "2026-09-29T19:03:46.764736Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_1d622955c0d3ff0715fc",
+  "is_temporary": false,
+  "keywords": [
+    "综述偏好",
+    "能力突破",
+    "量化结果",
+    "务实风格"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-09-29T19:03:46.764736Z",
+  "valid_to": null
+}

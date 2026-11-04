@@ -1,0 +1,74 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:36:27.859344Z",
+  "id": "rev_a517b4ceae2c27a3ea68",
+  "memory": {
+    "conditions": "用户为朋友圈总结自建 agent-memory 的核心定位和价值。",
+    "confidence": 0.95,
+    "content": "用户将自建 agent-memory 定位为个人级记忆基础设施,核心价值是让 Codex、Cursor、Claude Code、OpenClaw 等多个 Agent 共享同一套长期记忆,并支持跨设备保留、自动检索相关背景以及来源可追溯、可管理。",
+    "created_at": "2026-09-23T17:36:27.859344Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_1b0510f6e7579d8f62b3",
+      "ent_51b9c91560022845906c",
+      "ent_1e8088308ba9691af4dc"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_b920a0b921da00c6c3ae",
+        "quote": "用户将自建 agent-memory 定位为个人级记忆基础设施,核心价值是让 Codex、Cursor、Claude Code、OpenClaw 等多个 Agent 共享同一套长期记忆,并支持跨设备保留、自动检索相关背景以及来源可追溯、可管理。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_d19f515afd548030ebc8",
+        "quote": "用户将自建 agent-memory 定位为个人级记忆基础设施,核心价值是让 Codex、Cursor、Claude Code、OpenClaw 等多个 Agent 共享同一套长期记忆,并支持跨设备保留、自动检索相关背景以及来源可追溯、可管理。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_5500ef4fb62a77ad08d3",
+    "is_temporary": false,
+    "keywords": [
+      "个人记忆基础设施",
+      "跨 Agent 共享",
+      "长期大脑",
+      "自主可控",
+      "来源追溯"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_b920a0b921da00c6c3ae",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_d19f515afd548030ebc8",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-23T17:36:27.859344Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_5500ef4fb62a77ad08d3",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

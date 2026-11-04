@@ -1,0 +1,37 @@
+{
+  "conditions": "用户从 NPC/玩具的成长记忆进一步延伸到高情感价值的数字亲人场景。",
+  "confidence": 0.78,
+  "content": "用户将“用逝者生前数据与口述经历重建可陪伴、可持续生长的数字个体”视为赛博生命记忆的重要应用方向,但对还原程度应保持证据边界。",
+  "created_at": "2026-10-09T19:03:12.694238Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_a211de3d28ac501d6fc2",
+  "is_temporary": false,
+  "keywords": [
+    "逝者重建",
+    "数字永生",
+    "亲人陪伴",
+    "生前数据",
+    "持续成长"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "review",
+  "status_reason": "migrated from old agent-memory (candidate)",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-10-09T19:03:12.694238Z",
+  "valid_to": null
+}

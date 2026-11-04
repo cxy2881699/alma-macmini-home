@@ -1,0 +1,45 @@
+{
+  "conditions": "Agent 在撰写逆向推断心理 Agent 架构文档前先核对文献。",
+  "confidence": 0.72,
+  "content": "用户在执行复杂研究或写作任务前,重视先核实关键文献事实,而不是直接凭模型记忆展开。",
+  "created_at": "2026-10-27T05:31:05.870414Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_1627b009151f2cb1840b",
+      "quote": "用户在执行复杂研究或写作任务前,重视先核实关键文献事实,而不是直接凭模型记忆展开。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_26762e4e11b0cf639b03",
+  "is_temporary": false,
+  "keywords": [
+    "先核实文献",
+    "事实核查",
+    "不凭记忆"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1627b009151f2cb1840b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-27T05:31:05.870414Z",
+  "valid_to": null
+}

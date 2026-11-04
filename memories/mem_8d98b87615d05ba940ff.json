@@ -1,0 +1,60 @@
+{
+  "conditions": "核对 MemAgents Workshop 论文 PDF 落盘数量与两篇缺失文件状态时检索。",
+  "confidence": 0.85,
+  "content": "截至2026-09-28,42篇记忆相关论文PDF已成功落盘并完成文本提取,另有2篇(42 Compute Allocation、07 StructMemEval)当时未落盘,全文级总结由分身重写至 paper-summaries-MemAgents.md。",
+  "created_at": "2026-10-05T19:11:07.722318Z",
+  "derived_from": [],
+  "entities": [
+    "ent_803e29983b18f51d0780",
+    "ent_12e60967bd71bfb38736"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_20f706d31f40b358e63c",
+      "quote": "截至2026-09-28,42篇记忆相关论文PDF已成功落盘并完成文本提取,另有2篇(42 Compute Allocation、07 StructMemEval)当时未落盘,全文级总结由分身重写至 paper-summaries-MemAgents.md。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_8d98b87615d05ba940ff",
+  "is_temporary": false,
+  "keywords": [
+    "论文总结",
+    "PDF落盘",
+    "arXiv",
+    "分身",
+    "MemAgents",
+    "42篇落盘",
+    "2篇缺失",
+    "41篇",
+    "42篇",
+    "pypdf",
+    "/tmp/pdftxt",
+    "StructMemEval",
+    "Compute Allocation",
+    "arXiv兜底",
+    "全文重写"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_20f706d31f40b358e63c",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "disputed",
+  "status_reason": "migrated from old agent-memory (disputed)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-08T19:03:02.053215Z",
+  "valid_to": null
+}

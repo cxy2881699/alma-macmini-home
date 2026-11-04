@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "小红书帖子"
+  ],
+  "created_at": "2026-09-25T08:05:17.602514Z",
+  "description": "用户发布到小红书的一篇与自建 agent-memory/记忆系统相关的帖子，截图显示获得较多浏览、点赞、收藏和评论",
+  "id": "ent_9376053e7c997878dffe",
+  "name": "小红书帖子(agent-memory 相关内容)",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "concept",
+  "updated_at": "2026-11-04T08:56:50.228093Z"
+}

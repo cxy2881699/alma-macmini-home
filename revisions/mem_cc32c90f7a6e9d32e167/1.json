@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:46:03.110076Z",
+  "id": "rev_92c3ae7c065457434d7b",
+  "memory": {
+    "conditions": "回顾 2026-09-23/24 agent-memory 部署成果",
+    "confidence": 0.85,
+    "content": "2026-09-24 心跳反思时,Agent 把当日 agent-memory 部署全程(Neo4j+memd+mem 常驻、proxy 根治、OpenClaw 双链路接入、admin 来源列改造、selftest 清理)固化写入 MEMORY.md。",
+    "created_at": "2026-09-23T17:46:03.110076Z",
+    "derived_from": [],
+    "entities": [
+      "ent_0b9d675295ad9424827f"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_58fa5b1ba8a857a4f9ac",
+        "quote": "2026-09-24 心跳反思时,Agent 把当日 agent-memory 部署全程(Neo4j+memd+mem 常驻、proxy 根治、OpenClaw 双链路接入、admin 来源列改造、selftest 清理)固化写入 MEMORY.md。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_cc32c90f7a6e9d32e167",
+    "is_temporary": false,
+    "keywords": [
+      "每日反思",
+      "MEMORY.md",
+      "agent-memory",
+      "部署",
+      "固化",
+      "心跳"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_58fa5b1ba8a857a4f9ac",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-23T17:46:03.110076Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_cc32c90f7a6e9d32e167",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

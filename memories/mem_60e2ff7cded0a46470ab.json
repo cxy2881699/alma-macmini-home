@@ -1,0 +1,48 @@
+{
+  "conditions": "两阶段调研从摘要兜底升级为全文核实",
+  "confidence": 0.9,
+  "content": "MINJA全文实证(注入成功率98.2%、攻击成功率76.8%)将摘要初版时\"未定位精确arXiv ID、置信度降级\"的待复核项升级为已核实结论,P0第1条成立。",
+  "created_at": "2026-10-27T04:37:34.014736Z",
+  "derived_from": [],
+  "entities": [
+    "ent_12e60967bd71bfb38736"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_3567af8b8693e96c3d81",
+      "quote": "MINJA全文实证(注入成功率98.2%、攻击成功率76.8%)将摘要初版时\"未定位精确arXiv ID、置信度降级\"的待复核项升级为已核实结论,P0第1条成立。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_60e2ff7cded0a46470ab",
+  "is_temporary": false,
+  "keywords": [
+    "MINJA",
+    "记忆注入",
+    "P0",
+    "复核完成"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_3567af8b8693e96c3d81",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:37:34.014736Z",
+  "valid_to": null
+}

@@ -1,0 +1,37 @@
+{
+  "conditions": "讨论记忆泄漏风险后，用户判断市场阶段尚早，暂缓暗号功能",
+  "confidence": 0.85,
+  "content": "用户决定暗号/身份验证功能无限期搁置,只在 PRD 数据模型中预留 sensitivity_level 和身份验证字段位,等出现第二个用户或开源后有需求再实现。",
+  "created_at": "2026-09-28T19:07:31.875170Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_85fba5dae034e28ad953",
+  "is_temporary": false,
+  "keywords": [
+    "暗号",
+    "身份验证",
+    "guest mode",
+    "sensitivity_level",
+    "优先级"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-09-28T19:07:31.875170Z",
+  "valid_to": null
+}

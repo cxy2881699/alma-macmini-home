@@ -1,0 +1,58 @@
+{
+  "conditions": "用户关心公网化后的性能差异，Agent 对比 CDN 中转与 Tailscale 直连。",
+  "confidence": 0.72,
+  "content": "若采用 Cloudflare 等 CDN/WAF,公网模式可能增加约 10–40ms 延迟,但相对 memd 现有 20–40ms 召回,用户体感可能不明显;国内线路质量仍是变量。",
+  "created_at": "2026-09-24T05:58:08.839136Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_421c00dde9a1b98fc969",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8fc67c0d4c5d64da55b1",
+      "quote": "若采用 Cloudflare 等 CDN/WAF,公网模式可能增加约 10–40ms 延迟,但相对 memd 现有 20–40ms 召回,用户体感可能不明显;国内线路质量仍是变量。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_706c93ae06ae47655668",
+  "is_temporary": false,
+  "keywords": [
+    "延迟",
+    "CDN",
+    "WAF",
+    "性能",
+    "国内访问",
+    "WAF 延迟",
+    "Cloudflare 10-40ms",
+    "CDN 延迟",
+    "Cloudflare 延迟",
+    "10-40ms",
+    "召回性能",
+    "国内线路"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8fc67c0d4c5d64da55b1",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-24T05:58:08.839136Z",
+  "valid_to": null
+}

@@ -1,0 +1,51 @@
+{
+  "conditions": "适用于 agent-memory 静默丢事件与 event_id 冲突修复尚未定稿、等待客户端修改后复审的情境。",
+  "confidence": 0.7,
+  "content": "用户决定暂停定稿 memd 服务端去重改造,等待 OpenClaw(小龙虾)客户端修改完成后再一起审查。",
+  "created_at": "2026-09-25T16:59:43.926564Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_257e1393bfbdd5bcdedb",
+      "quote": "用户决定暂停定稿 memd 服务端去重改造,等待 OpenClaw(小龙虾)客户端修改完成后再一起审查。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_6346728d67260e7f842f",
+  "is_temporary": false,
+  "keywords": [
+    "OpenClaw",
+    "小龙虾",
+    "memd",
+    "去重",
+    "event_id",
+    "服务端改造",
+    "待审查"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_257e1393bfbdd5bcdedb",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-25T16:59:43.926564Z",
+  "valid_to": null
+}

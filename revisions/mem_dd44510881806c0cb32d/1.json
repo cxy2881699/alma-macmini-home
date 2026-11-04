@@ -1,0 +1,59 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:29:16.452266Z",
+  "id": "rev_a2be9cd9a77622c87e4e",
+  "memory": {
+    "conditions": "分身先基于摘要写初版,后基于 PDF 全文重写同一总结文件。",
+    "confidence": 0.8,
+    "content": "摘要初版与全文版的关键差异之一是 MINJA 证据等级变化:初版未定位到精确 arXiv ID、基于已知信息撰写,全文版读到 PDF 后给出 98.2%/76.8% 等具体攻击数据,P0 第1条由推断升级为实证支撑。",
+    "created_at": "2026-10-27T05:29:16.452266Z",
+    "derived_from": [],
+    "entities": [
+      "ent_803e29983b18f51d0780",
+      "ent_12e60967bd71bfb38736"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_3567af8b8693e96c3d81",
+        "quote": "摘要初版与全文版的关键差异之一是 MINJA 证据等级变化:初版未定位到精确 arXiv ID、基于已知信息撰写,全文版读到 PDF 后给出 98.2%/76.8% 等具体攻击数据,P0 第1条由推断升级为实证支撑。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_dd44510881806c0cb32d",
+    "is_temporary": false,
+    "keywords": [
+      "MINJA",
+      "版本差异",
+      "攻击数据",
+      "证据升级"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_3567af8b8693e96c3d81",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:29:16.452266Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_dd44510881806c0cb32d",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

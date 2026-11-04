@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:46:54.573974Z",
+  "id": "rev_d90f9a4c5ff7e5bd7d2b",
+  "memory": {
+    "conditions": "Agent 给出的可进化记忆系统架构草案",
+    "confidence": 0.8,
+    "content": "成长引擎架构的核心新增对象是“带证据和版本的个体状态”,区分原始经历、情节记忆、认识与经验、个体状态、记忆策略五类内容,并要求发生了什么、个体如何理解、模型如何推测三者分开存储。",
+    "created_at": "2026-10-27T04:46:54.573974Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_69db656d56ca0805da48",
+    "is_temporary": false,
+    "keywords": [
+      "个体状态",
+      "版本化",
+      "证据",
+      "五类记忆"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:46:54.573974Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_69db656d56ca0805da48",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

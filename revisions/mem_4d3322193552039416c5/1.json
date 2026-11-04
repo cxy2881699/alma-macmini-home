@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:32:19.153988Z",
+  "id": "rev_2ed5a51eaf62026670a3",
+  "memory": {
+    "conditions": "多次要求精确到网站和价格的购买清单",
+    "confidence": 0.8,
+    "content": "用户在网络/IP采购上属于自建派,愿意为干净稳定支付溢价(约$15/月),倾向具体可执行的方案(精确到网站、价格、配置步骤)而非泛泛建议。",
+    "created_at": "2026-10-27T05:32:19.153988Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_4d3322193552039416c5",
+    "is_temporary": false,
+    "keywords": [
+      "自建派",
+      "采购偏好",
+      "要具体方案",
+      "价格不敏感"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-27T05:32:19.153988Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_4d3322193552039416c5",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

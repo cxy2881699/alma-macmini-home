@@ -1,0 +1,68 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:24:03.488937Z",
+  "id": "rev_bee0d73c0398ac7380c3",
+  "memory": {
+    "conditions": "OpenClaw 记忆插件因当前版本不支持安装配置中的 hooks 字段而反复报错。",
+    "confidence": 0.85,
+    "content": "2026-09-24 凌晨确认 OpenClaw 记忆插件故障的直接配置原因之一是安装时写入了当前版本不支持的 plugins.entries.agent-memory.hooks 字段,移除后插件可 loaded。",
+    "created_at": "2026-10-27T04:24:03.488937Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_1d9f495f128ccc9b4e0f",
+        "quote": "2026-09-24 凌晨确认 OpenClaw 记忆插件故障的直接配置原因之一是安装时写入了当前版本不支持的 plugins.entries.agent-memory.hooks 字段,移除后插件可 loaded。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_ae46b14b689f5eaaee77",
+    "is_temporary": false,
+    "keywords": [
+      "OpenClaw",
+      "hooks",
+      "插件配置",
+      "loaded",
+      "hooks字段",
+      "插件loaded",
+      "Gateway旧进程",
+      "hooks 字段",
+      "plugins.entries.agent-memory.…",
+      "插件 loaded",
+      "配置不兼容"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_1d9f495f128ccc9b4e0f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:24:03.488937Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ae46b14b689f5eaaee77",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

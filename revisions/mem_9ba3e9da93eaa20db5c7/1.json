@@ -1,0 +1,61 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:29:01.205287Z",
+  "id": "rev_8214bcd4b968a328be46",
+  "memory": {
+    "conditions": "用户验收代理网络修复和记忆系统功能时提出的核心标准。",
+    "confidence": 0.95,
+    "content": "用户最重视保证 OpenClaw/Agent 自身持续在线,并要求记忆系统在每轮对话时自动 search 相关记忆且注入当前上下文。",
+    "created_at": "2026-09-23T17:29:01.205287Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_8b1cd7fc53b3e4d3963e",
+        "quote": "用户最重视保证 OpenClaw/Agent 自身持续在线,并要求记忆系统在每轮对话时自动 search 相关记忆且注入当前上下文。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_9ba3e9da93eaa20db5c7",
+    "is_temporary": false,
+    "keywords": [
+      "OpenClaw存活",
+      "服务可用性",
+      "每轮搜索",
+      "记忆召回",
+      "上下文注入",
+      "记忆系统"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8b1cd7fc53b3e4d3963e",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-09-23T17:29:01.205287Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9ba3e9da93eaa20db5c7",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,37 @@
+{
+  "conditions": "用户要求在现有记忆系统之上总结架构方案。",
+  "confidence": 0.85,
+  "content": "用户希望基于当前 agent-memory 设计一个可持续进化、可成长为赛博生命的记忆系统,并要求未来兼容、可修改。",
+  "created_at": "2026-11-02T19:01:40.983394Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_6f9c2c2affe127a3980b",
+  "is_temporary": false,
+  "keywords": [
+    "持续进化",
+    "赛博生命",
+    "兼容",
+    "可修改",
+    "成长引擎"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-11-02T19:01:40.983394Z",
+  "valid_to": null
+}

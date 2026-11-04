@@ -1,0 +1,45 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:19:34.675559Z",
+  "id": "rev_02ecabe1169307952c3a",
+  "memory": {
+    "conditions": "Agent 复查配置时承认此前规则没有落盘。",
+    "confidence": 0.88,
+    "content": "此前声称已加入的 Clash/mihomo 分流规则 GEOIP,CN,DIRECT 实际未在当前生效配置中;当时只有广告拦截和 MATCH,PROXY,因此节点失效时国内流量也被送往死节点。",
+    "created_at": "2026-10-27T05:19:34.675559Z",
+    "derived_from": [],
+    "entities": [
+      "ent_f18082c6c564869030be"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_61745c31f0f5c74e6481",
+    "is_temporary": false,
+    "keywords": [
+      "分流规则未生效",
+      "Verge配置覆盖",
+      "国内直连",
+      "整机断网"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:19:34.675559Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_61745c31f0f5c74e6481",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

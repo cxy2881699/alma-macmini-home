@@ -1,0 +1,54 @@
+{
+  "conditions": "用户说小龙虾正在修改，要求改完后再看 memd 修复。",
+  "confidence": 0.95,
+  "content": "2026-09-26,用户表示 OpenClaw(小龙虾)客户端正在修改中,要求等修改完成后再审查 memd 去重修复;当前 Agent 不继续改代码或服务。",
+  "created_at": "2026-09-25T16:59:43.926564Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_257e1393bfbdd5bcdedb",
+      "quote": "2026-09-26,用户表示 OpenClaw(小龙虾)客户端正在修改中,要求等修改完成后再审查 memd 去重修复;当前 Agent 不继续改代码或服务。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_699b7e533afa03674ce5",
+  "is_temporary": true,
+  "keywords": [
+    "修改中",
+    "memd",
+    "去重",
+    "event_id",
+    "复审",
+    "小龙虾",
+    "OpenClaw",
+    "等待审查",
+    "暂停定稿",
+    "去重修复"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_257e1393bfbdd5bcdedb",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "disputed",
+  "status_reason": "migrated from old agent-memory (disputed)",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-25T19:03:40.412786Z",
+  "valid_to": null
+}

@@ -1,0 +1,53 @@
+{
+  "conditions": "手动设置 Wi-Fi 代理到 7897 后，全局 scutil 视图仍显示 HTTPEnable: 0。",
+  "confidence": 0.88,
+  "content": "2026-10-18 晚 networksetup 对 Wi-Fi 写入 7897 后即使命令回显“写入完成”,scutil 仍可能显示 HTTPEnable: 0,因此必须用 networksetup -getwebproxy、configd 刷新、网络服务顺序和浏览器实测交叉验证。",
+  "created_at": "2026-10-27T05:23:45.765274Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f18082c6c564869030be"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_b513ec84f98cca74efd9",
+      "quote": "2026-10-18 晚 networksetup 对 Wi-Fi 写入 7897 后即使命令回显“写入完成”,scutil 仍可能显示 HTTPEnable: 0,因此必须用 networksetup -getwebproxy、configd 刷新、网络服务顺序和浏览器实测交叉验证。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_24c9fccc413f21caf079",
+  "is_temporary": false,
+  "keywords": [
+    "写入完成 HTTPEnable 0",
+    "networksetup",
+    "scutil",
+    "Wi-Fi 代理",
+    "networksetup 写入完成",
+    "scutil 不刷新",
+    "getwebproxy",
+    "configd",
+    "网络服务顺序"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_b513ec84f98cca74efd9",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:23:45.765274Z",
+  "valid_to": null
+}

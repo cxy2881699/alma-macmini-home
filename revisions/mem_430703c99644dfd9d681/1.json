@@ -1,0 +1,55 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-31T19:04:09.933814Z",
+  "id": "rev_61081b03c34041ee120e",
+  "memory": {
+    "conditions": "用户要求对八类建模范式逐一表态并给推荐架构。",
+    "confidence": 0.85,
+    "content": "用户在方法选型类调研中偏好明确判断而非中立罗列,要求逐类方法给出“是否推荐+理由”,并要求给出最终主架构。",
+    "created_at": "2026-10-31T19:04:09.933814Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_1627b009151f2cb1840b",
+        "quote": "用户在方法选型类调研中偏好明确判断而非中立罗列,要求逐类方法给出“是否推荐+理由”,并要求给出最终主架构。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_430703c99644dfd9d681",
+    "is_temporary": false,
+    "keywords": [
+      "明确表态",
+      "方法对比",
+      "选型建议"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_1627b009151f2cb1840b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-31T19:04:09.933814Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_430703c99644dfd9d681",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

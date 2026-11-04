@@ -1,0 +1,49 @@
+{
+  "conditions": "此前联网工具不可用后，用户重新定义安全边界并授权三个文献 API。",
+  "confidence": 0.78,
+  "content": "在工具或权限受限时,用户偏好通过收窄工作目录、明确白名单工具和指定 API 的方式继续完成任务,而不是接受凭记忆补全。",
+  "created_at": "2026-11-01T19:04:40.803258Z",
+  "derived_from": [],
+  "entities": [
+    "ent_16155c4beee90c991d14"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8d3f3ac718d007dd877d",
+      "quote": "在工具或权限受限时,用户偏好通过收窄工作目录、明确白名单工具和指定 API 的方式继续完成任务,而不是接受凭记忆补全。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_054806e3d5bbc135aec6",
+  "is_temporary": false,
+  "keywords": [
+    "权限受限",
+    "白名单工具",
+    "curl",
+    "API检索",
+    "工作目录隔离"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8d3f3ac718d007dd877d",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-11-01T19:04:40.803258Z",
+  "valid_to": null
+}

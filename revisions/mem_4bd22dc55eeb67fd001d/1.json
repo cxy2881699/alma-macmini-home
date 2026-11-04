@@ -1,0 +1,58 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:18:52.135020Z",
+  "id": "rev_c112244da569391e3c96",
+  "memory": {
+    "conditions": "节点 TCP 全封后，Agent 建议唯一出路是换节点或换订阅。",
+    "confidence": 0.72,
+    "content": "用户需要在更换或订阅新的代理节点后,由 Agent 帮忙测试新节点连通性,并复测整机网络是否恢复。",
+    "created_at": "2026-10-27T05:18:52.135020Z",
+    "derived_from": [],
+    "entities": [
+      "ent_f18082c6c564869030be"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_1cd898a27b168e387484",
+        "quote": "用户需要在更换或订阅新的代理节点后,由 Agent 帮忙测试新节点连通性,并复测整机网络是否恢复。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_4bd22dc55eeb67fd001d",
+    "is_temporary": false,
+    "keywords": [
+      "换节点",
+      "连通性复测",
+      "VPN修复",
+      "代理测试"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_1cd898a27b168e387484",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-10-27T05:18:52.135020Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_4bd22dc55eeb67fd001d",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

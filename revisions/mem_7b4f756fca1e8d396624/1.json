@@ -1,0 +1,77 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-07T19:03:40.332727Z",
+  "id": "rev_ef805d78c15185aa4e7f",
+  "memory": {
+    "conditions": "回顾 ICLR MemAgents 论文调研从摘要版升级到全文版的流程时检索。",
+    "confidence": 0.85,
+    "content": "论文调研采用两阶段升级路径:先基于 arXiv/OpenReview 摘要出初版(30篇抓到摘要,11篇标注未获取原文),用户补传 PDF 全文后再由分身基于全文重写替换。",
+    "created_at": "2026-10-07T19:03:40.332727Z",
+    "derived_from": [],
+    "entities": [
+      "ent_803e29983b18f51d0780"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_4ead9e010ef9d7e33330",
+        "quote": "论文调研采用两阶段升级路径:先基于 arXiv/OpenReview 摘要出初版(30篇抓到摘要,11篇标注未获取原文),用户补传 PDF 全文后再由分身基于全文重写替换。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_3567af8b8693e96c3d81",
+        "quote": "论文调研采用两阶段升级路径:先基于 arXiv/OpenReview 摘要出初版(30篇抓到摘要,11篇标注未获取原文),用户补传 PDF 全文后再由分身基于全文重写替换。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_7b4f756fca1e8d396624",
+    "is_temporary": false,
+    "keywords": [
+      "摘要初版",
+      "全文重写",
+      "subagent",
+      "arXiv摘要",
+      "OpenReview验证墙",
+      "PDF全文",
+      "paper-summaries版本",
+      "两阶段调研",
+      "arXiv摘要初版",
+      "PDF全文重写",
+      "30/48",
+      "未获取原文"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_4ead9e010ef9d7e33330",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_3567af8b8693e96c3d81",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-07T19:03:40.332727Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_7b4f756fca1e8d396624",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

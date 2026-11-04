@@ -1,0 +1,55 @@
+{
+  "conditions": "用户在 OpenClaw 卡住时优先要求恢复网关和消息收发。",
+  "confidence": 0.82,
+  "content": "用户希望OpenClaw/Gateway自身持续在线优先于功能增强,排查时会把“是否彻底解决代理网络问题、Agent是否活着”作为首要验收项。",
+  "created_at": "2026-09-24T19:02:25.898445Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_f90a16b26a8ab1d551fc",
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8b1cd7fc53b3e4d3963e",
+      "quote": "用户希望OpenClaw/Gateway自身持续在线优先于功能增强,排查时会把“是否彻底解决代理网络问题、Agent是否活着”作为首要验收项。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_3259488c198783cde80c",
+  "is_temporary": false,
+  "keywords": [
+    "在线率",
+    "Gateway存活",
+    "代理修复",
+    "首要目标",
+    "OpenClaw 在线",
+    "小龙虾复活",
+    "Gateway 可用性",
+    "首要验收",
+    "无响应"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8b1cd7fc53b3e4d3963e",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-09-24T19:02:25.898445Z",
+  "valid_to": null
+}

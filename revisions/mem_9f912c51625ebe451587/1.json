@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:37:56.365080Z",
+  "id": "rev_83647ce7df946f1b7e47",
+  "memory": {
+    "conditions": "用户询问被墙机器用途和日本服务器是否更好，Agent 给出架构建议。",
+    "confidence": 0.6,
+    "content": "用户倾向于把被墙的 RackNerd LA 机器改作 Cloudflare 回源落地(WS+TLS+CDN),并另购日本或新加坡原生 IP 的干净 VPS 作为主力,而非继续在 ColoCrossing 同段付费换 IP。",
+    "created_at": "2026-10-27T05:37:56.365080Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_9f912c51625ebe451587",
+    "is_temporary": false,
+    "keywords": [
+      "日本VPS",
+      "CF回源",
+      "原生IP",
+      "中转落地分离"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-10-27T05:37:56.365080Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9f912c51625ebe451587",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,47 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-02T19:02:11.744858Z",
+  "id": "rev_d5fca166848a05625f5a",
+  "memory": {
+    "conditions": "用户要求基于当前记忆系统设计可持续进化、兼容可修改的方案",
+    "confidence": 0.8,
+    "content": "用户设想的可进化记忆系统核心架构:在现有 agent-memory 上增加成长引擎层,维护带证据和版本的个体状态,支持记忆策略自身进化,并保持旧客户端兼容、接口可替换、可回滚。",
+    "created_at": "2026-10-02T19:02:11.744858Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_cb1c7e9962314fe985bb",
+    "is_temporary": false,
+    "keywords": [
+      "成长引擎",
+      "架构",
+      "版本化",
+      "兼容",
+      "赛博生命"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-02T19:02:11.744858Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_cb1c7e9962314fe985bb",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

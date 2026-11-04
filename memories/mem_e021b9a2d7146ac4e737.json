@@ -1,0 +1,52 @@
+{
+  "conditions": "撰写用户要求的学术或研究型中文文档时。",
+  "confidence": 0.97,
+  "content": "用户希望该文献调研用中文撰写、术语保留英文,并明确区分强证据、中等证据、弱证据或假说以及已证伪内容。",
+  "created_at": "2026-10-27T04:18:07.879408Z",
+  "derived_from": [],
+  "entities": [
+    "ent_868b6b7b308b553adaaf",
+    "ent_ac75cb66690cacf39d3f"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_7bab4433029e0047b9ba",
+      "quote": "用户希望该文献调研用中文撰写、术语保留英文,并明确区分强证据、中等证据、弱证据或假说以及已证伪内容。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_e021b9a2d7146ac4e737",
+  "is_temporary": false,
+  "keywords": [
+    "中文撰写",
+    "英文术语",
+    "证据强度",
+    "强证据",
+    "假说",
+    "已证伪",
+    "文献综述"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_7bab4433029e0047b9ba",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-27T04:18:07.879408Z",
+  "valid_to": null
+}

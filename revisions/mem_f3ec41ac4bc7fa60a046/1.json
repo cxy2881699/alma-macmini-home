@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-07T19:05:00.652496Z",
+  "id": "rev_27f5da3a14458e021664",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-10-07：上午 cron 晨报执行并自称已验证发送;随后用户指出晨报把 GLM-4.6 旧闻当头条,Agent 承认发布日期筛选失误并提出时效与聚合源降权规则;凌晨两次心跳检查均无异常。",
+    "created_at": "2026-10-07T19:05:00.652496Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_21ec0a807d8ab8a39f8f",
+        "quote": "2026-10-07：上午 cron 晨报执行并自称已验证发送;随后用户指出晨报把 GLM-4.6 旧闻当头条,Agent 承认发布日期筛选失误并提出时效与聚合源降权规则;凌晨两次心跳检查均无异常。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_f3ec41ac4bc7fa60a046",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_21ec0a807d8ab8a39f8f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-07T19:05:00.652496Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_f3ec41ac4bc7fa60a046",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

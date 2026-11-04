@@ -1,0 +1,41 @@
+{
+  "conditions": "被封 VPS 仍可通过境外新 VPS 跳板管理。",
+  "confidence": 0.85,
+  "content": "被封的 RackNerd VPS(155.94.145.75)仅中国入境 TCP 被墙、出口正常,可通过新 VPS 作 SSH 跳板(ssh -J / ProxyJump)连接,也可经 VNC 装 Tailscale 走 DERP 中继",
+  "created_at": "2026-10-27T04:56:44.982169Z",
+  "derived_from": [],
+  "entities": [
+    "ent_421c00dde9a1b98fc969"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_6bd0f0aa8c0842f943ad",
+  "is_temporary": false,
+  "keywords": [
+    "跳板",
+    "被墙",
+    "SSH",
+    "DERP",
+    "RackNerd",
+    "LA-Reality",
+    "SSH 跳板",
+    "ProxyJump",
+    "VNC",
+    "Tailscale DERP"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:56:44.982169Z",
+  "valid_to": null
+}

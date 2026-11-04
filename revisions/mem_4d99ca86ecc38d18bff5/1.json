@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:13:24.987245Z",
+  "id": "rev_da95da1528f2ef0a692b",
+  "memory": {
+    "conditions": "Codex 在解释部署后问题时指出时间线顺序可能因时区设置而看起来不准确。",
+    "confidence": 0.76,
+    "content": "记忆库时间线曾受电脑显示美国时区、实际按北京时间运行的影响,数据库、日志和记忆卡片日期可能偏移,排查事件顺序时需先核对时区。",
+    "created_at": "2026-10-27T05:13:24.987245Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_e255c16e5b36c919f3a5",
+        "quote": "记忆库时间线曾受电脑显示美国时区、实际按北京时间运行的影响,数据库、日志和记忆卡片日期可能偏移,排查事件顺序时需先核对时区。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_4d99ca86ecc38d18bff5",
+    "is_temporary": false,
+    "keywords": [
+      "时区偏移",
+      "美国时区",
+      "北京时间",
+      "时间线",
+      "日志日期"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_e255c16e5b36c919f3a5",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:13:24.987245Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_4d99ca86ecc38d18bff5",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

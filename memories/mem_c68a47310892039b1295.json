@@ -1,0 +1,53 @@
+{
+  "conditions": "用户要求继续排查并修复 OpenClaw 卡住及记忆自动召回失败问题。",
+  "confidence": 0.7,
+  "content": "Agent 继续修复 OpenClaw 记忆召回:移除不兼容 hooks 字段、改用 127.0.0.1:8787 后插件加载且直接召回成功,但网关旧进程未重载配置,需用户手动重启 OpenClaw Gateway。",
+  "created_at": "2026-09-23T17:09:11.224621Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_421c00dde9a1b98fc969",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_1d9f495f128ccc9b4e0f",
+      "quote": "Agent 继续修复 OpenClaw 记忆召回:移除不兼容 hooks 字段、改用 127.0.0.1:8787 后插件加载且直接召回成功,但网关旧进程未重载配置,需用户手动重启 OpenClaw Gateway。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_c68a47310892039b1295",
+  "is_temporary": false,
+  "keywords": [
+    "OpenClaw",
+    "Agent Memory",
+    "自动召回",
+    "Tailscale",
+    "127.0.0.1",
+    "网关重启",
+    "插件加载"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1d9f495f128ccc9b4e0f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-23T17:09:11.224621Z",
+  "valid_to": null
+}

@@ -1,0 +1,70 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:20:03.808891Z",
+  "id": "rev_84e0e4810bfeabc3022d",
+  "memory": {
+    "conditions": "切换代理后命令行仍访问旧端口时，优先检查当前 shell 会话环境变量，而不是只看系统设置。",
+    "confidence": 0.9,
+    "content": "Mac 终端中即使代理配置文件已清理,旧终端窗口仍可能保留 http_proxy、https_proxy、all_proxy 等环境变量,导致 curl 连接 127.0.0.1:8118 或 8119 失败;应在当前窗口 unset 后再测试。",
+    "created_at": "2026-10-27T04:20:03.808891Z",
+    "derived_from": [],
+    "entities": [
+      "ent_f18082c6c564869030be"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_b609b98e2176b3bff378",
+        "quote": "Mac 终端中即使代理配置文件已清理,旧终端窗口仍可能保留 http_proxy、https_proxy、all_proxy 等环境变量,导致 curl 连接 127.0.0.1:8118 或 8119 失败;应在当前窗口 unset 后再测试。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_ef4d7089996d01ad8180",
+    "is_temporary": false,
+    "keywords": [
+      "macOS",
+      "curl",
+      "8118",
+      "8119",
+      "环境变量",
+      "unset",
+      "unset proxy",
+      "http_proxy",
+      "https_proxy",
+      "curl 8118",
+      "旧终端窗口",
+      "旧终端窗口代理",
+      "http_proxy 残留",
+      "all_proxy",
+      "unset all_proxy",
+      "curl 8119"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_b609b98e2176b3bff378",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-10-27T04:20:03.808891Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ef4d7089996d01ad8180",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

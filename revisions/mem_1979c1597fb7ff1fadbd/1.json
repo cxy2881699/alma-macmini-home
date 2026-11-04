@@ -1,0 +1,59 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-24T19:01:20.803064Z",
+  "id": "rev_8c11b0cd9c4cf4839aec",
+  "memory": {
+    "conditions": "用户发现记忆服务挂了，Agent 排查数据库依赖。",
+    "confidence": 0.85,
+    "content": "记忆服务在 2026-09-24 约10:43 曾因 Neo4j 被停止而重启循环;按依赖顺序重启 Neo4j 与主服务后恢复稳定。",
+    "created_at": "2026-09-24T19:01:20.803064Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_1b0510f6e7579d8f62b3",
+      "ent_176409fa578ba26c2c5b"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_d7255c0fedb42db38d51",
+        "quote": "记忆服务在 2026-09-24 约10:43 曾因 Neo4j 被停止而重启循环;按依赖顺序重启 Neo4j 与主服务后恢复稳定。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_1979c1597fb7ff1fadbd",
+    "is_temporary": false,
+    "keywords": [
+      "Neo4j停止",
+      "重启循环",
+      "服务恢复"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d7255c0fedb42db38d51",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-24T19:01:20.803064Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_1979c1597fb7ff1fadbd",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "seancao@Mac"
+  ],
+  "created_at": "2026-10-27T04:20:59.339975Z",
+  "description": "用户的 MacBook 电脑，2026-10-18 排查并修复 Clash Verge 系统代理与旧 8118 代理残留问题。",
+  "id": "ent_c42dac5ae99195f63d24",
+  "name": "MacBook",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T08:56:50.230011Z"
+}

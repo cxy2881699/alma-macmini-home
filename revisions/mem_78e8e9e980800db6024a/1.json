@@ -1,0 +1,96 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:20:03.808891Z",
+  "id": "rev_1e7d5c2433a3c7bf50cd",
+  "memory": {
+    "conditions": "适用于后续排查 OpenClaw 模型参数、响应速度或图片能力时。",
+    "confidence": 0.7,
+    "content": "OpenClaw 主模型切换到 kimi-k3-1-pro-261024 后,用户担心服务挂掉并反馈输出慢;Agent 确认模型切换成功,随后按用户参数改为 1024k 上下文、128k 输出并启用图片和 reasoning。",
+    "created_at": "2026-10-27T04:20:03.808891Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_85ac7912658c80484706"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_923b6bbaf5c2fc8363ab",
+        "quote": "OpenClaw 主模型切换到 kimi-k3-1-pro-261024 后,用户担心服务挂掉并反馈输出慢;Agent 确认模型切换成功,随后按用户参数改为 1024k 上下文、128k 输出并启用图片和 reasoning。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_09922c8bf03700110a59",
+        "quote": "OpenClaw 主模型切换到 kimi-k3-1-pro-261024 后,用户担心服务挂掉并反馈输出慢;Agent 确认模型切换成功,随后按用户参数改为 1024k 上下文、128k 输出并启用图片和 reasoning。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_6bd23e50822556638c98",
+        "quote": "OpenClaw 主模型切换到 kimi-k3-1-pro-261024 后,用户担心服务挂掉并反馈输出慢;Agent 确认模型切换成功,随后按用户参数改为 1024k 上下文、128k 输出并启用图片和 reasoning。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_d8256c83941af0aea9e4",
+        "quote": "OpenClaw 主模型切换到 kimi-k3-1-pro-261024 后,用户担心服务挂掉并反馈输出慢;Agent 确认模型切换成功,随后按用户参数改为 1024k 上下文、128k 输出并启用图片和 reasoning。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_78e8e9e980800db6024a",
+    "is_temporary": false,
+    "keywords": [
+      "OpenClaw",
+      "模型切换",
+      "Kimi",
+      "上下文窗口",
+      "maxTokens",
+      "图片输入",
+      "reasoning",
+      "输出慢"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_923b6bbaf5c2fc8363ab",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_09922c8bf03700110a59",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_6bd23e50822556638c98",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_d8256c83941af0aea9e4",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-10-27T04:20:03.808891Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_78e8e9e980800db6024a",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

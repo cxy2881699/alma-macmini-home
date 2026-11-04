@@ -1,0 +1,47 @@
+{
+  "conditions": "用户限定只能用 Bash 与 curl 调三个学术 API，Agent 先探测可用性。",
+  "confidence": 0.9,
+  "content": "在 2026-10-22 的文献检索环境中,Semantic Scholar 初始不可用,但 Crossref 与 PubMed API 可作为替代检索源;该状态仅限当时探测。",
+  "created_at": "2026-10-27T05:24:55.643530Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8d3f3ac718d007dd877d",
+      "quote": "在 2026-10-22 的文献检索环境中,Semantic Scholar 初始不可用,但 Crossref 与 PubMed API 可作为替代检索源;该状态仅限当时探测。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_b65ade3d269125595945",
+  "is_temporary": false,
+  "keywords": [
+    "API 429",
+    "文献检索",
+    "Crossref",
+    "PubMed",
+    "Semantic Scholar"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8d3f3ac718d007dd877d",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:24:55.643530Z",
+  "valid_to": null
+}

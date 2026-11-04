@@ -1,0 +1,43 @@
+{
+  "conditions": "",
+  "confidence": 0.9,
+  "content": "调研报告认为 agent-memory 的主要短板是选择性遗忘机制基本闲置:库中 valid_to 只标注了 1 条,记忆只增不减,长期可能降低记忆质量。",
+  "created_at": "2026-09-23T18:16:37.304622Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_b29cd56d3c2b7ce9a86e",
+      "quote": "调研报告认为 agent-memory 的主要短板是选择性遗忘机制基本闲置:库中 valid_to 只标注了 1 条,记忆只增不减,长期可能降低记忆质量。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_b37492848e8dc084fee8",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_b29cd56d3c2b7ce9a86e",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-23T18:16:37.304622Z",
+  "valid_to": null
+}

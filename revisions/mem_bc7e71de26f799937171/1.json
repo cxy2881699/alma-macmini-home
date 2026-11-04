@@ -1,0 +1,66 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-28T19:04:31.358014Z",
+  "id": "rev_fd8a9f8c35bcb01624ee",
+  "memory": {
+    "conditions": "假记忆事件中 Agent 发现 memory_correct 未接到自己的工具面。",
+    "confidence": 0.85,
+    "content": "memd 已提供主动记忆、深检索、纠正、遗忘等 MCP 工具,但当时 OpenClaw 尚未接入,接入后可支持主动管理记忆。",
+    "created_at": "2026-09-28T19:04:31.358014Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def",
+      "ent_1b0510f6e7579d8f62b3",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_b29cd56d3c2b7ce9a86e",
+        "quote": "memd 已提供主动记忆、深检索、纠正、遗忘等 MCP 工具,但当时 OpenClaw 尚未接入,接入后可支持主动管理记忆。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_bc7e71de26f799937171",
+    "is_temporary": false,
+    "keywords": [
+      "MCP工具",
+      "主动记忆",
+      "深检索",
+      "记忆纠正",
+      "记忆遗忘",
+      "memory_correct",
+      "MCP 工具",
+      "纠正工具未接入",
+      "主动记忆管理"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_b29cd56d3c2b7ce9a86e",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-28T19:04:31.358014Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_bc7e71de26f799937171",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,40 @@
+{
+  "conditions": "用户阐述记忆是自我进化 Agent 的生命来源，并计划在现有记忆底座上构建增强层。",
+  "confidence": 0.85,
+  "content": "用户正在设计一个能持续进化、成长出赛博生命的记忆系统,要求基于现有 agent-memory 增量构建、未来可兼容可修改,并计划用其他 Agent 分析 PRD。",
+  "created_at": "2026-10-27T05:21:57.475298Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_8b9cbbde4332b9776979",
+  "is_temporary": false,
+  "keywords": [
+    "架构设计",
+    "兼容性",
+    "赛博生命",
+    "可进化记忆",
+    "成长引擎",
+    "NPC",
+    "智能玩具",
+    "经历塑造 Agent"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-10-27T05:21:57.475298Z",
+  "valid_to": null
+}

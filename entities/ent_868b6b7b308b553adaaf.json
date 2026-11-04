@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "主文档"
+  ],
+  "created_at": "2026-10-27T04:18:07.879408Z",
+  "description": "用户要求生成的严肃文献调研主文档，路径为 /Users/seancao/.openclaw/workspace/docs/research/hormone-psych-lit-review.md。",
+  "id": "ent_868b6b7b308b553adaaf",
+  "name": "hormone-psych-lit-review.md",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T08:56:50.225438Z"
+}

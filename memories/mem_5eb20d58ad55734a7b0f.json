@@ -1,0 +1,37 @@
+{
+  "conditions": "用户要求基于当前记忆系统设计可持续进化的方案",
+  "confidence": 0.85,
+  "content": "用户设想的记忆系统成长引擎采用增量层设计:在现有 agent-memory 上增加多维重要性评估、带证据与版本的个体状态更新、可回滚的记忆策略进化,并保持旧客户端兼容。",
+  "created_at": "2026-10-27T04:36:36.655507Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_5eb20d58ad55734a7b0f",
+  "is_temporary": false,
+  "keywords": [
+    "成长引擎",
+    "个体状态",
+    "策略进化",
+    "兼容性",
+    "赛博生命"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:36:36.655507Z",
+  "valid_to": null
+}

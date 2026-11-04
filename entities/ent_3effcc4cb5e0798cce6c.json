@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "论文清单"
+  ],
+  "created_at": "2026-09-28T03:19:09.026710Z",
+  "description": "含 48 篇论文 arXiv ID 和 OpenReview 链接的清单，路径 /Users/seancao/.openclaw/workspace/papers-list.md",
+  "id": "ent_3effcc4cb5e0798cce6c",
+  "name": "papers-list.md",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T08:56:50.221315Z"
+}

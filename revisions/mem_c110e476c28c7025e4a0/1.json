@@ -1,0 +1,76 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T18:35:13.611211Z",
+  "id": "rev_47ae62231e98211f0840",
+  "memory": {
+    "conditions": "核查七案政府官员是否出席时，赛力斯凤凰是唯一被稿件明确记载的案例。",
+    "confidence": 0.9,
+    "content": "截至 2026-10-27 的公开稿核查显示,火山引擎与赛力斯凤凰 2025-10-09 在北京签署具身智能业务合作框架协议时,重庆市人民政府副市长郑向东被稿件明确记载为见证签约;其余六案所核主稿件未明确提及政府官员出席。",
+    "created_at": "2026-10-27T18:35:13.611211Z",
+    "derived_from": [],
+    "entities": [
+      "ent_b4a085894df92a90957d",
+      "ent_2143b5f3e888b501cc3c",
+      "ent_7eb36e87c3f9406c9215",
+      "ent_efece682195ff5999c2b",
+      "ent_700816e920bebe421d7a",
+      "ent_02d36becfe6f60ace7bf",
+      "ent_1002d231aa8e29c9351b",
+      "ent_7d1a8b2d0370b729952b"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_d4ea596374d100c7cd4f",
+        "quote": "截至 2026-10-27 的公开稿核查显示,火山引擎与赛力斯凤凰 2025-10-09 在北京签署具身智能业务合作框架协议时,重庆市人民政府副市长郑向东被稿件明确记载为见证签约;其余六案所核主稿件未明确提及政府官员出席。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_c110e476c28c7025e4a0",
+    "is_temporary": false,
+    "keywords": [
+      "赛力斯具身智能",
+      "政府出席",
+      "政府官员",
+      "见证签约",
+      "未提及不等于未出席",
+      "具身智能签约",
+      "重庆市副市长",
+      "具身智能",
+      "政府见证",
+      "官员出席",
+      "郑向东",
+      "重庆副市长",
+      "政府官员见证",
+      "赛力斯凤凰",
+      "唯一明确见证"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d4ea596374d100c7cd4f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T18:35:13.611211Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_c110e476c28c7025e4a0",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-10-13：两次简短的连通性测试,用户要求仅回复\"正常\"二字,助手照做。",
+  "created_at": "2026-10-27T04:27:51.991170Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_d9d1209f30bac52c784a",
+      "quote": "2026-10-13：两次简短的连通性测试,用户要求仅回复\"正常\"二字,助手照做。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_d0f0e48489bec99c6518",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d9d1209f30bac52c784a",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-27T04:27:51.991170Z",
+  "valid_to": null
+}

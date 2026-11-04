@@ -1,0 +1,49 @@
+{
+  "conditions": "用户追问是谁把 IP 墙了，Agent 给出可区分 GFW 与服务器封禁的测试。",
+  "confidence": 0.82,
+  "content": "LA-Reality 节点 IP 155.94.145.75 的故障被进一步限定为单 IP 方向问题:海外多节点 TCP 443 可达、同网段邻居可达,可能是 GFW 单 IP 封锁,也可能是服务器侧按用户国内出口 IP 封禁,需用手机 4G 交叉验证。",
+  "created_at": "2026-10-27T04:29:01.623985Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6ebee10dda1843bbd843"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_3210ae8eb43d60bbb142",
+      "quote": "LA-Reality 节点 IP 155.94.145.75 的故障被进一步限定为单 IP 方向问题:海外多节点 TCP 443 可达、同网段邻居可达,可能是 GFW 单 IP 封锁,也可能是服务器侧按用户国内出口 IP 封禁,需用手机 4G 交叉验证。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_4d6b7028f517b27fe055",
+  "is_temporary": false,
+  "keywords": [
+    "IP被墙",
+    "单IP封锁",
+    "fail2ban",
+    "4G交叉验证",
+    "ColoCrossing"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_3210ae8eb43d60bbb142",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:29:01.623985Z",
+  "valid_to": null
+}

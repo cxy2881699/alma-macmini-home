@@ -1,0 +1,70 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:20:35.161630Z",
+  "id": "rev_6127ea3d7daacdc23f67",
+  "memory": {
+    "conditions": "模型切换前先备份配置并保留 rollback，符合用户对风险运维的安全预期。",
+    "confidence": 0.78,
+    "content": "用户倾向让 Agent 在执行有风险的运维变更时先备份、验证、再重启,并保留明确的回滚路径。",
+    "created_at": "2026-10-27T05:20:35.161630Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_9d10a69084bd77edc45a",
+        "quote": "用户倾向让 Agent 在执行有风险的运维变更时先备份、验证、再重启,并保留明确的回滚路径。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_0aa557a1e2cdfc197a30",
+    "is_temporary": false,
+    "keywords": [
+      "备份",
+      "回滚",
+      "验证",
+      "灰度",
+      "验证后重启",
+      "低风险变更",
+      "备份再改",
+      "先验证再重启",
+      "Clash配置",
+      "先备份",
+      "预检",
+      "回滚路径",
+      "switch-model.sh",
+      "rollback",
+      "运维变更"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_9d10a69084bd77edc45a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-27T05:20:35.161630Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_0aa557a1e2cdfc197a30",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

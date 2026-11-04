@@ -1,0 +1,57 @@
+{
+  "conditions": "引用招商银行战略合作后续落地时，需要限定为具体采购而非整个协议完成。",
+  "confidence": 0.88,
+  "content": "公开核查显示,招商银行与火山引擎2026-01-20签约后,2026-10-16有采购结果报道称招商银行“AIGC视觉创作服务及生成素材算力点”由火山引擎中选,金额未披露;该采购只证明局部落地,不代表战略协议全部实施完毕。",
+  "created_at": "2026-10-27T18:36:31.641604Z",
+  "derived_from": [],
+  "entities": [
+    "ent_b6e5f07139d194f4aaa5",
+    "ent_20297c3dafa0a39e0659"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_58bfeab114e9d0bc2f6a",
+      "quote": "公开核查显示,招商银行与火山引擎2026-01-20签约后,2026-10-16有采购结果报道称招商银行“AIGC视觉创作服务及生成素材算力点”由火山引擎中选,金额未披露;该采购只证明局部落地,不代表战略协议全部实施完毕。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_35a86ed6e33e32ccfefa",
+  "is_temporary": false,
+  "keywords": [
+    "生成素材算力点",
+    "火山引擎中选",
+    "AIGC采购",
+    "视觉创作",
+    "局部落地",
+    "招商银行",
+    "AIGC视觉创作",
+    "算力点",
+    "中选",
+    "采购结果",
+    "韦江波",
+    "刘俊"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_58bfeab114e9d0bc2f6a",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T18:36:31.641604Z",
+  "valid_to": null
+}

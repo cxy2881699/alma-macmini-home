@@ -1,0 +1,66 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:34:08.597383Z",
+  "id": "rev_78b86df8d95b14665f00",
+  "memory": {
+    "conditions": "服务端把相同轮次 ID 但内容不同当作修订，可能覆盖本应并存的对话。",
+    "confidence": 0.9,
+    "content": "服务端去重改造在 2026-09-26 复审时被判定仍不彻底:相同 native_turn_id 且内容不同会原地替换旧记录,可能把本应并存的两轮误判为同一轮修订;需等 OpenClaw 客户端修正后再审。",
+    "created_at": "2026-10-27T05:34:08.597383Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_16d2615f00ae766bb32b",
+        "quote": "服务端去重改造在 2026-09-26 复审时被判定仍不彻底:相同 native_turn_id 且内容不同会原地替换旧记录,可能把本应并存的两轮误判为同一轮修订;需等 OpenClaw 客户端修正后再审。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_5903e25248eab08e3ff9",
+    "is_temporary": false,
+    "keywords": [
+      "silent drop",
+      "event_id 冲突",
+      "去重改造",
+      "native_turn_id",
+      "原地替换",
+      "replaced:1",
+      "误覆盖",
+      "服务端去重",
+      "复审未通过"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_16d2615f00ae766bb32b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:34:08.597383Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_5903e25248eab08e3ff9",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

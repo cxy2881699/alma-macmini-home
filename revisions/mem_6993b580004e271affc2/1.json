@@ -1,0 +1,67 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:29:01.205287Z",
+  "id": "rev_7ddcc7cafe56febf0ba5",
+  "memory": {
+    "conditions": "用户验收 OpenClaw 网络修复和 agent-memory 每轮采集、召回、注入链路。",
+    "confidence": 0.7,
+    "content": "用户要求确认 proxy 网络问题是否彻底修复以及记忆系统每轮 search 与注入是否正常;Agent 验证外网与内网均连通、OpenClaw capture 已入库、recall 注入已生效,并发现 Codex、Claude、Cursor 数据在跨 Agent 汇入。",
+    "created_at": "2026-09-23T17:29:01.205287Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def",
+      "ent_f90a16b26a8ab1d551fc",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_51b9c91560022845906c",
+      "ent_1e8088308ba9691af4dc"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_8b1cd7fc53b3e4d3963e",
+        "quote": "用户要求确认 proxy 网络问题是否彻底修复以及记忆系统每轮 search 与注入是否正常;Agent 验证外网与内网均连通、OpenClaw capture 已入库、recall 注入已生效,并发现 Codex、Claude、Cursor 数据在跨 Agent 汇入。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_6993b580004e271affc2",
+    "is_temporary": false,
+    "keywords": [
+      "proxy",
+      "MonoProxy",
+      "OpenClaw",
+      "记忆召回",
+      "记忆注入",
+      "capture",
+      "recall",
+      "跨Agent"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8b1cd7fc53b3e4d3963e",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-23T17:29:01.205287Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_6993b580004e271affc2",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

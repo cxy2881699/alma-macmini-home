@@ -1,0 +1,46 @@
+{
+  "conditions": "49 篇论文批量提取时的工具与故障处理经验",
+  "confidence": 0.75,
+  "content": "用户的论文批处理环境中 pypdf 可用,遇损坏 PDF 时可用 PyMuPDF 修复提取;本批 EmbodiedMemory-Bench、GraphMemix、MemForest、VoxMem 四篇曾损坏并被修复。",
+  "created_at": "2026-10-31T19:02:29.579693Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_56b471b2ce769966e5ab",
+      "quote": "用户的论文批处理环境中 pypdf 可用,遇损坏 PDF 时可用 PyMuPDF 修复提取;本批 EmbodiedMemory-Bench、GraphMemix、MemForest、VoxMem 四篇曾损坏并被修复。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_649a2ed5e5ecb3de7c38",
+  "is_temporary": false,
+  "keywords": [
+    "PDF提取",
+    "损坏文件",
+    "pypdf",
+    "PyMuPDF"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_56b471b2ce769966e5ab",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-31T19:02:29.579693Z",
+  "valid_to": null
+}

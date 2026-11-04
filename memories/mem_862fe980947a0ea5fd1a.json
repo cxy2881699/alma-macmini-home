@@ -1,0 +1,48 @@
+{
+  "conditions": "用户接受放弃被 hold 的账号，重新准备一个更可信的 Gmail。",
+  "confidence": 0.86,
+  "content": "被 hold 的新 Claude/Gmail 账号不宜反复重试;用户已决定放弃该账号继续碰 Claude,改用新 Gmail 养号后再注册。",
+  "created_at": "2026-10-27T05:09:27.989002Z",
+  "derived_from": [],
+  "entities": [
+    "ent_51b9c91560022845906c"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_1cc32c8fffaceabb3bb1",
+      "quote": "被 hold 的新 Claude/Gmail 账号不宜反复重试;用户已决定放弃该账号继续碰 Claude,改用新 Gmail 养号后再注册。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_862fe980947a0ea5fd1a",
+  "is_temporary": false,
+  "keywords": [
+    "被hold账号",
+    "不要重试",
+    "重新注册Gmail",
+    "养号计划"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1cc32c8fffaceabb3bb1",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:09:27.989002Z",
+  "valid_to": null
+}

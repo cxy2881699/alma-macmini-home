@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:26:32.379876Z",
+  "id": "rev_c17a32545d24154dd81b",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-26：凌晨排查记忆服务 silent drop,定位到 openclaw-plugin 轮次 ID 撞重,服务端改造复审发现仍有误覆盖风险,决定等客户端(小龙虾)修改后再审;下午确认 Codex 三个 hook 均 Trusted/Active、对话可入库,并深入探讨可进化记忆作为赛博生命与商业化杀手锏的愿景、开源底座+成长引擎分层、三 NPC 演示及逝者数字重建的伦理边界。",
+    "created_at": "2026-10-27T04:26:32.379876Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_16d2615f00ae766bb32b",
+        "quote": "2026-09-26：凌晨排查记忆服务 silent drop,定位到 openclaw-plugin 轮次 ID 撞重,服务端改造复审发现仍有误覆盖风险,决定等客户端(小龙虾)修改后再审;下午确认 Codex 三个 hook 均 Trusted/Active、对话可入库,并深入探讨可进化记忆作为赛博生命与商业化杀手锏的愿景、开源底座+成长引擎分层、三 NPC 演示及逝者数字重建的伦理边界。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_c4da04f2490042ba0521",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_16d2615f00ae766bb32b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-27T04:26:32.379876Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_c4da04f2490042ba0521",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

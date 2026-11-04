@@ -1,0 +1,66 @@
+{
+  "conditions": "旧节点中国方向 TCP 被墙导致整机断网，但机器在境外仍可能可经新 VPS 跳板访问。",
+  "confidence": 0.9,
+  "content": "2026-10-26 晚整机断网的根因是代理节点 LA-Reality(155.94.145.75:443) ICMP 通但 TCP 443/80/8080/2053 全超时;本机 TUN 与系统代理关闭后直连恢复正常,Tailscale 已排除。",
+  "created_at": "2026-10-27T19:07:58.315182Z",
+  "derived_from": [],
+  "entities": [
+    "ent_421c00dde9a1b98fc969",
+    "ent_6ebee10dda1843bbd843",
+    "ent_f18082c6c564869030be"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_1cd898a27b168e387484",
+      "quote": "2026-10-26 晚整机断网的根因是代理节点 LA-Reality(155.94.145.75:443) ICMP 通但 TCP 443/80/8080/2053 全超时;本机 TUN 与系统代理关闭后直连恢复正常,Tailscale 已排除。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_b6f725893804d89b94de",
+  "is_temporary": false,
+  "keywords": [
+    "VPN断网",
+    "代理节点",
+    "TCP全封",
+    "VLESS Reality",
+    "GEOIP分流",
+    "VPS被墙",
+    "GFW",
+    "RackNerd洛杉矶",
+    "GFW单IP封锁",
+    "RackNerd",
+    "Clash",
+    "RackNerd被墙",
+    "Clash节点",
+    "RackNerd被封",
+    "LA-Reality",
+    "155.94.145.75",
+    "TCP超时",
+    "ICMP通",
+    "Clash Verge",
+    "TUN"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1cd898a27b168e387484",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T19:07:58.315182Z",
+  "valid_to": null
+}

@@ -1,0 +1,49 @@
+{
+  "conditions": "Agent 已给出修复路径并询问用户是先换节点还是让 Agent 改分流规则。",
+  "confidence": 0.82,
+  "content": "用户被建议添加 GEOIP,CN,DIRECT 规则并更换/复测代理节点,但截至该段对话尚未明确授权修改规则,处理处于等待用户决定状态。",
+  "created_at": "2026-10-27T04:28:26.894043Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6ebee10dda1843bbd843",
+    "ent_f18082c6c564869030be"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_bd935a27864a54ab1d40",
+      "quote": "用户被建议添加 GEOIP,CN,DIRECT 规则并更换/复测代理节点,但截至该段对话尚未明确授权修改规则,处理处于等待用户决定状态。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_61f4469270ae33874218",
+  "is_temporary": false,
+  "keywords": [
+    "待确认",
+    "代理规则",
+    "换节点",
+    "连通性复测"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_bd935a27864a54ab1d40",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-10-27T04:28:26.894043Z",
+  "valid_to": "2026-10-27"
+}

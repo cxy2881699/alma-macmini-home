@@ -1,0 +1,85 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:21:21.068627Z",
+  "id": "rev_84385c5a108b22f708ef",
+  "memory": {
+    "conditions": "当 networksetup 写入成功但 scutil 全局视图不刷新时，用多个来源交叉确认代理状态。",
+    "confidence": 0.83,
+    "content": "在这台 MacBook 上,networksetup 显示 Wi-Fi 代理已启用且配置文件中有 7897,但 scutil --proxy 仍可能显示 HTTPEnable: 0;排查网络时不能只看 scutil,应同时用 networksetup -getwebproxy、plutil 和浏览器实测确认。",
+    "created_at": "2026-10-27T04:21:21.068627Z",
+    "derived_from": [],
+    "entities": [
+      "ent_f18082c6c564869030be",
+      "ent_c42dac5ae99195f63d24",
+      "ent_603966e8e3ad513001d7"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_10853d0c7dcf8fdb980b",
+        "quote": "在这台 MacBook 上,networksetup 显示 Wi-Fi 代理已启用且配置文件中有 7897,但 scutil --proxy 仍可能显示 HTTPEnable: 0;排查网络时不能只看 scutil,应同时用 networksetup -getwebproxy、plutil 和浏览器实测确认。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_95edc76c5f59f1a2f1f2",
+        "quote": "在这台 MacBook 上,networksetup 显示 Wi-Fi 代理已启用且配置文件中有 7897,但 scutil --proxy 仍可能显示 HTTPEnable: 0;排查网络时不能只看 scutil,应同时用 networksetup -getwebproxy、plutil 和浏览器实测确认。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_4216bbdf392d0474320d",
+    "is_temporary": false,
+    "keywords": [
+      "macOS",
+      "scutil",
+      "HTTPEnable",
+      "代理显示延迟",
+      "7897",
+      "scutil --proxy",
+      "networksetup",
+      "preferences.plist",
+      "macOS代理视图延迟",
+      "scutil延迟",
+      "HTTPEnable 0",
+      "networksetup正常",
+      "plutil 7897",
+      "networksetup getwebproxy",
+      "scutil HTTPEnable 0",
+      "Wi-Fi 代理缓存",
+      "configd",
+      "浏览器实测"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_10853d0c7dcf8fdb980b",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_95edc76c5f59f1a2f1f2",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-10-27T04:21:21.068627Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_4216bbdf392d0474320d",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

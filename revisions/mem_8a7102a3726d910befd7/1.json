@@ -1,0 +1,45 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-29T19:02:57.270865Z",
+  "id": "rev_bf941da8c3ba822642df",
+  "memory": {
+    "conditions": "两次发送论文 zip 均失败后确认",
+    "confidence": 0.85,
+    "content": "飞书 zip 大附件(octet-stream)无法落盘媒体目录,但单个 PDF 可正常落盘解析;转发内容中的 arXiv 链接可作为兜底获取途径。",
+    "created_at": "2026-09-29T19:02:57.270865Z",
+    "derived_from": [],
+    "entities": [
+      "ent_22f290112c9557d215ea"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_8a7102a3726d910befd7",
+    "is_temporary": false,
+    "keywords": [
+      "飞书附件",
+      "zip不落盘",
+      "PDF",
+      "文件传输"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-29T19:02:57.270865Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_8a7102a3726d910befd7",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

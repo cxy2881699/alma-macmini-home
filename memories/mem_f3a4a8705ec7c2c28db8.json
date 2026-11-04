@@ -1,0 +1,132 @@
+{
+  "conditions": "2026-10-27 凌晨 OpenClaw 主模型从 DeepSeek 切到 Kimi，并保留备份回滚。",
+  "confidence": 0.9,
+  "content": "2026-10-27 凌晨(PDT 10-26 晚)OpenClaw 主模型已从 DeepSeek 切换为火山方舟 ark/kimi-k3-1-pro-261024,切换经预检、备份、写入、重启和实跑验证;备份 pre-model-switch-20261026-194047.json,可用 switch-model.sh --rollback 回滚。",
+  "created_at": "2026-10-27T04:48:38.001980Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_1c6b296bc5cb579536f2",
+    "ent_85ac7912658c80484706"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_d55c939bb832758641d3",
+      "quote": "2026-10-27 凌晨(PDT 10-26 晚)OpenClaw 主模型已从 DeepSeek 切换为火山方舟 ark/kimi-k3-1-pro-261024,切换经预检、备份、写入、重启和实跑验证;备份 pre-model-switch-20261026-194047.json,可用 switch-model.sh --rollback 回滚。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_21ec0a807d8ab8a39f8f",
+      "quote": "2026-10-27 凌晨(PDT 10-26 晚)OpenClaw 主模型已从 DeepSeek 切换为火山方舟 ark/kimi-k3-1-pro-261024,切换经预检、备份、写入、重启和实跑验证;备份 pre-model-switch-20261026-194047.json,可用 switch-model.sh --rollback 回滚。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_3d8e9a54e4b001ea6a33",
+      "quote": "2026-10-27 凌晨(PDT 10-26 晚)OpenClaw 主模型已从 DeepSeek 切换为火山方舟 ark/kimi-k3-1-pro-261024,切换经预检、备份、写入、重启和实跑验证;备份 pre-model-switch-20261026-194047.json,可用 switch-model.sh --rollback 回滚。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_923b6bbaf5c2fc8363ab",
+      "quote": "2026-10-27 凌晨(PDT 10-26 晚)OpenClaw 主模型已从 DeepSeek 切换为火山方舟 ark/kimi-k3-1-pro-261024,切换经预检、备份、写入、重启和实跑验证;备份 pre-model-switch-20261026-194047.json,可用 switch-model.sh --rollback 回滚。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_09922c8bf03700110a59",
+      "quote": "2026-10-27 凌晨(PDT 10-26 晚)OpenClaw 主模型已从 DeepSeek 切换为火山方舟 ark/kimi-k3-1-pro-261024,切换经预检、备份、写入、重启和实跑验证;备份 pre-model-switch-20261026-194047.json,可用 switch-model.sh --rollback 回滚。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_6bd23e50822556638c98",
+      "quote": "2026-10-27 凌晨(PDT 10-26 晚)OpenClaw 主模型已从 DeepSeek 切换为火山方舟 ark/kimi-k3-1-pro-261024,切换经预检、备份、写入、重启和实跑验证;备份 pre-model-switch-20261026-194047.json,可用 switch-model.sh --rollback 回滚。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_d8256c83941af0aea9e4",
+      "quote": "2026-10-27 凌晨(PDT 10-26 晚)OpenClaw 主模型已从 DeepSeek 切换为火山方舟 ark/kimi-k3-1-pro-261024,切换经预检、备份、写入、重启和实跑验证;备份 pre-model-switch-20261026-194047.json,可用 switch-model.sh --rollback 回滚。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_f3a4a8705ec7c2c28db8",
+  "is_temporary": false,
+  "keywords": [
+    "Kimi K3",
+    "OpenClaw",
+    "OpenClaw Gateway",
+    "Kimi",
+    "nohup",
+    "DeepSeek 切 Kimi",
+    "模型回滚",
+    "pre-model-switch",
+    "火山方舟",
+    "DeepSeek切换",
+    "kimi-k3",
+    "回滚",
+    "备份",
+    "DeepSeek",
+    "kimi-k3-1-pro-261024",
+    "ark",
+    "DeepSeek切Kimi",
+    "ark/kimi-k3-1-pro-261024",
+    "模型切换",
+    "pre-model-switch-20261026-194…"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d55c939bb832758641d3",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_21ec0a807d8ab8a39f8f",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_3d8e9a54e4b001ea6a33",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_923b6bbaf5c2fc8363ab",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_09922c8bf03700110a59",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_6bd23e50822556638c98",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_d8256c83941af0aea9e4",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:48:38.001980Z",
+  "valid_to": null
+}

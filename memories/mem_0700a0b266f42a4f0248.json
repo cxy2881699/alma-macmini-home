@@ -1,0 +1,61 @@
+{
+  "conditions": "用户质疑选酒建议是否查过记忆，随后确认 hook 实际召回成功但结果为空。",
+  "confidence": 0.82,
+  "content": "2026-09-25 排查确认,Codex 推荐酒前的 UserPromptSubmit hook 已自动执行记忆 search,审计为 recall=ok、耗时 40ms;未命中相关饮酒偏好记忆,问题在于 Agent 未核对审计而非 hook 未运行。",
+  "created_at": "2026-10-27T05:14:00.787143Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_ddfc3157c195d2617059",
+      "quote": "2026-09-25 排查确认,Codex 推荐酒前的 UserPromptSubmit hook 已自动执行记忆 search,审计为 recall=ok、耗时 40ms;未命中相关饮酒偏好记忆,问题在于 Agent 未核对审计而非 hook 未运行。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_0700a0b266f42a4f0248",
+  "is_temporary": false,
+  "keywords": [
+    "hook自动召回",
+    "MCP深度查询",
+    "审计依据",
+    "审计核对",
+    "未命中偏好",
+    "审计为空",
+    "选酒审计",
+    "未命中饮酒偏好",
+    "审计未命中",
+    "饮酒偏好为空",
+    "选酒",
+    "格兰杰",
+    "recall=ok",
+    "40ms",
+    "UserPromptSubmit",
+    "审计未核对"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ddfc3157c195d2617059",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:14:00.787143Z",
+  "valid_to": null
+}

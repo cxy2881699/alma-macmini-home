@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-29T19:04:13.572914Z",
+  "id": "rev_99efdb4fb6b162eec2e8",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-10-18：用户在 MacBook 上排查 Clash Verge 已开启但外网不可用:先确认系统代理未写入,再发现 shell 残留 8118/8119 代理变量;清理后直连 Google 在 TLS 阶段失败,说明 Clash/TUN 未接管。随后尝试用 networksetup 手动把 Wi-Fi 代理指向 7897,但命令回显成功而 scutil 仍显示 HTTPEnable: 0,助手要求继续交叉验证。",
+    "created_at": "2026-10-29T19:04:13.572914Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_9b89f58175c1b2aeb7e1",
+        "quote": "2026-10-18：用户在 MacBook 上排查 Clash Verge 已开启但外网不可用:先确认系统代理未写入,再发现 shell 残留 8118/8119 代理变量;清理后直连 Google 在 TLS 阶段失败,说明 Clash/TUN 未接管。随后尝试用 networksetup 手动把 Wi-Fi 代理指向 7897,但命令回显成功而 scutil 仍显示 HTTPEnable: 0,助手要求继续交叉验证。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_1e0e63bd717d888bef23",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_9b89f58175c1b2aeb7e1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-29T19:04:13.572914Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_1e0e63bd717d888bef23",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

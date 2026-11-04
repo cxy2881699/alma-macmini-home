@@ -1,0 +1,62 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:36:27.859344Z",
+  "id": "rev_ed6e4a67a6e15e4d72a3",
+  "memory": {
+    "conditions": "适用于确认 Codex CLI agent-memory hooks 是否真正端到端生效。",
+    "confidence": 0.7,
+    "content": "用户询问 Codex CLI 中刚发送的指令是否被记忆服务记录;Agent 查询后确认 CLI 的召回、保存和后台整理链路均已生效。",
+    "created_at": "2026-09-23T17:36:27.859344Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_b920a0b921da00c6c3ae",
+        "quote": "用户询问 Codex CLI 中刚发送的指令是否被记忆服务记录;Agent 查询后确认 CLI 的召回、保存和后台整理链路均已生效。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_33b1c8da84db9879b3a9",
+    "is_temporary": false,
+    "keywords": [
+      "Codex CLI",
+      "记忆服务",
+      "hook",
+      "召回",
+      "保存",
+      "整理",
+      "验证成功"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_b920a0b921da00c6c3ae",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-23T17:36:27.859344Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_33b1c8da84db9879b3a9",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

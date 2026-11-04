@@ -1,0 +1,50 @@
+{
+  "conditions": "用户询问记忆服务是否正常，Agent 发现服务可召回但后台加工长期失败。",
+  "confidence": 0.86,
+  "content": "memd 后台任务积压并非当天突发:extract 与 sleep 失败从 2026-10-12 左右开始累积,修复时共有 197 个失败任务。",
+  "created_at": "2026-10-27T19:10:02.820418Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8395beca681a6a0993af",
+      "quote": "memd 后台任务积压并非当天突发:extract 与 sleep 失败从 2026-10-12 左右开始累积,修复时共有 197 个失败任务。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_66913bb84d895e5727d8",
+  "is_temporary": false,
+  "keywords": [
+    "任务积压",
+    "extract失败",
+    "sleep失败",
+    "10-12",
+    "连接池耗尽"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8395beca681a6a0993af",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T19:10:02.820418Z",
+  "valid_to": null
+}

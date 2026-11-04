@@ -1,0 +1,46 @@
+{
+  "conditions": "模型切换第一次看似启动但实际未执行，后续定位为命令兼容性问题。",
+  "confidence": 0.85,
+  "content": "macOS 上首次后台启动切换脚本失败的直接原因是系统没有 setsid;改用 nohup 后进程才实际运行。",
+  "created_at": "2026-10-27T05:26:58.296570Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8fc67c0d4c5d64da55b1",
+      "quote": "macOS 上首次后台启动切换脚本失败的直接原因是系统没有 setsid;改用 nohup 后进程才实际运行。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_e067f34cdbd3820a66a8",
+  "is_temporary": false,
+  "keywords": [
+    "setsid",
+    "nohup",
+    "后台启动",
+    "macOS"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8fc67c0d4c5d64da55b1",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:26:58.296570Z",
+  "valid_to": null
+}

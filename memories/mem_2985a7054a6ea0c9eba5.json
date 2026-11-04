@@ -1,0 +1,65 @@
+{
+  "conditions": "用户对科学性深度文档的语言、风格和证据标注有稳定格式要求。",
+  "confidence": 0.9,
+  "content": "用户要求此类深度文档采用中文正文、术语保留英文原文括注,避免鸡汤和“建议您”式表达,直接陈述机制与操作,并用【证据强】【证据中】【假说】明确区分证据等级。",
+  "created_at": "2026-10-27T04:21:47.606817Z",
+  "derived_from": [],
+  "entities": [
+    "ent_b794852b645a6a568df7"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_7bab4433029e0047b9ba",
+      "quote": "用户要求此类深度文档采用中文正文、术语保留英文原文括注,避免鸡汤和“建议您”式表达,直接陈述机制与操作,并用【证据强】【证据中】【假说】明确区分证据等级。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_ccab63b5c2df3828ccea",
+      "quote": "用户要求此类深度文档采用中文正文、术语保留英文原文括注,避免鸡汤和“建议您”式表达,直接陈述机制与操作,并用【证据强】【证据中】【假说】明确区分证据等级。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_2985a7054a6ea0c9eba5",
+  "is_temporary": false,
+  "keywords": [
+    "英文术语",
+    "不要鸡汤",
+    "直接陈述",
+    "机制",
+    "操作方法",
+    "中文写作",
+    "英文术语括注",
+    "证据等级",
+    "非鸡汤",
+    "机制陈述"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_7bab4433029e0047b9ba",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_ccab63b5c2df3828ccea",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-27T04:21:47.606817Z",
+  "valid_to": null
+}

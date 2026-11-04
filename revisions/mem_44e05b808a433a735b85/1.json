@@ -1,0 +1,50 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-09T19:03:12.694238Z",
+  "id": "rev_a0f36ab580438632abd0",
+  "memory": {
+    "conditions": "用户认可开源基础记忆层+商业成长引擎与运行平台的分层架构。",
+    "confidence": 0.82,
+    "content": "用户认可的商业架构是:开源完整的基础记忆底座,在其上叠加让 Agent 经历转化为稳定且可修正行为变化的成长引擎与运行平台。",
+    "created_at": "2026-10-09T19:03:12.694238Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_44e05b808a433a735b85",
+    "is_temporary": false,
+    "keywords": [
+      "商业增强层",
+      "杀手锏",
+      "开源底座",
+      "成长引擎",
+      "运行平台",
+      "个体隔离",
+      "版本回滚",
+      "三NPC演示"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-09T19:03:12.694238Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_44e05b808a433a735b85",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

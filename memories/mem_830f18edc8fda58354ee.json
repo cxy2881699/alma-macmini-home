@@ -1,0 +1,51 @@
+{
+  "conditions": "用户质疑酒水推荐未调用记忆，随后澄清设计上每轮应由 hook 自动 search。",
+  "confidence": 0.9,
+  "content": "用户判断记忆系统是否被调用时,要求 Agent 依据 hook 配置与服务端审计,而不是把是否手动调用 MCP 等同于是否完成记忆检索。",
+  "created_at": "2026-10-11T19:01:21.980468Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_ddfc3157c195d2617059",
+      "quote": "用户判断记忆系统是否被调用时,要求 Agent 依据 hook 配置与服务端审计,而不是把是否手动调用 MCP 等同于是否完成记忆检索。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_830f18edc8fda58354ee",
+  "is_temporary": false,
+  "keywords": [
+    "MCP",
+    "hook",
+    "审计",
+    "recall=ok",
+    "自动召回"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ddfc3157c195d2617059",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-11T19:01:21.980468Z",
+  "valid_to": null
+}

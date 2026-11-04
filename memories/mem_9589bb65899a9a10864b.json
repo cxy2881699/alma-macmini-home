@@ -1,0 +1,48 @@
+{
+  "conditions": "晨报搜索接口不可用，Agent 改用官方页面和 RSS 核验。",
+  "confidence": 0.9,
+  "content": "截至 2026-10-29 晨报,Brave 仍缺 API key、百度搜索鉴权失败;晨报继续改用官方页面、公开 RSS 与公开数据 API 逐条核验。",
+  "created_at": "2026-10-29T19:10:12.411660Z",
+  "derived_from": [],
+  "entities": [
+    "ent_686eb10ba1184d26e9a3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_21ec0a807d8ab8a39f8f",
+      "quote": "截至 2026-10-29 晨报,Brave 仍缺 API key、百度搜索鉴权失败;晨报继续改用官方页面、公开 RSS 与公开数据 API 逐条核验。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_9589bb65899a9a10864b",
+  "is_temporary": false,
+  "keywords": [
+    "搜索API",
+    "鉴权失败",
+    "晨报信源",
+    "RSS"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_21ec0a807d8ab8a39f8f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-29T19:10:12.411660Z",
+  "valid_to": "2026-10-30"
+}

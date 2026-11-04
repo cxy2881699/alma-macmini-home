@@ -1,0 +1,84 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:21:21.068627Z",
+  "id": "rev_25cdf97f2088f50723c5",
+  "memory": {
+    "conditions": "适用于以后用户注册海外 AI 服务遇到账号审核、风控或邮箱信任问题时。",
+    "confidence": 0.7,
+    "content": "用户用新注册 Gmail 注册 Claude 被 hold,Agent 判断主要风险来自全新邮箱和数据中心 IP;用户决定放弃该账号,重新注册 Gmail 并养号后再尝试。",
+    "created_at": "2026-10-27T04:21:21.068627Z",
+    "derived_from": [],
+    "entities": [
+      "ent_51b9c91560022845906c",
+      "ent_665535bb31cceb52704f"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_f0ea3e3acc8d7909f32f",
+        "quote": "用户用新注册 Gmail 注册 Claude 被 hold,Agent 判断主要风险来自全新邮箱和数据中心 IP;用户决定放弃该账号,重新注册 Gmail 并养号后再尝试。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_8533e2ec50fb8f1261be",
+        "quote": "用户用新注册 Gmail 注册 Claude 被 hold,Agent 判断主要风险来自全新邮箱和数据中心 IP;用户决定放弃该账号,重新注册 Gmail 并养号后再尝试。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_1cc32c8fffaceabb3bb1",
+        "quote": "用户用新注册 Gmail 注册 Claude 被 hold,Agent 判断主要风险来自全新邮箱和数据中心 IP;用户决定放弃该账号,重新注册 Gmail 并养号后再尝试。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_8fef739ab6102c720a74",
+    "is_temporary": false,
+    "keywords": [
+      "Claude",
+      "Gmail",
+      "注册被hold",
+      "风控",
+      "数据中心IP",
+      "养号",
+      "+86手机号"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_f0ea3e3acc8d7909f32f",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_8533e2ec50fb8f1261be",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_1cc32c8fffaceabb3bb1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-10-27T04:21:21.068627Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_8fef739ab6102c720a74",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

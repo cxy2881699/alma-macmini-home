@@ -1,0 +1,54 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:09:11.224621Z",
+  "id": "rev_88687e4f3b168b41643f",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.95,
+    "content": "OpenClaw 本机客户端应将记忆服务地址配置为 http://127.0.0.1:8787,不应改回 Tailscale MagicDNS 地址,以避免代理转发导致 fetch failed。",
+    "created_at": "2026-09-23T17:09:11.224621Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_421c00dde9a1b98fc969"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_1d9f495f128ccc9b4e0f",
+        "quote": "OpenClaw 本机客户端应将记忆服务地址配置为 http://127.0.0.1:8787,不应改回 Tailscale MagicDNS 地址,以避免代理转发导致 fetch failed。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_394a9f2071d13d891349",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_1d9f495f128ccc9b4e0f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-23T17:09:11.224621Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_394a9f2071d13d891349",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

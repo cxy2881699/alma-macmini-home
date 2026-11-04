@@ -1,0 +1,47 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-02T19:01:40.983394Z",
+  "id": "rev_f1adbbe871ca1df30312",
+  "memory": {
+    "conditions": "Agent 总结在现有 agent-memory 上增加成长能力的架构。",
+    "confidence": 0.8,
+    "content": "成长引擎方案的核心新增对象是“带证据和版本的个体状态”,用于把记忆存储连接到后续行为,并支持修正与回滚。",
+    "created_at": "2026-11-02T19:01:40.983394Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_1d4e06aac67f90c31dde",
+    "is_temporary": false,
+    "keywords": [
+      "个体状态",
+      "证据",
+      "版本",
+      "回滚",
+      "行为差异"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-02T19:01:40.983394Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_1d4e06aac67f90c31dde",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

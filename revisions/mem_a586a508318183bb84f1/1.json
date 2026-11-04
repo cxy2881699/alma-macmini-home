@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-11T19:02:00.446480Z",
+  "id": "rev_624fed94095505c32386",
+  "memory": {
+    "conditions": "用户用亲人离世重建场景论证经历对个体的决定作用。",
+    "confidence": 0.8,
+    "content": "用户认为个体差异主要源于不同人生经历,并将“经历塑造个体”作为可进化记忆系统的理论出发点。",
+    "created_at": "2026-10-11T19:02:00.446480Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_a586a508318183bb84f1",
+    "is_temporary": false,
+    "keywords": [
+      "人生经历",
+      "个体差异",
+      "人格形成",
+      "经历塑造"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-11T19:02:00.446480Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_a586a508318183bb84f1",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

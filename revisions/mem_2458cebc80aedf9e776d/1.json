@@ -1,0 +1,63 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:13:24.987245Z",
+  "id": "rev_aa5b8283b98223e21e87",
+  "memory": {
+    "conditions": "OpenClaw 初期读取失败并非一定版本过旧，而是配置字段不兼容叠加旧网关进程。",
+    "confidence": 0.8,
+    "content": "OpenClaw 配置中曾混入当前版本不支持的 hooks 字段,叠加 Gateway 旧进程未重载配置,导致初期误判为 OpenClaw 版本过旧。",
+    "created_at": "2026-10-27T05:13:24.987245Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_e255c16e5b36c919f3a5",
+        "quote": "OpenClaw 配置中曾混入当前版本不支持的 hooks 字段,叠加 Gateway 旧进程未重载配置,导致初期误判为 OpenClaw 版本过旧。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_2458cebc80aedf9e776d",
+    "is_temporary": false,
+    "keywords": [
+      "OpenClaw hooks",
+      "Gateway 重载",
+      "版本误判",
+      "plugins.entries.agent-memory.…",
+      "不支持字段",
+      "OpenClaw版本误判",
+      "配置兼容",
+      "Gateway重载"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_e255c16e5b36c919f3a5",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:13:24.987245Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_2458cebc80aedf9e776d",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

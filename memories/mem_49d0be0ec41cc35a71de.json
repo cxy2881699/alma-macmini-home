@@ -1,0 +1,59 @@
+{
+  "conditions": "适用于后续撰写车企AI合作进展，避免把发布会规划或合作意向写成已交付成果。",
+  "confidence": 0.9,
+  "content": "火山引擎与车企合作的公开材料常把目标、框架、预研、展示和量产混在同一叙事中,引用时需要按证据性质分层,避免把规划表述写成已交付。",
+  "created_at": "2026-10-29T19:09:51.244344Z",
+  "derived_from": [],
+  "entities": [
+    "ent_efece682195ff5999c2b",
+    "ent_700816e920bebe421d7a",
+    "ent_02d36becfe6f60ace7bf",
+    "ent_1002d231aa8e29c9351b",
+    "ent_b6e5f07139d194f4aaa5"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_d4ea596374d100c7cd4f",
+      "quote": "火山引擎与车企合作的公开材料常把目标、框架、预研、展示和量产混在同一叙事中,引用时需要按证据性质分层,避免把规划表述写成已交付。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_49d0be0ec41cc35a71de",
+  "is_temporary": false,
+  "keywords": [
+    "落地证据",
+    "合作进展",
+    "展示",
+    "规划与落地",
+    "预研",
+    "目标与落地",
+    "框架协议",
+    "预研展示",
+    "量产上车",
+    "证据分层",
+    "公关稿口径"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d4ea596374d100c7cd4f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-29T19:09:51.244344Z",
+  "valid_to": null
+}

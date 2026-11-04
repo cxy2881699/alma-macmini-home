@@ -1,0 +1,47 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-31T19:01:32.857754Z",
+  "id": "rev_22a58679dd42c54ca7ff",
+  "memory": {
+    "conditions": "讨论哪些数据对象能让记忆影响 Agent 后续行动。",
+    "confidence": 0.82,
+    "content": "该成长引擎的核心新增对象是“带证据和版本的个体状态”,用于把记忆存储与未来行为连接,并支持经历产生可修正的持续行为差异。",
+    "created_at": "2026-10-31T19:01:32.857754Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_2f37604b3b5db25eef6c",
+    "is_temporary": false,
+    "keywords": [
+      "个体状态",
+      "证据",
+      "版本",
+      "行为差异",
+      "可修正"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-31T19:01:32.857754Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_2f37604b3b5db25eef6c",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,61 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:21:23.221937Z",
+  "id": "rev_60c5b28a6edbde0592b4",
+  "memory": {
+    "conditions": "用户需要一份可用于个人行为、情绪与神经内分泌状态逆向分析的中文方法论文档。",
+    "confidence": 0.7,
+    "content": "用户以 subagent 任务形式要求撰写《人类行为-情绪-神经内分泌逆向映射分析》中文深度文档;Agent 完成并写入指定 Markdown 文件,汇报为 8645 个汉字、10 章。",
+    "created_at": "2026-10-27T04:21:23.221937Z",
+    "derived_from": [],
+    "entities": [
+      "ent_b794852b645a6a568df7"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_ccab63b5c2df3828ccea",
+        "quote": "用户以 subagent 任务形式要求撰写《人类行为-情绪-神经内分泌逆向映射分析》中文深度文档;Agent 完成并写入指定 Markdown 文件,汇报为 8645 个汉字、10 章。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_48772f5f89300ef699ec",
+    "is_temporary": false,
+    "keywords": [
+      "神经内分泌",
+      "情绪",
+      "行为",
+      "自我观察",
+      "自我调节",
+      "深度文档",
+      "subagent"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_ccab63b5c2df3828ccea",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-10-27T04:21:23.221937Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_48772f5f89300ef699ec",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

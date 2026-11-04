@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-10T19:01:58.151062Z",
+  "id": "rev_432715bb81e1d2dafe3e",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-26：凌晨排查 agent-memory 一轮对话被静默丢弃的 bug,定位到客户端 event_id 撞车,服务端去重改造经复审被判不能定稿;下午确认 Codex 三个 hook 信任状态、回顾近24小时记忆,并深入讨论可进化记忆作为赛博生命与商业化核心方向,包括逝者数字重建场景。",
+    "created_at": "2026-10-10T19:01:58.151062Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_16d2615f00ae766bb32b",
+        "quote": "2026-09-26：凌晨排查 agent-memory 一轮对话被静默丢弃的 bug,定位到客户端 event_id 撞车,服务端去重改造经复审被判不能定稿;下午确认 Codex 三个 hook 信任状态、回顾近24小时记忆,并深入讨论可进化记忆作为赛博生命与商业化核心方向,包括逝者数字重建场景。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_376e165f9976408fd66c",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_16d2615f00ae766bb32b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-10T19:01:58.151062Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_376e165f9976408fd66c",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

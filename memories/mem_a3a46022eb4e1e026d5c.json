@@ -1,0 +1,37 @@
+{
+  "conditions": "用户明确把当前工作生活记忆系统与未来商业化方向分层。",
+  "confidence": 0.86,
+  "content": "用户认可当前 agent-memory 先作为开源记忆底座,未来把能让 Agent 被经历持续塑造的成长引擎作为商业杀手锏。",
+  "created_at": "2026-10-30T19:01:20.290174Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_a3a46022eb4e1e026d5c",
+  "is_temporary": false,
+  "keywords": [
+    "开源底座",
+    "商业增强层",
+    "杀手锏",
+    "赛博生命",
+    "成长引擎"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-30T19:01:20.290174Z",
+  "valid_to": null
+}

@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-03T19:07:04.225050Z",
+  "id": "rev_14ef914cc0ca1b1a58b9",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-10-28：用户通过子代理完成火山引擎非汽车战略合作公开PR稿核查,覆盖7个指定案例并补充华泰证券;随后系统多次心跳检查均无待办。",
+    "created_at": "2026-11-03T19:07:04.225050Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_58bfeab114e9d0bc2f6a",
+        "quote": "2026-10-28：用户通过子代理完成火山引擎非汽车战略合作公开PR稿核查,覆盖7个指定案例并补充华泰证券;随后系统多次心跳检查均无待办。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_b1604a27d3d23f57c59e",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_58bfeab114e9d0bc2f6a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-11-03T19:07:04.225050Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_b1604a27d3d23f57c59e",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

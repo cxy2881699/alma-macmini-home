@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "广汽"
+  ],
+  "created_at": "2026-10-27T18:35:13.611211Z",
+  "description": "中国汽车集团，2024-08-02 与火山引擎签署战略合作。",
+  "id": "ent_2143b5f3e888b501cc3c",
+  "name": "广汽集团",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "organization",
+  "updated_at": "2026-11-04T08:56:50.230453Z"
+}

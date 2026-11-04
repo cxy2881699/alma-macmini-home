@@ -1,0 +1,70 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-05T19:05:07.160489Z",
+  "id": "rev_a7acc6b5b42027d849b1",
+  "memory": {
+    "conditions": "用户希望通过记忆系统建立多个 Agent 可访问的文档协作入口。",
+    "confidence": 0.82,
+    "content": "用户希望通过把 PRD 存入共享记忆系统,建立跨 Agent 的文档协作/评审入口,而不只是本地保存文件。",
+    "created_at": "2026-10-05T19:05:07.160489Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_4488e0fdf8d04896269e",
+      "ent_0dd3ce8f5049183636d7"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_204132bcd438ed41fedc",
+        "quote": "用户希望通过把 PRD 存入共享记忆系统,建立跨 Agent 的文档协作/评审入口,而不只是本地保存文件。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_5f62e5cea27acc843db5",
+    "is_temporary": false,
+    "keywords": [
+      "PRD归档",
+      "跨Agent读取",
+      "文档共享",
+      "评审入口",
+      "跨Agent文档协作",
+      "PRD评审入口",
+      "共享记忆文档",
+      "其他agent读取",
+      "共享记忆",
+      "文档协作",
+      "跨Agent评审",
+      "PRD共享",
+      "设计文档"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_204132bcd438ed41fedc",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-10-05T19:05:07.160489Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_5f62e5cea27acc843db5",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

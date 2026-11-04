@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-24：9 月 24 日凌晨主要在排查 agent-memory 在 Codex 与 OpenClaw 中的写入、自动召回和网络连接:先确认写入通但召回未完全接通,再修复 OpenClaw 的代理与不兼容配置并恢复网关,最后指导用户在 Codex CLI 中信任 hooks。",
+  "created_at": "2026-10-27T04:24:03.488937Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_6db9cf4059e759b01b48",
+      "quote": "2026-09-24：9 月 24 日凌晨主要在排查 agent-memory 在 Codex 与 OpenClaw 中的写入、自动召回和网络连接:先确认写入通但召回未完全接通,再修复 OpenClaw 的代理与不兼容配置并恢复网关,最后指导用户在 Codex CLI 中信任 hooks。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_de0046ea1ab24dbd36d8",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_6db9cf4059e759b01b48",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-27T04:24:03.488937Z",
+  "valid_to": null
+}

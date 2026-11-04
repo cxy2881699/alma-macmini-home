@@ -1,0 +1,45 @@
+{
+  "conditions": "连续两轮测试中，用户分别要求固定四字回复和只回数字。",
+  "confidence": 0.82,
+  "content": "在简单事实或通道测试类指令中,用户偏好严格遵守输出格式,只给被要求的最小内容,不附加解释或操作。",
+  "created_at": "2026-10-29T19:05:37.357735Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_14624cfb4980a3d7f890",
+      "quote": "在简单事实或通道测试类指令中,用户偏好严格遵守输出格式,只给被要求的最小内容,不附加解释或操作。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_1ab64c987d7bab6c4258",
+  "is_temporary": false,
+  "keywords": [
+    "只回数字",
+    "严格格式",
+    "最小输出"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_14624cfb4980a3d7f890",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-29T19:05:37.357735Z",
+  "valid_to": null
+}

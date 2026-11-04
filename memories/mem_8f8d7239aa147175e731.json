@@ -1,0 +1,50 @@
+{
+  "conditions": "适用于确认 alma_test 到 Codex 的消息链路、极简指令遵从和工具抑制是否正常。",
+  "confidence": 0.7,
+  "content": "2026-11-04 16:53,用户通过 alma_test 向 Codex 发送探针消息,要求只回复固定字符串 OK-ALMA-CODEX 且不要调用工具;窗口中尚无助手回复,测试结果待确认。",
+  "created_at": "2026-11-04T08:54:01.554081Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_c6f18d37290c30b31e93",
+      "quote": "2026-11-04 16:53,用户通过 alma_test 向 Codex 发送探针消息,要求只回复固定字符串 OK-ALMA-CODEX 且不要调用工具;窗口中尚无助手回复,测试结果待确认。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_8f8d7239aa147175e731",
+  "is_temporary": false,
+  "keywords": [
+    "alma_test",
+    "codex probe",
+    "连通性测试",
+    "固定回复",
+    "不调用工具",
+    "OK-ALMA-CODEX"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c6f18d37290c30b31e93",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-04T08:54:01.554081Z",
+  "valid_to": null
+}

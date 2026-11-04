@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "hormone-emotion-mapping.md"
+  ],
+  "created_at": "2026-10-27T04:21:23.221937Z",
+  "description": "用户要求撰写的一份中文深度文档，面向懂技术但不懂神经科学、希望做自我观察与自我调节的高级用户。",
+  "id": "ent_b794852b645a6a568df7",
+  "name": "人类行为-情绪-神经内分泌逆向映射分析",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T08:56:50.227301Z"
+}

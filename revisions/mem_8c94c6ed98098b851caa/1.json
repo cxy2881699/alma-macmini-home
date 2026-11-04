@@ -1,0 +1,44 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-05T19:11:07.722318Z",
+  "id": "rev_79610ec1e02734fb8f10",
+  "memory": {
+    "conditions": "用户收到45+篇记忆论文后，要求先读论文再决定PRD修订。",
+    "confidence": 0.7,
+    "content": "在做PRD修订前,用户倾向先完成充分的文献调研(逐篇全文总结+对照PRD标注价值点),并明确要求暂不改动PRD。",
+    "created_at": "2026-10-05T19:11:07.722318Z",
+    "derived_from": [],
+    "entities": [
+      "ent_803e29983b18f51d0780"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_8c94c6ed98098b851caa",
+    "is_temporary": false,
+    "keywords": [
+      "先调研后改PRD",
+      "文献综述",
+      "工作方式"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-05T19:11:07.722318Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_8c94c6ed98098b851caa",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

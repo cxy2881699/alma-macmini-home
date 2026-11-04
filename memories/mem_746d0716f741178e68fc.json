@@ -1,0 +1,35 @@
+{
+  "conditions": "深夜与 openclaw 探讨 agent 欲望/恐惧的计算设计",
+  "confidence": 0.85,
+  "content": "用户正在思考如何为 agent 设计类人欲望与恐惧系统,初步设想是基于记忆信息增量的自进化函数(类比 LSTM)。",
+  "created_at": "2026-10-08T19:03:46.270767Z",
+  "derived_from": [],
+  "entities": [
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_746d0716f741178e68fc",
+  "is_temporary": false,
+  "keywords": [
+    "欲望",
+    "自进化",
+    "信息增量",
+    "intrinsic motivation"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-08T19:03:46.270767Z",
+  "valid_to": null
+}

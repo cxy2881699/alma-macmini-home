@@ -1,0 +1,51 @@
+{
+  "conditions": "用户考虑绕过 Codex hook 信任审核时",
+  "confidence": 0.95,
+  "content": "不要长期使用 --dangerously-bypass-hook-trust 跳过 Codex 钩子审核;它只适合作为临时绕过手段,正式启用应在 /hooks 中选择 Review/Trust。",
+  "created_at": "2026-09-23T17:21:18.380352Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_c6e10a1be01e9e24c74d"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_ea3bf0959fa2c6d88a4f",
+      "quote": "不要长期使用 --dangerously-bypass-hook-trust 跳过 Codex 钩子审核;它只适合作为临时绕过手段,正式启用应在 /hooks 中选择 Review/Trust。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_d17e4d9ef07018733b86",
+  "is_temporary": false,
+  "keywords": [
+    "dangerously-bypass-hook-trust",
+    "Review",
+    "Trust",
+    "钩子信任",
+    "临时跳过",
+    "Codex"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ea3bf0959fa2c6d88a4f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-09-23T17:21:18.380352Z",
+  "valid_to": null
+}

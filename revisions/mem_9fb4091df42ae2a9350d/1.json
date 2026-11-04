@@ -1,0 +1,56 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T19:05:59.820274Z",
+  "id": "rev_f206ee19ddf57327fd82",
+  "memory": {
+    "conditions": "手动写入 7897 后命令成功但全局代理状态仍未开启。",
+    "confidence": 0.9,
+    "content": "2026-10-18 23:17 时,networksetup 命令返回成功不等于全局系统代理已生效;当时至少 scutil 全局视图仍显示 HTTPEnable:0,需要继续核查服务级配置、configd 与网络服务顺序。",
+    "created_at": "2026-10-27T19:05:59.820274Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_b513ec84f98cca74efd9",
+        "quote": "2026-10-18 23:17 时,networksetup 命令返回成功不等于全局系统代理已生效;当时至少 scutil 全局视图仍显示 HTTPEnable:0,需要继续核查服务级配置、configd 与网络服务顺序。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_9fb4091df42ae2a9350d",
+    "is_temporary": false,
+    "keywords": [
+      "HTTPEnable 0",
+      "networksetup",
+      "configd",
+      "网络服务顺序"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_b513ec84f98cca74efd9",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T19:05:59.820274Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9fb4091df42ae2a9350d",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

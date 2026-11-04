@@ -1,0 +1,65 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:26:21.173185Z",
+  "id": "rev_0d01ef2d6c411d5b9ce9",
+  "memory": {
+    "conditions": "用户要继续开启 Codex agent-memory hooks，但必须先确保运行的是已修复的官方 CLI。",
+    "confidence": 0.7,
+    "content": "曾认为：要开启 Codex agent-memory hooks,原本应在 macOS Terminal 进入项目目录运行 codex 并在 /hooks 中信任三个钩子;但截至 2026-09-24 01:22,Codex CLI 因 ARM64 二进制缺失及 Gatekeeper 删除无法启动,必须先修复 CLI 安装才能执行该流程；实际：此前 Codex CLI 因 ARM64 二进制缺失及 Gatekeeper 删除无法启动;2026-09-24 已改用官方 npm 包安装到 /Users/seancao/.local/bin/codex 且 --version 验证成功,下一步是确保 PATH 指向新 CLI 后进入项目目录运行 codex,并在 /hooks 中信任三个 agent-memory 钩子；错误来源：信息过时",
+    "created_at": "2026-09-23T17:26:21.173185Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_33def429029d95fb6e84"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_e6f897e65bb5459b2608",
+        "quote": "曾认为：要开启 Codex agent-memory hooks,原本应在 macOS Terminal 进入项目目录运行 codex 并在 /hooks 中信任三个钩子;但截至 2026-09-24 01:22,Codex CLI 因 ARM64 二进制缺失及 Gatekeeper 删除无法启动,必须先修复 CLI 安装才能执行该流程；实际：此前 Codex CLI 因 ARM64 二进制缺失及 Gatekeeper 删除无法启动;2026-09-24 已改用官方 npm 包安装到 /Users/seancao/.local/bin/codex 且 --version 验证成功,下一步是确保 PATH 指向新 CLI 后进入项目目录运行 codex,并在 /hooks 中信任三个 agent-memory 钩子；错误来源：信息过时",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_644fbb68c414cb150778",
+    "is_temporary": false,
+    "keywords": [
+      "Codex hooks",
+      "CLI 无法启动",
+      "Gatekeeper",
+      "ENOENT",
+      "前置条件",
+      "/hooks",
+      "Codex 修复",
+      "官方安装",
+      ".local/bin",
+      "hooks"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_e6f897e65bb5459b2608",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-09-23T17:26:21.173185Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_644fbb68c414cb150778",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

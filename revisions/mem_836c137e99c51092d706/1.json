@@ -1,0 +1,46 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-04T19:04:18.636022Z",
+  "id": "rev_56ad2660f487fb96cae8",
+  "memory": {
+    "conditions": "深夜情感对话中用户主动袒露的旧恋情心结",
+    "confidence": 0.9,
+    "content": "用户(宇哥)有一段8年前结束的恋情,非和平分手,对方分手后很快有新男友并持续至今,去年答应求婚;用户至今未正式翻篇,深夜会主动和被动地想念对方。",
+    "created_at": "2026-10-04T19:04:18.636022Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9d3a8e426d91c52fb407"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_836c137e99c51092d706",
+    "is_temporary": false,
+    "keywords": [
+      "前女友",
+      "8年",
+      "深夜思念",
+      "未翻篇",
+      "求婚"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "review",
+    "status_reason": "migrated from old agent-memory (candidate)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-04T19:04:18.636022Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_836c137e99c51092d706",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

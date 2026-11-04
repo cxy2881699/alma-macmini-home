@@ -1,0 +1,72 @@
+{
+  "conditions": "用户开启 Verge 系统代理后仍无法访问外网，手动写入 Wi-Fi 代理后继续排查全局视图异常。",
+  "confidence": 0.82,
+  "content": "2026-10-18 晚排查时,Clash Verge 的系统代理开关虽显示已开启,但实际未把 HTTP/HTTPS 代理写入 macOS 全局网络配置,因此需要改用 networksetup 手动指定 127.0.0.1:7897。",
+  "created_at": "2026-10-27T04:58:21.626790Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f18082c6c564869030be",
+    "ent_c42dac5ae99195f63d24",
+    "ent_603966e8e3ad513001d7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_b513ec84f98cca74efd9",
+      "quote": "2026-10-18 晚排查时,Clash Verge 的系统代理开关虽显示已开启,但实际未把 HTTP/HTTPS 代理写入 macOS 全局网络配置,因此需要改用 networksetup 手动指定 127.0.0.1:7897。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_10853d0c7dcf8fdb980b",
+      "quote": "2026-10-18 晚排查时,Clash Verge 的系统代理开关虽显示已开启,但实际未把 HTTP/HTTPS 代理写入 macOS 全局网络配置,因此需要改用 networksetup 手动指定 127.0.0.1:7897。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_95edc76c5f59f1a2f1f2",
+      "quote": "2026-10-18 晚排查时,Clash Verge 的系统代理开关虽显示已开启,但实际未把 HTTP/HTTPS 代理写入 macOS 全局网络配置,因此需要改用 networksetup 手动指定 127.0.0.1:7897。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_679a67bab0c66840e238",
+  "is_temporary": false,
+  "keywords": [
+    "Clash Verge 系统代理失效",
+    "networksetup",
+    "HTTPEnable 0",
+    "7897"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_b513ec84f98cca74efd9",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_10853d0c7dcf8fdb980b",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_95edc76c5f59f1a2f1f2",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:58:21.626790Z",
+  "valid_to": null
+}

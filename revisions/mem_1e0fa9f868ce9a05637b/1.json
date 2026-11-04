@@ -1,0 +1,80 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-09T19:00:42.547814Z",
+  "id": "rev_d31e1ec6e0ccd0ff1701",
+  "memory": {
+    "conditions": "Mac mini 本机访问 memd 时应走本地回环，避免代理把 Tailscale 私网流量转坏。",
+    "confidence": 0.9,
+    "content": "本机访问记忆服务应固定使用 http://127.0.0.1:8787;只有其他远程 Agent 才通过 Tailscale MagicDNS 地址访问。",
+    "created_at": "2026-10-09T19:00:42.547814Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def",
+      "ent_421c00dde9a1b98fc969",
+      "ent_4488e0fdf8d04896269e",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_1d9f495f128ccc9b4e0f",
+        "quote": "本机访问记忆服务应固定使用 http://127.0.0.1:8787;只有其他远程 Agent 才通过 Tailscale MagicDNS 地址访问。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_251281e40be3c2e88a50",
+        "quote": "本机访问记忆服务应固定使用 http://127.0.0.1:8787;只有其他远程 Agent 才通过 Tailscale MagicDNS 地址访问。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_1e0fa9f868ce9a05637b",
+    "is_temporary": false,
+    "keywords": [
+      "本地回环",
+      "MagicDNS",
+      "远程 Agent",
+      "seanmac-mini.tail92d6fe.ts.net",
+      "本机回环",
+      "代理绕过私网",
+      "127.0.0.1:8787",
+      "本机记忆服务",
+      "Tailscale MagicDNS",
+      "8118代理",
+      "NO_PROXY"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_1d9f495f128ccc9b4e0f",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_251281e40be3c2e88a50",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-09T19:00:42.547814Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_1e0fa9f868ce9a05637b",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

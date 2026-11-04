@@ -1,0 +1,50 @@
+{
+  "conditions": "用户看到小红书互动后，说明后续只开源阉割版并做收费线上版。",
+  "confidence": 0.86,
+  "content": "用户在公开传播 agent-memory 时愿意展示效果与设计思路,但会刻意保留核心实现细节,避免削弱后续商业化优势。",
+  "created_at": "2026-10-27T04:42:56.778578Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e",
+    "ent_c3f9f077f1f3ceaddd2f"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_5c2b03a36555ed887023",
+      "quote": "用户在公开传播 agent-memory 时愿意展示效果与设计思路,但会刻意保留核心实现细节,避免削弱后续商业化优势。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_e41e3802d5c59eb1bc54",
+  "is_temporary": false,
+  "keywords": [
+    "开源边界",
+    "技术保密",
+    "商业化",
+    "内容策略"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_5c2b03a36555ed887023",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-27T04:42:56.778578Z",
+  "valid_to": null
+}

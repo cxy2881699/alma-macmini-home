@@ -1,0 +1,59 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:06:09.992808Z",
+  "id": "rev_5fd8d14ef5414e3559f2",
+  "memory": {
+    "conditions": "用户授权优化记忆链路后，Agent 修改连接池并重启验证。",
+    "confidence": 0.9,
+    "content": "memd 连接池修复后,extract/embed/sleep 已恢复正常出活,重启后验证请求无 PoolTimeout;但 162 个 extract 仍在后台消化,是否调高并发尚未获用户确认。",
+    "created_at": "2026-10-27T05:06:09.992808Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_9d10a69084bd77edc45a",
+        "quote": "memd 连接池修复后,extract/embed/sleep 已恢复正常出活,重启后验证请求无 PoolTimeout;但 162 个 extract 仍在后台消化,是否调高并发尚未获用户确认。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_374cd69cd863c5e97aba",
+    "is_temporary": false,
+    "keywords": [
+      "记忆链路",
+      "连接池",
+      "后台任务",
+      "extract 队列"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_9d10a69084bd77edc45a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:06:09.992808Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_374cd69cd863c5e97aba",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,48 @@
+{
+  "conditions": "用户想让 Agent 学习压缩包中的 agent 记忆论文，但文件传输失败。",
+  "confidence": 0.9,
+  "content": "截至 2026-09-28,OpenClaw 运行环境未能接收用户三次发送的 MemAgents_ICLR2026_AgentMemory.zip,附件未落盘;需改发单个 PDF、直链或论文标题。",
+  "created_at": "2026-09-28T19:08:14.172675Z",
+  "derived_from": [],
+  "entities": [
+    "ent_22f290112c9557d215ea"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_e9736354e0fd65e97742",
+      "quote": "截至 2026-09-28,OpenClaw 运行环境未能接收用户三次发送的 MemAgents_ICLR2026_AgentMemory.zip,附件未落盘;需改发单个 PDF、直链或论文标题。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_2060e5e08b5ef42b3099",
+  "is_temporary": false,
+  "keywords": [
+    "zip 附件",
+    "飞书文件",
+    "论文合集",
+    "Agent Memory"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_e9736354e0fd65e97742",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-28T19:08:14.172675Z",
+  "valid_to": null
+}

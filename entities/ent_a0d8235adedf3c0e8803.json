@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "记忆展示",
+    "神经网络式可视化",
+    "时间序列视图"
+  ],
+  "created_at": "2026-09-23T18:17:35.525564Z",
+  "description": "agent-memory 后续方向之一：类人脑神经网络图展示实体与记忆关联，并提供人类可读的时间序列视图",
+  "id": "ent_a0d8235adedf3c0e8803",
+  "name": "记忆可视化方向",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "concept",
+  "updated_at": "2026-11-04T08:56:50.221775Z"
+}

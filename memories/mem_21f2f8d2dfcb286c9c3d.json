@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-10-27：用户排查刚买几天的 RackNerd 洛杉矶 VPS 无法访问,最终定位为单 IP 被 GFW 封锁;随后讨论换 IP、防封、被墙机器再利用和购买更干净的日本/优质线路服务器。",
+  "created_at": "2026-10-27T19:08:43.459812Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_876285daee49a79ec31a",
+      "quote": "2026-10-27：用户排查刚买几天的 RackNerd 洛杉矶 VPS 无法访问,最终定位为单 IP 被 GFW 封锁;随后讨论换 IP、防封、被墙机器再利用和购买更干净的日本/优质线路服务器。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_21f2f8d2dfcb286c9c3d",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_876285daee49a79ec31a",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-27T19:08:43.459812Z",
+  "valid_to": null
+}

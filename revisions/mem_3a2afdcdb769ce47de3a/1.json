@@ -1,0 +1,53 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:19:40.101864Z",
+  "id": "rev_0d3a236ff1d0608fc6ae",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.9,
+    "content": "用户的 LA-Reality 节点 155.94.145.75:443 位于 RackNerd 洛杉矶 DC02,底层为 ColoCrossing AS36352,故障被判断为 GFW 对单个 IP 的入境方向封锁。",
+    "created_at": "2026-10-27T04:19:40.101864Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6ebee10dda1843bbd843"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_af943030f4b33235f412",
+        "quote": "用户的 LA-Reality 节点 155.94.145.75:443 位于 RackNerd 洛杉矶 DC02,底层为 ColoCrossing AS36352,故障被判断为 GFW 对单个 IP 的入境方向封锁。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_3a2afdcdb769ce47de3a",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_af943030f4b33235f412",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:19:40.101864Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_3a2afdcdb769ce47de3a",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

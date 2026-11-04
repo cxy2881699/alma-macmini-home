@@ -1,0 +1,74 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:53:33.969700Z",
+  "id": "rev_b7249ff3f10f97a7a2b1",
+  "memory": {
+    "conditions": "描述 MemAgents Workshop 论文调研先摘要后全文的工作流",
+    "confidence": 0.9,
+    "content": "论文调研经历两阶段:先抓 arXiv/OpenReview 摘要出初版(30/48 抓到摘要,11 篇标注未获取原文),用户补传 PDF 后分身基于全文重写替换同一文件。",
+    "created_at": "2026-10-27T04:53:33.969700Z",
+    "derived_from": [],
+    "entities": [
+      "ent_803e29983b18f51d0780"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_4ead9e010ef9d7e33330",
+        "quote": "论文调研经历两阶段:先抓 arXiv/OpenReview 摘要出初版(30/48 抓到摘要,11 篇标注未获取原文),用户补传 PDF 后分身基于全文重写替换同一文件。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_3567af8b8693e96c3d81",
+        "quote": "论文调研经历两阶段:先抓 arXiv/OpenReview 摘要出初版(30/48 抓到摘要,11 篇标注未获取原文),用户补传 PDF 后分身基于全文重写替换同一文件。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_0a1be8be5a646ccfb978",
+    "is_temporary": false,
+    "keywords": [
+      "两阶段",
+      "摘要初版",
+      "全文重写",
+      "未获取原文",
+      "两阶段调研",
+      "arXiv摘要",
+      "OpenReview验证墙",
+      "PDF全文",
+      "覆盖升级"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_4ead9e010ef9d7e33330",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_3567af8b8693e96c3d81",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:53:33.969700Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_0a1be8be5a646ccfb978",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,50 @@
+{
+  "conditions": "两个长文档子任务都明确限定完成后的回复内容。",
+  "confidence": 0.82,
+  "content": "在长文档任务中,用户偏好最终回复极简,只要求路径、字数、章节数或最终结论,避免重复正文。",
+  "created_at": "2026-11-03T19:05:05.938483Z",
+  "derived_from": [],
+  "entities": [
+    "ent_b794852b645a6a568df7",
+    "ent_5e9983015c0ee6682456"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_ccab63b5c2df3828ccea",
+      "quote": "在长文档任务中,用户偏好最终回复极简,只要求路径、字数、章节数或最终结论,避免重复正文。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_e63fafb9d4490d0acfb4",
+  "is_temporary": false,
+  "keywords": [
+    "完成回复格式",
+    "文件路径",
+    "字数",
+    "章节数",
+    "一句话回复"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ccab63b5c2df3828ccea",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-11-03T19:05:05.938483Z",
+  "valid_to": null
+}

@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-02T19:03:38.741954Z",
+  "id": "rev_3351b0e2ea6e12174fd1",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-10-18：用户在 MacBook 上排查 Clash Verge 无法接管系统代理:先发现终端继承 8118/8119 旧代理,清理后直连仍失败;随后尝试手动把 Wi-Fi 代理写到 7897,但命令提示成功而 scutil 全局仍显示 HTTPEnable:0,排查转入系统代理写入/刷新与网络服务识别层。",
+    "created_at": "2026-11-02T19:03:38.741954Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_9b89f58175c1b2aeb7e1",
+        "quote": "2026-10-18：用户在 MacBook 上排查 Clash Verge 无法接管系统代理:先发现终端继承 8118/8119 旧代理,清理后直连仍失败;随后尝试手动把 Wi-Fi 代理写到 7897,但命令提示成功而 scutil 全局仍显示 HTTPEnable:0,排查转入系统代理写入/刷新与网络服务识别层。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_f696faddb393598ce24b",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_9b89f58175c1b2aeb7e1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-11-02T19:03:38.741954Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_f696faddb393598ce24b",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

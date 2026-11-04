@@ -1,0 +1,56 @@
+{
+  "conditions": "用户询问 CLI 指令是否被记忆服务记录后，Agent 用审计记录确认 hook 链路生效。",
+  "confidence": 0.86,
+  "content": "2026-09-24 约10:29-10:33,Codex CLI 的 agent-memory 链路已验证为先召回、再保存、随后后台整理成记忆卡片。",
+  "created_at": "2026-09-28T19:02:56.543224Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_b920a0b921da00c6c3ae",
+      "quote": "2026-09-24 约10:29-10:33,Codex CLI 的 agent-memory 链路已验证为先召回、再保存、随后后台整理成记忆卡片。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_ac5e2d30091332d2b21b",
+  "is_temporary": false,
+  "keywords": [
+    "Codex CLI",
+    "recall",
+    "capture",
+    "验证成功",
+    "Codex CLI 验证",
+    "先召回再保存",
+    "记忆卡片",
+    "10:29",
+    "10:33"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_b920a0b921da00c6c3ae",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-28T19:02:56.543224Z",
+  "valid_to": null
+}

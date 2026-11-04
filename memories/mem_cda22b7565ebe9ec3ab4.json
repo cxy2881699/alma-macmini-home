@@ -1,0 +1,50 @@
+{
+  "conditions": "用户安排 subagent 生产一份个人自我观察与调节用的神经科学框架文档。",
+  "confidence": 0.95,
+  "content": "2026-10-22,用户通过 subagent 任务要求撰写《人类行为-情绪-神经内分泌逆向映射分析》中文深度文档,目标读者是懂技术但不懂神经科学、希望用于自我观察和自我调节的高级用户。",
+  "created_at": "2026-10-27T04:21:23.221937Z",
+  "derived_from": [],
+  "entities": [
+    "ent_b794852b645a6a568df7"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_ccab63b5c2df3828ccea",
+      "quote": "2026-10-22,用户通过 subagent 任务要求撰写《人类行为-情绪-神经内分泌逆向映射分析》中文深度文档,目标读者是懂技术但不懂神经科学、希望用于自我观察和自我调节的高级用户。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_cda22b7565ebe9ec3ab4",
+  "is_temporary": false,
+  "keywords": [
+    "神经内分泌",
+    "情绪映射",
+    "逆向映射",
+    "自我观察",
+    "自我调节",
+    "中文文档"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ccab63b5c2df3828ccea",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-10-27T04:21:23.221937Z",
+  "valid_to": null
+}

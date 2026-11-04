@@ -1,0 +1,50 @@
+{
+  "conditions": "用户清理 8118/8119 环境变量后继续测试 Google，错误从连接本地端口变为 TLS 失败。",
+  "confidence": 0.78,
+  "content": "2026-10-18 当 Clash Verge 开关未成功接管系统代理时,终端环境变量清理干净后,未走代理的直连访问 Google 会在 TLS 握手阶段失败,而不是本地端口连接错误;这可用于区分“残留代理变量”和“流量未被代理接管”。",
+  "created_at": "2026-10-27T05:08:55.810472Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f18082c6c564869030be",
+    "ent_c42dac5ae99195f63d24"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_99f1279db034d4a6a0a2",
+      "quote": "2026-10-18 当 Clash Verge 开关未成功接管系统代理时,终端环境变量清理干净后,未走代理的直连访问 Google 会在 TLS 握手阶段失败,而不是本地端口连接错误;这可用于区分“残留代理变量”和“流量未被代理接管”。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_569515c15cb32a79315e",
+  "is_temporary": false,
+  "keywords": [
+    "curl 35",
+    "LibreSSL",
+    "直连失败",
+    "TUN 未接管",
+    "系统代理"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_99f1279db034d4a6a0a2",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:08:55.810472Z",
+  "valid_to": null
+}

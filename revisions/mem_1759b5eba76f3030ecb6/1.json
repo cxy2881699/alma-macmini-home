@@ -1,0 +1,73 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:34:34.765570Z",
+  "id": "rev_080c96ecec954a3ada0f",
+  "memory": {
+    "conditions": "旧 LA-Reality 节点不可用后，用户需要采购并验证新代理。",
+    "confidence": 0.75,
+    "content": "用户需要更换或订阅新的可用代理节点,并希望 Agent 协助测试新节点连通性;旧节点 LA-Reality 已不可用。",
+    "created_at": "2026-10-27T04:34:34.765570Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6ebee10dda1843bbd843"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_1cd898a27b168e387484",
+        "quote": "用户需要更换或订阅新的可用代理节点,并希望 Agent 协助测试新节点连通性;旧节点 LA-Reality 已不可用。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_bd935a27864a54ab1d40",
+        "quote": "用户需要更换或订阅新的可用代理节点,并希望 Agent 协助测试新节点连通性;旧节点 LA-Reality 已不可用。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_1759b5eba76f3030ecb6",
+    "is_temporary": false,
+    "keywords": [
+      "换节点",
+      "订阅",
+      "节点连通性测试",
+      "更换代理节点",
+      "新 VPS 连通性测试",
+      "DMIT 购买",
+      "CN2 GIA",
+      "节点复测"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_1cd898a27b168e387484",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_bd935a27864a54ab1d40",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-10-27T04:34:34.765570Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_1759b5eba76f3030ecb6",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

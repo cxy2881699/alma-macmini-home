@@ -1,0 +1,52 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:34:08.597383Z",
+  "id": "rev_57a3eebda72dd1b212c4",
+  "memory": {
+    "conditions": "用户阐述记忆是自我进化 Agent 的生命来源，并希望应用到玩具和 NPC。",
+    "confidence": 0.85,
+    "content": "用户把可进化记忆的核心机制理解为经历改变 Agent 的理解、关注与行动,并希望未来用于智能玩具和游戏 NPC,而不仅是 Codex/Cursor 的工作记忆。",
+    "created_at": "2026-10-27T05:34:08.597383Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_8a931c38e6c929519b06",
+    "is_temporary": false,
+    "keywords": [
+      "经历塑造",
+      "成长闭环",
+      "NPC差异化",
+      "失控玩家",
+      "可进化记忆",
+      "赛博生命",
+      "智能玩具",
+      "游戏 NPC",
+      "经历闭环",
+      "理解关注行动"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:34:08.597383Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_8a931c38e6c929519b06",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-02T19:00:53.527723Z",
+  "id": "rev_995bdb7bab943deb8cc3",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-24：用户询问 memd 从 Tailscale 私网模式转为 HTTP+Token 公网模式的影响,Agent 从部署、安全、使用、性能和成本方面对比,并建议个人 Mac 保留 Tailscale、公司电脑先试点公网 HTTPS;随后心跳检查无待处理事项。",
+    "created_at": "2026-10-02T19:00:53.527723Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_8fc67c0d4c5d64da55b1",
+        "quote": "2026-09-24：用户询问 memd 从 Tailscale 私网模式转为 HTTP+Token 公网模式的影响,Agent 从部署、安全、使用、性能和成本方面对比,并建议个人 Mac 保留 Tailscale、公司电脑先试点公网 HTTPS;随后心跳检查无待处理事项。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_9cb5e0b01bca861a621b",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8fc67c0d4c5d64da55b1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-02T19:00:53.527723Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9cb5e0b01bca861a621b",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

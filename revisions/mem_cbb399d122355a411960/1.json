@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-05T19:02:24.650794Z",
+  "id": "rev_6eee48d24d3fd408149f",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-24：用户围绕 agent-memory 的部署故障、自动召回验证、性能、来源展示和对外价值进行核查;OpenClaw 同步修复了管理界面来源标签并清理 selftest 假数据。",
+    "created_at": "2026-10-05T19:02:24.650794Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_d1ac9ffcb12bebc57788",
+        "quote": "2026-09-24：用户围绕 agent-memory 的部署故障、自动召回验证、性能、来源展示和对外价值进行核查;OpenClaw 同步修复了管理界面来源标签并清理 selftest 假数据。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_cbb399d122355a411960",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d1ac9ffcb12bebc57788",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-05T19:02:24.650794Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_cbb399d122355a411960",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

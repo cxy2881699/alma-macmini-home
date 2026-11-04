@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-08T19:01:12.490308Z",
+  "id": "rev_8995190cd9b0eba32d27",
+  "memory": {
+    "conditions": "用户询问 Tailscale 方案改成 HTTP+Token 后在部署、使用和性能上的差别。",
+    "confidence": 0.78,
+    "content": "公网化后客户端可省去 Tailscale 安装登录,部署命令可简化为一行 curl;服务端则需新增域名、HTTPS 证书和公网端口暴露。",
+    "created_at": "2026-10-08T19:01:12.490308Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_421c00dde9a1b98fc969",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8fc67c0d4c5d64da55b1",
+        "quote": "公网化后客户端可省去 Tailscale 安装登录,部署命令可简化为一行 curl;服务端则需新增域名、HTTPS 证书和公网端口暴露。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_2605528a53b58d7041f6",
+    "is_temporary": false,
+    "keywords": [
+      "公网化部署",
+      "HTTPS证书",
+      "端口暴露",
+      "客户端安装门槛"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8fc67c0d4c5d64da55b1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-08T19:01:12.490308Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_2605528a53b58d7041f6",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

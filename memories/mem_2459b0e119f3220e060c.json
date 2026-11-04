@@ -1,0 +1,49 @@
+{
+  "conditions": "分身基于PDF全文覆盖重写总结时核对实际文件数并排除了保理合同文件。",
+  "confidence": 0.85,
+  "content": "摘要初版的论文总数口径为48篇(30篇抓到arXiv摘要、11篇标注未获取原文,其余通过OpenReview等渠道),而全文版输入为/tmp/pdftxt/下41个编号论文文件;两版口径不同,不能直接用42或48描述全文版覆盖数。",
+  "created_at": "2026-11-01T19:03:02.538734Z",
+  "derived_from": [],
+  "entities": [
+    "ent_e44cb152899e6702c87f",
+    "ent_803e29983b18f51d0780"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_3567af8b8693e96c3d81",
+      "quote": "摘要初版的论文总数口径为48篇(30篇抓到arXiv摘要、11篇标注未获取原文,其余通过OpenReview等渠道),而全文版输入为/tmp/pdftxt/下41个编号论文文件;两版口径不同,不能直接用42或48描述全文版覆盖数。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_2459b0e119f3220e060c",
+  "is_temporary": false,
+  "keywords": [
+    "41篇",
+    "48篇",
+    "口径差异",
+    "全文版覆盖"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_3567af8b8693e96c3d81",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-01T19:03:02.538734Z",
+  "valid_to": null
+}

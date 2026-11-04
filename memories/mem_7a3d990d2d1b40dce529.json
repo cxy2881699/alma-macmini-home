@@ -1,0 +1,50 @@
+{
+  "conditions": "用户在社交平台分享 agent-memory/跨 Agent 记忆系统相关内容",
+  "confidence": 0.9,
+  "content": "2026-09-25,用户将其跨 Agent 记忆系统相关内容发布到小红书,获得大量点赞和收藏,用户对此正向反馈表示认可。",
+  "created_at": "2026-09-25T08:05:38.050766Z",
+  "derived_from": [],
+  "entities": [
+    "ent_fe674bd79e9a18fdfdf3"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_9325e41c677a9fe03725",
+      "quote": "2026-09-25,用户将其跨 Agent 记忆系统相关内容发布到小红书,获得大量点赞和收藏,用户对此正向反馈表示认可。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_7a3d990d2d1b40dce529",
+  "is_temporary": false,
+  "keywords": [
+    "小红书",
+    "发布",
+    "点赞",
+    "收藏",
+    "跨Agent记忆",
+    "正向反馈"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_9325e41c677a9fe03725",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-25T08:05:38.050766Z",
+  "valid_to": null
+}

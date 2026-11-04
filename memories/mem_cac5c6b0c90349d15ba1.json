@@ -1,0 +1,43 @@
+{
+  "conditions": "",
+  "confidence": 0.98,
+  "content": "lit-hormone 任务要求覆盖 A 到 O 共 15 个主题,每个主题至少返回 8 条结果,并优先选择元分析、系统综述和里程碑研究。",
+  "created_at": "2026-10-27T04:17:21.444230Z",
+  "derived_from": [],
+  "entities": [
+    "ent_16155c4beee90c991d14"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_8d3f3ac718d007dd877d",
+      "quote": "lit-hormone 任务要求覆盖 A 到 O 共 15 个主题,每个主题至少返回 8 条结果,并优先选择元分析、系统综述和里程碑研究。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_cac5c6b0c90349d15ba1",
+  "is_temporary": true,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8d3f3ac718d007dd877d",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:17:21.444230Z",
+  "valid_to": "2026-10-22"
+}

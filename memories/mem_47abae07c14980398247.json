@@ -1,0 +1,76 @@
+{
+  "conditions": "Codex CLI 二进制缺失并被 macOS 隔离后，改用官方方式安装到用户目录。",
+  "confidence": 0.82,
+  "content": "当全局 npm 安装的 Codex CLI 出现 ARM64 vendor 二进制 ENOENT 或 Gatekeeper 隔离时,优先重新安装官方 CLI 到用户目录并调整 PATH,比手工补回二进制更稳妥。",
+  "created_at": "2026-09-23T23:52:51.043034Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_2ff0c1defb522ad38c60",
+      "quote": "当全局 npm 安装的 Codex CLI 出现 ARM64 vendor 二进制 ENOENT 或 Gatekeeper 隔离时,优先重新安装官方 CLI 到用户目录并调整 PATH,比手工补回二进制更稳妥。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_91a8ea1810469466278d",
+      "quote": "当全局 npm 安装的 Codex CLI 出现 ARM64 vendor 二进制 ENOENT 或 Gatekeeper 隔离时,优先重新安装官方 CLI 到用户目录并调整 PATH,比手工补回二进制更稳妥。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_e6f897e65bb5459b2608",
+      "quote": "当全局 npm 安装的 Codex CLI 出现 ARM64 vendor 二进制 ENOENT 或 Gatekeeper 隔离时,优先重新安装官方 CLI 到用户目录并调整 PATH,比手工补回二进制更稳妥。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_47abae07c14980398247",
+  "is_temporary": false,
+  "keywords": [
+    "Codex ENOENT",
+    "ARM64 二进制",
+    "官方安装",
+    ".local/bin",
+    "ENOENT",
+    "Gatekeeper",
+    "恶意软件",
+    "官方CLI",
+    "~/.local/bin/codex",
+    "ARM64"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_2ff0c1defb522ad38c60",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_91a8ea1810469466278d",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_e6f897e65bb5459b2608",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-09-23T23:52:51.043034Z",
+  "valid_to": null
+}

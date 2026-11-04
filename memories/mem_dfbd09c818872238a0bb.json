@@ -1,0 +1,43 @@
+{
+  "conditions": "",
+  "confidence": 0.95,
+  "content": "用户需要在终端执行 `openclaw gateway restart`;若仍有权限错误,则重启 OpenClaw 应用或 Mac,使新配置生效。",
+  "created_at": "2026-09-23T17:09:11.224621Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_1d9f495f128ccc9b4e0f",
+      "quote": "用户需要在终端执行 `openclaw gateway restart`;若仍有权限错误,则重启 OpenClaw 应用或 Mac,使新配置生效。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_dfbd09c818872238a0bb",
+  "is_temporary": true,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1d9f495f128ccc9b4e0f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-09-23T17:09:11.224621Z",
+  "valid_to": null
+}

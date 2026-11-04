@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-03T19:03:58.903782Z",
+  "id": "rev_229e9a4f4fae29fc9727",
+  "memory": {
+    "conditions": "用户执行手动设置 Wi-Fi 代理后，命令成功但全局代理状态仍关闭。",
+    "confidence": 0.86,
+    "content": "2026-10-18 23:17 时,networksetup 命令返回“写入完成”但全局 scutil 仍为 HTTPEnable:0,说明当时不能仅凭命令退出码判断系统代理已被 macOS 全局接管。",
+    "created_at": "2026-11-03T19:03:58.903782Z",
+    "derived_from": [],
+    "entities": [
+      "ent_f18082c6c564869030be",
+      "ent_c42dac5ae99195f63d24"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_b513ec84f98cca74efd9",
+        "quote": "2026-10-18 23:17 时,networksetup 命令返回“写入完成”但全局 scutil 仍为 HTTPEnable:0,说明当时不能仅凭命令退出码判断系统代理已被 macOS 全局接管。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_d0b9eeaf85ce3d81e744",
+    "is_temporary": false,
+    "keywords": [
+      "系统代理",
+      "写入成功但未生效",
+      "HTTPEnable",
+      "7897",
+      "configd"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_b513ec84f98cca74efd9",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-03T19:03:58.903782Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_d0b9eeaf85ce3d81e744",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

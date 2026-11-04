@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-30T19:03:20.454616Z",
+  "id": "rev_609a774ed00d3fdaf6bc",
+  "memory": {
+    "conditions": "用户完整清理代理变量后，curl 的错误从本地端口连接失败变为 TLS 直连失败。",
+    "confidence": 0.82,
+    "content": "在 unset 常见及 all_proxy 等代理环境变量后,curl 不再连接 8118/8119,而转为访问 Google 时的 LibreSSL SSL_ERROR_SYSCALL;该现象支持“终端代理环境已基本清掉,但直连外网仍被阻断且 TUN/系统代理未接管”的判断。",
+    "created_at": "2026-10-30T19:03:20.454616Z",
+    "derived_from": [],
+    "entities": [
+      "ent_f90a16b26a8ab1d551fc",
+      "ent_f18082c6c564869030be"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_99f1279db034d4a6a0a2",
+        "quote": "在 unset 常见及 all_proxy 等代理环境变量后,curl 不再连接 8118/8119,而转为访问 Google 时的 LibreSSL SSL_ERROR_SYSCALL;该现象支持“终端代理环境已基本清掉,但直连外网仍被阻断且 TUN/系统代理未接管”的判断。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_719b61d67aae3ed7c695",
+    "is_temporary": false,
+    "keywords": [
+      "SSL_ERROR_SYSCALL",
+      "all_proxy",
+      "8118",
+      "8119",
+      "直连失败"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_99f1279db034d4a6a0a2",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-30T19:03:20.454616Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_719b61d67aae3ed7c695",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

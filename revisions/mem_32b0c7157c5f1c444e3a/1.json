@@ -1,0 +1,69 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:11:29.069615Z",
+  "id": "rev_26019b2bc44c584ec9c9",
+  "memory": {
+    "conditions": "模型切换后用户反馈输出速度慢，Agent 区分自身回复延迟与模型生成速度。",
+    "confidence": 0.72,
+    "content": "用户对模型或服务的响应延迟较敏感,会主动追问是否卡住并要求区分 Agent 回复慢与模型流式输出慢。",
+    "created_at": "2026-10-27T05:11:29.069615Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_6bd23e50822556638c98",
+        "quote": "用户对模型或服务的响应延迟较敏感,会主动追问是否卡住并要求区分 Agent 回复慢与模型流式输出慢。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_32b0c7157c5f1c444e3a",
+    "is_temporary": false,
+    "keywords": [
+      "响应速度",
+      "输出慢",
+      "卡住",
+      "重启断线",
+      "search 慢",
+      "召回耗时",
+      "110ms",
+      "性能敏感",
+      "卡顿来源",
+      "回复慢",
+      "流式输出慢",
+      "模型速度",
+      "思考型模型",
+      "延迟敏感"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_6bd23e50822556638c98",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-27T05:11:29.069615Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_32b0c7157c5f1c444e3a",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

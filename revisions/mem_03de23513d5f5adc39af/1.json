@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T19:02:35.840376Z",
+  "id": "rev_d652f24959380269fcac",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-24：用户与 Codex 回顾 agent-memory 部署后的问题,确认真实时区基准、系统价值和 Codex 自动召回机制;随后实测记忆检索性能,并确认 OpenClaw“小龙虾”仍在线。",
+    "created_at": "2026-10-27T19:02:35.840376Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_d1ac9ffcb12bebc57788",
+        "quote": "2026-09-24：用户与 Codex 回顾 agent-memory 部署后的问题,确认真实时区基准、系统价值和 Codex 自动召回机制;随后实测记忆检索性能,并确认 OpenClaw“小龙虾”仍在线。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_03de23513d5f5adc39af",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d1ac9ffcb12bebc57788",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-27T19:02:35.840376Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_03de23513d5f5adc39af",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

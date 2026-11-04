@@ -1,0 +1,61 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:30:42.259227Z",
+  "id": "rev_e7fc17a4c3b49e50bf65",
+  "memory": {
+    "conditions": "Agent 刚宣布修复收官，用户随后再次反馈异常。",
+    "confidence": 0.9,
+    "content": "2026-10-18 晚“五台设备全部稳定收官”的判断过早:MacBook 在 23:20 短暂可用后,23:37 又出现未明确的故障,需要重新收集系统代理、7897 本地端口和 MonoProxy 保活证据。",
+    "created_at": "2026-10-27T05:30:42.259227Z",
+    "derived_from": [],
+    "entities": [
+      "ent_f90a16b26a8ab1d551fc",
+      "ent_f18082c6c564869030be",
+      "ent_c42dac5ae99195f63d24"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_d2cb6dbcd0c6043abf52",
+        "quote": "2026-10-18 晚“五台设备全部稳定收官”的判断过早:MacBook 在 23:20 短暂可用后,23:37 又出现未明确的故障,需要重新收集系统代理、7897 本地端口和 MonoProxy 保活证据。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_acdc881e811fcdd9b205",
+    "is_temporary": false,
+    "keywords": [
+      "短暂恢复",
+      "五台设备",
+      "系统代理",
+      "7897",
+      "MonoProxy"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d2cb6dbcd0c6043abf52",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:30:42.259227Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_acdc881e811fcdd9b205",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

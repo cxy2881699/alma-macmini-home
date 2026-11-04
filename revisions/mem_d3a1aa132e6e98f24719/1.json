@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-04T19:04:43.359569Z",
+  "id": "rev_9d3f95124f234b3b5c90",
+  "memory": {
+    "conditions": "用户提出用信息增量函数实现 agent 欲望",
+    "confidence": 0.75,
+    "content": "用户对 agent 欲望机制有自己的技术构想:内置一个可自进化的复杂函数(类比 LSTM),基于记忆系统全量信息(互联网、交互、tool)持续计算信息增量作为内在驱动;并认为恐惧可类似设计。",
+    "created_at": "2026-10-04T19:04:43.359569Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_d3a1aa132e6e98f24719",
+    "is_temporary": false,
+    "keywords": [
+      "好奇心",
+      "预测误差",
+      "自进化奖励",
+      "驱动函数"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-04T19:04:43.359569Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_d3a1aa132e6e98f24719",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,50 @@
+{
+  "conditions": "用户执行手动设置 Wi-Fi 代理到 7897 的命令后，命令链显示完成但全局代理状态仍关闭。",
+  "confidence": 0.86,
+  "content": "2026-10-18 23:17 的证据只能证明 networksetup 命令链执行到了 echo,不能证明 Wi-Fi 代理实际写入成功;因为同一输出中 scutil 仍为 HTTPEnable: 0,随后还需要用 networksetup -getwebproxy 独立核验。",
+  "created_at": "2026-10-31T19:03:05.528609Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f18082c6c564869030be",
+    "ent_c42dac5ae99195f63d24"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_b513ec84f98cca74efd9",
+      "quote": "2026-10-18 23:17 的证据只能证明 networksetup 命令链执行到了 echo,不能证明 Wi-Fi 代理实际写入成功;因为同一输出中 scutil 仍为 HTTPEnable: 0,随后还需要用 networksetup -getwebproxy 独立核验。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_c59410fb68e72e33dfa5",
+  "is_temporary": false,
+  "keywords": [
+    "7897",
+    "HTTPEnable",
+    "写入完成",
+    "系统代理",
+    "验收"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_b513ec84f98cca74efd9",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-31T19:03:05.528609Z",
+  "valid_to": null
+}

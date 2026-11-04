@@ -1,0 +1,36 @@
+{
+  "conditions": "用户要求具体到网站的购买清单，助手列出主 VPS、住宅代理和跳板方案。",
+  "confidence": 0.8,
+  "content": "用户当时倾向的采购组合是 DMIT LAX Premium TINY 作主 VPS,另购静态住宅/ISP IP 专供 AI,旧 RackNerd 用于爬虫。",
+  "created_at": "2026-10-31T19:05:31.902510Z",
+  "derived_from": [],
+  "entities": [
+    "ent_c77a5f5a7949c71398a9"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_8c97296b3cdc84538d8a",
+  "is_temporary": false,
+  "keywords": [
+    "采购清单",
+    "DMIT",
+    "静态住宅IP",
+    "ISP代理",
+    "爬虫机"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-31T19:05:31.902510Z",
+  "valid_to": null
+}

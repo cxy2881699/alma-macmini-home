@@ -1,0 +1,94 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:14:04.651950Z",
+  "id": "rev_66dc42b8df6b9b3c208e",
+  "memory": {
+    "conditions": "排查 Codex 自动记忆召回为何未生效时",
+    "confidence": 0.8,
+    "content": "用户询问 Codex 是否每次对话都加载记忆,Agent 检查后确认保存链路工作但自动召回未在当前会话生效,判断原因是钩子未通过信任审核,指导用户执行 /hooks 信任三个 agent-memory 钩子并重启会话。",
+    "created_at": "2026-09-23T17:14:04.651950Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_0796872cfc79a9328bad",
+        "quote": "用户询问 Codex 是否每次对话都加载记忆,Agent 检查后确认保存链路工作但自动召回未在当前会话生效,判断原因是钩子未通过信任审核,指导用户执行 /hooks 信任三个 agent-memory 钩子并重启会话。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_ddacf54dfa56f7da9177",
+        "quote": "用户询问 Codex 是否每次对话都加载记忆,Agent 检查后确认保存链路工作但自动召回未在当前会话生效,判断原因是钩子未通过信任审核,指导用户执行 /hooks 信任三个 agent-memory 钩子并重启会话。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_41c6dc707d77230c6ef7",
+        "quote": "用户询问 Codex 是否每次对话都加载记忆,Agent 检查后确认保存链路工作但自动召回未在当前会话生效,判断原因是钩子未通过信任审核,指导用户执行 /hooks 信任三个 agent-memory 钩子并重启会话。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_f43c83f7f1f5cdacef20",
+        "quote": "用户询问 Codex 是否每次对话都加载记忆,Agent 检查后确认保存链路工作但自动召回未在当前会话生效,判断原因是钩子未通过信任审核,指导用户执行 /hooks 信任三个 agent-memory 钩子并重启会话。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_bb16589e5a4c5b0ea39e",
+    "is_temporary": false,
+    "keywords": [
+      "Codex",
+      "hooks",
+      "agent-memory",
+      "记忆召回",
+      "信任",
+      "UserPromptSubmit",
+      "故障排查"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_0796872cfc79a9328bad",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_ddacf54dfa56f7da9177",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_41c6dc707d77230c6ef7",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_f43c83f7f1f5cdacef20",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-23T17:14:04.651950Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_bb16589e5a4c5b0ea39e",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

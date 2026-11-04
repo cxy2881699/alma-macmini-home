@@ -1,0 +1,72 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:42:16.054241Z",
+  "id": "rev_e476efb1d08a20895233",
+  "memory": {
+    "conditions": "模型切换成功后，Agent 主动提示配置参数可能与官方不一致。",
+    "confidence": 0.85,
+    "content": "ark/kimi-k3-1-pro-261024 在 OpenClaw 配置中被临时填写为上下文窗口 262144、maxTokens 32768;这些参数尚未经官方参数核对,可能影响长对话记忆或输出截断。",
+    "created_at": "2026-10-27T04:42:16.054241Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_1c6b296bc5cb579536f2",
+      "ent_85ac7912658c80484706"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_d55c939bb832758641d3",
+        "quote": "ark/kimi-k3-1-pro-261024 在 OpenClaw 配置中被临时填写为上下文窗口 262144、maxTokens 32768;这些参数尚未经官方参数核对,可能影响长对话记忆或输出截断。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_3d8e9a54e4b001ea6a33",
+        "quote": "ark/kimi-k3-1-pro-261024 在 OpenClaw 配置中被临时填写为上下文窗口 262144、maxTokens 32768;这些参数尚未经官方参数核对,可能影响长对话记忆或输出截断。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_241221e4e9019d445c47",
+    "is_temporary": false,
+    "keywords": [
+      "上下文窗口",
+      "maxTokens",
+      "模型参数",
+      "输出截断",
+      "长对话"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d55c939bb832758641d3",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_3d8e9a54e4b001ea6a33",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:42:16.054241Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_241221e4e9019d445c47",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,67 @@
+{
+  "conditions": "核对全文版论文总结实际覆盖篇数时检索",
+  "confidence": 0.9,
+  "content": "全文版 paper-summaries-MemAgents.md 实际基于 41 篇论文全文重写,而非任务书所称 42 篇;8252eae 文件为保理合同被排除,因此引用全文版覆盖篇数时应以 41 为准。",
+  "created_at": "2026-10-11T19:03:28.770514Z",
+  "derived_from": [],
+  "entities": [
+    "ent_e44cb152899e6702c87f",
+    "ent_803e29983b18f51d0780"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_4ead9e010ef9d7e33330",
+      "quote": "全文版 paper-summaries-MemAgents.md 实际基于 41 篇论文全文重写,而非任务书所称 42 篇;8252eae 文件为保理合同被排除,因此引用全文版覆盖篇数时应以 41 为准。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_3567af8b8693e96c3d81",
+      "quote": "全文版 paper-summaries-MemAgents.md 实际基于 41 篇论文全文重写,而非任务书所称 42 篇;8252eae 文件为保理合同被排除,因此引用全文版覆盖篇数时应以 41 为准。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_c74b568bd6d81c52f006",
+  "is_temporary": false,
+  "keywords": [
+    "全文版",
+    "覆盖口径",
+    "42篇",
+    "全文重写",
+    "覆盖篇数",
+    "41篇",
+    "42篇差异",
+    "8252eae",
+    "保理合同",
+    "pdftxt",
+    "全文版覆盖"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_4ead9e010ef9d7e33330",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_3567af8b8693e96c3d81",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-11T19:03:28.770514Z",
+  "valid_to": null
+}

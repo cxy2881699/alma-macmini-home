@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-10-27：用户先排查新购 VPS/代理节点国内不可达问题,确认海外可达而国内 TCP 超时,并获得换 IP、4G 判别和应急规则建议;随后要求为 OpenClaw 切换到新 Kimi 模型,脚本经历一次 setsid 兼容问题后用 nohup 成功完成切换并保留回滚路径。",
+  "created_at": "2026-10-27T04:35:07.318622Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_876285daee49a79ec31a",
+      "quote": "2026-10-27：用户先排查新购 VPS/代理节点国内不可达问题,确认海外可达而国内 TCP 超时,并获得换 IP、4G 判别和应急规则建议;随后要求为 OpenClaw 切换到新 Kimi 模型,脚本经历一次 setsid 兼容问题后用 nohup 成功完成切换并保留回滚路径。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_c1eec70783313be5a898",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_876285daee49a79ec31a",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-27T04:35:07.318622Z",
+  "valid_to": null
+}

@@ -1,0 +1,52 @@
+{
+  "conditions": "用户要求把 PRD 存入记忆系统，供其他 Agent 后续直接读取和评审。",
+  "confidence": 0.86,
+  "content": "用户期望通过显式归档指令让其他 Agent 直接读取 PRD 全文;但本次实际结果只是全文作为事件入库,普通检索仍可能只返回摘要,目标与可达性之间存在差距。",
+  "created_at": "2026-10-27T19:04:53.213054Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e",
+    "ent_0dd3ce8f5049183636d7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_204132bcd438ed41fedc",
+      "quote": "用户期望通过显式归档指令让其他 Agent 直接读取 PRD 全文;但本次实际结果只是全文作为事件入库,普通检索仍可能只返回摘要,目标与可达性之间存在差距。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_be2a4a60c7dc1089c39c",
+  "is_temporary": false,
+  "keywords": [
+    "全文归档",
+    "跨Agent共享",
+    "PRD评审",
+    "事件入库",
+    "摘要检索"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_204132bcd438ed41fedc",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T19:04:53.213054Z",
+  "valid_to": null
+}

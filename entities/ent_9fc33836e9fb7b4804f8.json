@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "25 Hangman"
+  ],
+  "created_at": "2026-09-28T03:54:20.257364Z",
+  "description": "MemAgents Workshop 论文（编号25），证明LLM私有工作记忆的不可能性定理",
+  "id": "ent_9fc33836e9fb7b4804f8",
+  "name": "Hangman 不可能定理",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T08:56:50.220224Z"
+}

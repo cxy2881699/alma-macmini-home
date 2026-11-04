@@ -1,0 +1,57 @@
+{
+  "conditions": "用户指出 hook 每轮必须走记忆 search，且失败不能被静默吞掉。",
+  "confidence": 0.86,
+  "content": "用户对记忆召回的设计要求是每轮自动 search 必须成功或显式失败,不接受搜索超时/服务出错时静默放行。",
+  "created_at": "2026-11-01T19:00:50.193506Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_ddfc3157c195d2617059",
+      "quote": "用户对记忆召回的设计要求是每轮自动 search 必须成功或显式失败,不接受搜索超时/服务出错时静默放行。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_b1583bd43f9bab210210",
+  "is_temporary": false,
+  "keywords": [
+    "强制召回",
+    "静默放行",
+    "hook",
+    "search",
+    "失败策略",
+    "每轮search",
+    "显式失败",
+    "禁止静默放行",
+    "超时策略",
+    "hook故障策略",
+    "recall失败"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ddfc3157c195d2617059",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-01T19:00:50.193506Z",
+  "valid_to": null
+}

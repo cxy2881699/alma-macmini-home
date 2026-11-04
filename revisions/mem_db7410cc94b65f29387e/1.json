@@ -1,0 +1,59 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-02T19:06:51.671708Z",
+  "id": "rev_4e83ed7de82e95468f4b",
+  "memory": {
+    "conditions": "用户要求执行并优化记忆链路后，助手完成备份、改池、重启和批量重试。",
+    "confidence": 0.9,
+    "content": "memd 的 197 个历史失败任务在连接池修复后已全部成功入队,修复后验证请求未再出现 PoolTimeout;但当时仍有 162 个 extract 在队列中消化。",
+    "created_at": "2026-11-02T19:06:51.671708Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_9d10a69084bd77edc45a",
+        "quote": "memd 的 197 个历史失败任务在连接池修复后已全部成功入队,修复后验证请求未再出现 PoolTimeout;但当时仍有 162 个 extract 在队列中消化。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_db7410cc94b65f29387e",
+    "is_temporary": false,
+    "keywords": [
+      "失败任务重试",
+      "extract 队列",
+      "连接池耗尽",
+      "恢复验证"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_9d10a69084bd77edc45a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-02T19:06:51.671708Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_db7410cc94b65f29387e",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

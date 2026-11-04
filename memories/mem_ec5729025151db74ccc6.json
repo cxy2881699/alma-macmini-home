@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-10-18：用户继续处理 MacBook 系统代理与 Clash Verge 接管问题,期间新 Gmail 注册 Claude 被 hold,最终决定重新养号;代理清理后仍反馈“还是不行”,故障当晚未闭环。",
+  "created_at": "2026-10-30T19:03:57.507582Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_10853d0c7dcf8fdb980b",
+      "quote": "2026-10-18：用户继续处理 MacBook 系统代理与 Clash Verge 接管问题,期间新 Gmail 注册 Claude 被 hold,最终决定重新养号;代理清理后仍反馈“还是不行”,故障当晚未闭环。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_ec5729025151db74ccc6",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_10853d0c7dcf8fdb980b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-30T19:03:57.507582Z",
+  "valid_to": null
+}

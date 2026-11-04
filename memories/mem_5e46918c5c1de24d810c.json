@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-11-03：凌晨两次自动化任务触发:价格爬虫按静默要求执行;心跳检查无待办,回复 HEARTBEAT_OK。",
+  "created_at": "2026-11-02T19:07:55.459228Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_0949a95848ea1b3763dc",
+      "quote": "2026-11-03：凌晨两次自动化任务触发:价格爬虫按静默要求执行;心跳检查无待办,回复 HEARTBEAT_OK。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_5e46918c5c1de24d810c",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_0949a95848ea1b3763dc",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-11-02T19:07:55.459228Z",
+  "valid_to": null
+}

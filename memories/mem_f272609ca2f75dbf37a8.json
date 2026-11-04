@@ -1,0 +1,47 @@
+{
+  "conditions": "Agent 在批量论文文件接收后核对落盘情况并说明缺失项。",
+  "confidence": 0.86,
+  "content": "截至 2026-09-28,用户批量提供的论文材料中已有 42+ 篇 PDF 落盘并提取文本,但 42 Compute Allocation、07 StructMemEval、31 UltRAG 三篇未落盘,仅有 arXiv 摘要覆盖。",
+  "created_at": "2026-09-28T19:09:06.189840Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8b1cd7fc53b3e4d3963e",
+      "quote": "截至 2026-09-28,用户批量提供的论文材料中已有 42+ 篇 PDF 落盘并提取文本,但 42 Compute Allocation、07 StructMemEval、31 UltRAG 三篇未落盘,仅有 arXiv 摘要覆盖。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_f272609ca2f75dbf37a8",
+  "is_temporary": false,
+  "keywords": [
+    "论文PDF",
+    "材料缺失",
+    "队列溢出",
+    "全文总结",
+    "arXiv摘要"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8b1cd7fc53b3e4d3963e",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-28T19:09:06.189840Z",
+  "valid_to": null
+}

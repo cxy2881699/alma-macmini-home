@@ -1,0 +1,85 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:55:53.253833Z",
+  "id": "rev_d491504f620cbe3749bc",
+  "memory": {
+    "conditions": "用户理解和评估 agent-memory 在 Codex 每轮对话前的搜索路径与延迟时适用。",
+    "confidence": 0.7,
+    "content": "用户追问 110ms 的轻量召回是否真正经过 Neo4j 图数据库;Agent 确认该耗时包含图检索、全文匹配和关联扩展,但向量生成默认后台预热,完整深度召回是另一条更慢路径。",
+    "created_at": "2026-09-23T17:55:53.253833Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_1b0510f6e7579d8f62b3",
+      "ent_176409fa578ba26c2c5b"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_b5c4a9b1810f60adccbd",
+        "quote": "用户追问 110ms 的轻量召回是否真正经过 Neo4j 图数据库;Agent 确认该耗时包含图检索、全文匹配和关联扩展,但向量生成默认后台预热,完整深度召回是另一条更慢路径。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_c02a98017b71c7fc5231",
+        "quote": "用户追问 110ms 的轻量召回是否真正经过 Neo4j 图数据库;Agent 确认该耗时包含图检索、全文匹配和关联扩展,但向量生成默认后台预热,完整深度召回是另一条更慢路径。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_d7e5946184cfe5447249",
+        "quote": "用户追问 110ms 的轻量召回是否真正经过 Neo4j 图数据库;Agent 确认该耗时包含图检索、全文匹配和关联扩展,但向量生成默认后台预热,完整深度召回是另一条更慢路径。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_9f92c04061aea86183e2",
+    "is_temporary": false,
+    "keywords": [
+      "记忆召回",
+      "Neo4j",
+      "图数据库",
+      "向量检索",
+      "轻量召回",
+      "深度召回",
+      "性能测试"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_b5c4a9b1810f60adccbd",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_c02a98017b71c7fc5231",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_d7e5946184cfe5447249",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-23T17:55:53.253833Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9f92c04061aea86183e2",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

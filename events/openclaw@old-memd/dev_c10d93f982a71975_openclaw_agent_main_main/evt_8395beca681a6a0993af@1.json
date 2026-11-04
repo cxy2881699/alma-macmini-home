@@ -1,0 +1,57 @@
+{
+  "agent_id": "openclaw@old-memd",
+  "assistant_text": "**服务活着，但不完全健康。** **正常的部分** - memd 进程在跑（PID 1199），Neo4j 正常，`healthz` 返回 ok - recall 正常——你这几条消息里我都能看到记忆注入，这就是证据 **不正常的部分** 后台任务堆积失败： - `extract` 失败 **163** 个 - `sleep` 失败 **34** 个 - 还有 7 个排队、1 个在跑 - 从 **10-12 就开始累积**，不是今天才有 **影响**：新对话的\"整理成长期记忆\"这一环在大量失败，只有原始事件在入库，加工环节瘫了一半。 **根因（已定位）** 错误清一色是 `ModelError: network: PoolTimeout`——**HTTP 连接池耗尽**。 我刚实测了 ark 的两个接口： - chat（doubao-seed-evolving）：200，7.9 秒 - embeddings/multimodal：200，0.49 秒 所以**不是网络问题、不是 key 问题、不是模型下线**，是 memd 自己的 HTTP 客户端池子（上限 16 连接）被占满，新请求等不到连接就超时失败。思考型模型响应慢，worker 并发一高就把池子打爆。 **处理建议** 1. 重启 memd，释放卡住的连接（任务存在 SQLite 里，不会丢） 2. 批量重试那 197 个失败任务 3. 要根治：连接池 16 → 64，同时限制 worker 并发，别让慢请求把池子占死 要我按 1+2 先恢复，还是连 3 一起改？",
+  "content_hash": "1928c1c4900fd0a3489ad4bde0b65ebef3efc5a1aa3501a91f9ae2a66f373797",
+  "cwd": "",
+  "device_id": "dev_c10d93f982a71975",
+  "event_id": "evt_8395beca681a6a0993af",
+  "kind": "conversation",
+  "native_event_id": "f7336fdeb1ec8358f36a6c1904729c74",
+  "occurred_at": "2026-10-27T03:57:21.453000Z",
+  "privacy_mode": "normal",
+  "project_id": "",
+  "received_at": "2026-11-04T08:56:49.867771Z",
+  "revision": 1,
+  "session_id": "dev_c10d93f982a71975:openclaw:agent:main:main",
+  "space": "user/shared",
+  "tools": [
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"export PATH=/usr/bin:/bin:/usr/sbin:/sbin; echo \\\"=== 服务 ===\\\"; launchctl list | grep agentmemory; echo \\\"=== 管理界面 ===\\\"; curl -s -o /dev/null -w \\\"/admin.html: %{http_code}\\\\n\\\" --max-time 5 http://127.0.0.1:8787/admin.html; curl -s -o /dev/null -w \\\"/health: %{http_code}\\\\n\\\" --max-tim"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"export PATH=/usr/bin:/bin:/usr/sbin:/sbin; echo \\\"=== memd 完整启动命令 ===\\\"; ps -p 1199 -o command= ; echo \\\"=== home 目录 ===\\\"; ls ~/.memd 2>/dev/null; ls ~/.mem 2>/dev/null | head; echo \\\"=== API 路由 ===\\\"; curl -s --max-time 5 http://127.0.0.1:8787/openapi.json | python3 -c \\\"import sys,jso"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"export PATH=/usr/bin:/bin:/usr/sbin:/sbin; echo \\\"=== healthz ===\\\"; curl -s --max-time 5 http://127.0.0.1:8787/healthz; echo; echo \\\"=== overview ===\\\"; curl -s --max-time 8 http://127.0.0.1:8787/v1/admin/overview | head -c 1200; echo; echo \\\"=== jobs 状态 ===\\\"; curl -s --max-time 8 \\\"ht"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"export PATH=/usr/bin:/bin:/usr/sbin:/sbin; ls -lt ~/memd/logs/ | head -6; echo \\\"=== 最新错误 ===\\\"; LOG=$(ls -t ~/memd/logs/*.log 2>/dev/null | head -1); echo \\\"LOG=$LOG\\\"; tail -60 \\\"$LOG\\\" 2>/dev/null | grep -iE \\\"error|fail|exception|timeout|401|403|404|429|500\\\" | tail -15\",\"timeout\":30"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"export PATH=/usr/bin:/bin:/usr/sbin:/sbin; echo \\\"=== memd.err 最近错误 ===\\\"; tail -c 60000 ~/memd/logs/memd.err | grep -iE \\\"error|failed|exception|timeout|401|403|404|429|500|refused\\\" | tail -12; echo; echo \\\"=== 最后 12 行 ===\\\"; tail -12 ~/memd/logs/memd.err\",\"timeout\":30}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"export PATH=/usr/bin:/bin:/usr/sbin:/sbin; echo \\\"=== memd launchd 环境 ===\\\"; plutil -p ~/Library/LaunchAgents/com.agentmemory.memd.plist 2>/dev/null | grep -iE \\\"proxy|ark|env\\\" -A2 | head -20; echo \\\"=== memd 配置里的代理/模型 ===\\\"; python3 -c \\\"\\nimport json\\nc=json.load(open('/Users/seancao/"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"export PATH=/usr/bin:/bin:/usr/sbin:/sbin; echo \\\"=== ~/memd 目录 ===\\\"; ls ~/memd/; echo \\\"=== ~/.mem/config.json ===\\\"; python3 -c \\\"\\nimport json\\nc=json.load(open('/Users/seancao/.mem/config.json'))\\ndef scrub(o):\\n    if isinstance(o,dict): return {k:('***' if any(s in k.lower() for s"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"export PATH=/usr/bin:/bin:/usr/sbin:/sbin; echo \\\"=== memd.env（脱敏）===\\\"; sed -E 's/(KEY|TOKEN|SECRET|PASSWORD)=.*/\\\\1=***/' ~/memd/memd.env | head -25; echo \\\"=== 失败时间分布 ===\\\"; python3 - <<'PY'\\nimport sqlite3, datetime\\ncon=sqlite3.connect('file:/Users/seancao/memd/memd.db?mode=ro',uri="
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"export PATH=/usr/bin:/bin:/usr/sbin:/sbin; KEY=$(grep '^ARK_API_KEY=' ~/memd/memd.env | cut -d= -f2); echo \\\"=== 测 chat（doubao-seed-evolving）===\\\"; curl -s -o /tmp/memd_chat_test.json -w \\\"http=%{http_code} total=%{time_total}s connect=%{time_connect}s\\\\n\\\" --max-time 25 -H \\\"Authorizati"
+    }
+  ],
+  "turn_index": 58,
+  "user_text": "Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b6135a165e080c0c9ee226a09e46\", \"sender_id\": \"ou_e4a4036df049fc443a923af8b5110ebe\", \"sender\": \"ou_e4a4036df049fc443a923af8b5110ebe\", \"timestamp\": \"Mon 2026-10-26 20:48 PDT\" } ``` Sender (untrusted metadata): ```json { \"label\": \"ou_e4a4036df049fc443a923af8b5110ebe\", \"id\": \"ou_e4a4036df049fc443a923af8b5110ebe\", \"name\": \"ou_e4a4036df049fc443a923af8b5110ebe\" } ``` [message_id: om_x100b6135a165e080c0c9ee226a09e46] ou_e4a4036df049fc443a923af8b5110ebe: 记忆服务目前正常运行着呢么"
+}

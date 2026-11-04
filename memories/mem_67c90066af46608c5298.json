@@ -1,0 +1,49 @@
+{
+  "conditions": "第一阶段分身基于摘要产出初版时的汇报",
+  "confidence": 0.9,
+  "content": "摘要初版实际抓取 arXiv 摘要 30/48 篇,11 篇基于标题与综述上下文撰写并标注\"未获取原文\",MINJA 当时未定位到精确 arXiv ID。",
+  "created_at": "2026-10-27T04:33:20.078949Z",
+  "derived_from": [],
+  "entities": [
+    "ent_803e29983b18f51d0780",
+    "ent_12e60967bd71bfb38736"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_4ead9e010ef9d7e33330",
+      "quote": "摘要初版实际抓取 arXiv 摘要 30/48 篇,11 篇基于标题与综述上下文撰写并标注\"未获取原文\",MINJA 当时未定位到精确 arXiv ID。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_67c90066af46608c5298",
+  "is_temporary": false,
+  "keywords": [
+    "摘要初版",
+    "arXiv",
+    "未获取原文",
+    "OpenReview"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_4ead9e010ef9d7e33330",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:33:20.078949Z",
+  "valid_to": null
+}

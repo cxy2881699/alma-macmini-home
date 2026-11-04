@@ -1,0 +1,33 @@
+{
+  "conditions": "用户上传论文压缩包并要求学习总结。",
+  "confidence": 0.72,
+  "content": "用户想学习 ICLR 2026 Agent Memory 论文合集中的新思路,重点可能包括 Mem0、Zep、A-Mem、MemGPT 等方向。",
+  "created_at": "2026-09-28T19:08:14.172675Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_5b683a41b2792fe4cea4",
+  "is_temporary": false,
+  "keywords": [
+    "论文总结",
+    "Agent Memory",
+    "记忆机制",
+    "新思路"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-09-28T19:08:14.172675Z",
+  "valid_to": null
+}

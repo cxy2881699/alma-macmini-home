@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-29：上午cron正常执行并发送9月29日晨报;中午用户要求通读49篇最新Agent Memory论文整理全景综述,subagent完成约19KB综述文档;其余时间为heartbeat巡检,无新事件。",
+  "created_at": "2026-09-29T19:03:46.764736Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_21ec0a807d8ab8a39f8f",
+      "quote": "2026-09-29：上午cron正常执行并发送9月29日晨报;中午用户要求通读49篇最新Agent Memory论文整理全景综述,subagent完成约19KB综述文档;其余时间为heartbeat巡检,无新事件。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_7016fa699d8c4a28b28c",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_21ec0a807d8ab8a39f8f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-09-29T19:03:46.764736Z",
+  "valid_to": null
+}

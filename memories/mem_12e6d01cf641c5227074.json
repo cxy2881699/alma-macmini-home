@@ -1,0 +1,55 @@
+{
+  "conditions": "复盘推荐酒时记忆服务是否被调用，以及 Agent 为何回答错误时",
+  "confidence": 0.7,
+  "content": "曾认为：2026-09-25 用户询问 Agent 推荐重聚用酒时是否调用了记忆服务;Agent 承认最初推荐格兰杰时未主动调用记忆,随后补做检索,仅找到重聚计划和本次讨论,未找到用户或该同学的饮酒偏好记录；实际：2026-09-25 用户询问推荐重聚用酒时是否调用记忆服务;Agent 起初把“没有主动调用 MCP”误说成“没有调用记忆服务”,核查配置和审计后确认推荐前 UserPromptSubmit hook 已自动 recall=ok,但返回相关记忆为空,之后 MCP 只是额外深度查询；错误来源：其他",
+  "created_at": "2026-09-25T08:39:19.759470Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_ddfc3157c195d2617059",
+      "quote": "曾认为：2026-09-25 用户询问 Agent 推荐重聚用酒时是否调用了记忆服务;Agent 承认最初推荐格兰杰时未主动调用记忆,随后补做检索,仅找到重聚计划和本次讨论,未找到用户或该同学的饮酒偏好记录；实际：2026-09-25 用户询问推荐重聚用酒时是否调用记忆服务;Agent 起初把“没有主动调用 MCP”误说成“没有调用记忆服务”,核查配置和审计后确认推荐前 UserPromptSubmit hook 已自动 recall=ok,但返回相关记忆为空,之后 MCP 只是额外深度查询；错误来源：其他",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_12e6d01cf641c5227074",
+  "is_temporary": false,
+  "keywords": [
+    "记忆服务",
+    "未调用",
+    "饮酒偏好",
+    "重聚",
+    "格兰杰",
+    "召回结果",
+    "MCP",
+    "hook",
+    "UserPromptSubmit",
+    "recall=ok"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ddfc3157c195d2617059",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-09-25T08:39:19.759470Z",
+  "valid_to": null
+}

@@ -1,0 +1,36 @@
+{
+  "conditions": "用户在情感疏导后自己做出的决定，比助手建议的写而不发更进一步",
+  "confidence": 0.85,
+  "content": "用户计划把8年前没说的话写成一封信并直接发给前女友,动机是单向完成闭环而非挽回或期待回应。",
+  "created_at": "2026-10-04T19:04:18.636022Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9d3a8e426d91c52fb407"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_559888eeadc29f0ebb9c",
+  "is_temporary": false,
+  "keywords": [
+    "写信",
+    "发给她",
+    "闭环",
+    "翻篇",
+    "未发送"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "review",
+  "status_reason": "migrated from old agent-memory (candidate)",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-10-04T19:04:18.636022Z",
+  "valid_to": null
+}

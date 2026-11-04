@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-02T19:07:46.756780Z",
+  "id": "rev_36b7f926bebd39709ba8",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-11-02：11 月 2 日主要发生一次 cron 晨报和一次 HEARTBEAT 检查:晨报在搜索 API 故障下降级核验并发送,晚间心跳检查无待处理事项。",
+    "created_at": "2026-11-02T19:07:46.756780Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_21ec0a807d8ab8a39f8f",
+        "quote": "2026-11-02：11 月 2 日主要发生一次 cron 晨报和一次 HEARTBEAT 检查:晨报在搜索 API 故障下降级核验并发送,晚间心跳检查无待处理事项。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_ed51e6597c39b67953c1",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_21ec0a807d8ab8a39f8f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-11-02T19:07:46.756780Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ed51e6597c39b67953c1",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

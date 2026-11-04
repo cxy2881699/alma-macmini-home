@@ -1,0 +1,76 @@
+{
+  "conditions": "OpenClaw 清理自检假数据并改进管理后台的记忆来源显示。",
+  "confidence": 0.9,
+  "content": "管理后台已在记忆列表和详情页展示来源 agent 与设备,格式类似 agent@设备;同时 selftest 产生的 Claude 假数据已清理。",
+  "created_at": "2026-10-05T19:02:24.650794Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_9f82bdbcda91e1775def",
+    "ent_1b0510f6e7579d8f62b3",
+    "ent_1c6b296bc5cb579536f2",
+    "ent_51b9c91560022845906c",
+    "ent_483ad3dd9ff0f4e4e01c"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_370086805a310084fcd0",
+      "quote": "管理后台已在记忆列表和详情页展示来源 agent 与设备,格式类似 agent@设备;同时 selftest 产生的 Claude 假数据已清理。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_19c4ba76487afdbeeacc",
+      "quote": "管理后台已在记忆列表和详情页展示来源 agent 与设备,格式类似 agent@设备;同时 selftest 产生的 Claude 假数据已清理。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_7f0ebd7afdedf159546a",
+  "is_temporary": false,
+  "keywords": [
+    "来源标签",
+    "agent_kind",
+    "device_id",
+    "selftest清理",
+    "管理界面",
+    "来源列",
+    "codex@mac-mini",
+    "openclaw@xiaoxia",
+    "小龙虾",
+    "Claude假数据清理",
+    "admin.html",
+    "来源展示",
+    "agent@设备",
+    "openclaw@设备",
+    "codex@设备",
+    "清理 Claude 测试数据"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_370086805a310084fcd0",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_19c4ba76487afdbeeacc",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-05T19:02:24.650794Z",
+  "valid_to": null
+}

@@ -1,0 +1,49 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:15:16.455474Z",
+  "id": "rev_b6089c640af4c1cec64c",
+  "memory": {
+    "conditions": "PRD 明确区分已核对的客户端事实和尚未拿到服务端仓库验证的历史记录。",
+    "confidence": 0.8,
+    "content": "Agent 当时只核对过本机客户端与 hooks(事件上传 /v1/events、recall、mid 接口),服务端抽取、整理和数据库结构尚未核对,需用户提供 GitHub 仓库确认。",
+    "created_at": "2026-10-27T05:15:16.455474Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_f2c3850d49709fbf5ca7",
+    "is_temporary": false,
+    "keywords": [
+      "仓库",
+      "客户端接口",
+      "服务端未核对",
+      "仓库缺失",
+      "客户端已核对",
+      "hooks接口",
+      "证据边界"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:15:16.455474Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_f2c3850d49709fbf5ca7",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

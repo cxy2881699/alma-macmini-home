@@ -1,0 +1,61 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:30:42.259227Z",
+  "id": "rev_d63d46a8564b557c8047",
+  "memory": {
+    "conditions": "用户粘贴清理脚本后不久又反馈网络仍不可用。",
+    "confidence": 0.86,
+    "content": "2026-10-18 晚 23:36 的清理脚本实际只删除了含 8118 的行,未覆盖 all_proxy/ALL_PROXY 等变量;因此当时“shell 已清”的结论只能限定为常见 8118 变量,不能证明终端代理环境完全干净。",
+    "created_at": "2026-10-27T05:30:42.259227Z",
+    "derived_from": [],
+    "entities": [
+      "ent_f90a16b26a8ab1d551fc",
+      "ent_f18082c6c564869030be",
+      "ent_c42dac5ae99195f63d24"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_21f5a5863fc6f61fded0",
+        "quote": "2026-10-18 晚 23:36 的清理脚本实际只删除了含 8118 的行,未覆盖 all_proxy/ALL_PROXY 等变量;因此当时“shell 已清”的结论只能限定为常见 8118 变量,不能证明终端代理环境完全干净。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_b52df794c985ed4a6f33",
+    "is_temporary": false,
+    "keywords": [
+      "8118",
+      "8119",
+      "all_proxy",
+      "shell 残留",
+      "环境变量"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_21f5a5863fc6f61fded0",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:30:42.259227Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_b52df794c985ed4a6f33",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

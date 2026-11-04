@@ -1,0 +1,66 @@
+{
+  "conditions": "用户通过追问和审计发现 Agent 把未主动调用 MCP 错误说成未调用记忆服务。",
+  "confidence": 0.8,
+  "content": "用户会用审计记录和实际链路核查来纠正 Agent 对系统行为的口头判断,尤其关注自动召回是否按设计执行。",
+  "created_at": "2026-09-30T19:01:05.752522Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_16a5121fc9adff39be5f",
+      "quote": "用户会用审计记录和实际链路核查来纠正 Agent 对系统行为的口头判断,尤其关注自动召回是否按设计执行。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_04145b2e2badfa703be5",
+  "is_temporary": false,
+  "keywords": [
+    "审",
+    "计",
+    "核",
+    "查",
+    "audit审计",
+    "recall记录",
+    "真实链路",
+    "口头判断纠错",
+    "口头判断核查",
+    "记忆召回",
+    "hook触发",
+    "审计核查",
+    "实际链路",
+    "口头判断",
+    "recall 验证",
+    "hook 触发",
+    "审计记录",
+    "服务端审计",
+    "实际链路核查",
+    "口头判断纠正"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_16a5121fc9adff39be5f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-09-30T19:01:05.752522Z",
+  "valid_to": null
+}

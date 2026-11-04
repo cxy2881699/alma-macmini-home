@@ -1,0 +1,63 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-24T19:03:14.445113Z",
+  "id": "rev_ea1bdc1ef06f53cb7443",
+  "memory": {
+    "conditions": "用户指出未来不能每次都要求用户下载 Tailscale。",
+    "confidence": 0.78,
+    "content": "用户在产品化判断上重视降低外部依赖和普通用户安装门槛,倾向于用公网 API/Token 替代要求用户安装 Tailscale 的方案。",
+    "created_at": "2026-09-24T19:03:14.445113Z",
+    "derived_from": [],
+    "entities": [
+      "ent_421c00dde9a1b98fc969",
+      "ent_bc208ee71f5cabb8083c"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_876285daee49a79ec31a",
+        "quote": "用户在产品化判断上重视降低外部依赖和普通用户安装门槛,倾向于用公网 API/Token 替代要求用户安装 Tailscale 的方案。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_277028014eae20bd127e",
+    "is_temporary": false,
+    "keywords": [
+      "产品化",
+      "公网 API",
+      "去 Tailscale",
+      "降低安装门槛",
+      "普通用户接入",
+      "免VPN",
+      "API Key",
+      "公网API产品化"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_876285daee49a79ec31a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-09-24T19:03:14.445113Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_277028014eae20bd127e",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

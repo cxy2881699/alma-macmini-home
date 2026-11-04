@@ -1,0 +1,47 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-27T19:01:45.641309Z",
+  "id": "rev_5071527f4ef5f547f38d",
+  "memory": {
+    "conditions": "用户要求基于当前记忆系统设计可持续进化、未来可兼容可修改的方案。",
+    "confidence": 0.85,
+    "content": "用户希望在现有 agent-memory 基础上增量设计“成长引擎”,要求兼容旧客户端、模块可替换、数据/策略/状态版本化,并支持回滚与重建。",
+    "created_at": "2026-09-27T19:01:45.641309Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_342506761377992b11e3",
+    "is_temporary": false,
+    "keywords": [
+      "增量扩展",
+      "兼容",
+      "版本化",
+      "回滚",
+      "成长引擎"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-27T19:01:45.641309Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_342506761377992b11e3",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

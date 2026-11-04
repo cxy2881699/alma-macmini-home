@@ -1,0 +1,75 @@
+{
+  "conditions": "需要解释全文版为何是41篇而任务书说42篇时检索。",
+  "confidence": 0.95,
+  "content": "全文版论文总结实际覆盖 41 篇编号论文,任务书所称 42 篇与 /tmp/pdftxt/ 实际文件数不符;8252eae 文件是保理合同而非论文,已排除。",
+  "created_at": "2026-10-27T04:53:33.969700Z",
+  "derived_from": [],
+  "entities": [
+    "ent_803e29983b18f51d0780"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_4ead9e010ef9d7e33330",
+      "quote": "全文版论文总结实际覆盖 41 篇编号论文,任务书所称 42 篇与 /tmp/pdftxt/ 实际文件数不符;8252eae 文件是保理合同而非论文,已排除。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_3567af8b8693e96c3d81",
+      "quote": "全文版论文总结实际覆盖 41 篇编号论文,任务书所称 42 篇与 /tmp/pdftxt/ 实际文件数不符;8252eae 文件是保理合同而非论文,已排除。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_9db0b7f11f8123b28d5c",
+  "is_temporary": false,
+  "keywords": [
+    "文件数不符",
+    "42篇",
+    "全文总结覆盖范围",
+    "误混入文件",
+    "42篇任务书不符",
+    "8252eae保理合同",
+    "pdftxt实际文件数",
+    "数字前缀文件",
+    "42篇差异",
+    "pdftxt 清点",
+    "全文版覆盖",
+    "41篇编号论文",
+    "全文版覆盖范围",
+    "42篇争议",
+    "全文覆盖范围",
+    "8252eae",
+    "保理合同",
+    "41篇",
+    "42篇不符",
+    "非论文文件"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_4ead9e010ef9d7e33330",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_3567af8b8693e96c3d81",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:53:33.969700Z",
+  "valid_to": null
+}

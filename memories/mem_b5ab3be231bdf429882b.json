@@ -1,0 +1,67 @@
+{
+  "conditions": "用户询问 OpenClaw 刚做了什么，回答包括清理测试数据、增加来源展示和重启验证。",
+  "confidence": 0.78,
+  "content": "OpenClaw 在该时段清理了 8 条 Claude 测试记忆及测试设备/空间,并给管理页增加记忆来源展示后重启服务。",
+  "created_at": "2026-09-28T19:02:56.543224Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e",
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_19c4ba76487afdbeeacc",
+      "quote": "OpenClaw 在该时段清理了 8 条 Claude 测试记忆及测试设备/空间,并给管理页增加记忆来源展示后重启服务。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_b5ab3be231bdf429882b",
+  "is_temporary": false,
+  "keywords": [
+    "OpenClaw",
+    "测试记忆",
+    "admin",
+    "清理",
+    "Claude selftest",
+    "测试记忆清理",
+    "来源列",
+    "agent@设备",
+    "admin.html",
+    "xiaoxia",
+    "小龙虾",
+    "清理 Claude 测试数据",
+    "selftest",
+    "admin 改造",
+    "重启 memd",
+    "OpenClaw 清理测试记忆",
+    "来源展示",
+    "admin 来源",
+    "重启服务",
+    "8条 Claude 测试记忆"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_19c4ba76487afdbeeacc",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-28T19:02:56.543224Z",
+  "valid_to": null
+}

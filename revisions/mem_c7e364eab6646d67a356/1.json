@@ -1,0 +1,42 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-08T19:03:46.270767Z",
+  "id": "rev_825c1395e4071d7ae6cd",
+  "memory": {
+    "conditions": "用户提出信息增量函数，助手指出其学术亲缘",
+    "confidence": 0.7,
+    "content": "用户认同或独立触及了 intrinsic motivation / 好奇心驱动学习这条技术路线(信息增量作为内在奖励)。",
+    "created_at": "2026-10-08T19:03:46.270767Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_c7e364eab6646d67a356",
+    "is_temporary": false,
+    "keywords": [
+      "好奇心",
+      "prediction gain",
+      "内在奖励"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-08T19:03:46.270767Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_c7e364eab6646d67a356",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

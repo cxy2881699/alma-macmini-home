@@ -1,0 +1,58 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:17:21.444230Z",
+  "id": "rev_8c8f2388b54ea6cd1814",
+  "memory": {
+    "conditions": "文献元数据抓取任务被限制在干净目录，避免读写其他路径。",
+    "confidence": 0.98,
+    "content": "lit-hormone 文献检索任务的工作目录限定为 /tmp/lit-hormone,用户明确要求除该目录外不要读写其他路径。",
+    "created_at": "2026-10-27T04:17:21.444230Z",
+    "derived_from": [],
+    "entities": [
+      "ent_16155c4beee90c991d14"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_8d3f3ac718d007dd877d",
+        "quote": "lit-hormone 文献检索任务的工作目录限定为 /tmp/lit-hormone,用户明确要求除该目录外不要读写其他路径。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_982794b9c3060666b75f",
+    "is_temporary": true,
+    "keywords": [
+      "/tmp/lit-hormone",
+      "沙盒目录",
+      "路径限制",
+      "禁止越权读写"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8d3f3ac718d007dd877d",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:17:21.444230Z",
+    "valid_to": "2026-10-22"
+  },
+  "memory_id": "mem_982794b9c3060666b75f",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

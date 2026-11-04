@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-24T19:02:25.898445Z",
+  "id": "rev_00297c70a90b909afbaa",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-24：用户围绕本机 agent-memory 完成部署验收、代理网络根治、OpenClaw/Codex记忆链路验证、管理界面来源展示改造,并询问召回性能与系统价值;当天晨报和心跳任务也正常执行。",
+    "created_at": "2026-09-24T19:02:25.898445Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_65495d2ba5242fb6dfc1",
+        "quote": "2026-09-24：用户围绕本机 agent-memory 完成部署验收、代理网络根治、OpenClaw/Codex记忆链路验证、管理界面来源展示改造,并询问召回性能与系统价值;当天晨报和心跳任务也正常执行。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_eac9bc70e7c2a446e362",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_65495d2ba5242fb6dfc1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-09-24T19:02:25.898445Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_eac9bc70e7c2a446e362",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

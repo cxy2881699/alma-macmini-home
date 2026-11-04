@@ -1,0 +1,47 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-07T19:03:40.332727Z",
+  "id": "rev_91a5877c41ebd5938203",
+  "memory": {
+    "conditions": "用户要求读论文PDF时发现文件实体未过网关",
+    "confidence": 0.8,
+    "content": "飞书转发 PDF 存在文件实体不过网关的情况:消息只带 file_key/file_name,需实际落盘后才能解析;此前保理合同等 PDF 曾正常落盘。",
+    "created_at": "2026-10-07T19:03:40.332727Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_22f290112c9557d215ea",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_7397f01c65748ee3774e",
+    "is_temporary": false,
+    "keywords": [
+      "飞书转发",
+      "PDF落盘",
+      "网关",
+      "file_key"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-07T19:03:40.332727Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_7397f01c65748ee3774e",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

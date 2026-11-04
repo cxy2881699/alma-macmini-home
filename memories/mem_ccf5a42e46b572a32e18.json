@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-10-27：用户因刚购买几天的 RackNerd 洛杉矶 VPS 代理不可用而求助;Agent 逐步排除服务器宕机和本地网络问题,确认为 155.94.145.75 遭 GFW 单 IP 封锁,并解释 ColoCrossing 段风险、RackNerd 换 IP 工单、被墙机器的 Cloudflare 回源用途及后续日本/干净 IP 采购方案。",
+  "created_at": "2026-10-27T04:56:07.144970Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_876285daee49a79ec31a",
+      "quote": "2026-10-27：用户因刚购买几天的 RackNerd 洛杉矶 VPS 代理不可用而求助;Agent 逐步排除服务器宕机和本地网络问题,确认为 155.94.145.75 遭 GFW 单 IP 封锁,并解释 ColoCrossing 段风险、RackNerd 换 IP 工单、被墙机器的 Cloudflare 回源用途及后续日本/干净 IP 采购方案。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_ccf5a42e46b572a32e18",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_876285daee49a79ec31a",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-27T04:56:07.144970Z",
+  "valid_to": null
+}

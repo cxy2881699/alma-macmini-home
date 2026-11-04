@@ -1,0 +1,57 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-02T19:04:56.915611Z",
+  "id": "rev_8fca56afb76f6c4a879a",
+  "memory": {
+    "conditions": "神经内分泌文档和逆向推断 Agent 架构文档均给出明确路径、字数与最终回复格式。",
+    "confidence": 0.85,
+    "content": "用户对长文档任务偏好严格的输出契约:指定路径、篇幅区间、结构要求,并要求完成后只回路径、字数和章节数等摘要。",
+    "created_at": "2026-11-02T19:04:56.915611Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_ccab63b5c2df3828ccea",
+        "quote": "用户对长文档任务偏好严格的输出契约:指定路径、篇幅区间、结构要求,并要求完成后只回路径、字数和章节数等摘要。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_7138a9dca3018abc2290",
+    "is_temporary": false,
+    "keywords": [
+      "输出格式",
+      "篇幅控制",
+      "文件路径",
+      "完成回复",
+      "长文档"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_ccab63b5c2df3828ccea",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-11-02T19:04:56.915611Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_7138a9dca3018abc2290",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

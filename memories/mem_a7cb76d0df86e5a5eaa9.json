@@ -1,0 +1,37 @@
+{
+  "conditions": "用户把可进化记忆延伸到已故亲人的赛博生命场景。",
+  "confidence": 0.78,
+  "content": "用户设想的高情感价值应用是收集逝者生前数据与口述经历,构建三观和性格接近的数字个体并持续陪伴;但对话中也明确这只是可探索方向,不能声称一定还原本人。",
+  "created_at": "2026-10-27T05:21:38.098917Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_a7cb76d0df86e5a5eaa9",
+  "is_temporary": false,
+  "keywords": [
+    "数字永生",
+    "逝者陪伴",
+    "口述历史",
+    "人格重建",
+    "伦理"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "review",
+  "status_reason": "migrated from old agent-memory (candidate)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:21:38.098917Z",
+  "valid_to": null
+}

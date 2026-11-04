@@ -1,0 +1,59 @@
+{
+  "conditions": "Codex 在 ceo-os 中发现两份 8 月 PRD，但意识到它们可能不是用户所指的新 PRD。",
+  "confidence": 0.82,
+  "content": "排查新 PRD 未入库时,Agent 已意识到 ceo-os 中两份 8 月 PRD 可能只是旧文件,不能直接当作用户所指的新 PRD。",
+  "created_at": "2026-10-27T05:22:15.004142Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e",
+    "ent_13a7ceff9826166f66a5"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_c5b9bc50bc5c913a2dbe",
+      "quote": "排查新 PRD 未入库时,Agent 已意识到 ceo-os 中两份 8 月 PRD 可能只是旧文件,不能直接当作用户所指的新 PRD。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_7fde13fa0fb38e905e11",
+  "is_temporary": false,
+  "keywords": [
+    "旧PRD",
+    "未入库",
+    "保存位置",
+    "两份PRD",
+    "新PRD",
+    "避免误报",
+    "不要误报旧文件",
+    "按生成时间查找",
+    "核对写入记录",
+    "ceo-os",
+    "8月旧PRD",
+    "旧文件误报",
+    "新PRD定位"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c5b9bc50bc5c913a2dbe",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:22:15.004142Z",
+  "valid_to": null
+}

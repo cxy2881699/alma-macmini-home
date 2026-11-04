@@ -1,0 +1,58 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:41:25.893374Z",
+  "id": "rev_b662302528c119e5e81b",
+  "memory": {
+    "conditions": "subagent 任务要求综述与49篇PDF放在同一目录",
+    "confidence": 0.6,
+    "content": "用户的 Agent Memory 研究资料组织方式:按批次建目录(如 mem-papers-2026H2),综述与原始 PDF 同目录存放,文件名用 SURVEY-批次名.md。",
+    "created_at": "2026-10-27T04:41:25.893374Z",
+    "derived_from": [],
+    "entities": [
+      "ent_7d78c1639a0001d26261",
+      "ent_cd077af734ef059c7775"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_56b471b2ce769966e5ab",
+        "quote": "用户的 Agent Memory 研究资料组织方式:按批次建目录(如 mem-papers-2026H2),综述与原始 PDF 同目录存放,文件名用 SURVEY-批次名.md。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_24adb40e21950922e60e",
+    "is_temporary": false,
+    "keywords": [
+      "文件组织",
+      "综述目录",
+      "研究资料"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_56b471b2ce769966e5ab",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:41:25.893374Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_24adb40e21950922e60e",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

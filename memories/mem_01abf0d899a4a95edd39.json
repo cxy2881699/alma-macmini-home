@@ -1,0 +1,50 @@
+{
+  "conditions": "定时心跳触发时的例行检查与每日反思",
+  "confidence": 0.7,
+  "content": "2026-09-23 18:01(洛杉矶时间)心跳检查:确认 sleep 修复后服务健康、学习项 26 条 pending(6 high)无新增、无用户互动,写入当日反思记录后回复 HEARTBEAT_OK。",
+  "created_at": "2026-09-24T00:02:02.007824Z",
+  "derived_from": [],
+  "entities": [
+    "ent_0b9d675295ad9424827f"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_53545473e3439b713d0e",
+      "quote": "2026-09-23 18:01(洛杉矶时间)心跳检查:确认 sleep 修复后服务健康、学习项 26 条 pending(6 high)无新增、无用户互动,写入当日反思记录后回复 HEARTBEAT_OK。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_01abf0d899a4a95edd39",
+  "is_temporary": false,
+  "keywords": [
+    "心跳",
+    "反思",
+    "学习项",
+    "sleep修复",
+    "服务健康",
+    "HEARTBEAT_OK"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_53545473e3439b713d0e",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-24T00:02:02.007824Z",
+  "valid_to": null
+}

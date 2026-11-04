@@ -1,0 +1,58 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:42:51.299202Z",
+  "id": "rev_49429e46cd49564fa4cb",
+  "memory": {
+    "conditions": "手动写入 Wi-Fi 的 HTTP/HTTPS 代理后，全局代理状态仍未反映为启用。",
+    "confidence": 0.88,
+    "content": "2026-10-18 晚,networksetup 对 Wi-Fi 写入 7897 后命令回显“写入完成”,但 scutil 全局视图仍显示 HTTPEnable: 0,因此回显不能单独证明系统代理已生效。",
+    "created_at": "2026-10-27T05:42:51.299202Z",
+    "derived_from": [],
+    "entities": [
+      "ent_f18082c6c564869030be"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_b513ec84f98cca74efd9",
+        "quote": "2026-10-18 晚,networksetup 对 Wi-Fi 写入 7897 后命令回显“写入完成”,但 scutil 全局视图仍显示 HTTPEnable: 0,因此回显不能单独证明系统代理已生效。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_d6254012d8a78c5dbf55",
+    "is_temporary": false,
+    "keywords": [
+      "写入完成 HTTPEnable 0",
+      "networksetup",
+      "scutil",
+      "系统代理刷新"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_b513ec84f98cca74efd9",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:42:51.299202Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_d6254012d8a78c5dbf55",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,75 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-28T19:08:51.686885Z",
+  "id": "rev_41e447675b7b5c9f59a2",
+  "memory": {
+    "conditions": "全文重写任务启动时的输入文件状态",
+    "confidence": 0.8,
+    "content": "截至 2026-09-28,42 篇论文 PDF 已通过飞书转发落盘并完成文本提取(pypdf),另有 2 篇(42 Compute Allocation、07 StructMemEval)当时未落盘,可用 arXiv 摘要兜底。",
+    "created_at": "2026-09-28T19:08:51.686885Z",
+    "derived_from": [],
+    "entities": [
+      "ent_12e60967bd71bfb38736",
+      "ent_c87b0f368df97ddbb460"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_20f706d31f40b358e63c",
+        "quote": "截至 2026-09-28,42 篇论文 PDF 已通过飞书转发落盘并完成文本提取(pypdf),另有 2 篇(42 Compute Allocation、07 StructMemEval)当时未落盘,可用 arXiv 摘要兜底。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_688cd25ec8faa5ab8a48",
+    "is_temporary": false,
+    "keywords": [
+      "PDF落盘",
+      "全文提取",
+      "arXiv兜底",
+      "落盘",
+      "42 Compute Allocation",
+      "07 StructMemEval",
+      "42篇PDF落盘",
+      "全文重写输入",
+      "41篇",
+      "42篇",
+      "pypdf",
+      "文本提取",
+      "飞书落盘",
+      "保理合同",
+      "42篇PDF",
+      "pypdf文本提取",
+      "/tmp/pdftxt",
+      "两篇未落盘",
+      "Compute Allocation",
+      "StructMemEval"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_20f706d31f40b358e63c",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "disputed",
+    "status_reason": "migrated from old agent-memory (disputed)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-28T19:08:51.686885Z",
+    "valid_to": "2026-09-28"
+  },
+  "memory_id": "mem_688cd25ec8faa5ab8a48",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

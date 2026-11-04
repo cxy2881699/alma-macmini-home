@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-08T19:03:46.270767Z",
+  "id": "rev_04becd288c626d744f0e",
+  "memory": {
+    "conditions": "助手把当晚讨论与 9/26 愿景及开源/商业分层联系起来",
+    "confidence": 0.75,
+    "content": "用户的 agent 蓝图中,记忆系统为驱动(欲望/恐惧)系统提供计算输入,二者是“眼睛与腿”的关系,承接 9/26“赛博生命记忆”愿景。",
+    "created_at": "2026-10-08T19:03:46.270767Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_6528104831ebac2198ba",
+    "is_temporary": false,
+    "keywords": [
+      "记忆-驱动接口",
+      "赛博生命",
+      "开源底座",
+      "商业成长引擎"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-08T19:03:46.270767Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_6528104831ebac2198ba",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

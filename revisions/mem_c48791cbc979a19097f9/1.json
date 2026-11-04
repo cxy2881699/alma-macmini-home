@@ -1,0 +1,58 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:53:49.043044Z",
+  "id": "rev_456359855bbc549cb06d",
+  "memory": {
+    "conditions": "subagent 按任务书完成49篇PDF提取与综述时体现的流程",
+    "confidence": 0.7,
+    "content": "用户的 Agent Memory 综述工作流偏好:PDF 全文先批量提取到 /tmp 临时目录(一篇一个 txt),再分批阅读并优先抓方法/结果/结论,以覆盖度优先控制 token 预算。",
+    "created_at": "2026-10-27T04:53:49.043044Z",
+    "derived_from": [],
+    "entities": [
+      "ent_cd077af734ef059c7775"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_56b471b2ce769966e5ab",
+        "quote": "用户的 Agent Memory 综述工作流偏好:PDF 全文先批量提取到 /tmp 临时目录(一篇一个 txt),再分批阅读并优先抓方法/结果/结论,以覆盖度优先控制 token 预算。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_c48791cbc979a19097f9",
+    "is_temporary": false,
+    "keywords": [
+      "论文工作流",
+      "pdftotext",
+      "批量提取",
+      "分批阅读"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_56b471b2ce769966e5ab",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:53:49.043044Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_c48791cbc979a19097f9",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,54 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:20:59.339975Z",
+  "id": "rev_eb9f3413a996ca3e1246",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.85,
+    "content": "用户没有可用于 Gmail/Claude 注册的外国手机号,但可以使用自己的 +86 国内手机号接收 Gmail 验证码;Agent 明确说明 Claude 正常注册流程不强制外国手机号。",
+    "created_at": "2026-10-27T04:20:59.339975Z",
+    "derived_from": [],
+    "entities": [
+      "ent_51b9c91560022845906c",
+      "ent_b9b685561ffcd2f61570"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_8533e2ec50fb8f1261be",
+        "quote": "用户没有可用于 Gmail/Claude 注册的外国手机号,但可以使用自己的 +86 国内手机号接收 Gmail 验证码;Agent 明确说明 Claude 正常注册流程不强制外国手机号。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_67623621320c7be11c17",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8533e2ec50fb8f1261be",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:20:59.339975Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_67623621320c7be11c17",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,47 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:40:17.044843Z",
+  "id": "rev_351f6c64c66c64de038e",
+  "memory": {
+    "conditions": "用户从 NPC/玩具的成长记忆进一步设想用逝者数据构建持续陪伴的数字个体。",
+    "confidence": 0.82,
+    "content": "用户认为可进化记忆的高情感价值应用之一,是基于逝者生前数据与口述经历重建接近其三观和性格、并可持续陪伴成长的数字个体。",
+    "created_at": "2026-10-27T05:40:17.044843Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_4123840ad80bb796429d",
+    "is_temporary": false,
+    "keywords": [
+      "数字永生",
+      "逝者重建",
+      "纪念陪伴",
+      "人格复刻",
+      "成长型记忆"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "review",
+    "status_reason": "migrated from old agent-memory (candidate)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:40:17.044843Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_4123840ad80bb796429d",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

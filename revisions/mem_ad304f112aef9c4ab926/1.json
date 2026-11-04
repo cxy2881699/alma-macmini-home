@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-10T19:04:32.299602Z",
+  "id": "rev_d1b554c768307656b000",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-10-10：上午 cron 晨报正常发送并通过自检(Brave key 仍缺失);下午至晚间用户先咨询“无界Uhuru”公司注册与品牌命名,随后深入探讨记忆系统如何扩展为开放世界游戏的 GM 环境记忆与蝴蝶效应剧情架构,最后发现当晚对话尚未入库、计划复查采集管线。",
+    "created_at": "2026-10-10T19:04:32.299602Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_21ec0a807d8ab8a39f8f",
+        "quote": "2026-10-10：上午 cron 晨报正常发送并通过自检(Brave key 仍缺失);下午至晚间用户先咨询“无界Uhuru”公司注册与品牌命名,随后深入探讨记忆系统如何扩展为开放世界游戏的 GM 环境记忆与蝴蝶效应剧情架构,最后发现当晚对话尚未入库、计划复查采集管线。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_ad304f112aef9c4ab926",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_21ec0a807d8ab8a39f8f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-10T19:04:32.299602Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ad304f112aef9c4ab926",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

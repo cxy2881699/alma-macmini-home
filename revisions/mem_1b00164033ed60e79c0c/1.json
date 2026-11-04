@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:46:03.110076Z",
+  "id": "rev_c5cdf2a4e01d6d408a7c",
+  "memory": {
+    "conditions": "OpenClaw 定时心跳检查与每日反思固化",
+    "confidence": 0.7,
+    "content": "2026-09-24 心跳检查执行:完成每日反思(将 agent-memory 部署全程固化到 MEMORY.md),确认学习项 22 条无变化、金融交易检查未启用,回复 HEARTBEAT_OK。",
+    "created_at": "2026-09-23T17:46:03.110076Z",
+    "derived_from": [],
+    "entities": [
+      "ent_0b9d675295ad9424827f"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_58fa5b1ba8a857a4f9ac",
+        "quote": "2026-09-24 心跳检查执行:完成每日反思(将 agent-memory 部署全程固化到 MEMORY.md),确认学习项 22 条无变化、金融交易检查未启用,回复 HEARTBEAT_OK。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_1b00164033ed60e79c0c",
+    "is_temporary": false,
+    "keywords": [
+      "心跳",
+      "每日反思",
+      "HEARTBEAT_OK",
+      "学习项",
+      "金融交易",
+      "MEMORY.md"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_58fa5b1ba8a857a4f9ac",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-23T17:46:03.110076Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_1b00164033ed60e79c0c",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

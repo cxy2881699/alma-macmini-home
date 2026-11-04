@@ -1,0 +1,66 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:50:07.312485Z",
+  "id": "rev_dd595428908a69caa2bc",
+  "memory": {
+    "conditions": "记忆服务依赖 Neo4j，数据库停止会导致主服务连续连接失败。",
+    "confidence": 0.86,
+    "content": "记忆服务的启动依赖 Neo4j;若 Neo4j 停止,memd 会连续连接 127.0.0.1:7687 失败并可能进入重启循环,恢复时应先启动依赖再启动主服务。",
+    "created_at": "2026-10-27T04:50:07.312485Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_1b0510f6e7579d8f62b3",
+      "ent_176409fa578ba26c2c5b"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_d7255c0fedb42db38d51",
+        "quote": "记忆服务的启动依赖 Neo4j;若 Neo4j 停止,memd 会连续连接 127.0.0.1:7687 失败并可能进入重启循环,恢复时应先启动依赖再启动主服务。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_575d4f0a80d5c306d87f",
+    "is_temporary": false,
+    "keywords": [
+      "Neo4j 7687",
+      "服务重启循环",
+      "memd宕机",
+      "重启循环",
+      "memd 挂了",
+      "Neo4j 停止",
+      "memd 重启循环",
+      "7687",
+      "启动顺序",
+      "记忆服务故障"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d7255c0fedb42db38d51",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:50:07.312485Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_575d4f0a80d5c306d87f",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

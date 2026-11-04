@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-27T19:01:23.318182Z",
+  "id": "rev_abb61acb7ee900cca217",
+  "memory": {
+    "conditions": "用户从赛博生命愿景延伸到已故亲人的数字陪伴场景。",
+    "confidence": 0.82,
+    "content": "用户将“用逝者生前数据与口述经历重建可陪伴、可继续成长的数字个体”视为成长型记忆系统的重要情感应用方向。",
+    "created_at": "2026-09-27T19:01:23.318182Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_d1d828d46e7b44510063",
+    "is_temporary": false,
+    "keywords": [
+      "数字永生",
+      "逝者重建",
+      "纪念陪伴",
+      "口述人生"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "review",
+    "status_reason": "migrated from old agent-memory (candidate)",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-09-27T19:01:23.318182Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_d1d828d46e7b44510063",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

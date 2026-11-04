@@ -1,0 +1,46 @@
+{
+  "conditions": "用户批量转发论文 PDF 后，Agent 汇总落盘和缺失情况。",
+  "confidence": 0.85,
+  "content": "这批批量论文材料中,42 Compute Allocation、07 StructMemEval、31 UltRAG 三篇 PDF 未成功落盘,但可通过 arXiv 摘要版覆盖。",
+  "created_at": "2026-10-05T19:11:20.272280Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8b1cd7fc53b3e4d3963e",
+      "quote": "这批批量论文材料中,42 Compute Allocation、07 StructMemEval、31 UltRAG 三篇 PDF 未成功落盘,但可通过 arXiv 摘要版覆盖。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_d3dd6e08f07b2810bac9",
+  "is_temporary": false,
+  "keywords": [
+    "论文PDF",
+    "队列溢出",
+    "arXiv",
+    "缺失文件"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8b1cd7fc53b3e4d3963e",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-05T19:11:20.272280Z",
+  "valid_to": null
+}

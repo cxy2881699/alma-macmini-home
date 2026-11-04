@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-03T19:01:47.674253Z",
+  "id": "rev_0e2961f5448a90402dbb",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-26：当天凌晨继续排查 agent-memory 静默丢事件问题,确认服务端改造仍需等待小龙虾客户端修复后复审;下午验证 Codex hooks 与记忆读写,并深入讨论可进化记忆、赛博生命及商业化方向。",
+    "created_at": "2026-10-03T19:01:47.674253Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_16d2615f00ae766bb32b",
+        "quote": "2026-09-26：当天凌晨继续排查 agent-memory 静默丢事件问题,确认服务端改造仍需等待小龙虾客户端修复后复审;下午验证 Codex hooks 与记忆读写,并深入讨论可进化记忆、赛博生命及商业化方向。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_85df26da9df8bcc4000f",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_16d2615f00ae766bb32b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-03T19:01:47.674253Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_85df26da9df8bcc4000f",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

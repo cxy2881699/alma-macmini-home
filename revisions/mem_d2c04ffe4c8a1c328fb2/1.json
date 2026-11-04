@@ -1,0 +1,54 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:18:07.879408Z",
+  "id": "rev_2082442df7a12527ada2",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.96,
+    "content": "本次文献调研需覆盖六个方向:神经递质与动机情绪、激素与行为、个体差异、心理学映射、计算建模方法,以及反面证据与争议。",
+    "created_at": "2026-10-27T04:18:07.879408Z",
+    "derived_from": [],
+    "entities": [
+      "ent_54bc249ce41248cb6af7",
+      "ent_868b6b7b308b553adaaf"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_7bab4433029e0047b9ba",
+        "quote": "本次文献调研需覆盖六个方向:神经递质与动机情绪、激素与行为、个体差异、心理学映射、计算建模方法,以及反面证据与争议。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_d2c04ffe4c8a1c328fb2",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_7bab4433029e0047b9ba",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:18:07.879408Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_d2c04ffe4c8a1c328fb2",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

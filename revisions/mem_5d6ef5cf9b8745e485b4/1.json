@@ -1,0 +1,78 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T18:17:35.525564Z",
+  "id": "rev_f0351111ac822ec73b5a",
+  "memory": {
+    "conditions": "用户因 OpenClaw 长时间无回复以为服务挂掉，实际是在写调研报告和处理队列。",
+    "confidence": 0.93,
+    "content": "2026-09-24 用户曾因 Agent 长时间未回复而误以为 OpenClaw 挂掉;实际是 Agent 在写调研报告、存档和处理队列消息,Gateway 与 memd 均正常。",
+    "created_at": "2026-09-23T18:17:35.525564Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_22f290112c9557d215ea",
+      "ent_1b0510f6e7579d8f62b3",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_1a78cb8802066868b605",
+        "quote": "2026-09-24 用户曾因 Agent 长时间未回复而误以为 OpenClaw 挂掉;实际是 Agent 在写调研报告、存档和处理队列消息,Gateway 与 memd 均正常。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_1cd898a27b168e387484",
+        "quote": "2026-09-24 用户曾因 Agent 长时间未回复而误以为 OpenClaw 挂掉;实际是 Agent 在写调研报告、存档和处理队列消息,Gateway 与 memd 均正常。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_5d6ef5cf9b8745e485b4",
+    "is_temporary": false,
+    "keywords": [
+      "OpenClaw挂了",
+      "队列消息",
+      "长任务",
+      "Gateway正常",
+      "memd健康",
+      "飞书无响应",
+      "误判宕机",
+      "回复延迟",
+      "长任务排队",
+      "Gateway 正常"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_1a78cb8802066868b605",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_1cd898a27b168e387484",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-09-23T18:17:35.525564Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_5d6ef5cf9b8745e485b4",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

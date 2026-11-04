@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:45:17.840343Z",
+  "id": "rev_e740ea2c3ec6943d1d0e",
+  "memory": {
+    "conditions": "用户选购 VPS 和代理时表达的取舍",
+    "confidence": 0.8,
+    "content": "在代理/VPS 选择上,用户优先考虑 IP 干净度和稳定性而非最低价,明确表示干净 IP 相对贵一点也能接受;倾向自建方案而非商业机场(曾被机场坑过)。",
+    "created_at": "2026-10-27T05:45:17.840343Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_4eeab283cfd7c5a1bc5e",
+    "is_temporary": false,
+    "keywords": [
+      "干净IP",
+      "自建派",
+      "预算",
+      "机场"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-27T05:45:17.840343Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_4eeab283cfd7c5a1bc5e",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

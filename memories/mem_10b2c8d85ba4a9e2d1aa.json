@@ -1,0 +1,73 @@
+{
+  "conditions": "OpenClaw因代理访问Tailscale域名失败后，本机配置改为直连memd。",
+  "confidence": 0.92,
+  "content": "本机 OpenClaw 访问 agent-memory 应固定使用 http://127.0.0.1:8787;远程 Agent 才使用 seanmac-mini.tail92d6fe.ts.net:8787。",
+  "created_at": "2026-09-23T23:52:07.838096Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_421c00dde9a1b98fc969",
+    "ent_4488e0fdf8d04896269e",
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_1d9f495f128ccc9b4e0f",
+      "quote": "本机 OpenClaw 访问 agent-memory 应固定使用 http://127.0.0.1:8787;远程 Agent 才使用 seanmac-mini.tail92d6fe.ts.net:8787。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_251281e40be3c2e88a50",
+      "quote": "本机 OpenClaw 访问 agent-memory 应固定使用 http://127.0.0.1:8787;远程 Agent 才使用 seanmac-mini.tail92d6fe.ts.net:8787。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_10b2c8d85ba4a9e2d1aa",
+  "is_temporary": false,
+  "keywords": [
+    "本机回环",
+    "远程 Agent",
+    "服务地址",
+    "Tailscale域名",
+    "OpenClaw",
+    "proxy绕行",
+    "本机地址",
+    "MagicDNS",
+    "远程Agent",
+    "Tailscale地址",
+    "127.0.0.1:8787",
+    "本机直连",
+    "Tailscale MagicDNS",
+    "OpenClaw记忆地址",
+    "seanmac-mini.tail92d6fe.ts.net"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1d9f495f128ccc9b4e0f",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_251281e40be3c2e88a50",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-23T23:52:07.838096Z",
+  "valid_to": null
+}

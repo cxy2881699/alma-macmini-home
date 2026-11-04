@@ -1,0 +1,57 @@
+{
+  "conditions": "用户在评论区没有承诺立即开源，而是表示有计划但仍需完善测试。",
+  "confidence": 0.78,
+  "content": "用户在小红书评论区对外回应开源问题时采用“有计划,不过还得再完善测试一下”的谨慎口径。",
+  "created_at": "2026-10-05T19:04:02.628878Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e",
+    "ent_c3f9f077f1f3ceaddd2f"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_5c2b03a36555ed887023",
+      "quote": "用户在小红书评论区对外回应开源问题时采用“有计划,不过还得再完善测试一下”的谨慎口径。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_881164db0def60085eda",
+  "is_temporary": false,
+  "keywords": [
+    "评论口径",
+    "评论区口径",
+    "谨慎公开",
+    "还需测试",
+    "评论区",
+    "完善测试",
+    "开源回复",
+    "谨慎口径",
+    "还得完善测试",
+    "小红书评论",
+    "有计划"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_5c2b03a36555ed887023",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-05T19:04:02.628878Z",
+  "valid_to": null
+}

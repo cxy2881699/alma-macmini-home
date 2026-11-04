@@ -1,0 +1,64 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-28T03:54:20.257364Z",
+  "id": "rev_bf2f71c0c6d067cc766b",
+  "memory": {
+    "conditions": "用于 PRD 风险表和状态注入收益验证。",
+    "confidence": 0.9,
+    "content": "全文调研发现两条新实证风险应写入 PRD 第16节:context pollution(论文40,模型条件在自己过往回复上会传播错误与幻觉)和 context collapse(04-ACE,反复摘要导致自我退化);04-AGENTS.md 还证明静态注入概览型上下文平均只增加20%+成本而不涨性能,PRD 须对\"状态注入是否带来行为增益\"做消融。",
+    "created_at": "2026-09-28T03:54:20.257364Z",
+    "derived_from": [],
+    "entities": [
+      "ent_0dd3ce8f5049183636d7"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_3567af8b8693e96c3d81",
+        "quote": "全文调研发现两条新实证风险应写入 PRD 第16节:context pollution(论文40,模型条件在自己过往回复上会传播错误与幻觉)和 context collapse(04-ACE,反复摘要导致自我退化);04-AGENTS.md 还证明静态注入概览型上下文平均只增加20%+成本而不涨性能,PRD 须对\"状态注入是否带来行为增益\"做消融。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_7d71b68eba631fc979ce",
+    "is_temporary": false,
+    "keywords": [
+      "幻觉传播",
+      "第16节",
+      "论文40",
+      "论文04",
+      "context pollution",
+      "context collapse",
+      "ACE",
+      "AGENTS.md",
+      "状态注入消融",
+      "上下文污染"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_3567af8b8693e96c3d81",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-28T03:54:20.257364Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_7d71b68eba631fc979ce",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

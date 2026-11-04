@@ -1,0 +1,56 @@
+{
+  "conditions": "用户通过管理后台 audit 标签而不是凭感觉发现新 PRD 入库缺口。",
+  "confidence": 0.75,
+  "content": "用户是在本机 admin 审计页(127.0.0.1:8787/admin#audit)发现新 PRD 未入库,并据此追问文件保存位置,说明该缺口是通过服务端审计而非凭感觉发现的。",
+  "created_at": "2026-10-27T05:34:38.161613Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_c5b9bc50bc5c913a2dbe",
+      "quote": "用户是在本机 admin 审计页(127.0.0.1:8787/admin#audit)发现新 PRD 未入库,并据此追问文件保存位置,说明该缺口是通过服务端审计而非凭感觉发现的。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_507f6ddf8d7e8eb16dd5",
+  "is_temporary": false,
+  "keywords": [
+    "保存位置",
+    "入库缺口",
+    "admin#audit",
+    "审计页",
+    "PRD缺口",
+    "127.0.0.1:8787",
+    "入库失败",
+    "127.0.0.1:8787/admin#audit",
+    "PRD未入库",
+    "服务端审计",
+    "文件保存位置"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c5b9bc50bc5c913a2dbe",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:34:38.161613Z",
+  "valid_to": null
+}

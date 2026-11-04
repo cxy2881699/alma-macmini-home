@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "论文逐篇总结文件"
+  ],
+  "created_at": "2026-09-28T03:19:09.026710Z",
+  "description": "subagent 产出的 48 篇 MemAgents 论文逐篇总结，约 23KB，路径 /Users/seancao/.openclaw/workspace/paper-summaries-MemAgents.md",
+  "id": "ent_803e29983b18f51d0780",
+  "name": "paper-summaries-MemAgents.md",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T08:56:50.214345Z"
+}

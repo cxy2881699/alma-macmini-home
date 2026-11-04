@@ -1,0 +1,56 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:29:01.623985Z",
+  "id": "rev_f9ef87e84ba21bc21201",
+  "memory": {
+    "conditions": "第一次切换看似启动，实际脚本没有跑起来。",
+    "confidence": 0.88,
+    "content": "在 macOS 上后台执行模型切换脚本不能依赖 setsid;首次切换因系统无 setsid 未实际启动,后改用 nohup 才成功。",
+    "created_at": "2026-10-27T04:29:01.623985Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8fc67c0d4c5d64da55b1",
+        "quote": "在 macOS 上后台执行模型切换脚本不能依赖 setsid;首次切换因系统无 setsid 未实际启动,后改用 nohup 才成功。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_5fc2fa65c0082b810cc0",
+    "is_temporary": false,
+    "keywords": [
+      "macOS setsid",
+      "nohup",
+      "后台启动",
+      "脚本未运行"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8fc67c0d4c5d64da55b1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:29:01.623985Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_5fc2fa65c0082b810cc0",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

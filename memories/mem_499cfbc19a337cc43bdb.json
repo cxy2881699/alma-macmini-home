@@ -1,0 +1,46 @@
+{
+  "conditions": "用户为文献抓取任务限定目录、API、文件和最终统计格式。",
+  "confidence": 0.74,
+  "content": "在技术或研究任务中,用户偏好先给出明确的方法学约束和输出契约,再要求执行者直接开工,不希望中途提问。",
+  "created_at": "2026-10-27T05:44:03.663280Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8d3f3ac718d007dd877d",
+      "quote": "在技术或研究任务中,用户偏好先给出明确的方法学约束和输出契约,再要求执行者直接开工,不希望中途提问。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_499cfbc19a337cc43bdb",
+  "is_temporary": false,
+  "keywords": [
+    "直接执行",
+    "任务约束",
+    "输出格式",
+    "不要提问"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8d3f3ac718d007dd877d",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-27T05:44:03.663280Z",
+  "valid_to": null
+}

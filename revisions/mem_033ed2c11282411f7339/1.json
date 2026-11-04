@@ -1,0 +1,66 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-10T19:01:14.026471Z",
+  "id": "rev_03a1c1afa87cf27f09a2",
+  "memory": {
+    "conditions": "判断记忆链路是否真正执行时必须核对审计和配置。",
+    "confidence": 0.82,
+    "content": "用户对记忆系统的验收标准包含“回答前先核对服务端审计/配置”,Agent 仅凭自我感觉声称未调用或已调用记忆都不可接受。",
+    "created_at": "2026-10-10T19:01:14.026471Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_ddfc3157c195d2617059",
+        "quote": "用户对记忆系统的验收标准包含“回答前先核对服务端审计/配置”,Agent 仅凭自我感觉声称未调用或已调用记忆都不可接受。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_033ed2c11282411f7339",
+    "is_temporary": false,
+    "keywords": [
+      "审计核查",
+      "hook触发",
+      "recall=ok",
+      "口头判断",
+      "记忆召回",
+      "服务端审计",
+      "配置核查",
+      "验收标准",
+      "不能凭感觉",
+      "记忆调用"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_ddfc3157c195d2617059",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-10T19:01:14.026471Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_033ed2c11282411f7339",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

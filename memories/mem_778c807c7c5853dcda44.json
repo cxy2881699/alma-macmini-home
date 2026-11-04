@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-26：当天主要推进赛博生命记忆系统设计:与 Codex 探讨重要记忆判据并产出成长引擎架构草案;openclaw 侧完成晨报、心跳、发送 prompt 文件、确认 GitHub 仓库推送,并排查新 PRD 未入库问题。",
+  "created_at": "2026-09-26T19:02:52.457366Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_21ec0a807d8ab8a39f8f",
+      "quote": "2026-09-26：当天主要推进赛博生命记忆系统设计:与 Codex 探讨重要记忆判据并产出成长引擎架构草案;openclaw 侧完成晨报、心跳、发送 prompt 文件、确认 GitHub 仓库推送,并排查新 PRD 未入库问题。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_778c807c7c5853dcda44",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_21ec0a807d8ab8a39f8f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-09-26T19:02:52.457366Z",
+  "valid_to": null
+}

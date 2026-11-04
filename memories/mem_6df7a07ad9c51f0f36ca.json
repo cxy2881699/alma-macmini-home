@@ -1,0 +1,63 @@
+{
+  "conditions": "用户项目的总目标：从行为和情绪反推神经内分泌状态并长期追踪。",
+  "confidence": 0.98,
+  "content": "用户正在设计一套个人向的“行为-情绪-神经内分泌”逆向映射与长期追踪系统,并希望据此了解学界实证证据、假说和已证伪内容。",
+  "created_at": "2026-10-27T04:18:07.879408Z",
+  "derived_from": [],
+  "entities": [
+    "ent_54bc249ce41248cb6af7"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_7bab4433029e0047b9ba",
+      "quote": "用户正在设计一套个人向的“行为-情绪-神经内分泌”逆向映射与长期追踪系统,并希望据此了解学界实证证据、假说和已证伪内容。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_6df7a07ad9c51f0f36ca",
+  "is_temporary": false,
+  "keywords": [
+    "自我量化",
+    "行为情绪追踪",
+    "N=1实验",
+    "长期监测",
+    "行为情绪",
+    "行为情绪神经内分泌",
+    "个人追踪系统",
+    "自我观察",
+    "神经内分泌追踪",
+    "长期自我观察",
+    "personal tracking",
+    "reverse mapping",
+    "长期追踪",
+    "实证边界",
+    "自我追踪",
+    "行为情绪映射",
+    "神经内分泌",
+    "长期追踪系统",
+    "逆向映射"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_7bab4433029e0047b9ba",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-10-27T04:18:07.879408Z",
+  "valid_to": null
+}

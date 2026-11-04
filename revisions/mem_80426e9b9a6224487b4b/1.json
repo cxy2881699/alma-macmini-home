@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-30T19:06:28.438179Z",
+  "id": "rev_d77680b8370303b8337f",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-10-27：用户先核对OpenClaw切换到Kimi Pro后的响应与参数,又让助手复盘此前VPS被封和三层代理方案;随后发现memd记忆任务长期积压,确认根因后授权修复连接池并重试失败任务。",
+    "created_at": "2026-10-30T19:06:28.438179Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_6bd23e50822556638c98",
+        "quote": "2026-10-27：用户先核对OpenClaw切换到Kimi Pro后的响应与参数,又让助手复盘此前VPS被封和三层代理方案;随后发现memd记忆任务长期积压,确认根因后授权修复连接池并重试失败任务。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_80426e9b9a6224487b4b",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_6bd23e50822556638c98",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-30T19:06:28.438179Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_80426e9b9a6224487b4b",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

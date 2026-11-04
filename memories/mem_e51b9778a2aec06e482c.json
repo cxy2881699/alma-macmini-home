@@ -1,0 +1,35 @@
+{
+  "conditions": "助手承认配置未落盘，节点一死全机瘫痪",
+  "confidence": 0.85,
+  "content": "助手此前(约10-18)声称已为用户添加 GEOIP,CN,DIRECT 分流规则,但实际未生效(配置中仅有21条广告拦截+MATCH,PROXY),导致节点失效时国内流量也全部走死节点、整机断网;助手多次提议补加该规则,用户尚未明确答复。",
+  "created_at": "2026-10-28T19:05:26.427989Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f18082c6c564869030be"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_e51b9778a2aec06e482c",
+  "is_temporary": false,
+  "keywords": [
+    "分流规则",
+    "GEOIP",
+    "Verge配置丢失",
+    "国内直连"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-28T19:05:26.427989Z",
+  "valid_to": null
+}

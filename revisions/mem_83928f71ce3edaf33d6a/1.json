@@ -1,0 +1,58 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T23:52:07.838096Z",
+  "id": "rev_fd74963f7360cc4b2236",
+  "memory": {
+    "conditions": "用户检查 Codex 是否每轮加载记忆服务时强调日志留存价值。",
+    "confidence": 0.86,
+    "content": "排查 Agent 故障时,用户希望读取、写入、超时和错误等日志都被保存,以便后续快速定位问题。",
+    "created_at": "2026-09-23T23:52:07.838096Z",
+    "derived_from": [],
+    "entities": [
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_0796872cfc79a9328bad",
+        "quote": "排查 Agent 故障时,用户希望读取、写入、超时和错误等日志都被保存,以便后续快速定位问题。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_83928f71ce3edaf33d6a",
+    "is_temporary": false,
+    "keywords": [
+      "审计",
+      "recall 日志",
+      "错误记录",
+      "可观测性"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_0796872cfc79a9328bad",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-09-23T23:52:07.838096Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_83928f71ce3edaf33d6a",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

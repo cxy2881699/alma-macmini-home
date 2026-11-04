@@ -1,0 +1,50 @@
+{
+  "conditions": "先基于摘要产出初版,后由 PDF 全文版覆盖替换。",
+  "confidence": 0.9,
+  "content": "摘要初版的 48 篇组织口径与全文阶段 41 个编号文件口径不能混用;初版曾抓取 30 篇 arXiv 摘要,11 篇标注未获取原文。",
+  "created_at": "2026-10-27T05:35:43.904422Z",
+  "derived_from": [],
+  "entities": [
+    "ent_e44cb152899e6702c87f",
+    "ent_803e29983b18f51d0780"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_4ead9e010ef9d7e33330",
+      "quote": "摘要初版的 48 篇组织口径与全文阶段 41 个编号文件口径不能混用;初版曾抓取 30 篇 arXiv 摘要,11 篇标注未获取原文。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_460aed6fb22bf349c87e",
+  "is_temporary": false,
+  "keywords": [
+    "48篇",
+    "30/48",
+    "11篇未获取原文",
+    "摘要初版",
+    "全文版"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_4ead9e010ef9d7e33330",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:35:43.904422Z",
+  "valid_to": null
+}

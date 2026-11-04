@@ -1,0 +1,63 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-25T08:39:19.759470Z",
+  "id": "rev_e96a96bb4abd1dd23b59",
+  "memory": {
+    "conditions": "排查 Codex 是否每轮自动执行 agent-memory 记忆搜索，以及 MCP 与 hook 的职责区别时",
+    "confidence": 0.7,
+    "content": "用户质疑为何记忆检索要靠 MCP 而非每轮自动 hook;Agent 核查配置与审计后确认 Codex 的 UserPromptSubmit hook 在相关轮次均已自动执行 recall=ok,只是结果为空,并指出超时/出错时当前配置会放行对话。",
+    "created_at": "2026-09-25T08:39:19.759470Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_ddfc3157c195d2617059",
+        "quote": "用户质疑为何记忆检索要靠 MCP 而非每轮自动 hook;Agent 核查配置与审计后确认 Codex 的 UserPromptSubmit hook 在相关轮次均已自动执行 recall=ok,只是结果为空,并指出超时/出错时当前配置会放行对话。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_6a3d06e14382090b05e2",
+    "is_temporary": false,
+    "keywords": [
+      "记忆服务",
+      "hook",
+      "UserPromptSubmit",
+      "MCP",
+      "recall",
+      "审计",
+      "自动搜索",
+      "Codex"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_ddfc3157c195d2617059",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-25T08:39:19.759470Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_6a3d06e14382090b05e2",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

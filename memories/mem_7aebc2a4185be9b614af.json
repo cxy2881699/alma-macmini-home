@@ -1,0 +1,32 @@
+{
+  "conditions": "助手从记忆中回忆用户购买VPS的经过",
+  "confidence": 0.85,
+  "content": "用户 2026-10-12 决定弃用机场自建代理,约 10-13 在 RackNerd 下单洛杉矶 DC02 年付 VPS($12-22/年),由助手协助部署 Reality 协议;仅使用约两周即被封。",
+  "created_at": "2026-10-28T19:05:26.427989Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_7aebc2a4185be9b614af",
+  "is_temporary": false,
+  "keywords": [
+    "自建代理",
+    "弃机场",
+    "RackNerd下单"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-28T19:05:26.427989Z",
+  "valid_to": null
+}

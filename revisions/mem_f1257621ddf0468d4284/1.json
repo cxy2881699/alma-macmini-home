@@ -1,0 +1,71 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:17:32.060098Z",
+  "id": "rev_3568596afd4b80ecee65",
+  "memory": {
+    "conditions": "代理修复曾被认为成功，但用户随后否认，稳定性不能确认。",
+    "confidence": 0.9,
+    "content": "2026-10-18 晚 MacBook 的代理修复在 23:20 曾被浏览器实测确认可用,但 23:37 用户再次反馈“还是不行”,说明当时只能算短暂恢复,不能视为稳定收官。",
+    "created_at": "2026-10-27T05:17:32.060098Z",
+    "derived_from": [],
+    "entities": [
+      "ent_f90a16b26a8ab1d551fc",
+      "ent_f18082c6c564869030be",
+      "ent_c42dac5ae99195f63d24"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_d2cb6dbcd0c6043abf52",
+        "quote": "2026-10-18 晚 MacBook 的代理修复在 23:20 曾被浏览器实测确认可用,但 23:37 用户再次反馈“还是不行”,说明当时只能算短暂恢复,不能视为稳定收官。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_f1257621ddf0468d4284",
+    "is_temporary": false,
+    "keywords": [
+      "代理反复失效",
+      "阶段性恢复",
+      "MacBook",
+      "23:20可用",
+      "23:37不行",
+      "MacBook代理",
+      "7897",
+      "23:37",
+      "还是不行",
+      "浏览器实测",
+      "代理收官失败",
+      "短暂恢复",
+      "23:37 还是不行",
+      "五台设备未收官",
+      "浏览器复测失败"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d2cb6dbcd0c6043abf52",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:17:32.060098Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_f1257621ddf0468d4284",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

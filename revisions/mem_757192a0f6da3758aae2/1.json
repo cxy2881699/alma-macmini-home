@@ -1,0 +1,68 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T18:04:20.314882Z",
+  "id": "rev_03ddf8fb767b9999022e",
+  "memory": {
+    "conditions": "检索2026-09-24 agent-memory从安装到全套验收的总体事件。",
+    "confidence": 0.9,
+    "content": "2026-09-24,用户的 agent-memory 部署与验证在约一个半小时内完成:从 Tailscale 安装开始,历经部署、proxy 根治、双链路接入、界面改造和数据验证后全套收官。",
+    "created_at": "2026-09-23T18:04:20.314882Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def",
+      "ent_421c00dde9a1b98fc969",
+      "ent_3d2f68a038ff0d2b8362"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_7793eeabd2d8f98a3345",
+        "quote": "2026-09-24,用户的 agent-memory 部署与验证在约一个半小时内完成:从 Tailscale 安装开始,历经部署、proxy 根治、双链路接入、界面改造和数据验证后全套收官。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_757192a0f6da3758aae2",
+    "is_temporary": false,
+    "keywords": [
+      "agent-memory",
+      "部署",
+      "Tailscale",
+      "proxy",
+      "收官",
+      "部署收官",
+      "一个半小时",
+      "proxy根治",
+      "双链路",
+      "界面改造",
+      "数据验证"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_7793eeabd2d8f98a3345",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-23T18:04:20.314882Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_757192a0f6da3758aae2",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

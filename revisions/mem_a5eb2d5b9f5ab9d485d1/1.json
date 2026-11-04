@@ -1,0 +1,42 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-10T19:04:52.171733Z",
+  "id": "rev_ded19c9e2d3ca730a71b",
+  "memory": {
+    "conditions": "Agent 用 recall API 复查品牌命名话题",
+    "confidence": 0.75,
+    "content": "昨晚关于\"无界Uhuru品牌命名\"的对话确认未被记忆系统收录,recall 只能查到旧内容。",
+    "created_at": "2026-10-10T19:04:52.171733Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_a5eb2d5b9f5ab9d485d1",
+    "is_temporary": false,
+    "keywords": [
+      "无界Uhuru",
+      "品牌命名",
+      "记忆缺失"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-10T19:04:52.171733Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_a5eb2d5b9f5ab9d485d1",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

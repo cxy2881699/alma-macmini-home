@@ -1,0 +1,50 @@
+{
+  "conditions": "10月2日晨报执行记录",
+  "confidence": 0.85,
+  "content": "2026-10-02 北京时间 10:02,cron 晨报任务完成自检并仅发送一次;Agent 称新闻均来自百度搜索返回结果并附原文链接。",
+  "created_at": "2026-10-02T19:03:42.149305Z",
+  "derived_from": [],
+  "entities": [
+    "ent_686eb10ba1184d26e9a3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_21ec0a807d8ab8a39f8f",
+      "quote": "2026-10-02 北京时间 10:02,cron 晨报任务完成自检并仅发送一次;Agent 称新闻均来自百度搜索返回结果并附原文链接。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_7f6b3f52ceaa210a0244",
+  "is_temporary": false,
+  "keywords": [
+    "晨报",
+    "去重标记",
+    "2026-10-02晨报",
+    "百度搜索",
+    "单次发送",
+    "自检"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_21ec0a807d8ab8a39f8f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-02T19:03:42.149305Z",
+  "valid_to": null
+}

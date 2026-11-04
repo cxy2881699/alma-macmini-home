@@ -1,0 +1,63 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:20:03.808891Z",
+  "id": "rev_2f3ab1ff5ebedbd344b3",
+  "memory": {
+    "conditions": "后续恢复记忆服务、重试失败任务或核对是否仍半瘫时使用。",
+    "confidence": 0.95,
+    "content": "2026-10-27 检查时 memd 进程、Neo4j、healthz 和 recall 正常,但 extract 已失败 163 个、sleep 失败 34 个,另有 7 个排队、1 个在跑,失败自 10-12 起累积。",
+    "created_at": "2026-10-27T04:20:03.808891Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_176409fa578ba26c2c5b"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8395beca681a6a0993af",
+        "quote": "2026-10-27 检查时 memd 进程、Neo4j、healthz 和 recall 正常,但 extract 已失败 163 个、sleep 失败 34 个,另有 7 个排队、1 个在跑,失败自 10-12 起累积。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_69aa13c986164d2b1c85",
+    "is_temporary": true,
+    "keywords": [
+      "memd",
+      "extract失败",
+      "sleep失败",
+      "任务堆积",
+      "Neo4j",
+      "healthz",
+      "recall正常",
+      "SQLite"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8395beca681a6a0993af",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-10-27T04:20:03.808891Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_69aa13c986164d2b1c85",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

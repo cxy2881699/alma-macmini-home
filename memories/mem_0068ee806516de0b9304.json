@@ -1,0 +1,59 @@
+{
+  "conditions": "清理测试数据后统计记忆库真实来源。",
+  "confidence": 0.85,
+  "content": "清理 selftest 残留后,memd 库中真人数据仅来自 codex、openclaw、cursor 三个 Agent,Claude 记录已不存在。",
+  "created_at": "2026-09-23T23:54:03.040014Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_1b0510f6e7579d8f62b3",
+    "ent_1c6b296bc5cb579536f2",
+    "ent_51b9c91560022845906c",
+    "ent_1e8088308ba9691af4dc"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_370086805a310084fcd0",
+      "quote": "清理 selftest 残留后,memd 库中真人数据仅来自 codex、openclaw、cursor 三个 Agent,Claude 记录已不存在。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_0068ee806516de0b9304",
+  "is_temporary": false,
+  "keywords": [
+    "真人数据",
+    "claude测试数据",
+    "agent来源",
+    "真人Agent",
+    "codex",
+    "openclaw",
+    "cursor",
+    "selftest清理",
+    "Claude残留删除"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_370086805a310084fcd0",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-23T23:54:03.040014Z",
+  "valid_to": null
+}

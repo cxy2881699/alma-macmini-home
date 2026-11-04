@@ -1,0 +1,62 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:26:21.173185Z",
+  "id": "rev_de8633c9e7dc9664f886",
+  "memory": {
+    "conditions": "修复此前 Codex ARM64 二进制缺失及被 macOS Gatekeeper 删除导致 CLI 无法启动的问题。",
+    "confidence": 0.7,
+    "content": "用户要求重新使用官方方式安装 Codex CLI;Agent 通过官方 npm 包安装到 /Users/seancao/.local,并验证 codex --version 成功,同时提醒调整 PATH 及通过系统设置处理 Gatekeeper。",
+    "created_at": "2026-09-23T17:26:21.173185Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_33def429029d95fb6e84"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_e6f897e65bb5459b2608",
+        "quote": "用户要求重新使用官方方式安装 Codex CLI;Agent 通过官方 npm 包安装到 /Users/seancao/.local,并验证 codex --version 成功,同时提醒调整 PATH 及通过系统设置处理 Gatekeeper。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_14c67adb4ee9920c00e6",
+    "is_temporary": false,
+    "keywords": [
+      "Codex CLI",
+      "官方安装",
+      "npm",
+      "用户目录",
+      "PATH",
+      "Gatekeeper",
+      "恶意软件提示"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_e6f897e65bb5459b2608",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-23T17:26:21.173185Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_14c67adb4ee9920c00e6",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

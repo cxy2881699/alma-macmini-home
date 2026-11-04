@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-10-18：用户在凌晨继续清理 MacBook 旧代理并短暂确认五台设备可用,随后讨论新 Gmail 注册 Claude 被 hold 的风控原因,决定重新注册 Gmail、用 +86 手机号验证并养号;最后 MacBook 又反馈“还是不行”,需要继续收集精确故障证据。",
+  "created_at": "2026-10-27T05:03:56.654384Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_10853d0c7dcf8fdb980b",
+      "quote": "2026-10-18：用户在凌晨继续清理 MacBook 旧代理并短暂确认五台设备可用,随后讨论新 Gmail 注册 Claude 被 hold 的风控原因,决定重新注册 Gmail、用 +86 手机号验证并养号;最后 MacBook 又反馈“还是不行”,需要继续收集精确故障证据。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_74dbefeacd1a2791625f",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_10853d0c7dcf8fdb980b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-27T05:03:56.654384Z",
+  "valid_to": null
+}

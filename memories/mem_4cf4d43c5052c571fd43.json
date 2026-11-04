@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-26：用户先检查 Codex hooks 与记忆入库/搜索机制,并回顾最近 24 小时;随后围绕可进化记忆、赛博生命、重要记忆判断、开源底座与商业成长引擎展开深入设计讨论,也提出逝者数字重建场景。",
+  "created_at": "2026-09-26T09:56:41.923652Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_2b08cb8eba106b36a8cf",
+      "quote": "2026-09-26：用户先检查 Codex hooks 与记忆入库/搜索机制,并回顾最近 24 小时;随后围绕可进化记忆、赛博生命、重要记忆判断、开源底座与商业成长引擎展开深入设计讨论,也提出逝者数字重建场景。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_4cf4d43c5052c571fd43",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_2b08cb8eba106b36a8cf",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-09-26T09:56:41.923652Z",
+  "valid_to": null
+}

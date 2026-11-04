@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-10-18：10 月 18 日晚,用户持续排查 MacBook 上 Clash Verge 无法让浏览器联网的问题:先发现系统代理未写入,再清理终端中 8118/8119 残留,随后手动把 Wi-Fi 代理指向 7897,但 scutil 全局视图仍显示 HTTPEnable:0,故障未闭环。",
+  "created_at": "2026-11-03T19:03:58.903782Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_9b89f58175c1b2aeb7e1",
+      "quote": "2026-10-18：10 月 18 日晚,用户持续排查 MacBook 上 Clash Verge 无法让浏览器联网的问题:先发现系统代理未写入,再清理终端中 8118/8119 残留,随后手动把 Wi-Fi 代理指向 7897,但 scutil 全局视图仍显示 HTTPEnable:0,故障未闭环。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_befc323764ce3d912ff3",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_9b89f58175c1b2aeb7e1",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-11-03T19:03:58.903782Z",
+  "valid_to": null
+}

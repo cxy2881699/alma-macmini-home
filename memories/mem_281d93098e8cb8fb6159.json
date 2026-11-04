@@ -1,0 +1,53 @@
+{
+  "conditions": "用户发现深度总结请求没有立刻形成记忆时，Agent 解释原文即时入库而提炼记忆延迟。",
+  "confidence": 0.95,
+  "content": "agent-memory 的记忆处理采用 capture 立即入库、extract 异步提取、embedding 与图数据库建链、sleep 夜间整理巩固的流水线,因此对话原文即时保存但提炼记忆通常会延迟出现。",
+  "created_at": "2026-09-23T18:02:35.457368Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_176409fa578ba26c2c5b",
+    "ent_d4b635c892abc239ee6b",
+    "ent_4382e946c32aec408a6e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_e72a494e03485b2fa6ad",
+      "quote": "agent-memory 的记忆处理采用 capture 立即入库、extract 异步提取、embedding 与图数据库建链、sleep 夜间整理巩固的流水线,因此对话原文即时保存但提炼记忆通常会延迟出现。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_281d93098e8cb8fb6159",
+  "is_temporary": false,
+  "keywords": [
+    "异步流水线",
+    "capture",
+    "extract",
+    "embedding",
+    "sleep",
+    "记忆延迟"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_e72a494e03485b2fa6ad",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-23T18:02:35.457368Z",
+  "valid_to": null
+}

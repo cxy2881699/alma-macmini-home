@@ -1,0 +1,65 @@
+{
+  "conditions": "用于检索 PRD 安全章节补强和记忆投毒攻击证据。",
+  "confidence": 0.95,
+  "content": "MINJA(50)全文实证:普通用户仅靠查询就能让 agent 自己生成并存入恶意记忆,注入成功率98.2%、攻击成功率76.8%;因恶意内容是 agent 自产出,\"agent 输出\"必须降权为证据类型,PRD 第16节需新增\"交互式记忆注入\"风险行及必测场景。",
+  "created_at": "2026-09-28T03:54:20.257364Z",
+  "derived_from": [],
+  "entities": [
+    "ent_0dd3ce8f5049183636d7",
+    "ent_12e60967bd71bfb38736"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_3567af8b8693e96c3d81",
+      "quote": "MINJA(50)全文实证:普通用户仅靠查询就能让 agent 自己生成并存入恶意记忆,注入成功率98.2%、攻击成功率76.8%;因恶意内容是 agent 自产出,\"agent 输出\"必须降权为证据类型,PRD 第16节需新增\"交互式记忆注入\"风险行及必测场景。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_0872167bf3d4fd1fedc5",
+  "is_temporary": false,
+  "keywords": [
+    "agent输出降权",
+    "memory injection",
+    "记忆投毒",
+    "安全",
+    "交互式注入",
+    "98.2%注入成功率",
+    "76.8%攻击成功率",
+    "安全空白",
+    "记忆注入攻击",
+    "PRD第16节",
+    "交互式记忆注入",
+    "论文50",
+    "交互式攻击",
+    "安全章节",
+    "MINJA",
+    "记忆注入",
+    "Memory Injection",
+    "交互式投毒",
+    "98.2%",
+    "76.8%"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_3567af8b8693e96c3d81",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-28T03:54:20.257364Z",
+  "valid_to": null
+}

@@ -1,0 +1,66 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:48:00.390711Z",
+  "id": "rev_88c28450e1c2b59badc1",
+  "memory": {
+    "conditions": "用户报告记忆服务异常，排查发现根因是 Neo4j 被停止导致 memd 连不上数据库。",
+    "confidence": 0.9,
+    "content": "2026-09-24,用户发现 agent-memory 记忆服务异常;Agent 排查确认不是 Tailscale,直接原因是 Neo4j 在约 10:43 被停止,memd 连续无法连接 127.0.0.1:7687 并出现重启循环,之后按正确顺序重启依赖和主服务。",
+    "created_at": "2026-09-23T17:48:00.390711Z",
+    "derived_from": [],
+    "entities": [
+      "ent_421c00dde9a1b98fc969",
+      "ent_1b0510f6e7579d8f62b3",
+      "ent_176409fa578ba26c2c5b"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_d7255c0fedb42db38d51",
+        "quote": "2026-09-24,用户发现 agent-memory 记忆服务异常;Agent 排查确认不是 Tailscale,直接原因是 Neo4j 在约 10:43 被停止,memd 连续无法连接 127.0.0.1:7687 并出现重启循环,之后按正确顺序重启依赖和主服务。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_3f63ac735aced9ff8d5c",
+    "is_temporary": false,
+    "keywords": [
+      "记忆服务挂了",
+      "memd 重启循环",
+      "127.0.0.1:7687",
+      "Tailscale 排除",
+      "依赖启动顺序",
+      "memd 挂了",
+      "Neo4j 停止",
+      "7687",
+      "重启循环",
+      "服务恢复"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d7255c0fedb42db38d51",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-23T17:48:00.390711Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_3f63ac735aced9ff8d5c",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

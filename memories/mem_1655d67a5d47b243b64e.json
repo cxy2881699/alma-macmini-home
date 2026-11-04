@@ -1,0 +1,50 @@
+{
+  "conditions": "解释用户看到 OpenClaw 无响应或消息延迟时使用。",
+  "confidence": 0.95,
+  "content": "2026-09-24 用户误以为 OpenClaw 仍然挂掉;Agent 说明实际是 Gateway 重启导致会话短暂断连,消息已排队恢复,并非服务持续不可用。",
+  "created_at": "2026-09-23T17:25:41.585485Z",
+  "derived_from": [],
+  "entities": [
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_207a51e7c79b451d8126",
+      "quote": "2026-09-24 用户误以为 OpenClaw 仍然挂掉;Agent 说明实际是 Gateway 重启导致会话短暂断连,消息已排队恢复,并非服务持续不可用。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_1655d67a5d47b243b64e",
+  "is_temporary": true,
+  "keywords": [
+    "OpenClaw",
+    "短暂断连",
+    "Gateway重启",
+    "排队消息",
+    "恢复",
+    "误判挂掉"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_207a51e7c79b451d8126",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-23T17:25:41.585485Z",
+  "valid_to": null
+}

@@ -1,0 +1,75 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-06T19:03:07.710259Z",
+  "id": "rev_35af39abfd8dda9a1713",
+  "memory": {
+    "conditions": "全文重写任务输入与任务书篇数不符的盘点结论",
+    "confidence": 0.9,
+    "content": "论文批量阅读任务的实际输入与任务书数字不一致:任务称 42 篇,/tmp/pdftxt/ 下数字前缀文件实为 41 篇论文,另有一个 8252eae 前缀文件是保理合同文本而非论文,已被排除。",
+    "created_at": "2026-10-06T19:03:07.710259Z",
+    "derived_from": [],
+    "entities": [
+      "ent_803e29983b18f51d0780"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_4ead9e010ef9d7e33330",
+        "quote": "论文批量阅读任务的实际输入与任务书数字不一致:任务称 42 篇,/tmp/pdftxt/ 下数字前缀文件实为 41 篇论文,另有一个 8252eae 前缀文件是保理合同文本而非论文,已被排除。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_3567af8b8693e96c3d81",
+        "quote": "论文批量阅读任务的实际输入与任务书数字不一致:任务称 42 篇,/tmp/pdftxt/ 下数字前缀文件实为 41 篇论文,另有一个 8252eae 前缀文件是保理合同文本而非论文,已被排除。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_9e112dc42a280c0c82c0",
+    "is_temporary": false,
+    "keywords": [
+      "保理合同误入",
+      "文件清点",
+      "subagent",
+      "输入盘点",
+      "41篇",
+      "42篇",
+      "8252eae",
+      "保理合同",
+      "文件盘点",
+      "pdftxt"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_4ead9e010ef9d7e33330",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_3567af8b8693e96c3d81",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-06T19:03:07.710259Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9e112dc42a280c0c82c0",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

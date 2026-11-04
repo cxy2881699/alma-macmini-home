@@ -1,0 +1,72 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:02:28.638047Z",
+  "id": "rev_400dd252178eddb91a4e",
+  "memory": {
+    "conditions": "用户在 2026-09-27 晚间明确要求把 PRD 存入记忆系统，供其他 Agent 读取。",
+    "confidence": 0.9,
+    "content": "2026-09-27 19:55 用户再次要求将 PRD 存入记忆系统,Codex 实际以全文事件形式归档了 EVOLVING-MEMORY-PRD-v0.1,并明确其为待评审设计提案。",
+    "created_at": "2026-10-27T05:02:28.638047Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_4488e0fdf8d04896269e",
+      "ent_0dd3ce8f5049183636d7"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_204132bcd438ed41fedc",
+        "quote": "2026-09-27 19:55 用户再次要求将 PRD 存入记忆系统,Codex 实际以全文事件形式归档了 EVOLVING-MEMORY-PRD-v0.1,并明确其为待评审设计提案。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_d09380538e28112e7a73",
+    "is_temporary": false,
+    "keywords": [
+      "待评审草案",
+      "2026-09-27归档",
+      "Codex存档",
+      "2026-09-27 19:55",
+      "Codex归档",
+      "PRD上传",
+      "待评审设计提案",
+      "PRD归档",
+      "全文事件",
+      "EVOLVING-MEMORY-PRD-v0.1",
+      "Codex",
+      "PRD全文归档",
+      "再次要求存档",
+      "待评审提案",
+      "event_id 1460999"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_204132bcd438ed41fedc",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:02:28.638047Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_d09380538e28112e7a73",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

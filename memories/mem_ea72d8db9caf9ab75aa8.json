@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-26：用户与 Codex 深入探讨可进化记忆系统的重要性判断维度与整体架构,随后要求产出 PRD 并存入记忆系统供其他 Agent 评审;最终 PRD 已本机保存并上传全文,但普通检索无法保证取回全文。",
+  "created_at": "2026-10-06T19:02:24.163076Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_8747147e4e4a8cd6b63f",
+      "quote": "2026-09-26：用户与 Codex 深入探讨可进化记忆系统的重要性判断维度与整体架构,随后要求产出 PRD 并存入记忆系统供其他 Agent 评审;最终 PRD 已本机保存并上传全文,但普通检索无法保证取回全文。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_ea72d8db9caf9ab75aa8",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8747147e4e4a8cd6b63f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-06T19:02:24.163076Z",
+  "valid_to": null
+}

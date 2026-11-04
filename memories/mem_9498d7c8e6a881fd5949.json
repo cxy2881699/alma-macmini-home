@@ -1,0 +1,67 @@
+{
+  "conditions": "排查 2026-09-26 凌晨嗓子疼那轮对话未入库时定位到的客户端 ID 与服务端静默冲突问题。",
+  "confidence": 0.9,
+  "content": "2026-09-26 凌晨确认的 silent drop 根因是 OpenClaw 客户端在缺少原生消息 ID 时用窗口内 u${turnIndex} 生成 event_id,截断窗口会让不同轮次撞 ID;服务端 conflict/duplicate 又以 ok/inserted:0 静默处理。",
+  "created_at": "2026-10-27T05:21:38.098917Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e",
+    "ent_1b0510f6e7579d8f62b3",
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_16d2615f00ae766bb32b",
+      "quote": "2026-09-26 凌晨确认的 silent drop 根因是 OpenClaw 客户端在缺少原生消息 ID 时用窗口内 u${turnIndex} 生成 event_id,截断窗口会让不同轮次撞 ID;服务端 conflict/duplicate 又以 ok/inserted:0 静默处理。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_9498d7c8e6a881fd5949",
+  "is_temporary": false,
+  "keywords": [
+    "去重",
+    "turnIndex",
+    "审计误报ok",
+    "静默丢消息",
+    "event_id 碰撞",
+    "截断窗口",
+    "ok 假象",
+    "openclaw-plugin",
+    "OpenClaw 插件",
+    "OpenClaw 截断窗口",
+    "event_id 冲突",
+    "event_id冲突",
+    "nativeTurn",
+    "u${turnIndex}",
+    "窗口截断",
+    "duplicate",
+    "conflict",
+    "inserted:0",
+    "silent drop"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_16d2615f00ae766bb32b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:21:38.098917Z",
+  "valid_to": null
+}

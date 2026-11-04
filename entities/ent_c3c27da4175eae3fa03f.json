@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "deepseek-v4-1-flash-261017"
+  ],
+  "created_at": "2026-10-27T04:16:54.822324Z",
+  "description": "Agent 在该轮自称运行的模型，型号标识为 deepseek-v4-1-flash-261017；该说法来自 Agent 自述，尚未独立核验。",
+  "id": "ent_c3c27da4175eae3fa03f",
+  "name": "DeepSeek-V4-1-Flash",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T08:56:50.219459Z"
+}

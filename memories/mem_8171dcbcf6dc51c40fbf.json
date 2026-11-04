@@ -1,0 +1,58 @@
+{
+  "conditions": "用户需要通过读写、超时和错误审计定位自动召回链路问题。",
+  "confidence": 0.82,
+  "content": "用户希望记忆服务保留读取、写入、超时和错误等审计日志,以便后续快速定位自动召回链路故障。",
+  "created_at": "2026-09-28T19:02:27.393942Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e",
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_0796872cfc79a9328bad",
+      "quote": "用户希望记忆服务保留读取、写入、超时和错误等审计日志,以便后续快速定位自动召回链路故障。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_8171dcbcf6dc51c40fbf",
+  "is_temporary": false,
+  "keywords": [
+    "recall 记录",
+    "故障排查",
+    "可观测性",
+    "服务端审计",
+    "审计日志",
+    "recall 失败",
+    "超时日志",
+    "错误日志",
+    "链路排查",
+    "audit"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_0796872cfc79a9328bad",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-09-28T19:02:27.393942Z",
+  "valid_to": null
+}

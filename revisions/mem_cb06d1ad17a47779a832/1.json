@@ -1,0 +1,67 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-28T19:04:31.358014Z",
+  "id": "rev_25593326b94277c1dd39",
+  "memory": {
+    "conditions": "用户通过编造医疗事件检验记忆系统是否会盲信并固化。",
+    "confidence": 0.8,
+    "content": "用户会用跨 Agent 问答和实测数据来验证记忆系统是否真正生效,而不只接受状态页或口头说明。",
+    "created_at": "2026-09-28T19:04:31.358014Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_4488e0fdf8d04896269e",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_d7e5946184cfe5447249",
+        "quote": "用户会用跨 Agent 问答和实测数据来验证记忆系统是否真正生效,而不只接受状态页或口头说明。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_cb06d1ad17a47779a832",
+    "is_temporary": false,
+    "keywords": [
+      "跨Agent验证",
+      "实测",
+      "验收",
+      "记忆召回",
+      "考官测试",
+      "钓鱼测试",
+      "假事件",
+      "跨 Agent 验证",
+      "鲁棒性测试"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d7e5946184cfe5447249",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-09-28T19:04:31.358014Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_cb06d1ad17a47779a832",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

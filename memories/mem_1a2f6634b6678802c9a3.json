@@ -1,0 +1,45 @@
+{
+  "conditions": "",
+  "confidence": 0.95,
+  "content": "用户计划把公司 Mac 和个人 Mac 上的所有 Agent 都接入 Mac mini 上的 agent-memory 服务,实现跨设备、跨 Agent 共享同一记忆库。",
+  "created_at": "2026-09-23T18:25:17.334307Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_a69778123bc4273b8cd3",
+    "ent_e8cc85fed50bec2f3bc3"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_bd935a27864a54ab1d40",
+      "quote": "用户计划把公司 Mac 和个人 Mac 上的所有 Agent 都接入 Mac mini 上的 agent-memory 服务,实现跨设备、跨 Agent 共享同一记忆库。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_1a2f6634b6678802c9a3",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_bd935a27864a54ab1d40",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-09-23T18:25:17.334307Z",
+  "valid_to": null
+}

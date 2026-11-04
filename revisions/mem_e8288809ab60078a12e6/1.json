@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-28T19:03:42.904899Z",
+  "id": "rev_e009c008bc94b71a3ebf",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-24：用户反馈记忆系统管理页仍看不到来源设备或 Agent;Agent 查明是双 memd 进程与旧页面/缓存导致,杀掉旧进程后要求用户强制刷新。",
+    "created_at": "2026-09-28T19:03:42.904899Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_fced576e2338a7e33460",
+        "quote": "2026-09-24：用户反馈记忆系统管理页仍看不到来源设备或 Agent;Agent 查明是双 memd 进程与旧页面/缓存导致,杀掉旧进程后要求用户强制刷新。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_e8288809ab60078a12e6",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_fced576e2338a7e33460",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-09-28T19:03:42.904899Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e8288809ab60078a12e6",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

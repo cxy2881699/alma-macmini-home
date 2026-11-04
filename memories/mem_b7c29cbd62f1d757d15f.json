@@ -1,0 +1,48 @@
+{
+  "conditions": "第一次后台启动失败后，Agent 主动提出若再失败就改用用户消息触发验证。",
+  "confidence": 0.72,
+  "content": "在后台运维方案连续不可靠时,用户更接受停止赌进程、改为先改配置再由用户发消息触发验证的低风险方案。",
+  "created_at": "2026-10-27T05:45:40.485527Z",
+  "derived_from": [],
+  "entities": [
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8fc67c0d4c5d64da55b1",
+      "quote": "在后台运维方案连续不可靠时,用户更接受停止赌进程、改为先改配置再由用户发消息触发验证的低风险方案。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_b7c29cbd62f1d757d15f",
+  "is_temporary": false,
+  "keywords": [
+    "后台启动",
+    "触发验证",
+    "低风险",
+    "运维方案"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8fc67c0d4c5d64da55b1",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-27T05:45:40.485527Z",
+  "valid_to": null
+}

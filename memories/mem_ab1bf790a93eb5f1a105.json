@@ -1,0 +1,49 @@
+{
+  "conditions": "cron 晨报按强制流程生成并返回 2026-10-28 简报。",
+  "confidence": 0.85,
+  "content": "2026-10-28 北京时间晨报正常执行,Agent 称先做防重复和信源验证,无法直达原文的条目删除,最终只输出一次并附链接。",
+  "created_at": "2026-10-28T19:06:48.543459Z",
+  "derived_from": [],
+  "entities": [
+    "ent_686eb10ba1184d26e9a3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_21ec0a807d8ab8a39f8f",
+      "quote": "2026-10-28 北京时间晨报正常执行,Agent 称先做防重复和信源验证,无法直达原文的条目删除,最终只输出一次并附链接。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_ab1bf790a93eb5f1a105",
+  "is_temporary": false,
+  "keywords": [
+    "晨报执行",
+    "防重复",
+    "原文链接",
+    "自检",
+    "只发一次"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_21ec0a807d8ab8a39f8f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-28T19:06:48.543459Z",
+  "valid_to": null
+}

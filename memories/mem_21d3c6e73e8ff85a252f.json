@@ -1,0 +1,57 @@
+{
+  "conditions": "用户询问从 Tailscale 转为 HTTP+Token 后部署、安全、性能和运维差异。",
+  "confidence": 0.86,
+  "content": "公网 HTTP+Token 模式的主要新增成本不是应用改造,而是域名、HTTPS 证书、端口暴露、CDN/WAF、token 分级、限速、审计告警和持续运维。",
+  "created_at": "2026-10-02T19:00:53.527723Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e",
+    "ent_1b0510f6e7579d8f62b3",
+    "ent_bc208ee71f5cabb8083c"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8fc67c0d4c5d64da55b1",
+      "quote": "公网 HTTP+Token 模式的主要新增成本不是应用改造,而是域名、HTTPS 证书、端口暴露、CDN/WAF、token 分级、限速、审计告警和持续运维。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_21d3c6e73e8ff85a252f",
+  "is_temporary": false,
+  "keywords": [
+    "公网化",
+    "HTTP Token",
+    "运维成本",
+    "安全暴露面",
+    "公网化成本",
+    "域名",
+    "HTTPS证书",
+    "Cloudflare WAF",
+    "token分级",
+    "限速审计"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8fc67c0d4c5d64da55b1",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-02T19:00:53.527723Z",
+  "valid_to": null
+}

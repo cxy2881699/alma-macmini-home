@@ -1,0 +1,63 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T19:11:46.060262Z",
+  "id": "rev_3b9eff1329a35f36ff4e",
+  "memory": {
+    "conditions": "四维图新合作已有公开展示成果，但不能表述为规模量产上车。",
+    "confidence": 0.87,
+    "content": "火山引擎与四维图新2025-04-23在上海车展期间签约;2025-06-11四维智联展示AI Agent超级助手,可归为合作落地成果,但公开稿未称已规模量产上车。",
+    "created_at": "2026-10-27T19:11:46.060262Z",
+    "derived_from": [],
+    "entities": [
+      "ent_d4b635c892abc239ee6b",
+      "ent_700816e920bebe421d7a",
+      "ent_b6e5f07139d194f4aaa5"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_d4ea596374d100c7cd4f",
+        "quote": "火山引擎与四维图新2025-04-23在上海车展期间签约;2025-06-11四维智联展示AI Agent超级助手,可归为合作落地成果,但公开稿未称已规模量产上车。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_0bb3b7667e3984644adc",
+    "is_temporary": false,
+    "keywords": [
+      "四维图新",
+      "AI Agent",
+      "四维智联",
+      "FORCE大会",
+      "AI Agent超级助手",
+      "豆包",
+      "预研产品"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d4ea596374d100c7cd4f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T19:11:46.060262Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_0bb3b7667e3984644adc",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,64 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-28T19:03:31.942995Z",
+  "id": "rev_5291c698a5e51ccad115",
+  "memory": {
+    "conditions": "用户用“小龙虾还活着么”询问 OpenClaw 网关和记忆写入是否正常。",
+    "confidence": 0.82,
+    "content": "用户将 OpenClaw/小龙虾视为可询问存活状态的个人 Agent;2026-09-24 02:15 检查时 Gateway running、PID 35536,并有近期真实对话与写入记录。",
+    "created_at": "2026-09-28T19:03:31.942995Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_1a78cb8802066868b605",
+        "quote": "用户将 OpenClaw/小龙虾视为可询问存活状态的个人 Agent;2026-09-24 02:15 检查时 Gateway running、PID 35536,并有近期真实对话与写入记录。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_407211335834da5d93ce",
+    "is_temporary": false,
+    "keywords": [
+      "OpenClaw 存活",
+      "Gateway running",
+      "健康检查",
+      "小龙虾",
+      "OpenClaw",
+      "Gateway",
+      "存活检查",
+      "PID 35536",
+      "running"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_1a78cb8802066868b605",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-28T19:03:31.942995Z",
+    "valid_to": "2026-09-24"
+  },
+  "memory_id": "mem_407211335834da5d93ce",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

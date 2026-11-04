@@ -1,0 +1,83 @@
+{
+  "conditions": "排查 OpenClaw 当前模型、上下文长度、输出上限或图片能力时检索。",
+  "confidence": 0.95,
+  "content": "截至 2026-10-27,OpenClaw 当前主模型为 ark/kimi-k3-1-pro-261024,配置参数为 1024k 上下文、128k 输出、text+image 输入并启用 reasoning。",
+  "created_at": "2026-10-27T04:19:40.101864Z",
+  "derived_from": [],
+  "entities": [
+    "ent_85ac7912658c80484706"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_d55c939bb832758641d3",
+      "quote": "截至 2026-10-27,OpenClaw 当前主模型为 ark/kimi-k3-1-pro-261024,配置参数为 1024k 上下文、128k 输出、text+image 输入并启用 reasoning。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_3d8e9a54e4b001ea6a33",
+      "quote": "截至 2026-10-27,OpenClaw 当前主模型为 ark/kimi-k3-1-pro-261024,配置参数为 1024k 上下文、128k 输出、text+image 输入并启用 reasoning。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_6bd23e50822556638c98",
+      "quote": "截至 2026-10-27,OpenClaw 当前主模型为 ark/kimi-k3-1-pro-261024,配置参数为 1024k 上下文、128k 输出、text+image 输入并启用 reasoning。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_d8256c83941af0aea9e4",
+      "quote": "截至 2026-10-27,OpenClaw 当前主模型为 ark/kimi-k3-1-pro-261024,配置参数为 1024k 上下文、128k 输出、text+image 输入并启用 reasoning。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_504da918430db9d8adc0",
+  "is_temporary": false,
+  "keywords": [
+    "kimi-k3-1-pro-261024",
+    "1024k上下文",
+    "128k输出",
+    "图片输入",
+    "reasoning",
+    "方舟Kimi"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d55c939bb832758641d3",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_3d8e9a54e4b001ea6a33",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_6bd23e50822556638c98",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_d8256c83941af0aea9e4",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:19:40.101864Z",
+  "valid_to": null
+}

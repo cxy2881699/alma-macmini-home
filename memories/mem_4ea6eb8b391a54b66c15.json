@@ -1,0 +1,50 @@
+{
+  "conditions": "subagent 任务背景中交代的用户项目情况",
+  "confidence": 0.85,
+  "content": "用户(宇哥)正在自研 Agent Memory 系统,项目文档为 EVOLVING-MEMORY PRD,工作区有 ICLR 2026 MemAgents Workshop 约45篇论文的综述 paper-summaries-MemAgents.md 可作格式参考。",
+  "created_at": "2026-10-01T19:12:59.360913Z",
+  "derived_from": [],
+  "entities": [
+    "ent_e44cb152899e6702c87f",
+    "ent_9d3a8e426d91c52fb407",
+    "ent_a009e810e6646b0cf76b"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_56b471b2ce769966e5ab",
+      "quote": "用户(宇哥)正在自研 Agent Memory 系统,项目文档为 EVOLVING-MEMORY PRD,工作区有 ICLR 2026 MemAgents Workshop 约45篇论文的综述 paper-summaries-MemAgents.md 可作格式参考。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_4ea6eb8b391a54b66c15",
+  "is_temporary": false,
+  "keywords": [
+    "EVOLVING-MEMORY",
+    "PRD",
+    "自研记忆系统",
+    "paper-summaries-MemAgents"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_56b471b2ce769966e5ab",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-01T19:12:59.360913Z",
+  "valid_to": null
+}

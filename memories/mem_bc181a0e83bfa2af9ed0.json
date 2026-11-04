@@ -1,0 +1,37 @@
+{
+  "conditions": "用户明确商业增强层定位",
+  "confidence": 0.85,
+  "content": "用户倾向把'会成长的赛博生命'作为开源记忆底座之上的商业杀手锏,而非把当前系统直接商业化。",
+  "created_at": "2026-10-27T04:36:13.614216Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_bc181a0e83bfa2af9ed0",
+  "is_temporary": false,
+  "keywords": [
+    "杀手锏",
+    "成长引擎",
+    "开源底座",
+    "NPC",
+    "智能玩具"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-27T04:36:13.614216Z",
+  "valid_to": null
+}

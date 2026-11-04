@@ -1,0 +1,66 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-28T19:09:06.189840Z",
+  "id": "rev_5d08c98a1aa9a63e7e82",
+  "memory": {
+    "conditions": "用户通过飞书逐个转发40余篇论文PDF，PDF可落盘但队列中仍有文件延迟或丢失。",
+    "confidence": 0.72,
+    "content": "用户通过飞书批量向 Agent 发送大量 PDF 时,更稳妥的交付方式是放慢发送节奏或打包 zip/网盘链接,以避免队列溢出丢消息。",
+    "created_at": "2026-09-28T19:09:06.189840Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_22f290112c9557d215ea",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8b1cd7fc53b3e4d3963e",
+        "quote": "用户通过飞书批量向 Agent 发送大量 PDF 时,更稳妥的交付方式是放慢发送节奏或打包 zip/网盘链接,以避免队列溢出丢消息。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_9800acee5734b8d95113",
+    "is_temporary": false,
+    "keywords": [
+      "批量传文件",
+      "队列溢出",
+      "zip",
+      "网盘链接",
+      "飞书",
+      "PDF批量转发",
+      "飞书文件队列",
+      "zip打包",
+      "文件落盘",
+      "pypdf"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8b1cd7fc53b3e4d3963e",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-09-28T19:09:06.189840Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9800acee5734b8d95113",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

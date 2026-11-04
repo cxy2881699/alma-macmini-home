@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "MemAgents Workshop"
+  ],
+  "created_at": "2026-09-28T03:19:09.026710Z",
+  "description": "ICLR 2026 关于 agent 记忆的 workshop，用户团队对其 48 篇论文做逐篇调研以支撑 PRD 修订",
+  "id": "ent_e44cb152899e6702c87f",
+  "name": "ICLR 2026 MemAgents Workshop",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "concept",
+  "updated_at": "2026-11-04T08:56:50.222105Z"
+}

@@ -1,0 +1,73 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T23:53:43.825411Z",
+  "id": "rev_8aeb0058a01bae7eaed4",
+  "memory": {
+    "conditions": "用户反复要求确认每轮对话前是否真实搜索并注入记忆。",
+    "confidence": 0.86,
+    "content": "验证 Agent 记忆链路时,用户重视服务端审计证据,而不接受仅凭界面显示 active、对话写入成功或其他 Agent 的成功记录来推断自动召回成功。",
+    "created_at": "2026-09-23T23:53:43.825411Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_4488e0fdf8d04896269e",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8b1cd7fc53b3e4d3963e",
+        "quote": "验证 Agent 记忆链路时,用户重视服务端审计证据,而不接受仅凭界面显示 active、对话写入成功或其他 Agent 的成功记录来推断自动召回成功。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_b73a6dfce0a7d7c1fafe",
+        "quote": "验证 Agent 记忆链路时,用户重视服务端审计证据,而不接受仅凭界面显示 active、对话写入成功或其他 Agent 的成功记录来推断自动召回成功。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_c76083c5f59c4fdfde41",
+    "is_temporary": false,
+    "keywords": [
+      "审计验证",
+      "recall",
+      "result=ok",
+      "服务端证据",
+      "链路验证"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8b1cd7fc53b3e4d3963e",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_b73a6dfce0a7d7c1fafe",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-09-23T23:53:43.825411Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_c76083c5f59c4fdfde41",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

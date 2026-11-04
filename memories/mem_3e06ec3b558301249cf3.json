@@ -1,0 +1,52 @@
+{
+  "conditions": "用户通过 Codex 检查 agent-memory 对近期事件的召回效果。",
+  "confidence": 0.9,
+  "content": "2026-09-26 下午,用户要求读取记忆库并回顾最近一天;Agent 成功按最近 24 小时汇总了小红书反馈、同学重聚、OpenClaw 轮次 ID 去重风险和 Codex hooks 信任状态。",
+  "created_at": "2026-09-26T07:54:43.657487Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_830f55153a23e59d1a9d",
+      "quote": "2026-09-26 下午,用户要求读取记忆库并回顾最近一天;Agent 成功按最近 24 小时汇总了小红书反馈、同学重聚、OpenClaw 轮次 ID 去重风险和 Codex hooks 信任状态。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_3e06ec3b558301249cf3",
+  "is_temporary": false,
+  "keywords": [
+    "记忆库",
+    "最近24小时",
+    "回顾",
+    "小红书",
+    "同学重聚",
+    "OpenClaw",
+    "hooks"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_830f55153a23e59d1a9d",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-26T07:54:43.657487Z",
+  "valid_to": null
+}

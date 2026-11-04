@@ -1,0 +1,61 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-03T19:01:42.381511Z",
+  "id": "rev_649bab0c197b4c129a6a",
+  "memory": {
+    "conditions": "用户在确认 hooks 信任后追问当前聊天能否保存以及是否每轮先搜索。",
+    "confidence": 0.86,
+    "content": "用户对记忆链路的预期是当前对话内容应能进入记忆库,并且每轮新消息前都应先执行记忆搜索;同时也接受需要通过审计确认实际成功。",
+    "created_at": "2026-11-03T19:01:42.381511Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_91c7280992f4a13aa52f",
+        "quote": "用户对记忆链路的预期是当前对话内容应能进入记忆库,并且每轮新消息前都应先执行记忆搜索;同时也接受需要通过审计确认实际成功。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_9a2636a75210f482e7e8",
+    "is_temporary": false,
+    "keywords": [
+      "每轮搜索",
+      "自动召回",
+      "对话入库",
+      "审计确认",
+      "hook链路"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_91c7280992f4a13aa52f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-03T19:01:42.381511Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9a2636a75210f482e7e8",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

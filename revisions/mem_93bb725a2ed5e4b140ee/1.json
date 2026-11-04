@@ -1,0 +1,59 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-31T19:07:03.093803Z",
+  "id": "rev_635cc51c15dbef85f1ae",
+  "memory": {
+    "conditions": "定时晨报在搜索接口异常时仍按降级信源完成。",
+    "confidence": 0.85,
+    "content": "2026-10-31 北京时间晨报正常执行一次;Agent 称搜索 API 不可用,改用官方页面、RSS 和公开 API,逐条核验并附直达链接,且完成防重复等自检。",
+    "created_at": "2026-10-31T19:07:03.093803Z",
+    "derived_from": [],
+    "entities": [
+      "ent_686eb10ba1184d26e9a3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_21ec0a807d8ab8a39f8f",
+        "quote": "2026-10-31 北京时间晨报正常执行一次;Agent 称搜索 API 不可用,改用官方页面、RSS 和公开 API,逐条核验并附直达链接,且完成防重复等自检。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_93bb725a2ed5e4b140ee",
+    "is_temporary": false,
+    "keywords": [
+      "晨报",
+      "搜索API不可用",
+      "降级流程",
+      "自检",
+      "防重复"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_21ec0a807d8ab8a39f8f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-31T19:07:03.093803Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_93bb725a2ed5e4b140ee",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

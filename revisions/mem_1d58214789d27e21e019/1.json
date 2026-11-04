@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T23:52:07.838096Z",
+  "id": "rev_1346bc24f3a5b1cfaa70",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-24：凌晨用户排查自动召回失败和 OpenClaw 卡住,Agent 定位为 Tailscale 私网地址被代理转发及 OpenClaw 不兼容 hooks 配置,修复后恢复小龙虾;随后检查 Codex 记忆读写链路,并澄清 /hooks 只适用于 Codex CLI 而非桌面聊天窗口。",
+    "created_at": "2026-09-23T23:52:07.838096Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_e592743b9360c4d4c4fb",
+        "quote": "2026-09-24：凌晨用户排查自动召回失败和 OpenClaw 卡住,Agent 定位为 Tailscale 私网地址被代理转发及 OpenClaw 不兼容 hooks 配置,修复后恢复小龙虾;随后检查 Codex 记忆读写链路,并澄清 /hooks 只适用于 Codex CLI 而非桌面聊天窗口。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_1d58214789d27e21e019",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_e592743b9360c4d4c4fb",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-09-23T23:52:07.838096Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_1d58214789d27e21e019",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

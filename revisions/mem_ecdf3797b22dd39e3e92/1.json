@@ -1,0 +1,47 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-29T19:08:29.135518Z",
+  "id": "rev_cdee4611e591eefbd368",
+  "memory": {
+    "conditions": "用户要求把三层网络架构落实到可下单的网站和套餐。",
+    "confidence": 0.82,
+    "content": "用户当时的具体采购候选为 DMIT LAX Premium TINY 主 VPS,加一个静态住宅/ISP IP 专供 AI;国内支付宝便利候选包括 IPIPGO、922S5,海外候选包括 IPRoyal、Proxy-Cheap。",
+    "created_at": "2026-10-29T19:08:29.135518Z",
+    "derived_from": [],
+    "entities": [
+      "ent_c77a5f5a7949c71398a9"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_ecdf3797b22dd39e3e92",
+    "is_temporary": false,
+    "keywords": [
+      "购买清单",
+      "DMIT",
+      "静态住宅IP",
+      "ISP代理",
+      "IPRoyal",
+      "IPIPGO"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-29T19:08:29.135518Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ecdf3797b22dd39e3e92",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

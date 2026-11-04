@@ -1,0 +1,32 @@
+{
+  "conditions": "吃过廉价抽奖段被封的亏后选型态度转变",
+  "confidence": 0.75,
+  "content": "在代理服务选型上,用户优先考虑 IP 干净度和稳定性而非低价,愿意为原生 IP、优质线路(CN2 GIA)和被封免费换 IP 服务支付溢价",
+  "created_at": "2026-11-01T19:05:25.853943Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_f540387557ffaf784a8d",
+  "is_temporary": false,
+  "keywords": [
+    "消费偏好",
+    "稳定优先",
+    "愿付溢价"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-11-01T19:05:25.853943Z",
+  "valid_to": null
+}

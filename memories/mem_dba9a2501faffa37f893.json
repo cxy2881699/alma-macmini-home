@@ -1,0 +1,33 @@
+{
+  "conditions": "用户要求写详细 PRD 并存入记忆系统供其他 Agent 读取。",
+  "confidence": 0.75,
+  "content": "用户倾向用其他 Agent 对设计产物做独立分析或评审,因此希望 PRD 等文档能被记忆系统中的其他 Agent 直接读取。",
+  "created_at": "2026-10-27T05:40:39.563605Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_dba9a2501faffa37f893",
+  "is_temporary": false,
+  "keywords": [
+    "跨 Agent",
+    "评审",
+    "文档共享",
+    "PRD"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-27T05:40:39.563605Z",
+  "valid_to": null
+}

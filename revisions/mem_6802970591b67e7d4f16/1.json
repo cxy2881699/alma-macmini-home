@@ -1,0 +1,65 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T18:35:13.611211Z",
+  "id": "rev_19943a1f35da9d382cda",
+  "memory": {
+    "conditions": "东风案的关键是4月战略签约与6月AIBOX预研采购公示，不能将预研称为量产。",
+    "confidence": 0.88,
+    "content": "火山引擎与东风汽车 2026-04-23 签约;2026-06-11 东风研发总院公示拟由火山引擎承担基于 AIBOX 的端侧智能体平台前期预研究开发项目,内容包括 OrinY 平台 AIBOX 硬件、端侧全模态模型微调部署和原型 Demo 上车验证,性质为追加预研采购而非量产落地。",
+    "created_at": "2026-10-27T18:35:13.611211Z",
+    "derived_from": [],
+    "entities": [
+      "ent_b4a085894df92a90957d",
+      "ent_1002d231aa8e29c9351b"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_d4ea596374d100c7cd4f",
+        "quote": "火山引擎与东风汽车 2026-04-23 签约;2026-06-11 东风研发总院公示拟由火山引擎承担基于 AIBOX 的端侧智能体平台前期预研究开发项目,内容包括 OrinY 平台 AIBOX 硬件、端侧全模态模型微调部署和原型 Demo 上车验证,性质为追加预研采购而非量产落地。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_6802970591b67e7d4f16",
+    "is_temporary": false,
+    "keywords": [
+      "东风",
+      "Demo上车",
+      "东风汽车",
+      "AIBOX",
+      "OrinY",
+      "端侧智能体",
+      "批前公示",
+      "原型Demo",
+      "预研采购",
+      "冯长军"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d4ea596374d100c7cd4f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T18:35:13.611211Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_6802970591b67e7d4f16",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

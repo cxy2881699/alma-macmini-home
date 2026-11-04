@@ -1,0 +1,56 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-04T19:03:51.864864Z",
+  "id": "rev_0f3520be60df261d3bcd",
+  "memory": {
+    "conditions": "晨报信源工具连续多日缺 key",
+    "confidence": 0.7,
+    "content": "截至 2026-10-04 晨报执行时 Brave Search API 仍缺 key,Agent 全部信源改用百度搜索 API;结合 9-30 记录,key 缺失已非单日偶发,可能持续未配置。",
+    "created_at": "2026-10-04T19:03:51.864864Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_21ec0a807d8ab8a39f8f",
+        "quote": "截至 2026-10-04 晨报执行时 Brave Search API 仍缺 key,Agent 全部信源改用百度搜索 API;结合 9-30 记录,key 缺失已非单日偶发,可能持续未配置。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_a6ce6813e2a1d10da61e",
+    "is_temporary": false,
+    "keywords": [
+      "Brave",
+      "API key",
+      "搜索源",
+      "百度"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_21ec0a807d8ab8a39f8f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-04T19:03:51.864864Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_a6ce6813e2a1d10da61e",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,57 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": 1,
+  "created_at": "2026-09-23T17:25:41.585485Z",
+  "id": "rev_6c6b7682a682524d4974",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.95,
+    "content": "OpenClaw Agent Memory 插件的服务地址已从 Tailscale MagicDNS 域名改为 http://127.0.0.1:8787;此前 Gateway 继承 MonoProxy 代理访问 seanmac-mini.tail92d6fe.ts.net 会导致 fetch failed,当前本机直连已绕开该问题。",
+    "created_at": "2026-09-23T17:25:41.585485Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_f90a16b26a8ab1d551fc",
+      "ent_0674430ba5d897eb2671",
+      "ent_421c00dde9a1b98fc969",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_207a51e7c79b451d8126",
+        "quote": "OpenClaw Agent Memory 插件的服务地址已从 Tailscale MagicDNS 域名改为 http://127.0.0.1:8787;此前 Gateway 继承 MonoProxy 代理访问 seanmac-mini.tail92d6fe.ts.net 会导致 fetch failed,当前本机直连已绕开该问题。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_4468c3e24f3539bb5bd5",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_207a51e7c79b451d8126",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 2,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-23T17:25:41.585485Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_4468c3e24f3539bb5bd5",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 2
+}

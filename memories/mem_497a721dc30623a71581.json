@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-10-13：用户两次发送指令测试,要求仅回复\"正常\"二字,助手均照做。",
+  "created_at": "2026-10-27T04:29:12.897507Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_d9d1209f30bac52c784a",
+      "quote": "2026-10-13：用户两次发送指令测试,要求仅回复\"正常\"二字,助手均照做。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_497a721dc30623a71581",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d9d1209f30bac52c784a",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-27T04:29:12.897507Z",
+  "valid_to": null
+}

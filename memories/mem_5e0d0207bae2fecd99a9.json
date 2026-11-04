@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-26：用户凌晨排查 agent-memory 对话静默丢弃问题,复审服务端去重改造后决定等待 OpenClaw 客户端修改;下午确认 Codex hooks 信任状态、检查记忆入库与召回,并深入讨论可进化记忆作为开源底座之上的商业化方向及逝者数字重建。",
+  "created_at": "2026-09-30T19:01:35.380854Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_16d2615f00ae766bb32b",
+      "quote": "2026-09-26：用户凌晨排查 agent-memory 对话静默丢弃问题,复审服务端去重改造后决定等待 OpenClaw 客户端修改;下午确认 Codex hooks 信任状态、检查记忆入库与召回,并深入讨论可进化记忆作为开源底座之上的商业化方向及逝者数字重建。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_5e0d0207bae2fecd99a9",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_16d2615f00ae766bb32b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-09-30T19:01:35.380854Z",
+  "valid_to": null
+}

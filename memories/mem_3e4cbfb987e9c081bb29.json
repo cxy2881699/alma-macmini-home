@@ -1,0 +1,38 @@
+{
+  "conditions": "两次发送 MemAgents zip 均失败后改走逐篇 PDF 转发",
+  "confidence": 0.85,
+  "content": "飞书 zip 大附件(octet-stream,2MB+)无法落盘到媒体目录,而单个 PDF 可正常落盘解析;这是该环境接收文件的稳定约束。",
+  "created_at": "2026-10-01T19:12:23.875566Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_22f290112c9557d215ea",
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_3e4cbfb987e9c081bb29",
+  "is_temporary": false,
+  "keywords": [
+    "飞书附件",
+    "zip不落盘",
+    "PDF落盘",
+    "网关",
+    "文件接收"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-01T19:12:23.875566Z",
+  "valid_to": null
+}

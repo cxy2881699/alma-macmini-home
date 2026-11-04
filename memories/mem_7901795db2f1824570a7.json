@@ -1,0 +1,54 @@
+{
+  "conditions": "用户用简短追问测试 Agent 的选酒建议是否真的基于记忆证据。",
+  "confidence": 0.82,
+  "content": "用户会通过质疑“你确定么”来检验 Agent 的建议是否有记忆或审计依据,而不是只接受看似自信的推荐。",
+  "created_at": "2026-10-27T04:46:06.732902Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_cba7676006be064cd2bd",
+      "quote": "用户会通过质疑“你确定么”来检验 Agent 的建议是否有记忆或审计依据,而不是只接受看似自信的推荐。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_7901795db2f1824570a7",
+  "is_temporary": false,
+  "keywords": [
+    "质疑",
+    "证据",
+    "自信推荐",
+    "记忆依据",
+    "你确定么",
+    "质疑自信推荐",
+    "检验依据",
+    "审计",
+    "个人偏好"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_cba7676006be064cd2bd",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:46:06.732902Z",
+  "valid_to": null
+}

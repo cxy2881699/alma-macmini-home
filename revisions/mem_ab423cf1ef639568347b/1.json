@@ -1,0 +1,58 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:44:36.481993Z",
+  "id": "rev_a898d53a259cb149b6b3",
+  "memory": {
+    "conditions": "分身核对/tmp/pdftxt目录后解释篇数差异",
+    "confidence": 0.9,
+    "content": "全文版论文总结实际基于41个数字前缀文件,任务书所称42篇与输入目录不符;差异原因是8252eae文件为保理合同而非论文被排除,并非论文缺失。",
+    "created_at": "2026-10-27T04:44:36.481993Z",
+    "derived_from": [],
+    "entities": [
+      "ent_803e29983b18f51d0780"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_3567af8b8693e96c3d81",
+        "quote": "全文版论文总结实际基于41个数字前缀文件,任务书所称42篇与输入目录不符;差异原因是8252eae文件为保理合同而非论文被排除,并非论文缺失。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_ab423cf1ef639568347b",
+    "is_temporary": false,
+    "keywords": [
+      "41篇",
+      "42篇",
+      "保理合同",
+      "全文重写"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_3567af8b8693e96c3d81",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:44:36.481993Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ab423cf1ef639568347b",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

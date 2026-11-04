@@ -1,0 +1,49 @@
+{
+  "conditions": "用户看到 Verge 节点测试通过但网页仍打不开，随后排查转向系统代理和环境变量层。",
+  "confidence": 0.86,
+  "content": "2026-10-18 晚排查中,Clash Verge 节点测试多数通过只能证明代理核心/节点链路基本可用,不能证明系统代理、TUN 或浏览器流量已经被接管。",
+  "created_at": "2026-10-28T19:03:36.581780Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f18082c6c564869030be",
+    "ent_603966e8e3ad513001d7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_f42fd72f43db274ce516",
+      "quote": "2026-10-18 晚排查中,Clash Verge 节点测试多数通过只能证明代理核心/节点链路基本可用,不能证明系统代理、TUN 或浏览器流量已经被接管。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_33d0b53374e1171f4b93",
+  "is_temporary": false,
+  "keywords": [
+    "节点测试通过",
+    "系统代理未接管",
+    "Clash Verge",
+    "7897"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_f42fd72f43db274ce516",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-28T19:03:36.581780Z",
+  "valid_to": null
+}

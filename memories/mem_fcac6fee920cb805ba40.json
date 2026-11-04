@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-10-27：用户先处理 OpenClaw 模型切换后的速度与配置确认,又让助手复盘此前 VPS 被封和三层代理采购方案;随后排查并修复 memd 记忆链路的连接池耗尽与历史任务积压,夜间两次心跳均无异常。",
+  "created_at": "2026-11-01T19:06:39.898284Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_6bd23e50822556638c98",
+      "quote": "2026-10-27：用户先处理 OpenClaw 模型切换后的速度与配置确认,又让助手复盘此前 VPS 被封和三层代理采购方案;随后排查并修复 memd 记忆链路的连接池耗尽与历史任务积压,夜间两次心跳均无异常。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_fcac6fee920cb805ba40",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_6bd23e50822556638c98",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-11-01T19:06:39.898284Z",
+  "valid_to": null
+}

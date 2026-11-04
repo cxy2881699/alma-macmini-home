@@ -1,0 +1,63 @@
+{
+  "conditions": "2026-09-25 讨论的次日晚间聚会计划，可用于事后确认是否已发生。",
+  "confidence": 0.95,
+  "content": "2026-09-26 晚上,用户将与一位关系非常好、从美国回来的大学同学重聚喝酒,正在考虑带什么酒。",
+  "created_at": "2026-09-25T08:36:35.646025Z",
+  "derived_from": [],
+  "entities": [
+    "ent_774067d2559ca01157a7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_63c357d22847ac53220a",
+      "quote": "2026-09-26 晚上,用户将与一位关系非常好、从美国回来的大学同学重聚喝酒,正在考虑带什么酒。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_cba7676006be064cd2bd",
+      "quote": "2026-09-26 晚上,用户将与一位关系非常好、从美国回来的大学同学重聚喝酒,正在考虑带什么酒。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_bc2d3661f7fc6a328f70",
+  "is_temporary": true,
+  "keywords": [
+    "美国回来",
+    "带酒",
+    "明晚",
+    "美国回国",
+    "大学同学",
+    "重聚",
+    "喝酒",
+    "2026-09-26"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_63c357d22847ac53220a",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_cba7676006be064cd2bd",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-25T08:36:35.646025Z",
+  "valid_to": "2026-09-26"
+}

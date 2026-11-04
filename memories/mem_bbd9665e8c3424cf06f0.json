@@ -1,0 +1,53 @@
+{
+  "conditions": "以后检查 Codex 记忆自动读取是否恢复时适用",
+  "confidence": 0.95,
+  "content": "验证 Codex 自动召回时,应在用户每发送一条 Codex 消息后检查服务端同一分钟是否出现 agent_kind=codex、action=recall、result=ok;不能把 OpenClaw 的最新成功召回误认为 Codex 已恢复。",
+  "created_at": "2026-09-23T17:19:18.213478Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_cebb179d057c24e6120e",
+      "quote": "验证 Codex 自动召回时,应在用户每发送一条 Codex 消息后检查服务端同一分钟是否出现 agent_kind=codex、action=recall、result=ok;不能把 OpenClaw 的最新成功召回误认为 Codex 已恢复。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_bbd9665e8c3424cf06f0",
+  "is_temporary": false,
+  "keywords": [
+    "验证方法",
+    "codex recall",
+    "agent_kind",
+    "result ok",
+    "OpenClaw",
+    "审计日志",
+    "区分 Agent"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_cebb179d057c24e6120e",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-09-23T17:19:18.213478Z",
+  "valid_to": null
+}

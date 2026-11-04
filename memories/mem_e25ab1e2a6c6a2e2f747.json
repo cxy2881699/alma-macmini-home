@@ -1,0 +1,45 @@
+{
+  "conditions": "用户连续进行 ACP 通道和算术响应测试。",
+  "confidence": 0.8,
+  "content": "在简单通道或算术测试中,用户偏好 Agent 严格按指定格式作极简回复,不附加解释或额外操作。",
+  "created_at": "2026-10-27T05:37:15.253965Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_f15074ec43a455aac187",
+      "quote": "在简单通道或算术测试中,用户偏好 Agent 严格按指定格式作极简回复,不附加解释或额外操作。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_e25ab1e2a6c6a2e2f747",
+  "is_temporary": false,
+  "keywords": [
+    "格式遵从",
+    "极简回复",
+    "通道测试"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_f15074ec43a455aac187",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-27T05:37:15.253965Z",
+  "valid_to": null
+}

@@ -1,0 +1,51 @@
+{
+  "conditions": "用户反馈新模型慢后，Agent 按用户提供参数更新模型配置。",
+  "confidence": 0.9,
+  "content": "ark/kimi-k3-1-pro-261024 的 OpenClaw 配置已从初始 262144/32768 修正为 contextWindow 1048576、maxTokens 131072,并启用 text+image 输入与 reasoning;配置校验通过且重启后生效。",
+  "created_at": "2026-10-27T04:57:39.016672Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_1c6b296bc5cb579536f2",
+    "ent_85ac7912658c80484706"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_6bd23e50822556638c98",
+      "quote": "ark/kimi-k3-1-pro-261024 的 OpenClaw 配置已从初始 262144/32768 修正为 contextWindow 1048576、maxTokens 131072,并启用 text+image 输入与 reasoning;配置校验通过且重启后生效。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_d19fd91255d15f4a057c",
+  "is_temporary": false,
+  "keywords": [
+    "Kimi K3.1 Pro",
+    "1024k",
+    "128k",
+    "图片输入",
+    "reasoning"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_6bd23e50822556638c98",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:57:39.016672Z",
+  "valid_to": null
+}

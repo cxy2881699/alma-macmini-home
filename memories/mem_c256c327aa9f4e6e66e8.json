@@ -1,0 +1,37 @@
+{
+  "conditions": "用户询问为什么其他 Agent 在记忆系统里找不到完整 PRD。",
+  "confidence": 0.85,
+  "content": "普通记忆检索目前只返回摘要和索引,不能保证其他 Agent 直接取出完整 PRD;全文读取接口需要所有者权限。",
+  "created_at": "2026-11-01T19:02:02.151936Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_c256c327aa9f4e6e66e8",
+  "is_temporary": false,
+  "keywords": [
+    "检索限制",
+    "摘要",
+    "索引",
+    "所有者权限",
+    "全文读取"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-01T19:02:02.151936Z",
+  "valid_to": null
+}

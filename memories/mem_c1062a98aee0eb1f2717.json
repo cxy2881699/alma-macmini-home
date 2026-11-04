@@ -1,0 +1,65 @@
+{
+  "conditions": "本机 ceo-os 目录只先找到两份 8 月旧 PRD，尚不能回答新 PRD 的位置。",
+  "confidence": 0.75,
+  "content": "截至 2026-09-27 19:51,本机 ceo-os 目录中能找到的是两份 8 月旧 PRD,尚不能确认用户所指的新 PRD 保存位置。",
+  "created_at": "2026-10-09T19:03:46.861215Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_13a7ceff9826166f66a5"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_c5b9bc50bc5c913a2dbe",
+      "quote": "截至 2026-09-27 19:51,本机 ceo-os 目录中能找到的是两份 8 月旧 PRD,尚不能确认用户所指的新 PRD 保存位置。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_c1062a98aee0eb1f2717",
+  "is_temporary": false,
+  "keywords": [
+    "旧文件",
+    "未入库",
+    "PRD 文件位置",
+    "新PRD未入库",
+    "audit 排查",
+    "PRD",
+    "新PRD未找到",
+    "文件落盘",
+    "保存位置",
+    "旧PRD",
+    "8月PRD",
+    "新PRD位置",
+    "文件排查",
+    "c",
+    "e",
+    "o",
+    "-",
+    "o",
+    "s",
+    "ceo-os"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c5b9bc50bc5c913a2dbe",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-09T19:03:46.861215Z",
+  "valid_to": "2026-09-27"
+}

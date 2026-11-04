@@ -1,0 +1,52 @@
+{
+  "conditions": "用于判断 Codex 接入记忆系统时保存链路和召回链路是否都正常",
+  "confidence": 0.95,
+  "content": "2026-09-24 验证显示,Codex 配置中存在 UserPromptSubmit、PostToolUse、Stop 三类 agent-memory 钩子;对话事件持续写入记忆服务,但最近一次明确的 Codex 成功召回停在 10:04,之后没有新的 codex recall 审计记录。",
+  "created_at": "2026-09-23T17:19:18.213478Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_cebb179d057c24e6120e",
+      "quote": "2026-09-24 验证显示,Codex 配置中存在 UserPromptSubmit、PostToolUse、Stop 三类 agent-memory 钩子;对话事件持续写入记忆服务,但最近一次明确的 Codex 成功召回停在 10:04,之后没有新的 codex recall 审计记录。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_1f9679a5a96d81ddcecb",
+  "is_temporary": false,
+  "keywords": [
+    "Codex",
+    "hooks",
+    "UserPromptSubmit",
+    "PostToolUse",
+    "Stop",
+    "recall",
+    "审计记录"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_cebb179d057c24e6120e",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-23T17:19:18.213478Z",
+  "valid_to": null
+}

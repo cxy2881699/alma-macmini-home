@@ -1,0 +1,47 @@
+{
+  "conditions": "用户凌晨表示不舒服并服药，准备暂停工作休息。",
+  "confidence": 0.86,
+  "content": "用户身体不适:嗓子疼并已服用头孢,当时计划休息、次日再工作;同时被提醒服用头孢期间不要饮酒。",
+  "created_at": "2026-10-03T19:01:47.674253Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_16d2615f00ae766bb32b",
+      "quote": "用户身体不适:嗓子疼并已服用头孢,当时计划休息、次日再工作;同时被提醒服用头孢期间不要饮酒。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_dfb6e73926d73cd24c76",
+  "is_temporary": false,
+  "keywords": [
+    "嗓子疼",
+    "头孢",
+    "身体不适",
+    "不要喝酒",
+    "休息"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_16d2615f00ae766bb32b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "review",
+  "status_reason": "migrated from old agent-memory (candidate)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-03T19:01:47.674253Z",
+  "valid_to": null
+}

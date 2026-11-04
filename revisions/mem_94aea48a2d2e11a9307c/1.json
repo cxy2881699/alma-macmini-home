@@ -1,0 +1,86 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:57:39.016672Z",
+  "id": "rev_0422f08423460c98574e",
+  "memory": {
+    "conditions": "用户问记忆服务是否正常，随后要求优化记忆链路时的故障与修复记录。",
+    "confidence": 0.92,
+    "content": "memd 记忆链路的大量后台任务失败由 ark HTTP 连接池耗尽导致 PoolTimeout;已将连接池 16 调到 64、池满等待 5 秒调到 60 秒,并重启后批量重试 197 个失败任务成功。",
+    "created_at": "2026-10-27T04:57:39.016672Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8395beca681a6a0993af",
+        "quote": "memd 记忆链路的大量后台任务失败由 ark HTTP 连接池耗尽导致 PoolTimeout;已将连接池 16 调到 64、池满等待 5 秒调到 60 秒,并重启后批量重试 197 个失败任务成功。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_9d10a69084bd77edc45a",
+        "quote": "memd 记忆链路的大量后台任务失败由 ark HTTP 连接池耗尽导致 PoolTimeout;已将连接池 16 调到 64、池满等待 5 秒调到 60 秒,并重启后批量重试 197 个失败任务成功。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_94aea48a2d2e11a9307c",
+    "is_temporary": false,
+    "keywords": [
+      "extract",
+      "sleep",
+      "记忆链路",
+      "连接池",
+      "HTTP 连接池",
+      "连接池 64",
+      "等待 60 秒",
+      "批量重试 197",
+      "HTTP 连接池耗尽",
+      "197 个失败任务",
+      "memd任务失败",
+      "批量重试",
+      "ark连接池",
+      "extract失败",
+      "批量重试197",
+      "MEMD_LLM_CONCURRENCY",
+      "memd 修复",
+      "197 任务",
+      "HTTP pool",
+      "连接池64"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8395beca681a6a0993af",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_9d10a69084bd77edc45a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:57:39.016672Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_94aea48a2d2e11a9307c",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

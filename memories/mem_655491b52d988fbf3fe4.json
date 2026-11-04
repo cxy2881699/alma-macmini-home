@@ -1,0 +1,50 @@
+{
+  "conditions": "用户看到小红书正向反馈后说明后续开源和收费计划。",
+  "confidence": 0.86,
+  "content": "用户计划将 agent-memory 做成商业化产品:成熟后开源阉割版,并提供收费的线上版本。",
+  "created_at": "2026-10-01T19:10:46.642907Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e",
+    "ent_c3f9f077f1f3ceaddd2f"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_5c2b03a36555ed887023",
+      "quote": "用户计划将 agent-memory 做成商业化产品:成熟后开源阉割版,并提供收费的线上版本。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_655491b52d988fbf3fe4",
+  "is_temporary": false,
+  "keywords": [
+    "开源阉割版",
+    "线上收费",
+    "商业化",
+    "SaaS"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_5c2b03a36555ed887023",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "review",
+  "status_reason": "migrated from old agent-memory (candidate)",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-10-01T19:10:46.642907Z",
+  "valid_to": null
+}

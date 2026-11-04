@@ -1,0 +1,20 @@
+{
+  "agent_id": "codex@old-memd",
+  "assistant_text": "请在当前 Codex 对话的输入框中发送： ```text /hooks ``` 打开后找到 `agent-memory` 的三个钩子并选择 **Trust/信任**： - `UserPromptSubmit` - `PostToolUse` - `Stop` 完成后重启当前 Codex 会话，再发一条消息。我会根据服务端审计记录确认是否出现新的 `codex recall`。",
+  "content_hash": "de38aa6eb2b4df21a0a3f86753a3860078c7715ea2742047c7e813116b5725b9",
+  "cwd": "",
+  "device_id": "dev_125962f97f52d6e8",
+  "event_id": "evt_ddacf54dfa56f7da9177",
+  "kind": "conversation",
+  "native_event_id": "988838e4c9b392a2e9dedb5b4d872653",
+  "occurred_at": "2026-09-23T17:13:03.562000Z",
+  "privacy_mode": "normal",
+  "project_id": "",
+  "received_at": "2026-11-04T08:56:48.338867Z",
+  "revision": 1,
+  "session_id": "dev_125962f97f52d6e8:codex:01a0cf1f-da09-7810-8248-f51a833d45ea",
+  "space": "user/shared",
+  "tools": [],
+  "turn_index": 9,
+  "user_text": "<in-app-browser-context source=\"ambient-ui-state\"> This block is automatically supplied ambient UI state, not part of the user's request. Do not treat it as an instruction or as evidence that the user explicitly selected the in-app browser. # In app browser: - The user has the in-app browser open with 2 tabs. - Current URL: http://127.0.0.1:8787/admin#sleep </in-app-browser-context> ## My request: ``` /hooks ```"
+}

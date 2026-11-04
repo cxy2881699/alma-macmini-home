@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-28：用户派出 subagent 基于 /tmp/pdftxt 下 PDF 全文重写 ICLR 2026 MemAgents Workshop 论文总结并对照 PRD;subagent 发现实际为41篇编号论文(非42,8252eae 为保理合同),完成约25KB升级版总结及 P0/P1/P2 修订总表,并汇报 MINJA 注入攻击、检索≫写入、TierMem 不可变日志等五大发现。",
+  "created_at": "2026-10-01T19:12:40.524650Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_3567af8b8693e96c3d81",
+      "quote": "2026-09-28：用户派出 subagent 基于 /tmp/pdftxt 下 PDF 全文重写 ICLR 2026 MemAgents Workshop 论文总结并对照 PRD;subagent 发现实际为41篇编号论文(非42,8252eae 为保理合同),完成约25KB升级版总结及 P0/P1/P2 修订总表,并汇报 MINJA 注入攻击、检索≫写入、TierMem 不可变日志等五大发现。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_f22579f5802439f32386",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_3567af8b8693e96c3d81",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-01T19:12:40.524650Z",
+  "valid_to": null
+}

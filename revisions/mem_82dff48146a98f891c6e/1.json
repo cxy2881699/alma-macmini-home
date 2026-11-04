@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:04:47.516931Z",
+  "id": "rev_e68e1b10c8f842996e1e",
+  "memory": {
+    "conditions": "用户问被墙服务器还有什么用",
+    "confidence": 0.75,
+    "content": "被墙的 RackNerd 机器仍有复用价值:可作为 Cloudflare 回源落地,改用 WS+TLS+CDN 架构后流量经 CF 中转不经过 GFW;Agent 提议可在 30 分钟内帮用户配置。",
+    "created_at": "2026-10-27T05:04:47.516931Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_82dff48146a98f891c6e",
+    "is_temporary": false,
+    "keywords": [
+      "Cloudflare中转",
+      "CDN落地",
+      "WS TLS",
+      "被墙机器复用"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:04:47.516931Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_82dff48146a98f891c6e",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

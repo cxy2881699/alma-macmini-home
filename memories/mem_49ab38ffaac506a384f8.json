@@ -1,0 +1,44 @@
+{
+  "conditions": "",
+  "confidence": 0.95,
+  "content": "用户计划让图片、语音、文档等非文本内容进入 agent-memory,使 Agent 看过的图片等资料能转化为可召回的知识。",
+  "created_at": "2026-09-23T18:17:35.525564Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_00173384e864e237fb60"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_9dc7969bcc7a0dc78651",
+      "quote": "用户计划让图片、语音、文档等非文本内容进入 agent-memory,使 Agent 看过的图片等资料能转化为可召回的知识。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_49ab38ffaac506a384f8",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_9dc7969bcc7a0dc78651",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-09-23T18:17:35.525564Z",
+  "valid_to": null
+}

@@ -1,0 +1,37 @@
+{
+  "conditions": "用户要求把 PRD 存入记忆系统供其他 Agent 读取，随后追问保存位置。",
+  "confidence": 0.85,
+  "content": "可进化记忆系统 PRD v0.1 已上传记忆库全文(事件 ID 1460999e575200a46998cd748e7167ea),但普通检索只返回摘要和索引,其他 Agent 不能保证直接取出完整全文;完整评审应使用本机 Markdown 文件或所有者权限的全文读取接口。",
+  "created_at": "2026-10-27T04:40:20.659840Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e",
+    "ent_0dd3ce8f5049183636d7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_9daf5135208b1f64642c",
+  "is_temporary": false,
+  "keywords": [
+    "PRD全文",
+    "检索限制",
+    "事件ID",
+    "所有者权限"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:40:20.659840Z",
+  "valid_to": null
+}

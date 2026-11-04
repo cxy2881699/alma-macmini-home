@@ -1,0 +1,47 @@
+{
+  "conditions": "助手对照用户 PRD 现有条目给出论文映射建议",
+  "confidence": 0.7,
+  "content": "用户 PRD 已有编号化功能需求结构(FR-03 多维重要性评估、FR-04 记忆更新、FR-09 相关条目),并含 13.5 消融测试章节;此前已确立\"原始记忆永不删除\"原则,并搁置过\"暗号/私有工作区\"设计但保留钩子",
+  "created_at": "2026-09-28T19:08:33.604122Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_c3271c4575b61520f70e",
+      "quote": "用户 PRD 已有编号化功能需求结构(FR-03 多维重要性评估、FR-04 记忆更新、FR-09 相关条目),并含 13.5 消融测试章节;此前已确立\"原始记忆永不删除\"原则,并搁置过\"暗号/私有工作区\"设计但保留钩子",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_88231e589808c9759ffb",
+  "is_temporary": false,
+  "keywords": [
+    "FR-03",
+    "FR-04",
+    "FR-09",
+    "原始记忆永不删除",
+    "私有工作区"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c3271c4575b61520f70e",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-28T19:08:33.604122Z",
+  "valid_to": null
+}

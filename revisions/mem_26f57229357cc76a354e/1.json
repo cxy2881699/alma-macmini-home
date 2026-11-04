@@ -1,0 +1,44 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-25T19:03:40.412786Z",
+  "id": "rev_b42d6f0145dad5865446",
+  "memory": {
+    "conditions": "OpenClaw 完成 CHANGES.md 后顺带建议，待用户确认",
+    "confidence": 0.55,
+    "content": "用户倾向于用 git 版本化管理 agent-memory 项目,以避免云服务搭建时仅靠 CHANGES.md 手动对齐旧代码而漏改(Agent 已建议 git init 基线,用户尚未明确答复)。",
+    "created_at": "2026-09-25T19:03:40.412786Z",
+    "derived_from": [],
+    "entities": [
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_26f57229357cc76a354e",
+    "is_temporary": false,
+    "keywords": [
+      "git init",
+      "版本管理",
+      "基线"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-09-25T19:03:40.412786Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_26f57229357cc76a354e",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,59 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-05T19:11:20.272280Z",
+  "id": "rev_9c148d2de0a39f890f2f",
+  "memory": {
+    "conditions": "Agent 在队列溢出后确认大部分论文文件已接收并提取。",
+    "confidence": 0.8,
+    "content": "截至本次汇总,已有 42+ 篇 PDF 落盘,文本提取到 /tmp/pdftxt/,共 49 个文本文件,并由分身继续生成全文版总结。",
+    "created_at": "2026-10-05T19:11:20.272280Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8b1cd7fc53b3e4d3963e",
+        "quote": "截至本次汇总,已有 42+ 篇 PDF 落盘,文本提取到 /tmp/pdftxt/,共 49 个文本文件,并由分身继续生成全文版总结。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_e3f8d5a170a64bc91f2c",
+    "is_temporary": false,
+    "keywords": [
+      "PDF落盘",
+      "文本提取",
+      "全文总结",
+      "分身"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8b1cd7fc53b3e4d3963e",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-05T19:11:20.272280Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e3f8d5a170a64bc91f2c",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

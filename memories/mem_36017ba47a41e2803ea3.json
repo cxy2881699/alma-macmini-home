@@ -1,0 +1,45 @@
+{
+  "conditions": "当天晨报在验证新浪和机器之心原文后发送。",
+  "confidence": 0.9,
+  "content": "2026-09-30 晨报头条为 OpenAI DevDay 2026,涵盖 GPT-6.1 Sol、dots、Pro 500、Space/Pages、Decisions API 等共 25 项更新。",
+  "created_at": "2026-09-30T19:03:42.100049Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_21ec0a807d8ab8a39f8f",
+      "quote": "2026-09-30 晨报头条为 OpenAI DevDay 2026,涵盖 GPT-6.1 Sol、dots、Pro 500、Space/Pages、Decisions API 等共 25 项更新。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_36017ba47a41e2803ea3",
+  "is_temporary": false,
+  "keywords": [
+    "OpenAI DevDay",
+    "GPT-6.1 Sol",
+    "晨报头条"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_21ec0a807d8ab8a39f8f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-30T19:03:42.100049Z",
+  "valid_to": null
+}

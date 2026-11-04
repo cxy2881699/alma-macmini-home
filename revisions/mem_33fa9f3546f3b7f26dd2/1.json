@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-28T19:03:31.942995Z",
+  "id": "rev_9f1ac55fe6493dd5b0d1",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-24：用户围绕 agent-memory 部署后的真实状态进行回顾和验证:确认时区基准、总结系统价值与故障史、核查 Codex 自动召回和搜索性能,并让 OpenClaw 清理 selftest 数据、补齐管理后台来源展示。",
+    "created_at": "2026-09-28T19:03:31.942995Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_d1ac9ffcb12bebc57788",
+        "quote": "2026-09-24：用户围绕 agent-memory 部署后的真实状态进行回顾和验证:确认时区基准、总结系统价值与故障史、核查 Codex 自动召回和搜索性能,并让 OpenClaw 清理 selftest 数据、补齐管理后台来源展示。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_33fa9f3546f3b7f26dd2",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d1ac9ffcb12bebc57788",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-09-28T19:03:31.942995Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_33fa9f3546f3b7f26dd2",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

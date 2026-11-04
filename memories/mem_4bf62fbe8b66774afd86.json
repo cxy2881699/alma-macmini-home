@@ -1,0 +1,60 @@
+{
+  "conditions": "用户规划 agent-memory 开源版本与商业化杀手锏之间的产品分层。",
+  "confidence": 0.85,
+  "content": "用户的商业化分层设想是:当前 agent-memory 作为完整开源记忆底座,商业层提供让 Agent 经历持续成长的增强引擎与多 Agent 运营平台。",
+  "created_at": "2026-10-27T04:31:50.411869Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_5c2b03a36555ed887023",
+      "quote": "用户的商业化分层设想是:当前 agent-memory 作为完整开源记忆底座,商业层提供让 Agent 经历持续成长的增强引擎与多 Agent 运营平台。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_4bf62fbe8b66774afd86",
+  "is_temporary": false,
+  "keywords": [
+    "开源记忆底座",
+    "三层分层",
+    "运营平台",
+    "NPC 演示",
+    "三个相同 NPC",
+    "多 Agent 运营平台",
+    "杀手锏",
+    "商业化路线",
+    "商业成长引擎",
+    "分层策略",
+    "开源底座",
+    "商业增强层",
+    "成长引擎",
+    "多Agent运营平台",
+    "收费线上版"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_5c2b03a36555ed887023",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:31:50.411869Z",
+  "valid_to": null
+}

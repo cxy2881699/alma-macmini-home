@@ -1,0 +1,33 @@
+{
+  "conditions": "用户在外无法看代码，让 openclaw 把 prompt 发成 md",
+  "confidence": 0.9,
+  "content": "记忆系统现有四个 prompt:extract(实时增量抽取,watermark)、deep_plan(深回忆判断+检索改写)、deep_select(候选选≤8条,教训优先)、sleep(夜间跨 Agent 跨天整理)。",
+  "created_at": "2026-09-26T19:02:52.457366Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_f2e564d10bb6dde89a55",
+  "is_temporary": false,
+  "keywords": [
+    "prompt",
+    "抽取",
+    "深回忆",
+    "睡眠整理"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-26T19:02:52.457366Z",
+  "valid_to": null
+}

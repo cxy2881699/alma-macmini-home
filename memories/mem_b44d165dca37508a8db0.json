@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-26：用户与 Agent 从重要记忆的判断标准出发,讨论可进化记忆系统的设计原则与架构,随后要求形成 PRD、保存到记忆系统供其他 Agent 读取,并追问保存位置。",
+  "created_at": "2026-10-28T19:02:09.027753Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_8747147e4e4a8cd6b63f",
+      "quote": "2026-09-26：用户与 Agent 从重要记忆的判断标准出发,讨论可进化记忆系统的设计原则与架构,随后要求形成 PRD、保存到记忆系统供其他 Agent 读取,并追问保存位置。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_b44d165dca37508a8db0",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8747147e4e4a8cd6b63f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-28T19:02:09.027753Z",
+  "valid_to": null
+}

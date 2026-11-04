@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-25：用户分享 agent-memory 小红书帖子的正向反馈,并明确精简开源、线上收费的商业化思路;随后咨询给回国大学同学带酒,因 Agent 未先核对记忆而追问记忆链路,最终确认 hook 已自动 recall、问题在 Agent 未查审计及失败放行语义。",
+  "created_at": "2026-10-30T19:00:37.348684Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_86e36d3877d091b5c09b",
+      "quote": "2026-09-25：用户分享 agent-memory 小红书帖子的正向反馈,并明确精简开源、线上收费的商业化思路;随后咨询给回国大学同学带酒,因 Agent 未先核对记忆而追问记忆链路,最终确认 hook 已自动 recall、问题在 Agent 未查审计及失败放行语义。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_eafa72caaf4f5a436283",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_86e36d3877d091b5c09b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-30T19:00:37.348684Z",
+  "valid_to": null
+}

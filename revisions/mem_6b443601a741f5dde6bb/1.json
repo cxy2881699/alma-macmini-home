@@ -1,0 +1,58 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:59:03.214621Z",
+  "id": "rev_e2a8e83b002312fcdc7d",
+  "memory": {
+    "conditions": "新 Gmail 注册 Claude 被风控后，用户选择重新养号。",
+    "confidence": 0.9,
+    "content": "用户注册 Claude 被 hold 后,已接受放弃该账号,并计划重新注册 Gmail、绑定 +86 手机号、养号 3-5 天后再注册 Claude。",
+    "created_at": "2026-10-27T04:59:03.214621Z",
+    "derived_from": [],
+    "entities": [
+      "ent_51b9c91560022845906c"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_1cc32c8fffaceabb3bb1",
+        "quote": "用户注册 Claude 被 hold 后,已接受放弃该账号,并计划重新注册 Gmail、绑定 +86 手机号、养号 3-5 天后再注册 Claude。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_6b443601a741f5dde6bb",
+    "is_temporary": false,
+    "keywords": [
+      "Claude hold",
+      "Gmail养号",
+      "注册风控",
+      "国内手机号"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_1cc32c8fffaceabb3bb1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:59:03.214621Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_6b443601a741f5dde6bb",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

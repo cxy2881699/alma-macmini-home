@@ -1,0 +1,61 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:16:54.351425Z",
+  "id": "rev_a86da7a1c461eecfe1d6",
+  "memory": {
+    "conditions": "用户在 Clash Verge 已开启且节点测试多通过时，浏览器仍无法访问外网。",
+    "confidence": 0.72,
+    "content": "2026-10-18 晚排查时,Clash Verge 内核/节点本身大概率可用,问题集中在系统代理与 TUN 接管层,而不是订阅节点全部失效。",
+    "created_at": "2026-10-27T05:16:54.351425Z",
+    "derived_from": [],
+    "entities": [
+      "ent_f18082c6c564869030be",
+      "ent_c42dac5ae99195f63d24",
+      "ent_603966e8e3ad513001d7"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_f42fd72f43db274ce516",
+        "quote": "2026-10-18 晚排查时,Clash Verge 内核/节点本身大概率可用,问题集中在系统代理与 TUN 接管层,而不是订阅节点全部失效。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_bf6876780c4ca9cac1a4",
+    "is_temporary": false,
+    "keywords": [
+      "Clash Verge",
+      "节点测试",
+      "系统代理",
+      "TUN",
+      "7897"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_f42fd72f43db274ce516",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:16:54.351425Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_bf6876780c4ca9cac1a4",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

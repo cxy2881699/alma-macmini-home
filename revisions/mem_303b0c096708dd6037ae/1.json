@@ -1,0 +1,72 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-25T08:37:10.940033Z",
+  "id": "rev_b79064c03b5ac78e78b3",
+  "memory": {
+    "conditions": "推荐重聚用酒前，深度检索未找到用户或其留美归国同学的酒类偏好。",
+    "confidence": 0.9,
+    "content": "截至 2026-09-25,agent-memory 中没有记录用户本人或其从美国回来的大学同学喜欢喝什么酒、有何饮酒偏好或禁忌。",
+    "created_at": "2026-09-25T08:37:10.940033Z",
+    "derived_from": [],
+    "entities": [
+      "ent_774067d2559ca01157a7"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_16a5121fc9adff39be5f",
+        "quote": "截至 2026-09-25,agent-memory 中没有记录用户本人或其从美国回来的大学同学喜欢喝什么酒、有何饮酒偏好或禁忌。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_303b0c096708dd6037ae",
+    "is_temporary": false,
+    "keywords": [
+      "同学口味未知",
+      "带酒",
+      "酒水推荐信息缺口",
+      "同学口味",
+      "白酒",
+      "啤酒",
+      "威士忌",
+      "红酒",
+      "饮酒偏好",
+      "大学同学",
+      "美国回来",
+      "酒水推荐",
+      "禁忌",
+      "饮酒偏好未知",
+      "大学同学口味",
+      "酒水禁忌",
+      "带酒建议",
+      "无记忆记录"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_16a5121fc9adff39be5f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-25T08:37:10.940033Z",
+    "valid_to": "2026-09-26"
+  },
+  "memory_id": "mem_303b0c096708dd6037ae",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

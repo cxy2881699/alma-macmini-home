@@ -1,0 +1,64 @@
+{
+  "conditions": "用户询问当前对话是否入库以及是否每轮先搜索，助手说明 hook 自动召回但失败不阻断对话。",
+  "confidence": 0.78,
+  "content": "当时的记忆 hook 链路虽每轮尝试自动 search,但在搜索超时或服务出错时会放行对话,因此只能保证尽力召回,不能保证每轮召回成功。",
+  "created_at": "2026-10-27T05:14:00.787143Z",
+  "derived_from": [],
+  "entities": [
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_ddfc3157c195d2617059",
+      "quote": "当时的记忆 hook 链路虽每轮尝试自动 search,但在搜索超时或服务出错时会放行对话,因此只能保证尽力召回,不能保证每轮召回成功。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_1a8b25bc0a92e829f3c8",
+  "is_temporary": false,
+  "keywords": [
+    "hook配置",
+    "best effort",
+    "recall超时",
+    "服务错误",
+    "非阻断",
+    "自动search",
+    "每轮搜索",
+    "自动search失败放行",
+    "best effort recall",
+    "每轮尝试",
+    "失败放行",
+    "搜索超时",
+    "服务出错",
+    "不阻断对话",
+    "每轮 search",
+    "尽力召回",
+    "超时放行",
+    "服务出错放行",
+    "UserPromptSubmit",
+    "不能保证每轮成功"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ddfc3157c195d2617059",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:14:00.787143Z",
+  "valid_to": null
+}

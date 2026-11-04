@@ -1,0 +1,49 @@
+{
+  "conditions": "定时心跳只处理 HEARTBEAT.md 指示，无待办时回复 HEARTBEAT_OK。",
+  "confidence": 0.9,
+  "content": "用户的 OpenClaw 工作区设有 HEARTBEAT.md 心跳机制:心跳时执行每日反思、检查学习项提醒和金融交易检查,无待办则回复 HEARTBEAT_OK;不得从旧对话推断或重复旧任务。",
+  "created_at": "2026-09-23T17:46:03.110076Z",
+  "derived_from": [],
+  "entities": [
+    "ent_0b9d675295ad9424827f"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_58fa5b1ba8a857a4f9ac",
+      "quote": "用户的 OpenClaw 工作区设有 HEARTBEAT.md 心跳机制:心跳时执行每日反思、检查学习项提醒和金融交易检查,无待办则回复 HEARTBEAT_OK;不得从旧对话推断或重复旧任务。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_76560117daaa77a548cd",
+  "is_temporary": false,
+  "keywords": [
+    "HEARTBEAT_OK",
+    "心跳机制",
+    "HEARTBEAT.md",
+    "每日反思",
+    "学习项提醒"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_58fa5b1ba8a857a4f9ac",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-23T17:46:03.110076Z",
+  "valid_to": null
+}

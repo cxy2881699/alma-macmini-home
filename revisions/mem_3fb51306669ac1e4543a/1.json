@@ -1,0 +1,82 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:09:27.989002Z",
+  "id": "rev_772c59159b841e0bdeb4",
+  "memory": {
+    "conditions": "指导用户养护新 Gmail、降低后续 Claude 注册风控时检索。",
+    "confidence": 0.83,
+    "content": "用户的 Gmail 养号策略包括使用 +86 手机号、恢复邮箱、两步验证、头像姓名、日常邮件/YouTube 使用痕迹,并固定 MacBook 与同一代理节点环境。",
+    "created_at": "2026-10-27T05:09:27.989002Z",
+    "derived_from": [],
+    "entities": [
+      "ent_51b9c91560022845906c",
+      "ent_f18082c6c564869030be",
+      "ent_c42dac5ae99195f63d24"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8533e2ec50fb8f1261be",
+        "quote": "用户的 Gmail 养号策略包括使用 +86 手机号、恢复邮箱、两步验证、头像姓名、日常邮件/YouTube 使用痕迹,并固定 MacBook 与同一代理节点环境。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_1cc32c8fffaceabb3bb1",
+        "quote": "用户的 Gmail 养号策略包括使用 +86 手机号、恢复邮箱、两步验证、头像姓名、日常邮件/YouTube 使用痕迹,并固定 MacBook 与同一代理节点环境。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_3fb51306669ac1e4543a",
+    "is_temporary": false,
+    "keywords": [
+      "Gmail两步验证",
+      "IP固定",
+      "YouTube养号",
+      "+86手机号",
+      "+86 验证",
+      "YouTube 使用痕迹",
+      "Gmail 养号",
+      "+86 手机号",
+      "固定 IP",
+      "Gmail 上户口",
+      "恢复邮箱",
+      "两步验证",
+      "头像姓名",
+      "YouTube 痕迹",
+      "固定节点"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8533e2ec50fb8f1261be",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_1cc32c8fffaceabb3bb1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:09:27.989002Z",
+    "valid_to": "2026-10-23"
+  },
+  "memory_id": "mem_3fb51306669ac1e4543a",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

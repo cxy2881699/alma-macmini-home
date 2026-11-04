@@ -1,0 +1,64 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:24:03.488937Z",
+  "id": "rev_dc2736f64d70b9d321f7",
+  "memory": {
+    "conditions": "OpenClaw 网关重启后插件、飞书连接和记忆召回恢复的状态记录。",
+    "confidence": 0.8,
+    "content": "2026-09-24 01:10 后 OpenClaw 网关重启,飞书两个账号 WebSocket 重连,Agent Memory 插件 loaded,且最近一次真实 recall 服务端记录为 ok。",
+    "created_at": "2026-10-27T04:24:03.488937Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_22f290112c9557d215ea",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_251281e40be3c2e88a50",
+        "quote": "2026-09-24 01:10 后 OpenClaw 网关重启,飞书两个账号 WebSocket 重连,Agent Memory 插件 loaded,且最近一次真实 recall 服务端记录为 ok。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_51af6741563dc6d01d0c",
+    "is_temporary": false,
+    "keywords": [
+      "OpenClaw 恢复",
+      "飞书 WebSocket",
+      "OpenClaw恢复",
+      "Gateway重启",
+      "飞书WebSocket",
+      "插件loaded",
+      "recall ok",
+      "小龙虾"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_251281e40be3c2e88a50",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:24:03.488937Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_51af6741563dc6d01d0c",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,62 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T18:04:20.314882Z",
+  "id": "rev_44dbb6cd7f20d6bfe280",
+  "memory": {
+    "conditions": "用户询问此前要求深度评价 agent-memory 的对话为何尚未出现在记忆库后，再次追问进度。",
+    "confidence": 0.95,
+    "content": "2026-09-24 用户追问“深度总结”记忆处理进度时,Agent 确认相关记忆已生成,extract 到 embed 流水线全部完成,管理界面来源列正常显示 openclaw。",
+    "created_at": "2026-09-23T18:04:20.314882Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_7793eeabd2d8f98a3345",
+        "quote": "2026-09-24 用户追问“深度总结”记忆处理进度时,Agent 确认相关记忆已生成,extract 到 embed 流水线全部完成,管理界面来源列正常显示 openclaw。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_d36ed305e4c386877f64",
+    "is_temporary": false,
+    "keywords": [
+      "深度总结",
+      "记忆生成",
+      "extract",
+      "embed",
+      "来源列",
+      "openclaw",
+      "流水线完成"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_7793eeabd2d8f98a3345",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-23T18:04:20.314882Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_d36ed305e4c386877f64",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,47 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:34:08.597383Z",
+  "id": "rev_f72901f41401ec463b7c",
+  "memory": {
+    "conditions": "用户提出收集去世亲人生前数据以重建可成长的赛博生命。",
+    "confidence": 0.82,
+    "content": "用户认为逝者数字重建是高情感价值方向,但该方向必须区分历史资料还原、人格推断和数字个体后续经历,避免把生成的新反应伪造成逝者生前想法。",
+    "created_at": "2026-10-27T05:34:08.597383Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_6a32aee13511640730cf",
+    "is_temporary": false,
+    "keywords": [
+      "逝者重建",
+      "数字陪伴",
+      "生前资料",
+      "后续成长",
+      "伦理边界"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "review",
+    "status_reason": "migrated from old agent-memory (candidate)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:34:08.597383Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_6a32aee13511640730cf",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

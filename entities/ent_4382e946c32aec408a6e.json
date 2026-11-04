@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "方舟 Embedding API"
+  ],
+  "created_at": "2026-09-23T18:02:35.457368Z",
+  "description": "agent-memory 用于记忆向量化的 embedding 服务",
+  "id": "ent_4382e946c32aec408a6e",
+  "name": "火山方舟 Embedding",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T08:56:50.216757Z"
+}

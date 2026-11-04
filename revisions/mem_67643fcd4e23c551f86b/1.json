@@ -1,0 +1,72 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:36:36.655507Z",
+  "id": "rev_51180d8ac1cf94bf0695",
+  "memory": {
+    "conditions": "排查 PRD 虽已上传但其他 Agent 只能检索到摘要、无法保证读取全文的问题。",
+    "confidence": 0.9,
+    "content": "可进化记忆系统 PRD v0.1 已写入本机文件并上传记忆库(事件 ID 1460999e575200a46998cd748e7167ea,索引 EVOLVING-MEMORY-PRD-v0.1),但普通检索只返回摘要,其他 Agent 无法保证取到全文。",
+    "created_at": "2026-10-27T04:36:36.655507Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e",
+      "ent_0dd3ce8f5049183636d7",
+      "ent_a009e810e6646b0cf76b"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_204132bcd438ed41fedc",
+        "quote": "可进化记忆系统 PRD v0.1 已写入本机文件并上传记忆库(事件 ID 1460999e575200a46998cd748e7167ea,索引 EVOLVING-MEMORY-PRD-v0.1),但普通检索只返回摘要,其他 Agent 无法保证取到全文。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_67643fcd4e23c551f86b",
+    "is_temporary": false,
+    "keywords": [
+      "PRD",
+      "全文检索",
+      "权限",
+      "跨Agent读取",
+      "事件ID 1460999e",
+      "摘要检索限制",
+      "PRD 全文",
+      "摘要检索",
+      "源文档 SHA256",
+      "跨 Agent 读取",
+      "EVOLVING-MEMORY-PRD-v0.1",
+      "PRD全文",
+      "普通检索摘要",
+      "跨Agent无法取全文",
+      "1460999e"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_204132bcd438ed41fedc",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:36:36.655507Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_67643fcd4e23c551f86b",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

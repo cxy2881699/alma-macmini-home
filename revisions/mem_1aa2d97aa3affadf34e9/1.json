@@ -1,0 +1,47 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-07T19:02:34.855260Z",
+  "id": "rev_7b33413964c01796864b",
+  "memory": {
+    "conditions": "用户从个体差异来自人生经历出发，提出高情感价值的逝者数字陪伴场景。",
+    "confidence": 0.86,
+    "content": "用户认为可收集逝者生前数据与口述经历,在记忆系统中重建三观和性格接近逝者、并能继续陪伴成长的赛博生命。",
+    "created_at": "2026-10-07T19:02:34.855260Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_1aa2d97aa3affadf34e9",
+    "is_temporary": false,
+    "keywords": [
+      "数字永生",
+      "逝者复活",
+      "亲人陪伴",
+      "口述人生经历",
+      "人格重建"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "review",
+    "status_reason": "migrated from old agent-memory (candidate)",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-10-07T19:02:34.855260Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_1aa2d97aa3affadf34e9",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

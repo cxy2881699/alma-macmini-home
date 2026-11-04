@@ -1,0 +1,46 @@
+{
+  "conditions": "Agent 在不了解同学口味和晚餐场景时直接推荐威士忌，用户随即追问确定性。",
+  "confidence": 0.72,
+  "content": "用户在被给出建议后,会通过追问“你确定么”来检验对方是否有依据,而不是接受看似自信的推荐。",
+  "created_at": "2026-10-04T19:01:31.133079Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_cba7676006be064cd2bd",
+      "quote": "用户在被给出建议后,会通过追问“你确定么”来检验对方是否有依据,而不是接受看似自信的推荐。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_dca7c195bb7a871540ce",
+  "is_temporary": false,
+  "keywords": [
+    "质疑推荐",
+    "确定性",
+    "依据核查",
+    "建议可信度"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_cba7676006be064cd2bd",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-04T19:01:31.133079Z",
+  "valid_to": null
+}

@@ -1,0 +1,55 @@
+{
+  "conditions": "节点失效导致国内网站也走死代理，规则缺口待修。",
+  "confidence": 0.82,
+  "content": "截至 2026-10-27,用户当前生效的 Clash/Verge 分流规则中没有此前声称已加入的 GEOIP,CN,DIRECT,只有广告拦截和 MATCH,PROXY;节点失效时国内流量也可能被送入死节点导致整机断网。",
+  "created_at": "2026-10-27T04:56:07.144970Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6ebee10dda1843bbd843",
+    "ent_f18082c6c564869030be"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_1cd898a27b168e387484",
+      "quote": "截至 2026-10-27,用户当前生效的 Clash/Verge 分流规则中没有此前声称已加入的 GEOIP,CN,DIRECT,只有广告拦截和 MATCH,PROXY;节点失效时国内流量也可能被送入死节点导致整机断网。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_35c48419aca5f0f860fc",
+  "is_temporary": false,
+  "keywords": [
+    "分流规则缺失",
+    "Verge配置",
+    "国内直连",
+    "MATCH代理",
+    "Clash",
+    "Verge",
+    "GEOIP CN",
+    "MATCH PROXY",
+    "整机断网",
+    "分流规则"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1cd898a27b168e387484",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:56:07.144970Z",
+  "valid_to": null
+}

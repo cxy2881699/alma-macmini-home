@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-24：用户继续排查 Codex 记忆 hook:先确认桌面窗口与 CLI 是不同环境,修复 CLI 安装和 Gatekeeper 问题,完成三个 hook 信任并验证 recall/capture 闭环;随后总结记忆系统价值用于朋友圈,并处理一次 Neo4j 停止引发的记忆服务重启。",
+  "created_at": "2026-10-27T04:24:42.190085Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_f43c83f7f1f5cdacef20",
+      "quote": "2026-09-24：用户继续排查 Codex 记忆 hook:先确认桌面窗口与 CLI 是不同环境,修复 CLI 安装和 Gatekeeper 问题,完成三个 hook 信任并验证 recall/capture 闭环;随后总结记忆系统价值用于朋友圈,并处理一次 Neo4j 停止引发的记忆服务重启。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_91d86527e4ec497049e3",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_f43c83f7f1f5cdacef20",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-27T04:24:42.190085Z",
+  "valid_to": null
+}

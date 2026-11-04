@@ -1,0 +1,72 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:48:38.001980Z",
+  "id": "rev_c242a728011127c92ed7",
+  "memory": {
+    "conditions": "Agent 在切换成功后主动提示模型参数可能填错。",
+    "confidence": 0.75,
+    "content": "为 ark/kimi-k3-1-pro-261024 配置的上下文窗口为 262144、maxTokens 为 32768,但这些参数尚未确认与官方一致;若出现长对话遗忘或输出截断,需要核对并调整。",
+    "created_at": "2026-10-27T04:48:38.001980Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_1c6b296bc5cb579536f2",
+      "ent_85ac7912658c80484706"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_d55c939bb832758641d3",
+        "quote": "为 ark/kimi-k3-1-pro-261024 配置的上下文窗口为 262144、maxTokens 为 32768,但这些参数尚未确认与官方一致;若出现长对话遗忘或输出截断,需要核对并调整。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_3d8e9a54e4b001ea6a33",
+        "quote": "为 ark/kimi-k3-1-pro-261024 配置的上下文窗口为 262144、maxTokens 为 32768,但这些参数尚未确认与官方一致;若出现长对话遗忘或输出截断,需要核对并调整。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_f7ab17442cbf8da05693",
+    "is_temporary": false,
+    "keywords": [
+      "上下文窗口",
+      "maxTokens",
+      "输出截断",
+      "长对话",
+      "模型参数"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d55c939bb832758641d3",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_3d8e9a54e4b001ea6a33",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:48:38.001980Z",
+    "valid_to": "2026-10-27"
+  },
+  "memory_id": "mem_f7ab17442cbf8da05693",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

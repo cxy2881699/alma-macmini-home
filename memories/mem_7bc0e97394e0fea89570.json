@@ -1,0 +1,36 @@
+{
+  "conditions": "用户要求基于当前记忆系统提出架构并形成 PRD。",
+  "confidence": 0.85,
+  "content": "用户正在基于现有 agent-memory 设计一个可持续进化、可成长为“赛博生命”的记忆系统,要求兼容、可修改,并计划用其他 Agent 分析 PRD。",
+  "created_at": "2026-10-29T19:02:35.617353Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_7bc0e97394e0fea89570",
+  "is_temporary": false,
+  "keywords": [
+    "赛博生命",
+    "成长引擎",
+    "记忆系统设计",
+    "兼容可修改"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-29T19:02:35.617353Z",
+  "valid_to": null
+}

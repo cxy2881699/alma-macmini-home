@@ -1,0 +1,55 @@
+{
+  "conditions": "为回国同学推荐酒时，自动 recall 为空但 Agent 仍直接推荐格兰杰，随后被用户质疑。",
+  "confidence": 0.82,
+  "content": "2026-09-25 的选酒建议暴露出 Agent 虽有自动 recall,但在召回为空时仍可能未核对审计就武断作答;用户关注的不只是是否调用,还包括回答是否基于证据。",
+  "created_at": "2026-10-27T04:42:56.778578Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_ddfc3157c195d2617059",
+      "quote": "2026-09-25 的选酒建议暴露出 Agent 虽有自动 recall,但在召回为空时仍可能未核对审计就武断作答;用户关注的不只是是否调用,还包括回答是否基于证据。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_83ac3ac6d6c6d1647dbd",
+  "is_temporary": false,
+  "keywords": [
+    "recall为空",
+    "审计核对",
+    "武断推荐",
+    "证据意识",
+    "选酒",
+    "召回为空",
+    "武断回答",
+    "未核对审计",
+    "证据依据"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ddfc3157c195d2617059",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:42:56.778578Z",
+  "valid_to": null
+}

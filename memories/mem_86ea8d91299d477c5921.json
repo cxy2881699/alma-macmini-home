@@ -1,0 +1,64 @@
+{
+  "conditions": "排查记忆采集或入库问题时，用户要求用服务端审计而不是只看界面。",
+  "confidence": 0.85,
+  "content": "用户要求核查记忆系统状态时以服务端审计证据为准,不接受仅凭界面或推断下结论。",
+  "created_at": "2026-10-11T19:04:24.184317Z",
+  "derived_from": [],
+  "entities": [
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_ddfc3157c195d2617059",
+      "quote": "用户要求核查记忆系统状态时以服务端审计证据为准,不接受仅凭界面或推断下结论。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_86ea8d91299d477c5921",
+  "is_temporary": false,
+  "keywords": [
+    "证据",
+    "记忆入库",
+    "采集队列",
+    "spool",
+    "audit 视图",
+    "recall result ok",
+    "不能凭感觉",
+    "hook 配置核查",
+    "audit",
+    "不接受界面推断",
+    "采集链路",
+    "不要只看界面",
+    "记忆链路",
+    "核查记忆系统",
+    "不要猜",
+    "记忆库验证",
+    "服务端审计",
+    "审计证据",
+    "服务端审计为准",
+    "记忆入库核查"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ddfc3157c195d2617059",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-11T19:04:24.184317Z",
+  "valid_to": null
+}

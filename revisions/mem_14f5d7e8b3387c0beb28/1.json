@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T23:54:03.040014Z",
+  "id": "rev_7267992ee1cc1048d6fc",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-24：凌晨用户授权后,Agent 完成 selftest 残留清理、管理界面来源展示改造,并重启 memd 验证服务正常。",
+    "created_at": "2026-09-23T23:54:03.040014Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_370086805a310084fcd0",
+        "quote": "2026-09-24：凌晨用户授权后,Agent 完成 selftest 残留清理、管理界面来源展示改造,并重启 memd 验证服务正常。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_14f5d7e8b3387c0beb28",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_370086805a310084fcd0",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-09-23T23:54:03.040014Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_14f5d7e8b3387c0beb28",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

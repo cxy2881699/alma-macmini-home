@@ -1,0 +1,58 @@
+{
+  "conditions": "排查 OpenClaw 对话被静默丢弃及服务端去重改造是否可定稿。",
+  "confidence": 0.8,
+  "content": "memd 服务端去重改造已落地并重启验证:新增 (cred_id, session_key, native_turn_id) 唯一索引,冲突按 replaced/rekeyed 处理,ingest 审计分项统计 dup/replaced/rekeyed;但 Codex 审查认为同 native_turn_id 不同内容时原地替换仍可能误覆盖不同轮次,定稿需等 OpenClaw 客户端修复后再审。",
+  "created_at": "2026-09-25T19:03:40.412786Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_9f82bdbcda91e1775def",
+    "ent_1b0510f6e7579d8f62b3",
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_16d2615f00ae766bb32b",
+      "quote": "memd 服务端去重改造已落地并重启验证:新增 (cred_id, session_key, native_turn_id) 唯一索引,冲突按 replaced/rekeyed 处理,ingest 审计分项统计 dup/replaced/rekeyed;但 Codex 审查认为同 native_turn_id 不同内容时原地替换仍可能误覆盖不同轮次,定稿需等 OpenClaw 客户端修复后再审。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_89adf4819bd4a5dffe7c",
+  "is_temporary": false,
+  "keywords": [
+    "dedup",
+    "唯一索引",
+    "event_id冲突",
+    "OpenClaw撞ID",
+    "silent drop",
+    "event_id 冲突",
+    "native_turn_id",
+    "u${turnIndex}",
+    "误覆盖",
+    "replaced",
+    "rekeyed"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_16d2615f00ae766bb32b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-25T19:03:40.412786Z",
+  "valid_to": null
+}

@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "Cursor agent"
+  ],
+  "created_at": "2026-09-23T17:29:01.205287Z",
+  "description": "用户使用的 AI 编程工具/Agent，其对话数据已汇入本机 agent-memory 记忆系统",
+  "id": "ent_1e8088308ba9691af4dc",
+  "name": "Cursor",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "project",
+  "updated_at": "2026-11-04T08:56:50.221154Z"
+}

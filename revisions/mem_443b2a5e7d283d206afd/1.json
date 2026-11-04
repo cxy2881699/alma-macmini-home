@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T19:11:13.176519Z",
+  "id": "rev_03045b8d2dbc06271b74",
+  "memory": {
+    "conditions": "非汽车企业调研中用户特别要求虽车载也核查亿咖通。",
+    "confidence": 0.82,
+    "content": "亿咖通案例虽属车载场景,但公开资料显示2020年签约后火山车娱已在吉利星瑞上有具体搭载,可作为早期座舱内容合作落地案例。",
+    "created_at": "2026-10-27T19:11:13.176519Z",
+    "derived_from": [],
+    "entities": [
+      "ent_b6e5f07139d194f4aaa5",
+      "ent_105fc292e091fe6a4460"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_58bfeab114e9d0bc2f6a",
+        "quote": "亿咖通案例虽属车载场景,但公开资料显示2020年签约后火山车娱已在吉利星瑞上有具体搭载,可作为早期座舱内容合作落地案例。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_443b2a5e7d283d206afd",
+    "is_temporary": false,
+    "keywords": [
+      "亿咖通",
+      "火山车娱",
+      "吉利星瑞",
+      "智能座舱",
+      "懂车帝视频说明书"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_58bfeab114e9d0bc2f6a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T19:11:13.176519Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_443b2a5e7d283d206afd",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-10-27：用户先让 OpenClaw 切换主模型,经历 setsid 假启动后改用 nohup,最终切到 Kimi Pro 并修正上下文、输出和图片参数;随后回顾 VPS 被墙后的三层代理方案,并检查、修复 memd 记忆链路的连接池耗尽与任务积压。",
+  "created_at": "2026-10-27T19:10:02.820418Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_53545473e3439b713d0e",
+      "quote": "2026-10-27：用户先让 OpenClaw 切换主模型,经历 setsid 假启动后改用 nohup,最终切到 Kimi Pro 并修正上下文、输出和图片参数;随后回顾 VPS 被墙后的三层代理方案,并检查、修复 memd 记忆链路的连接池耗尽与任务积压。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_980ac1bb2461805fbd16",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_53545473e3439b713d0e",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-27T19:10:02.820418Z",
+  "valid_to": null
+}

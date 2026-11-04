@@ -1,0 +1,63 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-10T19:01:58.151062Z",
+  "id": "rev_a875512fb8151e193d4f",
+  "memory": {
+    "conditions": "用户要求把 agent-memory 所有改动写入项目目录，为未来云端版本叠加逻辑。",
+    "confidence": 0.85,
+    "content": "用户要求把对 agent-memory 的所有历史改动整理成文档放在 /Users/seancao/Desktop/项目文件夹/agent-memory,因为安装文件是旧代码,目的是为将来云服务版本在旧逻辑基础上叠加新逻辑提供依据。",
+    "created_at": "2026-10-10T19:01:58.151062Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_16d2615f00ae766bb32b",
+        "quote": "用户要求把对 agent-memory 的所有历史改动整理成文档放在 /Users/seancao/Desktop/项目文件夹/agent-memory,因为安装文件是旧代码,目的是为将来云服务版本在旧逻辑基础上叠加新逻辑提供依据。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_2aea5912f4d0b0941cda",
+    "is_temporary": false,
+    "keywords": [
+      "改动归档",
+      "CHANGES",
+      "旧安装代码",
+      "CHANGES.md",
+      "历史改动归档",
+      "云服务基线",
+      "旧安装文件",
+      "项目文件夹"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_16d2615f00ae766bb32b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-10T19:01:58.151062Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_2aea5912f4d0b0941cda",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

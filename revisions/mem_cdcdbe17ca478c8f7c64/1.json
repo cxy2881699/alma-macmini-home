@@ -1,0 +1,52 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-25T19:03:40.412786Z",
+  "id": "rev_6c24a9cc28334540849b",
+  "memory": {
+    "conditions": "用户要求总结此前所有改动，供未来云服务部署时对齐旧代码。",
+    "confidence": 0.75,
+    "content": "历史改动总结文档已写入 /Users/seancao/Desktop/项目文件夹/agent-memory/CHANGES.md,涵盖环境部署、代理切换、OpenClaw 插件接入、admin 来源列、sleep 断连修复、dedup 修复六部分,并附云迁移清单(公网化差域名+HTTPS+限速;extract max_tokens 建议上云前从 6000 降到 3000)。",
+    "created_at": "2026-09-25T19:03:40.412786Z",
+    "derived_from": [],
+    "entities": [
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_cdcdbe17ca478c8f7c64",
+    "is_temporary": false,
+    "keywords": [
+      "改动文档",
+      "云迁移",
+      "max_tokens",
+      "历史总结",
+      "旧安装文件",
+      "项目文档",
+      "CHANGES.md",
+      "历史改动",
+      "云迁移清单",
+      "dedup 修复",
+      "extract max_tokens"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-25T19:03:40.412786Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_cdcdbe17ca478c8f7c64",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

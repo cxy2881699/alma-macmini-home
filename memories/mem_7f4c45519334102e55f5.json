@@ -1,0 +1,63 @@
+{
+  "conditions": "用户询问 memd 从 Tailscale 私网改为 HTTP+Token 公网模式的差别。",
+  "confidence": 0.7,
+  "content": "用户询问 memd 从 Tailscale 模式转为 HTTP+Token 公网模式在部署、使用、性能上的差别;Agent 给出对比并建议个人 Mac 继续 Tailscale、公司电脑走 HTTP+Token 试点,等待用户决定是否实施。",
+  "created_at": "2026-09-24T03:20:17.224335Z",
+  "derived_from": [],
+  "entities": [
+    "ent_421c00dde9a1b98fc969",
+    "ent_1b0510f6e7579d8f62b3",
+    "ent_bc208ee71f5cabb8083c",
+    "ent_8780400efccac7084a5a",
+    "ent_794151fa6d191e551ee7"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_8fc67c0d4c5d64da55b1",
+      "quote": "用户询问 memd 从 Tailscale 模式转为 HTTP+Token 公网模式在部署、使用、性能上的差别;Agent 给出对比并建议个人 Mac 继续 Tailscale、公司电脑走 HTTP+Token 试点,等待用户决定是否实施。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_7f4c45519334102e55f5",
+  "is_temporary": false,
+  "keywords": [
+    "公网化",
+    "HTTP Token",
+    "Tailscale",
+    "部署",
+    "安全",
+    "性能",
+    "公司电脑",
+    "Tailscale 替代",
+    "HTTPS",
+    "Bearer token",
+    "Tailscale 转 HTTP",
+    "公网化对比",
+    "部署影响",
+    "性能影响",
+    "公司电脑试点"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8fc67c0d4c5d64da55b1",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-24T03:20:17.224335Z",
+  "valid_to": null
+}

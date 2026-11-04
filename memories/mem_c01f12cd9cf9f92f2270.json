@@ -1,0 +1,51 @@
+{
+  "conditions": "用户发现 Agent 把 MCP 手动查询误当成记忆服务调用后，澄清自己原本设计的是每轮 hook 自动 search。",
+  "confidence": 0.82,
+  "content": "用户对记忆系统的可靠性要求不止是 hook 每轮尝试 search,还包括失败时不能静默放行;“尽力召回”与用户设想的强制召回存在产品语义差距。",
+  "created_at": "2026-10-28T19:01:22.265821Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_ddfc3157c195d2617059",
+      "quote": "用户对记忆系统的可靠性要求不止是 hook 每轮尝试 search,还包括失败时不能静默放行;“尽力召回”与用户设想的强制召回存在产品语义差距。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_c01f12cd9cf9f92f2270",
+  "is_temporary": false,
+  "keywords": [
+    "强制召回",
+    "hook",
+    "失败放行",
+    "记忆搜索",
+    "审计"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ddfc3157c195d2617059",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-28T19:01:22.265821Z",
+  "valid_to": null
+}

@@ -1,0 +1,70 @@
+{
+  "conditions": "新增 Agent 接入或 OpenClaw 无响应时，可用于排查配置字段和私网代理问题。",
+  "confidence": 0.86,
+  "content": "OpenClaw 卡住的直接原因包括无效的 plugins.entries.agent-memory.hooks 配置字段,以及 Node/Undici 经本机代理访问 Tailscale 私网地址失败;修复方式是删除 hooks 字段并改用本机地址。",
+  "created_at": "2026-09-28T19:02:27.393942Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_421c00dde9a1b98fc969",
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_1d9f495f128ccc9b4e0f",
+      "quote": "OpenClaw 卡住的直接原因包括无效的 plugins.entries.agent-memory.hooks 配置字段,以及 Node/Undici 经本机代理访问 Tailscale 私网地址失败;修复方式是删除 hooks 字段并改用本机地址。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_251281e40be3c2e88a50",
+      "quote": "OpenClaw 卡住的直接原因包括无效的 plugins.entries.agent-memory.hooks 配置字段,以及 Node/Undici 经本机代理访问 Tailscale 私网地址失败;修复方式是删除 hooks 字段并改用本机地址。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_1fb9df634d877e2908a9",
+  "is_temporary": false,
+  "keywords": [
+    "代理",
+    "gateway restart",
+    "hooks 字段",
+    "UND_ERR_SOCKET",
+    "fetch failed",
+    "Tailscale 私网",
+    "Gateway 重启",
+    "OpenClaw 卡住",
+    "OpenClaw卡住",
+    "hooks字段",
+    "Tailscale代理",
+    "Undici",
+    "本机地址"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1d9f495f128ccc9b4e0f",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_251281e40be3c2e88a50",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-28T19:02:27.393942Z",
+  "valid_to": null
+}

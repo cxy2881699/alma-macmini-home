@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-28T19:06:22.675941Z",
+  "id": "rev_fbf0a4f4e3786d60f010",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-10-27：用户主要处理 OpenClaw 模型切换后的速度与参数确认,回顾 VPS/代理三层架构方案,并发现、授权修复 memd 记忆链路的连接池耗尽和任务积压;之后两次心跳均正常。",
+    "created_at": "2026-10-28T19:06:22.675941Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_6bd23e50822556638c98",
+        "quote": "2026-10-27：用户主要处理 OpenClaw 模型切换后的速度与参数确认,回顾 VPS/代理三层架构方案,并发现、授权修复 memd 记忆链路的连接池耗尽和任务积压;之后两次心跳均正常。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_13bf9a9ab68a10b7df9b",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_6bd23e50822556638c98",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-28T19:06:22.675941Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_13bf9a9ab68a10b7df9b",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,71 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-25T08:39:19.759470Z",
+  "id": "rev_78094bc192b861097811",
+  "memory": {
+    "conditions": "用户澄清自己设计的是每轮 hook 自动搜索，而非靠 Agent 手动 MCP 调用。",
+    "confidence": 0.98,
+    "content": "用户为 agent-memory 设计的机制是通过 hook 在每一轮对话自动执行记忆 search,而不是依赖 Agent 临时通过 MCP 调用记忆服务。",
+    "created_at": "2026-09-25T08:39:19.759470Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_ddfc3157c195d2617059",
+        "quote": "用户为 agent-memory 设计的机制是通过 hook 在每一轮对话自动执行记忆 search,而不是依赖 Agent 临时通过 MCP 调用记忆服务。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_0a1727bc9d4336796b8a",
+    "is_temporary": false,
+    "keywords": [
+      "每轮自动召回",
+      "hook search",
+      "自动search",
+      "每轮召回",
+      "hook搜索",
+      "非MCP",
+      "hook链路",
+      "自动召回",
+      "每轮搜索",
+      "MCP区别",
+      "hook检索",
+      "每轮search",
+      "自动记忆检索",
+      "hook优先",
+      "MCP不是替代",
+      "UserPromptSubmit"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_ddfc3157c195d2617059",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-25T08:39:19.759470Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_0a1727bc9d4336796b8a",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

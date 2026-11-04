@@ -1,0 +1,49 @@
+{
+  "conditions": "Agent 根据评论追问建议后续讲跨 Agent 共享记忆和运行效果。",
+  "confidence": 0.7,
+  "content": "小红书上的高收藏率和评论追问表明,agent-memory 的跨 Agent 记忆主题对技术受众有明确吸引力,可作为后续内容选题信号。",
+  "created_at": "2026-09-25T19:03:04.911406Z",
+  "derived_from": [],
+  "entities": [
+    "ent_4488e0fdf8d04896269e",
+    "ent_c3f9f077f1f3ceaddd2f"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_9325e41c677a9fe03725",
+      "quote": "小红书上的高收藏率和评论追问表明,agent-memory 的跨 Agent 记忆主题对技术受众有明确吸引力,可作为后续内容选题信号。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_c4b3d869f17336ea7755",
+  "is_temporary": false,
+  "keywords": [
+    "选题验证",
+    "用户反馈",
+    "技术内容",
+    "收藏率"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_9325e41c677a9fe03725",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-25T19:03:04.911406Z",
+  "valid_to": null
+}

@@ -1,0 +1,60 @@
+{
+  "conditions": "用户执行 curl 测试时先后被残留代理变量导向 8118 和 8119，清理后才暴露出真实直连/TUN状态。",
+  "confidence": 0.9,
+  "content": "排查该 MacBook 的 curl 代理异常时,应先清理当前 shell 中残留的 http_proxy、https_proxy、all_proxy 等变量;否则即使系统代理已切换,curl 仍可能连接失效的 127.0.0.1:8118/8119。",
+  "created_at": "2026-10-27T04:58:21.626790Z",
+  "derived_from": [],
+  "entities": [
+    "ent_b1d51f89b3518adf7781",
+    "ent_be07139e0614ab262534"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_b609b98e2176b3bff378",
+      "quote": "排查该 MacBook 的 curl 代理异常时,应先清理当前 shell 中残留的 http_proxy、https_proxy、all_proxy 等变量;否则即使系统代理已切换,curl 仍可能连接失效的 127.0.0.1:8118/8119。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_3656396aede1ecca622c",
+      "quote": "排查该 MacBook 的 curl 代理异常时,应先清理当前 shell 中残留的 http_proxy、https_proxy、all_proxy 等变量;否则即使系统代理已切换,curl 仍可能连接失效的 127.0.0.1:8118/8119。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_113e1bae084b66680796",
+  "is_temporary": false,
+  "keywords": [
+    "unset proxy",
+    "shell 环境变量",
+    "curl 8118",
+    "curl 8119"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_b609b98e2176b3bff378",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_3656396aede1ecca622c",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-27T04:58:21.626790Z",
+  "valid_to": null
+}

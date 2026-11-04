@@ -1,0 +1,61 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T18:35:13.611211Z",
+  "id": "rev_52358e3da70600f128a8",
+  "memory": {
+    "conditions": "用于查找广汽与火山引擎合作中较明确的海外合规落地证据。",
+    "confidence": 0.9,
+    "content": "火山引擎与广汽集团 2024-08-02 在广汽中心签约;2025-12-25 中国日报网披露双方已建立数据合规治理和跨境管控解决方案及配套平台、工具体系,覆盖海外业务上线、数据本地化和跨境场景。",
+    "created_at": "2026-10-27T18:35:13.611211Z",
+    "derived_from": [],
+    "entities": [
+      "ent_b4a085894df92a90957d",
+      "ent_2143b5f3e888b501cc3c"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_d4ea596374d100c7cd4f",
+        "quote": "火山引擎与广汽集团 2024-08-02 在广汽中心签约;2025-12-25 中国日报网披露双方已建立数据合规治理和跨境管控解决方案及配套平台、工具体系,覆盖海外业务上线、数据本地化和跨境场景。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_5c1117d18544e7679517",
+    "is_temporary": false,
+    "keywords": [
+      "广汽",
+      "数据合规",
+      "跨境管控",
+      "数据本地化",
+      "海外业务上线",
+      "跨境场景"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d4ea596374d100c7cd4f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T18:35:13.611211Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_5c1117d18544e7679517",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

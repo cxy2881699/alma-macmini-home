@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-01T19:00:50.193506Z",
+  "id": "rev_558c2fc0fab2c4b4b7fc",
+  "memory": {
+    "conditions": "用户质疑为何选酒建议要靠 MCP 调记忆，助手随后说明 MCP 只是额外查询。",
+    "confidence": 0.83,
+    "content": "用户把 MCP 记忆查询定位为按需的额外深度查询,而不是常规每轮召回入口。",
+    "created_at": "2026-11-01T19:00:50.193506Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_ddfc3157c195d2617059",
+        "quote": "用户把 MCP 记忆查询定位为按需的额外深度查询,而不是常规每轮召回入口。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_084d11002dfb5e1e93a3",
+    "is_temporary": false,
+    "keywords": [
+      "MCP",
+      "深度查询",
+      "hook recall",
+      "记忆检索"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_ddfc3157c195d2617059",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-01T19:00:50.193506Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_084d11002dfb5e1e93a3",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

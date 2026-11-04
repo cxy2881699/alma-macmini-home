@@ -1,0 +1,59 @@
+{
+  "conditions": "其他 Agent 引用或实施可进化记忆 PRD 时，需要避免把草案当成既有功能。",
+  "confidence": 0.9,
+  "content": "Codex 对该 PRD 的归档动作明确声明其为待评审设计提案,不能视为已实现功能或用户逐条确认的事实。",
+  "created_at": "2026-09-28T19:07:01.071608Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e",
+    "ent_0dd3ce8f5049183636d7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_204132bcd438ed41fedc",
+      "quote": "Codex 对该 PRD 的归档动作明确声明其为待评审设计提案,不能视为已实现功能或用户逐条确认的事实。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_f808f9ffa5c60c57c594",
+  "is_temporary": false,
+  "keywords": [
+    "PRD归档",
+    "EVOLVING-MEMORY-PRD-v0.1",
+    "证据边界",
+    "待评审",
+    "设计提案",
+    "未实现",
+    "草案状态",
+    "不能当事实",
+    "待评审提案",
+    "非已实现",
+    "PRD状态",
+    "设计草案"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_204132bcd438ed41fedc",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-28T19:07:01.071608Z",
+  "valid_to": null
+}

@@ -1,0 +1,48 @@
+{
+  "conditions": "memd sleep 整理任务连续报错后的排障结果",
+  "confidence": 0.95,
+  "content": "2026-09-23 17:05(洛杉矶时间)sleep 整理任务的 ModelError/RemoteProtocolError 故障修复完成,18:01 心跳确认服务健康(healthz 正常)。",
+  "created_at": "2026-09-24T00:02:02.007824Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_53545473e3439b713d0e",
+      "quote": "2026-09-23 17:05(洛杉矶时间)sleep 整理任务的 ModelError/RemoteProtocolError 故障修复完成,18:01 心跳确认服务健康(healthz 正常)。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_e8a836542b8cebacc6e0",
+  "is_temporary": false,
+  "keywords": [
+    "sleep",
+    "修复",
+    "ModelError",
+    "RemoteProtocolError",
+    "服务健康",
+    "healthz"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_53545473e3439b713d0e",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-24T00:02:02.007824Z",
+  "valid_to": null
+}

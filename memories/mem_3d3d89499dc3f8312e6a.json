@@ -1,0 +1,49 @@
+{
+  "conditions": "用户开启 Clash Verge 后浏览器仍不可用，Agent 区分节点可用与系统接管失败。",
+  "confidence": 0.86,
+  "content": "2026-10-18 晚排查中,Clash Verge 的系统代理开关虽显示已开、节点测试多通过,但系统层未稳定接管流量;故障重点在系统代理/TUN 接管层而非节点全部失效。",
+  "created_at": "2026-10-27T05:23:45.765274Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f18082c6c564869030be",
+    "ent_c42dac5ae99195f63d24"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_f42fd72f43db274ce516",
+      "quote": "2026-10-18 晚排查中,Clash Verge 的系统代理开关虽显示已开、节点测试多通过,但系统层未稳定接管流量;故障重点在系统代理/TUN 接管层而非节点全部失效。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_3d3d89499dc3f8312e6a",
+  "is_temporary": false,
+  "keywords": [
+    "Clash Verge",
+    "节点测试通过",
+    "系统代理未接管",
+    "TUN"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_f42fd72f43db274ce516",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:23:45.765274Z",
+  "valid_to": null
+}

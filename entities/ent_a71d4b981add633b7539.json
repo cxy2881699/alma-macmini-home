@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "/Users/seancao/.openclaw/workspace/docs"
+  ],
+  "created_at": "2026-10-27T04:21:47.606817Z",
+  "description": "用户 Mac 上 OpenClaw 工作区用于存放文档的目录。",
+  "id": "ent_a71d4b981add633b7539",
+  "name": "OpenClaw workspace docs 目录",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "place",
+  "updated_at": "2026-11-04T08:56:50.215848Z"
+}

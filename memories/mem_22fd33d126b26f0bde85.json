@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-24：用户继续验收 agent-memory:Agent 修复管理页来源列不显示的问题、确认真人数据与服务状态,并应要求深度总结系统价值;随后解释对话原文即时入库但记忆提取存在异步延迟。",
+  "created_at": "2026-09-24T19:02:43.584440Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_fced576e2338a7e33460",
+      "quote": "2026-09-24：用户继续验收 agent-memory:Agent 修复管理页来源列不显示的问题、确认真人数据与服务状态,并应要求深度总结系统价值;随后解释对话原文即时入库但记忆提取存在异步延迟。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_22fd33d126b26f0bde85",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_fced576e2338a7e33460",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-09-24T19:02:43.584440Z",
+  "valid_to": null
+}

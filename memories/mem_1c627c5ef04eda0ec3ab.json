@@ -1,0 +1,46 @@
+{
+  "conditions": "subagent 汇报 49 篇 PDF 全部提取成功及损坏文件处理方式",
+  "confidence": 0.75,
+  "content": "用户的 PDF 批量提取工作流具备容错性:遇到损坏 PDF 时会换用 PyMuPDF 修复提取(本批 49 篇中 4 篇损坏:EmbodiedMemory-Bench/GraphMemix/MemForest/VoxMem),不轻易跳过论文。",
+  "created_at": "2026-10-30T19:02:48.220078Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_56b471b2ce769966e5ab",
+      "quote": "用户的 PDF 批量提取工作流具备容错性:遇到损坏 PDF 时会换用 PyMuPDF 修复提取(本批 49 篇中 4 篇损坏:EmbodiedMemory-Bench/GraphMemix/MemForest/VoxMem),不轻易跳过论文。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_1c627c5ef04eda0ec3ab",
+  "is_temporary": false,
+  "keywords": [
+    "PDF损坏",
+    "PyMuPDF修复",
+    "pdftotext",
+    "容错提取"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_56b471b2ce769966e5ab",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-30T19:02:48.220078Z",
+  "valid_to": null
+}

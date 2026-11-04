@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-27：用户要求 Codex 将《可进化记忆系统 PRD v0.1》全文归档到记忆系统,供其他 Agent 直接读取和后续独立评审;Codex 将其作为待评审设计提案全文入库,并标注档案号与 SHA256。",
+  "created_at": "2026-10-28T19:02:32.373708Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_204132bcd438ed41fedc",
+      "quote": "2026-09-27：用户要求 Codex 将《可进化记忆系统 PRD v0.1》全文归档到记忆系统,供其他 Agent 直接读取和后续独立评审;Codex 将其作为待评审设计提案全文入库,并标注档案号与 SHA256。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_6ca800cda434b616fef5",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_204132bcd438ed41fedc",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-28T19:02:32.373708Z",
+  "valid_to": null
+}

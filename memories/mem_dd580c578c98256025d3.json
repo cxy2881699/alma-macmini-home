@@ -1,0 +1,47 @@
+{
+  "conditions": "手动写入 Wi-Fi 代理返回成功，但全局 scutil 视图仍显示未启用。",
+  "confidence": 0.82,
+  "content": "排查 macOS 代理时,若 networksetup 写入后 scutil 仍显示 HTTPEnable: 0,下一步应同时检查 networksetup -getwebproxy、configd 缓存和网络服务顺序,并用浏览器实测,而不是立即判定写入失败。",
+  "created_at": "2026-10-27T05:16:54.351425Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_b513ec84f98cca74efd9",
+      "quote": "排查 macOS 代理时,若 networksetup 写入后 scutil 仍显示 HTTPEnable: 0,下一步应同时检查 networksetup -getwebproxy、configd 缓存和网络服务顺序,并用浏览器实测,而不是立即判定写入失败。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_dd580c578c98256025d3",
+  "is_temporary": false,
+  "keywords": [
+    "HTTPEnable 0",
+    "getwebproxy",
+    "configd",
+    "网络服务顺序",
+    "代理缓存"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_b513ec84f98cca74efd9",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-27T05:16:54.351425Z",
+  "valid_to": null
+}

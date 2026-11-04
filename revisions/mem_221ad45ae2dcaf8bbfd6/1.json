@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-27T19:01:23.318182Z",
+  "id": "rev_a6f0147303e6cc93aa3d",
+  "memory": {
+    "conditions": "用户询问开源底座与商业化杀手锏的边界。",
+    "confidence": 0.8,
+    "content": "商业成长引擎的关键不只是情感分或信息增益分,而是把经历转化为稳定、可解释、可修正且能影响行动的行为变化。",
+    "created_at": "2026-09-27T19:01:23.318182Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_221ad45ae2dcaf8bbfd6",
+    "is_temporary": false,
+    "keywords": [
+      "成长引擎",
+      "行为变化",
+      "商业护城河",
+      "可修正信念"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-27T19:01:23.318182Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_221ad45ae2dcaf8bbfd6",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

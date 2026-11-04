@@ -1,0 +1,72 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:45:29.866555Z",
+  "id": "rev_4b31143a6ef29fce0602",
+  "memory": {
+    "conditions": "切换成功后 Agent 主动提示配置参数可能与官方值不一致。",
+    "confidence": 0.85,
+    "content": "ark/kimi-k3-1-pro-261024 的切换配置中上下文窗口暂填 262144、maxTokens 暂填 32768;这些参数未经官方确认,可能导致长对话遗忘或输出截断。",
+    "created_at": "2026-10-27T04:45:29.866555Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_1c6b296bc5cb579536f2",
+      "ent_85ac7912658c80484706"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_d55c939bb832758641d3",
+        "quote": "ark/kimi-k3-1-pro-261024 的切换配置中上下文窗口暂填 262144、maxTokens 暂填 32768;这些参数未经官方确认,可能导致长对话遗忘或输出截断。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_3d8e9a54e4b001ea6a33",
+        "quote": "ark/kimi-k3-1-pro-261024 的切换配置中上下文窗口暂填 262144、maxTokens 暂填 32768;这些参数未经官方确认,可能导致长对话遗忘或输出截断。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_386c8688ddcf6529604d",
+    "is_temporary": false,
+    "keywords": [
+      "context window",
+      "maxTokens",
+      "262144",
+      "32768",
+      "模型参数"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d55c939bb832758641d3",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_3d8e9a54e4b001ea6a33",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:45:29.866555Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_386c8688ddcf6529604d",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

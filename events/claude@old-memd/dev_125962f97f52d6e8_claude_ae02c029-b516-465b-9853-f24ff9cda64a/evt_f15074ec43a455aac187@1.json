@@ -1,0 +1,20 @@
+{
+  "agent_id": "claude@old-memd",
+  "assistant_text": "ACP 通道OK",
+  "content_hash": "323ba1c77911935afeb3c1a41620e0b860203d1561214eda4f9a9b2567967a35",
+  "cwd": "",
+  "device_id": "dev_125962f97f52d6e8",
+  "event_id": "evt_f15074ec43a455aac187",
+  "kind": "conversation",
+  "native_event_id": "6297a8f38e9672a7144cfc0aa6b93ad9",
+  "occurred_at": "2026-10-21T18:46:42.062000Z",
+  "privacy_mode": "normal",
+  "project_id": "",
+  "received_at": "2026-11-04T08:56:50.085777Z",
+  "revision": 1,
+  "session_id": "dev_125962f97f52d6e8:claude:ae02c029-b516-465b-9853-f24ff9cda64a",
+  "space": "user/shared",
+  "tools": [],
+  "turn_index": 0,
+  "user_text": "[Wed 2026-10-21 11:46 PDT] 只回复四个字：ACP 通道OK。不要做任何其他操作。"
+}

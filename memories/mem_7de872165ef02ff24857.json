@@ -1,0 +1,78 @@
+{
+  "conditions": "排查记忆服务后台任务大量失败时，修复 ark 模型客户端连接池配置。",
+  "confidence": 0.9,
+  "content": "memd 的 PoolTimeout 修复采用了具体参数:HTTP 连接池 16→64、池满等待 5s→60s,并让 keepalive 连接 30 秒过期;备份与 CHANGES.md 均已留存。",
+  "created_at": "2026-10-31T19:06:06.466285Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_21ec0a807d8ab8a39f8f",
+      "quote": "memd 的 PoolTimeout 修复采用了具体参数:HTTP 连接池 16→64、池满等待 5s→60s,并让 keepalive 连接 30 秒过期;备份与 CHANGES.md 均已留存。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_8395beca681a6a0993af",
+      "quote": "memd 的 PoolTimeout 修复采用了具体参数:HTTP 连接池 16→64、池满等待 5s→60s,并让 keepalive 连接 30 秒过期;备份与 CHANGES.md 均已留存。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_9d10a69084bd77edc45a",
+      "quote": "memd 的 PoolTimeout 修复采用了具体参数:HTTP 连接池 16→64、池满等待 5s→60s,并让 keepalive 连接 30 秒过期;备份与 CHANGES.md 均已留存。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_7de872165ef02ff24857",
+  "is_temporary": false,
+  "keywords": [
+    "连接池",
+    "备份",
+    "连接池耗尽",
+    "HTTP pool",
+    "197任务",
+    "ark.py",
+    "HTTP 连接池",
+    "PoolTimeout",
+    "keepalive",
+    "60秒等待",
+    "CHANGES.md"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_21ec0a807d8ab8a39f8f",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_8395beca681a6a0993af",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_9d10a69084bd77edc45a",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-31T19:06:06.466285Z",
+  "valid_to": null
+}

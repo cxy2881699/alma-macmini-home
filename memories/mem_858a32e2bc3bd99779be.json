@@ -1,0 +1,38 @@
+{
+  "conditions": "用户在核查火山引擎战略合作通稿中的出席人及后续落地情况。",
+  "confidence": 0.86,
+  "content": "在火山引擎企业合作PR核查中,公开稿明确记载政府官员见证签约的代表案例为九江银行(九江市财政局副局长罗峰)和赛力斯凤凰(重庆市副市长郑向东);其他案例“未提及”不能等同于现场没有政府人员。",
+  "created_at": "2026-10-27T19:10:36.060080Z",
+  "derived_from": [],
+  "entities": [
+    "ent_02d36becfe6f60ace7bf",
+    "ent_b6e5f07139d194f4aaa5",
+    "ent_56a800d185284bc3a07f"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_858a32e2bc3bd99779be",
+  "is_temporary": false,
+  "keywords": [
+    "政府官员",
+    "见证签约",
+    "PR核查",
+    "九江银行",
+    "赛力斯凤凰"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T19:10:36.060080Z",
+  "valid_to": null
+}

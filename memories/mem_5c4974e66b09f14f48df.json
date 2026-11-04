@@ -1,0 +1,62 @@
+{
+  "conditions": "用服务端审计确认 Codex 每轮模型调用前确实执行记忆搜索。",
+  "confidence": 0.95,
+  "content": "截至 2026-09-25,Codex 的 UserPromptSubmit hook 会在提示词送给模型前尝试搜索 agent-memory;本次核查的相关轮次审计均为 recall=ok,其中推荐酒那轮搜索耗时 40 毫秒且返回相关记忆为空。",
+  "created_at": "2026-09-25T08:39:19.759470Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_ddfc3157c195d2617059",
+      "quote": "截至 2026-09-25,Codex 的 UserPromptSubmit hook 会在提示词送给模型前尝试搜索 agent-memory;本次核查的相关轮次审计均为 recall=ok,其中推荐酒那轮搜索耗时 40 毫秒且返回相关记忆为空。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_91c7280992f4a13aa52f",
+      "quote": "截至 2026-09-25,Codex 的 UserPromptSubmit hook 会在提示词送给模型前尝试搜索 agent-memory;本次核查的相关轮次审计均为 recall=ok,其中推荐酒那轮搜索耗时 40 毫秒且返回相关记忆为空。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_5c4974e66b09f14f48df",
+  "is_temporary": false,
+  "keywords": [
+    "UserPromptSubmit",
+    "recall=ok",
+    "40ms",
+    "审计记录",
+    "自动召回",
+    "Codex hook"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ddfc3157c195d2617059",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_91c7280992f4a13aa52f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-25T08:39:19.759470Z",
+  "valid_to": null
+}

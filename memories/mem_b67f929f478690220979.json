@@ -1,0 +1,55 @@
+{
+  "conditions": "浏览器停留在记忆服务后台 audit 页面，提示应优先查审计链路。",
+  "confidence": 0.72,
+  "content": "用户当时是在记忆服务管理后台的 audit 页面发现新 PRD 未入库,因此排查应优先结合审计记录确认 ingest/extract 是否执行。",
+  "created_at": "2026-09-27T19:01:56.679395Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_c5b9bc50bc5c913a2dbe",
+      "quote": "用户当时是在记忆服务管理后台的 audit 页面发现新 PRD 未入库,因此排查应优先结合审计记录确认 ingest/extract 是否执行。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_b67f929f478690220979",
+  "is_temporary": false,
+  "keywords": [
+    "审计页",
+    "PRD未入库",
+    "ingest",
+    "extract",
+    "admin#audit",
+    "审计记录",
+    "ingest未执行",
+    "extract未执行",
+    "PRD入库失败"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c5b9bc50bc5c913a2dbe",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-27T19:01:56.679395Z",
+  "valid_to": null
+}

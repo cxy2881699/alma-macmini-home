@@ -1,0 +1,49 @@
+{
+  "conditions": "用户规划当前记忆系统开源，未来以可成长 Agent 记忆作为商业化杀手锏。",
+  "confidence": 0.86,
+  "content": "用户希望把当前 agent-memory 做成可开源的记忆底座,并将“能被经历持续塑造的赛博生命记忆”作为未来商业化增强层和核心差异化能力。",
+  "created_at": "2026-09-26T09:56:41.923652Z",
+  "derived_from": [],
+  "entities": [
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_5c2b03a36555ed887023",
+      "quote": "用户希望把当前 agent-memory 做成可开源的记忆底座,并将“能被经历持续塑造的赛博生命记忆”作为未来商业化增强层和核心差异化能力。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_28d48dd2279c8c012a37",
+  "is_temporary": false,
+  "keywords": [
+    "开源底座",
+    "商业增强层",
+    "赛博生命",
+    "成长引擎",
+    "差异化能力"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_5c2b03a36555ed887023",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-09-26T09:56:41.923652Z",
+  "valid_to": null
+}

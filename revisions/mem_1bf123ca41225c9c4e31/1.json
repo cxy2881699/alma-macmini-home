@@ -1,0 +1,70 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:25:19.542782Z",
+  "id": "rev_db097e166e357056f869",
+  "memory": {
+    "conditions": "用户用昵称或口语询问 OpenClaw 是否挂掉、是否在线时检索。",
+    "confidence": 0.85,
+    "content": "“小龙虾”是用户对 OpenClaw Gateway/OpenClaw 服务的昵称,询问“还活着么”是在确认该服务是否在线、是否正常写入记忆。",
+    "created_at": "2026-10-27T04:25:19.542782Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_1a78cb8802066868b605",
+        "quote": "“小龙虾”是用户对 OpenClaw Gateway/OpenClaw 服务的昵称,询问“还活着么”是在确认该服务是否在线、是否正常写入记忆。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_1bf123ca41225c9c4e31",
+    "is_temporary": false,
+    "keywords": [
+      "服务状态",
+      "昵称",
+      "OpenClaw",
+      "Gateway",
+      "在线",
+      "存活检查",
+      "OpenClaw Gateway",
+      "服务复活",
+      "飞书 WebSocket",
+      "在线状态",
+      "小龙虾",
+      "OpenClaw存活",
+      "还活着么",
+      "Gateway在线",
+      "服务健康"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_1a78cb8802066868b605",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:25:19.542782Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_1bf123ca41225c9c4e31",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

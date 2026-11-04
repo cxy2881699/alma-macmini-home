@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-05T19:12:45.335909Z",
+  "id": "rev_36ff4884569fe21d83a0",
+  "memory": {
+    "conditions": "用户提出信息增量式欲望函数，助手指出单函数会面临自我劫持。",
+    "confidence": 0.78,
+    "content": "用户倾向把欲望理解为基于记忆和外部信息不断计算信息增量的自进化函数,并主动思考如何映射生存欲、七宗罪和恐惧。",
+    "created_at": "2026-10-05T19:12:45.335909Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_ba75bca516249a9ed90a",
+    "is_temporary": false,
+    "keywords": [
+      "好奇心",
+      "intrinsic motivation",
+      "reward hacking",
+      "驱动函数"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-05T19:12:45.335909Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ba75bca516249a9ed90a",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

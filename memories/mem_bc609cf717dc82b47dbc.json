@@ -1,0 +1,51 @@
+{
+  "conditions": "处理 OpenClaw 网关异常、磁盘占用或插件配置反复报错时参考。",
+  "confidence": 0.9,
+  "content": "2026-09-24 凌晨排查中,OpenClaw 不支持的配置字段反复报错,网关日志 gateway.err.log 已增长到约 5.9 GB。",
+  "created_at": "2026-09-23T17:06:32.060349Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_e592743b9360c4d4c4fb",
+      "quote": "2026-09-24 凌晨排查中,OpenClaw 不支持的配置字段反复报错,网关日志 gateway.err.log 已增长到约 5.9 GB。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_bc609cf717dc82b47dbc",
+  "is_temporary": false,
+  "keywords": [
+    "OpenClaw",
+    "gateway.err.log",
+    "日志",
+    "5.9GB",
+    "不支持字段",
+    "磁盘占用",
+    "报错循环"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_e592743b9360c4d4c4fb",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-23T17:06:32.060349Z",
+  "valid_to": null
+}

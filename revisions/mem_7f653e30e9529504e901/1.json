@@ -1,0 +1,44 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-03T19:03:12.690710Z",
+  "id": "rev_d7a01175b874ba375142",
+  "memory": {
+    "conditions": "用户布置 45 篇论文总结任务时特意约束不改 PRD",
+    "confidence": 0.8,
+    "content": "用户在文献调研中明确要求先不动设计文档,只产出对照分析,把\"读论文\"和\"改 PRD\"分成两个独立决策步骤。",
+    "created_at": "2026-10-03T19:03:12.690710Z",
+    "derived_from": [],
+    "entities": [
+      "ent_803e29983b18f51d0780"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_7f653e30e9529504e901",
+    "is_temporary": false,
+    "keywords": [
+      "先分析后修改",
+      "不要更新PRD",
+      "分步决策"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-03T19:03:12.690710Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_7f653e30e9529504e901",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

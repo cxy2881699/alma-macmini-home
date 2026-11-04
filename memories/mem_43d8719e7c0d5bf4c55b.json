@@ -1,0 +1,44 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "用户的逆向推断型心理 agent 项目的推荐主架构为:分层贝叶斯动态潜状态模型(hierarchical Bayesian state-space / DBN),LLM 仅作观测编码器输出带不确定度的似然,推断交给结构化生成模型,提问由 EIG 驱动的 POMDP 控制器负责。",
+  "created_at": "2026-10-27T04:22:13.828945Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6eb44c32bf523382fd30",
+    "ent_5e9983015c0ee6682456"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_1627b009151f2cb1840b",
+      "quote": "用户的逆向推断型心理 agent 项目的推荐主架构为:分层贝叶斯动态潜状态模型(hierarchical Bayesian state-space / DBN),LLM 仅作观测编码器输出带不确定度的似然,推断交给结构化生成模型,提问由 EIG 驱动的 POMDP 控制器负责。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_43d8719e7c0d5bf4c55b",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1627b009151f2cb1840b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:22:13.828945Z",
+  "valid_to": null
+}

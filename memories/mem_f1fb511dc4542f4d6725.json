@@ -1,0 +1,36 @@
+{
+  "conditions": "用户补发此前未同步入库的 PRD 文件",
+  "confidence": 0.9,
+  "content": "可进化记忆系统 PRD v0.1 已双路归档:agent-memory 仓库 docs/(commit 0ff6e62)+ 记忆库全文事件(ID 1460999e575200a46998cd748e7167ea),检索词 EVOLVING-MEMORY-PRD-v0.1。",
+  "created_at": "2026-09-27T19:04:03.646115Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_0dd3ce8f5049183636d7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_f1fb511dc4542f4d6725",
+  "is_temporary": false,
+  "keywords": [
+    "PRD",
+    "归档",
+    "EVOLVING-MEMORY-PRD-v0.1",
+    "commit 0ff6e62"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-27T19:04:03.646115Z",
+  "valid_to": null
+}

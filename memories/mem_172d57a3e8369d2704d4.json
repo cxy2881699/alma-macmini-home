@@ -1,0 +1,50 @@
+{
+  "conditions": "用户因新邮箱加机房 IP 的风控组合注册 Claude 被 hold，接受养号方案。",
+  "confidence": 0.9,
+  "content": "2026-10-18 注册 Claude 被 hold 后,用户明确放弃反复尝试旧账号,改为重新注册 Gmail、用 +86 手机号验证并养号 3-5 天后再注册 Claude。",
+  "created_at": "2026-11-02T19:04:19.301002Z",
+  "derived_from": [],
+  "entities": [
+    "ent_51b9c91560022845906c",
+    "ent_c42dac5ae99195f63d24"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_1cc32c8fffaceabb3bb1",
+      "quote": "2026-10-18 注册 Claude 被 hold 后,用户明确放弃反复尝试旧账号,改为重新注册 Gmail、用 +86 手机号验证并养号 3-5 天后再注册 Claude。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_172d57a3e8369d2704d4",
+  "is_temporary": false,
+  "keywords": [
+    "Claude hold",
+    "Gmail 养号",
+    "新邮箱",
+    "3-5天",
+    "+86"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1cc32c8fffaceabb3bb1",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-02T19:04:19.301002Z",
+  "valid_to": null
+}

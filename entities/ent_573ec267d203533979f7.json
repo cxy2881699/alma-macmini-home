@@ -1,0 +1,14 @@
+{
+  "aliases": [
+    "qianfan",
+    "glm-5.3"
+  ],
+  "created_at": "2026-09-23T16:47:13.260389Z",
+  "description": "OpenClaw 使用的大模型服务提供商，曾出现连接超时和 403 错误",
+  "id": "ent_573ec267d203533979f7",
+  "name": "千帆 qianfan",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T08:56:50.222250Z"
+}

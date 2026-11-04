@@ -1,0 +1,59 @@
+{
+  "conditions": "服务端初版改造把相同轮次 ID 的不同内容当作修订，复审认为可能覆盖并存对话。",
+  "confidence": 0.86,
+  "content": "2026-09-26 凌晨服务端去重改造后的版本被复审判定为不宜定稿:相同 native_turn_id 但内容不同会原地替换旧记录,可能把本应并存的两轮误覆盖。",
+  "created_at": "2026-10-27T19:03:57.255618Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_16d2615f00ae766bb32b",
+      "quote": "2026-09-26 凌晨服务端去重改造后的版本被复审判定为不宜定稿:相同 native_turn_id 但内容不同会原地替换旧记录,可能把本应并存的两轮误覆盖。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_59f0d7c629f8abbd3654",
+  "is_temporary": false,
+  "keywords": [
+    "silent drop",
+    "event_id 冲突",
+    "去重改造",
+    "服务端改造未定稿",
+    "小龙虾修改中",
+    "服务端去重复审",
+    "native_turn_id",
+    "原地替换",
+    "replaced:1",
+    "误覆盖",
+    "服务端去重改造",
+    "不宜定稿"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_16d2615f00ae766bb32b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T19:03:57.255618Z",
+  "valid_to": null
+}

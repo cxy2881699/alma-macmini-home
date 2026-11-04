@@ -1,0 +1,47 @@
+{
+  "conditions": "模型切换脚本第一次未运行，助手排查到 macOS 命令兼容性问题。",
+  "confidence": 0.82,
+  "content": "在 macOS 上用依赖 setsid 的后台脚本可能静默失败;该次模型切换首次是假启动,后改用 nohup 并确认 pid、预检和重启验证才成功。",
+  "created_at": "2026-11-01T19:06:08.895508Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8fc67c0d4c5d64da55b1",
+      "quote": "在 macOS 上用依赖 setsid 的后台脚本可能静默失败;该次模型切换首次是假启动,后改用 nohup 并确认 pid、预检和重启验证才成功。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_0cc4a1598847a57ef749",
+  "is_temporary": false,
+  "keywords": [
+    "setsid缺失",
+    "假启动",
+    "nohup",
+    "后台进程",
+    "macOS运维"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8fc67c0d4c5d64da55b1",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-11-01T19:06:08.895508Z",
+  "valid_to": null
+}

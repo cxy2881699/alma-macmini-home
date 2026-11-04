@@ -1,0 +1,78 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T23:52:07.838096Z",
+  "id": "rev_a5297a967f5a10efe417",
+  "memory": {
+    "conditions": "管理页面、OpenClaw插件和外网请求异常都与代理是否绕过Tailscale私网有关。",
+    "confidence": 0.9,
+    "content": "Tailscale 影响 Agent 网络的直接原因是本机 HTTP/HTTPS/SOCKS 代理把 MagicDNS 或 100.64.0.0/10 地址转发到无法访问 Tailscale 私网的代理,而不是 Tailscale 本身阻断网络。",
+    "created_at": "2026-09-23T23:52:07.838096Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_f90a16b26a8ab1d551fc",
+      "ent_421c00dde9a1b98fc969",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_e592743b9360c4d4c4fb",
+        "quote": "Tailscale 影响 Agent 网络的直接原因是本机 HTTP/HTTPS/SOCKS 代理把 MagicDNS 或 100.64.0.0/10 地址转发到无法访问 Tailscale 私网的代理,而不是 Tailscale 本身阻断网络。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_6a3714757e353acbcb99",
+        "quote": "Tailscale 影响 Agent 网络的直接原因是本机 HTTP/HTTPS/SOCKS 代理把 MagicDNS 或 100.64.0.0/10 地址转发到无法访问 Tailscale 私网的代理,而不是 Tailscale 本身阻断网络。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_8495bfe76f0656d74a6e",
+    "is_temporary": false,
+    "keywords": [
+      "私网地址",
+      "ERR_EMPTY_RESPONSE",
+      "代理劫持",
+      "Tailscale 网络问题",
+      "MonoProxy",
+      "8118",
+      "MagicDNS",
+      "100.64.0.0/10",
+      "NO_PROXY",
+      "私网代理劫持"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_e592743b9360c4d4c4fb",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_6a3714757e353acbcb99",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-23T23:52:07.838096Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_8495bfe76f0656d74a6e",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

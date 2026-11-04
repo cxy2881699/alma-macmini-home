@@ -1,0 +1,33 @@
+{
+  "conditions": "用户提出用信息增量函数实现agent欲望。",
+  "confidence": 0.8,
+  "content": "用户倾向于用“复杂且可自进化的函数+信息增量”来设计agent欲望,并将互联网、交互和工具信息视为增量来源。",
+  "created_at": "2026-10-07T19:04:41.148386Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_7288c7ad6cce27d2f5f6",
+  "is_temporary": false,
+  "keywords": [
+    "信息增益",
+    "好奇心",
+    "intrinsic motivation",
+    "reward function"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-07T19:04:41.148386Z",
+  "valid_to": null
+}

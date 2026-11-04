@@ -1,0 +1,48 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-11T19:04:24.184317Z",
+  "id": "rev_ee62eb5b6fad8ca47c02",
+  "memory": {
+    "conditions": "用户探讨把个体记忆能力扩展为游戏世界状态记忆。",
+    "confidence": 0.8,
+    "content": "用户在参与设计/产品化一个 agent 记忆系统,规划为开源记忆底座+增强层收费,正思考向开放世界游戏“GM大脑/环境记忆”场景扩展。",
+    "created_at": "2026-10-11T19:04:24.184317Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_1e5b4ce68ad5bc8fefb3",
+    "is_temporary": false,
+    "keywords": [
+      "记忆系统",
+      "环境记忆",
+      "开放世界",
+      "GM",
+      "世界状态",
+      "SDK"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-11T19:04:24.184317Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_1e5b4ce68ad5bc8fefb3",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

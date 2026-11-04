@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-31T19:02:19.012852Z",
+  "id": "rev_4622da43132842d3264f",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-28：用户先后派分身完成 ICLR 2026 MemAgents Workshop 论文调研的摘要初版与 PDF 全文覆盖升级;两版均写入同一 Markdown 文件,全文版最终按实际清点覆盖41篇编号论文,并形成对可进化记忆系统 PRD 的安全、检索、溯源和评测修订建议。",
+    "created_at": "2026-10-31T19:02:19.012852Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_4ead9e010ef9d7e33330",
+        "quote": "2026-09-28：用户先后派分身完成 ICLR 2026 MemAgents Workshop 论文调研的摘要初版与 PDF 全文覆盖升级;两版均写入同一 Markdown 文件,全文版最终按实际清点覆盖41篇编号论文,并形成对可进化记忆系统 PRD 的安全、检索、溯源和评测修订建议。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_390adac5e058575e06b8",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_4ead9e010ef9d7e33330",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-31T19:02:19.012852Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_390adac5e058575e06b8",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

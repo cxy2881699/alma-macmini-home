@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-10-18：当晚用户继续处理 MacBook 从 MonoProxy/8118 切换到 Clash Verge/7897 的系统代理异常;中途讨论新 Gmail 注册 Claude 被 hold,决定重新注册并养号;最后清理旧代理后用户仍反馈“还是不行”,问题未在本段对话中闭环。",
+  "created_at": "2026-10-29T19:04:53.042068Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_10853d0c7dcf8fdb980b",
+      "quote": "2026-10-18：当晚用户继续处理 MacBook 从 MonoProxy/8118 切换到 Clash Verge/7897 的系统代理异常;中途讨论新 Gmail 注册 Claude 被 hold,决定重新注册并养号;最后清理旧代理后用户仍反馈“还是不行”,问题未在本段对话中闭环。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_df44876f58bbe24bd7e7",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_10853d0c7dcf8fdb980b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-29T19:04:53.042068Z",
+  "valid_to": null
+}

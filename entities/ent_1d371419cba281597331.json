@@ -1,0 +1,14 @@
+{
+  "aliases": [
+    "公网 API 网关",
+    "产品化方向"
+  ],
+  "created_at": "2026-09-23T18:27:57.196314Z",
+  "description": "agent-memory 对外产品化的未来架构：公网 HTTPS API 网关 + per-user API Key 认证，免去用户安装 Tailscale",
+  "id": "ent_1d371419cba281597331",
+  "name": "Agent Cloud Memory 公网 API 方案",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "project",
+  "updated_at": "2026-11-04T08:56:50.220373Z"
+}

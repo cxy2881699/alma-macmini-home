@@ -1,0 +1,37 @@
+{
+  "conditions": "用户要求基于当前记忆系统设计可持续进化的记忆架构",
+  "confidence": 0.85,
+  "content": "用户设想的可进化记忆系统核心设计:在现有 agent-memory 上增加成长引擎层,新增多维重要性评估、带证据与版本的个体状态、可回滚的记忆策略进化,并保持旧客户端兼容与接口版本化。",
+  "created_at": "2026-10-09T19:03:32.087217Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_f98a2186edd27128b482",
+  "is_temporary": false,
+  "keywords": [
+    "成长引擎",
+    "个体状态",
+    "策略进化",
+    "版本化",
+    "兼容性"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-09T19:03:32.087217Z",
+  "valid_to": null
+}

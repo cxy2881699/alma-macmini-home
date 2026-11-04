@@ -1,0 +1,65 @@
+{
+  "conditions": "需要证明 Codex 或 OpenClaw 的自动召回是否真实恢复时检索。",
+  "confidence": 0.85,
+  "content": "验证记忆自动召回是否恢复必须以服务端审计中 agent_kind、action=recall、result=ok 三者匹配为准,hooks 显示 active 或其他 Agent 的成功记录均不能作为证据。",
+  "created_at": "2026-10-27T04:30:53.288468Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e",
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_e255c16e5b36c919f3a5",
+      "quote": "验证记忆自动召回是否恢复必须以服务端审计中 agent_kind、action=recall、result=ok 三者匹配为准,hooks 显示 active 或其他 Agent 的成功记录均不能作为证据。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_92af35e158060c9ab1cf",
+  "is_temporary": false,
+  "keywords": [
+    "审计验证",
+    "recall",
+    "链路核查",
+    "recall审计",
+    "OpenClaw误判",
+    "hooks active不等于成功",
+    "action=recall",
+    "服务端审计",
+    "Codex OpenClaw 区分",
+    "恢复验证",
+    "hooks active 不算证据",
+    "Codex 验证",
+    "recall 审计",
+    "agent_kind",
+    "result=ok",
+    "hooks active",
+    "跨 Agent 证据"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_e255c16e5b36c919f3a5",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:30:53.288468Z",
+  "valid_to": null
+}

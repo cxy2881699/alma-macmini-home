@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "火山引擎车企合作PR稿调研"
+  ],
+  "created_at": "2026-10-27T18:35:13.611211Z",
+  "description": "用户以 subagent 任务形式要求核查火山引擎/字节跳动与七家汽车相关企业战略合作公开稿、出席人、政府官员和后续落地情况。",
+  "id": "ent_b4a085894df92a90957d",
+  "name": "火山引擎汽车企业战略合作调研",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "concept",
+  "updated_at": "2026-11-04T08:56:50.225136Z"
+}

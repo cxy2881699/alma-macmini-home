@@ -1,0 +1,63 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T19:11:46.060262Z",
+  "id": "rev_4ded103f8b0cfa85269b",
+  "memory": {
+    "conditions": "引用赛力斯凤凰合作时需避免把框架协议或后续机器人新闻直接当作协议交付。",
+    "confidence": 0.9,
+    "content": "火山引擎与赛力斯凤凰2025-10-09在北京签署的是具身智能业务合作框架协议,不涉及具体金额,具体项目需另行签约;后续赛力斯机器人进展不能在无稿件归因时直接算作该协议交付。",
+    "created_at": "2026-10-27T19:11:46.060262Z",
+    "derived_from": [],
+    "entities": [
+      "ent_02d36becfe6f60ace7bf",
+      "ent_b6e5f07139d194f4aaa5"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_d4ea596374d100c7cd4f",
+        "quote": "火山引擎与赛力斯凤凰2025-10-09在北京签署的是具身智能业务合作框架协议,不涉及具体金额,具体项目需另行签约;后续赛力斯机器人进展不能在无稿件归因时直接算作该协议交付。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_edcabdd78b4215e5d691",
+    "is_temporary": false,
+    "keywords": [
+      "具身智能",
+      "郑向东",
+      "小赛机器人",
+      "赛力斯凤凰",
+      "框架协议",
+      "无具体金额",
+      "机器人",
+      "另行签约"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d4ea596374d100c7cd4f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T19:11:46.060262Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_edcabdd78b4215e5d691",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

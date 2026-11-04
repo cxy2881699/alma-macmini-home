@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-01T19:05:25.853943Z",
+  "id": "rev_9296eb7e486ef068bf20",
+  "memory": {
+    "conditions": "讨论被封服务器剩余用途时提出",
+    "confidence": 0.7,
+    "content": "被墙的 RackNerd 机器仍有再利用价值:可作为 Cloudflare 回源落地(改用 WS+TLS+CDN,回源不过 GFW),助手提议可在约 30 分钟内完成配置",
+    "created_at": "2026-11-01T19:05:25.853943Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_32332105036d7e662746",
+    "is_temporary": false,
+    "keywords": [
+      "Cloudflare",
+      "CDN中转",
+      "WS+TLS",
+      "落地机"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "review",
+    "status_reason": "migrated from old agent-memory (candidate)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-01T19:05:25.853943Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_32332105036d7e662746",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

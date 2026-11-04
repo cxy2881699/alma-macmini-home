@@ -1,0 +1,53 @@
+{
+  "conditions": "适用于追踪 Codex 记忆链路从钩子信任到实际召回验证的进展。",
+  "confidence": 0.9,
+  "content": "2026-09-24 用户确认 Codex CLI 的三个 agent-memory hook 已成功选中且状态为 active;Agent 查询审计后指出最新召回仍来自 OpenClaw,尚需在 CLI 中发送普通消息、退出重进后再次发消息以验证 Codex recall。",
+  "created_at": "2026-09-23T17:28:17.827227Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_3e8b16a61a76158abaf9",
+      "quote": "2026-09-24 用户确认 Codex CLI 的三个 agent-memory hook 已成功选中且状态为 active;Agent 查询审计后指出最新召回仍来自 OpenClaw,尚需在 CLI 中发送普通消息、退出重进后再次发消息以验证 Codex recall。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_f7b25da55611891b08bb",
+  "is_temporary": false,
+  "keywords": [
+    "Codex",
+    "OpenClaw",
+    "hook",
+    "active",
+    "recall",
+    "审计",
+    "CLI"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_3e8b16a61a76158abaf9",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-23T17:28:17.827227Z",
+  "valid_to": null
+}

@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-01T19:12:23.875566Z",
+  "id": "rev_39c57ab1e7046e4d240d",
+  "memory": {
+    "conditions": "用户主动对记忆系统做注入测试并规划下一测试方向。",
+    "confidence": 0.8,
+    "content": "用户在主动对记忆系统做对抗性测试(假医疗事件注入、PRD上传测试),当前阶段重点从链路可用性转向鲁棒性,下一个建议方向是删除传播测试。",
+    "created_at": "2026-10-01T19:12:23.875566Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9d3a8e426d91c52fb407"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_b2623d61d5259d762072",
+    "is_temporary": false,
+    "keywords": [
+      "记忆系统测试",
+      "投毒测试",
+      "删除传播",
+      "对抗测试",
+      "假嗓子疼",
+      "头孢",
+      "删除传播测试",
+      "鲁棒性",
+      "FR-09",
+      "投毒"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-01T19:12:23.875566Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_b2623d61d5259d762072",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

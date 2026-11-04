@@ -1,0 +1,49 @@
+{
+  "conditions": "用户粘贴清理 MonoProxy 和开启 Verge 系统代理的整段命令，注释行被 zsh 当命令执行。",
+  "confidence": 0.8,
+  "content": "当晚代理清理脚本中的关键配置动作已执行,但终端同时出现注释行报错,因此不能把整段脚本视为无错误完成,只能逐项验收。",
+  "created_at": "2026-10-30T19:03:57.507582Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f90a16b26a8ab1d551fc",
+    "ent_f18082c6c564869030be"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_21f5a5863fc6f61fded0",
+      "quote": "当晚代理清理脚本中的关键配置动作已执行,但终端同时出现注释行报错,因此不能把整段脚本视为无错误完成,只能逐项验收。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_d3b16c321f24b43afd40",
+  "is_temporary": false,
+  "keywords": [
+    "command not found #",
+    "粘贴脚本",
+    "shell注释",
+    "逐项验收"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_21f5a5863fc6f61fded0",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-30T19:03:57.507582Z",
+  "valid_to": null
+}

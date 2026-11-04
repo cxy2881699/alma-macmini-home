@@ -1,0 +1,47 @@
+{
+  "conditions": "用户解释记忆项目中日期和时间看起来错误的原因。",
+  "confidence": 0.9,
+  "content": "这台电脑的系统时区显示为美国时区,但用户指定真实时间基准应按北京时间理解;排查日志、记忆日期和事件先后顺序时需做时区校正。",
+  "created_at": "2026-10-05T19:02:24.650794Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8de82365a1608c4e7c4d",
+      "quote": "这台电脑的系统时区显示为美国时区,但用户指定真实时间基准应按北京时间理解;排查日志、记忆日期和事件先后顺序时需做时区校正。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_57c30999f7a3da8d9d0e",
+  "is_temporary": false,
+  "keywords": [
+    "时区",
+    "北京时间",
+    "美国时区",
+    "时间偏移",
+    "日志时间"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8de82365a1608c4e7c4d",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-05T19:02:24.650794Z",
+  "valid_to": null
+}

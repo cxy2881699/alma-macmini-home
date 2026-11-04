@@ -1,0 +1,47 @@
+{
+  "conditions": "用户先要求自我观察框架和实证文献，再要求心理 Agent 的建模架构。",
+  "confidence": 0.82,
+  "content": "用户的个人追踪系统构想已从科普性神经内分泌框架推进到工程化的逆向推断 Agent:需要多模态采集、潜状态推断、主动提问和 N=1 可识别性设计。",
+  "created_at": "2026-10-30T19:04:30.064348Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_1627b009151f2cb1840b",
+      "quote": "用户的个人追踪系统构想已从科普性神经内分泌框架推进到工程化的逆向推断 Agent:需要多模态采集、潜状态推断、主动提问和 N=1 可识别性设计。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_11800d4a2a5a9cb10d10",
+  "is_temporary": false,
+  "keywords": [
+    "个人追踪",
+    "潜状态",
+    "主动学习",
+    "N=1",
+    "多模态"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1627b009151f2cb1840b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-30T19:04:30.064348Z",
+  "valid_to": null
+}

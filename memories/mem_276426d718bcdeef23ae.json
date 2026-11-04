@@ -1,0 +1,56 @@
+{
+  "conditions": "防止把 Codex 撰写的 PRD 草案误当成用户确认或系统现状。",
+  "confidence": 0.95,
+  "content": "可进化记忆系统 PRD v0.1 是 Codex 根据用户讨论撰写的待评审设计提案,日期为 2026-09-26,不能视为已实现功能或用户逐条确认的事实;其源文档 SHA256 为 709fc245629457e0d1edd52b0daa41df1fab4c6096ece4632a0ac171e2cc2d1c。",
+  "created_at": "2026-09-27T11:56:07.958485Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_0dd3ce8f5049183636d7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_204132bcd438ed41fedc",
+      "quote": "可进化记忆系统 PRD v0.1 是 Codex 根据用户讨论撰写的待评审设计提案,日期为 2026-09-26,不能视为已实现功能或用户逐条确认的事实;其源文档 SHA256 为 709fc245629457e0d1edd52b0daa41df1fab4c6096ece4632a0ac171e2cc2d1c。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_276426d718bcdeef23ae",
+  "is_temporary": false,
+  "keywords": [
+    "待评审草案",
+    "设计提案",
+    "PRD草案",
+    "待评审",
+    "709fc2456294",
+    "Codex文档",
+    "PRD状态",
+    "待评审提案",
+    "非已实现功能",
+    "SHA256",
+    "709fc245"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_204132bcd438ed41fedc",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-27T11:56:07.958485Z",
+  "valid_to": null
+}

@@ -1,0 +1,49 @@
+{
+  "conditions": "用户把带注释的整段修复脚本直接粘进 zsh，随后仍需继续排查。",
+  "confidence": 0.82,
+  "content": "用户在 2026-10-18 曾执行清理 MonoProxy 保活、删除 shell 中 8118、开启 Clash Verge 系统代理的整段命令;虽然注释行报错,但关键配置项显示已执行。",
+  "created_at": "2026-10-27T05:17:32.060098Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f90a16b26a8ab1d551fc",
+    "ent_f18082c6c564869030be"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_21f5a5863fc6f61fded0",
+      "quote": "用户在 2026-10-18 曾执行清理 MonoProxy 保活、删除 shell 中 8118、开启 Clash Verge 系统代理的整段命令;虽然注释行报错,但关键配置项显示已执行。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_039a7742ee46c9cc5b4b",
+  "is_temporary": false,
+  "keywords": [
+    "LaunchAgents-disabled",
+    "8118清理",
+    "系统代理",
+    "注释报错"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_21f5a5863fc6f61fded0",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:17:32.060098Z",
+  "valid_to": null
+}

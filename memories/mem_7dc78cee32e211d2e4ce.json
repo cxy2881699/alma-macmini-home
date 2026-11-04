@@ -1,0 +1,40 @@
+{
+  "conditions": "用户对论文综述文档的写作风格与关注重点",
+  "confidence": 0.8,
+  "content": "用户阅读论文综述时最关心「现在能做到哪些以前做不到的事」,即新能力突破点,并希望综述直接务实、无AI味套话、中文撰写、术语保留英文。",
+  "created_at": "2026-09-30T19:03:21.034270Z",
+  "derived_from": [],
+  "entities": [
+    "ent_7d78c1639a0001d26261"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_7dc78cee32e211d2e4ce",
+  "is_temporary": false,
+  "keywords": [
+    "综述风格",
+    "突破点",
+    "写作偏好",
+    "综述偏好",
+    "新能力突破",
+    "务实",
+    "中文",
+    "术语保留英文",
+    "无AI味"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-09-30T19:03:21.034270Z",
+  "valid_to": null
+}

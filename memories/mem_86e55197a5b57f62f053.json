@@ -1,0 +1,67 @@
+{
+  "conditions": "用户要求把完整 PRD 放进记忆库，而不是只保留摘要或当前上下文。",
+  "confidence": 0.86,
+  "content": "用户期望通过显式指令把完整 PRD 文档归档进记忆系统,使其他 Agent 可直接读取全文,而不是只依赖对话上下文或摘要。",
+  "created_at": "2026-10-27T04:44:11.789690Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e",
+    "ent_0dd3ce8f5049183636d7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_204132bcd438ed41fedc",
+      "quote": "用户期望通过显式指令把完整 PRD 文档归档进记忆系统,使其他 Agent 可直接读取全文,而不是只依赖对话上下文或摘要。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_86e55197a5b57f62f053",
+  "is_temporary": false,
+  "keywords": [
+    "PRD归档",
+    "文档库",
+    "全文访问",
+    "不只摘要",
+    "全文读取",
+    "资料沉淀",
+    "全文归档",
+    "设计资料共享",
+    "PRD入库",
+    "跨Agent协作",
+    "全文可读",
+    "设计资料",
+    "完整文档共享",
+    "跨Agent读取",
+    "PRD全文",
+    "全文记忆",
+    "不要只存摘要",
+    "多 Agent 共享",
+    "设计文档",
+    "显式归档"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_204132bcd438ed41fedc",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:44:11.789690Z",
+  "valid_to": null
+}

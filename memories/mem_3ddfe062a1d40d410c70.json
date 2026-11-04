@@ -1,0 +1,33 @@
+{
+  "conditions": "用户发现刚买几天的 VPS 无法访问，经国内外多网络测试定位为 IP 被墙。",
+  "confidence": 0.93,
+  "content": "RackNerd 洛杉矶 DC02 这台 VPS 的 IP 155.94.145.75 已被 GFW 单 IP 封锁;国外节点可达、国内家宽与手机 4G 均 TCP 全超时,同段邻居仍可达。",
+  "created_at": "2026-10-27T19:08:43.459812Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_3ddfe062a1d40d410c70",
+  "is_temporary": false,
+  "keywords": [
+    "VPS被墙",
+    "RackNerd洛杉矶",
+    "单IP封锁",
+    "ColoCrossing"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T19:08:43.459812Z",
+  "valid_to": null
+}

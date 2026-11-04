@@ -1,0 +1,49 @@
+{
+  "conditions": "用户规划 agent-memory 成熟后的开源与收费边界。",
+  "confidence": 0.95,
+  "content": "用户计划等 agent-memory 做得更成熟后,只开源阉割一部分功能的版本,并推出收费的线上版本。",
+  "created_at": "2026-09-25T08:06:46.196629Z",
+  "derived_from": [],
+  "entities": [
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_5c2b03a36555ed887023",
+      "quote": "用户计划等 agent-memory 做得更成熟后,只开源阉割一部分功能的版本,并推出收费的线上版本。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_3211e4291e4f881e0c2b",
+  "is_temporary": false,
+  "keywords": [
+    "开源精简版",
+    "收费线上版",
+    "开源底座",
+    "商业增强层",
+    "商业化"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_5c2b03a36555ed887023",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-09-25T08:06:46.196629Z",
+  "valid_to": null
+}

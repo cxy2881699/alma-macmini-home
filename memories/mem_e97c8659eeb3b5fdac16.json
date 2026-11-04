@@ -1,0 +1,54 @@
+{
+  "conditions": "用户在继续排查或维护 agent-memory 部署与各 Agent 接入状态前，要求回顾历史记忆。",
+  "confidence": 0.7,
+  "content": "用户要求读取此前关于 agent-memory 部署的记忆,Agent 汇总了后台服务、OpenClaw 修复、Codex 写入与自动召回待验证状态,并指出记忆日期与当前环境日期存在不一致。",
+  "created_at": "2026-09-23T17:30:09.472006Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_d1ac9ffcb12bebc57788",
+      "quote": "用户要求读取此前关于 agent-memory 部署的记忆,Agent 汇总了后台服务、OpenClaw 修复、Codex 写入与自动召回待验证状态,并指出记忆日期与当前环境日期存在不一致。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_e97c8659eeb3b5fdac16",
+  "is_temporary": false,
+  "keywords": [
+    "agent-memory",
+    "部署记忆",
+    "OpenClaw",
+    "Codex",
+    "自动召回",
+    "审计记录",
+    "日期不一致"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d1ac9ffcb12bebc57788",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-23T17:30:09.472006Z",
+  "valid_to": null
+}

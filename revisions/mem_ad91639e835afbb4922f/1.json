@@ -1,0 +1,61 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:44:29.226415Z",
+  "id": "rev_e9994c7a049f85bee204",
+  "memory": {
+    "conditions": "agent-memory 部署收尾阶段，用户确认清理与界面改造是否完成。",
+    "confidence": 0.7,
+    "content": "用户追问工作进度,Agent 确认 memd 单进程运行、admin 来源列代码已上线、selftest 假数据已清理,等待用户强刷页面验证后收官。",
+    "created_at": "2026-09-23T17:44:29.226415Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_483ad3dd9ff0f4e4e01c"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_33b2fba39edba1a1fd4a",
+        "quote": "用户追问工作进度,Agent 确认 memd 单进程运行、admin 来源列代码已上线、selftest 假数据已清理,等待用户强刷页面验证后收官。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_ad91639e835afbb4922f",
+    "is_temporary": false,
+    "keywords": [
+      "agent-memory",
+      "memd",
+      "来源列",
+      "selftest清理",
+      "部署收官",
+      "管理页面"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_33b2fba39edba1a1fd4a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-23T17:44:29.226415Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ad91639e835afbb4922f",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

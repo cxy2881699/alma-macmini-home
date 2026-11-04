@@ -1,0 +1,37 @@
+{
+  "conditions": "讨论逝者资料重建时，助手提出三分记忆，用户未反对且该轮被保存。",
+  "confidence": 0.74,
+  "content": "在数字逝者或角色成长系统中,用户重视“忠于历史资料”和“后续经历带来的新成长”能够被区分、溯源和分别评估。",
+  "created_at": "2026-10-30T19:01:20.290174Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_0aa9e8f3b563a5de18d8",
+  "is_temporary": false,
+  "keywords": [
+    "历史还原",
+    "后续成长",
+    "来源追踪",
+    "记忆分层",
+    "数字逝者"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "review",
+  "status_reason": "migrated from old agent-memory (candidate)",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-30T19:01:20.290174Z",
+  "valid_to": null
+}

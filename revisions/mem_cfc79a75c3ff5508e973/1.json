@@ -1,0 +1,71 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:30:53.288468Z",
+  "id": "rev_00497cf3e334f562c422",
+  "memory": {
+    "conditions": "排查部署后管理页或 Agent 访问 memd 失败、请求被本机代理劫持时检索。",
+    "confidence": 0.8,
+    "content": "记忆项目部署后的多层故障中,管理页面打不开与 Agent 访问 memd 失败的共同根因之一是本机 127.0.0.1:8118 代理无法正确处理 Tailscale 私网/MagicDNS 流量;改用 http://127.0.0.1:8787 可绕开该层。",
+    "created_at": "2026-10-27T04:30:53.288468Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def",
+      "ent_f90a16b26a8ab1d551fc",
+      "ent_421c00dde9a1b98fc969",
+      "ent_1b0510f6e7579d8f62b3",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_e255c16e5b36c919f3a5",
+        "quote": "记忆项目部署后的多层故障中,管理页面打不开与 Agent 访问 memd 失败的共同根因之一是本机 127.0.0.1:8118 代理无法正确处理 Tailscale 私网/MagicDNS 流量;改用 http://127.0.0.1:8787 可绕开该层。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_cfc79a75c3ff5508e973",
+    "is_temporary": false,
+    "keywords": [
+      "8118代理",
+      "8787",
+      "fetch failed",
+      "8119 SOCKS",
+      "NO_PROXY",
+      "100.64.0.0/10",
+      "UND_ERR_SOCKET",
+      "8118 代理",
+      "MagicDNS",
+      "Tailscale 私网",
+      "管理页面打不开",
+      "127.0.0.1:8787"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_e255c16e5b36c919f3a5",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:30:53.288468Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_cfc79a75c3ff5508e973",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

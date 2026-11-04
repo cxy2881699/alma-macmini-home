@@ -1,0 +1,49 @@
+{
+  "conditions": "用户在 127.0.0.1:8787/admin#audit 页面追问新 PRD 的去向。",
+  "confidence": 0.85,
+  "content": "用户是在本机 admin audit 页面核对时发现新 PRD 未进入记忆库,并要求 Agent 查明文件实际保存位置。",
+  "created_at": "2026-10-08T19:02:30.130741Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_c5b9bc50bc5c913a2dbe",
+      "quote": "用户是在本机 admin audit 页面核对时发现新 PRD 未进入记忆库,并要求 Agent 查明文件实际保存位置。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_16b50cd32ecfca6db0cc",
+  "is_temporary": false,
+  "keywords": [
+    "PRD未入库",
+    "保存位置",
+    "audit",
+    "文件落盘"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c5b9bc50bc5c913a2dbe",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-08T19:02:30.130741Z",
+  "valid_to": null
+}

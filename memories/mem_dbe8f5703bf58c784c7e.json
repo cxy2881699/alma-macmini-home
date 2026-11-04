@@ -1,0 +1,55 @@
+{
+  "conditions": "避免把 2026-10-18 晚间短暂可用或命令写入成功误记为该 MacBook 已长期稳定修复。",
+  "confidence": 0.86,
+  "content": "2026-10-18 晚 MacBook 代理在浏览器短暂可用后再次异常,说明当时“五台设备收官”的结论未被最终确认,不能把该 MacBook 状态视为稳定修复。",
+  "created_at": "2026-10-27T04:54:49.417821Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f90a16b26a8ab1d551fc",
+    "ent_f18082c6c564869030be",
+    "ent_c42dac5ae99195f63d24"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_d2cb6dbcd0c6043abf52",
+      "quote": "2026-10-18 晚 MacBook 代理在浏览器短暂可用后再次异常,说明当时“五台设备收官”的结论未被最终确认,不能把该 MacBook 状态视为稳定修复。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_dbe8f5703bf58c784c7e",
+  "is_temporary": false,
+  "keywords": [
+    "MacBook代理复发",
+    "7897",
+    "8118",
+    "MonoProxy诈尸",
+    "Clash Verge",
+    "10月18日未修复",
+    "MacBook 代理不稳定",
+    "五台设备收官未确认",
+    "YouTube 不通"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d2cb6dbcd0c6043abf52",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:54:49.417821Z",
+  "valid_to": null
+}

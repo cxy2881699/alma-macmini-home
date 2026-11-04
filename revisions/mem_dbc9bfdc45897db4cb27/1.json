@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-05T19:12:45.335909Z",
+  "id": "rev_19234e386031863a5f3b",
+  "memory": {
+    "conditions": "用户要求先从完整记忆体系审视四个机制，而不是立即写进 PRD。",
+    "confidence": 0.8,
+    "content": "在 PRD 早期设计上,用户偏好先暂缓写入文档,把关键机制放在完整 AI Memory 体系内反复推演冲突,再决定是否纳入。",
+    "created_at": "2026-10-05T19:12:45.335909Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_dbc9bfdc45897db4cb27",
+    "is_temporary": false,
+    "keywords": [
+      "审慎设计",
+      "机制冲突",
+      "架构评审",
+      "暂不入 PRD"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-05T19:12:45.335909Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_dbc9bfdc45897db4cb27",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,50 @@
+{
+  "conditions": "核查乳业客户的数据中台和营销数字化合作进展。",
+  "confidence": 0.8,
+  "content": "蓝河乳业与火山引擎合作的公开落地口径集中在消费者运营数字化,2022年被列为火山引擎数智平台服务客户,但未见可靠追加签约公告。",
+  "created_at": "2026-10-27T19:11:13.176519Z",
+  "derived_from": [],
+  "entities": [
+    "ent_b6e5f07139d194f4aaa5",
+    "ent_1d6d4c9d65e3d798daed"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_58bfeab114e9d0bc2f6a",
+      "quote": "蓝河乳业与火山引擎合作的公开落地口径集中在消费者运营数字化,2022年被列为火山引擎数智平台服务客户,但未见可靠追加签约公告。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_62ef63358758b21ee050",
+  "is_temporary": false,
+  "keywords": [
+    "蓝河乳业",
+    "消费者运营",
+    "数据中台",
+    "数智平台",
+    "O2O"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_58bfeab114e9d0bc2f6a",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T19:11:13.176519Z",
+  "valid_to": null
+}

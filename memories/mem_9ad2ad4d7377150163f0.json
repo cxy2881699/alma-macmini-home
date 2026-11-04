@@ -1,0 +1,53 @@
+{
+  "conditions": "用户希望记忆系统支持多个 Agent 共享并分析完整 PRD，而非只拿到摘要。",
+  "confidence": 0.8,
+  "content": "用户希望记忆系统支持跨 Agent 共享完整文档(如 PRD),而不仅是摘要,供其他 Agent 直接读取分析。",
+  "created_at": "2026-10-09T19:03:32.087217Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_204132bcd438ed41fedc",
+      "quote": "用户希望记忆系统支持跨 Agent 共享完整文档(如 PRD),而不仅是摘要,供其他 Agent 直接读取分析。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_9ad2ad4d7377150163f0",
+  "is_temporary": false,
+  "keywords": [
+    "跨Agent共享",
+    "文档读取",
+    "协作",
+    "完整文档共享",
+    "PRD共享",
+    "跨Agent文档",
+    "直接读取分析",
+    "非摘要"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_204132bcd438ed41fedc",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-10-09T19:03:32.087217Z",
+  "valid_to": null
+}

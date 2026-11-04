@@ -1,0 +1,52 @@
+{
+  "conditions": "修复 Codex CLI 启动问题时触发 macOS 安全机制",
+  "confidence": 0.95,
+  "content": "Agent 从 @openai/codex-darwin-arm64@0.114.0 npm 包手动解包补回 Codex ARM64 二进制后,macOS 弹出“codex was not opened because it contains malware”,并将该二进制隔离删除。",
+  "created_at": "2026-09-23T17:25:22.595411Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_91a8ea1810469466278d",
+      "quote": "Agent 从 @openai/codex-darwin-arm64@0.114.0 npm 包手动解包补回 Codex ARM64 二进制后,macOS 弹出“codex was not opened because it contains malware”,并将该二进制隔离删除。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_1cb2be7c3f382a9e0e31",
+  "is_temporary": false,
+  "keywords": [
+    "Gatekeeper",
+    "malware",
+    "恶意软件",
+    "Codex",
+    "隔离",
+    "删除",
+    "npm",
+    "二进制"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_91a8ea1810469466278d",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-23T17:25:22.595411Z",
+  "valid_to": null
+}

@@ -1,0 +1,68 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-29T19:02:12.684314Z",
+  "id": "rev_d71caed119c343851f5b",
+  "memory": {
+    "conditions": "用户询问改哪边更彻底以及未来云化、多人使用时如何避免同类 bug。",
+    "confidence": 0.86,
+    "content": "在记忆系统的架构取舍上,用户优先考虑未来云服务、多设备、多 Agent 和第三方接入时的彻底性与服务端防线,而不是只修当前本机客户端。",
+    "created_at": "2026-10-29T19:02:12.684314Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e",
+      "ent_1b0510f6e7579d8f62b3",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_16d2615f00ae766bb32b",
+        "quote": "在记忆系统的架构取舍上,用户优先考虑未来云服务、多设备、多 Agent 和第三方接入时的彻底性与服务端防线,而不是只修当前本机客户端。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_708286bbb9b8a607efa5",
+    "is_temporary": false,
+    "keywords": [
+      "多用户",
+      "第三方客户端",
+      "event_id 冲突",
+      "云端架构",
+      "服务端防线",
+      "多设备",
+      "多 Agent",
+      "第三方接入",
+      "云服务",
+      "不可信客户端"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_16d2615f00ae766bb32b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-29T19:02:12.684314Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_708286bbb9b8a607efa5",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

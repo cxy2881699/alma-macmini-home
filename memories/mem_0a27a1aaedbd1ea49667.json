@@ -1,0 +1,36 @@
+{
+  "conditions": "用户调研稳定使用Claude的方案",
+  "confidence": 0.85,
+  "content": "用户的核心诉求之一是稳定使用Claude/ChatGPT等按IP信誉风控的AI服务;机房IP(含DMIT)对Claude网页版无法保证,静态住宅/ISP代理IP才是稳定方案,且账号需固定出口国家、设备、时区。",
+  "created_at": "2026-10-27T05:32:19.153988Z",
+  "derived_from": [],
+  "entities": [
+    "ent_51b9c91560022845906c"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_0a27a1aaedbd1ea49667",
+  "is_temporary": false,
+  "keywords": [
+    "Claude风控",
+    "住宅IP",
+    "AI解锁",
+    "IP信誉",
+    "固定出口"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "review",
+  "status_reason": "migrated from old agent-memory (candidate)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:32:19.153988Z",
+  "valid_to": null
+}

@@ -1,0 +1,52 @@
+{
+  "conditions": "适用于用户为 2026-09-26 晚上与好友重聚挑选酒水的场景。",
+  "confidence": 0.7,
+  "content": "用户询问 2026-09-26 晚上与从美国回来、关系非常好的大学同学一起喝什么酒,Agent 建议柔和易饮的格兰杰经典 12 年或大学时常喝的酒并配怀旧零食。",
+  "created_at": "2026-09-25T08:33:50.211014Z",
+  "derived_from": [],
+  "entities": [
+    "ent_774067d2559ca01157a7"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_63c357d22847ac53220a",
+      "quote": "用户询问 2026-09-26 晚上与从美国回来、关系非常好的大学同学一起喝什么酒,Agent 建议柔和易饮的格兰杰经典 12 年或大学时常喝的酒并配怀旧零食。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_eef65f0e91012d52cb89",
+  "is_temporary": false,
+  "keywords": [
+    "大学同学",
+    "美国回来",
+    "重聚",
+    "喝酒",
+    "带酒",
+    "威士忌",
+    "格兰杰",
+    "下酒零食"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_63c357d22847ac53220a",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-25T08:33:50.211014Z",
+  "valid_to": null
+}

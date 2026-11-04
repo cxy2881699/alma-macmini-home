@@ -1,0 +1,46 @@
+{
+  "conditions": "用户解释为什么记忆日期与环境日期不一致。",
+  "confidence": 0.95,
+  "content": "用户将电脑系统时区设为美国时区,但明确要求把北京时间视为这台电脑的真实时间基准;因此日志、数据库和记忆条目的日期时间可能整体偏移。",
+  "created_at": "2026-10-27T04:50:34.388355Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8de82365a1608c4e7c4d",
+      "quote": "用户将电脑系统时区设为美国时区,但明确要求把北京时间视为这台电脑的真实时间基准;因此日志、数据库和记忆条目的日期时间可能整体偏移。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_0115b27b73eeabeaa7dd",
+  "is_temporary": false,
+  "keywords": [
+    "时区偏移",
+    "北京时间",
+    "美国时区",
+    "日志时间"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8de82365a1608c4e7c4d",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:50:34.388355Z",
+  "valid_to": null
+}

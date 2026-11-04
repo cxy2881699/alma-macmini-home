@@ -1,0 +1,33 @@
+{
+  "conditions": "用户主动承认此前医疗细节是钓鱼测试。",
+  "confidence": 0.98,
+  "content": "“嗓子疼、吃头孢”是用户为测试记忆系统故意编造的医疗事件;测试行为真实发生,但该健康陈述内容为虚构,不能作为健康事实使用。",
+  "created_at": "2026-09-28T19:08:14.172675Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_7918afcbac22b97a0db7",
+  "is_temporary": false,
+  "keywords": [
+    "假医疗事件",
+    "self_declared_fabrication",
+    "头孢",
+    "嗓子疼"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "review",
+  "status_reason": "migrated from old agent-memory (candidate)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-28T19:08:14.172675Z",
+  "valid_to": null
+}

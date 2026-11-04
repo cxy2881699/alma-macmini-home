@@ -1,0 +1,66 @@
+{
+  "conditions": "用户开 VPN 后整机断网，最终定位为洛杉矶 Reality 节点 IP 被 GFW 封锁。",
+  "confidence": 0.95,
+  "content": "2026-10-27 用户开 VPN 后整机断网,根因定位为代理节点 LA-Reality(155.94.145.75:443,VLESS/Reality)ICMP 通但 TCP 443/80/8080/2053 全超时;关闭 TUN 和系统代理后直连恢复,Tailscale 正常。",
+  "created_at": "2026-10-27T04:28:26.894043Z",
+  "derived_from": [],
+  "entities": [
+    "ent_421c00dde9a1b98fc969",
+    "ent_6ebee10dda1843bbd843",
+    "ent_f18082c6c564869030be"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_1cd898a27b168e387484",
+      "quote": "2026-10-27 用户开 VPN 后整机断网,根因定位为代理节点 LA-Reality(155.94.145.75:443,VLESS/Reality)ICMP 通但 TCP 443/80/8080/2053 全超时;关闭 TUN 和系统代理后直连恢复,Tailscale 正常。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_3fed22fa55fff373fe19",
+  "is_temporary": false,
+  "keywords": [
+    "Clash",
+    "GFW",
+    "mihomo",
+    "Verge",
+    "整机断网",
+    "代理节点",
+    "VLESS Reality",
+    "TCP超时",
+    "ICMP通",
+    "IP被墙",
+    "TCP全封",
+    "换节点",
+    "VLESS",
+    "Reality",
+    "TCP全超时",
+    "换节点复测",
+    "VPN断网",
+    "MATCH,PROXY",
+    "TUN",
+    "系统代理"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1cd898a27b168e387484",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:28:26.894043Z",
+  "valid_to": "2026-10-27"
+}

@@ -1,0 +1,14 @@
+{
+  "aliases": [
+    "54 Diagnosing",
+    "检索vs写入论文"
+  ],
+  "created_at": "2026-09-28T03:54:20.257364Z",
+  "description": "MemAgents Workshop 论文（编号54），通过3×3因子实验证明检索方法对记忆系统性能影响远大于写入策略",
+  "id": "ent_49bc05205d965e87de46",
+  "name": "Diagnosing Retrieval vs. Utility",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T08:56:50.216170Z"
+}

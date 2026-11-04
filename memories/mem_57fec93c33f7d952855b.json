@@ -1,0 +1,60 @@
+{
+  "conditions": "subagent 任务背景中明确描述用户在自研记忆系统并持续做文献综述",
+  "confidence": 0.85,
+  "content": "用户(宇哥)正在自研 Agent Memory 系统,项目名为 EVOLVING-MEMORY(有 PRD 文档),持续跟踪学术前沿作为设计输入:已有 ICLR 2026 MemAgents Workshop 约45篇综述,2026-09-29 又补充了近3个月49篇论文综述。",
+  "created_at": "2026-09-29T19:03:46.764736Z",
+  "derived_from": [],
+  "entities": [
+    "ent_e44cb152899e6702c87f",
+    "ent_9d3a8e426d91c52fb407"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_c3271c4575b61520f70e",
+      "quote": "用户(宇哥)正在自研 Agent Memory 系统,项目名为 EVOLVING-MEMORY(有 PRD 文档),持续跟踪学术前沿作为设计输入:已有 ICLR 2026 MemAgents Workshop 约45篇综述,2026-09-29 又补充了近3个月49篇论文综述。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_56b471b2ce769966e5ab",
+      "quote": "用户(宇哥)正在自研 Agent Memory 系统,项目名为 EVOLVING-MEMORY(有 PRD 文档),持续跟踪学术前沿作为设计输入:已有 ICLR 2026 MemAgents Workshop 约45篇综述,2026-09-29 又补充了近3个月49篇论文综述。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_57fec93c33f7d952855b",
+  "is_temporary": false,
+  "keywords": [
+    "自研项目",
+    "记忆系统",
+    "PRD",
+    "论文综述"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c3271c4575b61520f70e",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_56b471b2ce769966e5ab",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-29T19:03:46.764736Z",
+  "valid_to": null
+}

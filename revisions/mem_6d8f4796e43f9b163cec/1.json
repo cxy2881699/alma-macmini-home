@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:40:50.261327Z",
+  "id": "rev_6a7c074144a8007d0d17",
+  "memory": {
+    "conditions": "用户要求把 PRD 存入记忆系统供其他 Agent 评审",
+    "confidence": 0.85,
+    "content": "用户把记忆库当作跨 Agent 共享文档库使用,期望存入的 PRD 全文可被其他 Agent 直接读取,而非仅作为摘要被检索。",
+    "created_at": "2026-10-27T04:40:50.261327Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e",
+      "ent_0dd3ce8f5049183636d7",
+      "ent_a009e810e6646b0cf76b"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_204132bcd438ed41fedc",
+        "quote": "用户把记忆库当作跨 Agent 共享文档库使用,期望存入的 PRD 全文可被其他 Agent 直接读取,而非仅作为摘要被检索。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_6d8f4796e43f9b163cec",
+    "is_temporary": false,
+    "keywords": [
+      "跨Agent共享",
+      "全文读取",
+      "文档归档"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_204132bcd438ed41fedc",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:40:50.261327Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_6d8f4796e43f9b163cec",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

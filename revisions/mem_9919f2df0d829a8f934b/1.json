@@ -1,0 +1,57 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:48:38.001980Z",
+  "id": "rev_2f39b1597b12043735c1",
+  "memory": {
+    "conditions": "第一次模型切换看似启动但实际没跑，Agent 排查到 setsid 不存在。",
+    "confidence": 0.85,
+    "content": "macOS 上没有 setsid,依赖 setsid 的后台启动脚本会出现“假启动”(命令实际未运行、配置未改动);该场景应改用 nohup 或先改配置再由用户发消息触发验证。",
+    "created_at": "2026-10-27T04:48:38.001980Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8fc67c0d4c5d64da55b1",
+        "quote": "macOS 上没有 setsid,依赖 setsid 的后台启动脚本会出现“假启动”(命令实际未运行、配置未改动);该场景应改用 nohup 或先改配置再由用户发消息触发验证。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_9919f2df0d829a8f934b",
+    "is_temporary": false,
+    "keywords": [
+      "setsid",
+      "nohup",
+      "假启动",
+      "macOS",
+      "后台进程"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8fc67c0d4c5d64da55b1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:48:38.001980Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9919f2df0d829a8f934b",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

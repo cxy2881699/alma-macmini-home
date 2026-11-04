@@ -1,0 +1,77 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T18:27:57.196314Z",
+  "id": "rev_886644530f7533df3f11",
+  "memory": {
+    "conditions": "用户指出不能要求每个用户安装 Tailscale 后，讨论 agent-memory 对外产品化的公网接入架构。",
+    "confidence": 0.75,
+    "content": "agent-memory 产品化架构设想:memd 加公网 HTTPS 网关与域名(Let's Encrypt + Cloudflare),认证改为 per-user API Key 体系,安全边界改为 token+限速+审计,mem 客户端去掉 Tailscale 依赖、仍用一行 curl 安装。",
+    "created_at": "2026-09-23T18:27:57.196314Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_1c835edae2c668c35034",
+      "ent_1d371419cba281597331"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_876285daee49a79ec31a",
+        "quote": "agent-memory 产品化架构设想:memd 加公网 HTTPS 网关与域名(Let's Encrypt + Cloudflare),认证改为 per-user API Key 体系,安全边界改为 token+限速+审计,mem 客户端去掉 Tailscale 依赖、仍用一行 curl 安装。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_8fc67c0d4c5d64da55b1",
+        "quote": "agent-memory 产品化架构设想:memd 加公网 HTTPS 网关与域名(Let's Encrypt + Cloudflare),认证改为 per-user API Key 体系,安全边界改为 token+限速+审计,mem 客户端去掉 Tailscale 依赖、仍用一行 curl 安装。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_ffdb95ec562837599d13",
+    "is_temporary": false,
+    "keywords": [
+      "公网API",
+      "API网关",
+      "HTTPS域名",
+      "Let's Encrypt",
+      "Cloudflare",
+      "per-user API Key",
+      "限速审计",
+      "去Tailscale",
+      "客户端瘦身",
+      "P3产品化"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_876285daee49a79ec31a",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_8fc67c0d4c5d64da55b1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-23T18:27:57.196314Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ffdb95ec562837599d13",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

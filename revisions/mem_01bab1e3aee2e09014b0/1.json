@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-09T19:01:42.831756Z",
+  "id": "rev_c40977da863da524a225",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-24：用户围绕已部署的 agent-memory 回顾故障史、验证 Codex 自动召回与搜索性能,并与 OpenClaw 讨论未来从 Tailscale 私网模式转向公网 HTTP+Token 的产品化方案。",
+    "created_at": "2026-10-09T19:01:42.831756Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_d1ac9ffcb12bebc57788",
+        "quote": "2026-09-24：用户围绕已部署的 agent-memory 回顾故障史、验证 Codex 自动召回与搜索性能,并与 OpenClaw 讨论未来从 Tailscale 私网模式转向公网 HTTP+Token 的产品化方案。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_01bab1e3aee2e09014b0",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d1ac9ffcb12bebc57788",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-09T19:01:42.831756Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_01bab1e3aee2e09014b0",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

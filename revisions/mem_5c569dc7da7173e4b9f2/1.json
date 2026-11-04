@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-28T19:05:17.684415Z",
+  "id": "rev_b9ec4775f8e90f366ef8",
+  "memory": {
+    "conditions": "用户询问两种模式在部署、使用、性能上的差别。",
+    "confidence": 0.86,
+    "content": "memd 从 Tailscale 切到公网 HTTP+Token 的应用层改造成本较低,主要新增工作集中在网关、证书、认证分级、限速、审计和 CDN/WAF。",
+    "created_at": "2026-09-28T19:05:17.684415Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8fc67c0d4c5d64da55b1",
+        "quote": "memd 从 Tailscale 切到公网 HTTP+Token 的应用层改造成本较低,主要新增工作集中在网关、证书、认证分级、限速、审计和 CDN/WAF。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_5c569dc7da7173e4b9f2",
+    "is_temporary": false,
+    "keywords": [
+      "公网化改造",
+      "HTTPS证书",
+      "token分级",
+      "WAF",
+      "运维成本"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8fc67c0d4c5d64da55b1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-28T19:05:17.684415Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_5c569dc7da7173e4b9f2",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

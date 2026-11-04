@@ -1,0 +1,48 @@
+{
+  "conditions": "Codex 解释部署排障中重启 Gateway 后出现的短暂异常表现。",
+  "confidence": 0.78,
+  "content": "重启 OpenClaw Gateway 会使飞书 WebSocket 短暂断开,可能造成服务整体挂掉的假象;新进程启动后插件、飞书连接和记忆召回可恢复。",
+  "created_at": "2026-10-27T05:13:24.987245Z",
+  "derived_from": [],
+  "entities": [
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_e255c16e5b36c919f3a5",
+      "quote": "重启 OpenClaw Gateway 会使飞书 WebSocket 短暂断开,可能造成服务整体挂掉的假象;新进程启动后插件、飞书连接和记忆召回可恢复。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_5b7eb9dfb9026b1b6cab",
+  "is_temporary": false,
+  "keywords": [
+    "Gateway 重启",
+    "飞书断开",
+    "WebSocket",
+    "短暂不可用"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_e255c16e5b36c919f3a5",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:13:24.987245Z",
+  "valid_to": null
+}

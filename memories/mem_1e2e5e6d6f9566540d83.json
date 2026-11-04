@@ -1,0 +1,50 @@
+{
+  "conditions": "用户说明当前系统先解决工作生活，未来商业层面向赛博生命能力。",
+  "confidence": 0.86,
+  "content": "用户的开源/商业化边界进一步明确:开源当前基础记忆系统解决工作生活问题,商业杀手锏放在能塑造赛博生命的增强记忆能力上。",
+  "created_at": "2026-10-27T05:14:55.989727Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_5c2b03a36555ed887023",
+      "quote": "用户的开源/商业化边界进一步明确:开源当前基础记忆系统解决工作生活问题,商业杀手锏放在能塑造赛博生命的增强记忆能力上。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_1e2e5e6d6f9566540d83",
+  "is_temporary": false,
+  "keywords": [
+    "开源底座",
+    "收费增强层",
+    "商业化方向",
+    "杀手锏",
+    "成长引擎"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_5c2b03a36555ed887023",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:14:55.989727Z",
+  "valid_to": null
+}

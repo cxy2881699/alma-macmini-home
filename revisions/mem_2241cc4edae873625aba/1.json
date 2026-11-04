@@ -1,0 +1,65 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-24T03:20:17.224335Z",
+  "id": "rev_5df9b281cbc70172e498",
+  "memory": {
+    "conditions": "Agent 建议把 memd 公网入口挂到用户已有域名 cheaptokens.cn 下。",
+    "confidence": 0.85,
+    "content": "用户拥有 cheaptokens.cn 域名,Agent 提议使用 mem.cheaptokens.cn 作为 memd 公网入口,并配置 Caddy、Cloudflare 和 token 分级。",
+    "created_at": "2026-09-24T03:20:17.224335Z",
+    "derived_from": [],
+    "entities": [
+      "ent_1b0510f6e7579d8f62b3",
+      "ent_bc208ee71f5cabb8083c"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8fc67c0d4c5d64da55b1",
+        "quote": "用户拥有 cheaptokens.cn 域名,Agent 提议使用 mem.cheaptokens.cn 作为 memd 公网入口,并配置 Caddy、Cloudflare 和 token 分级。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_2241cc4edae873625aba",
+    "is_temporary": false,
+    "keywords": [
+      "公网域名",
+      "公网入口",
+      "token分级",
+      "域名",
+      "cheaptokens.cn",
+      "mem.cheaptokens.cn",
+      "Caddy",
+      "Cloudflare",
+      "域名入口",
+      "token 分级"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8fc67c0d4c5d64da55b1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-24T03:20:17.224335Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_2241cc4edae873625aba",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

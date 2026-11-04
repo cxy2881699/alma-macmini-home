@@ -1,0 +1,75 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-05T19:01:53.387077Z",
+  "id": "rev_28d7314f79b3e6c626b3",
+  "memory": {
+    "conditions": "用户在新会话信任三个钩子后，仍需通过真实消息和审计确认自动召回链路。",
+    "confidence": 0.86,
+    "content": "Codex CLI 三个 agent-memory 钩子显示 active 后,仍需在 CLI 中实际发送消息并检查服务端 recall=ok,才能证明自动召回链路真正触发。",
+    "created_at": "2026-10-05T19:01:53.387077Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_3e8b16a61a76158abaf9",
+        "quote": "Codex CLI 三个 agent-memory 钩子显示 active 后,仍需在 CLI 中实际发送消息并检查服务端 recall=ok,才能证明自动召回链路真正触发。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_304da7e6d5a3ccb01d38",
+    "is_temporary": false,
+    "keywords": [
+      "hook active",
+      "实际触发",
+      "recall ok",
+      "验收",
+      "Codex recall",
+      "hooks active",
+      "审计记录",
+      "result=ok",
+      "自动召回验证",
+      "hooks trusted active",
+      "UserPromptSubmit",
+      "PostToolUse",
+      "Stop",
+      "实际触发验证",
+      "hooks trusted",
+      "active不等于触发",
+      "recall=ok",
+      "实际发消息验证",
+      "Codex CLI"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_3e8b16a61a76158abaf9",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-05T19:01:53.387077Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_304da7e6d5a3ccb01d38",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

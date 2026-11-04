@@ -1,0 +1,33 @@
+{
+  "conditions": "助手将当晚讨论关联到此前路线",
+  "confidence": 0.6,
+  "content": "该愿景与 2026-09-26 讨论的“赛博生命记忆”一脉相承,当时已有开源底座+商业成长引擎分层的思路可复用。",
+  "created_at": "2026-10-06T19:04:03.474745Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_cad4774623ef504947e1",
+  "is_temporary": false,
+  "keywords": [
+    "9/26",
+    "开源",
+    "成长引擎",
+    "愿景"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-06T19:04:03.474745Z",
+  "valid_to": null
+}

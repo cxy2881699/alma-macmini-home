@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-01T19:12:23.875566Z",
+  "id": "rev_6703163afe57322fbb66",
+  "memory": {
+    "conditions": "用户揭秘假医疗事件后确立的记忆处理原则。",
+    "confidence": 0.9,
+    "content": "用户确立记忆系统处理原则:任何原始记忆都不应物理删除,被声明为虚构的内容只做标记(经历真实、内容虚构),派生认识标记失效原因。",
+    "created_at": "2026-10-01T19:12:23.875566Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9d3a8e426d91c52fb407"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_be0f5c9cbd2f7d238bf5",
+    "is_temporary": false,
+    "keywords": [
+      "标记不删除",
+      "测试注入",
+      "信任衰减",
+      "原始记忆不删除",
+      "双标记",
+      "经历真实内容虚构",
+      "self_declared_fabrication",
+      "FR-11",
+      "FR-04",
+      "标记失效"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-01T19:12:23.875566Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_be0f5c9cbd2f7d238bf5",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

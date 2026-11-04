@@ -1,0 +1,49 @@
+{
+  "conditions": "Agent 在排查全机断网时发现兜底规则把所有流量都送进失效代理。",
+  "confidence": 0.85,
+  "content": "用户当前 Clash 配置末尾的 MATCH,PROXY 会让国内流量也无差别走代理;代理节点失效时会导致国内网站一并不可用,增加 GEOIP,CN,DIRECT 可降低该风险,但截至对话末尾尚未确认修改。",
+  "created_at": "2026-10-27T05:18:52.135020Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f18082c6c564869030be"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_1cd898a27b168e387484",
+      "quote": "用户当前 Clash 配置末尾的 MATCH,PROXY 会让国内流量也无差别走代理;代理节点失效时会导致国内网站一并不可用,增加 GEOIP,CN,DIRECT 可降低该风险,但截至对话末尾尚未确认修改。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_ddc0d1637594ffdd138f",
+  "is_temporary": false,
+  "keywords": [
+    "分流规则",
+    "国内直连",
+    "MATCH PROXY",
+    "GEOIP CN",
+    "代理兜底"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1cd898a27b168e387484",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:18:52.135020Z",
+  "valid_to": null
+}

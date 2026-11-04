@@ -1,0 +1,43 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "该小红书帖子的评论区有人询问 token 和实现细节,说明读者对其技术实现感兴趣。",
+  "created_at": "2026-09-25T08:05:17.602514Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9376053e7c997878dffe"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_86e36d3877d091b5c09b",
+      "quote": "该小红书帖子的评论区有人询问 token 和实现细节,说明读者对其技术实现感兴趣。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_87fdc86bec22efe9bdf7",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_86e36d3877d091b5c09b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-25T08:05:17.602514Z",
+  "valid_to": null
+}

@@ -1,0 +1,46 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:46:29.985273Z",
+  "id": "rev_4cbf93d88232ad5a7d4f",
+  "memory": {
+    "conditions": "用户明确当前系统先解决工作生活，未来靠成长型记忆形成商业壁垒。",
+    "confidence": 0.85,
+    "content": "用户认可'开源完整记忆底座+商业成长引擎/运营平台'的分层,并把'能塑造赛博生命的 Agent 记忆'定位为核心商业杀手锏。",
+    "created_at": "2026-10-27T04:46:29.985273Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_e33673c977318f6acd2f",
+    "is_temporary": false,
+    "keywords": [
+      "开源",
+      "商业化",
+      "杀手锏",
+      "成长引擎"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:46:29.985273Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e33673c977318f6acd2f",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

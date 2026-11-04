@@ -1,0 +1,128 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:20:03.808891Z",
+  "id": "rev_1a8378151e367b7902f3",
+  "memory": {
+    "conditions": "适用于后续继续排查 Mac 代理不通、浏览器无法访问外网或终端代理变量残留时。",
+    "confidence": 0.75,
+    "content": "用户排查 Clash Verge 代理时,系统代理/TUN 未接管且终端残留 8118、8119 代理环境变量,Agent 指导清理变量并继续验证 TUN 模式。",
+    "created_at": "2026-10-27T04:20:03.808891Z",
+    "derived_from": [],
+    "entities": [
+      "ent_f18082c6c564869030be"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_9b89f58175c1b2aeb7e1",
+        "quote": "用户排查 Clash Verge 代理时,系统代理/TUN 未接管且终端残留 8118、8119 代理环境变量,Agent 指导清理变量并继续验证 TUN 模式。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_f42fd72f43db274ce516",
+        "quote": "用户排查 Clash Verge 代理时,系统代理/TUN 未接管且终端残留 8118、8119 代理环境变量,Agent 指导清理变量并继续验证 TUN 模式。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_ccd17ab95f8d090891a6",
+        "quote": "用户排查 Clash Verge 代理时,系统代理/TUN 未接管且终端残留 8118、8119 代理环境变量,Agent 指导清理变量并继续验证 TUN 模式。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_b609b98e2176b3bff378",
+        "quote": "用户排查 Clash Verge 代理时,系统代理/TUN 未接管且终端残留 8118、8119 代理环境变量,Agent 指导清理变量并继续验证 TUN 模式。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_3656396aede1ecca622c",
+        "quote": "用户排查 Clash Verge 代理时,系统代理/TUN 未接管且终端残留 8118、8119 代理环境变量,Agent 指导清理变量并继续验证 TUN 模式。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_99f1279db034d4a6a0a2",
+        "quote": "用户排查 Clash Verge 代理时,系统代理/TUN 未接管且终端残留 8118、8119 代理环境变量,Agent 指导清理变量并继续验证 TUN 模式。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_21f5a5863fc6f61fded0",
+        "quote": "用户排查 Clash Verge 代理时,系统代理/TUN 未接管且终端残留 8118、8119 代理环境变量,Agent 指导清理变量并继续验证 TUN 模式。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_3e522264c317550f55c9",
+    "is_temporary": false,
+    "keywords": [
+      "Clash Verge",
+      "系统代理",
+      "TUN模式",
+      "8118",
+      "8119",
+      "环境变量",
+      "curl",
+      "YouTube"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_9b89f58175c1b2aeb7e1",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_f42fd72f43db274ce516",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_ccd17ab95f8d090891a6",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_b609b98e2176b3bff378",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_3656396aede1ecca622c",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_99f1279db034d4a6a0a2",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_21f5a5863fc6f61fded0",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-10-27T04:20:03.808891Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_3e522264c317550f55c9",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

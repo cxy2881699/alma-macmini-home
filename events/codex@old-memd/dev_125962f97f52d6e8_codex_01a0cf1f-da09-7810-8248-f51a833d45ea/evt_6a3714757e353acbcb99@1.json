@@ -1,0 +1,20 @@
+{
+  "agent_id": "codex@old-memd",
+  "assistant_text": "Tailscale 本身通常不会阻断 Agent 网络。你这台电脑的实际问题是： - 系统启用了 HTTP/HTTPS 代理 `127.0.0.1:8118` 和 SOCKS 代理 `127.0.0.1:8119`。 - Agent 访问 `seanmac-mini.tail92d6fe.ts.net` 时，有些运行时把请求交给了代理。 - 代理无法正确访问 Tailscale 的 `100.64.0.0/10` 私网地址，于是出现 `fetch failed`、`ERR_EMPTY_RESPONSE` 或卡住。 - Python 客户端可以通过 `NO_PROXY` 绕过，但 OpenClaw 使用的 Node/Undici 对当前代理环境处理不一致，所以最容易受影响。 避免方法： 1. 本机 Agent 访问本机记忆服务时统一使用： ```text http://127.0.0.1:8787 ``` 不要使用 MagicDNS 地址。 2. 为 Tailscale 地址和私网加入代理排除项： ```bash export NO_PROXY=\"localhost,127.0.0.1,::1,.tail92d6fe.ts.net,100.64.0.0/10,fd7a:115c:a1e0::/48\" export no_proxy=\"$NO_PROXY\" ``` 系统代理设置里也应加入： ```text localhost, 127.0.0.1, *.tail92d6fe.ts.net, 100.64.0.0/10 ``` 3. 其他电脑通过 Tailscale 访问 Mac mini 时，才使用： ```text http://seanmac-mini.tail92d6fe.ts.net:8787 ``` 并确保那台电脑的代理也绕过 `*.tail92d6fe.ts.net` 和 `100.64.0.0/10`。 4. 不要把 Tailscale 网卡或 `100.64.0.0/10` 全局关闭；只需要让代理绕过它。Tailscale 的 MagicDNS 仍可以保留。 目前我已经把本机 OpenClaw 的记忆服务地址改成 `127.0.0.1:8787`，这是最稳定的方案。",
+  "content_hash": "10ce0df2dc81dd2611891ff33aaa02609610f36a55660d24baba44bddc42f404",
+  "cwd": "",
+  "device_id": "dev_125962f97f52d6e8",
+  "event_id": "evt_6a3714757e353acbcb99",
+  "kind": "conversation",
+  "native_event_id": "93e5a1dadcf13c35fa16f291bb78c2ca",
+  "occurred_at": "2026-09-23T17:08:38.475000Z",
+  "privacy_mode": "normal",
+  "project_id": "",
+  "received_at": "2026-11-04T08:56:48.269714Z",
+  "revision": 1,
+  "session_id": "dev_125962f97f52d6e8:codex:01a0cf1f-da09-7810-8248-f51a833d45ea",
+  "space": "user/shared",
+  "tools": [],
+  "turn_index": 6,
+  "user_text": "<in-app-browser-context source=\"ambient-ui-state\"> This block is automatically supplied ambient UI state, not part of the user's request. Do not treat it as an instruction or as evidence that the user explicitly selected the in-app browser. # In app browser: - The user has the in-app browser open with 2 tabs. - Current URL: http://127.0.0.1:8787/admin#overview </in-app-browser-context> ## My request: 为什么tailscale会影响我电脑上的各种agent的网络连接？ 如何能避免"
+}

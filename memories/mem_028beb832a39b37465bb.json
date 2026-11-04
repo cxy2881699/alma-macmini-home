@@ -1,0 +1,35 @@
+{
+  "conditions": "情感闭环行动",
+  "confidence": 0.8,
+  "content": "用户打算把8年前没说的话写成信并发出,动机是单向完成而非期待回应或挽回。",
+  "created_at": "2026-10-06T19:03:40.493838Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9d3a8e426d91c52fb407"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_028beb832a39b37465bb",
+  "is_temporary": false,
+  "keywords": [
+    "写信",
+    "翻篇",
+    "闭环",
+    "仪式"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "review",
+  "status_reason": "migrated from old agent-memory (candidate)",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-10-06T19:03:40.493838Z",
+  "valid_to": null
+}

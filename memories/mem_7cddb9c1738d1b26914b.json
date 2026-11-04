@@ -1,0 +1,36 @@
+{
+  "conditions": "用户揭秘假医疗事件后，讨论记忆系统应如何处理虚构内容。",
+  "confidence": 0.95,
+  "content": "用户确立记忆处理原则:原始记忆不做物理删除,被声明为虚构或失效的内容只做标记,派生认识相应失效。",
+  "created_at": "2026-09-28T19:08:14.172675Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_7cddb9c1738d1b26914b",
+  "is_temporary": false,
+  "keywords": [
+    "原始记忆",
+    "只标记不删除",
+    "记忆纠正",
+    "测试编造"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-28T19:08:14.172675Z",
+  "valid_to": null
+}

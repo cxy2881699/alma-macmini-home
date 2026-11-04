@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-26：凌晨继续排查 agent-memory 静默丢事件问题,复审判定服务端去重改造不能定稿;下午确认 Codex CLI hooks 已信任、检查记忆入库与召回,并深入讨论可进化记忆、赛博生命、开源底座与商业成长层。",
+  "created_at": "2026-10-27T05:07:04.557388Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_16d2615f00ae766bb32b",
+      "quote": "2026-09-26：凌晨继续排查 agent-memory 静默丢事件问题,复审判定服务端去重改造不能定稿;下午确认 Codex CLI hooks 已信任、检查记忆入库与召回,并深入讨论可进化记忆、赛博生命、开源底座与商业成长层。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_19cccd27c4e4a8a03b9c",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_16d2615f00ae766bb32b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-27T05:07:04.557388Z",
+  "valid_to": null
+}

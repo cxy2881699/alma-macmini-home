@@ -1,0 +1,59 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-28T19:02:32.373708Z",
+  "id": "rev_a56f4d378558384e2930",
+  "memory": {
+    "conditions": "用户要求 Codex 将可进化记忆系统 PRD 存入记忆系统，以便其他 Agent 读取评审。",
+    "confidence": 0.82,
+    "content": "用户将“存入记忆系统供其他 Agent 读取”理解为跨 Agent 共享资料的正式归档动作,而不只是保存到当前会话或本机文件。",
+    "created_at": "2026-10-28T19:02:32.373708Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_204132bcd438ed41fedc",
+        "quote": "用户将“存入记忆系统供其他 Agent 读取”理解为跨 Agent 共享资料的正式归档动作,而不只是保存到当前会话或本机文件。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_6a278cc66138f9964804",
+    "is_temporary": false,
+    "keywords": [
+      "跨Agent共享",
+      "文档归档",
+      "PRD全文",
+      "记忆库"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_204132bcd438ed41fedc",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-28T19:02:32.373708Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_6a278cc66138f9964804",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

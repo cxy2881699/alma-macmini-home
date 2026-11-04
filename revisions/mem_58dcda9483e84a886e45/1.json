@@ -1,0 +1,46 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-28T04:23:32.882684Z",
+  "id": "rev_794178807b501ab63e03",
+  "memory": {
+    "conditions": "用户揭秘9/27医疗事件为记忆测试后确立的固定处理规则",
+    "confidence": 0.9,
+    "content": "记忆系统处理规则已确认:用户声明为测试编造的假记忆不删除原始记录,只标记\"经历真实、内容虚构(测试目的)\"并使派生认识失效;信任衰减新增 self_declared_fabrication 来源。",
+    "created_at": "2026-09-28T04:23:32.882684Z",
+    "derived_from": [],
+    "entities": [
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_58dcda9483e84a886e45",
+    "is_temporary": false,
+    "keywords": [
+      "假记忆",
+      "不删除",
+      "测试标记",
+      "self_declared_fabrication",
+      "信任衰减"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-28T04:23:32.882684Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_58dcda9483e84a886e45",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

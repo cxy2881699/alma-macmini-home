@@ -1,0 +1,63 @@
+{
+  "conditions": "用于排查 2026-09-26 凌晨记忆事件被静默丢弃及服务端改造为何不能定稿。",
+  "confidence": 0.9,
+  "content": "2026-09-26 凌晨的服务端去重改造被复审判定为不能定稿:相同 native_turn_id 不同内容会原地替换,可能把本应并存的两轮误覆盖;需等 OpenClaw 客户端修正身份生成后再审。",
+  "created_at": "2026-10-27T04:31:50.411869Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e",
+    "ent_1b0510f6e7579d8f62b3",
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_16d2615f00ae766bb32b",
+      "quote": "2026-09-26 凌晨的服务端去重改造被复审判定为不能定稿:相同 native_turn_id 不同内容会原地替换,可能把本应并存的两轮误覆盖;需等 OpenClaw 客户端修正身份生成后再审。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_1105c43a11fa3152c824",
+  "is_temporary": false,
+  "keywords": [
+    "upsert 误覆盖",
+    "inserted:0",
+    "conflict",
+    "replaced:1",
+    "event_id 冲突",
+    "OpenClaw 客户端",
+    "memd 去重",
+    "OpenClaw插件",
+    "silent drop",
+    "event_id冲突",
+    "native_turn_id",
+    "误覆盖",
+    "upsert",
+    "去重改造",
+    "OpenClaw客户端"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_16d2615f00ae766bb32b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:31:50.411869Z",
+  "valid_to": null
+}

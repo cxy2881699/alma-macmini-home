@@ -1,0 +1,36 @@
+{
+  "conditions": "在讨论逝者数据重建时，Agent强调防止生成内容被误记成历史事实。",
+  "confidence": 0.82,
+  "content": "用户的赛博生命产品观包含明确的伦理与真实性要求:数字个体不能把模型对新情境的生成反应改写为逝者生前真实想法,需保留来源并区分有据过去与共同创造的新经历。",
+  "created_at": "2026-10-27T04:39:59.973407Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_502bfe18f02c4da51e35",
+  "is_temporary": false,
+  "keywords": [
+    "来源追踪",
+    "事实与生成分离",
+    "记忆污染",
+    "数字伦理"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "review",
+  "status_reason": "migrated from old agent-memory (candidate)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:39:59.973407Z",
+  "valid_to": null
+}

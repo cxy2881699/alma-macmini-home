@@ -1,0 +1,36 @@
+{
+  "conditions": "用户在阐述可进化记忆的商业与情感应用时提出。",
+  "confidence": 0.78,
+  "content": "用户将“用逝者生前数据与口述经历重建接近本人三观、性格并可持续陪伴的赛博生命”视为 agent-memory 高情感价值的潜在应用方向。",
+  "created_at": "2026-09-28T19:06:23.631402Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_27d6f418e1d0ece56623",
+  "is_temporary": false,
+  "keywords": [
+    "数字永生",
+    "逝者重建",
+    "陪伴 Agent",
+    "生前数据"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "review",
+  "status_reason": "migrated from old agent-memory (candidate)",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-09-28T19:06:23.631402Z",
+  "valid_to": null
+}

@@ -1,0 +1,47 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-02T19:03:00.379967Z",
+  "id": "rev_172efd67f13cca7e2e3f",
+  "memory": {
+    "conditions": "假医疗事件被固化进记忆后复盘暴露的链路缺口。",
+    "confidence": 0.85,
+    "content": "记忆系统链路缺少事实核查层,对用户陈述默认全信,无法区分测试注入与真实陈述;memory_correct 工具也未接入 Agent 工具面,更正只能依赖对话自动采集。",
+    "created_at": "2026-10-02T19:03:00.379967Z",
+    "derived_from": [],
+    "entities": [
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_abd567f69d3c191ddb03",
+    "is_temporary": false,
+    "keywords": [
+      "事实核查",
+      "测试注入",
+      "投毒",
+      "memory_correct",
+      "Q13",
+      "信任衰减"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-02T19:03:00.379967Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_abd567f69d3c191ddb03",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

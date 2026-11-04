@@ -1,0 +1,66 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:39:52.982006Z",
+  "id": "rev_caba01cba0f7ac451eb5",
+  "memory": {
+    "conditions": "适用于复盘 agent-memory 部署后的故障链和后续排错经验。",
+    "confidence": 0.7,
+    "content": "用户要求回顾 agent-memory 部署后早期连续出现的问题,Agent 汇总了代理、OpenClaw 配置、Gateway 重启、Codex CLI、自动召回验证、管理界面、测试数据和时区等多层故障。",
+    "created_at": "2026-09-23T17:39:52.982006Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_b1d51f89b3518adf7781",
+      "ent_9f82bdbcda91e1775def",
+      "ent_421c00dde9a1b98fc969",
+      "ent_3d2f68a038ff0d2b8362"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_e255c16e5b36c919f3a5",
+        "quote": "用户要求回顾 agent-memory 部署后早期连续出现的问题,Agent 汇总了代理、OpenClaw 配置、Gateway 重启、Codex CLI、自动召回验证、管理界面、测试数据和时区等多层故障。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_102c372af338ebf777ae",
+    "is_temporary": false,
+    "keywords": [
+      "部署故障",
+      "代理劫持",
+      "Tailscale",
+      "OpenClaw hooks",
+      "Gateway 重启",
+      "Codex CLI",
+      "自动召回",
+      "管理界面"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_e255c16e5b36c919f3a5",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-23T17:39:52.982006Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_102c372af338ebf777ae",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

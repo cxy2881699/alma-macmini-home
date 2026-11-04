@@ -1,0 +1,54 @@
+{
+  "conditions": "用户在飞书侧长时间未收到回复，误判记忆系统或 OpenClaw 宕机。",
+  "confidence": 0.7,
+  "content": "用户以为 OpenClaw 又挂了;Agent 检查确认 Gateway、memd 与记忆插件均正常,延迟来自写调研报告和队列消息处理,并非死机。",
+  "created_at": "2026-09-23T18:17:35.525564Z",
+  "derived_from": [],
+  "entities": [
+    "ent_22f290112c9557d215ea",
+    "ent_4488e0fdf8d04896269e",
+    "ent_1b0510f6e7579d8f62b3",
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_1cd898a27b168e387484",
+      "quote": "用户以为 OpenClaw 又挂了;Agent 检查确认 Gateway、memd 与记忆插件均正常,延迟来自写调研报告和队列消息处理,并非死机。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_c2147787edce77d75296",
+  "is_temporary": false,
+  "keywords": [
+    "OpenClaw",
+    "服务状态",
+    "回复延迟",
+    "Gateway",
+    "memd",
+    "插件",
+    "飞书"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1cd898a27b168e387484",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-23T18:17:35.525564Z",
+  "valid_to": null
+}

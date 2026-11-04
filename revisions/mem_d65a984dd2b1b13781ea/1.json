@@ -1,0 +1,77 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-03T19:02:27.660857Z",
+  "id": "rev_7faacd7910ff2b2c8928",
+  "memory": {
+    "conditions": "处理新生成 PRD 未入库问题时，需要分别核查文件是否保存以及内容是否写入记忆库。",
+    "confidence": 0.78,
+    "content": "排查新 PRD 未入库时,应先区分“生成文件已落盘”和“内容已写入记忆库”两条链路,避免把本机旧 PRD 误报为本次新 PRD。",
+    "created_at": "2026-10-03T19:02:27.660857Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_13a7ceff9826166f66a5",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_c5b9bc50bc5c913a2dbe",
+        "quote": "排查新 PRD 未入库时,应先区分“生成文件已落盘”和“内容已写入记忆库”两条链路,避免把本机旧 PRD 误报为本次新 PRD。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_d65a984dd2b1b13781ea",
+    "is_temporary": false,
+    "keywords": [
+      "audit",
+      "旧PRD",
+      "文件存在但未写库",
+      "审计无记录",
+      "排查顺序",
+      "PRD",
+      "未入库",
+      "落盘",
+      "写入记忆库",
+      "admin audit",
+      "audit排查",
+      "链路区分",
+      "PRD未入库",
+      "文件落盘",
+      "记忆写入",
+      "audit页面",
+      "ceo-os",
+      "保存位置",
+      "两条链路",
+      "PRD保存位置"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_c5b9bc50bc5c913a2dbe",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-03T19:02:27.660857Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_d65a984dd2b1b13781ea",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

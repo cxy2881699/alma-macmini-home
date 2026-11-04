@@ -1,0 +1,78 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:30:32.896960Z",
+  "id": "rev_6a9815bc365ebf73dca2",
+  "memory": {
+    "conditions": "同日稍后终端 Codex CLI 的记忆 hook 完成真实闭环，但该结论不能外推到桌面 Codex。",
+    "confidence": 0.9,
+    "content": "2026-09-24 凌晨 Codex CLI 的 agent-memory hook 已完成真实闭环:对话前 recall、对话保存和后台记忆卡片生成均被服务端确认;这不等同于桌面 Codex 窗口已恢复。",
+    "created_at": "2026-10-27T04:30:32.896960Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_4488e0fdf8d04896269e",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_91a8ea1810469466278d",
+        "quote": "2026-09-24 凌晨 Codex CLI 的 agent-memory hook 已完成真实闭环:对话前 recall、对话保存和后台记忆卡片生成均被服务端确认;这不等同于桌面 Codex 窗口已恢复。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_b920a0b921da00c6c3ae",
+        "quote": "2026-09-24 凌晨 Codex CLI 的 agent-memory hook 已完成真实闭环:对话前 recall、对话保存和后台记忆卡片生成均被服务端确认;这不等同于桌面 Codex 窗口已恢复。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_e571df2c20e3886d8d74",
+    "is_temporary": false,
+    "keywords": [
+      "Codex CLI",
+      "hook",
+      "闭环",
+      "审计",
+      "Codex CLI 闭环",
+      "recall",
+      "capture",
+      "记忆卡片",
+      "桌面端未验证",
+      "2026-09-24"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_91a8ea1810469466278d",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_b920a0b921da00c6c3ae",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:30:32.896960Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e571df2c20e3886d8d74",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,59 @@
+{
+  "conditions": "适用于用户后续继续整理火山引擎汽车行业合作、客户案例或商务材料时。",
+  "confidence": 0.7,
+  "content": "用户派出 subagent 系统调研火山引擎与广汽、奔驰中国、岚图、四维图新、赛力斯凤凰、东风、奇瑞的公开战略合作稿,并要求区分签约计划与实际落地。",
+  "created_at": "2026-10-27T18:35:13.611211Z",
+  "derived_from": [],
+  "entities": [
+    "ent_b4a085894df92a90957d",
+    "ent_2143b5f3e888b501cc3c",
+    "ent_7eb36e87c3f9406c9215",
+    "ent_efece682195ff5999c2b",
+    "ent_700816e920bebe421d7a",
+    "ent_02d36becfe6f60ace7bf",
+    "ent_1002d231aa8e29c9351b",
+    "ent_7d1a8b2d0370b729952b"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_d4ea596374d100c7cd4f",
+      "quote": "用户派出 subagent 系统调研火山引擎与广汽、奔驰中国、岚图、四维图新、赛力斯凤凰、东风、奇瑞的公开战略合作稿,并要求区分签约计划与实际落地。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_55e3b37ea3a333ab9b4f",
+  "is_temporary": false,
+  "keywords": [
+    "火山引擎",
+    "字节跳动",
+    "汽车企业",
+    "战略合作",
+    "签约",
+    "落地",
+    "公开PR",
+    "subagent调研"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d4ea596374d100c7cd4f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-10-27T18:35:13.611211Z",
+  "valid_to": null
+}

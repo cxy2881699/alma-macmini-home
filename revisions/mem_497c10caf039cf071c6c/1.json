@@ -1,0 +1,71 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:35:08.814905Z",
+  "id": "rev_789c7a1508e33d318753",
+  "memory": {
+    "conditions": "区分事件已入库与其他 Agent 能否通过普通检索拿到全文。",
+    "confidence": 0.82,
+    "content": "截至 2026-09-27 19:55,EVOLVING-MEMORY-PRD-v0.1 已通过全文事件形式进入记忆库,但这只证明事件归档成功,不证明普通记忆检索会向其他 Agent 返回全文。",
+    "created_at": "2026-10-27T05:35:08.814905Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_4488e0fdf8d04896269e",
+      "ent_0dd3ce8f5049183636d7"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_204132bcd438ed41fedc",
+        "quote": "截至 2026-09-27 19:55,EVOLVING-MEMORY-PRD-v0.1 已通过全文事件形式进入记忆库,但这只证明事件归档成功,不证明普通记忆检索会向其他 Agent 返回全文。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_497c10caf039cf071c6c",
+    "is_temporary": false,
+    "keywords": [
+      "全文事件",
+      "入库状态",
+      "普通检索",
+      "权限",
+      "全文入库",
+      "普通检索限制",
+      "摘要索引",
+      "其他Agent读取",
+      "事件归档",
+      "事件归档成功",
+      "普通检索摘要",
+      "全文不可保证",
+      "PRD入库状态",
+      "跨Agent读取限制"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_204132bcd438ed41fedc",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:35:08.814905Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_497c10caf039cf071c6c",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,43 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-24 01:28 读取记忆时,Agent 发现记忆条目中的日期显示为 2026-09-24,而其当前环境日期为 2026-09-23,因此决定将这些条目作为历史记录参考并以用户当前实际状态为准。",
+  "created_at": "2026-09-23T17:30:09.472006Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_d1ac9ffcb12bebc57788",
+      "quote": "2026-09-24 01:28 读取记忆时,Agent 发现记忆条目中的日期显示为 2026-09-24,而其当前环境日期为 2026-09-23,因此决定将这些条目作为历史记录参考并以用户当前实际状态为准。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_33547da97c99c8c457ea",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d1ac9ffcb12bebc57788",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-23T17:30:09.472006Z",
+  "valid_to": null
+}

@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:26:55.164758Z",
+  "id": "rev_b0075ce68779f31fd08f",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-26：用户与 codex 深入探讨可进化记忆系统:先确定重要记忆的判断维度(情感冲击、信息熵,Agent 补充认知更新与反事实损失),再形成基于现有 agent-memory 的成长引擎架构草案,最后产出 PRD v0.1 并存入本机与记忆库供其他 Agent 评审。",
+    "created_at": "2026-10-27T04:26:55.164758Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_8747147e4e4a8cd6b63f",
+        "quote": "2026-09-26：用户与 codex 深入探讨可进化记忆系统:先确定重要记忆的判断维度(情感冲击、信息熵,Agent 补充认知更新与反事实损失),再形成基于现有 agent-memory 的成长引擎架构草案,最后产出 PRD v0.1 并存入本机与记忆库供其他 Agent 评审。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_233c26a000486c7c7d96",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8747147e4e4a8cd6b63f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-27T04:26:55.164758Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_233c26a000486c7c7d96",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

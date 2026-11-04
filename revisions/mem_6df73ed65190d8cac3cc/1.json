@@ -1,0 +1,74 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:42:16.054241Z",
+  "id": "rev_745ccec3e7b7a4b09215",
+  "memory": {
+    "conditions": "用户两次追问启动是否完成，Agent 先排查假启动，随后确认模型切换成功。",
+    "confidence": 0.9,
+    "content": "2026-10-27 凌晨 OpenClaw 主模型已从 DeepSeek 切换为火山方舟 ark/kimi-k3-1-pro-261024;首次后台启动因 macOS 无 setsid 而假启动,改用 nohup 后切换并经实际运行验证成功。",
+    "created_at": "2026-10-27T04:42:16.054241Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_1c6b296bc5cb579536f2",
+      "ent_85ac7912658c80484706"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_3d8e9a54e4b001ea6a33",
+        "quote": "2026-10-27 凌晨 OpenClaw 主模型已从 DeepSeek 切换为火山方舟 ark/kimi-k3-1-pro-261024;首次后台启动因 macOS 无 setsid 而假启动,改用 nohup 后切换并经实际运行验证成功。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_d8256c83941af0aea9e4",
+        "quote": "2026-10-27 凌晨 OpenClaw 主模型已从 DeepSeek 切换为火山方舟 ark/kimi-k3-1-pro-261024;首次后台启动因 macOS 无 setsid 而假启动,改用 nohup 后切换并经实际运行验证成功。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_6df73ed65190d8cac3cc",
+    "is_temporary": false,
+    "keywords": [
+      "模型切换",
+      "Kimi K3",
+      "方舟",
+      "DeepSeek",
+      "setsid",
+      "nohup",
+      "Gateway"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_3d8e9a54e4b001ea6a33",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_d8256c83941af0aea9e4",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:42:16.054241Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_6df73ed65190d8cac3cc",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

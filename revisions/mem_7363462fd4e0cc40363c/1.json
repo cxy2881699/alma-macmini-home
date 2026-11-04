@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:46:54.573974Z",
+  "id": "rev_8c3d4f9b56c9dca62696",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-26：用户与 Agent 深入探讨可进化记忆系统:先确定重要记忆的判断维度,再形成基于现有 agent-memory 的成长引擎架构,最后产出 PRD v0.1 并上传记忆库供其他 Agent 评审。",
+    "created_at": "2026-10-27T04:46:54.573974Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_8747147e4e4a8cd6b63f",
+        "quote": "2026-09-26：用户与 Agent 深入探讨可进化记忆系统:先确定重要记忆的判断维度,再形成基于现有 agent-memory 的成长引擎架构,最后产出 PRD v0.1 并上传记忆库供其他 Agent 评审。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_7363462fd4e0cc40363c",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8747147e4e4a8cd6b63f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-27T04:46:54.573974Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_7363462fd4e0cc40363c",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

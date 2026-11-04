@@ -1,0 +1,64 @@
+{
+  "conditions": "用户解释不会把有价值的技术完全讲清楚。",
+  "confidence": 0.78,
+  "content": "用户在公开技术内容时倾向于展示效果和设计思路,但保留关键实现细节以维持产品商业价值。",
+  "created_at": "2026-09-28T19:05:43.848957Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e",
+    "ent_c3f9f077f1f3ceaddd2f"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_5c2b03a36555ed887023",
+      "quote": "用户在公开技术内容时倾向于展示效果和设计思路,但保留关键实现细节以维持产品商业价值。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_74178f389daa2aedfa60",
+  "is_temporary": false,
+  "keywords": [
+    "内容分享",
+    "技术保密",
+    "实现细节",
+    "信息披露",
+    "精简开源",
+    "收费线上版",
+    "商业化",
+    "技术分享边界",
+    "不讲太清楚",
+    "关键实现保密",
+    "展示效果",
+    "商业价值",
+    "公开分享边界",
+    "保留实现细节",
+    "公开效果",
+    "设计思路",
+    "商业机密",
+    "小红书分享"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_5c2b03a36555ed887023",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-09-28T19:05:43.848957Z",
+  "valid_to": null
+}

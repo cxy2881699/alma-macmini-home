@@ -1,0 +1,46 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-01T19:11:28.441121Z",
+  "id": "rev_fcad2057f749e99c8882",
+  "memory": {
+    "conditions": "讨论未来兼容玩具、游戏 NPC 和旧客户端。",
+    "confidence": 0.8,
+    "content": "该成长引擎设计强调增量扩展:旧客户端继续可用、统一事件格式、策略模块可替换、数据结构与策略分别版本化,并支持重建和回滚。",
+    "created_at": "2026-10-01T19:11:28.441121Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_da7ad7c7523f89433e44",
+    "is_temporary": false,
+    "keywords": [
+      "兼容性",
+      "版本化",
+      "回滚",
+      "适配器"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-01T19:11:28.441121Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_da7ad7c7523f89433e44",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

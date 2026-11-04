@@ -1,0 +1,70 @@
+{
+  "conditions": "用户在正式研究任务前进行通道和基础响应测试。",
+  "confidence": 0.8800000000000001,
+  "content": "用户会用极简指令测试跨通道连通性与指令遵从,例如要求只回复固定四字或只回数字。",
+  "created_at": "2026-11-03T19:05:05.938483Z",
+  "derived_from": [],
+  "entities": [
+    "ent_51b9c91560022845906c"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_f15074ec43a455aac187",
+      "quote": "用户会用极简指令测试跨通道连通性与指令遵从,例如要求只回复固定四字或只回数字。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_c6f18d37290c30b31e93",
+      "quote": "用户会用极简指令测试跨通道连通性与指令遵从,例如要求只回复固定四字或只回数字。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_a7865d37ec3024e3c25b",
+      "quote": "用户会用极简指令测试跨通道连通性与指令遵从,例如要求只回复固定四字或只回数字。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_eeb0fc45f4a9d03b5f0f",
+  "is_temporary": false,
+  "keywords": [
+    "ACP通道",
+    "连通性测试",
+    "指令遵从",
+    "只回复"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_f15074ec43a455aac187",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_c6f18d37290c30b31e93",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_a7865d37ec3024e3c25b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-04T08:54:59.077713Z",
+  "valid_to": null
+}

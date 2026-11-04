@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-27T11:53:56.415176Z",
+  "id": "rev_5a230cc166eb3786d2ad",
+  "memory": {
+    "conditions": "用户在 memd 管理后台审计页面对此前生成的 PRD 是否入库提出疑问。",
+    "confidence": 0.98,
+    "content": "用户指出 Agent 写的 PRD 没有成功上传到记忆库,并询问该 PRD 实际保存在哪里。",
+    "created_at": "2026-09-27T11:53:56.415176Z",
+    "derived_from": [],
+    "entities": [
+      "ent_1b0510f6e7579d8f62b3",
+      "ent_439553a794c721082879"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_c5b9bc50bc5c913a2dbe",
+        "quote": "用户指出 Agent 写的 PRD 没有成功上传到记忆库,并询问该 PRD 实际保存在哪里。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_54021f00df6fb17296cb",
+    "is_temporary": false,
+    "keywords": [
+      "PRD",
+      "记忆库",
+      "未上传",
+      "保存位置",
+      "文档丢失"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_c5b9bc50bc5c913a2dbe",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-27T11:53:56.415176Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_54021f00df6fb17296cb",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

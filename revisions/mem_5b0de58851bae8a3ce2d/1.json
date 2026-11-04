@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:25:22.595411Z",
+  "id": "rev_cbea7f8445d4b265f5a5",
+  "memory": {
+    "conditions": "排查 Codex hooks 无法通过 CLI 审核信任时",
+    "confidence": 0.95,
+    "content": "2026-09-24,用户在 macOS Terminal 运行 codex 时,Codex CLI 因依赖的 ARM64 原生二进制路径不存在而报 spawn ENOENT,无法进入 CLI。",
+    "created_at": "2026-09-23T17:25:22.595411Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_2ff0c1defb522ad38c60",
+        "quote": "2026-09-24,用户在 macOS Terminal 运行 codex 时,Codex CLI 因依赖的 ARM64 原生二进制路径不存在而报 spawn ENOENT,无法进入 CLI。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_5b0de58851bae8a3ce2d",
+    "is_temporary": false,
+    "keywords": [
+      "Codex CLI",
+      "ENOENT",
+      "spawn",
+      "ARM64",
+      "二进制缺失",
+      "启动失败"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_2ff0c1defb522ad38c60",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-23T17:25:22.595411Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_5b0de58851bae8a3ce2d",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

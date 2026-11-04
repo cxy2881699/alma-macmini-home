@@ -1,0 +1,83 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-24T03:20:17.224335Z",
+  "id": "rev_c15816bcfaedf6ae536b",
+  "memory": {
+    "conditions": "用户主动询问把记忆服务从 Tailscale 私网模式改成 HTTP+Token 公网模式会有什么差别。",
+    "confidence": 0.9,
+    "content": "用户正在考虑把 agent-memory 记忆服务从 Tailscale 私网模式转换成 HTTP+Token 公网模式,关注部署、使用和性能方面的影响。",
+    "created_at": "2026-09-24T03:20:17.224335Z",
+    "derived_from": [],
+    "entities": [
+      "ent_421c00dde9a1b98fc969",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_876285daee49a79ec31a",
+        "quote": "用户正在考虑把 agent-memory 记忆服务从 Tailscale 私网模式转换成 HTTP+Token 公网模式,关注部署、使用和性能方面的影响。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_8fc67c0d4c5d64da55b1",
+        "quote": "用户正在考虑把 agent-memory 记忆服务从 Tailscale 私网模式转换成 HTTP+Token 公网模式,关注部署、使用和性能方面的影响。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_a62291987b9cc7dc1754",
+    "is_temporary": false,
+    "keywords": [
+      "memd 公网化",
+      "HTTPS API",
+      "Tailscale转公网",
+      "公网 API",
+      "memd 暴露",
+      "HTTP Token",
+      "公司电脑接入",
+      "Tailscale迁移",
+      "Tailscale 替代",
+      "性能对比",
+      "安全边界",
+      "HTTP+Token",
+      "公网化",
+      "Tailscale 迁移",
+      "部署影响",
+      "性能影响",
+      "memd"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_876285daee49a79ec31a",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_8fc67c0d4c5d64da55b1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-09-24T03:20:17.224335Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_a62291987b9cc7dc1754",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

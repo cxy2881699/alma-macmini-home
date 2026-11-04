@@ -1,0 +1,69 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:54:49.417821Z",
+  "id": "rev_bf7bd77bd6265d06a29c",
+  "memory": {
+    "conditions": "用户把带 # 注释的整段脚本粘进 zsh，出现多条无害但干扰判断的报错。",
+    "confidence": 0.9,
+    "content": "用户把含 shell 注释的整段命令直接粘进 zsh,出现多个“zsh: command not found: #”;这些报错本身无害,但会干扰对关键命令是否执行成功的判断。",
+    "created_at": "2026-10-27T04:54:49.417821Z",
+    "derived_from": [],
+    "entities": [
+      "ent_c42dac5ae99195f63d24"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_21f5a5863fc6f61fded0",
+        "quote": "用户把含 shell 注释的整段命令直接粘进 zsh,出现多个“zsh: command not found: #”;这些报错本身无害,但会干扰对关键命令是否执行成功的判断。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_da9995bab4fe93639b52",
+    "is_temporary": false,
+    "keywords": [
+      "终端粘贴注释",
+      "命令执行",
+      "zsh注释报错",
+      "整段粘贴终端",
+      "zsh",
+      "shell 注释",
+      "zsh注释",
+      "终端注释",
+      "zsh 注释",
+      "整段粘贴",
+      "command not found #",
+      "zsh 注释报错",
+      "command not found: #",
+      "整段命令粘贴",
+      "无害报错"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_21f5a5863fc6f61fded0",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:54:49.417821Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_da9995bab4fe93639b52",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

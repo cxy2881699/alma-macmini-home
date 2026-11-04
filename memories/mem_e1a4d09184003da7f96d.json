@@ -1,0 +1,51 @@
+{
+  "conditions": "用户安排分身生产一份用于个人状态鉴别和调节的方法论文档。",
+  "confidence": 0.95,
+  "content": "2026-10-22,用户要求 subagent 撰写中文深度文档《人类行为-情绪-神经内分泌逆向映射分析》,面向懂技术但不懂神经科学、希望进行自我观察和自我调节的高级用户。",
+  "created_at": "2026-10-27T04:21:47.606817Z",
+  "derived_from": [],
+  "entities": [
+    "ent_b794852b645a6a568df7"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_ccab63b5c2df3828ccea",
+      "quote": "2026-10-22,用户要求 subagent 撰写中文深度文档《人类行为-情绪-神经内分泌逆向映射分析》,面向懂技术但不懂神经科学、希望进行自我观察和自我调节的高级用户。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_e1a4d09184003da7f96d",
+  "is_temporary": false,
+  "keywords": [
+    "神经内分泌",
+    "情绪",
+    "行为",
+    "逆向映射",
+    "自我观察",
+    "自我调节",
+    "中文文档"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ccab63b5c2df3828ccea",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-10-27T04:21:47.606817Z",
+  "valid_to": null
+}

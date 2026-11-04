@@ -1,0 +1,49 @@
+{
+  "conditions": "分身汇报摘要版产出时给出的篇数与全文版41篇不一致",
+  "confidence": 0.8,
+  "content": "初版摘要调研实际覆盖48篇论文(30篇抓到arXiv摘要,11篇标注未获取原文,其余按已知信息撰写),与后续全文版41篇的口径不同,引用篇数时需区分版本。",
+  "created_at": "2026-10-10T19:03:28.117954Z",
+  "derived_from": [],
+  "entities": [
+    "ent_e44cb152899e6702c87f",
+    "ent_803e29983b18f51d0780"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_4ead9e010ef9d7e33330",
+      "quote": "初版摘要调研实际覆盖48篇论文(30篇抓到arXiv摘要,11篇标注未获取原文,其余按已知信息撰写),与后续全文版41篇的口径不同,引用篇数时需区分版本。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_f0ef5204dcd652aaa714",
+  "is_temporary": false,
+  "keywords": [
+    "初版摘要",
+    "48篇",
+    "30/48",
+    "版本口径"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_4ead9e010ef9d7e33330",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-10T19:03:28.117954Z",
+  "valid_to": null
+}

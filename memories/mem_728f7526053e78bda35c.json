@@ -1,0 +1,64 @@
+{
+  "conditions": "PRD 中讨论记忆交付层与检索器优先级时",
+  "confidence": 0.9,
+  "content": "2026H2 综述的关键发现:Huawei DeliverMem 显示固定检索集下交付原始像素带来 +13.87pp,而把检索做成 oracle 仅 +2.31pp,即记忆交付(readout/delivery)优化的优先级应高于检索器优化。",
+  "created_at": "2026-09-29T04:25:24.395722Z",
+  "derived_from": [],
+  "entities": [
+    "ent_7d78c1639a0001d26261",
+    "ent_a009e810e6646b0cf76b"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_56b471b2ce769966e5ab",
+      "quote": "2026H2 综述的关键发现:Huawei DeliverMem 显示固定检索集下交付原始像素带来 +13.87pp,而把检索做成 oracle 仅 +2.31pp,即记忆交付(readout/delivery)优化的优先级应高于检索器优化。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_728f7526053e78bda35c",
+  "is_temporary": false,
+  "keywords": [
+    "交付优化",
+    "oracle检索",
+    "原始像素",
+    "检索器优先级",
+    "交付",
+    "检索器",
+    "oracle",
+    "Huawei",
+    "retrieval oracle",
+    "记忆交付",
+    "delivery over retrieval",
+    "delivery",
+    "13.87pp",
+    "DeliverMem",
+    "delivery vs retrieval",
+    "readout",
+    "+13.87pp",
+    "华为",
+    "交付优先于检索"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_56b471b2ce769966e5ab",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-29T04:25:24.395722Z",
+  "valid_to": null
+}

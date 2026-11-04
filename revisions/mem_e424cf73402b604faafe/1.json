@@ -1,0 +1,58 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-30T19:07:18.927276Z",
+  "id": "rev_fad4022f0d0740b1a543",
+  "memory": {
+    "conditions": "定时晨报在搜索降级情况下仍交付一次并附核验链接。",
+    "confidence": 0.86,
+    "content": "2026-10-30 北京时间晨报正常执行一次,Agent 称完成防重复、来源直达链接、天气数值、Watchlist 和不确定信息过滤自检。",
+    "created_at": "2026-10-30T19:07:18.927276Z",
+    "derived_from": [],
+    "entities": [
+      "ent_686eb10ba1184d26e9a3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_21ec0a807d8ab8a39f8f",
+        "quote": "2026-10-30 北京时间晨报正常执行一次,Agent 称完成防重复、来源直达链接、天气数值、Watchlist 和不确定信息过滤自检。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_e424cf73402b604faafe",
+    "is_temporary": false,
+    "keywords": [
+      "晨报执行",
+      "自检",
+      "只发一次",
+      "来源验证"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_21ec0a807d8ab8a39f8f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-30T19:07:18.927276Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e424cf73402b604faafe",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

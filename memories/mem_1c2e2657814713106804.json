@@ -1,0 +1,33 @@
+{
+  "conditions": "深夜从记忆机制聊到人工生命本体论",
+  "confidence": 0.8,
+  "content": "用户长期愿景是通过完善记忆系统并找到 agent 类欲望/恐惧机制,创造具有灵活性或生命感的系统。",
+  "created_at": "2026-10-06T19:04:03.474745Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_1c2e2657814713106804",
+  "is_temporary": false,
+  "keywords": [
+    "赛博生命",
+    "欲望",
+    "恐惧",
+    "自我连续性"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-10-06T19:04:03.474745Z",
+  "valid_to": null
+}

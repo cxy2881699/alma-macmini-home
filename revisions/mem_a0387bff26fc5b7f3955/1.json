@@ -1,0 +1,70 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-25T08:39:19.759470Z",
+  "id": "rev_caa6c8a149470cb1c190",
+  "memory": {
+    "conditions": "hook 每轮尝试搜索，但超时或服务错误时不会阻断对话。",
+    "confidence": 0.9500000000000001,
+    "content": "当前 Codex hook 链路在记忆搜索超时或服务出错时会放行对话,因此只能说每轮都会尝试搜索,尚不能保证每轮搜索必须成功。",
+    "created_at": "2026-09-25T08:39:19.759470Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_ddfc3157c195d2617059",
+        "quote": "当前 Codex hook 链路在记忆搜索超时或服务出错时会放行对话,因此只能说每轮都会尝试搜索,尚不能保证每轮搜索必须成功。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_91c7280992f4a13aa52f",
+        "quote": "当前 Codex hook 链路在记忆搜索超时或服务出错时会放行对话,因此只能说每轮都会尝试搜索,尚不能保证每轮搜索必须成功。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_a0387bff26fc5b7f3955",
+    "is_temporary": false,
+    "keywords": [
+      "recall尝试",
+      "搜索失败放行",
+      "超时容错",
+      "记忆召回保证"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_ddfc3157c195d2617059",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_91c7280992f4a13aa52f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-25T08:39:19.759470Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_a0387bff26fc5b7f3955",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

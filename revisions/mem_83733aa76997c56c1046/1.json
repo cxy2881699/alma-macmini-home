@@ -1,0 +1,74 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-24T02:05:31.526309Z",
+  "id": "rev_f5a97bb99af6080ecbad",
+  "memory": {
+    "conditions": "用户对定时晨报的强制质量与发送规则。",
+    "confidence": 0.95,
+    "content": "用户的晨报任务有强制规则:每条新闻必须搜索验证来源并逐条附直接原文链接,禁止编造(不确定即不写),发送前逐项执行自检清单,且只发送一次、禁止重复发送。",
+    "created_at": "2026-09-24T02:05:31.526309Z",
+    "derived_from": [],
+    "entities": [
+      "ent_686eb10ba1184d26e9a3"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_21ec0a807d8ab8a39f8f",
+        "quote": "用户的晨报任务有强制规则:每条新闻必须搜索验证来源并逐条附直接原文链接,禁止编造(不确定即不写),发送前逐项执行自检清单,且只发送一次、禁止重复发送。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_83733aa76997c56c1046",
+    "is_temporary": false,
+    "keywords": [
+      "晨报",
+      "去重",
+      "飞书",
+      "SKILL.md",
+      "cron",
+      "新闻验证",
+      "禁止重复",
+      "验证来源",
+      "自检",
+      "发布日期",
+      "72小时",
+      "原文链接",
+      "晨报强制规则",
+      "来源验证",
+      "搜索验证",
+      "直接原文链接",
+      "晨报规则",
+      "来源链接",
+      "禁止编造",
+      "自检清单"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_21ec0a807d8ab8a39f8f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-24T02:05:31.526309Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_83733aa76997c56c1046",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

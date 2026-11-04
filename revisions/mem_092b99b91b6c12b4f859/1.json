@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:50:34.388355Z",
+  "id": "rev_45a65e8c3f8dba233d89",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-24：用户围绕 agent-memory 部署后的状态进行复盘:确认时区基准、回顾多层故障、要求对外价值表达,并实测 Codex 对话前记忆召回性能;最后检查昵称“小龙虾”的 OpenClaw Gateway 在线状态。",
+    "created_at": "2026-10-27T04:50:34.388355Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_d1ac9ffcb12bebc57788",
+        "quote": "2026-09-24：用户围绕 agent-memory 部署后的状态进行复盘:确认时区基准、回顾多层故障、要求对外价值表达,并实测 Codex 对话前记忆召回性能;最后检查昵称“小龙虾”的 OpenClaw Gateway 在线状态。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_092b99b91b6c12b4f859",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d1ac9ffcb12bebc57788",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-27T04:50:34.388355Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_092b99b91b6c12b4f859",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

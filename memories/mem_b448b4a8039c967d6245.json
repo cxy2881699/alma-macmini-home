@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-27：用户要求把可进化记忆系统 PRD v0.1 存入记忆系统,以便其他 Agent 直接读取;Codex 归档全文,并强调这是待评审设计提案而非已实现能力。",
+  "created_at": "2026-10-27T04:27:23.837457Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_204132bcd438ed41fedc",
+      "quote": "2026-09-27：用户要求把可进化记忆系统 PRD v0.1 存入记忆系统,以便其他 Agent 直接读取;Codex 归档全文,并强调这是待评审设计提案而非已实现能力。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_b448b4a8039c967d6245",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_204132bcd438ed41fedc",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-27T04:27:23.837457Z",
+  "valid_to": null
+}

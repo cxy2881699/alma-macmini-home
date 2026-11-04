@@ -1,0 +1,69 @@
+{
+  "conditions": "第一版基于摘要的论文逐篇总结任务。",
+  "confidence": 0.7,
+  "content": "用户派出 subagent 对 ICLR 2026 MemAgents Workshop 的 48 篇论文逐篇总结并对照宇哥的 PRD 给出借鉴建议;subagent 实抓 30 篇 arXiv 摘要,11 篇标注未获取原文,产出约 23KB 总结文件及 P0/P1/P2 修订优先级表。",
+  "created_at": "2026-09-28T03:19:09.026710Z",
+  "derived_from": [],
+  "entities": [
+    "ent_0dd3ce8f5049183636d7",
+    "ent_e44cb152899e6702c87f",
+    "ent_803e29983b18f51d0780",
+    "ent_3effcc4cb5e0798cce6c",
+    "ent_9d3a8e426d91c52fb407",
+    "ent_12e60967bd71bfb38736"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_4ead9e010ef9d7e33330",
+      "quote": "用户派出 subagent 对 ICLR 2026 MemAgents Workshop 的 48 篇论文逐篇总结并对照宇哥的 PRD 给出借鉴建议;subagent 实抓 30 篇 arXiv 摘要,11 篇标注未获取原文,产出约 23KB 总结文件及 P0/P1/P2 修订优先级表。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_90174eb353c80245d414",
+  "is_temporary": false,
+  "keywords": [
+    "论文调研",
+    "MemAgents",
+    "PRD评审",
+    "记忆系统",
+    "arXiv",
+    "逐篇总结",
+    "优先级",
+    "v1",
+    "论文总结v1",
+    "subagent",
+    "paper-summaries v1",
+    "arXiv摘要版",
+    "30篇实抓",
+    "初版调研",
+    "48篇摘要版",
+    "30篇arXiv",
+    "初版总结",
+    "初版",
+    "48篇",
+    "arXiv摘要"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_4ead9e010ef9d7e33330",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-28T03:19:09.026710Z",
+  "valid_to": "2026-09-28"
+}

@@ -1,0 +1,44 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-11T19:04:24.184317Z",
+  "id": "rev_82b1845a3aa151ca1542",
+  "memory": {
+    "conditions": "讨论游戏环境记忆方案时用户明确表示暂不实现。",
+    "confidence": 0.7,
+    "content": "在记忆系统等技术方向上,用户倾向先做概念与架构探讨、暂不动手实现。",
+    "created_at": "2026-10-11T19:04:24.184317Z",
+    "derived_from": [],
+    "entities": [
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_8ea85060a2f724b30efd",
+    "is_temporary": false,
+    "keywords": [
+      "先不动手",
+      "概念验证",
+      "架构设计"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-11T19:04:24.184317Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_8ea85060a2f724b30efd",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,55 @@
+{
+  "conditions": "用户在修复 OpenClaw 记忆服务连接和网关卡住问题时确认网络访问策略并要求恢复服务。",
+  "confidence": 0.7,
+  "content": "用户确认本机走本地、远程 Agent 走 Tailscale 的网络方案,并要求恢复卡住的 OpenClaw(小龙虾);Agent 重启网关后确认飞书 WebSocket、Agent Memory 插件和记忆召回均恢复。",
+  "created_at": "2026-09-23T17:12:05.522488Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_0674430ba5d897eb2671",
+    "ent_421c00dde9a1b98fc969",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_251281e40be3c2e88a50",
+      "quote": "用户确认本机走本地、远程 Agent 走 Tailscale 的网络方案,并要求恢复卡住的 OpenClaw(小龙虾);Agent 重启网关后确认飞书 WebSocket、Agent Memory 插件和记忆召回均恢复。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_cfd4ec17eea05d146b65",
+  "is_temporary": false,
+  "keywords": [
+    "OpenClaw",
+    "小龙虾",
+    "网关重启",
+    "飞书重连",
+    "Agent Memory",
+    "记忆召回",
+    "Tailscale",
+    "本地直连"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_251281e40be3c2e88a50",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-23T17:12:05.522488Z",
+  "valid_to": null
+}

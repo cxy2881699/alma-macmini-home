@@ -1,0 +1,50 @@
+{
+  "conditions": "用户执行手动设置 Wi-Fi 代理到 7897 的命令后，命令成功提示与全局代理状态不一致。",
+  "confidence": 0.86,
+  "content": "2026-10-18 23:17 时,sudo networksetup 命令链返回“写入完成”但全局 scutil 仍显示 HTTPEnable:0,不能据此判定系统代理已生效;当时仍需用 networksetup -getwebproxy、刷新 configd 和核对网络服务顺序来区分写入失败、全局视图延迟或错误服务。",
+  "created_at": "2026-11-01T19:03:44.551299Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f18082c6c564869030be",
+    "ent_c42dac5ae99195f63d24"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_b513ec84f98cca74efd9",
+      "quote": "2026-10-18 23:17 时,sudo networksetup 命令链返回“写入完成”但全局 scutil 仍显示 HTTPEnable:0,不能据此判定系统代理已生效;当时仍需用 networksetup -getwebproxy、刷新 configd 和核对网络服务顺序来区分写入失败、全局视图延迟或错误服务。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_538215999036c21c88ce",
+  "is_temporary": false,
+  "keywords": [
+    "HTTPEnable 0",
+    "写入完成",
+    "系统代理未生效",
+    "getwebproxy",
+    "configd"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_b513ec84f98cca74efd9",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-01T19:03:44.551299Z",
+  "valid_to": null
+}

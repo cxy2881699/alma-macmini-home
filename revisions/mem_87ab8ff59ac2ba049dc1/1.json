@@ -1,0 +1,62 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:20:03.808891Z",
+  "id": "rev_39eb50c1d61025f4785e",
+  "memory": {
+    "conditions": "后续回看该次代理故障或继续排查 TUN 模式时使用。",
+    "confidence": 0.86,
+    "content": "2026-10-18 排查 Clash Verge 时,用户已开启开关但网络仍不通,curl 先报 127.0.0.1:8118、清理四个变量后又报 8119,说明仍有代理环境变量残留且 TUN/系统代理接管状态待确认。",
+    "created_at": "2026-10-27T04:20:03.808891Z",
+    "derived_from": [],
+    "entities": [
+      "ent_f18082c6c564869030be"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_3656396aede1ecca622c",
+        "quote": "2026-10-18 排查 Clash Verge 时,用户已开启开关但网络仍不通,curl 先报 127.0.0.1:8118、清理四个变量后又报 8119,说明仍有代理环境变量残留且 TUN/系统代理接管状态待确认。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_87ab8ff59ac2ba049dc1",
+    "is_temporary": true,
+    "keywords": [
+      "Clash Verge",
+      "TUN未生效",
+      "系统代理",
+      "8118",
+      "8119",
+      "curl失败",
+      "环境变量",
+      "YouTube"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_3656396aede1ecca622c",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-10-27T04:20:03.808891Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_87ab8ff59ac2ba049dc1",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

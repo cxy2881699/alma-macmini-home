@@ -1,0 +1,55 @@
+{
+  "conditions": "帖子评论区追问技术和开源，用户将其视为后续选题与商业需求信号。",
+  "confidence": 0.78,
+  "content": "用户会把小红书评论中对 token、实现方式、开源细节的追问,视为后续内容选题与产品需求信号,但不打算公开完整实现。",
+  "created_at": "2026-10-27T05:06:37.497685Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e",
+    "ent_c3f9f077f1f3ceaddd2f"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_9325e41c677a9fe03725",
+      "quote": "用户会把小红书评论中对 token、实现方式、开源细节的追问,视为后续内容选题与产品需求信号,但不打算公开完整实现。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_821212977adaf96fa13e",
+  "is_temporary": false,
+  "keywords": [
+    "内容选题",
+    "评论追问",
+    "开源策略",
+    "商业化信号",
+    "小红书评论",
+    "token追问",
+    "实现细节",
+    "开源问题",
+    "需求信号"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_9325e41c677a9fe03725",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:06:37.497685Z",
+  "valid_to": null
+}

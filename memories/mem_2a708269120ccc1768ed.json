@@ -1,0 +1,61 @@
+{
+  "conditions": "用户确认当前 Codex 对话是否每轮先 recall、结束后入库，Agent 强调只能证明尝试而非必然成功。",
+  "confidence": 0.75,
+  "content": "用户希望当前对话每轮都能自动入库并在提交时先搜索记忆,但理解需以审计逐轮验证实际成功。",
+  "created_at": "2026-10-11T19:02:00.446480Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_91c7280992f4a13aa52f",
+      "quote": "用户希望当前对话每轮都能自动入库并在提交时先搜索记忆,但理解需以审计逐轮验证实际成功。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_2a708269120ccc1768ed",
+  "is_temporary": false,
+  "keywords": [
+    "自动入库",
+    "hook",
+    "每轮自动入库",
+    "Codex recall",
+    "Stop保存",
+    "审计逐轮验证",
+    "Stop钩子",
+    "自动recall",
+    "每轮入库",
+    "提交前搜索",
+    "Stop hook",
+    "每轮搜索",
+    "UserPromptSubmit",
+    "Stop 保存",
+    "审计验证",
+    "hooks active"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_91c7280992f4a13aa52f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-10-11T19:02:00.446480Z",
+  "valid_to": null
+}

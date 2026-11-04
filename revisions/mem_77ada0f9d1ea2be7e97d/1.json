@@ -1,0 +1,63 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-28T03:19:09.026710Z",
+  "id": "rev_124eb7c16ea4a2ea14e6",
+  "memory": {
+    "conditions": "文献反向确认PRD相对现有经验自进化工作的定位",
+    "confidence": 0.8,
+    "content": "文献调研反向确认 PRD 的差异化定位:ACE/SkillRL/WebCoach 都做了经验自进化,但全都没有证据溯源和可撤销状态版本,\"可审计的成长\"被认为是 PRD 应押的核心卖点。",
+    "created_at": "2026-09-28T03:19:09.026710Z",
+    "derived_from": [],
+    "entities": [
+      "ent_0dd3ce8f5049183636d7"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_4ead9e010ef9d7e33330",
+        "quote": "文献调研反向确认 PRD 的差异化定位:ACE/SkillRL/WebCoach 都做了经验自进化,但全都没有证据溯源和可撤销状态版本,\"可审计的成长\"被认为是 PRD 应押的核心卖点。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_77ada0f9d1ea2be7e97d",
+    "is_temporary": false,
+    "keywords": [
+      "可审计的成长",
+      "可撤销版本",
+      "可审计成长",
+      "差异化卖点",
+      "证据溯源",
+      "可回滚",
+      "ACE",
+      "SkillRL",
+      "WebCoach"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_4ead9e010ef9d7e33330",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-28T03:19:09.026710Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_77ada0f9d1ea2be7e97d",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

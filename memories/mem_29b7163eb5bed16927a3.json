@@ -1,0 +1,52 @@
+{
+  "conditions": "奇瑞合作内容覆盖智能座舱、智驾大模型和多种AI硬件探索。",
+  "confidence": 0.83,
+  "content": "火山引擎与奇瑞汽车2026-04-24在北京签约,规划将豆包及AI应用融入“小奇同学”,并涉及“灵犀智舱”、抖音与今日头条内容、猎鹰智驾辅助驾驶大模型及车载机器人等方向。",
+  "created_at": "2026-10-27T19:11:46.060262Z",
+  "derived_from": [],
+  "entities": [
+    "ent_7d1a8b2d0370b729952b",
+    "ent_b6e5f07139d194f4aaa5"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_d4ea596374d100c7cd4f",
+      "quote": "火山引擎与奇瑞汽车2026-04-24在北京签约,规划将豆包及AI应用融入“小奇同学”,并涉及“灵犀智舱”、抖音与今日头条内容、猎鹰智驾辅助驾驶大模型及车载机器人等方向。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_29b7163eb5bed16927a3",
+  "is_temporary": false,
+  "keywords": [
+    "奇瑞",
+    "AI BOX",
+    "小奇同学",
+    "灵犀智舱",
+    "猎鹰智驾",
+    "AI后视镜",
+    "车载机器人"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d4ea596374d100c7cd4f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T19:11:46.060262Z",
+  "valid_to": null
+}

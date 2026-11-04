@@ -1,0 +1,55 @@
+{
+  "conditions": "networksetup 写入成功与 scutil 全局视图不一致时的交叉验证方法。",
+  "confidence": 0.78,
+  "content": "2026-10-18 当晚 networksetup 对 Wi-Fi 写入 127.0.0.1:7897 后命令返回“写入完成”,但 scutil 全局视图仍显示 HTTPEnable: 0,说明当时不能仅凭 scutil 判断 Wi-Fi 服务代理是否生效,还需用 networksetup -getwebproxy 与浏览器实测交叉验证。",
+  "created_at": "2026-10-27T05:03:35.872677Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f18082c6c564869030be",
+    "ent_c42dac5ae99195f63d24"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_b513ec84f98cca74efd9",
+      "quote": "2026-10-18 当晚 networksetup 对 Wi-Fi 写入 127.0.0.1:7897 后命令返回“写入完成”,但 scutil 全局视图仍显示 HTTPEnable: 0,说明当时不能仅凭 scutil 判断 Wi-Fi 服务代理是否生效,还需用 networksetup -getwebproxy 与浏览器实测交叉验证。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_ed6420efbee45ae10027",
+  "is_temporary": false,
+  "keywords": [
+    "HTTPEnable 0",
+    "networksetup",
+    "Wi-Fi 代理",
+    "scutil 缓存",
+    "7897",
+    "scutil HTTPEnable 0",
+    "networksetup -getwebproxy",
+    "Wi-Fi 7897",
+    "configd",
+    "代理写入成功但读不到"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_b513ec84f98cca74efd9",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:03:35.872677Z",
+  "valid_to": null
+}

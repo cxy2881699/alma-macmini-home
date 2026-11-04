@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-05T19:01:19.033779Z",
+  "id": "rev_1ac409945f7fb1d772fd",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-24：用户深夜核查 agent-memory 是否真正接入 Codex 与 OpenClaw,修复 Tailscale/代理导致的 OpenClaw 卡住问题,并确认 Codex 写入已通、自动召回仍需信任 hooks。",
+    "created_at": "2026-10-05T19:01:19.033779Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_6db9cf4059e759b01b48",
+        "quote": "2026-09-24：用户深夜核查 agent-memory 是否真正接入 Codex 与 OpenClaw,修复 Tailscale/代理导致的 OpenClaw 卡住问题,并确认 Codex 写入已通、自动召回仍需信任 hooks。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_8dd223c1aa4be9766e3e",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_6db9cf4059e759b01b48",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-05T19:01:19.033779Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_8dd223c1aa4be9766e3e",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

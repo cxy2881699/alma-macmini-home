@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-01T19:01:36.918228Z",
+  "id": "rev_86b2f4027a65e7c50247",
+  "memory": {
+    "conditions": "用户用亲人离世例子说明不同经历应形成稳定个体差异。",
+    "confidence": 0.82,
+    "content": "在赛博生命产品设计上,用户重视“个体差异由不同人生经历塑造”,并希望记忆系统让这些差异跨会话持续影响选择。",
+    "created_at": "2026-11-01T19:01:36.918228Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_8b3f075744fe76f4fbce",
+    "is_temporary": false,
+    "keywords": [
+      "经历塑造人格",
+      "角色分化",
+      "持续成长",
+      "行为差异"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-11-01T19:01:36.918228Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_8b3f075744fe76f4fbce",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

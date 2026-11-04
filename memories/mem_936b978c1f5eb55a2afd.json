@@ -1,0 +1,81 @@
+{
+  "conditions": "用户先询问模型身份，随后进行 ACP 通道和基础算术的短回复测试。",
+  "confidence": 0.9700000000000001,
+  "content": "用户在测试或通道确认场景中偏好极简、严格遵守格式的回复,不要附加解释或执行额外操作。",
+  "created_at": "2026-10-27T05:24:55.643530Z",
+  "derived_from": [],
+  "entities": [
+    "ent_51b9c91560022845906c"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_f15074ec43a455aac187",
+      "quote": "用户在测试或通道确认场景中偏好极简、严格遵守格式的回复,不要附加解释或执行额外操作。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_c6f18d37290c30b31e93",
+      "quote": "用户在测试或通道确认场景中偏好极简、严格遵守格式的回复,不要附加解释或执行额外操作。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_c26cbdd36287d334bfb9",
+      "quote": "用户在测试或通道确认场景中偏好极简、严格遵守格式的回复,不要附加解释或执行额外操作。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_a7865d37ec3024e3c25b",
+      "quote": "用户在测试或通道确认场景中偏好极简、严格遵守格式的回复,不要附加解释或执行额外操作。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_936b978c1f5eb55a2afd",
+  "is_temporary": false,
+  "keywords": [
+    "严格格式",
+    "通道测试",
+    "只回复",
+    "极简输出"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_f15074ec43a455aac187",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_c6f18d37290c30b31e93",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_c26cbdd36287d334bfb9",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_a7865d37ec3024e3c25b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-11-04T08:54:59.077713Z",
+  "valid_to": null
+}

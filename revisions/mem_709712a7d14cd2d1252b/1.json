@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-31T19:01:08.709794Z",
+  "id": "rev_ec529db2d4a3253c25a7",
+  "memory": {
+    "conditions": "助手直接保留判断并引用研究，对话仍围绕产品能力继续深入。",
+    "confidence": 0.72,
+    "content": "在赛博生命或数字重建类愿景讨论中,用户接受助手用研究证据和边界条件修正其绝对化判断,而不是只迎合愿景。",
+    "created_at": "2026-10-31T19:01:08.709794Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_709712a7d14cd2d1252b",
+    "is_temporary": false,
+    "keywords": [
+      "证据修正",
+      "绝对化判断",
+      "研究依据",
+      "伦理边界"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "review",
+    "status_reason": "migrated from old agent-memory (candidate)",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-31T19:01:08.709794Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_709712a7d14cd2d1252b",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

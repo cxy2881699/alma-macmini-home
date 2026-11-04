@@ -1,0 +1,56 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-07T19:02:34.855260Z",
+  "id": "rev_6522f2ae1e3199000b86",
+  "memory": {
+    "conditions": "用户在排查记忆服务问题前说明自己身体不适并准备休息。",
+    "confidence": 0.92,
+    "content": "2026-09-26 凌晨用户嗓子疼并已服用头孢,当时计划休息、次日再工作;对话中还被提醒服用头孢期间不要饮酒。",
+    "created_at": "2026-10-07T19:02:34.855260Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_16d2615f00ae766bb32b",
+        "quote": "2026-09-26 凌晨用户嗓子疼并已服用头孢,当时计划休息、次日再工作;对话中还被提醒服用头孢期间不要饮酒。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_aa668b3d16d905f96f32",
+    "is_temporary": false,
+    "keywords": [
+      "嗓子疼",
+      "头孢",
+      "不喝酒",
+      "休息"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_16d2615f00ae766bb32b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "review",
+    "status_reason": "migrated from old agent-memory (candidate)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-07T19:02:34.855260Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_aa668b3d16d905f96f32",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

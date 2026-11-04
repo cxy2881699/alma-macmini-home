@@ -1,0 +1,64 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:19:40.101864Z",
+  "id": "rev_538772b7f7352e7032d8",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.9,
+    "content": "2026-10-18 排查 Clash Verge 时,用户终端的 curl 仍尝试连接 127.0.0.1:8118,清理四个常见代理变量后又变成 8118/8119,说明 shell 中仍有残留代理环境变量且 TUN 可能未接管。",
+    "created_at": "2026-10-27T04:19:40.101864Z",
+    "derived_from": [],
+    "entities": [
+      "ent_f18082c6c564869030be"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_b609b98e2176b3bff378",
+        "quote": "2026-10-18 排查 Clash Verge 时,用户终端的 curl 仍尝试连接 127.0.0.1:8118,清理四个常见代理变量后又变成 8118/8119,说明 shell 中仍有残留代理环境变量且 TUN 可能未接管。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_3656396aede1ecca622c",
+        "quote": "2026-10-18 排查 Clash Verge 时,用户终端的 curl 仍尝试连接 127.0.0.1:8118,清理四个常见代理变量后又变成 8118/8119,说明 shell 中仍有残留代理环境变量且 TUN 可能未接管。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_6b902248725428f13b8d",
+    "is_temporary": true,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_b609b98e2176b3bff378",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_3656396aede1ecca622c",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:19:40.101864Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_6b902248725428f13b8d",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

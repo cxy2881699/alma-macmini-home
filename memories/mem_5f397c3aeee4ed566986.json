@@ -1,0 +1,48 @@
+{
+  "conditions": "两轮分身任务均要求写入同一 workspace Markdown 文件。",
+  "confidence": 0.85,
+  "content": "全文版总结文件约 25KB,摘要初版约 23KB;两版写入同一路径 /Users/seancao/.openclaw/workspace/paper-summaries-MemAgents.md,全文版为覆盖替换而非新增文件。",
+  "created_at": "2026-10-27T05:29:16.452266Z",
+  "derived_from": [],
+  "entities": [
+    "ent_803e29983b18f51d0780"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_3567af8b8693e96c3d81",
+      "quote": "全文版总结文件约 25KB,摘要初版约 23KB;两版写入同一路径 /Users/seancao/.openclaw/workspace/paper-summaries-MemAgents.md,全文版为覆盖替换而非新增文件。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_5f397c3aeee4ed566986",
+  "is_temporary": false,
+  "keywords": [
+    "文件路径",
+    "覆盖写入",
+    "25KB",
+    "23KB"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_3567af8b8693e96c3d81",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:29:16.452266Z",
+  "valid_to": null
+}

@@ -1,0 +1,45 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-04T19:03:21.259484Z",
+  "id": "rev_66139e99b19f2ecded89",
+  "memory": {
+    "conditions": "用户询问逐个转发 PDF 是否可读，Agent 确认可行但随后遇到两篇未落盘。",
+    "confidence": 0.8,
+    "content": "飞书转发文件时存在只带文件名、实体不过网关的情况;逐个转发 PDF 通常可落盘解析,但仍可能卡在传输队列,需以实际落盘为准并可用 arXiv 摘要兜底。",
+    "created_at": "2026-10-04T19:03:21.259484Z",
+    "derived_from": [],
+    "entities": [
+      "ent_22f290112c9557d215ea"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_3200ca8690dab506c9e1",
+    "is_temporary": false,
+    "keywords": [
+      "飞书文件转发",
+      "PDF落盘",
+      "网关",
+      "arXiv兜底"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-04T19:03:21.259484Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_3200ca8690dab506c9e1",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

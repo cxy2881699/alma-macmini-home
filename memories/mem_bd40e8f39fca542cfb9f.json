@@ -1,0 +1,37 @@
+{
+  "conditions": "用户提出高情感价值的数字亲人方向，助手同时指出证据与伦理边界。",
+  "confidence": 0.78,
+  "content": "用户设想用逝者生前数据和口述经历重建接近其三观与性格的数字个体,但该设想应被视为产品假设,不能把“一定可还原”当作已证实事实。",
+  "created_at": "2026-10-03T19:01:47.674253Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_bd40e8f39fca542cfb9f",
+  "is_temporary": false,
+  "keywords": [
+    "逝者复活",
+    "数字永生",
+    "亲人重建",
+    "口述历史",
+    "陪伴 Agent"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "review",
+  "status_reason": "migrated from old agent-memory (candidate)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-03T19:01:47.674253Z",
+  "valid_to": null
+}

@@ -1,0 +1,54 @@
+{
+  "conditions": "用于补 PRD 评测基准和成长效果验证。",
+  "confidence": 0.9,
+  "content": "全文调研暴露 PRD 评测设计三处短板及现成范式:核心场景是轨迹型而非对话QA(10-AMA-Bench);成长定义与 CloneMem 的\"演化状态追踪\"任务同构(49);缺\"识别信息不足\"维度(47-DialSim),可直接借鉴而无需自研全部评测材料。",
+  "created_at": "2026-09-28T03:54:20.257364Z",
+  "derived_from": [],
+  "entities": [
+    "ent_0dd3ce8f5049183636d7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_3567af8b8693e96c3d81",
+      "quote": "全文调研暴露 PRD 评测设计三处短板及现成范式:核心场景是轨迹型而非对话QA(10-AMA-Bench);成长定义与 CloneMem 的\"演化状态追踪\"任务同构(49);缺\"识别信息不足\"维度(47-DialSim),可直接借鉴而无需自研全部评测材料。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_c83aebb9877e829c10be",
+  "is_temporary": false,
+  "keywords": [
+    "信息不足",
+    "论文10",
+    "论文49",
+    "论文47",
+    "AMA-Bench",
+    "CloneMem",
+    "DialSim",
+    "轨迹型评测",
+    "演化状态追踪",
+    "信息不足识别"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_3567af8b8693e96c3d81",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-28T03:54:20.257364Z",
+  "valid_to": null
+}

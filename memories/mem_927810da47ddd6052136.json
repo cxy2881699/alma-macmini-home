@@ -1,0 +1,35 @@
+{
+  "conditions": "用户两次发送论文zip失败后改为逐个转发PDF",
+  "confidence": 0.85,
+  "content": "飞书 zip 大附件(octet-stream)无法落盘到媒体目录,两次发送 MemAgents zip 均被网关拦截;但单个 PDF 转发可正常落盘解析。",
+  "created_at": "2026-09-28T04:23:32.882684Z",
+  "derived_from": [],
+  "entities": [
+    "ent_22f290112c9557d215ea"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_927810da47ddd6052136",
+  "is_temporary": false,
+  "keywords": [
+    "飞书附件",
+    "zip拦截",
+    "PDF落盘",
+    "文件传输失败"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-28T04:23:32.882684Z",
+  "valid_to": null
+}

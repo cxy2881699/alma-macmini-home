@@ -1,0 +1,50 @@
+{
+  "conditions": "用户发现记忆服务不可用，助手检查日志后定位为数据库依赖停止。",
+  "confidence": 0.86,
+  "content": "当时记忆服务短暂不可用的直接原因是 Neo4j 在 10:43 左右被停止,memd 连续连接 127.0.0.1:7687 失败并经历重启循环;按依赖顺序恢复后服务重新拉起。",
+  "created_at": "2026-10-27T19:02:11.557532Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_1b0510f6e7579d8f62b3",
+    "ent_176409fa578ba26c2c5b"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_d7255c0fedb42db38d51",
+      "quote": "当时记忆服务短暂不可用的直接原因是 Neo4j 在 10:43 左右被停止,memd 连续连接 127.0.0.1:7687 失败并经历重启循环;按依赖顺序恢复后服务重新拉起。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_da3f0dd30742e69d3540",
+  "is_temporary": false,
+  "keywords": [
+    "服务挂了",
+    "7687",
+    "重启循环",
+    "依赖启动"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d7255c0fedb42db38d51",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T19:02:11.557532Z",
+  "valid_to": null
+}

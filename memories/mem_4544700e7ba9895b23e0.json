@@ -1,0 +1,48 @@
+{
+  "conditions": "用户看到 Verge 内多个节点测试通过，但外网仍无法打开。",
+  "confidence": 0.82,
+  "content": "在该晚排查中,Clash Verge 的节点测试通过与终端直连失败同时出现,因此故障边界应划分为“核心/节点可用,但终端环境、系统代理或 TUN 接管至少一层未通”。",
+  "created_at": "2026-10-31T19:03:05.528609Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f18082c6c564869030be"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_f42fd72f43db274ce516",
+      "quote": "在该晚排查中,Clash Verge 的节点测试通过与终端直连失败同时出现,因此故障边界应划分为“核心/节点可用,但终端环境、系统代理或 TUN 接管至少一层未通”。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_4544700e7ba9895b23e0",
+  "is_temporary": false,
+  "keywords": [
+    "节点测试",
+    "核心可用",
+    "TUN未接管",
+    "curl失败"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_f42fd72f43db274ce516",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-31T19:03:05.528609Z",
+  "valid_to": null
+}

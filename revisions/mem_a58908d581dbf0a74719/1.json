@@ -1,0 +1,72 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T18:36:31.641604Z",
+  "id": "rev_5080767725ee7e6d1ab9",
+  "memory": {
+    "conditions": "用户对公开PR调研、来源可靠性和证据边界提出要求时使用。",
+    "confidence": 0.95,
+    "content": "用户要求此类公开PR调研优先使用官方或权威媒体、提供可直接访问URL,并严格区分MOU/计划与实际落地;未披露的人名或政府官员不能推断或编造。",
+    "created_at": "2026-10-27T18:36:31.641604Z",
+    "derived_from": [],
+    "entities": [
+      "ent_b6e5f07139d194f4aaa5"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_58bfeab114e9d0bc2f6a",
+        "quote": "用户要求此类公开PR调研优先使用官方或权威媒体、提供可直接访问URL,并严格区分MOU/计划与实际落地;未披露的人名或政府官员不能推断或编造。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_a58908d581dbf0a74719",
+    "is_temporary": false,
+    "keywords": [
+      "政府官员",
+      "未提及不等于没有",
+      "不要推断",
+      "MOU",
+      "实际落地",
+      "未提及不等于不存在",
+      "公开PR调研标准",
+      "可访问链接",
+      "可访问URL",
+      "不要编造",
+      "PR调研标准",
+      "MOU与落地区分",
+      "官方来源",
+      "权威媒体",
+      "URL",
+      "不得编造",
+      "MOU与落地",
+      "未披露不推断"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_58bfeab114e9d0bc2f6a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-27T18:36:31.641604Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_a58908d581dbf0a74719",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

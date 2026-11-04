@@ -1,0 +1,94 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:38:59.405864Z",
+  "id": "rev_336a54fecaa70b8a3252",
+  "memory": {
+    "conditions": "用户让助手直接优化记忆链路后，memd 队列故障被修复。",
+    "confidence": 0.9,
+    "content": "memd 记忆链路的 PoolTimeout 根因已通过扩大 HTTP 连接池并延长等待时间修复,197 个失败任务已全部重新入队,重启后验证无新增失败。",
+    "created_at": "2026-10-27T05:38:59.405864Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def",
+      "ent_1b0510f6e7579d8f62b3",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_21ec0a807d8ab8a39f8f",
+        "quote": "memd 记忆链路的 PoolTimeout 根因已通过扩大 HTTP 连接池并延长等待时间修复,197 个失败任务已全部重新入队,重启后验证无新增失败。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_8395beca681a6a0993af",
+        "quote": "memd 记忆链路的 PoolTimeout 根因已通过扩大 HTTP 连接池并延长等待时间修复,197 个失败任务已全部重新入队,重启后验证无新增失败。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_9d10a69084bd77edc45a",
+        "quote": "memd 记忆链路的 PoolTimeout 根因已通过扩大 HTTP 连接池并延长等待时间修复,197 个失败任务已全部重新入队,重启后验证无新增失败。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_cf5860a9be0ab2f99375",
+    "is_temporary": false,
+    "keywords": [
+      "连接池",
+      "记忆服务",
+      "memd",
+      "HTTP连接池",
+      "批量重试",
+      "PoolTimeout",
+      "连接池耗尽",
+      "HTTP pool",
+      "197失败任务",
+      "memd修复",
+      "ark.py",
+      "连接池64",
+      "等待60秒",
+      "197任务重试",
+      "PoolTimeout修复"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_21ec0a807d8ab8a39f8f",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_8395beca681a6a0993af",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_9d10a69084bd77edc45a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:38:59.405864Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_cf5860a9be0ab2f99375",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

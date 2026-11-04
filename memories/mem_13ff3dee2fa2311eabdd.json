@@ -1,0 +1,76 @@
+{
+  "conditions": "全文版完成后，摘要初版遗留的补原文复核事项已闭环。",
+  "confidence": 0.85,
+  "content": "升级版全文调研已完成,此前\"11篇未获取原文、拿到后优先复核P0第1、7条\"的待办前提已满足(MINJA等重点篇已读全文),该待办应视为已执行。",
+  "created_at": "2026-09-28T04:23:57.948559Z",
+  "derived_from": [],
+  "entities": [
+    "ent_e44cb152899e6702c87f",
+    "ent_12e60967bd71bfb38736"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_4ead9e010ef9d7e33330",
+      "quote": "升级版全文调研已完成,此前\"11篇未获取原文、拿到后优先复核P0第1、7条\"的待办前提已满足(MINJA等重点篇已读全文),该待办应视为已执行。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_3567af8b8693e96c3d81",
+      "quote": "升级版全文调研已完成,此前\"11篇未获取原文、拿到后优先复核P0第1、7条\"的待办前提已满足(MINJA等重点篇已读全文),该待办应视为已执行。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_13ff3dee2fa2311eabdd",
+  "is_temporary": false,
+  "keywords": [
+    "全文复核",
+    "P0表",
+    "MINJA",
+    "全文调研完成",
+    "待办已执行",
+    "11篇未获取原文待办关闭",
+    "MINJA全文已读",
+    "P0第1条复核",
+    "P0第7条复核",
+    "摘要版升级全文版",
+    "P0复核",
+    "11篇补传",
+    "摘要版升级",
+    "全文升级完成",
+    "复核P0",
+    "11篇未获取",
+    "待办已完成",
+    "待办已闭环",
+    "11篇复核",
+    "MINJA全文"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_4ead9e010ef9d7e33330",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_3567af8b8693e96c3d81",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-28T04:23:57.948559Z",
+  "valid_to": "2026-09-28"
+}

@@ -1,0 +1,69 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T19:11:13.176519Z",
+  "id": "rev_aa4e15243f45b5bf8386",
+  "memory": {
+    "conditions": "检索火山引擎跨行业合作进展或区分实际落地与备忘录时使用。",
+    "confidence": 0.86,
+    "content": "火山引擎非汽车合作案例中,招商银行和九江银行有可核验的后续落地,但均应限定为局部或阶段性成果;欧莱雅中国、安永仍主要停留在MOU/计划层面。",
+    "created_at": "2026-10-27T19:11:13.176519Z",
+    "derived_from": [],
+    "entities": [
+      "ent_b6e5f07139d194f4aaa5",
+      "ent_56a800d185284bc3a07f",
+      "ent_20297c3dafa0a39e0659",
+      "ent_573e3bf566fea86b5f10",
+      "ent_4819fe6349d47c2d4e6c"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_58bfeab114e9d0bc2f6a",
+        "quote": "火山引擎非汽车合作案例中,招商银行和九江银行有可核验的后续落地,但均应限定为局部或阶段性成果;欧莱雅中国、安永仍主要停留在MOU/计划层面。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_f8b3004021d72022fdef",
+    "is_temporary": false,
+    "keywords": [
+      "非汽车合作",
+      "后续落地",
+      "金融云",
+      "AIGC采购",
+      "非汽车客户",
+      "金融落地",
+      "MOU",
+      "招商银行",
+      "九江银行",
+      "欧莱雅",
+      "安永"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_58bfeab114e9d0bc2f6a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T19:11:13.176519Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_f8b3004021d72022fdef",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

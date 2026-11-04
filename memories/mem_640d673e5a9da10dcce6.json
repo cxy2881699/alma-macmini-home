@@ -1,0 +1,60 @@
+{
+  "conditions": "用户把记忆库视为多 Agent 共享设计资料和协作上下文的基础设施。",
+  "confidence": 0.86,
+  "content": "用户把记忆库定位为跨 Agent 的共享文档/协作通道,期望存入的 PRD 能被其他 Agent 直接读取,而不只是作为个人记忆摘要被检索。",
+  "created_at": "2026-10-27T04:27:23.837457Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e",
+    "ent_0dd3ce8f5049183636d7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_204132bcd438ed41fedc",
+      "quote": "用户把记忆库定位为跨 Agent 的共享文档/协作通道,期望存入的 PRD 能被其他 Agent 直接读取,而不只是作为个人记忆摘要被检索。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_640d673e5a9da10dcce6",
+  "is_temporary": false,
+  "keywords": [
+    "跨Agent共享",
+    "完整文档",
+    "PRD",
+    "协作资料通道",
+    "跨Agent协作",
+    "完整资料读取",
+    "PRD评审",
+    "记忆库协作",
+    "共享文档通道",
+    "协作通道",
+    "跨Agent资料",
+    "完整文档读取",
+    "记忆库定位"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_204132bcd438ed41fedc",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:27:23.837457Z",
+  "valid_to": null
+}

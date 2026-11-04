@@ -1,0 +1,86 @@
+{
+  "conditions": "Clash 节点可用但浏览器不可用，故障焦点在 macOS 系统代理/TUN 接管层。",
+  "confidence": 0.82,
+  "content": "2026-10-18 晚排查中,Clash Verge 本地 7897 核心/节点可用,但系统代理开关与手动 networksetup 写入均未让 scutil 全局视图稳定反映 HTTPEnable:1,故障焦点在 macOS 系统代理接管/刷新层。",
+  "created_at": "2026-10-27T05:29:56.299665Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f18082c6c564869030be",
+    "ent_c42dac5ae99195f63d24",
+    "ent_603966e8e3ad513001d7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_f42fd72f43db274ce516",
+      "quote": "2026-10-18 晚排查中,Clash Verge 本地 7897 核心/节点可用,但系统代理开关与手动 networksetup 写入均未让 scutil 全局视图稳定反映 HTTPEnable:1,故障焦点在 macOS 系统代理接管/刷新层。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_b513ec84f98cca74efd9",
+      "quote": "2026-10-18 晚排查中,Clash Verge 本地 7897 核心/节点可用,但系统代理开关与手动 networksetup 写入均未让 scutil 全局视图稳定反映 HTTPEnable:1,故障焦点在 macOS 系统代理接管/刷新层。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_10853d0c7dcf8fdb980b",
+      "quote": "2026-10-18 晚排查中,Clash Verge 本地 7897 核心/节点可用,但系统代理开关与手动 networksetup 写入均未让 scutil 全局视图稳定反映 HTTPEnable:1,故障焦点在 macOS 系统代理接管/刷新层。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_f0696c50cfa4c0d0201e",
+  "is_temporary": false,
+  "keywords": [
+    "scutil",
+    "HTTPEnable",
+    "networksetup",
+    "Clash Verge",
+    "Clash Verge 节点通过",
+    "系统代理不生效",
+    "TUN 未接管",
+    "7897",
+    "HTTPEnable 0",
+    "configd 不刷新",
+    "Wi-Fi 7897",
+    "系统代理接管",
+    "Clash Verge 系统代理",
+    "Clash Verge 7897",
+    "系统代理接管失败",
+    "scutil HTTPEnable 0",
+    "networksetup 不一致",
+    "macOS 代理刷新"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_f42fd72f43db274ce516",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_b513ec84f98cca74efd9",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_10853d0c7dcf8fdb980b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:29:56.299665Z",
+  "valid_to": null
+}

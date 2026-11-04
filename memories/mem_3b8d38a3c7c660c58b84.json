@@ -1,0 +1,33 @@
+{
+  "conditions": "助手从记忆中复述用户的自建历程",
+  "confidence": 0.8,
+  "content": "用户约 10-12 决定弃用商业机场改为自建代理,10-13 左右在 RackNerd 下单,部署由助手指导完成,使用 Reality 协议(借 www.microsoft.com 证书)",
+  "created_at": "2026-11-02T19:05:30.215949Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_3b8d38a3c7c660c58b84",
+  "is_temporary": false,
+  "keywords": [
+    "自建节点",
+    "弃机场",
+    "Reality",
+    "部署历史"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "review",
+  "status_reason": "migrated from old agent-memory (candidate)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-02T19:05:30.215949Z",
+  "valid_to": null
+}

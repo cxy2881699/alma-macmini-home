@@ -1,0 +1,62 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-28T19:02:56.543224Z",
+  "id": "rev_98fff7a8d74577888e35",
+  "memory": {
+    "conditions": "Codex CLI 原生二进制缺失，手工补回后又被 macOS 隔离删除，最终改用官方安装。",
+    "confidence": 0.82,
+    "content": "从 npm 包中手工补回的 Codex ARM64 二进制可能因缺少本机 Gatekeeper 下载记录被 macOS 隔离或删除;官方重新安装到 ~/.local/bin 更稳妥。",
+    "created_at": "2026-09-28T19:02:56.543224Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_91a8ea1810469466278d",
+        "quote": "从 npm 包中手工补回的 Codex ARM64 二进制可能因缺少本机 Gatekeeper 下载记录被 macOS 隔离或删除;官方重新安装到 ~/.local/bin 更稳妥。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_54d64153cdc07d3fe355",
+    "is_temporary": false,
+    "keywords": [
+      "malware",
+      "ARM64",
+      "官方安装",
+      "codex malware",
+      "Gatekeeper",
+      "ENOENT",
+      "官方 npm",
+      "~/.local/bin/codex"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_91a8ea1810469466278d",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-28T19:02:56.543224Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_54d64153cdc07d3fe355",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

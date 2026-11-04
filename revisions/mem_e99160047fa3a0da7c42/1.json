@@ -1,0 +1,71 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:21:21.068627Z",
+  "id": "rev_1a3a49e545dee75274b3",
+  "memory": {
+    "conditions": "以后用户急于获得被风控的海外服务账号时，可同时给出自养号与购买风险对比。",
+    "confidence": 0.72,
+    "content": "当自行注册海外服务账号受阻时,用户会考虑直接购买成品号作为应急方案,但在本次 Claude 注册场景中被建议优先自行养号。",
+    "created_at": "2026-10-27T04:21:21.068627Z",
+    "derived_from": [],
+    "entities": [
+      "ent_51b9c91560022845906c"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_8533e2ec50fb8f1261be",
+        "quote": "当自行注册海外服务账号受阻时,用户会考虑直接购买成品号作为应急方案,但在本次 Claude 注册场景中被建议优先自行养号。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_1cc32c8fffaceabb3bb1",
+        "quote": "当自行注册海外服务账号受阻时,用户会考虑直接购买成品号作为应急方案,但在本次 Claude 注册场景中被建议优先自行养号。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_e99160047fa3a0da7c42",
+    "is_temporary": false,
+    "keywords": [
+      "成品号",
+      "买号",
+      "Claude账号",
+      "应急",
+      "注册受阻",
+      "风控"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8533e2ec50fb8f1261be",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_1cc32c8fffaceabb3bb1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-27T04:21:21.068627Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e99160047fa3a0da7c42",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,45 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-26T19:02:52.457366Z",
+  "id": "rev_b0dd24e9dd30f5fae101",
+  "memory": {
+    "conditions": "用户在飞书让 openclaw 复查仓库推送状态",
+    "confidence": 0.9,
+    "content": "agent-memory 仓库已推送至 GitHub:github.com/cxy2881699/agent-memory(private),远端与本地 main 均为 fd15384,.scratch 的 622MB 文件未入库。",
+    "created_at": "2026-09-26T19:02:52.457366Z",
+    "derived_from": [],
+    "entities": [
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_672a831ef336eef60f86",
+    "is_temporary": false,
+    "keywords": [
+      "github",
+      "仓库",
+      "private",
+      "推送"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "review",
+    "status_reason": "migrated from old agent-memory (candidate)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-26T19:02:52.457366Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_672a831ef336eef60f86",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,48 @@
+{
+  "conditions": "两次子代理任务都指定写入/Users/seancao/.openclaw/workspace/paper-summaries-MemAgents.md。",
+  "confidence": 0.8,
+  "content": "用户的论文调研产物采用固定路径覆盖升级模式:摘要初版与全文版都写入同一Markdown文件,全文版直接覆盖v1而非另存新版本,引用旧版结论需依赖记忆或对话历史而非文件本身。",
+  "created_at": "2026-11-01T19:03:02.538734Z",
+  "derived_from": [],
+  "entities": [
+    "ent_803e29983b18f51d0780"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_3567af8b8693e96c3d81",
+      "quote": "用户的论文调研产物采用固定路径覆盖升级模式:摘要初版与全文版都写入同一Markdown文件,全文版直接覆盖v1而非另存新版本,引用旧版结论需依赖记忆或对话历史而非文件本身。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_0c8bc3f7468dbf275e73",
+  "is_temporary": false,
+  "keywords": [
+    "覆盖写入",
+    "版本丢失",
+    "同一路径",
+    "迭代产物"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_3567af8b8693e96c3d81",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-01T19:03:02.538734Z",
+  "valid_to": null
+}

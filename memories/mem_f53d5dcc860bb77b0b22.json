@@ -1,0 +1,55 @@
+{
+  "conditions": "用户询问公网模式性能差异，Agent 对比 Tailscale 直连与 CDN 转发。",
+  "confidence": 0.72,
+  "content": "公网 HTTP+Token 模式下,Tailscale 直连改为经 CDN/网关访问,可能增加约10–40ms延迟,但对当时20–40ms的轻量召回体感影响很小;国内网络线路质量是更大变量。",
+  "created_at": "2026-10-05T19:03:35.485186Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_421c00dde9a1b98fc969",
+    "ent_4488e0fdf8d04896269e",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8fc67c0d4c5d64da55b1",
+      "quote": "公网 HTTP+Token 模式下,Tailscale 直连改为经 CDN/网关访问,可能增加约10–40ms延迟,但对当时20–40ms的轻量召回体感影响很小;国内网络线路质量是更大变量。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_f53d5dcc860bb77b0b22",
+  "is_temporary": false,
+  "keywords": [
+    "公网化性能",
+    "HTTPS网关",
+    "Tailscale直连",
+    "CDN延迟",
+    "10-40ms",
+    "Cloudflare跳数",
+    "国内线路",
+    "召回延迟"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8fc67c0d4c5d64da55b1",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-05T19:03:35.485186Z",
+  "valid_to": null
+}

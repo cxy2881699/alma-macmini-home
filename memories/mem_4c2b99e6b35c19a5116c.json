@@ -1,0 +1,47 @@
+{
+  "conditions": "用户抱怨输出速度慢，Agent 给出按任务轻重切换模型的建议。",
+  "confidence": 0.72,
+  "content": "用户能接受 Kimi Pro 用于重任务,但关注响应速度;轻任务可优先使用更快的 DeepSeek Flash,或在不需要思考时关闭 thinking。",
+  "created_at": "2026-10-27T04:57:39.016672Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_6bd23e50822556638c98",
+      "quote": "用户能接受 Kimi Pro 用于重任务,但关注响应速度;轻任务可优先使用更快的 DeepSeek Flash,或在不需要思考时关闭 thinking。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_4c2b99e6b35c19a5116c",
+  "is_temporary": false,
+  "keywords": [
+    "响应速度",
+    "模型选择",
+    "thinking off",
+    "DeepSeek Flash",
+    "Kimi Pro"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_6bd23e50822556638c98",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-27T04:57:39.016672Z",
+  "valid_to": null
+}

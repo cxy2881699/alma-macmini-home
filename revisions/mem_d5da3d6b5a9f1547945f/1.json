@@ -1,0 +1,67 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:25:19.542782Z",
+  "id": "rev_7b500f86c4ad49b192f9",
+  "memory": {
+    "conditions": "用户追问 110ms 是否真的走过图数据库，Agent 解释轻量与深度两条召回路径。",
+    "confidence": 0.85,
+    "content": "agent-memory 的对话前轻量召回会查询 Neo4j 的实体、全文、关系/共现、邻近记忆、历史修订和经验关联;方舟 Embedding 与完整向量检索属于可能耗时数百毫秒以上的深度路径。",
+    "created_at": "2026-10-27T04:25:19.542782Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e",
+      "ent_1b0510f6e7579d8f62b3",
+      "ent_176409fa578ba26c2c5b",
+      "ent_4382e946c32aec408a6e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_b5c4a9b1810f60adccbd",
+        "quote": "agent-memory 的对话前轻量召回会查询 Neo4j 的实体、全文、关系/共现、邻近记忆、历史修订和经验关联;方舟 Embedding 与完整向量检索属于可能耗时数百毫秒以上的深度路径。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_d5da3d6b5a9f1547945f",
+    "is_temporary": false,
+    "keywords": [
+      "图数据库检索",
+      "后台预热",
+      "轻量召回",
+      "深度召回",
+      "Neo4j",
+      "向量检索",
+      "Embedding",
+      "20ms",
+      "110ms"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_b5c4a9b1810f60adccbd",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:25:19.542782Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_d5da3d6b5a9f1547945f",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

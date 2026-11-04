@@ -1,0 +1,11 @@
+{
+  "aliases": [],
+  "created_at": "2026-09-25T08:06:46.196629Z",
+  "description": "用户分享 agent-memory 内容并获得浏览、点赞、收藏和评论反馈的内容平台",
+  "id": "ent_c3f9f077f1f3ceaddd2f",
+  "name": "小红书",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "organization",
+  "updated_at": "2026-11-04T08:56:50.217791Z"
+}

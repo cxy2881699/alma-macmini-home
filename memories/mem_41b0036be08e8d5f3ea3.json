@@ -1,0 +1,45 @@
+{
+  "conditions": "",
+  "confidence": 0.9,
+  "content": "2026-09-24 的本机测试中,Codex 每轮对话前使用的 agent-memory 轻量召回会访问 Neo4j,20–110ms 耗时内包含实体查询、全文检索、关系和共现信息、邻近记忆、历史修订与经验关联等图数据库搜索。",
+  "created_at": "2026-09-23T17:55:53.253833Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_1b0510f6e7579d8f62b3",
+    "ent_176409fa578ba26c2c5b"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_b5c4a9b1810f60adccbd",
+      "quote": "2026-09-24 的本机测试中,Codex 每轮对话前使用的 agent-memory 轻量召回会访问 Neo4j,20–110ms 耗时内包含实体查询、全文检索、关系和共现信息、邻近记忆、历史修订与经验关联等图数据库搜索。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_41b0036be08e8d5f3ea3",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_b5c4a9b1810f60adccbd",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-23T17:55:53.253833Z",
+  "valid_to": null
+}

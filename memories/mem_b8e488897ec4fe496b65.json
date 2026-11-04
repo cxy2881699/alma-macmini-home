@@ -1,0 +1,52 @@
+{
+  "conditions": "用户准备把公司 Mac 和个人 Mac 的所有 Agent 接入同一记忆服务。",
+  "confidence": 0.82,
+  "content": "一键安装生成的两台 Mac 注册码为一次性且 24 小时有效;若用户在 2026-09-24 后才安装,原注册码可能已失效,需要重新生成。",
+  "created_at": "2026-09-24T19:03:14.445113Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_421c00dde9a1b98fc969",
+    "ent_1b0510f6e7579d8f62b3",
+    "ent_a69778123bc4273b8cd3",
+    "ent_e8cc85fed50bec2f3bc3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_bd935a27864a54ab1d40",
+      "quote": "一键安装生成的两台 Mac 注册码为一次性且 24 小时有效;若用户在 2026-09-24 后才安装,原注册码可能已失效,需要重新生成。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_b8e488897ec4fe496b65",
+  "is_temporary": false,
+  "keywords": [
+    "注册码过期",
+    "一次性注册码",
+    "一键安装",
+    "Mac 接入"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_bd935a27864a54ab1d40",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-24T19:03:14.445113Z",
+  "valid_to": "2026-09-24"
+}

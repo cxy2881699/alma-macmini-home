@@ -1,0 +1,60 @@
+{
+  "conditions": "用户以为缺手机号，随后明确可用自己的中国手机号验证 Gmail。",
+  "confidence": 0.82,
+  "content": "用户没有可用于 Gmail 或 Claude 注册的外国手机号,但可使用自己的 +86 国内手机号接收 Gmail 验证码。",
+  "created_at": "2026-10-27T04:21:21.068627Z",
+  "derived_from": [],
+  "entities": [
+    "ent_665535bb31cceb52704f"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_8533e2ec50fb8f1261be",
+      "quote": "用户没有可用于 Gmail 或 Claude 注册的外国手机号,但可使用自己的 +86 国内手机号接收 Gmail 验证码。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_b558b23afde529ec79c6",
+  "is_temporary": false,
+  "keywords": [
+    "+86收Gmail验证码",
+    "国内手机号注册Gmail",
+    "Claude不强制手机",
+    "中国手机号收Gmail验证码",
+    "Gmail 验证码",
+    "+86",
+    "Claude 不强制手机号",
+    "+86手机号",
+    "国内手机号",
+    "Gmail验证码",
+    "无外国手机号",
+    "两步验证",
+    "没有外国手机号",
+    "+86 验证",
+    "国内手机号收 Gmail 验证码",
+    "无需境外手机号"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8533e2ec50fb8f1261be",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:21:21.068627Z",
+  "valid_to": null
+}

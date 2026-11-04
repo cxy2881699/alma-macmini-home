@@ -1,0 +1,33 @@
+{
+  "conditions": "用户深夜追问记忆系统能否通向类生命 agent",
+  "confidence": 0.8,
+  "content": "用户有一个长期愿景:通过不断完善记忆系统并找到 agent 中类似人类欲望与恐惧的本质,最终创造出具有“灵活”或“生命”感的系统。",
+  "created_at": "2026-10-04T19:04:43.359569Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_d3414f09ccd97f820685",
+  "is_temporary": false,
+  "keywords": [
+    "赛博生命",
+    "自指",
+    "内在动机",
+    "人工生命"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-10-04T19:04:43.359569Z",
+  "valid_to": null
+}

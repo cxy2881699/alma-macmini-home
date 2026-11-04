@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-09T19:04:23.286620Z",
+  "id": "rev_faf8af44640e87a3b106",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-28：用户先后派出两个分身:先基于摘要产出48篇论文初版总结,再在PDF全文到位后基于41篇全文重写升级版,并形成对照PRD的P0/P1/P2修订总表。",
+    "created_at": "2026-10-09T19:04:23.286620Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_4ead9e010ef9d7e33330",
+        "quote": "2026-09-28：用户先后派出两个分身:先基于摘要产出48篇论文初版总结,再在PDF全文到位后基于41篇全文重写升级版,并形成对照PRD的P0/P1/P2修订总表。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_2d9fe9b20ef628585890",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_4ead9e010ef9d7e33330",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-09T19:04:23.286620Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_2d9fe9b20ef628585890",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

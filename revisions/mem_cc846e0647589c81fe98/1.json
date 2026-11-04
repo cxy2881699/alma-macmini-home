@@ -1,0 +1,77 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:30:09.472006Z",
+  "id": "rev_3ebb751a431083aec994",
+  "memory": {
+    "conditions": "验证 Codex 自动召回是否真正生效的服务端检查方法。",
+    "confidence": 0.9500000000000001,
+    "content": "验证 Codex 自动召回是否真正生效时,应在发送 Codex 消息后检查同一分钟审计记录中是否出现 agent_kind=codex、action=recall、result=ok;不能用 OpenClaw 的成功召回记录替代。",
+    "created_at": "2026-09-23T17:30:09.472006Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_d1ac9ffcb12bebc57788",
+        "quote": "验证 Codex 自动召回是否真正生效时,应在发送 Codex 消息后检查同一分钟审计记录中是否出现 agent_kind=codex、action=recall、result=ok;不能用 OpenClaw 的成功召回记录替代。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_ddfc3157c195d2617059",
+        "quote": "验证 Codex 自动召回是否真正生效时,应在发送 Codex 消息后检查同一分钟审计记录中是否出现 agent_kind=codex、action=recall、result=ok;不能用 OpenClaw 的成功召回记录替代。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_cc846e0647589c81fe98",
+    "is_temporary": false,
+    "keywords": [
+      "Codex",
+      "自动召回",
+      "agent_kind=codex",
+      "action=recall",
+      "OpenClaw 替代",
+      "codex recall",
+      "审计记录",
+      "result=ok",
+      "自动召回验证",
+      "不能用 OpenClaw 替代"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d1ac9ffcb12bebc57788",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_ddfc3157c195d2617059",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-09-23T17:30:09.472006Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_cc846e0647589c81fe98",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

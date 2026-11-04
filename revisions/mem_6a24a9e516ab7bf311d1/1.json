@@ -1,0 +1,45 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-03T19:04:07.268365Z",
+  "id": "rev_836a8d9d871b4ee79e50",
+  "memory": {
+    "conditions": "用户两次指出收到的是空白文档或链接，要求发 md 文件本体",
+    "confidence": 0.9,
+    "content": "用户在飞书接收交付物时,明确偏好直接收到 md 文件附件,而不是飞书文档或文件链接。",
+    "created_at": "2026-10-03T19:04:07.268365Z",
+    "derived_from": [],
+    "entities": [
+      "ent_22f290112c9557d215ea"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_6a24a9e516ab7bf311d1",
+    "is_temporary": false,
+    "keywords": [
+      "飞书附件",
+      "markdown",
+      "不要链接",
+      "文件交付"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-03T19:04:07.268365Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_6a24a9e516ab7bf311d1",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,33 @@
+{
+  "conditions": "假医疗事件被记忆系统采信后，双方总结可信度设计缺口。",
+  "confidence": 0.86,
+  "content": "记忆链路需要把“用户自我声明为虚构”作为可信度衰减或证据质量来源,避免测试注入和他人投毒被直接固化为事实。",
+  "created_at": "2026-09-28T19:08:14.172675Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_dbc4a76e911afaedff24",
+  "is_temporary": false,
+  "keywords": [
+    "信任衰减",
+    "证据质量",
+    "测试注入",
+    "投毒防护"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-28T19:08:14.172675Z",
+  "valid_to": null
+}

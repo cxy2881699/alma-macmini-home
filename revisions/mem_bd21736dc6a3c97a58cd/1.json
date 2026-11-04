@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-07T19:04:17.423916Z",
+  "id": "rev_5793ffa7a788d43ad797",
+  "memory": {
+    "conditions": "用户决定用写信并发出的方式做正式告别",
+    "confidence": 0.85,
+    "content": "用户计划把8年前没说的话写成一封信并寄给前女友,动机是单向完成心理闭环而非挽回或期待回应。",
+    "created_at": "2026-10-07T19:04:17.423916Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_bd21736dc6a3c97a58cd",
+    "is_temporary": false,
+    "keywords": [
+      "写信",
+      "闭环",
+      "翻篇",
+      "单向完成"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "review",
+    "status_reason": "migrated from old agent-memory (candidate)",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-10-07T19:04:17.423916Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_bd21736dc6a3c97a58cd",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

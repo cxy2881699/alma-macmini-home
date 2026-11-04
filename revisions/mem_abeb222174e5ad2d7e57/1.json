@@ -1,0 +1,62 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T18:35:13.611211Z",
+  "id": "rev_9bc7ef70a24925a28d80",
+  "memory": {
+    "conditions": "后续为用户做公司合作、客户案例或新闻稿调研时应遵循。",
+    "confidence": 0.95,
+    "content": "用户要求公开资料调研优先使用官方企业、火山引擎或权威媒体来源,提供可直接访问 URL,并严格区分签约计划与已经落地的成果,不能把未证实事项写成事实。",
+    "created_at": "2026-10-27T18:35:13.611211Z",
+    "derived_from": [],
+    "entities": [
+      "ent_b4a085894df92a90957d"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_d4ea596374d100c7cd4f",
+        "quote": "用户要求公开资料调研优先使用官方企业、火山引擎或权威媒体来源,提供可直接访问 URL,并严格区分签约计划与已经落地的成果,不能把未证实事项写成事实。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_abeb222174e5ad2d7e57",
+    "is_temporary": false,
+    "keywords": [
+      "资料来源",
+      "官方来源",
+      "权威媒体",
+      "URL",
+      "事实核查",
+      "签约计划",
+      "落地成果",
+      "不要编造"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d4ea596374d100c7cd4f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-27T18:35:13.611211Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_abeb222174e5ad2d7e57",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

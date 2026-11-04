@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-24：用户询问将记忆服务从 Tailscale 私网模式转为 HTTP+Token 公网模式在部署、安全、使用、性能和成本上的差异;Agent 建议个人 Mac 保留 Tailscale、公司电脑先公网试点。随后心跳检查无待处理事项,返回 HEARTBEAT_OK。",
+  "created_at": "2026-10-07T19:01:10.022148Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_8fc67c0d4c5d64da55b1",
+      "quote": "2026-09-24：用户询问将记忆服务从 Tailscale 私网模式转为 HTTP+Token 公网模式在部署、安全、使用、性能和成本上的差异;Agent 建议个人 Mac 保留 Tailscale、公司电脑先公网试点。随后心跳检查无待处理事项,返回 HEARTBEAT_OK。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_963aee192f99cca738e9",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8fc67c0d4c5d64da55b1",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-07T19:01:10.022148Z",
+  "valid_to": null
+}

@@ -1,0 +1,50 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-03T19:02:11.652455Z",
+  "id": "rev_4616ea368372b264d38c",
+  "memory": {
+    "conditions": "理解用户在 agent-memory 之上的长期产品方向时使用。",
+    "confidence": 0.85,
+    "content": "用户希望在现有 agent-memory 基础上设计一层可兼容、可修改、可持续进化的“成长引擎”,让经历能改变 Agent 的认识、关系、行动方式乃至记忆抽取策略,并支持未来玩具/NPC 等载体。",
+    "created_at": "2026-10-03T19:02:11.652455Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_f76a04989e88559a024c",
+    "is_temporary": false,
+    "keywords": [
+      "记忆策略",
+      "兼容",
+      "成长引擎",
+      "可进化记忆",
+      "记忆策略进化",
+      "玩具",
+      "NPC",
+      "赛博生命"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-10-03T19:02:11.652455Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_f76a04989e88559a024c",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

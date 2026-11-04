@@ -1,0 +1,63 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-08T19:01:33.972320Z",
+  "id": "rev_d33ea92717ef37450ad7",
+  "memory": {
+    "conditions": "区分 MCP 记忆工具与 UserPromptSubmit 自动召回职责时可检索。",
+    "confidence": 0.86,
+    "content": "MCP 记忆工具在该链路中的定位应是按需深度查询或主动管理,不能替代 UserPromptSubmit hook 的每轮自动 search。",
+    "created_at": "2026-10-08T19:01:33.972320Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_ddfc3157c195d2617059",
+        "quote": "MCP 记忆工具在该链路中的定位应是按需深度查询或主动管理,不能替代 UserPromptSubmit hook 的每轮自动 search。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_d63c9fc97e0f045c1220",
+    "is_temporary": false,
+    "keywords": [
+      "MCP深度查询",
+      "hook自动召回",
+      "MCP",
+      "深度查询",
+      "主动管理",
+      "每轮 search",
+      "职责边界"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_ddfc3157c195d2617059",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-08T19:01:33.972320Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_d63c9fc97e0f045c1220",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

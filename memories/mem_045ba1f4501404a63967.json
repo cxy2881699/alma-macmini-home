@@ -1,0 +1,33 @@
+{
+  "conditions": "Agent 明确纠正用户的两个“一定”，对话仍围绕产品能力继续展开。",
+  "confidence": 0.66,
+  "content": "在讨论数字逝者等敏感方向时,用户可以接受 Agent 对其“一定可以重建”的强判断提出证据边界和伦理保留,而不是单纯附和愿景。",
+  "created_at": "2026-10-27T05:40:17.044843Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_045ba1f4501404a63967",
+  "is_temporary": false,
+  "keywords": [
+    "边界感",
+    "伦理提醒",
+    "证据保留",
+    "敏感话题"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "review",
+  "status_reason": "migrated from old agent-memory (candidate)",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-27T05:40:17.044843Z",
+  "valid_to": null
+}

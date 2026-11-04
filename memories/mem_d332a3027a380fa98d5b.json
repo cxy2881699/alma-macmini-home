@@ -1,0 +1,51 @@
+{
+  "conditions": "用户确认本机 OpenClaw 网关和记忆写入链路是否在线时",
+  "confidence": 0.7,
+  "content": "用户询问昵称“小龙虾”的 OpenClaw 是否还活着;Agent 检查 launchd 与审计库后确认 Gateway 正在运行、有真实对话且最新消息已写入记忆服务。",
+  "created_at": "2026-09-23T18:16:56.049388Z",
+  "derived_from": [],
+  "entities": [
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_1a78cb8802066868b605",
+      "quote": "用户询问昵称“小龙虾”的 OpenClaw 是否还活着;Agent 检查 launchd 与审计库后确认 Gateway 正在运行、有真实对话且最新消息已写入记忆服务。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_d332a3027a380fa98d5b",
+  "is_temporary": false,
+  "keywords": [
+    "OpenClaw",
+    "小龙虾",
+    "Gateway",
+    "运行状态",
+    "PID",
+    "记忆服务",
+    "健康检查"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1a78cb8802066868b605",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-23T18:16:56.049388Z",
+  "valid_to": null
+}

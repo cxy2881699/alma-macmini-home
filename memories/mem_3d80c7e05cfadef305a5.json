@@ -1,0 +1,49 @@
+{
+  "conditions": "用户希望知道每条记忆来自哪个设备或哪个 Agent。",
+  "confidence": 0.9,
+  "content": "agent-memory 数据库已保存 agent_kind、device_id、cred_id、session_key 等来源字段;早期管理界面未展示这些字段,导致用户无法从 UI 判断记忆来源。",
+  "created_at": "2026-09-23T23:53:43.825411Z",
+  "derived_from": [],
+  "entities": [
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_f6a8907352cb487592d5",
+      "quote": "agent-memory 数据库已保存 agent_kind、device_id、cred_id、session_key 等来源字段;早期管理界面未展示这些字段,导致用户无法从 UI 判断记忆来源。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_3d80c7e05cfadef305a5",
+  "is_temporary": false,
+  "keywords": [
+    "来源字段",
+    "agent_kind",
+    "device_id",
+    "管理界面",
+    "admin.html"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_f6a8907352cb487592d5",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-23T23:53:43.825411Z",
+  "valid_to": null
+}

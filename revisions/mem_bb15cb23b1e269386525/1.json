@@ -1,0 +1,121 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:21:21.068627Z",
+  "id": "rev_c0c701104070506663e5",
+  "memory": {
+    "conditions": "适用于以后排查 MacBook 重启后或代理切换后无法访问外网的问题。",
+    "confidence": 0.7,
+    "content": "用户在 MacBook 上清理 MonoProxy 保活脚本、shell 代理环境变量,并将 Wi-Fi 系统代理改到 Clash Verge 的 127.0.0.1:7897;浏览器一度恢复访问,但随后用户又报告“还是不行”,故障状态未最终确认。",
+    "created_at": "2026-10-27T04:21:21.068627Z",
+    "derived_from": [],
+    "entities": [
+      "ent_b1d51f89b3518adf7781",
+      "ent_f90a16b26a8ab1d551fc",
+      "ent_f18082c6c564869030be",
+      "ent_c42dac5ae99195f63d24",
+      "ent_603966e8e3ad513001d7"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_99f1279db034d4a6a0a2",
+        "quote": "用户在 MacBook 上清理 MonoProxy 保活脚本、shell 代理环境变量,并将 Wi-Fi 系统代理改到 Clash Verge 的 127.0.0.1:7897;浏览器一度恢复访问,但随后用户又报告“还是不行”,故障状态未最终确认。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_9a8bdce8b8532a163c1c",
+        "quote": "用户在 MacBook 上清理 MonoProxy 保活脚本、shell 代理环境变量,并将 Wi-Fi 系统代理改到 Clash Verge 的 127.0.0.1:7897;浏览器一度恢复访问,但随后用户又报告“还是不行”,故障状态未最终确认。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_b513ec84f98cca74efd9",
+        "quote": "用户在 MacBook 上清理 MonoProxy 保活脚本、shell 代理环境变量,并将 Wi-Fi 系统代理改到 Clash Verge 的 127.0.0.1:7897;浏览器一度恢复访问,但随后用户又报告“还是不行”,故障状态未最终确认。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_10853d0c7dcf8fdb980b",
+        "quote": "用户在 MacBook 上清理 MonoProxy 保活脚本、shell 代理环境变量,并将 Wi-Fi 系统代理改到 Clash Verge 的 127.0.0.1:7897;浏览器一度恢复访问,但随后用户又报告“还是不行”,故障状态未最终确认。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_95edc76c5f59f1a2f1f2",
+        "quote": "用户在 MacBook 上清理 MonoProxy 保活脚本、shell 代理环境变量,并将 Wi-Fi 系统代理改到 Clash Verge 的 127.0.0.1:7897;浏览器一度恢复访问,但随后用户又报告“还是不行”,故障状态未最终确认。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_21f5a5863fc6f61fded0",
+        "quote": "用户在 MacBook 上清理 MonoProxy 保活脚本、shell 代理环境变量,并将 Wi-Fi 系统代理改到 Clash Verge 的 127.0.0.1:7897;浏览器一度恢复访问,但随后用户又报告“还是不行”,故障状态未最终确认。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_bb15cb23b1e269386525",
+    "is_temporary": false,
+    "keywords": [
+      "MacBook",
+      "Clash Verge",
+      "系统代理",
+      "7897",
+      "8118",
+      "MonoProxy",
+      "网络不通",
+      "configd"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_99f1279db034d4a6a0a2",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_9a8bdce8b8532a163c1c",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_b513ec84f98cca74efd9",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_10853d0c7dcf8fdb980b",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_95edc76c5f59f1a2f1f2",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_21f5a5863fc6f61fded0",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-10-27T04:21:21.068627Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_bb15cb23b1e269386525",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

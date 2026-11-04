@@ -1,0 +1,63 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:59:34.879662Z",
+  "id": "rev_31ebb886054bb438b813",
+  "memory": {
+    "conditions": "代理节点死亡导致国内网站也不可访问的配置根因。",
+    "confidence": 0.85,
+    "content": "用户代理客户端的 GEOIP,CN,DIRECT 分流规则实际从未落盘生效(10-18 的改动丢失),当前只有广告拦截+MATCH,PROXY,导致节点一死整机国内网络也瘫痪。",
+    "created_at": "2026-10-27T04:59:34.879662Z",
+    "derived_from": [],
+    "entities": [
+      "ent_f18082c6c564869030be"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_1cd898a27b168e387484",
+        "quote": "用户代理客户端的 GEOIP,CN,DIRECT 分流规则实际从未落盘生效(10-18 的改动丢失),当前只有广告拦截+MATCH,PROXY,导致节点一死整机国内网络也瘫痪。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_b33f6f19afaf9a2074d0",
+    "is_temporary": false,
+    "keywords": [
+      "分流规则",
+      "配置丢失",
+      "国内直连",
+      "GEOIP,CN,DIRECT",
+      "MATCH,PROXY",
+      "Verge",
+      "Clash 配置",
+      "国内直连兜底",
+      "节点故障断网"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_1cd898a27b168e387484",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:59:34.879662Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_b33f6f19afaf9a2074d0",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

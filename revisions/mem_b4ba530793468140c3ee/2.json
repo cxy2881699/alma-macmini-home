@@ -1,0 +1,63 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": 1,
+  "created_at": "2026-09-23T17:09:11.224621Z",
+  "id": "rev_ec65acbc07d80c879256",
+  "memory": {
+    "conditions": "后续排查 OpenClaw 是否仍卡住、记忆是否自动召回或飞书是否连通时使用。",
+    "confidence": 0.95,
+    "content": "OpenClaw 记忆召回的配置问题已修复:不兼容的 hooks 字段已移除,记忆服务地址已改为 http://127.0.0.1:8787,Agent Memory 插件显示 loaded 且直接测试召回成功;仅剩网关旧进程未重载配置,需执行 openclaw gateway restart 或重启应用/Mac。",
+    "created_at": "2026-09-23T17:12:05.522488Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_421c00dde9a1b98fc969",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_251281e40be3c2e88a50",
+        "quote": "OpenClaw 记忆召回问题已完全恢复:不兼容的 hooks 字段已移除,本机记忆服务使用 http://127.0.0.1:8787,网关已重启为新进程,Agent Memory 插件 loaded,飞书两个账号 WebSocket 已重连,最近一次真实召回成功。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_b4ba530793468140c3ee",
+    "is_temporary": false,
+    "keywords": [
+      "OpenClaw",
+      "小龙虾",
+      "网关重启",
+      "飞书 WebSocket",
+      "Agent Memory",
+      "召回成功",
+      "127.0.0.1:8787"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_251281e40be3c2e88a50",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 2,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-23T17:09:11.224621Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_b4ba530793468140c3ee",
+  "policy_version": "legacy-import-v1",
+  "reason": "old version",
+  "revision": 2
+}

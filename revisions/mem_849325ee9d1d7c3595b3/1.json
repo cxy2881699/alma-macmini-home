@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:37:34.014736Z",
+  "id": "rev_09f0c6268e7a1285dd58",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-28：当天分两阶段完成ICLR 2026 MemAgents Workshop论文调研:先基于arXiv摘要产出48篇初版总结,用户补传PDF后分身再基于41篇全文重写升级,并形成对PRD的P0/P1/P2修订建议。",
+    "created_at": "2026-10-27T04:37:34.014736Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_4ead9e010ef9d7e33330",
+        "quote": "2026-09-28：当天分两阶段完成ICLR 2026 MemAgents Workshop论文调研:先基于arXiv摘要产出48篇初版总结,用户补传PDF后分身再基于41篇全文重写升级,并形成对PRD的P0/P1/P2修订建议。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_849325ee9d1d7c3595b3",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_4ead9e010ef9d7e33330",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-27T04:37:34.014736Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_849325ee9d1d7c3595b3",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

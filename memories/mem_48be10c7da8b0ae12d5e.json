@@ -1,0 +1,67 @@
+{
+  "conditions": "多个 Agent 读取同一份 PRD 时，可用该 SHA256 确认内容版本是否一致。",
+  "confidence": 0.9,
+  "content": "EVOLVING-MEMORY-PRD-v0.1 归档时由 Codex 明确标注源文档 SHA256 为 709fc245629457e0d1edd52b0daa41df1fab4c6096ece4632a0ac171e2cc2d1c,可作为全文版本校验依据。",
+  "created_at": "2026-10-27T04:32:43.658979Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e",
+    "ent_0dd3ce8f5049183636d7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_204132bcd438ed41fedc",
+      "quote": "EVOLVING-MEMORY-PRD-v0.1 归档时由 Codex 明确标注源文档 SHA256 为 709fc245629457e0d1edd52b0daa41df1fab4c6096ece4632a0ac171e2cc2d1c,可作为全文版本校验依据。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_48be10c7da8b0ae12d5e",
+  "is_temporary": false,
+  "keywords": [
+    "PRD归档",
+    "全文事件",
+    "文档指纹",
+    "PRD版本校验",
+    "PRD SHA256",
+    "文档完整性",
+    "哈希",
+    "PRD v0.1",
+    "完整性",
+    "PRD hash",
+    "版本校验",
+    "PRD哈希",
+    "PRD校验码",
+    "源文档哈希",
+    "Markdown版本",
+    "SHA256",
+    "PRD 校验码",
+    "Markdown 版本",
+    "完整性校验",
+    "源文档 hash"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_204132bcd438ed41fedc",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:32:43.658979Z",
+  "valid_to": null
+}

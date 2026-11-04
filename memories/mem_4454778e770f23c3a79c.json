@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-26：当天凌晨继续排查 agent-memory 的 silent drop,复审服务端去重改造并决定等待小龙虾修改客户端;下午确认 Codex hooks 可信、记忆入库与召回链路,随后深入讨论可进化记忆、赛博生命、开源底座与商业成长引擎。",
+  "created_at": "2026-10-30T19:01:20.290174Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_16d2615f00ae766bb32b",
+      "quote": "2026-09-26：当天凌晨继续排查 agent-memory 的 silent drop,复审服务端去重改造并决定等待小龙虾修改客户端;下午确认 Codex hooks 可信、记忆入库与召回链路,随后深入讨论可进化记忆、赛博生命、开源底座与商业成长引擎。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_4454778e770f23c3a79c",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_16d2615f00ae766bb32b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-30T19:01:20.290174Z",
+  "valid_to": null
+}

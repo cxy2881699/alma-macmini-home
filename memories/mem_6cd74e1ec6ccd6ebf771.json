@@ -1,0 +1,36 @@
+{
+  "conditions": "用户问如何优化及延迟多长不影响效果，Agent给出三层方案",
+  "confidence": 0.7,
+  "content": "用户关注记忆系统实时性优化,Agent建议优先级:先做检索降级查原始事件层,再做快慢双轨整理(目标30-60分钟出首版卡片),触发式加速和混合语言修复排后。",
+  "created_at": "2026-10-11T19:05:32.626550Z",
+  "derived_from": [],
+  "entities": [
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_6cd74e1ec6ccd6ebf771",
+  "is_temporary": false,
+  "keywords": [
+    "优化方案",
+    "实时性",
+    "快慢双轨",
+    "检索降级",
+    "30-60分钟"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-10-11T19:05:32.626550Z",
+  "valid_to": null
+}

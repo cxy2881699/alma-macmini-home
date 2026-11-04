@@ -1,0 +1,59 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-31T19:04:09.933814Z",
+  "id": "rev_2bdbcf6c2fd97a0bfbe3",
+  "memory": {
+    "conditions": "同日任务依次为框架写作、文献调研、API 元数据收集、架构选型。",
+    "confidence": 0.75,
+    "content": "用户的工作流倾向于先让子代理产出框架性文档,再以严格文献检索校验证据,最后形成工程方法选型;对无法核实的内容要求显式标注而非凭记忆补全。",
+    "created_at": "2026-10-31T19:04:09.933814Z",
+    "derived_from": [],
+    "entities": [
+      "ent_868b6b7b308b553adaaf",
+      "ent_b794852b645a6a568df7",
+      "ent_5e9983015c0ee6682456"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8d3f3ac718d007dd877d",
+        "quote": "用户的工作流倾向于先让子代理产出框架性文档,再以严格文献检索校验证据,最后形成工程方法选型;对无法核实的内容要求显式标注而非凭记忆补全。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_c136577921527ba92dc6",
+    "is_temporary": false,
+    "keywords": [
+      "工作流",
+      "证据校验",
+      "子代理"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8d3f3ac718d007dd877d",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-31T19:04:09.933814Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_c136577921527ba92dc6",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

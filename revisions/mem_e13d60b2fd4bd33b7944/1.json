@@ -1,0 +1,81 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-29T19:09:24.336839Z",
+  "id": "rev_e3808a69c297ea63effa",
+  "memory": {
+    "conditions": "检索火山引擎非汽车战略合作案例的落地证据强弱时使用。",
+    "confidence": 0.88,
+    "content": "非汽车案例的公开落地证据应分层:亿咖通、招商银行、九江银行有具体后续落地或采购/上线证据;中手游、蓝河乳业仅有局部办公安全或消费者运营证据;欧莱雅中国、安永仍主要是MOU/计划;华泰证券适合作为无正式签约PR但持续落地的补充案例。",
+    "created_at": "2026-10-29T19:09:24.336839Z",
+    "derived_from": [],
+    "entities": [
+      "ent_105fc292e091fe6a4460",
+      "ent_37783a2ec4f76cbda2eb",
+      "ent_1d6d4c9d65e3d798daed",
+      "ent_56a800d185284bc3a07f",
+      "ent_20297c3dafa0a39e0659",
+      "ent_573e3bf566fea86b5f10",
+      "ent_4819fe6349d47c2d4e6c",
+      "ent_af9a54b0d61a7281cb7a"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_58bfeab114e9d0bc2f6a",
+        "quote": "非汽车案例的公开落地证据应分层:亿咖通、招商银行、九江银行有具体后续落地或采购/上线证据;中手游、蓝河乳业仅有局部办公安全或消费者运营证据;欧莱雅中国、安永仍主要是MOU/计划;华泰证券适合作为无正式签约PR但持续落地的补充案例。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_e13d60b2fd4bd33b7944",
+    "is_temporary": false,
+    "keywords": [
+      "落地分层",
+      "局部落地",
+      "持续合作",
+      "公开证据",
+      "非汽车案例落地分层",
+      "MOU与实际落地",
+      "欧莱雅安永计划",
+      "落地证据分层",
+      "非汽车合作落地分层",
+      "中手游飞连",
+      "蓝河消费者运营",
+      "招商银行AIGC采购",
+      "欧莱雅MOU",
+      "安永MOU",
+      "华泰证券AI涨乐",
+      "亿咖通",
+      "九江银行",
+      "招商银行",
+      "欧莱雅中国",
+      "MOU"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_58bfeab114e9d0bc2f6a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-29T19:09:24.336839Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e13d60b2fd4bd33b7944",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

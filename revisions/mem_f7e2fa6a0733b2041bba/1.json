@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:19:40.101864Z",
+  "id": "rev_3cc0205352ba3c502bee",
+  "memory": {
+    "conditions": "后续编写 Clash/mihomo 配置时需要覆盖 AI 域名并避免 fake-ip 干扰。",
+    "confidence": 0.85,
+    "content": "用户需要后续完善 Clash 配置:AI 域名整组分流、fake-ip-filter、GEOIP,CN,DIRECT 兜底,避免节点故障时国内网站也全部不可用。",
+    "created_at": "2026-10-27T04:19:40.101864Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6ebee10dda1843bbd843",
+      "ent_f18082c6c564869030be"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_af943030f4b33235f412",
+        "quote": "用户需要后续完善 Clash 配置:AI 域名整组分流、fake-ip-filter、GEOIP,CN,DIRECT 兜底,避免节点故障时国内网站也全部不可用。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_f7e2fa6a0733b2041bba",
+    "is_temporary": false,
+    "keywords": [
+      "mihomo",
+      "fake-ip-filter",
+      "AI域名列表",
+      "GEOIP兜底",
+      "防整机断网"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_af943030f4b33235f412",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-10-27T04:19:40.101864Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_f7e2fa6a0733b2041bba",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

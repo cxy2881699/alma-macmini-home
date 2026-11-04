@@ -1,0 +1,20 @@
+{
+  "agent_id": "claude@old-memd",
+  "assistant_text": "2",
+  "content_hash": "732aaffa5d8715f4358ea570ac786ff5c5f2a0cb51a948a23ecfa232c3ec33af",
+  "cwd": "",
+  "device_id": "dev_125962f97f52d6e8",
+  "event_id": "evt_14624cfb4980a3d7f890",
+  "kind": "conversation",
+  "native_event_id": "24dc53cfea08bbef1463ddf706cb6645",
+  "occurred_at": "2026-10-21T18:54:00.576000Z",
+  "privacy_mode": "normal",
+  "project_id": "",
+  "received_at": "2026-11-04T08:56:50.096178Z",
+  "revision": 1,
+  "session_id": "dev_125962f97f52d6e8:claude:7ecca861-8105-4f22-add6-cb0efa6bd779",
+  "space": "user/shared",
+  "tools": [],
+  "turn_index": 0,
+  "user_text": "1+1=?只回数字"
+}

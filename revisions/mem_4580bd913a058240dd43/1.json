@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-25T08:05:17.602514Z",
+  "id": "rev_3e8b4cb1cdd6bae87b34",
+  "memory": {
+    "conditions": "用户分享其内容在小红书上的传播效果",
+    "confidence": 0.95,
+    "content": "用户将相关内容发布到小红书,并得到很多人的点赞和收藏。",
+    "created_at": "2026-09-25T08:05:17.602514Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9376053e7c997878dffe"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_86e36d3877d091b5c09b",
+        "quote": "用户将相关内容发布到小红书,并得到很多人的点赞和收藏。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_4580bd913a058240dd43",
+    "is_temporary": false,
+    "keywords": [
+      "小红书",
+      "发布",
+      "点赞",
+      "收藏",
+      "社交反馈",
+      "技术分享"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_86e36d3877d091b5c09b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-25T08:05:17.602514Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_4580bd913a058240dd43",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

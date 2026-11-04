@@ -1,0 +1,50 @@
+{
+  "conditions": "用户询问记忆系统异步任务进展。",
+  "confidence": 0.9,
+  "content": "截至 2026-09-24 02:03(北京时间),agent-memory 的 embed 任务仍在正常滚动处理,仅剩一个 sleep 夜间整理任务在后台运行。",
+  "created_at": "2026-09-23T18:04:20.314882Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_7793eeabd2d8f98a3345",
+      "quote": "截至 2026-09-24 02:03(北京时间),agent-memory 的 embed 任务仍在正常滚动处理,仅剩一个 sleep 夜间整理任务在后台运行。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_3cd724448795cba69424",
+  "is_temporary": true,
+  "keywords": [
+    "embed",
+    "sleep",
+    "夜间整理",
+    "后台任务",
+    "任务状态",
+    "记忆流水线"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_7793eeabd2d8f98a3345",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-23T18:04:20.314882Z",
+  "valid_to": null
+}

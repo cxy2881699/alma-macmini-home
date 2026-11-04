@@ -1,0 +1,59 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:43:57.247010Z",
+  "id": "rev_f2b79a40224fb92c0101",
+  "memory": {
+    "conditions": "用户在 admin#audit 页面追问新写 PRD 的实际保存位置",
+    "confidence": 0.7,
+    "content": "用户是在本机 admin 审计页(http://127.0.0.1:8787/admin#audit)直接核查后发现新 PRD 未入库,说明该缺口是经审计界面发现而非仅凭记忆列表缺失推断。",
+    "created_at": "2026-10-27T04:43:57.247010Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_c5b9bc50bc5c913a2dbe",
+        "quote": "用户是在本机 admin 审计页(http://127.0.0.1:8787/admin#audit)直接核查后发现新 PRD 未入库,说明该缺口是经审计界面发现而非仅凭记忆列表缺失推断。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_18e521f4f9d3e7306ad6",
+    "is_temporary": false,
+    "keywords": [
+      "审计页",
+      "入库缺口",
+      "PRD",
+      "8787"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_c5b9bc50bc5c913a2dbe",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:43:57.247010Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_18e521f4f9d3e7306ad6",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,63 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:02:17.067652Z",
+  "id": "rev_cc713c061bebd33010bf",
+  "memory": {
+    "conditions": "用户验证个人记忆系统在各 Agent 中的实际接通情况",
+    "confidence": 0.7,
+    "content": "用户询问记忆服务是否已正确接入 Codex 和 OpenClaw、每次对话是否自动调取记忆;Agent 查日志和数据库后确认:Codex 与 OpenClaw 对话写入已生效,但自动召回均未生效(OpenClaw 报 recall failed: fetch failed 且不接受 hooks 配置字段),本次回答也未收到记忆注入。",
+    "created_at": "2026-09-23T17:02:17.067652Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_6db9cf4059e759b01b48",
+        "quote": "用户询问记忆服务是否已正确接入 Codex 和 OpenClaw、每次对话是否自动调取记忆;Agent 查日志和数据库后确认:Codex 与 OpenClaw 对话写入已生效,但自动召回均未生效(OpenClaw 报 recall failed: fetch failed 且不接受 hooks 配置字段),本次回答也未收到记忆注入。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_827b8aec5276ee626c93",
+    "is_temporary": false,
+    "keywords": [
+      "记忆接入",
+      "Codex",
+      "OpenClaw",
+      "自动召回",
+      "写入",
+      "recall failed",
+      "hooks",
+      "调试状态"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_6db9cf4059e759b01b48",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-23T17:02:17.067652Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_827b8aec5276ee626c93",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

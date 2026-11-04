@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T19:08:43.459812Z",
+  "id": "rev_a3ccb76ab269b1ff2a78",
+  "memory": {
+    "conditions": "用户询问被墙机器用途、日本节点是否更好以及防封方案。",
+    "confidence": 0.72,
+    "content": "用户倾向把已被墙的 RackNerd VPS 转为 Cloudflare 回源/备用落地,并考虑另购日本或干净线路的服务器作为主力。",
+    "created_at": "2026-10-27T19:08:43.459812Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_17e28e068a5c99ef4f17",
+    "is_temporary": false,
+    "keywords": [
+      "CF回源",
+      "日本服务器",
+      "备用落地",
+      "WS TLS CDN"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-10-27T19:08:43.459812Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_17e28e068a5c99ef4f17",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

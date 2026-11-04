@@ -1,0 +1,59 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T19:07:58.315182Z",
+  "id": "rev_9a572359d764f11f622f",
+  "memory": {
+    "conditions": "Agent 提出修复规则但在等待用户确认，不能视为已完成。",
+    "confidence": 0.85,
+    "content": "用户的 Clash 配置末条为 MATCH,PROXY,导致国内流量也无差别走代理;节点失效时会造成全网不可用,建议增加 GEOIP,CN,DIRECT 作为国内直连兜底。",
+    "created_at": "2026-10-27T19:07:58.315182Z",
+    "derived_from": [],
+    "entities": [
+      "ent_f18082c6c564869030be"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_1cd898a27b168e387484",
+        "quote": "用户的 Clash 配置末条为 MATCH,PROXY,导致国内流量也无差别走代理;节点失效时会造成全网不可用,建议增加 GEOIP,CN,DIRECT 作为国内直连兜底。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_6ed038eff77785675f58",
+    "is_temporary": false,
+    "keywords": [
+      "MATCH PROXY",
+      "GEOIP CN DIRECT",
+      "分流规则",
+      "国内直连",
+      "代理兜底"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_1cd898a27b168e387484",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T19:07:58.315182Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_6ed038eff77785675f58",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

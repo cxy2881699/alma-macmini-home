@@ -1,0 +1,45 @@
+{
+  "conditions": "",
+  "confidence": 0.96,
+  "content": "用户计划将调研成果写入主文档 hormone-psych-lit-review.md 和文献索引 papers-index.md,主文档每章需包含核心结论、关键文献、争议点及对个人追踪系统的可操作启示。",
+  "created_at": "2026-10-27T04:18:07.879408Z",
+  "derived_from": [],
+  "entities": [
+    "ent_54bc249ce41248cb6af7",
+    "ent_868b6b7b308b553adaaf",
+    "ent_ac75cb66690cacf39d3f"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_7bab4433029e0047b9ba",
+      "quote": "用户计划将调研成果写入主文档 hormone-psych-lit-review.md 和文献索引 papers-index.md,主文档每章需包含核心结论、关键文献、争议点及对个人追踪系统的可操作启示。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_7c87c67be3e60348a5b4",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_7bab4433029e0047b9ba",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:18:07.879408Z",
+  "valid_to": null
+}

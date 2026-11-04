@@ -1,0 +1,52 @@
+{
+  "conditions": "记忆系统部署收尾，确认服务可持久运行",
+  "confidence": 0.95,
+  "content": "2026-09-24,agent-memory 记忆系统后台部署完成:com.agentmemory.neo4j、com.agentmemory.memd、com.agentmemory.mem 三个 launchd 常驻项全部注册,重启机器服务自动拉起;healthz 正常、图数据库连接正常,Claude Code/Codex/Cursor 凭据与钩子检查通过。",
+  "created_at": "2026-09-23T16:53:56.566341Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_0674430ba5d897eb2671"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_e9736354e0fd65e97742",
+      "quote": "2026-09-24,agent-memory 记忆系统后台部署完成:com.agentmemory.neo4j、com.agentmemory.memd、com.agentmemory.mem 三个 launchd 常驻项全部注册,重启机器服务自动拉起;healthz 正常、图数据库连接正常,Claude Code/Codex/Cursor 凭据与钩子检查通过。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_e592f797fc1ed4f0acc2",
+  "is_temporary": false,
+  "keywords": [
+    "launchd",
+    "常驻项",
+    "neo4j",
+    "memd",
+    "后台部署",
+    "开机自启",
+    "健康检查"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_e9736354e0fd65e97742",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-23T16:53:56.566341Z",
+  "valid_to": null
+}

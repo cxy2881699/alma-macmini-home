@@ -1,0 +1,49 @@
+{
+  "conditions": "模型切换首次后台启动失败后，Agent 主动提出备选验证方案。",
+  "confidence": 0.72,
+  "content": "当后台方案可能失败时,用户更接受改为可由自己发消息触发验证的确定性方案,而不是继续赌后台进程。",
+  "created_at": "2026-10-27T05:33:00.014239Z",
+  "derived_from": [],
+  "entities": [
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8fc67c0d4c5d64da55b1",
+      "quote": "当后台方案可能失败时,用户更接受改为可由自己发消息触发验证的确定性方案,而不是继续赌后台进程。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_5e4fcb222695527ecbb3",
+  "is_temporary": false,
+  "keywords": [
+    "后台进程",
+    "触发验证",
+    "确定性",
+    "回滚",
+    "运维方案"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8fc67c0d4c5d64da55b1",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-27T05:33:00.014239Z",
+  "valid_to": null
+}

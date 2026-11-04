@@ -1,0 +1,45 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-29T19:02:57.270865Z",
+  "id": "rev_1a09c0dfece832ec7ca5",
+  "memory": {
+    "conditions": "假嗓子疼事件后用户确立的记忆治理原则",
+    "confidence": 0.95,
+    "content": "记忆系统的固定处理规则:原始记忆不做物理删除,用户声明为测试编造的内容保留原始事件,仅将派生认识标记为“经历真实、内容虚构(测试目的)”。",
+    "created_at": "2026-09-29T19:02:57.270865Z",
+    "derived_from": [],
+    "entities": [
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_aef3746f62ea40c48399",
+    "is_temporary": false,
+    "keywords": [
+      "原始记忆不删除",
+      "测试标记",
+      "self_declared_fabrication",
+      "认识失效"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-29T19:02:57.270865Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_aef3746f62ea40c48399",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

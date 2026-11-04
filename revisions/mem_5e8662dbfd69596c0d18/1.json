@@ -1,0 +1,76 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-29T04:25:24.395722Z",
+  "id": "rev_3abf108d7f31a39cced3",
+  "memory": {
+    "conditions": "查找 2026H2 Agent Memory 论文综述的完成记录与产出文件",
+    "confidence": 0.95,
+    "content": "2026-09-29,subagent 完成 ~/Downloads/mem-papers-2026H2/ 下 49 篇 2026 年 6 月底至 9 月 arXiv Agent Memory 论文的全文提取与综述,产出 /Users/seancao/Downloads/mem-papers-2026H2/SURVEY-2026H2.md(约 19KB),含热点地图、7 个分方向、10 条「现在能做到哪些以前做不到的事」(每条带 PRD 借鉴建议)、与 MemAgents Workshop 批的 8 条新趋势对比及 49 篇一句话索引。",
+    "created_at": "2026-09-29T04:25:24.395722Z",
+    "derived_from": [],
+    "entities": [
+      "ent_7d78c1639a0001d26261",
+      "ent_cd077af734ef059c7775",
+      "ent_a009e810e6646b0cf76b"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_56b471b2ce769966e5ab",
+        "quote": "2026-09-29,subagent 完成 ~/Downloads/mem-papers-2026H2/ 下 49 篇 2026 年 6 月底至 9 月 arXiv Agent Memory 论文的全文提取与综述,产出 /Users/seancao/Downloads/mem-papers-2026H2/SURVEY-2026H2.md(约 19KB),含热点地图、7 个分方向、10 条「现在能做到哪些以前做不到的事」(每条带 PRD 借鉴建议)、与 MemAgents Workshop 批的 8 条新趋势对比及 49 篇一句话索引。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_5e8662dbfd69596c0d18",
+    "is_temporary": false,
+    "keywords": [
+      "Agent Memory综述",
+      "文献调研",
+      "pypdf",
+      "PyMuPDF",
+      "空间记忆",
+      "mem-papers",
+      "arXiv 论文批量阅读",
+      "49篇索引",
+      "综述",
+      "论文提取",
+      "PRD借鉴",
+      "论文索引",
+      "Agent Memory",
+      "arXiv Agent Memory",
+      "2026H2",
+      "论文综述",
+      "综述文档",
+      "论文调研",
+      "SURVEY-2026H2.md",
+      "subagent 任务"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_56b471b2ce769966e5ab",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-29T04:25:24.395722Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_5e8662dbfd69596c0d18",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

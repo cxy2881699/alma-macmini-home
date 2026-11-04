@@ -1,0 +1,75 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T23:52:07.838096Z",
+  "id": "rev_00464865bb0f464324ba",
+  "memory": {
+    "conditions": "OpenClaw 因不支持的 hooks 配置和网关未重载而卡住，修复后召回成功。",
+    "confidence": 0.9,
+    "content": "OpenClaw 卡住还与当前版本不支持 plugins.entries.agent-memory.hooks 字段有关;移除该字段并重启 Gateway 后插件 loaded、WebSocket 重连、召回成功。",
+    "created_at": "2026-09-23T23:52:07.838096Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_4488e0fdf8d04896269e",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_1d9f495f128ccc9b4e0f",
+        "quote": "OpenClaw 卡住还与当前版本不支持 plugins.entries.agent-memory.hooks 字段有关;移除该字段并重启 Gateway 后插件 loaded、WebSocket 重连、召回成功。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_251281e40be3c2e88a50",
+        "quote": "OpenClaw 卡住还与当前版本不支持 plugins.entries.agent-memory.hooks 字段有关;移除该字段并重启 Gateway 后插件 loaded、WebSocket 重连、召回成功。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_3545b009901805decc0d",
+    "is_temporary": false,
+    "keywords": [
+      "hooks 字段",
+      "插件 loaded",
+      "飞书 WebSocket",
+      "OpenClaw卡住",
+      "hooks字段",
+      "插件loaded",
+      "gateway restart",
+      "WebSocket重连"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_1d9f495f128ccc9b4e0f",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_251281e40be3c2e88a50",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-23T23:52:07.838096Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_3545b009901805decc0d",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

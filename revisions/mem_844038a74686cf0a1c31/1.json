@@ -1,0 +1,64 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-11T19:03:28.770514Z",
+  "id": "rev_5eac6873aede0fdcc112",
+  "memory": {
+    "conditions": "跨版本引用MemAgents论文调研时需要核对篇数和优先级表来源。",
+    "confidence": 0.85,
+    "content": "论文调研存在两个不同覆盖口径:摘要初版按 48 篇组织,全文升级版实际读取并重写 41 个编号论文文件;两者不能混用篇数或 P0/P1/P2 条目数。",
+    "created_at": "2026-10-11T19:03:28.770514Z",
+    "derived_from": [],
+    "entities": [
+      "ent_803e29983b18f51d0780"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_4ead9e010ef9d7e33330",
+        "quote": "论文调研存在两个不同覆盖口径:摘要初版按 48 篇组织,全文升级版实际读取并重写 41 个编号论文文件;两者不能混用篇数或 P0/P1/P2 条目数。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_844038a74686cf0a1c31",
+    "is_temporary": false,
+    "keywords": [
+      "版本口径",
+      "48篇",
+      "41篇",
+      "摘要版",
+      "全文版",
+      "48篇摘要版",
+      "41篇全文版",
+      "覆盖口径",
+      "P0 P1 P2条目数",
+      "版本混用"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_4ead9e010ef9d7e33330",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-11T19:03:28.770514Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_844038a74686cf0a1c31",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

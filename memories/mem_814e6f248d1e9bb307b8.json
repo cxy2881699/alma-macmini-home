@@ -1,0 +1,64 @@
+{
+  "conditions": "适用于以后配置 OpenClaw、Codex 或其他 Agent 的记忆服务地址。",
+  "confidence": 0.9500000000000001,
+  "content": "避免 Tailscale 影响本机 Agent 网络的推荐做法是:本机 Agent 访问本机记忆服务统一使用 http://127.0.0.1:8787,不使用 MagicDNS;只有其他电脑通过 Tailscale 访问 Mac mini 时才使用 seanmac-mini.tail92d6fe.ts.net:8787。",
+  "created_at": "2026-09-23T17:10:31.492743Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_0674430ba5d897eb2671",
+    "ent_421c00dde9a1b98fc969"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_6a3714757e353acbcb99",
+      "quote": "避免 Tailscale 影响本机 Agent 网络的推荐做法是:本机 Agent 访问本机记忆服务统一使用 http://127.0.0.1:8787,不使用 MagicDNS;只有其他电脑通过 Tailscale 访问 Mac mini 时才使用 seanmac-mini.tail92d6fe.ts.net:8787。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_251281e40be3c2e88a50",
+      "quote": "避免 Tailscale 影响本机 Agent 网络的推荐做法是:本机 Agent 访问本机记忆服务统一使用 http://127.0.0.1:8787,不使用 MagicDNS;只有其他电脑通过 Tailscale 访问 Mac mini 时才使用 seanmac-mini.tail92d6fe.ts.net:8787。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_814e6f248d1e9bb307b8",
+  "is_temporary": false,
+  "keywords": [
+    "127.0.0.1:8787",
+    "MagicDNS",
+    "Tailscale",
+    "本机访问",
+    "远程访问",
+    "记忆服务",
+    "seanmac-mini"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_6a3714757e353acbcb99",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_251281e40be3c2e88a50",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-09-23T17:12:05.522488Z",
+  "valid_to": null
+}

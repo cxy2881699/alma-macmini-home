@@ -1,0 +1,46 @@
+{
+  "conditions": "用户连续委托机制文档、文献调研和 Agent 建模选型。",
+  "confidence": 0.82,
+  "content": "用户的个人追踪项目已从概念框架推进到两条并行工作线:一条是面向自我观察的神经内分泌逆向映射手册,另一条是严肃文献证据库与逆向推断 Agent 的计算架构设计。",
+  "created_at": "2026-10-27T05:44:03.663280Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_1627b009151f2cb1840b",
+      "quote": "用户的个人追踪项目已从概念框架推进到两条并行工作线:一条是面向自我观察的神经内分泌逆向映射手册,另一条是严肃文献证据库与逆向推断 Agent 的计算架构设计。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_0ec639d464a93098d2f3",
+  "is_temporary": false,
+  "keywords": [
+    "项目架构",
+    "自我追踪",
+    "计算精神病学",
+    "长期图式"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1627b009151f2cb1840b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:44:03.663280Z",
+  "valid_to": null
+}

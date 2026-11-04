@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-03T19:07:53.581068Z",
+  "id": "rev_6b6b2323846840515d08",
+  "memory": {
+    "conditions": "定时晨报在搜索工具故障状态下仍完成一次交付。",
+    "confidence": 0.9,
+    "content": "2026-11-03 北京时间晨报正常执行一次;Agent 称 Brave 缺 API key、百度鉴权失败,仍按公开 RSS、官方页面和公开数据 API 降级核验,并完成来源链接、天气、Watchlist、防重复等自检。",
+    "created_at": "2026-11-03T19:07:53.581068Z",
+    "derived_from": [],
+    "entities": [
+      "ent_686eb10ba1184d26e9a3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_21ec0a807d8ab8a39f8f",
+        "quote": "2026-11-03 北京时间晨报正常执行一次;Agent 称 Brave 缺 API key、百度鉴权失败,仍按公开 RSS、官方页面和公开数据 API 降级核验,并完成来源链接、天气、Watchlist、防重复等自检。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_aa45b88c5c564ab4b56f",
+    "is_temporary": false,
+    "keywords": [
+      "2026-11-03",
+      "晨报",
+      "降级核验",
+      "API key",
+      "鉴权失败",
+      "自检"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_21ec0a807d8ab8a39f8f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-03T19:07:53.581068Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_aa45b88c5c564ab4b56f",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

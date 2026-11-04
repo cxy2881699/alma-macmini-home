@@ -1,0 +1,63 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-05T19:01:19.033779Z",
+  "id": "rev_6e8fdbfac25d46dd3115",
+  "memory": {
+    "conditions": "用户确认修复 Tailscale 代理导致的 OpenClaw 连接故障后的访问拓扑。",
+    "confidence": 0.9,
+    "content": "本机 Agent 访问 Mac mini 上的记忆服务应使用 127.0.0.1:8787;远程 Agent 才使用 seanmac-mini.tail92d6fe.ts.net:8787。",
+    "created_at": "2026-10-05T19:01:19.033779Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def",
+      "ent_421c00dde9a1b98fc969",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_4488e0fdf8d04896269e",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_251281e40be3c2e88a50",
+        "quote": "本机 Agent 访问 Mac mini 上的记忆服务应使用 127.0.0.1:8787;远程 Agent 才使用 seanmac-mini.tail92d6fe.ts.net:8787。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_f82c7422722ae2f710d7",
+    "is_temporary": false,
+    "keywords": [
+      "本地回环",
+      "MagicDNS",
+      "远程访问",
+      "记忆服务地址"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_251281e40be3c2e88a50",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-05T19:01:19.033779Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_f82c7422722ae2f710d7",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

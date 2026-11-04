@@ -1,0 +1,53 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:21:51.525988Z",
+  "id": "rev_e3ed28fe00496bf7661f",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.9,
+    "content": "用户正在构想一个 agent:通过对话、游戏、画面交互多模态采集数据,反推用户当前心理/神经内分泌状态,并追溯到长期图式与成因;用户本人技术背景强但非心理学专业,最初直觉认为需要\"类似神经网络的结构\"。",
+    "created_at": "2026-10-27T04:21:51.525988Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6eb44c32bf523382fd30"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_1627b009151f2cb1840b",
+        "quote": "用户正在构想一个 agent:通过对话、游戏、画面交互多模态采集数据,反推用户当前心理/神经内分泌状态,并追溯到长期图式与成因;用户本人技术背景强但非心理学专业,最初直觉认为需要\"类似神经网络的结构\"。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_5a5f505a6fe5bda659d1",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_1627b009151f2cb1840b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:21:51.525988Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_5a5f505a6fe5bda659d1",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

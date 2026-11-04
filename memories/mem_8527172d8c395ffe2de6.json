@@ -1,0 +1,46 @@
+{
+  "conditions": "同一天连续布置机制文档、文献调研、API 元数据抓取和 Agent 架构选型。",
+  "confidence": 0.85,
+  "content": "该研究项目已从概念框架推进到证据校验与工程架构两层:既有面向自我调节的机制文档,也有严肃文献调研和逆向推断 Agent 的建模选型。",
+  "created_at": "2026-11-02T19:04:56.915611Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_1627b009151f2cb1840b",
+      "quote": "该研究项目已从概念框架推进到证据校验与工程架构两层:既有面向自我调节的机制文档,也有严肃文献调研和逆向推断 Agent 的建模选型。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_8527172d8c395ffe2de6",
+  "is_temporary": false,
+  "keywords": [
+    "项目演进",
+    "证据校验",
+    "工程架构",
+    "长期追踪系统"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1627b009151f2cb1840b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-02T19:04:56.915611Z",
+  "valid_to": null
+}

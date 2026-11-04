@@ -1,0 +1,56 @@
+{
+  "conditions": "当天正在使用 sleep 整理和过期标记机制，关联长期记忆质量问题。",
+  "confidence": 0.85,
+  "content": "截至 2026-09-24,记忆系统的主要短板被识别为选择性遗忘:valid_to 标记极少,记忆只增不减,长期可能降低库质量。",
+  "created_at": "2026-09-28T19:04:31.358014Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_b29cd56d3c2b7ce9a86e",
+      "quote": "截至 2026-09-24,记忆系统的主要短板被识别为选择性遗忘:valid_to 标记极少,记忆只增不减,长期可能降低库质量。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_143db42891fa76f90d7f",
+  "is_temporary": false,
+  "keywords": [
+    "遗忘机制",
+    "过期",
+    "记忆垃圾场",
+    "删除传播",
+    "遗忘残留",
+    "valid_to",
+    "FR-09",
+    "选择性遗忘",
+    "valid_to稀少",
+    "记忆只增不减",
+    "库质量"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_b29cd56d3c2b7ce9a86e",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-28T19:04:31.358014Z",
+  "valid_to": null
+}

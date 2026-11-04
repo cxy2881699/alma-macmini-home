@@ -1,0 +1,57 @@
+{
+  "conditions": "当追溯 2026-10-22 文献调研为何未完成或需要改用 API 时检索。",
+  "confidence": 0.93,
+  "content": "2026-10-22 的执行环境中,WebSearch、WebFetch 和联网 curl 多次因工具权限被自动中断,Agent 无法实际检索文献;研究目录已创建,但文献调研尚未完成。",
+  "created_at": "2026-10-27T04:18:07.879408Z",
+  "derived_from": [],
+  "entities": [
+    "ent_54bc249ce41248cb6af7",
+    "ent_868b6b7b308b553adaaf",
+    "ent_ac75cb66690cacf39d3f"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_7bab4433029e0047b9ba",
+      "quote": "2026-10-22 的执行环境中,WebSearch、WebFetch 和联网 curl 多次因工具权限被自动中断,Agent 无法实际检索文献;研究目录已创建,但文献调研尚未完成。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_bba87e8500d96267de26",
+  "is_temporary": true,
+  "keywords": [
+    "工具权限",
+    "WebSearch",
+    "WebFetch",
+    "curl",
+    "目录已创建",
+    "权限自动中止",
+    "curl失败",
+    "WebSearch不可用",
+    "WebFetch不可用",
+    "非交互会话",
+    "文献检索受阻"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_7bab4433029e0047b9ba",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-10-27T04:18:07.879408Z",
+  "valid_to": "2026-10-22"
+}

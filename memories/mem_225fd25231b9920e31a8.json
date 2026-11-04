@@ -1,0 +1,50 @@
+{
+  "conditions": "适用于后续帮用户撰写小红书内容、技术文档、README 或公开回答实现问题时。",
+  "confidence": 0.95,
+  "content": "用户认为 agent-memory 的完整实现很有价值,当前不希望对外讲得太清楚或提前公开全部细节。",
+  "created_at": "2026-09-25T08:06:46.196629Z",
+  "derived_from": [],
+  "entities": [
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_5c2b03a36555ed887023",
+      "quote": "用户认为 agent-memory 的完整实现很有价值,当前不希望对外讲得太清楚或提前公开全部细节。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_225fd25231b9920e31a8",
+  "is_temporary": false,
+  "keywords": [
+    "技术保密",
+    "完整实现",
+    "开源边界",
+    "核心细节",
+    "商业化",
+    "信息披露"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_5c2b03a36555ed887023",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-09-25T08:06:46.196629Z",
+  "valid_to": null
+}

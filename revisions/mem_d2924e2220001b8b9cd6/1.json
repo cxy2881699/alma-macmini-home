@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-03T19:05:41.051415Z",
+  "id": "rev_e1b7ef94f3dedb8fb1ef",
+  "memory": {
+    "conditions": "用户自我分析被封原因",
+    "confidence": 0.5,
+    "content": "用户怀疑此前用 VPS 帮手机搬数据时的大流量/大量连接行为类似爬虫,可能加速了 IP 被封;助手判断主动探测是主因、大流量可能是诱因。",
+    "created_at": "2026-11-03T19:05:41.051415Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_d2924e2220001b8b9cd6",
+    "is_temporary": false,
+    "keywords": [
+      "爬虫",
+      "大流量",
+      "手机数据",
+      "被封原因"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-03T19:05:41.051415Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_d2924e2220001b8b9cd6",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

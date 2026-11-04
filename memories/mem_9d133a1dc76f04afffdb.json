@@ -1,0 +1,48 @@
+{
+  "conditions": "连续多日晨报均报告相同搜索工具问题。",
+  "confidence": 0.85,
+  "content": "截至 2026-10-31 晨报,Brave 仍缺 API key、百度鉴权失败;该搜索工具故障至少从 2026-10-28 持续至 2026-10-31。",
+  "created_at": "2026-10-31T19:07:03.093803Z",
+  "derived_from": [],
+  "entities": [
+    "ent_686eb10ba1184d26e9a3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_21ec0a807d8ab8a39f8f",
+      "quote": "截至 2026-10-31 晨报,Brave 仍缺 API key、百度鉴权失败;该搜索工具故障至少从 2026-10-28 持续至 2026-10-31。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_9d133a1dc76f04afffdb",
+  "is_temporary": false,
+  "keywords": [
+    "Brave缺key",
+    "百度鉴权失败",
+    "持续故障",
+    "RSS降级"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_21ec0a807d8ab8a39f8f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-31T19:07:03.093803Z",
+  "valid_to": null
+}

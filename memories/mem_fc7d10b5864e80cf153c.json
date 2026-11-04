@@ -1,0 +1,46 @@
+{
+  "conditions": "用户要求读取另一个模型关于 VPS 故障和采购方案的讨论。",
+  "confidence": 0.75,
+  "content": "用户已掌握被封 RackNerd 的再利用与维护路径:新 VPS 作 SSH 跳板、旧机继续承担爬虫出口。",
+  "created_at": "2026-11-03T19:06:37.898304Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_af943030f4b33235f412",
+      "quote": "用户已掌握被封 RackNerd 的再利用与维护路径:新 VPS 作 SSH 跳板、旧机继续承担爬虫出口。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_fc7d10b5864e80cf153c",
+  "is_temporary": false,
+  "keywords": [
+    "ssh -J",
+    "旧 VPS 维护",
+    "爬虫出口",
+    "GFW 单 IP 封锁"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_af943030f4b33235f412",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-03T19:06:37.898304Z",
+  "valid_to": null
+}

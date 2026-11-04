@@ -1,0 +1,33 @@
+{
+  "conditions": "用户用“一定”表达重建可行性，助手则区分接近、预测与真正延续意识。",
+  "confidence": 0.72,
+  "content": "用户对数字重建逝者持较强技术乐观态度,认为丰富生前数据与口述经历足以重建非常接近本人的三观和性格;该判断已被 Agent 明确提示存在遗传、资料不全与不可验证性限制。",
+  "created_at": "2026-10-27T19:03:57.255618Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_ae2eb52d55b8be498437",
+  "is_temporary": false,
+  "keywords": [
+    "人格还原置信度",
+    "技术乐观",
+    "资料完整性",
+    "数字个体"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "review",
+  "status_reason": "migrated from old agent-memory (candidate)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T19:03:57.255618Z",
+  "valid_to": null
+}

@@ -1,0 +1,54 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:19:18.213478Z",
+  "id": "rev_b3a9056cec06273a5c33",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.9,
+    "content": "截至 2026-09-24,Codex 到记忆服务的对话保存正常、记忆服务审计日志正常,但 Codex 桌面客户端没有稳定触发 UserPromptSubmit 钩子,导致每轮自动读取记忆未完全生效。",
+    "created_at": "2026-09-23T17:19:18.213478Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_cebb179d057c24e6120e",
+        "quote": "截至 2026-09-24,Codex 到记忆服务的对话保存正常、记忆服务审计日志正常,但 Codex 桌面客户端没有稳定触发 UserPromptSubmit 钩子,导致每轮自动读取记忆未完全生效。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_10d7ff704a4ba79bccc0",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_cebb179d057c24e6120e",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-23T17:19:18.213478Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_10d7ff704a4ba79bccc0",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,48 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:52:18.831721Z",
+  "id": "rev_132845083adbba77251a",
+  "memory": {
+    "conditions": "用户要求把新记忆系统 PRD 存入记忆系统供其他 Agent 读取。",
+    "confidence": 0.9,
+    "content": "可进化记忆系统 PRD v0.1 已写入本机文件并上传记忆库,全文事件 ID 为 1460999e575200a46998cd748e7167ea,检索标识 EVOLVING-MEMORY-PRD-v0.1;但普通检索只返回摘要,其他 Agent 不能保证直接取全文。",
+    "created_at": "2026-10-27T04:52:18.831721Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e",
+      "ent_0dd3ce8f5049183636d7"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_a384aeb6a8fba97ba01d",
+    "is_temporary": false,
+    "keywords": [
+      "PRD",
+      "记忆库全文",
+      "事件ID",
+      "权限",
+      "检索限制"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:52:18.831721Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_a384aeb6a8fba97ba01d",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

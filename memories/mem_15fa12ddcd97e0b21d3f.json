@@ -1,0 +1,72 @@
+{
+  "conditions": "用户分享 agent-memory 内容在小红书获得正向反馈的截图数据。",
+  "confidence": 0.82,
+  "content": "用户发布到小红书的 agent-memory 相关内容已获得明显正向反馈,截图显示 1427 次浏览、69 赞、79 收藏、17 评论,且评论者关注 token、实现和开源。",
+  "created_at": "2026-09-25T09:32:16.409297Z",
+  "derived_from": [],
+  "entities": [
+    "ent_4488e0fdf8d04896269e",
+    "ent_c3f9f077f1f3ceaddd2f"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_86e36d3877d091b5c09b",
+      "quote": "用户发布到小红书的 agent-memory 相关内容已获得明显正向反馈,截图显示 1427 次浏览、69 赞、79 收藏、17 评论,且评论者关注 token、实现和开源。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_9325e41c677a9fe03725",
+      "quote": "用户发布到小红书的 agent-memory 相关内容已获得明显正向反馈,截图显示 1427 次浏览、69 赞、79 收藏、17 评论,且评论者关注 token、实现和开源。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_15fa12ddcd97e0b21d3f",
+  "is_temporary": false,
+  "keywords": [
+    "小红书反馈",
+    "技术受众反馈",
+    "浏览量",
+    "点赞",
+    "收藏",
+    "评论",
+    "token",
+    "开源追问",
+    "小红书数据",
+    "点赞收藏",
+    "1427浏览",
+    "69赞",
+    "79收藏",
+    "17评论",
+    "市场反馈",
+    "agent-memory帖子"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_86e36d3877d091b5c09b",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_9325e41c677a9fe03725",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-25T09:32:16.409297Z",
+  "valid_to": null
+}

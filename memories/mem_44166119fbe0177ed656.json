@@ -1,0 +1,33 @@
+{
+  "conditions": "用户手机4G和家里宽带均无法连接服务器，诊断为IP级封锁",
+  "confidence": 0.9,
+  "content": "用户的 RackNerd VPS(IP 155.94.145.75,洛杉矶 DC02,ColoCrossing AS36352)于 2026-10-26 被 GFW 在 IP 层封锁:国内多网络 ICMP 通但所有 TCP 端口超时,同段邻居 155.94.145.100:443 仍可达,国外可达。",
+  "created_at": "2026-10-28T19:05:26.427989Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_44166119fbe0177ed656",
+  "is_temporary": false,
+  "keywords": [
+    "VPS被墙",
+    "IP封锁",
+    "RackNerd",
+    "换IP"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-28T19:05:26.427989Z",
+  "valid_to": null
+}

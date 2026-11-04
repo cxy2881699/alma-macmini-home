@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "文献索引"
+  ],
+  "created_at": "2026-10-27T04:18:07.879408Z",
+  "description": "用户要求生成的文献索引表格，路径为 /Users/seancao/.openclaw/workspace/docs/research/papers-index.md。",
+  "id": "ent_ac75cb66690cacf39d3f",
+  "name": "papers-index.md",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T08:56:50.226390Z"
+}

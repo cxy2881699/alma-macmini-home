@@ -1,0 +1,51 @@
+{
+  "conditions": "Codex 承认把没有主动调用 MCP 误说成没有调用记忆服务。",
+  "confidence": 0.82,
+  "content": "用户把 MCP 记忆查询视为额外深度查询,而不是每轮自动召回的替代品;Agent 不应把“未主动调用 MCP”表述成“没有调用记忆服务”。",
+  "created_at": "2026-10-27T04:31:15.674738Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_ddfc3157c195d2617059",
+      "quote": "用户把 MCP 记忆查询视为额外深度查询,而不是每轮自动召回的替代品;Agent 不应把“未主动调用 MCP”表述成“没有调用记忆服务”。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_8c87e597bf42f775ecef",
+  "is_temporary": false,
+  "keywords": [
+    "MCP",
+    "深度查询",
+    "自动搜索",
+    "记忆服务",
+    "术语区分"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ddfc3157c195d2617059",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:31:15.674738Z",
+  "valid_to": null
+}

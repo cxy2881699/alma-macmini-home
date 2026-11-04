@@ -1,0 +1,41 @@
+{
+  "conditions": "用户计划把 PRD 交给其他 Agent 分析评审，需要完整可访问文档时检索。",
+  "confidence": 0.75,
+  "content": "用户计划把 PRD 交给其他 Agent 做分析评审,因此需要跨 Agent 可访问的完整文档,而非仅本机文件或摘要。",
+  "created_at": "2026-10-02T19:02:11.744858Z",
+  "derived_from": [],
+  "entities": [
+    "ent_0dd3ce8f5049183636d7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_368623a433af744747b7",
+  "is_temporary": false,
+  "keywords": [
+    "跨Agent",
+    "评审",
+    "文档共享",
+    "其他Agent分析",
+    "跨Agent访问",
+    "PRD评审",
+    "其他 Agent",
+    "完整文档",
+    "跨Agent工作流",
+    "Markdown"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-10-02T19:02:11.744858Z",
+  "valid_to": null
+}

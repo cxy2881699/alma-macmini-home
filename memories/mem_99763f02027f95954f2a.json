@@ -1,0 +1,66 @@
+{
+  "conditions": "用户关注每轮 hook search 已触发，但失败时仍可能放行对话的可靠性缺口。",
+  "confidence": 0.9,
+  "content": "当前 Codex 的每轮 hook 召回是“尽力而为”:搜索超时或服务出错时会放行对话,因此不能保证每轮召回成功。",
+  "created_at": "2026-09-29T19:00:58.066657Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_ddfc3157c195d2617059",
+      "quote": "当前 Codex 的每轮 hook 召回是“尽力而为”:搜索超时或服务出错时会放行对话,因此不能保证每轮召回成功。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_99763f02027f95954f2a",
+  "is_temporary": false,
+  "keywords": [
+    "recall",
+    "记忆搜索保证",
+    "失败阻断",
+    "recall ok",
+    "非阻断",
+    "recall失败放行",
+    "服务错误",
+    "hook召回",
+    "审计确认",
+    "服务错误放行",
+    "非强制成功",
+    "hook容错",
+    "Codex UserPromptSubmit",
+    "搜索超时放行",
+    "hooks信任",
+    "hook自动召回",
+    "MCP深度查询",
+    "UserPromptSubmit",
+    "失败放行",
+    "recall=ok"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ddfc3157c195d2617059",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-29T19:00:58.066657Z",
+  "valid_to": null
+}

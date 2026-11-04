@@ -1,0 +1,75 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-29T04:25:24.395722Z",
+  "id": "rev_16c84fa5d3112f2638d1",
+  "memory": {
+    "conditions": "PRD 安全章节讨论投毒、图像攻击与过期记忆风险时",
+    "confidence": 0.9,
+    "content": "2026H2 综述显示记忆安全谱系大扩展:纯图像攻击 LUCID 达 61.6% ASR,假信念入库后复述率 0.97+,过期空间记忆会使具身智能体死亡率翻倍。",
+    "created_at": "2026-09-29T04:25:24.395722Z",
+    "derived_from": [],
+    "entities": [
+      "ent_7d78c1639a0001d26261",
+      "ent_a009e810e6646b0cf76b"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_56b471b2ce769966e5ab",
+        "quote": "2026H2 综述显示记忆安全谱系大扩展:纯图像攻击 LUCID 达 61.6% ASR,假信念入库后复述率 0.97+,过期空间记忆会使具身智能体死亡率翻倍。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_e437f43ab8d3329bc39c",
+    "is_temporary": false,
+    "keywords": [
+      "投毒",
+      "安全隐私",
+      "ASR",
+      "复述率",
+      "死亡率",
+      "隐私",
+      "ASR 61.6%",
+      "假信念注入",
+      "过期记忆",
+      "具身死亡率",
+      "安全",
+      "记忆投毒",
+      "LUCID",
+      "图像攻击",
+      "61.6% ASR",
+      "假信念",
+      "0.97复述率",
+      "过期空间记忆",
+      "死亡率翻倍",
+      "记忆安全"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_56b471b2ce769966e5ab",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-29T04:25:24.395722Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e437f43ab8d3329bc39c",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

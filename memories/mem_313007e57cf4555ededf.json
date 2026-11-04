@@ -1,0 +1,64 @@
+{
+  "conditions": "用户验证 agent-memory 管理界面来源标签是否生效时",
+  "confidence": 0.7,
+  "content": "用户反馈管理页仍看不到记忆来源列,Agent 排查发现重启后存在新旧两个 memd 进程,旧进程返回旧页面;杀掉旧进程后确认新页面已含来源标签代码,并让用户强制刷新。",
+  "created_at": "2026-09-23T17:44:08.832825Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_a89c73b5da84ca8372b8",
+    "ent_27ceaaff441cfde0a957"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_fced576e2338a7e33460",
+      "quote": "用户反馈管理页仍看不到记忆来源列,Agent 排查发现重启后存在新旧两个 memd 进程,旧进程返回旧页面;杀掉旧进程后确认新页面已含来源标签代码,并让用户强制刷新。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_33b2fba39edba1a1fd4a",
+      "quote": "用户反馈管理页仍看不到记忆来源列,Agent 排查发现重启后存在新旧两个 memd 进程,旧进程返回旧页面;杀掉旧进程后确认新页面已含来源标签代码,并让用户强制刷新。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_313007e57cf4555ededf",
+  "is_temporary": false,
+  "keywords": [
+    "memd",
+    "双进程",
+    "admin.html",
+    "来源列",
+    "浏览器缓存",
+    "强制刷新",
+    "8787"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_fced576e2338a7e33460",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_33b2fba39edba1a1fd4a",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-23T17:44:08.832825Z",
+  "valid_to": null
+}

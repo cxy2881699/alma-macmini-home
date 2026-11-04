@@ -1,0 +1,80 @@
+{
+  "conditions": "排查本机代理影响私网访问或记忆服务地址时使用。",
+  "confidence": 0.9,
+  "content": "本机访问记忆服务应固定使用 http://127.0.0.1:8787;只有其他远程 Agent 才通过 seanmac-mini.tail92d6fe.ts.net:8787 访问,以避开本机代理对 Tailscale 私网地址的错误转发。",
+  "created_at": "2026-10-27T04:49:27.207725Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_9f82bdbcda91e1775def",
+    "ent_0674430ba5d897eb2671",
+    "ent_421c00dde9a1b98fc969",
+    "ent_4488e0fdf8d04896269e",
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_1d9f495f128ccc9b4e0f",
+      "quote": "本机访问记忆服务应固定使用 http://127.0.0.1:8787;只有其他远程 Agent 才通过 seanmac-mini.tail92d6fe.ts.net:8787 访问,以避开本机代理对 Tailscale 私网地址的错误转发。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_251281e40be3c2e88a50",
+      "quote": "本机访问记忆服务应固定使用 http://127.0.0.1:8787;只有其他远程 Agent 才通过 seanmac-mini.tail92d6fe.ts.net:8787 访问,以避开本机代理对 Tailscale 私网地址的错误转发。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_47e64ebb426d63770b64",
+  "is_temporary": false,
+  "keywords": [
+    "本机回环",
+    "远程 Agent",
+    "本机 memd 地址",
+    "Tailscale 远程 Agent",
+    "seanmac-mini",
+    "8787",
+    "tailnet地址",
+    "本机记忆服务",
+    "代理转发",
+    "Tailscale",
+    "MagicDNS",
+    "tail92d6fe.ts.net",
+    "NO_PROXY",
+    "8118",
+    "8119",
+    "Undici",
+    "本机地址",
+    "127.0.0.1:8787",
+    "本机访问memd",
+    "Tailscale地址"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1d9f495f128ccc9b4e0f",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_251281e40be3c2e88a50",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:49:27.207725Z",
+  "valid_to": null
+}

@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-11T19:02:00.446480Z",
+  "id": "rev_b1b9bc8a6e544bd0d4a6",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-26：凌晨用户身体不适仍排查记忆静默丢弃问题,确认客户端轮次 ID 冲突与服务端误覆盖风险;下午验证 Codex hooks,并深入讨论可进化记忆作为开源底座之上的商业增强层、成长 NPC 与数字亲人愿景。",
+    "created_at": "2026-10-11T19:02:00.446480Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_16d2615f00ae766bb32b",
+        "quote": "2026-09-26：凌晨用户身体不适仍排查记忆静默丢弃问题,确认客户端轮次 ID 冲突与服务端误覆盖风险;下午验证 Codex hooks,并深入讨论可进化记忆作为开源底座之上的商业增强层、成长 NPC 与数字亲人愿景。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_87289fdddd2ac89ea831",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_16d2615f00ae766bb32b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-11T19:02:00.446480Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_87289fdddd2ac89ea831",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

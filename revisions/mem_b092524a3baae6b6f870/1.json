@@ -1,0 +1,47 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-29T19:02:00.336654Z",
+  "id": "rev_1bad1f9590c3c1fbea58",
+  "memory": {
+    "conditions": "Agent 在架构草案中归纳最核心的新增对象。",
+    "confidence": 0.8,
+    "content": "该成长记忆架构的核心新增对象是“带证据和版本的个体状态”,用于连接已有记忆存储与未来行为差异。",
+    "created_at": "2026-09-29T19:02:00.336654Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_b092524a3baae6b6f870",
+    "is_temporary": false,
+    "keywords": [
+      "个体状态",
+      "证据",
+      "版本",
+      "行为差异",
+      "架构草案"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-29T19:02:00.336654Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_b092524a3baae6b6f870",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

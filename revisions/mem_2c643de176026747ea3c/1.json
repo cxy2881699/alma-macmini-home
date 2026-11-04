@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T19:11:46.060262Z",
+  "id": "rev_f9dd418ee6d7d07c8a39",
+  "memory": {
+    "conditions": "七家车企战略合作核查中，岚图案例需区分合作目标与公开落地。",
+    "confidence": 0.86,
+    "content": "火山引擎与岚图汽车于2025-03-03在武汉签约,合作覆盖座舱大模型、企业数字化、智驾云与座舱云;截至2026-10-27未找到权威公开稿证明该协议项下已有车型量产或具体平台上线。",
+    "created_at": "2026-10-27T19:11:46.060262Z",
+    "derived_from": [],
+    "entities": [
+      "ent_efece682195ff5999c2b",
+      "ent_b6e5f07139d194f4aaa5"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_d4ea596374d100c7cd4f",
+        "quote": "火山引擎与岚图汽车于2025-03-03在武汉签约,合作覆盖座舱大模型、企业数字化、智驾云与座舱云;截至2026-10-27未找到权威公开稿证明该协议项下已有车型量产或具体平台上线。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_2c643de176026747ea3c",
+    "is_temporary": false,
+    "keywords": [
+      "岚图",
+      "武汉",
+      "座舱大模型",
+      "智驾云",
+      "未落地"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d4ea596374d100c7cd4f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T19:11:46.060262Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_2c643de176026747ea3c",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

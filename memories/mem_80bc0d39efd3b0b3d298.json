@@ -1,0 +1,53 @@
+{
+  "conditions": "用户为自研 EVOLVING-MEMORY PRD 补充近三个月新论文与多模态记忆方向调研",
+  "confidence": 0.7,
+  "content": "用户派出 subagent 通读 mem-papers-2026H2 下全部 49 篇近三个月 Agent Memory 论文(含多模态方向),subagent 用 pypdf/PyMuPDF 提取全文并产出约 19KB 中文全景综述 SURVEY-2026H2.md,含热点地图、7 个分方向、10 条「现在能做到以前做不到的事」及 PRD 借鉴建议。",
+  "created_at": "2026-09-29T04:25:24.395722Z",
+  "derived_from": [],
+  "entities": [
+    "ent_7d78c1639a0001d26261",
+    "ent_cd077af734ef059c7775",
+    "ent_a009e810e6646b0cf76b"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_56b471b2ce769966e5ab",
+      "quote": "用户派出 subagent 通读 mem-papers-2026H2 下全部 49 篇近三个月 Agent Memory 论文(含多模态方向),subagent 用 pypdf/PyMuPDF 提取全文并产出约 19KB 中文全景综述 SURVEY-2026H2.md,含热点地图、7 个分方向、10 条「现在能做到以前做不到的事」及 PRD 借鉴建议。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_80bc0d39efd3b0b3d298",
+  "is_temporary": false,
+  "keywords": [
+    "论文综述",
+    "Agent Memory",
+    "2026H2",
+    "多模态记忆",
+    "文献调研",
+    "PRD",
+    "subagent"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_56b471b2ce769966e5ab",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-29T04:25:24.395722Z",
+  "valid_to": null
+}

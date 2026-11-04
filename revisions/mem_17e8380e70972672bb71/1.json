@@ -1,0 +1,47 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-29T19:01:38.188622Z",
+  "id": "rev_639e2a5001bc5fd2d857",
+  "memory": {
+    "conditions": "用户提出收集去世亲人数据可重建接近本人的赛博生命，助手纠正两个“一定”。",
+    "confidence": 0.83,
+    "content": "逝者数字重建应把“历史还原程度”和“后续成长程度”分开评估,不能把数字个体诞生后的生成性反应重写成逝者生前事实。",
+    "created_at": "2026-09-29T19:01:38.188622Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_17e8380e70972672bb71",
+    "is_temporary": false,
+    "keywords": [
+      "逝者复活",
+      "数字永生",
+      "纪念陪伴",
+      "资料边界",
+      "人格还原"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "review",
+    "status_reason": "migrated from old agent-memory (candidate)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-29T19:01:38.188622Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_17e8380e70972672bb71",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

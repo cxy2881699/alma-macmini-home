@@ -1,0 +1,53 @@
+{
+  "conditions": "奔驰合作案需要区分官宣日期、未知精确签约日、升级备忘录和CLA量产应用。",
+  "confidence": 0.9,
+  "content": "火山引擎与梅赛德斯-奔驰中国的 2024 年合作在 8 月 13 日官宣,但原稿件只称“近日签署”,未披露精确签约日期;2025-09-23 双方升级战略合作,2025-11-05 全新纯电 CLA 上市稿明确其智能座舱应用豆包大模型,属于量产上车。",
+  "created_at": "2026-10-27T18:35:13.611211Z",
+  "derived_from": [],
+  "entities": [
+    "ent_b4a085894df92a90957d",
+    "ent_7eb36e87c3f9406c9215"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_d4ea596374d100c7cd4f",
+      "quote": "火山引擎与梅赛德斯-奔驰中国的 2024 年合作在 8 月 13 日官宣,但原稿件只称“近日签署”,未披露精确签约日期;2025-09-23 双方升级战略合作,2025-11-05 全新纯电 CLA 上市稿明确其智能座舱应用豆包大模型,属于量产上车。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_c264287300faaea7f93f",
+  "is_temporary": false,
+  "keywords": [
+    "奔驰中国",
+    "近日签署",
+    "官宣日期",
+    "纯电CLA",
+    "豆包大模型",
+    "量产上车",
+    "佟欧福",
+    "张利东"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d4ea596374d100c7cd4f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T18:35:13.611211Z",
+  "valid_to": null
+}

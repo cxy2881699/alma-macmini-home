@@ -1,0 +1,40 @@
+{
+  "conditions": "用户长期需要可用代理来稳定访问 Claude，后续节点/VPS 选型应优先满足该需求。",
+  "confidence": 0.75,
+  "content": "用户的核心需求之一是稳定使用 Claude(网页版和 Claude Code/API),现有 RackNerd 机房 IP 无法稳定使用 Claude;用户使用 Mac。",
+  "created_at": "2026-10-27T05:45:17.840343Z",
+  "derived_from": [],
+  "entities": [
+    "ent_51b9c91560022845906c"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_2843b2f30f782c47f89e",
+  "is_temporary": false,
+  "keywords": [
+    "Claude",
+    "AI访问",
+    "风控",
+    "住宅IP",
+    "Claude稳定使用",
+    "Claude网页版",
+    "Claude Code",
+    "RackNerd封IP",
+    "Mac代理需求"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:45:17.840343Z",
+  "valid_to": null
+}

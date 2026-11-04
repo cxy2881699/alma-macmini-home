@@ -1,0 +1,14 @@
+{
+  "aliases": [
+    "44 A-MAC",
+    "Adaptive Memory Admission Control"
+  ],
+  "created_at": "2026-09-28T03:54:20.257364Z",
+  "description": "MemAgents Workshop 论文（编号44），提出5因子自适应记忆准入机制",
+  "id": "ent_dfd03d9ca735212c09d4",
+  "name": "A-MAC",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T08:56:50.226685Z"
+}

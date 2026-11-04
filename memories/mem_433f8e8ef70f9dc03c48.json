@@ -1,0 +1,51 @@
+{
+  "conditions": "用户抱怨输出慢时，助手说明模型参数已改好并需重启生效。",
+  "confidence": 0.95,
+  "content": "kimi-k3-1-pro-261024 的 OpenClaw 配置已从早期 262144/32768 校正为 1024k 上下文、128k 输出,并启用 text+image 与 reasoning。",
+  "created_at": "2026-11-02T19:06:51.671708Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_1c6b296bc5cb579536f2",
+    "ent_85ac7912658c80484706"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_6bd23e50822556638c98",
+      "quote": "kimi-k3-1-pro-261024 的 OpenClaw 配置已从早期 262144/32768 校正为 1024k 上下文、128k 输出,并启用 text+image 与 reasoning。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_433f8e8ef70f9dc03c48",
+  "is_temporary": false,
+  "keywords": [
+    "模型参数",
+    "1024k",
+    "128k",
+    "图片输入",
+    "reasoning"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_6bd23e50822556638c98",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-02T19:06:51.671708Z",
+  "valid_to": null
+}

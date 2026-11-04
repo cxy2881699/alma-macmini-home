@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-24：用户在凌晨继续排查 agent-memory 的管理页、后台部署、Codex/OpenClaw 自动召回与 Tailscale 代理问题;OpenClaw 恢复,Codex CLI 钩子经信任后完成召回和保存闭环,随后用户测试服务稳定性与搜索性能。",
+  "created_at": "2026-09-24T19:01:20.803064Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_5b883889d29d5bd320af",
+      "quote": "2026-09-24：用户在凌晨继续排查 agent-memory 的管理页、后台部署、Codex/OpenClaw 自动召回与 Tailscale 代理问题;OpenClaw 恢复,Codex CLI 钩子经信任后完成召回和保存闭环,随后用户测试服务稳定性与搜索性能。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_d393fed51412ce2068ad",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_5b883889d29d5bd320af",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-09-24T19:01:20.803064Z",
+  "valid_to": null
+}

@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-05T19:01:53.387077Z",
+  "id": "rev_1f51f8450cdcdbca6f03",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-24：用户围绕 Codex agent-memory hook 从桌面窗口找不到 /hooks,转到 CLI 修复二进制、Gatekeeper 与官方安装问题,最终验证三个 hook active 且 CLI 能召回、保存并整理记忆;随后询问 OpenClaw 的改动,并处理 Neo4j 停止导致的记忆服务重启循环。",
+    "created_at": "2026-10-05T19:01:53.387077Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_f43c83f7f1f5cdacef20",
+        "quote": "2026-09-24：用户围绕 Codex agent-memory hook 从桌面窗口找不到 /hooks,转到 CLI 修复二进制、Gatekeeper 与官方安装问题,最终验证三个 hook active 且 CLI 能召回、保存并整理记忆;随后询问 OpenClaw 的改动,并处理 Neo4j 停止导致的记忆服务重启循环。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_9478a70648fb82e086f9",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_f43c83f7f1f5cdacef20",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-05T19:01:53.387077Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9478a70648fb82e086f9",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

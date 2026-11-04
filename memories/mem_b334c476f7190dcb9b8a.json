@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-26：用户与 codex 深入探讨可进化记忆系统:先讨论重要记忆的判断维度(情感冲击、信息熵/认知更新、反事实损失),再形成基于现有 agent-memory 的成长引擎架构草案,最后产出 PRD v0.1 并存入本机和记忆库,但发现普通检索无法取回全文。",
+  "created_at": "2026-10-27T05:21:57.475298Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_8747147e4e4a8cd6b63f",
+      "quote": "2026-09-26：用户与 codex 深入探讨可进化记忆系统:先讨论重要记忆的判断维度(情感冲击、信息熵/认知更新、反事实损失),再形成基于现有 agent-memory 的成长引擎架构草案,最后产出 PRD v0.1 并存入本机和记忆库,但发现普通检索无法取回全文。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_b334c476f7190dcb9b8a",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8747147e4e4a8cd6b63f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-27T05:21:57.475298Z",
+  "valid_to": null
+}

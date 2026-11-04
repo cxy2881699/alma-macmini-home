@@ -1,0 +1,52 @@
+{
+  "conditions": "用户要求 Codex 将可进化记忆系统 PRD 存入记忆库，供其他 Agent 评审。",
+  "confidence": 0.78,
+  "content": "用户期望把 PRD 全文作为共享资料存入记忆系统,使其他 Agent 可直接读取;但该期望是否能由普通检索满足仍取决于权限与全文接口。",
+  "created_at": "2026-11-01T19:02:27.121167Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e",
+    "ent_0dd3ce8f5049183636d7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_204132bcd438ed41fedc",
+      "quote": "用户期望把 PRD 全文作为共享资料存入记忆系统,使其他 Agent 可直接读取;但该期望是否能由普通检索满足仍取决于权限与全文接口。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_48840b87be65e36ce7c2",
+  "is_temporary": false,
+  "keywords": [
+    "PRD归档",
+    "跨Agent读取",
+    "全文共享",
+    "文档权限",
+    "独立评审"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_204132bcd438ed41fedc",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-01T19:02:27.121167Z",
+  "valid_to": null
+}

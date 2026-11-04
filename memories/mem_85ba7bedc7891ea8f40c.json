@@ -1,0 +1,56 @@
+{
+  "conditions": "用户睡前要求把两台 Mac 的所有 Agent 都挂到 Mac mini 记忆服务。",
+  "confidence": 0.9,
+  "content": "用户希望公司 Mac 与个人 Mac 上的所有 Agent 都接入同一记忆服务,并优先需要一键安装方式而非手工配置。",
+  "created_at": "2026-09-28T19:04:31.358014Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_421c00dde9a1b98fc969",
+    "ent_4488e0fdf8d04896269e",
+    "ent_1b0510f6e7579d8f62b3",
+    "ent_a69778123bc4273b8cd3",
+    "ent_e8cc85fed50bec2f3bc3",
+    "ent_8780400efccac7084a5a"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_bd935a27864a54ab1d40",
+      "quote": "用户希望公司 Mac 与个人 Mac 上的所有 Agent 都接入同一记忆服务,并优先需要一键安装方式而非手工配置。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_85ba7bedc7891ea8f40c",
+  "is_temporary": false,
+  "keywords": [
+    "一键安装",
+    "多设备接入",
+    "install.sh",
+    "注册码",
+    "company-mac",
+    "personal-mac"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_bd935a27864a54ab1d40",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-09-28T19:04:31.358014Z",
+  "valid_to": null
+}

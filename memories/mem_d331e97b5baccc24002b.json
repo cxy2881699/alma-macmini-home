@@ -1,0 +1,37 @@
+{
+  "conditions": "用户在讨论可进化记忆商业化时提出用逝者资料构建持续成长的陪伴 Agent。",
+  "confidence": 0.78,
+  "content": "用户将“用逝者生前数据与口述经历重建接近本人的赛博生命并持续陪伴”视为可进化记忆的重要应用方向,但该设想中的“一定可重建”在对话中被明确保留判断。",
+  "created_at": "2026-10-01T19:11:09.883716Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_d331e97b5baccc24002b",
+  "is_temporary": false,
+  "keywords": [
+    "数字永生",
+    "逝者陪伴",
+    "数字重建",
+    "口述人生经历",
+    "纪念型Agent"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "review",
+  "status_reason": "migrated from old agent-memory (candidate)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-01T19:11:09.883716Z",
+  "valid_to": null
+}

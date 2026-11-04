@@ -1,0 +1,44 @@
+{
+  "conditions": "",
+  "confidence": 0.95,
+  "content": "Codex 的三个 agent-memory 钩子分别对应 mem hook recall --agent codex、mem hook mid --agent codex、mem hook capture --agent codex,可执行文件路径为 /Users/seancao/.mem/bin/mem。",
+  "created_at": "2026-09-23T17:21:18.380352Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_ea3bf0959fa2c6d88a4f",
+      "quote": "Codex 的三个 agent-memory 钩子分别对应 mem hook recall --agent codex、mem hook mid --agent codex、mem hook capture --agent codex,可执行文件路径为 /Users/seancao/.mem/bin/mem。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_a013b5159dd436913bdb",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ea3bf0959fa2c6d88a4f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-23T17:21:18.380352Z",
+  "valid_to": null
+}

@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-10T19:04:32.299602Z",
+  "id": "rev_feae161eb50cdeb19ccb",
+  "memory": {
+    "conditions": "Agent 复述用户此前定下的核查规矩",
+    "confidence": 0.8,
+    "content": "用户对记忆系统的核查有明确标准:要求看服务端审计证据,不接受仅凭界面状态或推断作答。",
+    "created_at": "2026-10-10T19:04:32.299602Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_757d5db77d98095cac21",
+    "is_temporary": false,
+    "keywords": [
+      "服务端审计",
+      "证据",
+      "不接受推断",
+      "核查标准"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-10T19:04:32.299602Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_757d5db77d98095cac21",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

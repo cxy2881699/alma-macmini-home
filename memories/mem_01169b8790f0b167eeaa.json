@@ -1,0 +1,50 @@
+{
+  "conditions": "晨报来源验证阶段搜索工具异常，Agent 明确给出修复命令。",
+  "confidence": 0.9,
+  "content": "Brave Search API key 在 2026-10-08 晨报时再次失效,英文源只能依靠百度搜索补位;需要运行 openclaw configure --section web 重新配置。",
+  "created_at": "2026-10-08T19:04:00.980879Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_21ec0a807d8ab8a39f8f",
+      "quote": "Brave Search API key 在 2026-10-08 晨报时再次失效,英文源只能依靠百度搜索补位;需要运行 openclaw configure --section web 重新配置。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_01169b8790f0b167eeaa",
+  "is_temporary": false,
+  "keywords": [
+    "missing_brave_api_key",
+    "Brave API key",
+    "百度补位",
+    "openclaw configure",
+    "web 配置"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_21ec0a807d8ab8a39f8f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-08T19:04:00.980879Z",
+  "valid_to": null
+}

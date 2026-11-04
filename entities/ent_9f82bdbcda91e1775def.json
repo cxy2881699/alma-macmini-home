@@ -1,0 +1,17 @@
+{
+  "aliases": [
+    "memd",
+    "agentmemory",
+    "agent-memory",
+    "现有 agent-memory",
+    "基础记忆系统"
+  ],
+  "created_at": "2026-09-23T16:53:56.566341Z",
+  "description": "用户在 Mac mini 上部署的个人记忆系统，含 memd 服务、Neo4j 图数据库，管理页面端口 8787，通过 launchd 常驻",
+  "id": "ent_9f82bdbcda91e1775def",
+  "name": "agent-memory 记忆系统",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "project",
+  "updated_at": "2026-11-04T08:56:50.213471Z"
+}

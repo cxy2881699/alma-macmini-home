@@ -1,0 +1,55 @@
+{
+  "conditions": "用户希望通过服务端审计快速定位记忆召回故障。",
+  "confidence": 0.82,
+  "content": "排查记忆链路故障时,用户重视服务端保留每次 recall/search 的读取审计日志,以便快速区分未触发、超时和返回空结果。",
+  "created_at": "2026-10-09T19:00:42.547814Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_0796872cfc79a9328bad",
+      "quote": "排查记忆链路故障时,用户重视服务端保留每次 recall/search 的读取审计日志,以便快速区分未触发、超时和返回空结果。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_b168e6f28a9cf1bf8584",
+  "is_temporary": false,
+  "keywords": [
+    "读取日志",
+    "审计",
+    "recall 记录",
+    "故障排查",
+    "读取审计",
+    "recall 日志",
+    "search 日志",
+    "未触发",
+    "超时",
+    "空结果"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_0796872cfc79a9328bad",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-09T19:00:42.547814Z",
+  "valid_to": null
+}

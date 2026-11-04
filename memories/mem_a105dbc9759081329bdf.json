@@ -1,0 +1,46 @@
+{
+  "conditions": "复盘 VPS 方案时说明被封节点仍可通过新 VPS 维护。",
+  "confidence": 0.84,
+  "content": "旧 VPS 的维护路径是用新 VPS 做 SSH 跳板:从境外到境外连接 155.94.145.75,以避开中国入境方向封锁。",
+  "created_at": "2026-10-31T19:06:06.466285Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_af943030f4b33235f412",
+      "quote": "旧 VPS 的维护路径是用新 VPS 做 SSH 跳板:从境外到境外连接 155.94.145.75,以避开中国入境方向封锁。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_a105dbc9759081329bdf",
+  "is_temporary": false,
+  "keywords": [
+    "跳板机",
+    "ProxyJump",
+    "境外维护",
+    "旧VPS"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_af943030f4b33235f412",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-31T19:06:06.466285Z",
+  "valid_to": null
+}

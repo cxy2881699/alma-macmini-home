@@ -1,0 +1,50 @@
+{
+  "conditions": "用户询问深度总结为何没有同步到记忆库，OpenClaw 解释 capture 与记忆成形存在时间差。",
+  "confidence": 0.85,
+  "content": "截至 2026-09-24,agent-memory 的记忆成形是异步流水线:原文先落库,随后经 extract、embedding、建链和 sleep 整理,因此管理页可能延迟出现新记忆。",
+  "created_at": "2026-10-05T19:03:14.145445Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_e72a494e03485b2fa6ad",
+      "quote": "截至 2026-09-24,agent-memory 的记忆成形是异步流水线:原文先落库,随后经 extract、embedding、建链和 sleep 整理,因此管理页可能延迟出现新记忆。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_85e55a40793d1e5b16d1",
+  "is_temporary": false,
+  "keywords": [
+    "异步流水线",
+    "延迟入库",
+    "extract",
+    "embed",
+    "记忆成形"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_e72a494e03485b2fa6ad",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-05T19:03:14.145445Z",
+  "valid_to": null
+}

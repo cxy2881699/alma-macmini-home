@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:30:42.259227Z",
+  "id": "rev_447997c5469935bd498e",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-10-18：用户在深夜继续收尾五台设备代理配置,MacBook 的 Wi-Fi 代理写入 7897 后曾短暂可用,但很快又反馈异常;随后讨论全新 Gmail 注册 Claude 被 hold 的风控原因,并决定重新注册 Gmail、养号 3-5 天后再注册 Claude。",
+    "created_at": "2026-10-27T05:30:42.259227Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_10853d0c7dcf8fdb980b",
+        "quote": "2026-10-18：用户在深夜继续收尾五台设备代理配置,MacBook 的 Wi-Fi 代理写入 7897 后曾短暂可用,但很快又反馈异常;随后讨论全新 Gmail 注册 Claude 被 hold 的风控原因,并决定重新注册 Gmail、养号 3-5 天后再注册 Claude。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_8f98386b49462682e69e",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_10853d0c7dcf8fdb980b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-27T05:30:42.259227Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_8f98386b49462682e69e",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:48:49.989939Z",
+  "id": "rev_382f9c25e6ed2c811ace",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-10-13：用户两次要求仅回复\"正常\"二字,助手均照做,属于连通性/格式测试类闲聊。",
+    "created_at": "2026-10-27T04:48:49.989939Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_d9d1209f30bac52c784a",
+        "quote": "2026-10-13：用户两次要求仅回复\"正常\"二字,助手均照做,属于连通性/格式测试类闲聊。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_6ed6a04bc78c37eb99f2",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d9d1209f30bac52c784a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-27T04:48:49.989939Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_6ed6a04bc78c37eb99f2",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

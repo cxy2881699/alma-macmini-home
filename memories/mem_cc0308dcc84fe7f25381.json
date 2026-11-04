@@ -1,0 +1,54 @@
+{
+  "conditions": "用户怀疑 search 慢并追问 110ms 是否真的走了图数据库。",
+  "confidence": 0.86,
+  "content": "2026-09-24 凌晨本机实测,Codex 每轮对话前的轻量记忆召回通常约 20–40ms、最慢约 110ms,且该路径包含 Neo4j 图检索;向量生成默认后台预热,不等同于完整深度向量召回。",
+  "created_at": "2026-10-27T19:02:35.840376Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e",
+    "ent_1b0510f6e7579d8f62b3",
+    "ent_176409fa578ba26c2c5b",
+    "ent_4382e946c32aec408a6e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_b5c4a9b1810f60adccbd",
+      "quote": "2026-09-24 凌晨本机实测,Codex 每轮对话前的轻量记忆召回通常约 20–40ms、最慢约 110ms,且该路径包含 Neo4j 图检索;向量生成默认后台预热,不等同于完整深度向量召回。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_cc0308dcc84fe7f25381",
+  "is_temporary": false,
+  "keywords": [
+    "记忆检索延迟",
+    "Neo4j",
+    "轻量召回",
+    "向量预热",
+    "recall 性能"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_b5c4a9b1810f60adccbd",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T19:02:35.840376Z",
+  "valid_to": null
+}

@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-10T19:04:52.171733Z",
+  "id": "rev_34dd5ccaf2ac3675ab5a",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-10-11：凌晨 cron 静默执行价格爬虫;心跳检查时 Agent 报告记忆 capture 写入链路疑似自 9/23 中断、昨晚品牌命名对话未入库,请求授权深挖根因。",
+    "created_at": "2026-10-10T19:04:52.171733Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_0949a95848ea1b3763dc",
+        "quote": "2026-10-11：凌晨 cron 静默执行价格爬虫;心跳检查时 Agent 报告记忆 capture 写入链路疑似自 9/23 中断、昨晚品牌命名对话未入库,请求授权深挖根因。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_b8ef8a3bf224e8e1f3bf",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_0949a95848ea1b3763dc",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-10T19:04:52.171733Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_b8ef8a3bf224e8e1f3bf",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

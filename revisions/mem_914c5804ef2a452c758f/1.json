@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:19:40.101864Z",
+  "id": "rev_522ff2e31726f84dc5e2",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.9,
+    "content": "memd 后台任务大量失败的错误集中为 ModelError: network: PoolTimeout,Agent 实测 ark chat 与 embeddings 接口均返回 200,判断根因是 memd HTTP 客户端连接池被慢请求占满而非网络、API key 或模型下线。",
+    "created_at": "2026-10-27T04:19:40.101864Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8395beca681a6a0993af",
+        "quote": "memd 后台任务大量失败的错误集中为 ModelError: network: PoolTimeout,Agent 实测 ark chat 与 embeddings 接口均返回 200,判断根因是 memd HTTP 客户端连接池被慢请求占满而非网络、API key 或模型下线。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_914c5804ef2a452c758f",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8395beca681a6a0993af",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:19:40.101864Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_914c5804ef2a452c758f",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

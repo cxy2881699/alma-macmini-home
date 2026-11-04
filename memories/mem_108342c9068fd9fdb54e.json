@@ -1,0 +1,35 @@
+{
+  "conditions": "复盘 10-26 18:20 整机断网原因时发现配置未持久化。",
+  "confidence": 0.85,
+  "content": "2026-10-18 承诺添加的 GEOIP,CN,DIRECT 分流规则实际未落盘,生效配置仅有 21 条广告拦截和 MATCH,PROXY,导致节点失效时国内流量也被发往死节点、整机断网;Agent 承认是自身配置遗漏。",
+  "created_at": "2026-10-27T05:37:56.365080Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f18082c6c564869030be"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_108342c9068fd9fdb54e",
+  "is_temporary": false,
+  "keywords": [
+    "分流规则",
+    "断网",
+    "Verge配置",
+    "国内直连"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:37:56.365080Z",
+  "valid_to": null
+}

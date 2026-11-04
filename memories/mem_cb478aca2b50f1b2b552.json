@@ -1,0 +1,47 @@
+{
+  "conditions": "用户在发现记忆日期与环境日期不一致后，解释电脑时区配置与真实时间基准不同。",
+  "confidence": 0.9,
+  "content": "这台电脑的系统时区被设为美国时区,但用户明确说明真实时间应按北京时间理解;因此日志、记忆时间和事件先后需做时区校正,不能直接采信系统显示日期。",
+  "created_at": "2026-10-09T19:01:42.831756Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8de82365a1608c4e7c4d",
+      "quote": "这台电脑的系统时区被设为美国时区,但用户明确说明真实时间应按北京时间理解;因此日志、记忆时间和事件先后需做时区校正,不能直接采信系统显示日期。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_cb478aca2b50f1b2b552",
+  "is_temporary": false,
+  "keywords": [
+    "时区偏移",
+    "真实时间",
+    "北京时间",
+    "美国时区",
+    "日志时间"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8de82365a1608c4e7c4d",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-09T19:01:42.831756Z",
+  "valid_to": null
+}

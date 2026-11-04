@@ -1,0 +1,81 @@
+{
+  "agent_id": "openclaw@old-memd",
+  "assistant_text": "脚本写好了，而且**预检已经跑通——kimi-k3-1-pro-261024 在你的 ark 账号上真实可用**（我刚打了一次真实 API 调用，200）。 **脚本位置** `~/.openclaw/workspace/tools/switch-model.sh` **它干的事** 1. **改配置前先打真 API 预检** endpoint，不通就原地退出，零风险 2. 备份 `openclaw.json` → `~/.openclaw/backups/pre-model-switch-<时间戳>.json` 3. 加模型条目 + 把 `agents.defaults.model.primary` 指过去 4. `openclaw config validate` 双保险校验 5. 重启 Gateway → 真实跑一轮 agent 验证 6. **任何一步挂掉 → 自动恢复备份 + 重启 + 验证旧模型回来** **用法** ```bash # 切换（失败自动回滚） ~/.openclaw/workspace/tools/switch-model.sh kimi-k3-1-pro-261024 --name \"Kimi K3.1 Pro\" # 只预检，不改东西 ./switch-model.sh kimi-k3-1-pro-261024 --dry-run # 手动回滚到最近一次 ./switch-model.sh --rollback ``` **两个默认值要你确认** Kimi K3.1 Pro 的上下文和输出上限我不知道官方值，先按 Ark 上 Kimi 系列的惯例填了： - contextWindow **262144** - maxTokens **32768** 如果官方不是这个，加 `--context 1000000 --max-tokens 64000` 覆盖。 **最后一个提醒** 切换会重启 Gateway，我这个会话会断十几秒，飞书可能感知到短暂延迟——正常现象。 说声「切」我就执行。",
+  "content_hash": "d7f90511e9071fc355cab95c0a02d317f56009bf39218e0f9351001867162dfc",
+  "cwd": "",
+  "device_id": "dev_c10d93f982a71975",
+  "event_id": "evt_d55c939bb832758641d3",
+  "kind": "conversation",
+  "native_event_id": "74288e9a970948473d113afbfac3b5f7",
+  "occurred_at": "2026-10-27T02:25:17.729000Z",
+  "privacy_mode": "normal",
+  "project_id": "",
+  "received_at": "2026-11-04T08:56:48.943791Z",
+  "revision": 1,
+  "session_id": "dev_c10d93f982a71975:openclaw:agent:main:main",
+  "space": "user/shared",
+  "tools": [
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"ls -la ~/.openclaw/ | head -30; echo \\\"=== config files ===\\\"; ls -la ~/.openclaw/*.json ~/.openclaw/*.yaml ~/.openclaw/*.yml 2>/dev/null\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/homebrew/bin; openclaw models list 2>&1 | head -40; echo \\\"=== ---\\\"; openclaw --version 2>&1 | head -3\",\"timeout\":60}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"export PATH=/Users/seancao/coding/nodejs/node-v22.16.0-darwin-arm64/bin:/usr/bin:/bin:/usr/sbin:/sbin; which openclaw; echo \\\"=== config ===\\\"; cat ~/.openclaw/openclaw.json\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"export PATH=/Users/seancao/coding/nodejs/node-v22.16.0-darwin-arm64/bin:/usr/bin:/bin:/usr/sbin:/sbin; ls -la ~/.openclaw/credentials/ 2>/dev/null; echo \\\"---\\\"; for f in ~/.openclaw/credentials/*; do echo \\\"== $f\\\"; head -c 300 \\\"$f\\\" 2>/dev/null; echo; done\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"export PATH=/Users/seancao/coding/nodejs/node-v22.16.0-darwin-arm64/bin:/usr/bin:/bin:/usr/sbin:/sbin; echo \\\"=== env ARK ===\\\"; env | grep -iE \\\"ark|volc\\\" | sed 's/=.*/=***/' ; echo \\\"=== gateway status ===\\\"; openclaw gateway status 2>&1 | head -20\",\"timeout\":60}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"export PATH=/usr/bin:/bin:/usr/sbin:/sbin; echo \\\"=== plist ===\\\"; cat ~/Library/LaunchAgents/ai.openclaw.gateway.plist; echo \\\"=== 找 auth 文件 ===\\\"; find ~/.openclaw -maxdepth 3 -name \\\"*auth*\\\" -o -maxdepth 3 -name \\\"*credential*\\\" 2>/dev/null | head\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"export PATH=/usr/bin:/bin:/usr/sbin:/sbin; echo \\\"=== backups ===\\\"; ls -la ~/.openclaw/backups/qianfan-to-ark-20261012-093609/; echo \\\"=== main-auth-profiles ===\\\"; cat ~/.openclaw/backups/qianfan-to-ark-20261012-093609/main-auth-profiles.json | head -c 500; echo; echo \\\"=== agents dir "
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"export PATH=/usr/bin:/bin:/usr/sbin:/sbin; grep -rl \\\"ark:default\\\" ~/.openclaw --include=\\\"*.json\\\" 2>/dev/null | head; echo \\\"=== ---\\\"; find ~/.openclaw -name \\\"*-auth-profiles.json\\\" -o -name \\\"auth-profiles.json\\\" 2>/dev/null | head\"}"
+    },
+    {
+      "name": "process",
+      "summary": "{\"action\":\"poll\",\"sessionId\":\"gentle-bloom\",\"timeout\":30000}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"export PATH=/usr/bin:/bin:/usr/sbin:/sbin; python3 -c \\\"\\nimport json\\nd=json.load(open('/Users/seancao/.openclaw/agents/main/agent/auth-profiles.json'))\\np=d['profiles']\\nfor k,v in p.items():\\n    vv=dict(v); \\n    if 'key' in vv: vv['key']=vv['key'][:12]+'...(len %d)'%len(vv['key'])\\n"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"export PATH=/usr/bin:/bin:/usr/sbin:/sbin; echo \\\"=== rollback.sh ===\\\"; cat ~/.openclaw/backups/rollback.sh; echo; echo \\\"=== pre-model-swap-20261021-113520.json (前30行) ===\\\"; head -30 ~/.openclaw/backups/pre-model-swap-20261021-113520.json\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"export PATH=/Users/seancao/coding/nodejs/node-v22.16.0-darwin-arm64/bin:/usr/bin:/bin:/usr/sbin:/sbin; openclaw --help 2>&1 | head -60\",\"timeout\":60}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"export PATH=/Users/seancao/coding/nodejs/node-v22.16.0-darwin-arm64/bin:/usr/bin:/bin:/usr/sbin:/sbin; openclaw agent --help 2>&1 | head -30; echo \\\"=== models ===\\\"; openclaw models --help 2>&1 | head -25\",\"timeout\":60}"
+    },
+    {
+      "name": "write",
+      "summary": "{\"path\":\"/Users/seancao/.openclaw/workspace/tools/switch-model.sh\",\"content\":\"#!/bin/bash\\n# switch-model.sh — 安全切换 OpenClaw 主模型，失败自动回滚\\n#\\n# 用法:\\n#   ./switch-model.sh kimi-k3-1-pro-261024              # 切换（自动探测 endpoint → 改配置 → 重启 → 验证，失败回滚）\\n#   ./switch-model.sh kimi-k3-1-pro-261024 --name \\\"Kim"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"export PATH=/Users/seancao/coding/nodejs/node-v22.16.0-darwin-arm64/bin:/usr/bin:/bin:/usr/sbin:/sbin; chmod +x ~/.openclaw/workspace/tools/switch-model.sh; bash -n ~/.openclaw/workspace/tools/switch-model.sh && echo \\\"语法 OK\\\"; echo \\\"=== dry-run 预检 kimi-k3-1-pro-261024 ===\\\"; ~/.opencla"
+    }
+  ],
+  "turn_index": 46,
+  "user_text": "Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b6134fde6a4a8c489d24b9431cfc\", \"sender_id\": \"ou_e4a4036df049fc443a923af8b5110ebe\", \"sender\": \"ou_e4a4036df049fc443a923af8b5110ebe\", \"timestamp\": \"Mon 2026-10-26 19:23 PDT\" } ``` Sender (untrusted metadata): ```json { \"label\": \"ou_e4a4036df049fc443a923af8b5110ebe\", \"id\": \"ou_e4a4036df049fc443a923af8b5110ebe\", \"name\": \"ou_e4a4036df049fc443a923af8b5110ebe\" } ``` [message_id: om_x100b6134fde6a4a8c489d24b9431cfc] ou_e4a4036df049fc443a923af8b5110ebe: 好的，我知道了，我会按照这个来操作，现在出了一个新模型，我要试一试，把你背后的模型切换到kimi-k3-1-pro-261024，只需要换endpoint就行，不需要换URL。 先写一个脚步，如果切换失败，自动使用脚本回滚"
+}

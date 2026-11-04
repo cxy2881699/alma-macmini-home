@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-02T19:01:18.115967Z",
+  "id": "rev_d93ad9aeff3dce121e4d",
+  "memory": {
+    "conditions": "服务端去重改造被指出可能误覆盖后，用户同意等客户端改完再审。",
+    "confidence": 0.7,
+    "content": "在技术方案复审中,用户接受“先暂停、等另一路修改完成后再审”的稳妥节奏,不催促在有覆盖风险时定稿。",
+    "created_at": "2026-11-02T19:01:18.115967Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_257e1393bfbdd5bcdedb",
+        "quote": "在技术方案复审中,用户接受“先暂停、等另一路修改完成后再审”的稳妥节奏,不催促在有覆盖风险时定稿。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_ed66962e346ce82712d2",
+    "is_temporary": false,
+    "keywords": [
+      "复审",
+      "暂停定稿",
+      "风险控制"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_257e1393bfbdd5bcdedb",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-11-02T19:01:18.115967Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ed66962e346ce82712d2",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-03T19:00:55.630173Z",
+  "id": "rev_c54e2620c7446139ba72",
+  "memory": {
+    "conditions": "用户看到小红书技术追问后，明确产品成熟前不公开完整实现。",
+    "confidence": 0.82,
+    "content": "用户在公开技术内容时倾向保留核心实现细节,用“还需完善测试”等说法回应开源追问,以兼顾传播与商业壁垒。",
+    "created_at": "2026-11-03T19:00:55.630173Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e",
+      "ent_c3f9f077f1f3ceaddd2f"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_5c2b03a36555ed887023",
+        "quote": "用户在公开技术内容时倾向保留核心实现细节,用“还需完善测试”等说法回应开源追问,以兼顾传播与商业壁垒。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_5b61208e1444d5d8007f",
+    "is_temporary": false,
+    "keywords": [
+      "开源边界",
+      "收费线上版",
+      "技术保密",
+      "评论回复"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_5c2b03a36555ed887023",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-03T19:00:55.630173Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_5b61208e1444d5d8007f",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

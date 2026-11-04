@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-10-02：上午 cron 触发晨报任务,Agent 完成来源与自检核查后发送晨报,并记录当天仅发送一次。",
+  "created_at": "2026-10-02T19:03:42.149305Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_21ec0a807d8ab8a39f8f",
+      "quote": "2026-10-02：上午 cron 触发晨报任务,Agent 完成来源与自检核查后发送晨报,并记录当天仅发送一次。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_fa2ffa872d20e526820f",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_21ec0a807d8ab8a39f8f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-02T19:03:42.149305Z",
+  "valid_to": null
+}

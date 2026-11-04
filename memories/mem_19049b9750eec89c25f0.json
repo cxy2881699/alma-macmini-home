@@ -1,0 +1,37 @@
+{
+  "conditions": "凌晨从记忆闭环、封印等机制延伸讨论 Agent 是否可能像生命。",
+  "confidence": 0.82,
+  "content": "用户在探索把记忆生命周期机制进一步发展为 Agent 的自指、内在动机与类生命能力,但当前仍处于概念和架构推演阶段。",
+  "created_at": "2026-10-05T19:12:45.335909Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_19049b9750eec89c25f0",
+  "is_temporary": false,
+  "keywords": [
+    "人工生命",
+    "自我叙事",
+    "欲望",
+    "恐惧",
+    "记忆系统"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-10-05T19:12:45.335909Z",
+  "valid_to": null
+}

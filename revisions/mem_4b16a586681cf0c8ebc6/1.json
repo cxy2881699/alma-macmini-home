@@ -1,0 +1,45 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-30T19:01:54.655569Z",
+  "id": "rev_2c8349d779ab581cba02",
+  "memory": {
+    "conditions": "用户要求将 PRD 存到记忆系统供其他 Agent 分析。",
+    "confidence": 0.7,
+    "content": "用户倾向于把跨 Agent 共享的重要设计文档直接保存进记忆系统,而不是只留在本机文件。",
+    "created_at": "2026-09-30T19:01:54.655569Z",
+    "derived_from": [],
+    "entities": [
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_4b16a586681cf0c8ebc6",
+    "is_temporary": false,
+    "keywords": [
+      "跨Agent共享",
+      "文档入库",
+      "协作",
+      "记忆库"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-30T19:01:54.655569Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_4b16a586681cf0c8ebc6",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

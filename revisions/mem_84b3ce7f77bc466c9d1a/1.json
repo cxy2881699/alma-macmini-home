@@ -1,0 +1,62 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-05T19:01:19.033779Z",
+  "id": "rev_0ac8b3c77b533dbc49e9",
+  "memory": {
+    "conditions": "用户在确认 Codex 自动召回状态时强调读取日志的排查价值。",
+    "confidence": 0.85,
+    "content": "排查记忆系统故障时,用户希望读取、写入、超时和错误都保留审计日志,以便基于真实链路快速定位,而不是依赖口头判断。",
+    "created_at": "2026-10-05T19:01:19.033779Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_4488e0fdf8d04896269e",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_0796872cfc79a9328bad",
+        "quote": "排查记忆系统故障时,用户希望读取、写入、超时和错误都保留审计日志,以便基于真实链路快速定位,而不是依赖口头判断。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_84b3ce7f77bc466c9d1a",
+    "is_temporary": false,
+    "keywords": [
+      "audit",
+      "召回日志",
+      "错误日志",
+      "链路核查"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_0796872cfc79a9328bad",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-05T19:01:19.033779Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_84b3ce7f77bc466c9d1a",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

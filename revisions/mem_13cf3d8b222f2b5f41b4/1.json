@@ -1,0 +1,63 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-29T19:08:54.202757Z",
+  "id": "rev_7caf4954ba4fde200ba7",
+  "memory": {
+    "conditions": "被封的是中国入境方向，RackNerd服务器自身出境仍可用，因此改作爬虫并通过新VPS维护。",
+    "confidence": 0.82,
+    "content": "被 GFW 单 IP 封锁的 RackNerd LA-Reality 仍可作为境外出口爬虫机使用,并可通过新 VPS 以 SSH 跳板从境外方向维护。",
+    "created_at": "2026-10-29T19:08:54.202757Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6ebee10dda1843bbd843"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_af943030f4b33235f412",
+        "quote": "被 GFW 单 IP 封锁的 RackNerd LA-Reality 仍可作为境外出口爬虫机使用,并可通过新 VPS 以 SSH 跳板从境外方向维护。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_13cf3d8b222f2b5f41b4",
+    "is_temporary": false,
+    "keywords": [
+      "GFW 单 IP 封锁",
+      "ssh -J",
+      "跳板机",
+      "155.94.145.75",
+      "LA-Reality",
+      "GFW单IP封锁",
+      "SSH跳板",
+      "爬虫机",
+      "境外出口"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_af943030f4b33235f412",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-29T19:08:54.202757Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_13cf3d8b222f2b5f41b4",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

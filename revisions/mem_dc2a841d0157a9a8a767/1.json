@@ -1,0 +1,46 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-10T19:02:17.866047Z",
+  "id": "rev_c6d2828df1ad6e7dc8a7",
+  "memory": {
+    "conditions": "用户让 Agent 总结可进化记忆系统架构并准备给其他 Agent 评审 PRD",
+    "confidence": 0.85,
+    "content": "用户正在设计一个能持续进化、成长出赛博生命的记忆系统,希望基于现有 agent-memory 增量改造,且未来可兼容、可修改、可回滚。",
+    "created_at": "2026-10-10T19:02:17.866047Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_dc2a841d0157a9a8a767",
+    "is_temporary": false,
+    "keywords": [
+      "成",
+      "长",
+      "引",
+      "擎"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-10-10T19:02:17.866047Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_dc2a841d0157a9a8a767",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

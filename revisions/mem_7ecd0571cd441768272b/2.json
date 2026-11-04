@@ -1,0 +1,53 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": 1,
+  "created_at": "2026-09-23T17:18:07.453423Z",
+  "id": "rev_568f718a9f9e5616f5be",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.95,
+    "content": "/hooks 是 Codex 命令行版本的命令,在用户当前的 Codex 桌面聊天窗口中输入不会打开钩子审核面板,也不存在可见的 Terminal/终端标签;不应继续指导用户在该桌面聊天界面寻找 /hooks 按钮。",
+    "created_at": "2026-09-23T17:18:07.453423Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_f43c83f7f1f5cdacef20",
+        "quote": "/hooks 是 Codex 命令行版本的命令,在用户当前的 Codex 桌面聊天窗口中输入不会打开钩子审核面板,也不存在可见的 Terminal/终端标签;不应继续指导用户在该桌面聊天界面寻找 /hooks 按钮。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_7ecd0571cd441768272b",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_f43c83f7f1f5cdacef20",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 2,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-23T17:18:07.453423Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_7ecd0571cd441768272b",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 2
+}

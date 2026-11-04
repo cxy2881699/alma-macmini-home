@@ -1,0 +1,74 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-28T03:54:20.257364Z",
+  "id": "rev_f82512f8a2328db43c8a",
+  "memory": {
+    "conditions": "用于决定记忆系统 M1 工程优先级和检索/写入投入。",
+    "confidence": 0.9,
+    "content": "论文54(Diagnosing)3×3因子实验证明:检索方法造成约20点精度差,而写入策略仅影响3–8点;零LLM调用的原始分块检索打平昂贵摘要管线。PRD 应把 hybrid Retriever 升为 M1 最高工程优先级,并引入该文三探针失败分类。",
+    "created_at": "2026-09-28T03:54:20.257364Z",
+    "derived_from": [],
+    "entities": [
+      "ent_0dd3ce8f5049183636d7",
+      "ent_49bc05205d965e87de46"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_3567af8b8693e96c3d81",
+        "quote": "论文54(Diagnosing)3×3因子实验证明:检索方法造成约20点精度差,而写入策略仅影响3–8点;零LLM调用的原始分块检索打平昂贵摘要管线。PRD 应把 hybrid Retriever 升为 M1 最高工程优先级,并引入该文三探针失败分类。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_4d7ca8746223d0d80eef",
+    "is_temporary": false,
+    "keywords": [
+      "检索20分",
+      "写入3-8分",
+      "3x3因子实验",
+      "hybrid retriever",
+      "检索vs写入",
+      "Diagnosing 54",
+      "原始分块",
+      "Diagnosing论文54",
+      "M1优先级",
+      "论文54",
+      "20点",
+      "3-8点",
+      "三探针",
+      "Diagnosing",
+      "检索大于写入",
+      "retrieval vs writing",
+      "hybrid Retriever",
+      "三探针失败分类",
+      "20点精度差"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_3567af8b8693e96c3d81",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-28T03:54:20.257364Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_4d7ca8746223d0d80eef",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

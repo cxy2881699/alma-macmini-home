@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-28T19:03:36.581780Z",
+  "id": "rev_02bb764cf6d5865792c2",
+  "memory": {
+    "conditions": "完整 unset 代理变量后，curl 不再连接本地失效端口，而是在直连 Google 的 TLS 阶段失败。",
+    "confidence": 0.9,
+    "content": "2026-10-18 晚 curl 从 8118/8119 本地连接错误转为 Google TLS 握手失败,构成旧 shell 代理变量已基本清掉、但流量仍未被 Clash/TUN 接管的分界证据。",
+    "created_at": "2026-10-28T19:03:36.581780Z",
+    "derived_from": [],
+    "entities": [
+      "ent_f90a16b26a8ab1d551fc",
+      "ent_f18082c6c564869030be"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_99f1279db034d4a6a0a2",
+        "quote": "2026-10-18 晚 curl 从 8118/8119 本地连接错误转为 Google TLS 握手失败,构成旧 shell 代理变量已基本清掉、但流量仍未被 Clash/TUN 接管的分界证据。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_d16ba4604b299bf9c928",
+    "is_temporary": false,
+    "keywords": [
+      "8118",
+      "8119",
+      "SSL_ERROR_SYSCALL",
+      "unset proxy",
+      "TUN 未接管"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_99f1279db034d4a6a0a2",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-28T19:03:36.581780Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_d16ba4604b299bf9c928",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

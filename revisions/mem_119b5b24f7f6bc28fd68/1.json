@@ -1,0 +1,53 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-28T03:19:09.026710Z",
+  "id": "rev_a6aef1db26497c823f8c",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "文献调研结论:检索侧应加码但走简单路线——MRAgent/EcphoryRAG 支持\"检索>写入\",ENGRAM/PROCED-MEM 表明赢法是类型化表示+朴素检索+路由,复杂度预算应留给 PRD 独有的证据链和版本管理。",
+    "created_at": "2026-09-28T03:19:09.026710Z",
+    "derived_from": [],
+    "entities": [
+      "ent_0dd3ce8f5049183636d7"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_4ead9e010ef9d7e33330",
+        "quote": "文献调研结论:检索侧应加码但走简单路线——MRAgent/EcphoryRAG 支持\"检索>写入\",ENGRAM/PROCED-MEM 表明赢法是类型化表示+朴素检索+路由,复杂度预算应留给 PRD 独有的证据链和版本管理。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_119b5b24f7f6bc28fd68",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_4ead9e010ef9d7e33330",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-28T03:19:09.026710Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_119b5b24f7f6bc28fd68",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

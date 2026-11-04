@@ -1,0 +1,48 @@
+{
+  "conditions": "在连续模型身份询问和算术测试后，用户才启动大型文档与文献任务。",
+  "confidence": 0.7,
+  "content": "用户会先用极简指令测试通道与指令遵循能力(如限定回复字数、只回数字),再下发复杂研究任务。",
+  "created_at": "2026-11-02T19:04:56.915611Z",
+  "derived_from": [],
+  "entities": [
+    "ent_51b9c91560022845906c"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_f15074ec43a455aac187",
+      "quote": "用户会先用极简指令测试通道与指令遵循能力(如限定回复字数、只回数字),再下发复杂研究任务。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_21cb0d80d00489d9e41c",
+  "is_temporary": false,
+  "keywords": [
+    "通道测试",
+    "指令遵循",
+    "ACP",
+    "连通性"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_f15074ec43a455aac187",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-02T19:04:56.915611Z",
+  "valid_to": null
+}

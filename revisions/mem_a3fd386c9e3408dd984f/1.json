@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-05T19:04:02.628878Z",
+  "id": "rev_d7634cdc3045fe3ff854",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-25：用户先分享 agent-memory 小红书帖子的正向反馈,并明确商业化与开源边界;随后询问明晚与美国回来的大学同学喝酒带什么酒,因 Agent 武断推荐而追问记忆调用,最终核查确认 hook 自动召回已执行但属于尽力而为。",
+    "created_at": "2026-10-05T19:04:02.628878Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_86e36d3877d091b5c09b",
+        "quote": "2026-09-25：用户先分享 agent-memory 小红书帖子的正向反馈,并明确商业化与开源边界;随后询问明晚与美国回来的大学同学喝酒带什么酒,因 Agent 武断推荐而追问记忆调用,最终核查确认 hook 自动召回已执行但属于尽力而为。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_a3fd386c9e3408dd984f",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_86e36d3877d091b5c09b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-05T19:04:02.628878Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_a3fd386c9e3408dd984f",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

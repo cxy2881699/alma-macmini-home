@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-28T19:05:26.427989Z",
+  "id": "rev_41315762e9872108ff4e",
+  "memory": {
+    "conditions": "用户要求整理可购买的干净IP及价格清单",
+    "confidence": 0.8,
+    "content": "用户计划新购一台 IP 干净的 VPS 作为主力代理,愿意为干净 IP 支付更高价格(接受 $10.9/月或更高),倾向日本节点;助手推荐 DMIT(LAX Premium TINY $10.9/月 CN2 GIA,或 Tier1 WEE $36.9/年),被封可每15天免费换IP。",
+    "created_at": "2026-10-28T19:05:26.427989Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_ec97f9a245c89d267e80",
+    "is_temporary": false,
+    "keywords": [
+      "DMIT",
+      "CN2 GIA",
+      "日本VPS",
+      "买服务器"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-10-28T19:05:26.427989Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ec97f9a245c89d267e80",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

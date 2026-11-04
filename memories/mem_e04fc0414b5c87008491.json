@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-10-18：10 18 晚用户继续清理 MacBook 旧代理并短暂确认网络可用,随后处理新 Gmail 注册 Claude 被 hold,决定重新养号;收尾时 MacBook 又反馈不可用,排查重新开始。",
+  "created_at": "2026-10-27T05:17:32.060098Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_10853d0c7dcf8fdb980b",
+      "quote": "2026-10-18：10 18 晚用户继续清理 MacBook 旧代理并短暂确认网络可用,随后处理新 Gmail 注册 Claude 被 hold,决定重新养号;收尾时 MacBook 又反馈不可用,排查重新开始。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_e04fc0414b5c87008491",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_10853d0c7dcf8fdb980b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-27T05:17:32.060098Z",
+  "valid_to": null
+}

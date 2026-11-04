@@ -1,0 +1,65 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:24:03.488937Z",
+  "id": "rev_2d6dbf1b4792ebc2c2fd",
+  "memory": {
+    "conditions": "用户多次把 /hooks 发到聊天窗口，需要 Agent 明确说明应在 Codex CLI 输入框执行。",
+    "confidence": 0.72,
+    "content": "用户排查基础设施问题时希望 Agent 给出可自行执行的明确操作路径,并能区分当前聊天窗口与终端/代码会话。",
+    "created_at": "2026-10-27T04:24:03.488937Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_7ec52558a3bc2fd0d707",
+        "quote": "用户排查基础设施问题时希望 Agent 给出可自行执行的明确操作路径,并能区分当前聊天窗口与终端/代码会话。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_80767abccd67842f0ab5",
+    "is_temporary": false,
+    "keywords": [
+      "操作指引",
+      "Codex 代码会话",
+      "/hooks",
+      "明确操作路径",
+      "桌面聊天窗口",
+      "CLI 指引",
+      "终端会话",
+      "代码会话",
+      "Codex CLI",
+      "操作路径",
+      "当前聊天窗口区别"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_7ec52558a3bc2fd0d707",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-27T04:24:03.488937Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_80767abccd67842f0ab5",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,62 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T18:36:31.641604Z",
+  "id": "rev_deaad2cc13f985e9dd04",
+  "memory": {
+    "conditions": "描述九江银行合作落地程度时，避免夸大为核心系统全面上云。",
+    "confidence": 0.86,
+    "content": "公开核查显示,九江银行与火山引擎合作的金融云在2024年投产上线,部分非核心业务系统完成迁移且运行平稳;不能表述为核心系统全面上云。",
+    "created_at": "2026-10-27T18:36:31.641604Z",
+    "derived_from": [],
+    "entities": [
+      "ent_b6e5f07139d194f4aaa5",
+      "ent_56a800d185284bc3a07f"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_58bfeab114e9d0bc2f6a",
+        "quote": "公开核查显示,九江银行与火山引擎合作的金融云在2024年投产上线,部分非核心业务系统完成迁移且运行平稳;不能表述为核心系统全面上云。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_c407a3ab29ca5c5ac4c0",
+    "is_temporary": false,
+    "keywords": [
+      "非核心系统迁移",
+      "九江银行",
+      "金融云",
+      "2024投产",
+      "非核心系统",
+      "系统迁移",
+      "运行平稳"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_58bfeab114e9d0bc2f6a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T18:36:31.641604Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_c407a3ab29ca5c5ac4c0",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

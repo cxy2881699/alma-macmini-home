@@ -1,0 +1,20 @@
+{
+  "agent_id": "codex@old-memd",
+  "assistant_text": "",
+  "content_hash": "aa76f87ac9eb9d8b60cb6fc503e64888535d50e2c628302f74d7b71141104586",
+  "cwd": "",
+  "device_id": "dev_125962f97f52d6e8",
+  "event_id": "evt_c6f18d37290c30b31e93",
+  "kind": "conversation",
+  "native_event_id": "b822ad4c69b92b168816a1089d6686f2",
+  "occurred_at": "2026-11-04T08:53:15.070000Z",
+  "privacy_mode": "normal",
+  "project_id": "",
+  "received_at": "2026-11-04T08:56:50.183601Z",
+  "revision": 1,
+  "session_id": "dev_125962f97f52d6e8:codex:01a1a5c3-28ea-7433-a78b-b402c4c901a8",
+  "space": "user/shared",
+  "tools": [],
+  "turn_index": 0,
+  "user_text": "alma_test codex probe: 请只回复 OK-ALMA-CODEX，不要调用工具"
+}

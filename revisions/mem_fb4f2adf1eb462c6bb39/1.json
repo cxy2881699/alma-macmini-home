@@ -1,0 +1,67 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-25T08:06:46.196629Z",
+  "id": "rev_2953f5583ae76a2ca801",
+  "memory": {
+    "conditions": "用户在小红书反馈良好后说明 agent-memory 后续开源和收费规划。",
+    "confidence": 0.7,
+    "content": "用户明确 agent-memory 的商业化策略:暂不公开完整实现,待产品成熟后开源阉割版并推出收费线上版。",
+    "created_at": "2026-09-25T08:06:46.196629Z",
+    "derived_from": [],
+    "entities": [
+      "ent_4488e0fdf8d04896269e",
+      "ent_c3f9f077f1f3ceaddd2f"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_5c2b03a36555ed887023",
+        "quote": "用户明确 agent-memory 的商业化策略:暂不公开完整实现,待产品成熟后开源阉割版并推出收费线上版。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_fb4f2adf1eb462c6bb39",
+    "is_temporary": false,
+    "keywords": [
+      "商业化",
+      "开源",
+      "收费",
+      "线上版本",
+      "精简版",
+      "知识产权",
+      "小红书反馈",
+      "阉割版开源",
+      "SaaS收费",
+      "线上版",
+      "保留核心实现",
+      "商业化策略"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_5c2b03a36555ed887023",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-25T08:06:46.196629Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_fb4f2adf1eb462c6bb39",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

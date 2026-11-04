@@ -1,0 +1,33 @@
+{
+  "conditions": "用户探讨 agent 欲望与恐惧如何设计和自进化",
+  "confidence": 0.8,
+  "content": "用户对欲望机制的初步设想是内置可自进化的复杂函数(类比 LSTM),基于记忆与互联网、交互、tool 等信息持续计算信息增量。",
+  "created_at": "2026-10-06T19:04:03.474745Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_76522483c646450fe43d",
+  "is_temporary": false,
+  "keywords": [
+    "好奇心",
+    "内在奖励",
+    "prediction gain",
+    "reward hacking"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-06T19:04:03.474745Z",
+  "valid_to": null
+}

@@ -1,0 +1,72 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T19:01:32.717567Z",
+  "id": "rev_39403df85c930eefcbb2",
+  "memory": {
+    "conditions": "用户追问 Codex 是否每轮自动加载记忆，Agent 根据服务端审计区分保存成功与召回未生效。",
+    "confidence": 0.82,
+    "content": "截至 2026-09-24 01:12,Codex 的对话保存链路已在工作,但当前会话没有对应 codex recall;最可能原因是用户级 hooks 尚未在 Codex 内完成信任审核。",
+    "created_at": "2026-10-27T19:01:32.717567Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_0796872cfc79a9328bad",
+        "quote": "截至 2026-09-24 01:12,Codex 的对话保存链路已在工作,但当前会话没有对应 codex recall;最可能原因是用户级 hooks 尚未在 Codex 内完成信任审核。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_3e8b16a61a76158abaf9",
+        "quote": "截至 2026-09-24 01:12,Codex 的对话保存链路已在工作,但当前会话没有对应 codex recall;最可能原因是用户级 hooks 尚未在 Codex 内完成信任审核。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_55c6d543f6c451eca28b",
+    "is_temporary": false,
+    "keywords": [
+      "Codex hooks",
+      "UserPromptSubmit",
+      "信任审核",
+      "recall缺失",
+      "capture正常"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_0796872cfc79a9328bad",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_3e8b16a61a76158abaf9",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T19:01:32.717567Z",
+    "valid_to": "2026-09-24"
+  },
+  "memory_id": "mem_55c6d543f6c451eca28b",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

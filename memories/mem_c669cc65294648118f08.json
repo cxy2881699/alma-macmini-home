@@ -1,0 +1,48 @@
+{
+  "conditions": "subagent 完成综述后回报的文件绝对路径暴露了本机用户名。",
+  "confidence": 0.85,
+  "content": "用户的本机用户名路径为 /Users/seancao(home 即 ~),论文目录实际绝对路径是 /Users/seancao/Downloads/mem-papers-2026H2/。",
+  "created_at": "2026-10-27T04:44:52.246859Z",
+  "derived_from": [],
+  "entities": [
+    "ent_cd077af734ef059c7775"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_56b471b2ce769966e5ab",
+      "quote": "用户的本机用户名路径为 /Users/seancao(home 即 ~),论文目录实际绝对路径是 /Users/seancao/Downloads/mem-papers-2026H2/。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_c669cc65294648118f08",
+  "is_temporary": false,
+  "keywords": [
+    "用户名",
+    "seancao",
+    "绝对路径",
+    "home目录"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_56b471b2ce769966e5ab",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:44:52.246859Z",
+  "valid_to": null
+}

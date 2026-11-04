@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:23:45.765274Z",
+  "id": "rev_1845c330df0bec1bc7e0",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-10-18：2026-10-18 晚用户持续排查 MacBook 上 Clash Verge 无法接管网络的问题:先确认 Verge 开关和节点测试,再清理 shell 中 8118/8119 残留代理变量,最后尝试手动把 Wi-Fi 系统代理写到 127.0.0.1:7897,但 scutil 全局视图仍异常,需要进一步交叉验证。",
+    "created_at": "2026-10-27T05:23:45.765274Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_9b89f58175c1b2aeb7e1",
+        "quote": "2026-10-18：2026-10-18 晚用户持续排查 MacBook 上 Clash Verge 无法接管网络的问题:先确认 Verge 开关和节点测试,再清理 shell 中 8118/8119 残留代理变量,最后尝试手动把 Wi-Fi 系统代理写到 127.0.0.1:7897,但 scutil 全局视图仍异常,需要进一步交叉验证。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_86c8d4594daa056ad22e",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_9b89f58175c1b2aeb7e1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-27T05:23:45.765274Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_86c8d4594daa056ad22e",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

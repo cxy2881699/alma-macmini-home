@@ -1,0 +1,49 @@
+{
+  "conditions": "助手给出重启、重试和连接池根治选项后，用户要求直接执行。",
+  "confidence": 0.82,
+  "content": "用户在自建系统故障处理中,确认根因和修复方案后倾向于授权助手直接执行,并要求顺带优化整条链路。",
+  "created_at": "2026-11-01T19:06:39.898284Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_9d10a69084bd77edc45a",
+      "quote": "用户在自建系统故障处理中,确认根因和修复方案后倾向于授权助手直接执行,并要求顺带优化整条链路。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_b7f6be2b4375dd42eb1b",
+  "is_temporary": false,
+  "keywords": [
+    "直接执行",
+    "链路优化",
+    "运维偏好",
+    "授权修复"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_9d10a69084bd77edc45a",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-11-01T19:06:39.898284Z",
+  "valid_to": null
+}

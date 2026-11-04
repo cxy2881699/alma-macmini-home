@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-24：用户反馈记忆管理网页仍看不到来源设备,Agent 排查为重启后双 memd 进程导致旧页面响应,杀掉旧进程并要求用户强制刷新验证来源列。",
+  "created_at": "2026-09-23T23:54:15.772113Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_fced576e2338a7e33460",
+      "quote": "2026-09-24：用户反馈记忆管理网页仍看不到来源设备,Agent 排查为重启后双 memd 进程导致旧页面响应,杀掉旧进程并要求用户强制刷新验证来源列。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_23397c79fe4c4a851535",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_fced576e2338a7e33460",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-09-23T23:54:15.772113Z",
+  "valid_to": null
+}

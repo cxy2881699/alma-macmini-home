@@ -1,0 +1,69 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:41:12.909057Z",
+  "id": "rev_6d7fc4707a48c50f2b49",
+  "memory": {
+    "conditions": "用户在审计页追问新 PRD 去向时，Agent 同步排查文件、任务和入库链路。",
+    "confidence": 0.78,
+    "content": "排查新 PRD 未入库时,Agent 已开始同时核对本机 PRD 文件、Codex 任务记录和记忆库写入记录,以避免把旧文件误报为新 PRD。",
+    "created_at": "2026-10-27T05:41:12.909057Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_13a7ceff9826166f66a5",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_c5b9bc50bc5c913a2dbe",
+        "quote": "排查新 PRD 未入库时,Agent 已开始同时核对本机 PRD 文件、Codex 任务记录和记忆库写入记录,以避免把旧文件误报为新 PRD。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_bb9676370b49f46b1362",
+    "is_temporary": false,
+    "keywords": [
+      "PRD 未入库",
+      "文件位置",
+      "Codex 任务记录",
+      "记忆库写入",
+      "旧 PRD",
+      "PRD未入库",
+      "本机文件",
+      "排查路径",
+      "PRD保存位置",
+      "Codex任务记录",
+      "旧PRD误报",
+      "记忆库写入记录",
+      "admin audit"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_c5b9bc50bc5c913a2dbe",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:41:12.909057Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_bb9676370b49f46b1362",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

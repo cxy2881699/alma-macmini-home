@@ -1,0 +1,65 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T16:47:13.260389Z",
+  "id": "rev_5f458d7c201edbc19e88",
+  "memory": {
+    "conditions": "用户在本机使用 OpenClaw 时发现服务异常，请求排查原因",
+    "confidence": 0.7,
+    "content": "用户报告本机 OpenClaw 突然不可用,排查发现网关和飞书正常,问题是主会话在执行 9 步安装脚本(memd、Neo4j、Tailscale)期间千帆连接超时、kimi 离线,导致飞书消息排队延迟;模型探测可用但单次响应约 9.3 秒偏慢。",
+    "created_at": "2026-09-23T16:47:13.260389Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_573ec267d203533979f7",
+      "ent_78c7aaa813657d2348d7",
+      "ent_b1d51f89b3518adf7781",
+      "ent_22f290112c9557d215ea"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_65495d2ba5242fb6dfc1",
+        "quote": "用户报告本机 OpenClaw 突然不可用,排查发现网关和飞书正常,问题是主会话在执行 9 步安装脚本(memd、Neo4j、Tailscale)期间千帆连接超时、kimi 离线,导致飞书消息排队延迟;模型探测可用但单次响应约 9.3 秒偏慢。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_64a2b29ff7389e3c99ca",
+    "is_temporary": false,
+    "keywords": [
+      "openclaw",
+      "故障排查",
+      "千帆超时",
+      "kimi离线",
+      "安装脚本",
+      "消息延迟",
+      "网关重启"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_65495d2ba5242fb6dfc1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-23T16:47:13.260389Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_64a2b29ff7389e3c99ca",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

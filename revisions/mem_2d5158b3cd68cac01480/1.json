@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-29T19:04:53.042068Z",
+  "id": "rev_0e5dc0adbe4989c3886a",
+  "memory": {
+    "conditions": "用户贴出 networksetup 与 scutil 输出，助手建议重启 configd 或整机。",
+    "confidence": 0.86,
+    "content": "2026-10-18 23:18 时 networksetup 已确认 Wi-Fi 的 Web Proxy 指向 127.0.0.1:7897 且 Enabled: Yes,但 scutil 全局视图仍显示 HTTPEnable: 0,故障点更具体地落在 macOS 系统配置/代理状态同步层,而非 networksetup 未写入。",
+    "created_at": "2026-10-29T19:04:53.042068Z",
+    "derived_from": [],
+    "entities": [
+      "ent_f18082c6c564869030be",
+      "ent_c42dac5ae99195f63d24"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_10853d0c7dcf8fdb980b",
+        "quote": "2026-10-18 23:18 时 networksetup 已确认 Wi-Fi 的 Web Proxy 指向 127.0.0.1:7897 且 Enabled: Yes,但 scutil 全局视图仍显示 HTTPEnable: 0,故障点更具体地落在 macOS 系统配置/代理状态同步层,而非 networksetup 未写入。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_2d5158b3cd68cac01480",
+    "is_temporary": false,
+    "keywords": [
+      "networksetup",
+      "scutil",
+      "HTTPEnable",
+      "7897",
+      "系统代理不同步"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_10853d0c7dcf8fdb980b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-29T19:04:53.042068Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_2d5158b3cd68cac01480",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

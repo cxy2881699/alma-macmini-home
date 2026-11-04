@@ -1,0 +1,75 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:18:07.879408Z",
+  "id": "rev_910591faf7ee16bb57d3",
+  "memory": {
+    "conditions": "用户对学术调研引用可靠性的硬性要求。",
+    "confidence": 1.0,
+    "content": "用户要求严肃文献调研必须实际检索,所有引用都要有真实链接或 DOI,无法核实的文献不要写。",
+    "created_at": "2026-10-27T04:18:07.879408Z",
+    "derived_from": [],
+    "entities": [
+      "ent_868b6b7b308b553adaaf",
+      "ent_ac75cb66690cacf39d3f"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_7bab4433029e0047b9ba",
+        "quote": "用户要求严肃文献调研必须实际检索,所有引用都要有真实链接或 DOI,无法核实的文献不要写。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_3b4a1da3a3d233c5113e",
+    "is_temporary": false,
+    "keywords": [
+      "文献调研",
+      "真实引用",
+      "DOI",
+      "URL",
+      "可核实",
+      "引用核实",
+      "DOI要求",
+      "禁止编造文献",
+      "学术诚信",
+      "文献检索",
+      "不得编造引用",
+      "文献可信度",
+      "学术引用",
+      "真实 DOI",
+      "真实链接",
+      "禁止幻觉",
+      "实际检索",
+      "禁止编造引用",
+      "真实DOI",
+      "文献核实"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_7bab4433029e0047b9ba",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-27T04:18:07.879408Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_3b4a1da3a3d233c5113e",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

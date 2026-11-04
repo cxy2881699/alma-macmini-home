@@ -1,0 +1,74 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:50:07.312485Z",
+  "id": "rev_2b480fcc89e8ee277098",
+  "memory": {
+    "conditions": "CLI 中 /hooks 信任成功后，仍不能据此推断 Codex 桌面窗口也会触发 hook。",
+    "confidence": 0.9,
+    "content": "Codex 桌面聊天窗口与终端 Codex CLI 是两套运行环境;在 CLI 的 /hooks 中信任钩子,不能直接证明桌面窗口会触发同一套 hook。",
+    "created_at": "2026-10-27T04:50:07.312485Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_3e8b16a61a76158abaf9",
+        "quote": "Codex 桌面聊天窗口与终端 Codex CLI 是两套运行环境;在 CLI 的 /hooks 中信任钩子,不能直接证明桌面窗口会触发同一套 hook。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_f1555a359432e6c3b285",
+    "is_temporary": false,
+    "keywords": [
+      "Codex桌面端",
+      "hooks active",
+      "环境隔离",
+      "hooks信任",
+      "UserPromptSubmit",
+      "PostToolUse",
+      "Stop",
+      "Codex 桌面应用",
+      "Terminal",
+      "终端",
+      "钩子信任",
+      "Codex 桌面版",
+      "hooks 环境差异",
+      "终端 hook",
+      "Codex桌面",
+      "Codex CLI",
+      "/hooks",
+      "信任不同步",
+      "代码任务",
+      "终端codex"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_3e8b16a61a76158abaf9",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:50:07.312485Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_f1555a359432e6c3b285",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

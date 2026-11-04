@@ -1,0 +1,50 @@
+{
+  "conditions": "用户分享记忆系统后查看小红书互动数据。",
+  "confidence": 0.82,
+  "content": "用户在小红书上分享的 agent-memory 内容已产生正向市场反馈,评论区对 token、实现方式和开源细节的追问可作为后续选题线索。",
+  "created_at": "2026-10-27T05:39:38.541425Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e",
+    "ent_c3f9f077f1f3ceaddd2f"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_86e36d3877d091b5c09b",
+      "quote": "用户在小红书上分享的 agent-memory 内容已产生正向市场反馈,评论区对 token、实现方式和开源细节的追问可作为后续选题线索。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_1ba6add1a6f59c24cc9a",
+  "is_temporary": false,
+  "keywords": [
+    "内容反馈",
+    "选题信号",
+    "开源追问",
+    "收藏"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_86e36d3877d091b5c09b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:39:38.541425Z",
+  "valid_to": null
+}

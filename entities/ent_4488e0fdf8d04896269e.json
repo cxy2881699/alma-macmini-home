@@ -1,0 +1,18 @@
+{
+  "aliases": [
+    "agent-memory",
+    "OpenClaw Agent Memory 插件",
+    "记忆系统",
+    "跨 Agent 共享记忆系统",
+    "openclaw-plugin",
+    "小龙虾客户端"
+  ],
+  "created_at": "2026-09-23T17:09:11.224621Z",
+  "description": "OpenClaw 中用于在对话前召回并注入记忆服务上下文的插件",
+  "id": "ent_4488e0fdf8d04896269e",
+  "name": "Agent Memory 插件",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "project",
+  "updated_at": "2026-11-04T08:56:50.219929Z"
+}

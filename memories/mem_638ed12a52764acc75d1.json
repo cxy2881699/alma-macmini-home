@@ -1,0 +1,43 @@
+{
+  "conditions": "",
+  "confidence": 0.95,
+  "content": "用户认为判断记忆重要性的第二个维度是新事件与当前记忆的关联度及其信息量:一个熵很高、包含巨大信息的新事情是重要记忆。",
+  "created_at": "2026-09-26T08:28:22.440038Z",
+  "derived_from": [],
+  "entities": [
+    "ent_d5dfaf358c8948fa1e9c"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_8747147e4e4a8cd6b63f",
+      "quote": "用户认为判断记忆重要性的第二个维度是新事件与当前记忆的关联度及其信息量:一个熵很高、包含巨大信息的新事情是重要记忆。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_638ed12a52764acc75d1",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8747147e4e4a8cd6b63f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-26T08:28:22.440038Z",
+  "valid_to": null
+}

@@ -1,0 +1,73 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-25T17:33:51.880338Z",
+  "id": "rev_8d7a3a7c60d4871d1843",
+  "memory": {
+    "conditions": "用户关注云服务器、多设备和第三方接入时不能依赖客户端全部升级。",
+    "confidence": 0.82,
+    "content": "用户在 agent-memory 云化和多用户接入设计中,倾向于让服务端成为最终可信防线,而不是依赖各设备上的客户端版本都被正确升级。",
+    "created_at": "2026-09-25T17:33:51.880338Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e",
+      "ent_1b0510f6e7579d8f62b3",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_16d2615f00ae766bb32b",
+        "quote": "用户在 agent-memory 云化和多用户接入设计中,倾向于让服务端成为最终可信防线,而不是依赖各设备上的客户端版本都被正确升级。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_c8780cd317b806b68415",
+    "is_temporary": false,
+    "keywords": [
+      "多用户",
+      "服务端防线",
+      "不可信客户端",
+      "三元组唯一",
+      "upsert",
+      "服务端可信防线",
+      "客户端版本不一致",
+      "云化",
+      "多用户接入",
+      "强制策略",
+      "服务端可信",
+      "多设备",
+      "多租户",
+      "客户端不可信",
+      "最终防线"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_16d2615f00ae766bb32b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-09-25T17:33:51.880338Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_c8780cd317b806b68415",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

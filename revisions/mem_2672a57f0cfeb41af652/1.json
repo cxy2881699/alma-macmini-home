@@ -1,0 +1,62 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:25:19.542782Z",
+  "id": "rev_2028666704a853a5ce7e",
+  "memory": {
+    "conditions": "解读本机日志和记忆事件时间时，需要按北京时间而不是系统显示时区。",
+    "confidence": 0.95,
+    "content": "这台电脑系统时区显示为美国时区,但用户明确应以北京时间作为真实时间基准;日志、数据库和记忆卡片时间可能因此整体偏移。",
+    "created_at": "2026-10-27T04:25:19.542782Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e",
+      "ent_c42dac5ae99195f63d24"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8de82365a1608c4e7c4d",
+        "quote": "这台电脑系统时区显示为美国时区,但用户明确应以北京时间作为真实时间基准;日志、数据库和记忆卡片时间可能因此整体偏移。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_2672a57f0cfeb41af652",
+    "is_temporary": false,
+    "keywords": [
+      "时区偏移",
+      "美国时区",
+      "北京时间",
+      "时间偏移",
+      "日志时间",
+      "真实时间基准"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8de82365a1608c4e7c4d",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:25:19.542782Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_2672a57f0cfeb41af652",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

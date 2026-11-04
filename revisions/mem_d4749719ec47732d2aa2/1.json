@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:06:09.992808Z",
+  "id": "rev_a5d9ceacd3d28eb42e3e",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-10-27：用户先让 Agent 复盘此前用另一模型讨论的 VPS 被封与重建方案;随后检查记忆服务健康,定位 memd 后台任务因 ark 连接池耗尽大量失败,并授权修复。Agent 调整连接池、重启、批量重试成功,夜间心跳检查无待办。",
+    "created_at": "2026-10-27T05:06:09.992808Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_af943030f4b33235f412",
+        "quote": "2026-10-27：用户先让 Agent 复盘此前用另一模型讨论的 VPS 被封与重建方案;随后检查记忆服务健康,定位 memd 后台任务因 ark 连接池耗尽大量失败,并授权修复。Agent 调整连接池、重启、批量重试成功,夜间心跳检查无待办。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_d4749719ec47732d2aa2",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_af943030f4b33235f412",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-27T05:06:09.992808Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_d4749719ec47732d2aa2",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

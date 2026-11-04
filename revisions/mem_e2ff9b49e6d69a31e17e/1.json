@@ -1,0 +1,46 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:46:29.985273Z",
+  "id": "rev_265e3b2a00bc82a329a1",
+  "memory": {
+    "conditions": "用户在阐述可进化记忆的商业与情感愿景时提出亲人数字重建场景。",
+    "confidence": 0.8,
+    "content": "用户将'用逝者生前数据与口述经历重建三观、性格接近的赛博生命并持续陪伴'视为成长型记忆系统的高情感价值应用方向。",
+    "created_at": "2026-10-27T04:46:29.985273Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_e2ff9b49e6d69a31e17e",
+    "is_temporary": false,
+    "keywords": [
+      "数字永生",
+      "逝者重建",
+      "陪伴",
+      "数字个体"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "review",
+    "status_reason": "migrated from old agent-memory (candidate)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:46:29.985273Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e2ff9b49e6d69a31e17e",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

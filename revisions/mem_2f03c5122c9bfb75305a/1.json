@@ -1,0 +1,46 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-25T09:32:16.409297Z",
+  "id": "rev_e41d551ae21d0183d357",
+  "memory": {
+    "conditions": "Agent 在深夜建议次日调查 memd 去重逻辑,用户尚未在本段对话中确认。",
+    "confidence": 0.62,
+    "content": "用户可能计划让 Agent 后续排查 memd ingest 的去重逻辑,查明为何一轮正常对话被判成重复。",
+    "created_at": "2026-09-25T09:32:16.409297Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_2f03c5122c9bfb75305a",
+    "is_temporary": false,
+    "keywords": [
+      "排查去重",
+      "ingest bug",
+      "明天任务",
+      "memd"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-09-25T09:32:16.409297Z",
+    "valid_to": "2026-09-26"
+  },
+  "memory_id": "mem_2f03c5122c9bfb75305a",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,33 @@
+{
+  "conditions": "用户询问被封IP能否通过新买VPS连接",
+  "confidence": 0.8,
+  "content": "用户的旧 RackNerd VPS(IP 155.94.145.75)从中国入境的 TCP 被墙,但服务器仍存活、出口可用,可经境外新 VPS 用 ssh ProxyJump 连接。",
+  "created_at": "2026-10-27T05:20:00.720110Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_dcd82996f6ae31f841f9",
+  "is_temporary": false,
+  "keywords": [
+    "被墙VPS",
+    "ProxyJump",
+    "SSH跳板",
+    "155.94.145.75"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "review",
+  "status_reason": "migrated from old agent-memory (candidate)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:20:00.720110Z",
+  "valid_to": null
+}

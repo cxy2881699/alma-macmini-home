@@ -1,0 +1,51 @@
+{
+  "conditions": "分身基于 PDF 提取文本重写论文总结时核对实际文件数并排除非论文文件。",
+  "confidence": 0.86,
+  "content": "全文版论文总结的实际输入是 /tmp/pdftxt/ 下 41 个数字前缀文本文件,而非任务书声称的 42 篇;8252eae 文件经识别为保理合同并被排除,因此\"42篇PDF已落盘\"的说法与本次实际处理结果不一致。",
+  "created_at": "2026-10-27T19:05:24.920997Z",
+  "derived_from": [],
+  "entities": [
+    "ent_e44cb152899e6702c87f",
+    "ent_803e29983b18f51d0780"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_3567af8b8693e96c3d81",
+      "quote": "全文版论文总结的实际输入是 /tmp/pdftxt/ 下 41 个数字前缀文本文件,而非任务书声称的 42 篇;8252eae 文件经识别为保理合同并被排除,因此\"42篇PDF已落盘\"的说法与本次实际处理结果不一致。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_cc14ac14d6b21fb8885d",
+  "is_temporary": false,
+  "keywords": [
+    "41篇",
+    "42篇",
+    "保理合同",
+    "8252eae",
+    "全文重写",
+    "覆盖范围"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_3567af8b8693e96c3d81",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T19:05:24.920997Z",
+  "valid_to": null
+}

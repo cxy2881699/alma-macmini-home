@@ -1,0 +1,72 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:56:44.982169Z",
+  "id": "rev_03355c08af4b00be8a1d",
+  "memory": {
+    "conditions": "用户准备采购新的主代理 VPS。",
+    "confidence": 0.8,
+    "content": "用户计划采购 DMIT LAX Premium TINY($10.9/月,CN2 GIA)作为主 VPS,并已获得具体购买清单(dmit.io,优惠码 7L8O3PQTHNXCFS2TXPLP,3 天退款、封 IP 15 天内免费换一次)",
+    "created_at": "2026-10-27T04:56:44.982169Z",
+    "derived_from": [],
+    "entities": [
+      "ent_c77a5f5a7949c71398a9"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_d55c939bb832758641d3",
+        "quote": "用户计划采购 DMIT LAX Premium TINY($10.9/月,CN2 GIA)作为主 VPS,并已获得具体购买清单(dmit.io,优惠码 7L8O3PQTHNXCFS2TXPLP,3 天退款、封 IP 15 天内免费换一次)",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_af943030f4b33235f412",
+        "quote": "用户计划采购 DMIT LAX Premium TINY($10.9/月,CN2 GIA)作为主 VPS,并已获得具体购买清单(dmit.io,优惠码 7L8O3PQTHNXCFS2TXPLP,3 天退款、封 IP 15 天内免费换一次)",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_ffcb74de80dc795b885b",
+    "is_temporary": false,
+    "keywords": [
+      "VPS",
+      "采购清单",
+      "DMIT",
+      "LAX Premium TINY",
+      "CN2 GIA",
+      "优惠码",
+      "封 IP 换 IP"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d55c939bb832758641d3",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_af943030f4b33235f412",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:56:44.982169Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ffcb74de80dc795b885b",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

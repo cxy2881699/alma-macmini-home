@@ -1,0 +1,72 @@
+{
+  "conditions": "生成安装命令或排查设备访问 memd 地址时区分本机与 Tailscale 远程访问。",
+  "confidence": 0.9,
+  "content": "本机 Agent 访问 Mac mini 上的记忆服务应使用 http://127.0.0.1:8787;仅其他远程 Agent 通过 Tailscale 访问时使用 seanmac-mini.tail92d6fe.ts.net:8787。",
+  "created_at": "2026-09-28T19:02:27.393942Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_9f82bdbcda91e1775def",
+    "ent_421c00dde9a1b98fc969",
+    "ent_4488e0fdf8d04896269e",
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_1d9f495f128ccc9b4e0f",
+      "quote": "本机 Agent 访问 Mac mini 上的记忆服务应使用 http://127.0.0.1:8787;仅其他远程 Agent 通过 Tailscale 访问时使用 seanmac-mini.tail92d6fe.ts.net:8787。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_251281e40be3c2e88a50",
+      "quote": "本机 Agent 访问 Mac mini 上的记忆服务应使用 http://127.0.0.1:8787;仅其他远程 Agent 通过 Tailscale 访问时使用 seanmac-mini.tail92d6fe.ts.net:8787。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_9d89b9c2d71276a5cada",
+  "is_temporary": false,
+  "keywords": [
+    "NO_PROXY",
+    "小龙虾",
+    "记忆服务地址",
+    "Tailscale MagicDNS",
+    "seanmac-mini",
+    "代理劫持",
+    "本机访问",
+    "远程 Agent",
+    "127.0.0.1:8787",
+    "MagicDNS",
+    "100.64.0.0/10",
+    "本机Agent",
+    "远程Agent"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1d9f495f128ccc9b4e0f",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_251281e40be3c2e88a50",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-28T19:02:27.393942Z",
+  "valid_to": null
+}

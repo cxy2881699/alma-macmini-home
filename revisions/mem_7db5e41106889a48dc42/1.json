@@ -1,0 +1,66 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-02T19:07:23.923376Z",
+  "id": "rev_b95c6e4a40f78fc1bf8d",
+  "memory": {
+    "conditions": "用户要求逐案核对七家车企战略合作PR稿，并区分稿件明确记载与后续推断。",
+    "confidence": 0.86,
+    "content": "火山引擎与汽车企业的七案公开稿核查中,签约日期、出席人、政府见证和后续进展的证据颗粒度并不一致;奔驰只能写官宣日,东风主签约稿未列出席人,赛力斯凤凰是唯一明确记载政府官员见证的案例。",
+    "created_at": "2026-11-02T19:07:23.923376Z",
+    "derived_from": [],
+    "entities": [
+      "ent_2143b5f3e888b501cc3c",
+      "ent_7eb36e87c3f9406c9215",
+      "ent_efece682195ff5999c2b",
+      "ent_700816e920bebe421d7a",
+      "ent_02d36becfe6f60ace7bf",
+      "ent_1002d231aa8e29c9351b",
+      "ent_7d1a8b2d0370b729952b",
+      "ent_b6e5f07139d194f4aaa5"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_d4ea596374d100c7cd4f",
+        "quote": "火山引擎与汽车企业的七案公开稿核查中,签约日期、出席人、政府见证和后续进展的证据颗粒度并不一致;奔驰只能写官宣日,东风主签约稿未列出席人,赛力斯凤凰是唯一明确记载政府官员见证的案例。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_7db5e41106889a48dc42",
+    "is_temporary": false,
+    "keywords": [
+      "公开稿核查",
+      "签约日期",
+      "出席人",
+      "政府官员见证",
+      "证据颗粒度"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d4ea596374d100c7cd4f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-02T19:07:23.923376Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_7db5e41106889a48dc42",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

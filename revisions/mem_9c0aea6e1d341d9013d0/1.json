@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-25T17:33:51.880338Z",
+  "id": "rev_cdeda1ba5a3b74783cc9",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-26：用户在嗓子疼并服用头孢后继续排查 agent-memory 首轮对话静默丢弃问题,确认 OpenClaw event_id 兜底生成会撞 ID;服务端尝试改造后经审查发现可能误覆盖不同轮次,因此等待 OpenClaw 客户端修改完成后再审。",
+    "created_at": "2026-09-25T17:33:51.880338Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_16d2615f00ae766bb32b",
+        "quote": "2026-09-26：用户在嗓子疼并服用头孢后继续排查 agent-memory 首轮对话静默丢弃问题,确认 OpenClaw event_id 兜底生成会撞 ID;服务端尝试改造后经审查发现可能误覆盖不同轮次,因此等待 OpenClaw 客户端修改完成后再审。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_9c0aea6e1d341d9013d0",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_16d2615f00ae766bb32b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-09-25T17:33:51.880338Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9c0aea6e1d341d9013d0",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

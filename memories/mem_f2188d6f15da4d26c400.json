@@ -1,0 +1,33 @@
+{
+  "conditions": "用户自我反思被封诱因",
+  "confidence": 0.5,
+  "content": "用户怀疑此前让 Agent 帮忙搬运手机数据时产生的大量连接/上行流量行为类似爬虫,可能是触发 VPS IP 被封的诱因之一;Agent 判断主动探测才是主路径,搬数据至多是次要诱因,需登录后查 auth.log 验证。",
+  "created_at": "2026-10-27T05:44:48.869360Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_f2188d6f15da4d26c400",
+  "is_temporary": false,
+  "keywords": [
+    "爬虫",
+    "大流量",
+    "被封原因",
+    "手机数据"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:44:48.869360Z",
+  "valid_to": null
+}

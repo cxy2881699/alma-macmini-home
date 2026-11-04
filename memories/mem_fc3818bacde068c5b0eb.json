@@ -1,0 +1,56 @@
+{
+  "conditions": "用户为次日晚上与关系很好的大学同学聚会征求选酒建议。",
+  "confidence": 0.86,
+  "content": "2026-09-26 晚用户计划与一位关系很好、从美国回来的大学同学重聚喝酒;当时尚未记录双方饮酒偏好。",
+  "created_at": "2026-10-27T04:35:43.955686Z",
+  "derived_from": [],
+  "entities": [
+    "ent_774067d2559ca01157a7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_63c357d22847ac53220a",
+      "quote": "2026-09-26 晚用户计划与一位关系很好、从美国回来的大学同学重聚喝酒;当时尚未记录双方饮酒偏好。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_fc3818bacde068c5b0eb",
+  "is_temporary": false,
+  "keywords": [
+    "饮酒偏好",
+    "重聚",
+    "带酒",
+    "美国回来",
+    "回国重聚",
+    "喝酒",
+    "2026-09-26",
+    "美国回国",
+    "大学同学",
+    "重聚喝酒",
+    "带什么酒",
+    "饮酒偏好未知"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_63c357d22847ac53220a",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:35:43.955686Z",
+  "valid_to": "2026-09-26"
+}

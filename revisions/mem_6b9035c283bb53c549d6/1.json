@@ -1,0 +1,47 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-04T19:02:04.145748Z",
+  "id": "rev_fb722956f2fa6cd31a1a",
+  "memory": {
+    "conditions": "用户在讨论成长引擎商业化时提出高情感价值的逝者陪伴应用。",
+    "confidence": 0.78,
+    "content": "用户认为可通过收集逝者生前数据与口述经历,重建三观和性格高度接近的数字个体,并让其在后续互动中持续陪伴成长;但这是用户的产品设想,不代表技术上可完整还原本人。",
+    "created_at": "2026-10-04T19:02:04.145748Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_6b9035c283bb53c549d6",
+    "is_temporary": false,
+    "keywords": [
+      "数字永生",
+      "逝者重建",
+      "亲人陪伴",
+      "生前数据",
+      "持续成长"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "review",
+    "status_reason": "migrated from old agent-memory (candidate)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-04T19:02:04.145748Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_6b9035c283bb53c549d6",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,71 @@
+{
+  "conditions": "用户通过subagent系统核查火山引擎与汽车企业合作的签约、出席人、政府见证和后续落地。",
+  "confidence": 0.95,
+  "content": "2026-10-27,用户通过 subagent 完成火山引擎与七家汽车相关企业战略合作公开稿核查:广汽集团、梅赛德斯-奔驰中国、岚图汽车、四维图新、赛力斯凤凰、东风汽车、奇瑞汽车;输出包含签约日期、双方出席人、合作内容、政府官员是否被稿件明确提及及后续落地/追加合作。",
+  "created_at": "2026-10-27T18:35:13.611211Z",
+  "derived_from": [],
+  "entities": [
+    "ent_b4a085894df92a90957d",
+    "ent_2143b5f3e888b501cc3c",
+    "ent_7eb36e87c3f9406c9215",
+    "ent_efece682195ff5999c2b",
+    "ent_700816e920bebe421d7a",
+    "ent_02d36becfe6f60ace7bf",
+    "ent_1002d231aa8e29c9351b",
+    "ent_7d1a8b2d0370b729952b"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_d4ea596374d100c7cd4f",
+      "quote": "2026-10-27,用户通过 subagent 完成火山引擎与七家汽车相关企业战略合作公开稿核查:广汽集团、梅赛德斯-奔驰中国、岚图汽车、四维图新、赛力斯凤凰、东风汽车、奇瑞汽车;输出包含签约日期、双方出席人、合作内容、政府官员是否被稿件明确提及及后续落地/追加合作。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_989d644f2594f9f74aa8",
+  "is_temporary": false,
+  "keywords": [
+    "火山引擎",
+    "车企合作",
+    "战略合作",
+    "公开PR稿",
+    "出席人",
+    "签约日期",
+    "后续落地",
+    "七家车企调研",
+    "subagent",
+    "subagent调研",
+    "战略合作PR稿",
+    "赛力斯",
+    "七家车企",
+    "战略合作PR",
+    "公开稿核查",
+    "广汽",
+    "奔驰",
+    "岚图",
+    "四维图新",
+    "赛力斯凤凰"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d4ea596374d100c7cd4f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-10-27T18:35:13.611211Z",
+  "valid_to": null
+}

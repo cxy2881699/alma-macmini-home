@@ -1,0 +1,73 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:34:08.597383Z",
+  "id": "rev_66c20e7ed2aae572097e",
+  "memory": {
+    "conditions": "用户明确当前记忆系统可开源，上层塑造会成长 Agent 的能力作为商业杀手锏。",
+    "confidence": 0.85,
+    "content": "用户设想的商业产品分层是:开源完整但基础的 agent-memory 记忆底座,上层提供 Agent 成长引擎与运行平台作为商业增强层。",
+    "created_at": "2026-10-27T05:34:08.597383Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_5c2b03a36555ed887023",
+        "quote": "用户设想的商业产品分层是:开源完整但基础的 agent-memory 记忆底座,上层提供 Agent 成长引擎与运行平台作为商业增强层。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_c95e15d342df4029adac",
+    "is_temporary": false,
+    "keywords": [
+      "商业化分层",
+      "NPC 平台",
+      "商业成长引擎",
+      "杀手锏",
+      "三层架构",
+      "Agent 成长",
+      "三层产品",
+      "开源版",
+      "收费线上版",
+      "开源记忆底座",
+      "NPC",
+      "智能玩具",
+      "开源底座",
+      "商业增强层",
+      "成长引擎",
+      "运行平台",
+      "开源商业化",
+      "Agent成长"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_5c2b03a36555ed887023",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:34:08.597383Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_c95e15d342df4029adac",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

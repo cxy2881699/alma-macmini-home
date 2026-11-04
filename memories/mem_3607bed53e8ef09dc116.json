@@ -1,0 +1,37 @@
+{
+  "conditions": "用户从赛博生命愿景延伸到数字亲人，但对话中也明确了技术与伦理边界。",
+  "confidence": 0.82,
+  "content": "用户认为可进化记忆的长期应用场景包括智能玩具、游戏 NPC,以及基于逝者生前数据重建可陪伴的数字个体;但对逝者场景应区分历史还原与后续成长,不能宣称意识延续。",
+  "created_at": "2026-10-02T19:01:54.013030Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_3607bed53e8ef09dc116",
+  "is_temporary": false,
+  "keywords": [
+    "逝者数字重建",
+    "数字永生",
+    "纪念陪伴",
+    "NPC成长",
+    "智能玩具"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "review",
+  "status_reason": "migrated from old agent-memory (candidate)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-02T19:01:54.013030Z",
+  "valid_to": null
+}

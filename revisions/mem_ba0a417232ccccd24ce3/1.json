@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:28:22.928889Z",
+  "id": "rev_724a48d026042fa461ed",
+  "memory": {
+    "conditions": "架构草案八节中的核心设计决策",
+    "confidence": 0.8,
+    "content": "成长引擎架构的核心新增对象是'带证据和版本的个体状态',连接记忆存储与未来行为;策略更新需先试运行、可回滚,旧客户端保持兼容。",
+    "created_at": "2026-10-27T05:28:22.928889Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_ba0a417232ccccd24ce3",
+    "is_temporary": false,
+    "keywords": [
+      "个体状态",
+      "版本化",
+      "回滚",
+      "兼容性"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:28:22.928889Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ba0a417232ccccd24ce3",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

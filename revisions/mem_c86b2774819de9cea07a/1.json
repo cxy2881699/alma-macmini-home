@@ -1,0 +1,61 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-24T03:31:02.572972Z",
+  "id": "rev_1060f330c30c9490fa90",
+  "memory": {
+    "conditions": "定时心跳触发，检查服务状态并写入反思记录。",
+    "confidence": 0.9,
+    "content": "2026-09-23 20:30(洛杉矶时间)心跳检查:memd 健康端点正常、近一小时无 failed 任务,Agent 在 MEMORY.md 追加反思记录(含当晚两个战略问题:公司 VPN 与 Tailscale 冲突、HTTP+Token 公网化)后回复 HEARTBEAT_OK。",
+    "created_at": "2026-09-24T03:31:02.572972Z",
+    "derived_from": [],
+    "entities": [
+      "ent_1b0510f6e7579d8f62b3",
+      "ent_0b9d675295ad9424827f"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_3d8e9a54e4b001ea6a33",
+        "quote": "2026-09-23 20:30(洛杉矶时间)心跳检查:memd 健康端点正常、近一小时无 failed 任务,Agent 在 MEMORY.md 追加反思记录(含当晚两个战略问题:公司 VPN 与 Tailscale 冲突、HTTP+Token 公网化)后回复 HEARTBEAT_OK。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_c86b2774819de9cea07a",
+    "is_temporary": false,
+    "keywords": [
+      "心跳",
+      "HEARTBEAT_OK",
+      "反思",
+      "memd",
+      "健康检查",
+      "failed jobs"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_3d8e9a54e4b001ea6a33",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-24T03:31:02.572972Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_c86b2774819de9cea07a",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

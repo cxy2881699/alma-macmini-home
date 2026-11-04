@@ -1,0 +1,63 @@
+{
+  "conditions": "后续查找可进化记忆系统 PRD 原文时应定位该事件，而不是只看摘要。",
+  "confidence": 1.0,
+  "content": "用户要求将 Codex 撰写的《可进化记忆系统 PRD v0.1》(2026-09-26,全文约1.9万字,21个编号章节,基于现有 agent-memory 增加可替换、可回滚的成长引擎,属于待评审设计草案而非已实现功能)保存在共享记忆系统供其他 Agent 独立评审;全文已经通过事件接口归档,检索标识为 EVOLVING-MEMORY-PRD-v0.1,原文事件 ID 为 1460999e575200a46998cd748e7167ea,会话为 document-archive-evolving-memory-prd-v0.1-709fc2456294;请检索该原文而不要混用8月旧PRD。",
+  "created_at": "2026-09-27T11:56:19.021883Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e",
+    "ent_0dd3ce8f5049183636d7"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_204132bcd438ed41fedc",
+      "quote": "用户要求将 Codex 撰写的《可进化记忆系统 PRD v0.1》(2026-09-26,全文约1.9万字,21个编号章节,基于现有 agent-memory 增加可替换、可回滚的成长引擎,属于待评审设计草案而非已实现功能)保存在共享记忆系统供其他 Agent 独立评审;全文已经通过事件接口归档,检索标识为 EVOLVING-MEMORY-PRD-v0.1,原文事件 ID 为 1460999e575200a46998cd748e7167ea,会话为 document-archive-evolving-memory-prd-v0.1-709fc2456294;请检索该原文而不要混用8月旧PRD。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_5c1cf56eac46676a5fc5",
+  "is_temporary": false,
+  "keywords": [
+    "PRD归档",
+    "可进化记忆",
+    "PRD全文",
+    "跨Agent评审",
+    "PRD 归档",
+    "全文事件",
+    "文档保存",
+    "可进化记忆系统",
+    "成长引擎",
+    "全文归档",
+    "document-archive-evolving-mem…",
+    "709fc2456294",
+    "EVOLVING-MEMORY-PRD-v0.1",
+    "PRD 全文",
+    "1460999e",
+    "document-archive"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_204132bcd438ed41fedc",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-27T11:56:19.021883Z",
+  "valid_to": null
+}

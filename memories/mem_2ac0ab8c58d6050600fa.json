@@ -1,0 +1,59 @@
+{
+  "conditions": "严肃文献调研因非交互会话中的联网工具权限被自动中止，尚未完成，后续可能需要重试。",
+  "confidence": 0.7,
+  "content": "用户发起一项关于激素、神经递质、情绪、行为与心理结构实证研究的严肃文献调研任务,并要求所有引用必须可核实;Agent 因 WebSearch、WebFetch 和网络 curl 权限被中断而无法实际检索,仅创建了研究目录。",
+  "created_at": "2026-10-27T04:18:07.879408Z",
+  "derived_from": [],
+  "entities": [
+    "ent_54bc249ce41248cb6af7",
+    "ent_868b6b7b308b553adaaf",
+    "ent_ac75cb66690cacf39d3f"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_7bab4433029e0047b9ba",
+      "quote": "用户发起一项关于激素、神经递质、情绪、行为与心理结构实证研究的严肃文献调研任务,并要求所有引用必须可核实;Agent 因 WebSearch、WebFetch 和网络 curl 权限被中断而无法实际检索,仅创建了研究目录。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_2ac0ab8c58d6050600fa",
+  "is_temporary": false,
+  "keywords": [
+    "文献调研",
+    "神经科学",
+    "激素",
+    "神经递质",
+    "情绪追踪",
+    "引用核实",
+    "工具权限",
+    "文献调研失败",
+    "权限中断",
+    "WebSearch blocked",
+    "curl blocked",
+    "papers-index",
+    "hormone-psych-lit-review"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_7bab4433029e0047b9ba",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-10-27T04:18:07.879408Z",
+  "valid_to": null
+}

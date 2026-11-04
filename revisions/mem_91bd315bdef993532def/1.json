@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:10:51.277118Z",
+  "id": "rev_869822a8dba1615fc635",
+  "memory": {
+    "conditions": "助手称用户为自建派，用户明确接受为干净 IP 付溢价",
+    "confidence": 0.75,
+    "content": "用户倾向于自建可控的网络方案而非商业机场,且愿意为干净 IP 支付更高价格。",
+    "created_at": "2026-10-27T05:10:51.277118Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_91bd315bdef993532def",
+    "is_temporary": false,
+    "keywords": [
+      "自建派",
+      "干净IP",
+      "价格不敏感",
+      "商业机场"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-27T05:10:51.277118Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_91bd315bdef993532def",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

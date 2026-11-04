@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-01T19:07:13.619011Z",
+  "id": "rev_bedac9e415fd9e89c9bb",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-10-28：用户通过 subagent 系统核查火山引擎与七家汽车相关企业的战略合作公开稿,输出签约日期、出席人、合作内容、政府官员见证及后续落地证据,并特别区分量产、展示预研与框架规划。",
+    "created_at": "2026-11-01T19:07:13.619011Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_d4ea596374d100c7cd4f",
+        "quote": "2026-10-28：用户通过 subagent 系统核查火山引擎与七家汽车相关企业的战略合作公开稿,输出签约日期、出席人、合作内容、政府官员见证及后续落地证据,并特别区分量产、展示预研与框架规划。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_9f4342f85235ef9d6bc8",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d4ea596374d100c7cd4f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-11-01T19:07:13.619011Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9f4342f85235ef9d6bc8",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

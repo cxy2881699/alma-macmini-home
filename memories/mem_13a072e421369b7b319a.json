@@ -1,0 +1,49 @@
+{
+  "conditions": "Agent 在排查代理节点失效时发现配置缺少国内直连兜底。",
+  "confidence": 0.9,
+  "content": "用户的 mihomo/Clash 配置末条为 MATCH,PROXY,导致未命中规则的所有流量(含国内站点)都走代理;节点失效时会造成全网不可用,而不是仅外网受影响。",
+  "created_at": "2026-10-27T04:28:26.894043Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f18082c6c564869030be"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_1cd898a27b168e387484",
+      "quote": "用户的 mihomo/Clash 配置末条为 MATCH,PROXY,导致未命中规则的所有流量(含国内站点)都走代理;节点失效时会造成全网不可用,而不是仅外网受影响。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_13a072e421369b7b319a",
+  "is_temporary": false,
+  "keywords": [
+    "MATCH,PROXY",
+    "GEOIP,CN,DIRECT",
+    "国内直连",
+    "代理规则",
+    "分流"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1cd898a27b168e387484",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:28:26.894043Z",
+  "valid_to": null
+}

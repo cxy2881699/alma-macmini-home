@@ -1,0 +1,49 @@
+{
+  "conditions": "连续多日晨报均报告同类搜索工具不可用并采用替代信源。",
+  "confidence": 0.9,
+  "content": "Brave 缺 API key、百度鉴权失败的搜索工具故障至少从 2026-10-28 持续至 2026-11-03 晨报;期间晨报可通过官方页面、RSS、公开 API 降级完成。",
+  "created_at": "2026-11-03T19:07:53.581068Z",
+  "derived_from": [],
+  "entities": [
+    "ent_686eb10ba1184d26e9a3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_21ec0a807d8ab8a39f8f",
+      "quote": "Brave 缺 API key、百度鉴权失败的搜索工具故障至少从 2026-10-28 持续至 2026-11-03 晨报;期间晨报可通过官方页面、RSS、公开 API 降级完成。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_e8a42ab74ee0bffd33e4",
+  "is_temporary": false,
+  "keywords": [
+    "搜索故障持续",
+    "Brave 缺 key",
+    "百度鉴权失败",
+    "RSS 降级",
+    "公开 API"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_21ec0a807d8ab8a39f8f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-03T19:07:53.581068Z",
+  "valid_to": null
+}

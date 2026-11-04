@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-24：用户排查 Codex 是否每轮自动读取记忆。Agent 通过审计确认保存链路正常但桌面会话缺少 codex recall,指导用户改用 Codex CLI 信任 hooks;随后连续遇到 CLI 二进制 ENOENT 和 Gatekeeper 隔离删除问题。",
+  "created_at": "2026-10-27T04:29:46.299638Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_0796872cfc79a9328bad",
+      "quote": "2026-09-24：用户排查 Codex 是否每轮自动读取记忆。Agent 通过审计确认保存链路正常但桌面会话缺少 codex recall,指导用户改用 Codex CLI 信任 hooks;随后连续遇到 CLI 二进制 ENOENT 和 Gatekeeper 隔离删除问题。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_d729c3bc4eee133ab68e",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_0796872cfc79a9328bad",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-27T04:29:46.299638Z",
+  "valid_to": null
+}

@@ -1,0 +1,33 @@
+{
+  "conditions": "用户担心他人借用 agent 导致记忆泄漏",
+  "confidence": 0.85,
+  "content": "暗号/口令身份验证方案被用户决定无限期搁置:当前单人单 owner 无此威胁模型,市场尚处'有没有'阶段;仅在 PRD 数据模型中预留 sensitivity_level 等字段位,不实现。",
+  "created_at": "2026-09-27T19:04:03.646115Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_10a05ba475e65f564c93",
+  "is_temporary": false,
+  "keywords": [
+    "身份验证",
+    "暗号",
+    "搁置",
+    "隐私泄漏"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-27T19:04:03.646115Z",
+  "valid_to": null
+}

@@ -1,0 +1,51 @@
+{
+  "conditions": "用户完整 unset 代理变量后测试 Google，仍无法通过系统层出网。",
+  "confidence": 0.86,
+  "content": "2026-10-18 23:15 清理全部代理环境变量后,curl 不再连接 8118/8119,而转为直连 Google 时的 LibreSSL SSL_ERROR_SYSCALL;这说明当时终端代理环境已清出,但系统级/TUN 出口仍未接管。",
+  "created_at": "2026-11-02T19:03:38.741954Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f90a16b26a8ab1d551fc",
+    "ent_f18082c6c564869030be",
+    "ent_c42dac5ae99195f63d24"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_99f1279db034d4a6a0a2",
+      "quote": "2026-10-18 23:15 清理全部代理环境变量后,curl 不再连接 8118/8119,而转为直连 Google 时的 LibreSSL SSL_ERROR_SYSCALL;这说明当时终端代理环境已清出,但系统级/TUN 出口仍未接管。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_5f0d9eb0c53b668775a6",
+  "is_temporary": false,
+  "keywords": [
+    "8118",
+    "8119",
+    "SSL_ERROR_SYSCALL",
+    "直连失败",
+    "环境变量清理"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_99f1279db034d4a6a0a2",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-02T19:03:38.741954Z",
+  "valid_to": null
+}

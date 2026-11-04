@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-27：用户在 memd 管理后台 audit 视图发现新写的 PRD 未进入记忆库,要求 Codex 查明文件实际保存位置;Codex 开始在本机 ceo-os 目录排查,但当时只找到两份 8 月旧 PRD,尚未确认新 PRD 去向。",
+  "created_at": "2026-10-27T04:36:48.799129Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_c5b9bc50bc5c913a2dbe",
+      "quote": "2026-09-27：用户在 memd 管理后台 audit 视图发现新写的 PRD 未进入记忆库,要求 Codex 查明文件实际保存位置;Codex 开始在本机 ceo-os 目录排查,但当时只找到两份 8 月旧 PRD,尚未确认新 PRD 去向。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_05b3955764f4e90157f0",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c5b9bc50bc5c913a2dbe",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-27T04:36:48.799129Z",
+  "valid_to": null
+}

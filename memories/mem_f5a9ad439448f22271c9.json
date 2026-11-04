@@ -1,0 +1,43 @@
+{
+  "conditions": "成长型记忆需要让经历改变理解、行动和后续记忆策略。",
+  "confidence": 0.82,
+  "content": "用户设想的成长型记忆系统应在现有 agent-memory 上增量增加“成长引擎”:经历经重要性评估后形成带证据、置信度、适用范围和版本的个体状态更新,并能影响后续行动与记忆策略。",
+  "created_at": "2026-09-26T09:56:41.923652Z",
+  "derived_from": [],
+  "entities": [
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_f5a9ad439448f22271c9",
+  "is_temporary": false,
+  "keywords": [
+    "个",
+    "体",
+    "状",
+    "态",
+    "更",
+    "新",
+    "经历循环",
+    "信念更新",
+    "个体状态",
+    "证据链",
+    "置信度",
+    "版本化"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-26T09:56:41.923652Z",
+  "valid_to": null
+}

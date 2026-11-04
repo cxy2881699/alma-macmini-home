@@ -1,0 +1,88 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:21:21.068627Z",
+  "id": "rev_97d43d68bb8171f629bc",
+  "memory": {
+    "conditions": "以后 MacBook 重启后无法上网或代理端口回退时，可优先检查这三层残留。",
+    "confidence": 0.86,
+    "content": "2026-10-18,用户的 MacBook 排查出三层旧代理问题:MonoProxy 的 LaunchAgent 保活脚本会写回 8118,~/.zshrc 和 ~/.zprofile 中 export 了 8118,Wi-Fi 系统代理也指向旧代理;处理后曾将系统代理改到 127.0.0.1:7897 并一度可正常浏览。",
+    "created_at": "2026-10-27T04:21:21.068627Z",
+    "derived_from": [],
+    "entities": [
+      "ent_b1d51f89b3518adf7781",
+      "ent_f90a16b26a8ab1d551fc",
+      "ent_f18082c6c564869030be",
+      "ent_c42dac5ae99195f63d24",
+      "ent_603966e8e3ad513001d7"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_10853d0c7dcf8fdb980b",
+        "quote": "2026-10-18,用户的 MacBook 排查出三层旧代理问题:MonoProxy 的 LaunchAgent 保活脚本会写回 8118,~/.zshrc 和 ~/.zprofile 中 export 了 8118,Wi-Fi 系统代理也指向旧代理;处理后曾将系统代理改到 127.0.0.1:7897 并一度可正常浏览。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_95edc76c5f59f1a2f1f2",
+        "quote": "2026-10-18,用户的 MacBook 排查出三层旧代理问题:MonoProxy 的 LaunchAgent 保活脚本会写回 8118,~/.zshrc 和 ~/.zprofile 中 export 了 8118,Wi-Fi 系统代理也指向旧代理;处理后曾将系统代理改到 127.0.0.1:7897 并一度可正常浏览。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_21f5a5863fc6f61fded0",
+        "quote": "2026-10-18,用户的 MacBook 排查出三层旧代理问题:MonoProxy 的 LaunchAgent 保活脚本会写回 8118,~/.zshrc 和 ~/.zprofile 中 export 了 8118,Wi-Fi 系统代理也指向旧代理;处理后曾将系统代理改到 127.0.0.1:7897 并一度可正常浏览。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_f233c5e24732cc0f2a63",
+    "is_temporary": false,
+    "keywords": [
+      "MacBook",
+      "MonoProxy",
+      "LaunchAgent",
+      "zshrc",
+      "8118",
+      "7897",
+      "系统代理",
+      "Clash Verge"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_10853d0c7dcf8fdb980b",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_95edc76c5f59f1a2f1f2",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_21f5a5863fc6f61fded0",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-10-27T04:21:21.068627Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_f233c5e24732cc0f2a63",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

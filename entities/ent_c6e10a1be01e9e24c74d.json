@@ -1,0 +1,14 @@
+{
+  "aliases": [
+    "/hooks 信任审核",
+    "Codex hook 开启步骤"
+  ],
+  "created_at": "2026-09-23T17:21:18.380352Z",
+  "description": "在 macOS Terminal 中启动 Codex CLI，通过 /hooks 面板信任 UserPromptSubmit、PostToolUse、Stop 三个 agent-memory 钩子的操作流程",
+  "id": "ent_c6e10a1be01e9e24c74d",
+  "name": "Codex CLI 钩子信任流程",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "concept",
+  "updated_at": "2026-11-04T08:56:50.230228Z"
+}

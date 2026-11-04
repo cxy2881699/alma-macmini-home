@@ -1,0 +1,61 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-24T19:02:43.584440Z",
+  "id": "rev_a0adad7363a6786bbb28",
+  "memory": {
+    "conditions": "用户反馈管理网页看不到不同设备来源，Agent 排查到旧 memd 进程和缓存。",
+    "confidence": 0.78,
+    "content": "admin.html 记忆列表不显示来源时,应优先排查双 memd 旧进程占用端口与浏览器缓存,而不是先判定代码未生效。",
+    "created_at": "2026-09-24T19:02:43.584440Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_fced576e2338a7e33460",
+        "quote": "admin.html 记忆列表不显示来源时,应优先排查双 memd 旧进程占用端口与浏览器缓存,而不是先判定代码未生效。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_0db7e4235db91815743a",
+    "is_temporary": false,
+    "keywords": [
+      "双进程",
+      "端口占用",
+      "浏览器缓存",
+      "强刷",
+      "来源列"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_fced576e2338a7e33460",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-24T19:02:43.584440Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_0db7e4235db91815743a",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

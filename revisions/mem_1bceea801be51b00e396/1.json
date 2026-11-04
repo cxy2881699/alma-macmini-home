@@ -1,0 +1,59 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-30T19:03:21.034270Z",
+  "id": "rev_c5209a7a46b28779a45c",
+  "memory": {
+    "conditions": "subagent 任务背景中交代的用户项目情况",
+    "confidence": 0.85,
+    "content": "用户(宇哥)正在自研 Agent Memory 系统,项目文档名为 EVOLVING-MEMORY PRD;此前已基于 ICLR 2026 MemAgents Workshop 约45篇论文做过综述(workspace 内 paper-summaries-MemAgents.md),2026H2 这批49篇是其补充。",
+    "created_at": "2026-09-30T19:03:21.034270Z",
+    "derived_from": [],
+    "entities": [
+      "ent_e44cb152899e6702c87f",
+      "ent_9d3a8e426d91c52fb407",
+      "ent_a009e810e6646b0cf76b"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_56b471b2ce769966e5ab",
+        "quote": "用户(宇哥)正在自研 Agent Memory 系统,项目文档名为 EVOLVING-MEMORY PRD;此前已基于 ICLR 2026 MemAgents Workshop 约45篇论文做过综述(workspace 内 paper-summaries-MemAgents.md),2026H2 这批49篇是其补充。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_1bceea801be51b00e396",
+    "is_temporary": false,
+    "keywords": [
+      "PRD",
+      "自研项目",
+      "paper-summaries-MemAgents"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_56b471b2ce769966e5ab",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-30T19:03:21.034270Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_1bceea801be51b00e396",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-31T19:01:32.857754Z",
+  "id": "rev_7092a769056806684916",
+  "memory": {
+    "conditions": "用户长期想在现有 agent-memory 上构建可成长、可修正的数字个体系统。",
+    "confidence": 0.85,
+    "content": "用户正在基于当前 agent-memory 设计一个可兼容、可修改、可持续进化并可能成长为赛博生命的记忆系统,核心方案是在现有记忆底座上增加“成长引擎”。",
+    "created_at": "2026-10-31T19:01:32.857754Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_2f1010e1b359e4962e53",
+    "is_temporary": false,
+    "keywords": [
+      "持续进化",
+      "兼容",
+      "可修改",
+      "架构设计",
+      "成长引擎",
+      "赛博生命",
+      "可进化记忆",
+      "agent-memory增强",
+      "架构研究"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-31T19:01:32.857754Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_2f1010e1b359e4962e53",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

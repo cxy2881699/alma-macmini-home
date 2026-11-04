@@ -1,0 +1,42 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-27T19:04:03.646115Z",
+  "id": "rev_8f6858c209992c604310",
+  "memory": {
+    "conditions": "Agent 给出排序用户未反对",
+    "confidence": 0.8,
+    "content": "用户认可的新 PRD 优先级排序:M0 核对服务端仓库结构 → 校准对话(个性化 Appraiser)→ 暗号(搁置只留钩子)。",
+    "created_at": "2026-09-27T19:04:03.646115Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_32d10bb49ebf8429b2d9",
+    "is_temporary": false,
+    "keywords": [
+      "优先级",
+      "M0",
+      "排期"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-27T19:04:03.646115Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_32d10bb49ebf8429b2d9",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

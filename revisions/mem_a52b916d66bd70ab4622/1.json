@@ -1,0 +1,45 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T19:08:43.459812Z",
+  "id": "rev_1828327a8a3e29f419a5",
+  "memory": {
+    "conditions": "Agent 复查配置后承认此前规则没有落盘。",
+    "confidence": 0.88,
+    "content": "此前承诺添加的 Clash Verge 分流规则 GEOIP,CN,DIRECT 实际未生效;当时配置只有广告拦截和 MATCH,PROXY,节点失效时国内流量也会被送往死节点。",
+    "created_at": "2026-10-27T19:08:43.459812Z",
+    "derived_from": [],
+    "entities": [
+      "ent_f18082c6c564869030be"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_a52b916d66bd70ab4622",
+    "is_temporary": false,
+    "keywords": [
+      "分流规则未生效",
+      "Clash Verge",
+      "国内直连",
+      "整机断网"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T19:08:43.459812Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_a52b916d66bd70ab4622",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

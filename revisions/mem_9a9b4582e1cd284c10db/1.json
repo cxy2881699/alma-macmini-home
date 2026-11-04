@@ -1,0 +1,59 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-28T19:04:15.773381Z",
+  "id": "rev_110c872c27a61aaa70d9",
+  "memory": {
+    "conditions": "助手刚宣布收工，用户立刻反馈仍然不可用。",
+    "confidence": 0.9,
+    "content": "用户当晚的网络故障在助手一度根据既往消息判断“浏览器通了、五台设备全通”后,又被用户明确否认,因此 23:36 的成功判断缺少当轮实测支持,不能作为修复完成依据。",
+    "created_at": "2026-10-28T19:04:15.773381Z",
+    "derived_from": [],
+    "entities": [
+      "ent_f18082c6c564869030be",
+      "ent_c42dac5ae99195f63d24"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_d2cb6dbcd0c6043abf52",
+        "quote": "用户当晚的网络故障在助手一度根据既往消息判断“浏览器通了、五台设备全通”后,又被用户明确否认,因此 23:36 的成功判断缺少当轮实测支持,不能作为修复完成依据。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_9a9b4582e1cd284c10db",
+    "is_temporary": false,
+    "keywords": [
+      "修复未完成",
+      "短暂恢复",
+      "浏览器实测",
+      "误判收官"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d2cb6dbcd0c6043abf52",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-28T19:04:15.773381Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9a9b4582e1cd284c10db",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

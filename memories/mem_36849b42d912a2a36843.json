@@ -1,0 +1,58 @@
+{
+  "conditions": "用户质疑选酒建议为何没参考记忆后，核查 hook 自动召回与 MCP 深度查询的区别。",
+  "confidence": 0.9,
+  "content": "2026-09-25 排查时,Codex 推荐酒水那轮的 UserPromptSubmit hook 已在提示词送模型前执行记忆搜索,服务端审计为 recall=ok、耗时40毫秒;未命中是因为相关饮酒偏好记忆为空,而不是 hook 未触发。",
+  "created_at": "2026-10-06T19:01:34.548556Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_ddfc3157c195d2617059",
+      "quote": "2026-09-25 排查时,Codex 推荐酒水那轮的 UserPromptSubmit hook 已在提示词送模型前执行记忆搜索,服务端审计为 recall=ok、耗时40毫秒;未命中是因为相关饮酒偏好记忆为空,而不是 hook 未触发。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_36849b42d912a2a36843",
+  "is_temporary": false,
+  "keywords": [
+    "UserPromptSubmit审计",
+    "饮酒偏好为空",
+    "未命中",
+    "格兰杰",
+    "40毫秒",
+    "未命中偏好",
+    "UserPromptSubmit",
+    "recall=ok",
+    "40ms",
+    "酒水推荐",
+    "审计",
+    "MCP"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ddfc3157c195d2617059",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-06T19:01:34.548556Z",
+  "valid_to": null
+}

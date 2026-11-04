@@ -1,0 +1,48 @@
+{
+  "conditions": "用户转发 ICLR 2026 MemAgents 综述与论文清单用于自研记忆系统 PRD",
+  "confidence": 0.85,
+  "content": "用户正在自研 Agent Memory 系统并撰写 PRD,参考来源为 ICLR 2026 MemAgents Workshop 的论文综述(2026-09-17 整理,覆盖约45篇论文)",
+  "created_at": "2026-09-28T19:08:33.604122Z",
+  "derived_from": [],
+  "entities": [
+    "ent_e44cb152899e6702c87f"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_c3271c4575b61520f70e",
+      "quote": "用户正在自研 Agent Memory 系统并撰写 PRD,参考来源为 ICLR 2026 MemAgents Workshop 的论文综述(2026-09-17 整理,覆盖约45篇论文)",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_4b3d2d9f875e0c1ec831",
+  "is_temporary": false,
+  "keywords": [
+    "agent memory",
+    "PRD",
+    "MemAgents",
+    "记忆系统"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c3271c4575b61520f70e",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-28T19:08:33.604122Z",
+  "valid_to": null
+}

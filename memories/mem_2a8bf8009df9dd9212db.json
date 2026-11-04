@@ -1,0 +1,51 @@
+{
+  "conditions": "解释 20–110ms 的常规召回为何没有同步等待 Embedding API。",
+  "confidence": 0.88,
+  "content": "agent-memory 的 Codex 对话前轻量召回默认不会等待新的向量生成;若无缓存向量,会在后台预热,完整深度召回才会同步调用方舟 Embedding API、执行 Neo4j 向量检索和图关系扩展,通常耗时几百毫秒或更高。",
+  "created_at": "2026-09-23T17:55:53.253833Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_1b0510f6e7579d8f62b3",
+    "ent_176409fa578ba26c2c5b"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_b5c4a9b1810f60adccbd",
+      "quote": "agent-memory 的 Codex 对话前轻量召回默认不会等待新的向量生成;若无缓存向量,会在后台预热,完整深度召回才会同步调用方舟 Embedding API、执行 Neo4j 向量检索和图关系扩展,通常耗时几百毫秒或更高。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_2a8bf8009df9dd9212db",
+  "is_temporary": false,
+  "keywords": [
+    "轻量召回",
+    "向量预热",
+    "深度召回",
+    "方舟Embedding",
+    "Neo4j向量检索"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_b5c4a9b1810f60adccbd",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-23T17:55:53.253833Z",
+  "valid_to": null
+}

@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:32:26.039203Z",
+  "id": "rev_6a4d08a40fd526e5a77d",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-27：用户在 memd 管理后台 audit 视图发现 Codex 新写的 PRD 未进入记忆库,于是追问文件实际保存位置;Codex 开始在本机和任务记录中排查,并发现 ceo-os 里暂时只有两份 8 月旧 PRD。",
+    "created_at": "2026-10-27T04:32:26.039203Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_c5b9bc50bc5c913a2dbe",
+        "quote": "2026-09-27：用户在 memd 管理后台 audit 视图发现 Codex 新写的 PRD 未进入记忆库,于是追问文件实际保存位置;Codex 开始在本机和任务记录中排查,并发现 ceo-os 里暂时只有两份 8 月旧 PRD。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_59a066d32178f0908b11",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_c5b9bc50bc5c913a2dbe",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-27T04:32:26.039203Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_59a066d32178f0908b11",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

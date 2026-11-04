@@ -1,0 +1,37 @@
+{
+  "conditions": "用户提出所有 AI 走静态 IP，Agent 提醒分流域名和 fake-ip 坑。",
+  "confidence": 0.8,
+  "content": "AI 分流需要覆盖 Anthropic、OpenAI、Google/Gemini、Perplexity、Poe、Cursor、xAI/Grok、Mistral 等域名,并在 mihomo fake-ip-filter 中排除这些 AI 域名以避免解析或证书问题。",
+  "created_at": "2026-10-29T19:08:29.135518Z",
+  "derived_from": [],
+  "entities": [
+    "ent_51b9c91560022845906c",
+    "ent_1e8088308ba9691af4dc"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_2fb66527097125275807",
+  "is_temporary": false,
+  "keywords": [
+    "AI分流",
+    "fake-ip-filter",
+    "mihomo",
+    "Clash",
+    "域名规则"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-29T19:08:29.135518Z",
+  "valid_to": null
+}

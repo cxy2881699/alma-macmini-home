@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:20:00.720110Z",
+  "id": "rev_42f5291baba95e59bde2",
+  "memory": {
+    "conditions": "用户多次选择自建VPS+分流而非机场方案",
+    "confidence": 0.7,
+    "content": "用户倾向自建可控的网络方案而非商业机场,愿意为干净 IP 和稳定性支付更高成本。",
+    "created_at": "2026-10-27T05:20:00.720110Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_9a8eab85a12f297f3e3b",
+    "is_temporary": false,
+    "keywords": [
+      "自建派",
+      "干净IP",
+      "成本不敏感",
+      "可控性"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-27T05:20:00.720110Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9a8eab85a12f297f3e3b",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

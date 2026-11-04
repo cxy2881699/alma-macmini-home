@@ -1,0 +1,74 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-24T16:30:51.482010Z",
+  "id": "rev_4e613f15861248161316",
+  "memory": {
+    "conditions": "检索此前价格爬虫被触发但未见结果输出的记录。",
+    "confidence": 0.7,
+    "content": "2026-09-25 cron 触发大模型 API 价格爬虫任务,Agent 执行无头爬虫脚本并回复 HEARTBEAT_OK,未见爬取结果输出。",
+    "created_at": "2026-09-24T16:30:51.482010Z",
+    "derived_from": [],
+    "entities": [
+      "ent_4f38d5e4501c6dc5cf42"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_0949a95848ea1b3763dc",
+        "quote": "2026-09-25 cron 触发大模型 API 价格爬虫任务,Agent 执行无头爬虫脚本并回复 HEARTBEAT_OK,未见爬取结果输出。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_cabc7753460582edf7a2",
+    "is_temporary": false,
+    "keywords": [
+      "定时任务",
+      "大模型API价格",
+      "爬虫",
+      "headless",
+      "静默执行",
+      "2026-09-25 爬虫执行",
+      "无结果输出",
+      "例行执行",
+      "价格爬虫运行记录",
+      "cron 执行",
+      "2026-09-25",
+      "爬虫执行记录",
+      "cron",
+      "无头",
+      "爬取结果缺失",
+      "爬虫无输出",
+      "cron执行记录",
+      "model_price_scraper",
+      "无输出",
+      "cron 执行记录"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_0949a95848ea1b3763dc",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-24T16:30:51.482010Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_cabc7753460582edf7a2",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

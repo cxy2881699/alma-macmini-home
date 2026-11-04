@@ -1,0 +1,51 @@
+{
+  "conditions": "用户指出原设计是每轮 hook 搜索，而不是靠 Agent 主动 MCP 查询。",
+  "confidence": 0.82,
+  "content": "用户区分“每轮自动搜索已触发”和“搜索必须成功”:在记忆系统设计上,他关注 hook 是否强制走 search,也警惕超时或错误时静默放行导致召回保证不足。",
+  "created_at": "2026-10-06T19:01:34.548556Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_ddfc3157c195d2617059",
+      "quote": "用户区分“每轮自动搜索已触发”和“搜索必须成功”:在记忆系统设计上,他关注 hook 是否强制走 search,也警惕超时或错误时静默放行导致召回保证不足。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_4d0ae57cd5b0c7b810ab",
+  "is_temporary": false,
+  "keywords": [
+    "强制搜索",
+    "失败放行",
+    "超时",
+    "召回保证",
+    "hook"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ddfc3157c195d2617059",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-06T19:01:34.548556Z",
+  "valid_to": null
+}

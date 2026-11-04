@@ -1,0 +1,57 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:44:52.246859Z",
+  "id": "rev_a5c4042507f803824ed0",
+  "memory": {
+    "conditions": "任务书规定了提取、分批阅读、综述结构和精简回报方式。",
+    "confidence": 0.7,
+    "content": "用户委派大批量文献任务时倾向给 subagent 明确的执行步骤、工具选择授权(环境有什么用什么)和 token 预算/覆盖度优先级,要求完成后只回报文件路径加少量关键发现。",
+    "created_at": "2026-10-27T04:44:52.246859Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_56b471b2ce769966e5ab",
+        "quote": "用户委派大批量文献任务时倾向给 subagent 明确的执行步骤、工具选择授权(环境有什么用什么)和 token 预算/覆盖度优先级,要求完成后只回报文件路径加少量关键发现。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_ee447fe45a5833046524",
+    "is_temporary": false,
+    "keywords": [
+      "任务委派",
+      "subagent",
+      "执行规范",
+      "回报格式",
+      "token预算"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_56b471b2ce769966e5ab",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-27T04:44:52.246859Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ee447fe45a5833046524",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

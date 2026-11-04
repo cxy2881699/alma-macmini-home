@@ -1,0 +1,45 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-03T19:03:12.690710Z",
+  "id": "rev_9a06004d66e91b5b9b4e",
+  "memory": {
+    "conditions": "用户两次发 zip 失败后改逐篇转发 PDF",
+    "confidence": 0.85,
+    "content": "飞书 zip 大附件会被网关拦截不落盘,但单个 PDF 转发可正常落盘解析;大批量论文获取的可靠路径是逐篇转发 PDF 或提供 arXiv/直链。",
+    "created_at": "2026-10-03T19:03:12.690710Z",
+    "derived_from": [],
+    "entities": [
+      "ent_22f290112c9557d215ea"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_e56d44c2d79f40d2dd02",
+    "is_temporary": false,
+    "keywords": [
+      "飞书附件",
+      "zip拦截",
+      "PDF转发",
+      "文件落盘"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-03T19:03:12.690710Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e56d44c2d79f40d2dd02",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,41 @@
+{
+  "conditions": "需要直接打开本机 PRD 原文进行完整评审时使用。",
+  "confidence": 0.8,
+  "content": "PRD 本机全文路径为 /Users/seancao/Documents/Codex/2026-09-26/hooks/outputs/可进化记忆系统_PRD_v0.1.md,需要其他 Agent 立即完整评审时,直接提供该 Markdown 文件最可靠。",
+  "created_at": "2026-09-27T13:15:17.923063Z",
+  "derived_from": [],
+  "entities": [
+    "ent_0dd3ce8f5049183636d7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_9c04c7117e935c40868a",
+  "is_temporary": false,
+  "keywords": [
+    "PRD",
+    "本机路径",
+    "Markdown",
+    "评审",
+    "可进化记忆系统_PRD_v0.1",
+    "完整评审",
+    "PRD本机路径",
+    "Markdown文件",
+    "Codex outputs",
+    "可进化记忆系统_PRD_v0.1.md"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-27T13:15:17.923063Z",
+  "valid_to": null
+}

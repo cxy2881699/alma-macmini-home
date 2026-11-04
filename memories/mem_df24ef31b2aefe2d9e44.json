@@ -1,0 +1,64 @@
+{
+  "conditions": "需要重新查阅这批论文原文或临时提取文本时可查",
+  "confidence": 0.8,
+  "content": "49篇论文PDF存放于 ~/Downloads/mem-papers-2026H2/(171MB),其中4篇曾损坏(EmbodiedMemory-Bench/GraphMemix/MemForest/VoxMem),已用 PyMuPDF 修复;全文文本提取在 /tmp/pdftxt2/(临时目录,可能已失效)。",
+  "created_at": "2026-09-29T19:03:46.764736Z",
+  "derived_from": [],
+  "entities": [
+    "ent_cd077af734ef059c7775"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_56b471b2ce769966e5ab",
+      "quote": "49篇论文PDF存放于 ~/Downloads/mem-papers-2026H2/(171MB),其中4篇曾损坏(EmbodiedMemory-Bench/GraphMemix/MemForest/VoxMem),已用 PyMuPDF 修复;全文文本提取在 /tmp/pdftxt2/(临时目录,可能已失效)。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_df24ef31b2aefe2d9e44",
+  "is_temporary": false,
+  "keywords": [
+    "损坏PDF修复",
+    "论文目录",
+    "49篇PDF",
+    "arXiv论文",
+    "损坏修复",
+    "pdftotext",
+    "PDF 损坏修复",
+    "PyMuPDF",
+    "mem-papers-2026H2",
+    "PDF路径",
+    "pdftxt2",
+    "损坏论文",
+    "171MB",
+    "49篇",
+    "损坏PDF",
+    "PyMuPDF修复",
+    "EmbodiedMemory-Bench",
+    "GraphMemix",
+    "MemForest",
+    "VoxMem"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_56b471b2ce769966e5ab",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-29T19:03:46.764736Z",
+  "valid_to": "2026-10-27"
+}

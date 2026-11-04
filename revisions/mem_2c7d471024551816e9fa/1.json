@@ -1,0 +1,74 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-24T16:30:51.482010Z",
+  "id": "rev_4e6440ac5507de1a2fb4",
+  "memory": {
+    "conditions": "需要识别价格爬虫定时任务的命令及其完成后不发送消息的要求。",
+    "confidence": 0.95,
+    "content": "用户配置了一个 cron 定时任务“大模型API价格爬虫”,执行命令为 cd ~/.openclaw/workspace && python3 scripts/model_price_scraper.py --headless;任务完成后不需要发送消息,应保持静默。",
+    "created_at": "2026-09-24T16:30:51.482010Z",
+    "derived_from": [],
+    "entities": [
+      "ent_4f38d5e4501c6dc5cf42"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_0949a95848ea1b3763dc",
+        "quote": "用户配置了一个 cron 定时任务“大模型API价格爬虫”,执行命令为 cd ~/.openclaw/workspace && python3 scripts/model_price_scraper.py --headless;任务完成后不需要发送消息,应保持静默。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_2c7d471024551816e9fa",
+    "is_temporary": false,
+    "keywords": [
+      "定时爬虫",
+      "大模型API",
+      "API报价",
+      "NO_REILLY",
+      "静默执行",
+      "HEARTBEAT_OK",
+      "~/.openclaw/workspace",
+      "价格爬虫cron",
+      "价格爬虫",
+      "model_price_scraper",
+      "headless",
+      "静默任务",
+      "价格爬取",
+      "价格抓取",
+      "NO_RELEASE",
+      "API 价格监控",
+      "静默爬取",
+      "API价格监控",
+      "NO_RELLY",
+      "API 报价"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_0949a95848ea1b3763dc",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-24T16:30:51.482010Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_2c7d471024551816e9fa",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

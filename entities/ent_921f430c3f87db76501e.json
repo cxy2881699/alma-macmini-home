@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "sleep prompt"
+  ],
+  "created_at": "2026-09-23T23:57:39.612093Z",
+  "description": "memd/prompts/sleep.md 中驱动 sleep 整理的提示词，Agent 修改其 evidence 要求以减少输出体积",
+  "id": "ent_921f430c3f87db76501e",
+  "name": "sleep.md prompt",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T08:56:50.214508Z"
+}

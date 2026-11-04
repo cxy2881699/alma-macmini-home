@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-30T19:05:18.621774Z",
+  "id": "rev_0068beaa4e793056c9aa",
+  "memory": {
+    "conditions": "助手从记忆中复述用户的购买和部署经过",
+    "confidence": 0.8,
+    "content": "用户约 2026-10-12 决定弃用商业机场改为自建代理,10-13 前后下单 RackNerd,由助手协助部署 Reality 方案",
+    "created_at": "2026-10-30T19:05:18.621774Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_79054f5e382114c40cf5",
+    "is_temporary": false,
+    "keywords": [
+      "自建",
+      "弃机场",
+      "Reality",
+      "部署历史"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-30T19:05:18.621774Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_79054f5e382114c40cf5",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

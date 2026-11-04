@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-24：用户先验证跨 Agent 记忆共享与部署成果,随后睡前要求继续调研改进方向,并明确多模态、可视化、抽取策略等路线;之后又推进两台 Mac 一键接入和 HTTP+Token 公网化方案。",
+  "created_at": "2026-09-24T19:03:14.445113Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_d7e5946184cfe5447249",
+      "quote": "2026-09-24：用户先验证跨 Agent 记忆共享与部署成果,随后睡前要求继续调研改进方向,并明确多模态、可视化、抽取策略等路线;之后又推进两台 Mac 一键接入和 HTTP+Token 公网化方案。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_dc8211089aa2825790dd",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d7e5946184cfe5447249",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-09-24T19:03:14.445113Z",
+  "valid_to": null
+}

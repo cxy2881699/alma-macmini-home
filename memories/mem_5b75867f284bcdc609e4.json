@@ -1,0 +1,78 @@
+{
+  "conditions": "复盘 2026-10-18 MacBook 从 MonoProxy/8118 切到 Verge/7897 后，配置显示成功但全局代理未接管。",
+  "confidence": 0.86,
+  "content": "2026-10-18 当晚 MacBook 代理故障在 23:37 仍未闭环;即使 networksetup 显示 Wi-Fi 已启用 127.0.0.1:7897,scutil 全局视图仍显示 HTTPEnable:0,且用户最后反馈“还是不行”。",
+  "created_at": "2026-11-02T19:04:19.301002Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f90a16b26a8ab1d551fc",
+    "ent_f18082c6c564869030be",
+    "ent_c42dac5ae99195f63d24",
+    "ent_603966e8e3ad513001d7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_b513ec84f98cca74efd9",
+      "quote": "2026-10-18 当晚 MacBook 代理故障在 23:37 仍未闭环;即使 networksetup 显示 Wi-Fi 已启用 127.0.0.1:7897,scutil 全局视图仍显示 HTTPEnable:0,且用户最后反馈“还是不行”。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_21f5a5863fc6f61fded0",
+      "quote": "2026-10-18 当晚 MacBook 代理故障在 23:37 仍未闭环;即使 networksetup 显示 Wi-Fi 已启用 127.0.0.1:7897,scutil 全局视图仍显示 HTTPEnable:0,且用户最后反馈“还是不行”。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_d2cb6dbcd0c6043abf52",
+      "quote": "2026-10-18 当晚 MacBook 代理故障在 23:37 仍未闭环;即使 networksetup 显示 Wi-Fi 已启用 127.0.0.1:7897,scutil 全局视图仍显示 HTTPEnable:0,且用户最后反馈“还是不行”。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_5b75867f284bcdc609e4",
+  "is_temporary": false,
+  "keywords": [
+    "系统代理未接管",
+    "HTTPEnable 0",
+    "7897",
+    "scutil",
+    "networksetup",
+    "scutil HTTPEnable 0",
+    "Clash Verge 7897",
+    "macOS 系统代理不刷新",
+    "还是不行"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_b513ec84f98cca74efd9",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_21f5a5863fc6f61fded0",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_d2cb6dbcd0c6043abf52",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-02T19:04:19.301002Z",
+  "valid_to": null
+}

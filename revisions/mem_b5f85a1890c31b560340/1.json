@@ -1,0 +1,66 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-03T19:07:24.815658Z",
+  "id": "rev_ef40256ab447921586cc",
+  "memory": {
+    "conditions": "用户要求逐案核查七家车企战略合作，并区分签约计划与实际落地。",
+    "confidence": 0.86,
+    "content": "火山引擎汽车合作的公开落地证据呈分层状态:广汽已有跨境数据合规方案、奔驰CLA已量产;四维图新为大会展示,东风AIBOX为预研采购,赛力斯凤凰仍属框架,岚图与奇瑞在该次核查中主要停留在签约规划。",
+    "created_at": "2026-11-03T19:07:24.815658Z",
+    "derived_from": [],
+    "entities": [
+      "ent_2143b5f3e888b501cc3c",
+      "ent_7eb36e87c3f9406c9215",
+      "ent_efece682195ff5999c2b",
+      "ent_700816e920bebe421d7a",
+      "ent_02d36becfe6f60ace7bf",
+      "ent_1002d231aa8e29c9351b",
+      "ent_7d1a8b2d0370b729952b",
+      "ent_b6e5f07139d194f4aaa5"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_d4ea596374d100c7cd4f",
+        "quote": "火山引擎汽车合作的公开落地证据呈分层状态:广汽已有跨境数据合规方案、奔驰CLA已量产;四维图新为大会展示,东风AIBOX为预研采购,赛力斯凤凰仍属框架,岚图与奇瑞在该次核查中主要停留在签约规划。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_b5f85a1890c31b560340",
+    "is_temporary": false,
+    "keywords": [
+      "落地分层",
+      "量产",
+      "预研",
+      "框架协议",
+      "公开证据"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d4ea596374d100c7cd4f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-03T19:07:24.815658Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_b5f85a1890c31b560340",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

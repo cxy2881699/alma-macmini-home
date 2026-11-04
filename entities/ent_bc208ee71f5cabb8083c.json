@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "mem.cheaptokens.cn"
+  ],
+  "created_at": "2026-09-24T03:20:17.224335Z",
+  "description": "用户拥有的域名，Agent 提议在其下挂 mem.cheaptokens.cn 作为 memd 公网入口",
+  "id": "ent_bc208ee71f5cabb8083c",
+  "name": "cheaptokens.cn",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T08:56:50.221926Z"
+}

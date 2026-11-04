@@ -1,0 +1,49 @@
+{
+  "conditions": "用户追问谁把 IP 墙了，Agent 补充需要区分 GFW 黑名单和服务器源 IP 封禁。",
+  "confidence": 0.78,
+  "content": "2026-10-27 排查后,LA-Reality 节点 155.94.145.75 的故障更可能是 GFW 单 IP 封锁或服务器侧按用户出口 IP 封禁;当时尚未用手机 4G 完成最终判别,不能直接定为 VPS 宕机。",
+  "created_at": "2026-10-27T04:35:07.318622Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6ebee10dda1843bbd843"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_3210ae8eb43d60bbb142",
+      "quote": "2026-10-27 排查后,LA-Reality 节点 155.94.145.75 的故障更可能是 GFW 单 IP 封锁或服务器侧按用户出口 IP 封禁;当时尚未用手机 4G 完成最终判别,不能直接定为 VPS 宕机。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_7b1aed628c982fa97105",
+  "is_temporary": false,
+  "keywords": [
+    "VPS被墙",
+    "IP封锁",
+    "fail2ban",
+    "4G验证",
+    "LA-Reality"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_3210ae8eb43d60bbb142",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "disputed",
+  "status_reason": "migrated from old agent-memory (disputed)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:57:39.016672Z",
+  "valid_to": null
+}

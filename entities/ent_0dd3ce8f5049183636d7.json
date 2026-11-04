@@ -1,0 +1,16 @@
+{
+  "aliases": [
+    "EVOLVING-MEMORY-PRD-v0.1",
+    "可进化记忆系统 PRD",
+    "宇哥的 PRD",
+    "PRD v0.1"
+  ],
+  "created_at": "2026-09-27T11:56:07.958485Z",
+  "description": "Codex 根据用户讨论撰写的可进化记忆系统产品需求与候选技术设计草案，日期 2026-09-26，状态为研究与架构评审草案，SHA256 为 709fc245629457e0d1edd52b0daa41df1fab4c6096ece4632a0ac171e2cc2d1c",
+  "id": "ent_0dd3ce8f5049183636d7",
+  "name": "可进化记忆系统 PRD v0.1",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T08:56:50.224403Z"
+}

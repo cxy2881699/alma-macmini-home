@@ -1,0 +1,74 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-30T19:03:42.100049Z",
+  "id": "rev_1cd08770e2fef71f8241",
+  "memory": {
+    "conditions": "2026-10-27 晨报仍报告 Brave/百度搜索 API 不可用，是早期搜索 API 问题的延续线索。",
+    "confidence": 0.85,
+    "content": "Brave Search API key 曾在 2026-09-30 晨报执行时缺失,Agent 改用百度搜索 API 加 web_fetch 完成来源验证。",
+    "created_at": "2026-09-30T19:03:42.100049Z",
+    "derived_from": [],
+    "entities": [
+      "ent_686eb10ba1184d26e9a3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_21ec0a807d8ab8a39f8f",
+        "quote": "Brave Search API key 曾在 2026-09-30 晨报执行时缺失,Agent 改用百度搜索 API 加 web_fetch 完成来源验证。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_e7a198c2bfb382af1b5a",
+    "is_temporary": false,
+    "keywords": [
+      "Brave 不可用",
+      "Brave Search API",
+      "百度搜索 API",
+      "API key 缺失",
+      "来源验证",
+      "API key失效",
+      "晨报来源",
+      "Brave",
+      "API key缺失",
+      "信源降级",
+      "Brave key失效",
+      "百度搜索",
+      "web_fetch",
+      "晨报工具",
+      "openclaw configure",
+      "百度API",
+      "Brave key缺失",
+      "百度搜索API",
+      "晨报搜索降级",
+      "RSS直抓"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_21ec0a807d8ab8a39f8f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-30T19:03:42.100049Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e7a198c2bfb382af1b5a",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

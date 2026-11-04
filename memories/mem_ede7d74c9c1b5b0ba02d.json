@@ -1,0 +1,48 @@
+{
+  "conditions": "复盘 VPS 方案时助手列出尚未完成的 Clash 配置工作。",
+  "confidence": 0.8,
+  "content": "Clash/mihomo 分流配置在 2026-10-27 仍未完成,待用户购买 VPS 和住宅 IP 后填入参数。",
+  "created_at": "2026-11-03T19:06:37.898304Z",
+  "derived_from": [],
+  "entities": [
+    "ent_c77a5f5a7949c71398a9"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_af943030f4b33235f412",
+      "quote": "Clash/mihomo 分流配置在 2026-10-27 仍未完成,待用户购买 VPS 和住宅 IP 后填入参数。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_ede7d74c9c1b5b0ba02d",
+  "is_temporary": false,
+  "keywords": [
+    "AI 域名分流",
+    "fake-ip-filter",
+    "GEOIP,CN,DIRECT",
+    "配置模板"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_af943030f4b33235f412",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-03T19:06:37.898304Z",
+  "valid_to": null
+}

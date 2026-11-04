@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-27：用户在 admin audit 页面发现新写的 PRD 未进入记忆库,追问 Codex 实际保存位置;Codex 开始区分本机文件与记忆库写入链路,并初步只找到 ceo-os 下两份 8 月旧 PRD。",
+  "created_at": "2026-10-04T19:02:31.627644Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_c5b9bc50bc5c913a2dbe",
+      "quote": "2026-09-27：用户在 admin audit 页面发现新写的 PRD 未进入记忆库,追问 Codex 实际保存位置;Codex 开始区分本机文件与记忆库写入链路,并初步只找到 ceo-os 下两份 8 月旧 PRD。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_ef07778d28171f046a79",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c5b9bc50bc5c913a2dbe",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-04T19:02:31.627644Z",
+  "valid_to": null
+}

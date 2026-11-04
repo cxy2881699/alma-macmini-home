@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-01T19:11:09.883716Z",
+  "id": "rev_7e4b20f1e3aeb725fe73",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-26：当天凌晨继续排查 agent-memory 静默丢事件问题,复审服务端改动并决定等待小龙虾修改;下午确认 Codex hooks 已信任、记忆可存取,并深入讨论可进化记忆作为开源底座之上的商业化方向及逝者数字重建场景。",
+    "created_at": "2026-10-01T19:11:09.883716Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_16d2615f00ae766bb32b",
+        "quote": "2026-09-26：当天凌晨继续排查 agent-memory 静默丢事件问题,复审服务端改动并决定等待小龙虾修改;下午确认 Codex hooks 已信任、记忆可存取,并深入讨论可进化记忆作为开源底座之上的商业化方向及逝者数字重建场景。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_9b004489113d9a78aea3",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_16d2615f00ae766bb32b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-01T19:11:09.883716Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9b004489113d9a78aea3",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

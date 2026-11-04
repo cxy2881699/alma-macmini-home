@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-06T19:03:40.493838Z",
+  "id": "rev_89b0c6efbd38c9989edf",
+  "memory": {
+    "conditions": "讨论2026诺贝尔生理学或医学奖",
+    "confidence": 0.6,
+    "content": "用户对基础科学和神经科学有兴趣与敬意,欣赏纯粹好奇心驱动的研究,而非纯应用导向。",
+    "created_at": "2026-10-06T19:03:40.493838Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_35d58787adc1ff4b8f76",
+    "is_temporary": false,
+    "keywords": [
+      "神经科学",
+      "诺奖",
+      "光遗传学",
+      "基础研究"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-06T19:03:40.493838Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_35d58787adc1ff4b8f76",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

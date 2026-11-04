@@ -1,0 +1,59 @@
+{
+  "conditions": "用于检索 10-18 晚代理修复被短暂成功误导、随后又失败的复盘。",
+  "confidence": 0.85,
+  "content": "2026-10-18 晚所谓“五台设备全通”的验收曾被短暂浏览器可用误导;MacBook 在约17分钟后再次反馈异常,因此该结论只能视为阶段性结果。",
+  "created_at": "2026-10-27T04:59:03.214621Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f90a16b26a8ab1d551fc",
+    "ent_f18082c6c564869030be",
+    "ent_c42dac5ae99195f63d24"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_d2cb6dbcd0c6043abf52",
+      "quote": "2026-10-18 晚所谓“五台设备全通”的验收曾被短暂浏览器可用误导;MacBook 在约17分钟后再次反馈异常,因此该结论只能视为阶段性结果。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_318294c32c79361b0bec",
+  "is_temporary": false,
+  "keywords": [
+    "五台设备",
+    "MacBook断网",
+    "代理复测",
+    "浏览器可用误导",
+    "还是不行",
+    "五台设备全通误判",
+    "17分钟后复发",
+    "阶段性验收",
+    "代理修复未确认",
+    "五台设备全通",
+    "误判验收",
+    "浏览器短暂可用",
+    "23:37复查"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d2cb6dbcd0c6043abf52",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:59:03.214621Z",
+  "valid_to": null
+}

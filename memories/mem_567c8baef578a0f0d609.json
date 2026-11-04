@@ -1,0 +1,37 @@
+{
+  "conditions": "用户在讨论可进化记忆的商业杀手级应用时提出亲人数字重建场景。",
+  "confidence": 0.82,
+  "content": "用户将“用逝者生前数据与口述经历重建接近其三观性格、并可持续陪伴的数字个体”视为可进化记忆最有情感分量的应用方向,但该设想尚未被技术验证。",
+  "created_at": "2026-10-28T19:01:49.102346Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_567c8baef578a0f0d609",
+  "is_temporary": false,
+  "keywords": [
+    "数字永生",
+    "逝者复刻",
+    "陪伴 Agent",
+    "生前资料",
+    "持续成长"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "review",
+  "status_reason": "migrated from old agent-memory (candidate)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-28T19:01:49.102346Z",
+  "valid_to": null
+}

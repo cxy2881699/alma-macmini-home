@@ -1,0 +1,59 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:42:16.054241Z",
+  "id": "rev_03fdc4663545ba8cf5ca",
+  "memory": {
+    "conditions": "Agent 在确认 Kimi 模型切换成功后向用户提供备份和回滚命令。",
+    "confidence": 0.85,
+    "content": "模型切换前的配置备份为 pre-model-switch-20261026-194047.json,可通过 ~/.openclaw/workspace/tools/switch-model.sh --rollback 回滚到旧模型。",
+    "created_at": "2026-10-27T04:42:16.054241Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_3d8e9a54e4b001ea6a33",
+        "quote": "模型切换前的配置备份为 pre-model-switch-20261026-194047.json,可通过 ~/.openclaw/workspace/tools/switch-model.sh --rollback 回滚到旧模型。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_bbbe5c006a8716a86e01",
+    "is_temporary": false,
+    "keywords": [
+      "模型回滚",
+      "配置备份",
+      "switch-model",
+      "rollback"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_3d8e9a54e4b001ea6a33",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:42:16.054241Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_bbbe5c006a8716a86e01",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

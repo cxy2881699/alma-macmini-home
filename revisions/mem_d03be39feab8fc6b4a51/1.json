@@ -1,0 +1,59 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-30T19:07:18.927276Z",
+  "id": "rev_7cf1100f76ebc471a0e0",
+  "memory": {
+    "conditions": "晨报因搜索 API 问题改用替代公开信源完成核验。",
+    "confidence": 0.9,
+    "content": "截至 2026-10-30 晨报,Brave 仍缺 API key、百度搜索鉴权失败;晨报继续按降级流程使用官方页面、公开 RSS 与公开数据 API。",
+    "created_at": "2026-10-30T19:07:18.927276Z",
+    "derived_from": [],
+    "entities": [
+      "ent_686eb10ba1184d26e9a3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_21ec0a807d8ab8a39f8f",
+        "quote": "截至 2026-10-30 晨报,Brave 仍缺 API key、百度搜索鉴权失败;晨报继续按降级流程使用官方页面、公开 RSS 与公开数据 API。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_d03be39feab8fc6b4a51",
+    "is_temporary": false,
+    "keywords": [
+      "搜索不可用",
+      "降级流程",
+      "RSS",
+      "官方公告",
+      "数据 API"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_21ec0a807d8ab8a39f8f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-30T19:07:18.927276Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_d03be39feab8fc6b4a51",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-06T19:03:40.493838Z",
+  "id": "rev_b3d681e86c48617261cd",
+  "memory": {
+    "conditions": "由情感话题引申到AI记忆系统设计",
+    "confidence": 0.75,
+    "content": "用户正在做可进化记忆(AI Memory)方向的PRD,关注记忆生命周期管理;对'闭环原语、写入即加工、单边提交、不可逆归档'等思路有兴趣。",
+    "created_at": "2026-10-06T19:03:40.493838Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_4dd115a9ffdd1a67a770",
+    "is_temporary": false,
+    "keywords": [
+      "AI记忆",
+      "记忆闭环",
+      "PRD",
+      "记忆生命周期"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-06T19:03:40.493838Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_4dd115a9ffdd1a67a770",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

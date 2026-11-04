@@ -1,0 +1,64 @@
+{
+  "conditions": "用户只反馈网络仍不可用时，应先定位具体设备/现象并收集三类代理证据。",
+  "confidence": 0.82,
+  "content": "排查用户网络问题时,“不行”这类反馈需要先区分具体设备、应用和故障现象,并立即收集系统代理、本地代理端口、保活脚本三类证据,避免连续尝试放大风控或配置混乱。",
+  "created_at": "2026-10-27T04:59:03.214621Z",
+  "derived_from": [],
+  "entities": [
+    "ent_c42dac5ae99195f63d24"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_d2cb6dbcd0c6043abf52",
+      "quote": "排查用户网络问题时,“不行”这类反馈需要先区分具体设备、应用和故障现象,并立即收集系统代理、本地代理端口、保活脚本三类证据,避免连续尝试放大风控或配置混乱。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_ef8c19e568c7fa9e8e2a",
+  "is_temporary": false,
+  "keywords": [
+    "网络诊断",
+    "精确现象",
+    "curl",
+    "launchctl",
+    "故障现象",
+    "设备区分",
+    "具体现象",
+    "设备",
+    "Chrome",
+    "launchctl mono",
+    "不要连续尝试",
+    "设备应用故障",
+    "三项诊断",
+    "避免瞎试",
+    "还是不行",
+    "先问现象",
+    "设备 应用 报错",
+    "scutil",
+    "curl 7897",
+    "mono 保活"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d2cb6dbcd0c6043abf52",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-27T04:59:03.214621Z",
+  "valid_to": null
+}

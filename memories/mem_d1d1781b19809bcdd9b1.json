@@ -1,0 +1,33 @@
+{
+  "conditions": "49篇论文任务中主 agent 主动派分身并承诺直接交付文档",
+  "confidence": 0.6,
+  "content": "面对大批量文献任务,用户接受/认可派分身(subagent)并行处理的工作方式,且希望完成后直接拿到成果文件而非过程汇报。",
+  "created_at": "2026-10-02T19:03:30.874139Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_d1d1781b19809bcdd9b1",
+  "is_temporary": false,
+  "keywords": [
+    "subagent",
+    "分身",
+    "并行",
+    "直接交付"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-02T19:03:30.874139Z",
+  "valid_to": null
+}

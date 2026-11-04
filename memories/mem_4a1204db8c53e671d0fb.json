@@ -1,0 +1,45 @@
+{
+  "conditions": "用户同日先后委托科普框架文档、文献调研和 Agent 建模选型。",
+  "confidence": 0.8,
+  "content": "用户的个人项目包含两个互补产出:一份面向自我调节的神经内分泌逆向映射科普框架,以及一份面向系统实现的逆向推断心理 Agent 架构方案,二者共同服务于行为-情绪-神经内分泌状态的长期追踪。",
+  "created_at": "2026-10-31T19:04:09.933814Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_1627b009151f2cb1840b",
+      "quote": "用户的个人项目包含两个互补产出:一份面向自我调节的神经内分泌逆向映射科普框架,以及一份面向系统实现的逆向推断心理 Agent 架构方案,二者共同服务于行为-情绪-神经内分泌状态的长期追踪。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_4a1204db8c53e671d0fb",
+  "is_temporary": false,
+  "keywords": [
+    "项目架构",
+    "自我追踪",
+    "计算精神病学"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1627b009151f2cb1840b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-31T19:04:09.933814Z",
+  "valid_to": null
+}

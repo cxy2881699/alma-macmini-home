@@ -1,0 +1,53 @@
+{
+  "conditions": "用户关注对话是否立即入库以及召回是否真实发生。",
+  "confidence": 0.72,
+  "content": "用户会主动追问刚发送的对话为何没有立刻进入记忆库,说明其关注记忆系统的实时可见性与同步状态反馈。",
+  "created_at": "2026-09-24T19:02:43.584440Z",
+  "derived_from": [],
+  "entities": [
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_e72a494e03485b2fa6ad",
+      "quote": "用户会主动追问刚发送的对话为何没有立刻进入记忆库,说明其关注记忆系统的实时可见性与同步状态反馈。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_760172fe5c574619abe4",
+  "is_temporary": false,
+  "keywords": [
+    "同步延迟",
+    "实时状态",
+    "记忆库",
+    "异步流水线",
+    "实时可见性",
+    "同步状态",
+    "审计记录",
+    "读取日志",
+    "recall 日志"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_e72a494e03485b2fa6ad",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-09-24T19:02:43.584440Z",
+  "valid_to": null
+}

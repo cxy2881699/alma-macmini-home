@@ -1,0 +1,59 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:08:24.084202Z",
+  "id": "rev_566e2b5586a5854f273f",
+  "memory": {
+    "conditions": "用户给 subagent 下论文综述任务时给出了完整章节大纲",
+    "confidence": 0.7,
+    "content": "用户的综述任务会明确指定输出文档的章节结构(总览热点地图/分方向综述/「现在能做到哪些以前做不到的事」专节/与上一批对比/一句话索引附录),subagent 基本照此结构交付。",
+    "created_at": "2026-10-27T05:08:24.084202Z",
+    "derived_from": [],
+    "entities": [
+      "ent_7d78c1639a0001d26261",
+      "ent_a009e810e6646b0cf76b"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_56b471b2ce769966e5ab",
+        "quote": "用户的综述任务会明确指定输出文档的章节结构(总览热点地图/分方向综述/「现在能做到哪些以前做不到的事」专节/与上一批对比/一句话索引附录),subagent 基本照此结构交付。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_07b6076434bfdcba9be7",
+    "is_temporary": false,
+    "keywords": [
+      "综述结构",
+      "章节模板",
+      "热点地图",
+      "一句话索引"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_56b471b2ce769966e5ab",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:08:24.084202Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_07b6076434bfdcba9be7",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

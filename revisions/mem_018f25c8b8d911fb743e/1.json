@@ -1,0 +1,59 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:43:32.566985Z",
+  "id": "rev_273d128fd5d5eabd9448",
+  "memory": {
+    "conditions": "用户决定放弃被 hold 的注册路径，重新注册并养护 Gmail。",
+    "confidence": 0.82,
+    "content": "2026-10-18 的 Gmail 养号计划是约 3-5 天的临时计划;按最晚 5 天计算,到 2026-10-23 后应核实是否已完成 Claude 注册或放弃。",
+    "created_at": "2026-10-27T05:43:32.566985Z",
+    "derived_from": [],
+    "entities": [
+      "ent_51b9c91560022845906c"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_1cc32c8fffaceabb3bb1",
+        "quote": "2026-10-18 的 Gmail 养号计划是约 3-5 天的临时计划;按最晚 5 天计算,到 2026-10-23 后应核实是否已完成 Claude 注册或放弃。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_018f25c8b8d911fb743e",
+    "is_temporary": false,
+    "keywords": [
+      "养号",
+      "Gmail 注册",
+      "Claude hold",
+      "3-5天",
+      "注册计划"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_1cc32c8fffaceabb3bb1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:43:32.566985Z",
+    "valid_to": "2026-10-23"
+  },
+  "memory_id": "mem_018f25c8b8d911fb743e",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

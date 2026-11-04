@@ -1,0 +1,65 @@
+{
+  "conditions": "引用全文版论文总结末尾修订优先级总表时的数量口径。",
+  "confidence": 0.9,
+  "content": "全文版 paper-summaries-MemAgents.md 的优先级总表为 P0 9 条 / P1 22 条 / P2 11 条,与摘要初版的 P0 9 / P1 13 / P2 7 不同,引用条目数时须区分版本。",
+  "created_at": "2026-10-27T04:33:20.078949Z",
+  "derived_from": [],
+  "entities": [
+    "ent_e44cb152899e6702c87f",
+    "ent_803e29983b18f51d0780"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_3567af8b8693e96c3d81",
+      "quote": "全文版 paper-summaries-MemAgents.md 的优先级总表为 P0 9 条 / P1 22 条 / P2 11 条,与摘要初版的 P0 9 / P1 13 / P2 7 不同,引用条目数时须区分版本。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_c222eb45c55f4b6c6fdd",
+  "is_temporary": false,
+  "keywords": [
+    "P0",
+    "P1",
+    "P2",
+    "P0九条",
+    "P1二十二条",
+    "P2十一条",
+    "版本区分",
+    "摘要版差异",
+    "优先级总表版本",
+    "版本区别",
+    "摘要版总表",
+    "全文版P0 9条",
+    "摘要版P1 13条",
+    "优先级总表版本差异",
+    "全文版",
+    "全文版总表",
+    "全文版优先级总表",
+    "版本条目数差异",
+    "优先级总表",
+    "版本条目数"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_3567af8b8693e96c3d81",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:33:20.078949Z",
+  "valid_to": null
+}

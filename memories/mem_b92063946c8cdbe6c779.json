@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-10-27：用户先让 OpenClaw 从 DeepSeek 切换到 Kimi K3.1 Pro,处理首次假启动和参数修正;随后回顾 VPS/GFW 故障与三层代理方案,并排查、修复 memd 记忆链路连接池耗尽问题。",
+  "created_at": "2026-10-27T05:20:35.161630Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_53545473e3439b713d0e",
+      "quote": "2026-10-27：用户先让 OpenClaw 从 DeepSeek 切换到 Kimi K3.1 Pro,处理首次假启动和参数修正;随后回顾 VPS/GFW 故障与三层代理方案,并排查、修复 memd 记忆链路连接池耗尽问题。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_b92063946c8cdbe6c779",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_53545473e3439b713d0e",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-27T05:20:35.161630Z",
+  "valid_to": null
+}

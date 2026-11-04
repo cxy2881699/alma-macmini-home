@@ -1,0 +1,87 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:27:24.342330Z",
+  "id": "rev_f45464bbb8c911126ba3",
+  "memory": {
+    "conditions": "用户计划产品成熟后开源精简版，同时推出收费线上版本。",
+    "confidence": 0.9,
+    "content": "用户的 agent-memory 商业化策略是:产品成熟后开源功能精简/阉割版,同时提供收费线上版本;现阶段可展示效果与思路,但不公开完整实现。",
+    "created_at": "2026-10-27T05:27:24.342330Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e",
+      "ent_c3f9f077f1f3ceaddd2f"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_9325e41c677a9fe03725",
+        "quote": "用户的 agent-memory 商业化策略是:产品成熟后开源功能精简/阉割版,同时提供收费线上版本;现阶段可展示效果与思路,但不公开完整实现。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_5c2b03a36555ed887023",
+        "quote": "用户的 agent-memory 商业化策略是:产品成熟后开源功能精简/阉割版,同时提供收费线上版本;现阶段可展示效果与思路,但不公开完整实现。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_1d4046cfa60e8650cc54",
+    "is_temporary": false,
+    "keywords": [
+      "功能阉割版",
+      "技术保密",
+      "agent-memory商业化",
+      "闭源核心",
+      "开源精简版",
+      "精简开源",
+      "小红书引流",
+      "SaaS收费",
+      "商业化策略",
+      "线上版",
+      "开源边界",
+      "收费线上版",
+      "技术披露",
+      "阉割版",
+      "精简版",
+      "SaaS",
+      "不公开完整实现",
+      "阉割版开源",
+      "线上收费",
+      "保留核心实现"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_9325e41c677a9fe03725",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_5c2b03a36555ed887023",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:27:24.342330Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_1d4046cfa60e8650cc54",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

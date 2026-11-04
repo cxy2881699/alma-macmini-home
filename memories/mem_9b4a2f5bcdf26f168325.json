@@ -1,0 +1,53 @@
+{
+  "conditions": "适用于后续继续采购 VPS、配置 Clash 分流或恢复被封节点访问时。",
+  "confidence": 0.7,
+  "content": "用户要求回顾此前用 DeepSeek 讨论的 VPS 故障与重建方案,Agent 复述了 GFW 单 IP 封锁、流量分流架构、DMIT 购买清单和旧 VPS 跳板访问方案。",
+  "created_at": "2026-10-27T04:20:03.808891Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6ebee10dda1843bbd843",
+    "ent_c77a5f5a7949c71398a9"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_af943030f4b33235f412",
+      "quote": "用户要求回顾此前用 DeepSeek 讨论的 VPS 故障与重建方案,Agent 复述了 GFW 单 IP 封锁、流量分流架构、DMIT 购买清单和旧 VPS 跳板访问方案。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_9b4a2f5bcdf26f168325",
+  "is_temporary": false,
+  "keywords": [
+    "VPS",
+    "GFW",
+    "RackNerd",
+    "DMIT",
+    "CN2 GIA",
+    "代理分流",
+    "静态住宅IP",
+    "跳板"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_af943030f4b33235f412",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-10-27T04:20:03.808891Z",
+  "valid_to": null
+}

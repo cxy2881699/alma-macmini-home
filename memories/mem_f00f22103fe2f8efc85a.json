@@ -1,0 +1,36 @@
+{
+  "conditions": "排查记忆问题时顺手发现的真bug，已列入改进项",
+  "confidence": 0.8,
+  "content": "记忆系统存在中英混合查询召回缺陷:query含Uhuru等外文词时召回失败,纯中文查询正常,疑似外文词影响embedding检索质量。",
+  "created_at": "2026-10-11T19:05:32.626550Z",
+  "derived_from": [],
+  "entities": [
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_f00f22103fe2f8efc85a",
+  "is_temporary": false,
+  "keywords": [
+    "混合语言",
+    "召回bug",
+    "Uhuru",
+    "embedding",
+    "检索质量"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-11T19:05:32.626550Z",
+  "valid_to": null
+}

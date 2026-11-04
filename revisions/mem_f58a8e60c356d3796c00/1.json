@@ -1,0 +1,68 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-09T19:04:04.153437Z",
+  "id": "rev_7e11e2624dc444fe0736",
+  "memory": {
+    "conditions": "归档 PRD 时记录源文档哈希，便于后续核对读取内容是否被改动。",
+    "confidence": 0.86,
+    "content": "归档 PRD 时已记录源文档 SHA256 为 709fc245629457e0d1edd52b0daa41df1fab4c6096ece4632a0ac171e2cc2d1c,可用于校验后续读取的 Markdown 是否为同一版本。",
+    "created_at": "2026-10-09T19:04:04.153437Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_4488e0fdf8d04896269e",
+      "ent_0dd3ce8f5049183636d7"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_204132bcd438ed41fedc",
+        "quote": "归档 PRD 时已记录源文档 SHA256 为 709fc245629457e0d1edd52b0daa41df1fab4c6096ece4632a0ac171e2cc2d1c,可用于校验后续读取的 Markdown 是否为同一版本。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_f58a8e60c356d3796c00",
+    "is_temporary": false,
+    "keywords": [
+      "PRD校验",
+      "文档哈希",
+      "PRD完整性",
+      "Markdown校验",
+      "版本校验",
+      "EVOLVING-MEMORY-PRD-v0.1",
+      "PRD哈希",
+      "709fc245",
+      "Markdown完整性",
+      "版本一致性",
+      "SHA256"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_204132bcd438ed41fedc",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-09T19:04:04.153437Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_f58a8e60c356d3796c00",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

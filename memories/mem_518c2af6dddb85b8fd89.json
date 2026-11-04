@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-30：凌晨两次定时任务触发:00:30 大模型 API 价格爬虫按要求静默执行(NO_REPLY);02:30 HEARTBEAT 检查无异常,回复 HEARTBEAT_OK。",
+  "created_at": "2026-09-29T19:04:02.289596Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_0949a95848ea1b3763dc",
+      "quote": "2026-09-30：凌晨两次定时任务触发:00:30 大模型 API 价格爬虫按要求静默执行(NO_REPLY);02:30 HEARTBEAT 检查无异常,回复 HEARTBEAT_OK。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_518c2af6dddb85b8fd89",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_0949a95848ea1b3763dc",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-09-29T19:04:02.289596Z",
+  "valid_to": null
+}

@@ -1,0 +1,47 @@
+{
+  "conditions": "手动把 Wi-Fi 代理写到 7897 后，命令成功提示与全局代理状态不一致。",
+  "confidence": 0.82,
+  "content": "networksetup 命令链即使打印“写入完成”,也不能证明 Wi-Fi 系统代理已在全局生效;该次随后 scutil 仍只有 HTTPEnable:0,需以 getwebproxy、configd 刷新和网络服务顺序交叉验证。",
+  "created_at": "2026-11-02T19:03:38.741954Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_b513ec84f98cca74efd9",
+      "quote": "networksetup 命令链即使打印“写入完成”,也不能证明 Wi-Fi 系统代理已在全局生效;该次随后 scutil 仍只有 HTTPEnable:0,需以 getwebproxy、configd 刷新和网络服务顺序交叉验证。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_1d2777ed80207b6e68bf",
+  "is_temporary": false,
+  "keywords": [
+    "写入完成",
+    "HTTPEnable 0",
+    "getwebproxy",
+    "configd",
+    "网络服务顺序"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_b513ec84f98cca74efd9",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-02T19:03:38.741954Z",
+  "valid_to": null
+}

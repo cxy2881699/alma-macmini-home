@@ -1,0 +1,57 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:25:41.585485Z",
+  "id": "rev_bd551277ab7238904c32",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.7,
+    "content": "曾认为：OpenClaw Agent Memory 插件从 ~/.mem/config.json 读取服务地址;当前配置为 http://seanmac-mini.tail92d6fe.ts.net:8787,而 Gateway 进程环境变量带有 MonoProxy 8118 代理,导致插件访问 Tailscale 域名时 fetch failed；实际：OpenClaw Agent Memory 插件的服务地址已从 Tailscale MagicDNS 域名改为 http://127.0.0.1:8787;此前 Gateway 继承 MonoProxy 代理访问 seanmac-mini.tail92d6fe.ts.net 会导致 fetch failed,当前本机直连已绕开该问题；错误来源：信息过时",
+    "created_at": "2026-09-23T17:25:41.585485Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_f90a16b26a8ab1d551fc",
+      "ent_0674430ba5d897eb2671",
+      "ent_421c00dde9a1b98fc969",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_207a51e7c79b451d8126",
+        "quote": "曾认为：OpenClaw Agent Memory 插件从 ~/.mem/config.json 读取服务地址;当前配置为 http://seanmac-mini.tail92d6fe.ts.net:8787,而 Gateway 进程环境变量带有 MonoProxy 8118 代理,导致插件访问 Tailscale 域名时 fetch failed；实际：OpenClaw Agent Memory 插件的服务地址已从 Tailscale MagicDNS 域名改为 http://127.0.0.1:8787;此前 Gateway 继承 MonoProxy 代理访问 seanmac-mini.tail92d6fe.ts.net 会导致 fetch failed,当前本机直连已绕开该问题；错误来源：信息过时",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_e05e2a9d0627c0ab3159",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_207a51e7c79b451d8126",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-09-23T17:25:41.585485Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e05e2a9d0627c0ab3159",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

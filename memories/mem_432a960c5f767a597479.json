@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-28：用户通过飞书批量转发论文 PDF;队列溢出导致 24 条消息被丢弃,Agent 汇总文件接收、文本提取和缺失情况,并建议后续放慢发送或打包传输。",
+  "created_at": "2026-10-05T19:11:20.272280Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_8b1cd7fc53b3e4d3963e",
+      "quote": "2026-09-28：用户通过飞书批量转发论文 PDF;队列溢出导致 24 条消息被丢弃,Agent 汇总文件接收、文本提取和缺失情况,并建议后续放慢发送或打包传输。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_432a960c5f767a597479",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8b1cd7fc53b3e4d3963e",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-05T19:11:20.272280Z",
+  "valid_to": null
+}

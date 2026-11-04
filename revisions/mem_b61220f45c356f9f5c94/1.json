@@ -1,0 +1,63 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T19:05:24.920997Z",
+  "id": "rev_e5535aa17bce26c451e2",
+  "memory": {
+    "conditions": "两次分身任务分别完成摘要初版与 PDF 全文升级版。",
+    "confidence": 0.82,
+    "content": "用户的文献工作流是先让分身基于可抓取摘要快速形成初版和风险假设,再在补齐 PDF 全文后要求同一产物按全文证据覆盖升级,并特别点名高冲击论文复核。",
+    "created_at": "2026-10-27T19:05:24.920997Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_1c6b296bc5cb579536f2",
+      "ent_e44cb152899e6702c87f",
+      "ent_803e29983b18f51d0780",
+      "ent_12e60967bd71bfb38736"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_3567af8b8693e96c3d81",
+        "quote": "用户的文献工作流是先让分身基于可抓取摘要快速形成初版和风险假设,再在补齐 PDF 全文后要求同一产物按全文证据覆盖升级,并特别点名高冲击论文复核。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_b61220f45c356f9f5c94",
+    "is_temporary": false,
+    "keywords": [
+      "两阶段调研",
+      "摘要初版",
+      "PDF全文",
+      "覆盖重写",
+      "重点复核"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_3567af8b8693e96c3d81",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T19:05:24.920997Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_b61220f45c356f9f5c94",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

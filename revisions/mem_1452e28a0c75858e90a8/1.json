@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T19:11:13.176519Z",
+  "id": "rev_87b89dda1803be633b96",
+  "memory": {
+    "conditions": "核查游戏企业战略合作的后续公开落地。",
+    "confidence": 0.84,
+    "content": "中手游与火山引擎2021年签约后的公开后续证据主要是2023年飞连零信任办公安全落地,不能据此证明研运一体中台已全部建成。",
+    "created_at": "2026-10-27T19:11:13.176519Z",
+    "derived_from": [],
+    "entities": [
+      "ent_b6e5f07139d194f4aaa5",
+      "ent_37783a2ec4f76cbda2eb"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_58bfeab114e9d0bc2f6a",
+        "quote": "中手游与火山引擎2021年签约后的公开后续证据主要是2023年飞连零信任办公安全落地,不能据此证明研运一体中台已全部建成。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_1452e28a0c75858e90a8",
+    "is_temporary": false,
+    "keywords": [
+      "中手游",
+      "飞连",
+      "零信任",
+      "研运中台",
+      "办公安全"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_58bfeab114e9d0bc2f6a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T19:11:13.176519Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_1452e28a0c75858e90a8",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

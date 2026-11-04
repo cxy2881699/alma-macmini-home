@@ -1,0 +1,76 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:55:24.342786Z",
+  "id": "rev_d746efe153640013f39f",
+  "memory": {
+    "conditions": "Codex 侧实测对话前记忆搜索性能，OpenClaw 随后复述结果。",
+    "confidence": 0.95,
+    "content": "2026-09-24 本机实测 agent-memory 对话前记忆搜索:常规召回约 20–40 毫秒,首次调用约 70–110 毫秒,缓存命中后多数约 20–30 毫秒,最慢约 110 毫秒。",
+    "created_at": "2026-09-23T17:55:24.342786Z",
+    "derived_from": [],
+    "entities": [
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8e2ff4a27bcaf2af9eca",
+        "quote": "2026-09-24 本机实测 agent-memory 对话前记忆搜索:常规召回约 20–40 毫秒,首次调用约 70–110 毫秒,缓存命中后多数约 20–30 毫秒,最慢约 110 毫秒。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_b5c4a9b1810f60adccbd",
+        "quote": "2026-09-24 本机实测 agent-memory 对话前记忆搜索:常规召回约 20–40 毫秒,首次调用约 70–110 毫秒,缓存命中后多数约 20–30 毫秒,最慢约 110 毫秒。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_f5383125d7d8b2be050d",
+    "is_temporary": false,
+    "keywords": [
+      "记忆搜索耗时",
+      "recall latency",
+      "20ms",
+      "40ms",
+      "110ms",
+      "本机召回",
+      "召回耗时",
+      "20-40ms",
+      "70-110ms",
+      "Neo4j检索",
+      "本机性能"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8e2ff4a27bcaf2af9eca",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_b5c4a9b1810f60adccbd",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-23T17:55:24.342786Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_f5383125d7d8b2be050d",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,66 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-28T19:09:32.802268Z",
+  "id": "rev_5a5638672fb5419cc4f6",
+  "memory": {
+    "conditions": "引用论文总结文件时以v2全文版为准",
+    "confidence": 0.9,
+    "content": "论文总结文件存在两版:v1 基于 arXiv 摘要(48篇,约23KB),v2 基于 PDF 全文重写(41篇编号论文,约25KB,覆盖同一路径);引用该文件时应以 v2 为准。",
+    "created_at": "2026-09-28T19:09:32.802268Z",
+    "derived_from": [],
+    "entities": [
+      "ent_803e29983b18f51d0780"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_3567af8b8693e96c3d81",
+        "quote": "论文总结文件存在两版:v1 基于 arXiv 摘要(48篇,约23KB),v2 基于 PDF 全文重写(41篇编号论文,约25KB,覆盖同一路径);引用该文件时应以 v2 为准。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_b273541753d60d287ef1",
+    "is_temporary": false,
+    "keywords": [
+      "论文总结",
+      "v1",
+      "全文重写",
+      "v2",
+      "全文版",
+      "升级版总结",
+      "P0 P1 P2 总表",
+      "paper-summaries",
+      "论文总结v2",
+      "PDF全文版",
+      "41篇",
+      "MemAgents"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_3567af8b8693e96c3d81",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-28T19:09:32.802268Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_b273541753d60d287ef1",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

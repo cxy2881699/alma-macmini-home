@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-27T19:04:09.855912Z",
+  "id": "rev_98db67c5aadd8720d4bb",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-28：凌晨两次定时心跳/爬虫任务触发,Agent 均按要求静默回复 HEARTBEAT_OK,无异常。",
+    "created_at": "2026-09-27T19:04:09.855912Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_0949a95848ea1b3763dc",
+        "quote": "2026-09-28：凌晨两次定时心跳/爬虫任务触发,Agent 均按要求静默回复 HEARTBEAT_OK,无异常。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_e22fafe631bf01f9ce71",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_0949a95848ea1b3763dc",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-09-27T19:04:09.855912Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e22fafe631bf01f9ce71",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

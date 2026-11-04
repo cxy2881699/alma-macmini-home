@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:49:27.207725Z",
+  "id": "rev_c7a7abffd3eaedd70a5b",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-24：凌晨用户核查记忆服务是否真正接入 Codex 与 OpenClaw,发现写入可用但自动召回未完全打通;随后修复 OpenClaw 的代理与配置问题并恢复网关,最后定位 Codex 桌面会话需要在 /hooks 面板信任用户钩子。",
+    "created_at": "2026-10-27T04:49:27.207725Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_6db9cf4059e759b01b48",
+        "quote": "2026-09-24：凌晨用户核查记忆服务是否真正接入 Codex 与 OpenClaw,发现写入可用但自动召回未完全打通;随后修复 OpenClaw 的代理与配置问题并恢复网关,最后定位 Codex 桌面会话需要在 /hooks 面板信任用户钩子。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_8f6572998adfeef9ec2e",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_6db9cf4059e759b01b48",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-27T04:49:27.207725Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_8f6572998adfeef9ec2e",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

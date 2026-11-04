@@ -1,0 +1,54 @@
+{
+  "conditions": "用户在记忆系统部署验证末期询问异步记忆处理是否完成。",
+  "confidence": 0.7,
+  "content": "用户追问此前深度总结记忆的异步处理进度,Agent 确认 extract 与 embed 均已完成、来源列正常,并宣告 agent-memory 一个半小时的部署与验证工作全套收官。",
+  "created_at": "2026-09-23T18:04:20.314882Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_9f82bdbcda91e1775def",
+    "ent_421c00dde9a1b98fc969",
+    "ent_3d2f68a038ff0d2b8362"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_7793eeabd2d8f98a3345",
+      "quote": "用户追问此前深度总结记忆的异步处理进度,Agent 确认 extract 与 embed 均已完成、来源列正常,并宣告 agent-memory 一个半小时的部署与验证工作全套收官。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_c1dde8e059bba4c496d5",
+  "is_temporary": false,
+  "keywords": [
+    "记忆流水线",
+    "深度总结",
+    "extract",
+    "embed",
+    "部署收官",
+    "来源列",
+    "agent-memory"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_7793eeabd2d8f98a3345",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-23T18:04:20.314882Z",
+  "valid_to": null
+}

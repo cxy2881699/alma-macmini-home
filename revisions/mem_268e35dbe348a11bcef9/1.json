@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-11T19:02:53.711228Z",
+  "id": "rev_326beadb6fd0d2b2036f",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-27：用户要求 Codex 将可进化记忆系统 PRD v0.1 归档到记忆系统,目标是让其他 Agent 能直接读取并用于后续独立评审;Codex 记录了文档标识、状态、全文事件 ID 与 SHA256。",
+    "created_at": "2026-10-11T19:02:53.711228Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_204132bcd438ed41fedc",
+        "quote": "2026-09-27：用户要求 Codex 将可进化记忆系统 PRD v0.1 归档到记忆系统,目标是让其他 Agent 能直接读取并用于后续独立评审;Codex 记录了文档标识、状态、全文事件 ID 与 SHA256。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_268e35dbe348a11bcef9",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_204132bcd438ed41fedc",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-11T19:02:53.711228Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_268e35dbe348a11bcef9",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

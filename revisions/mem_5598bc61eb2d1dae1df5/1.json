@@ -1,0 +1,62 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:18:52.135020Z",
+  "id": "rev_fe587a3268b0f7d6549c",
+  "memory": {
+    "conditions": "用户反馈开 VPN 后整台电脑网络挂掉，Agent 诊断为代理节点 TCP 全封。",
+    "confidence": 0.9,
+    "content": "2026-10-27 开 VPN 后整机断网的直接原因是 Clash/mihomo 使用的 LA-Reality 节点 155.94.145.75:443 的 TCP 端口全部超时;当时关闭 TUN 与系统代理后本机直连恢复,Tailscale 不是根因。",
+    "created_at": "2026-10-27T05:18:52.135020Z",
+    "derived_from": [],
+    "entities": [
+      "ent_421c00dde9a1b98fc969",
+      "ent_6ebee10dda1843bbd843",
+      "ent_f18082c6c564869030be"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_1cd898a27b168e387484",
+        "quote": "2026-10-27 开 VPN 后整机断网的直接原因是 Clash/mihomo 使用的 LA-Reality 节点 155.94.145.75:443 的 TCP 端口全部超时;当时关闭 TUN 与系统代理后本机直连恢复,Tailscale 不是根因。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_5598bc61eb2d1dae1df5",
+    "is_temporary": false,
+    "keywords": [
+      "VPN断网",
+      "代理节点",
+      "TCP超时",
+      "TUN",
+      "系统代理",
+      "Tailscale"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_1cd898a27b168e387484",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:18:52.135020Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_5598bc61eb2d1dae1df5",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-10-27：用户询问记忆服务健康状况,Agent 发现 recall 正常但后台任务因 ark HTTP 连接池耗尽大量失败;用户授权优化后,Agent 修改连接池配置、重启并成功重试 197 个任务,仅剩历史 extract 队列在消化。",
+  "created_at": "2026-10-27T05:00:33.587161Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_8395beca681a6a0993af",
+      "quote": "2026-10-27：用户询问记忆服务健康状况,Agent 发现 recall 正常但后台任务因 ark HTTP 连接池耗尽大量失败;用户授权优化后,Agent 修改连接池配置、重启并成功重试 197 个任务,仅剩历史 extract 队列在消化。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_17fb578ae936ffa40076",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8395beca681a6a0993af",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-27T05:00:33.587161Z",
+  "valid_to": null
+}

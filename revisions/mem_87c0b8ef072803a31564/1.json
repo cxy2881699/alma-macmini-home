@@ -1,0 +1,67 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-02T19:00:53.527723Z",
+  "id": "rev_e32bb718e1d0e6a6109c",
+  "memory": {
+    "conditions": "公网开放后 token 从第二道锁变成主要认证边界。",
+    "confidence": 0.88,
+    "content": "公网化后网络层隔离消失,Bearer token 会成为主要认证边界,任何鉴权逻辑缺陷或 token 泄露都可能被远程利用。",
+    "created_at": "2026-10-02T19:00:53.527723Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8fc67c0d4c5d64da55b1",
+        "quote": "公网化后网络层隔离消失,Bearer token 会成为主要认证边界,任何鉴权逻辑缺陷或 token 泄露都可能被远程利用。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_87c0b8ef072803a31564",
+    "is_temporary": false,
+    "keywords": [
+      "认证锁",
+      "token 泄露",
+      "鉴权边界",
+      "攻击面",
+      "公网暴露",
+      "8787",
+      "443",
+      "Bearer Token安全",
+      "网络层隔离消失",
+      "公网攻击面",
+      "token泄露",
+      "鉴权漏洞"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8fc67c0d4c5d64da55b1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-02T19:00:53.527723Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_87c0b8ef072803a31564",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

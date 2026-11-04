@@ -1,0 +1,45 @@
+{
+  "conditions": "",
+  "confidence": 0.95,
+  "content": "用户认为 agent-memory 未来产品化时需要通过公网 API 方式接入,不能要求每个用户都下载安装 Tailscale。",
+  "created_at": "2026-09-23T18:27:57.196314Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_421c00dde9a1b98fc969",
+    "ent_1d371419cba281597331"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_876285daee49a79ec31a",
+      "quote": "用户认为 agent-memory 未来产品化时需要通过公网 API 方式接入,不能要求每个用户都下载安装 Tailscale。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_cb4840a4b992f1de3e5b",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_876285daee49a79ec31a",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-09-23T18:27:57.196314Z",
+  "valid_to": null
+}

@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-02T19:01:54.013030Z",
+  "id": "rev_75ce68a4d2071f29dbbf",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-26：用户凌晨身体不适仍排查 agent-memory 静默丢消息问题,确认服务端改造尚不能定稿;下午检查 Codex hooks 与记忆链路,并深入讨论可进化记忆作为开源底座之上的商业化方向,以及 NPC、智能玩具和数字亲人场景。",
+    "created_at": "2026-10-02T19:01:54.013030Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_16d2615f00ae766bb32b",
+        "quote": "2026-09-26：用户凌晨身体不适仍排查 agent-memory 静默丢消息问题,确认服务端改造尚不能定稿;下午检查 Codex hooks 与记忆链路,并深入讨论可进化记忆作为开源底座之上的商业化方向,以及 NPC、智能玩具和数字亲人场景。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_9843a3325b4f407d363c",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_16d2615f00ae766bb32b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-02T19:01:54.013030Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9843a3325b4f407d363c",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,62 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:28:17.827227Z",
+  "id": "rev_dca27bb9b5a6d0231374",
+  "memory": {
+    "conditions": "适用于 Codex hooks 已 active 但记忆服务尚未记录 Codex recall 时的触发验证。",
+    "confidence": 0.9,
+    "content": "验证 Codex CLI hooks 是否真正生效时,应在运行 codex 的终端会话发送一条普通消息,等待回复后执行 /exit 并重新运行 codex,再发送一条消息,然后检查服务端审计是否出现 actor=cred:cred_45e362dcfbd6c2e4、action=recall、result=ok。",
+    "created_at": "2026-09-23T17:28:17.827227Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_3e8b16a61a76158abaf9",
+        "quote": "验证 Codex CLI hooks 是否真正生效时,应在运行 codex 的终端会话发送一条普通消息,等待回复后执行 /exit 并重新运行 codex,再发送一条消息,然后检查服务端审计是否出现 actor=cred:cred_45e362dcfbd6c2e4、action=recall、result=ok。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_c0f6dc6ee085ac5a109d",
+    "is_temporary": true,
+    "keywords": [
+      "Codex CLI",
+      "hooks",
+      "recall",
+      "审计",
+      "重启",
+      "cred_45e362dcfbd6c2e4",
+      "验证步骤"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_3e8b16a61a76158abaf9",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-09-23T17:28:17.827227Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_c0f6dc6ee085ac5a109d",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

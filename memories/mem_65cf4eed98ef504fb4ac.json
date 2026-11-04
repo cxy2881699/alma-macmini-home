@@ -1,0 +1,65 @@
+{
+  "conditions": "连接池修复后仍有历史抽取任务在排队，用户尚未决定是否提高并发。",
+  "confidence": 0.82,
+  "content": "截至 2026-10-27 12:20,memd 队列仍有 162 个 extract 任务待消化;当时 worker 并发为 2,可通过 MEMD_LLM_CONCURRENCY=8 提升处理速度,但用户尚未确认是否执行。",
+  "created_at": "2026-10-27T04:57:39.016672Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_9d10a69084bd77edc45a",
+      "quote": "截至 2026-10-27 12:20,memd 队列仍有 162 个 extract 任务待消化;当时 worker 并发为 2,可通过 MEMD_LLM_CONCURRENCY=8 提升处理速度,但用户尚未确认是否执行。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_65cf4eed98ef504fb4ac",
+  "is_temporary": false,
+  "keywords": [
+    "extract 队列",
+    "后台任务",
+    "162 个 extract",
+    "worker 并发 2",
+    "MEMD_LLM_CONCURRENCY=8",
+    "后台任务消化",
+    "extract队列",
+    "162任务",
+    "记忆抽取积压",
+    "worker并发2",
+    "并发8",
+    "待用户确认",
+    "162 extract",
+    "worker 并发",
+    "队列积压",
+    "162个extract",
+    "MEMD_LLM_CONCURRENCY",
+    "worker并发",
+    "队列消化",
+    "待确认"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_9d10a69084bd77edc45a",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:57:39.016672Z",
+  "valid_to": "2026-10-27"
+}

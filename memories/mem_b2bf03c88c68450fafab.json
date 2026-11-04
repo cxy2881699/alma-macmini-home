@@ -1,0 +1,55 @@
+{
+  "conditions": "用户讨论小红书反馈后明确产品成熟后的开源与收费策略。",
+  "confidence": 0.85,
+  "content": "用户计划将 agent-memory 做成商业化产品:成熟后开源功能精简版,同时推出收费线上版本。",
+  "created_at": "2026-10-27T05:01:00.746712Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e",
+    "ent_c3f9f077f1f3ceaddd2f"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_5c2b03a36555ed887023",
+      "quote": "用户计划将 agent-memory 做成商业化产品:成熟后开源功能精简版,同时推出收费线上版本。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_b2bf03c88c68450fafab",
+  "is_temporary": false,
+  "keywords": [
+    "开源",
+    "商业化",
+    "付费线上版",
+    "阉割开源",
+    "精简版",
+    "线上版本收费",
+    "SaaS",
+    "开源商业化",
+    "agent-memory变现"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_5c2b03a36555ed887023",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-10-27T05:01:00.746712Z",
+  "valid_to": null
+}

@@ -1,0 +1,54 @@
+{
+  "conditions": "整理各非汽车签约稿中火山引擎一方出席人及职务变化时使用。",
+  "confidence": 0.82,
+  "content": "火山引擎在非汽车合作案例中的签约代表随时期和行业变化:早期总经理肖默出现在2020年亿咖通案例,谭待多次以总经理或总裁身份签约/见证,2026年金融方案总经理刘俊、副总裁赵文婕分别代表相关业务签约。",
+  "created_at": "2026-10-28T19:07:23.957782Z",
+  "derived_from": [],
+  "entities": [
+    "ent_b6e5f07139d194f4aaa5"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_58bfeab114e9d0bc2f6a",
+      "quote": "火山引擎在非汽车合作案例中的签约代表随时期和行业变化:早期总经理肖默出现在2020年亿咖通案例,谭待多次以总经理或总裁身份签约/见证,2026年金融方案总经理刘俊、副总裁赵文婕分别代表相关业务签约。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_24e4bc8e1545b8d7dde3",
+  "is_temporary": false,
+  "keywords": [
+    "出席人",
+    "火山引擎签约代表",
+    "出席人职务",
+    "肖默",
+    "谭待",
+    "刘俊",
+    "赵文婕",
+    "签约代表",
+    "火山引擎出席人",
+    "非汽车案例"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_58bfeab114e9d0bc2f6a",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-28T19:07:23.957782Z",
+  "valid_to": null
+}

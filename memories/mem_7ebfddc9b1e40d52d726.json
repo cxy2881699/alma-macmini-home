@@ -1,0 +1,53 @@
+{
+  "conditions": "用户在 memd 管理后台审计页发现新 PRD 没有写入记忆库，转而追问 Codex 把文件保存在哪里。",
+  "confidence": 0.72,
+  "content": "用户是在 memd 管理后台 audit 视图发现新生成的 PRD 未进入记忆库,并据此追问文件实际保存位置。",
+  "created_at": "2026-10-10T19:02:35.036405Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_c5b9bc50bc5c913a2dbe",
+      "quote": "用户是在 memd 管理后台 audit 视图发现新生成的 PRD 未进入记忆库,并据此追问文件实际保存位置。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_7ebfddc9b1e40d52d726",
+  "is_temporary": false,
+  "keywords": [
+    "audit页面",
+    "保存位置",
+    "文件落盘",
+    "PRD未入库",
+    "audit视图",
+    "127.0.0.1:8787/admin#audit",
+    "文件保存位置",
+    "ceo-os"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c5b9bc50bc5c913a2dbe",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-10T19:02:35.036405Z",
+  "valid_to": null
+}

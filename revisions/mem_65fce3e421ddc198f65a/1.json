@@ -1,0 +1,45 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T19:09:16.245433Z",
+  "id": "rev_6a4f24aabc9b417e4acb",
+  "memory": {
+    "conditions": "旧 VPS 被 GFW 封入境后讨论如何继续控制它",
+    "confidence": 0.85,
+    "content": "用户的 RackNerd VPS(IP 155.94.145.75)从中国入境的 TCP 被墙,但服务器存活、境外可达、出口正常,可经新 VPS 用 ssh -J 跳板或 Tailscale DERP 连接",
+    "created_at": "2026-10-27T19:09:16.245433Z",
+    "derived_from": [],
+    "entities": [
+      "ent_421c00dde9a1b98fc969"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_65fce3e421ddc198f65a",
+    "is_temporary": false,
+    "keywords": [
+      "被墙VPS",
+      "SSH跳板",
+      "DERP",
+      "VNC"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "review",
+    "status_reason": "migrated from old agent-memory (candidate)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T19:09:16.245433Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_65fce3e421ddc198f65a",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,36 @@
+{
+  "conditions": "用户把可成长记忆延伸到高情感价值的逝者数字陪伴场景。",
+  "confidence": 0.78,
+  "content": "用户设想通过收集逝者生前数据与口述经历,重建三观和性格接近本人、并能继续陪伴成长的数字个体;但该设想中的“一定可重建”被明确提示为证据不足。",
+  "created_at": "2026-10-05T19:04:24.770530Z",
+  "derived_from": [],
+  "entities": [
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_0c30a473942688f9e62f",
+  "is_temporary": false,
+  "keywords": [
+    "数字永生",
+    "逝者陪伴",
+    "人格重建",
+    "生前数据",
+    "口述人生"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "review",
+  "status_reason": "migrated from old agent-memory (candidate)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-05T19:04:24.770530Z",
+  "valid_to": null
+}

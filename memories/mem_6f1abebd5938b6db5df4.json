@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-10-18：用户继续清理 MacBook 旧代理并尝试让 Clash Verge 的 7897 系统代理生效;期间讨论新 Gmail 注册 Claude 被 hold 的风控原因,最终决定重新注册并养护 Gmail。当晚最后网络问题仍未确认解决。",
+  "created_at": "2026-11-02T19:04:19.301002Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_10853d0c7dcf8fdb980b",
+      "quote": "2026-10-18：用户继续清理 MacBook 旧代理并尝试让 Clash Verge 的 7897 系统代理生效;期间讨论新 Gmail 注册 Claude 被 hold 的风控原因,最终决定重新注册并养护 Gmail。当晚最后网络问题仍未确认解决。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_6f1abebd5938b6db5df4",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_10853d0c7dcf8fdb980b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-11-02T19:04:19.301002Z",
+  "valid_to": null
+}

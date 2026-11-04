@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:19:40.101864Z",
+  "id": "rev_ea9b30f3b6b9e67adb0c",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.85,
+    "content": "Agent 建议先重启 memd 并批量重试 197 个失败任务,进一步将连接池上限从 16 调到 64 并限制 worker 并发;是否执行仍等待用户决定。",
+    "created_at": "2026-10-27T04:19:40.101864Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8395beca681a6a0993af",
+        "quote": "Agent 建议先重启 memd 并批量重试 197 个失败任务,进一步将连接池上限从 16 调到 64 并限制 worker 并发;是否执行仍等待用户决定。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_e248fab7bc313e095369",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8395beca681a6a0993af",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-10-27T04:19:40.101864Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e248fab7bc313e095369",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

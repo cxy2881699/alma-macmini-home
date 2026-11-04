@@ -1,0 +1,46 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-26T09:57:06.862412Z",
+  "id": "rev_5a7f6f6de7fb5531d6c4",
+  "memory": {
+    "conditions": "用户称让 Codex 写 PRD 并上传但 openclaw 查不到",
+    "confidence": 0.8,
+    "content": "记忆库只存对话轮次,PRD 等文件本身不会入库;对话原文依赖 Codex Stop hook 在会话结束时上传,会话进行中或刚结束时查不到属正常",
+    "created_at": "2026-09-26T09:57:06.862412Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_b056d26126ebb8d11b8b",
+    "is_temporary": false,
+    "keywords": [
+      "Stop hook",
+      "PRD",
+      "上传延迟",
+      "文件不入库",
+      "mem doctor"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-26T09:57:06.862412Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_b056d26126ebb8d11b8b",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

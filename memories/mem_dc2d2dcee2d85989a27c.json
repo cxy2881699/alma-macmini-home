@@ -1,0 +1,50 @@
+{
+  "conditions": "用户规划 Claude/OpenAI/Gemini 等 AI 服务与普通流量、爬虫流量分离。",
+  "confidence": 0.87,
+  "content": "用户已拍板网络架构:AI 流量走静态住宅或 ISP IP,其他流量走新购买的优质 VPS,爬虫继续使用被 GFW 封中国入境方向的 RackNerd。",
+  "created_at": "2026-10-27T04:20:03.808891Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6ebee10dda1843bbd843",
+    "ent_c77a5f5a7949c71398a9"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_af943030f4b33235f412",
+      "quote": "用户已拍板网络架构:AI 流量走静态住宅或 ISP IP,其他流量走新购买的优质 VPS,爬虫继续使用被 GFW 封中国入境方向的 RackNerd。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_dc2d2dcee2d85989a27c",
+  "is_temporary": false,
+  "keywords": [
+    "三路分流",
+    "AI走住宅IP",
+    "爬虫机",
+    "DMIT主通道",
+    "RackNerd复用"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_af943030f4b33235f412",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:20:03.808891Z",
+  "valid_to": null
+}

@@ -1,0 +1,52 @@
+{
+  "conditions": "后续看到 scutil --proxy 显示 0 但 networksetup 与浏览器正常时，可避免误判为配置未写入。",
+  "confidence": 0.82,
+  "content": "在 2026-10-18 的 MacBook 上,preferences.plist 中已有 3 处 7897 且 networksetup 能读到 Wi-Fi 代理已启用,但 scutil --proxy 仍显示 HTTPEnable: 0;浏览器曾实测可用,因此 scutil 全局代理视图可能延迟或不刷新,不能单凭它判断代理未生效。",
+  "created_at": "2026-10-27T04:20:59.339975Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f18082c6c564869030be",
+    "ent_c42dac5ae99195f63d24"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_95edc76c5f59f1a2f1f2",
+      "quote": "在 2026-10-18 的 MacBook 上,preferences.plist 中已有 3 处 7897 且 networksetup 能读到 Wi-Fi 代理已启用,但 scutil --proxy 仍显示 HTTPEnable: 0;浏览器曾实测可用,因此 scutil 全局代理视图可能延迟或不刷新,不能单凭它判断代理未生效。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_c8d7f95adca2ebf6a7e1",
+  "is_temporary": false,
+  "keywords": [
+    "scutil",
+    "HTTPEnable 0",
+    "configd",
+    "networksetup",
+    "代理显示延迟",
+    "preferences.plist",
+    "7897"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_95edc76c5f59f1a2f1f2",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-10-27T04:20:59.339975Z",
+  "valid_to": null
+}

@@ -1,0 +1,48 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-10T19:04:32.299602Z",
+  "id": "rev_e14de3bbbccb06fd19bd",
+  "memory": {
+    "conditions": "用户问记忆系统如何兼容游戏环境记忆",
+    "confidence": 0.8,
+    "content": "用户正在设计/规划记忆系统向开放世界游戏扩展:核心是引入 subject=world 的 GM 主体,用结构化事件流+实体活档案双轨、事件写入自动路由更新实体档案,并支持多主体记忆联查。",
+    "created_at": "2026-10-10T19:04:32.299602Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_1bca77f704365ccaae57",
+    "is_temporary": false,
+    "keywords": [
+      "环境记忆",
+      "GM",
+      "开放世界",
+      "世界状态",
+      "实体档案",
+      "事件流"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-10T19:04:32.299602Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_1bca77f704365ccaae57",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,59 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-25T19:03:04.911406Z",
+  "id": "rev_70d538a2c033675fc9cf",
+  "memory": {
+    "conditions": "用户看到小红书正向反馈后，明确后续开源精简版和收费线上版。",
+    "confidence": 0.82,
+    "content": "用户在 agent-memory 相关内容对外传播时,倾向于展示效果和设计思路,但保留核心实现细节以维持商业化壁垒。",
+    "created_at": "2026-09-25T19:03:04.911406Z",
+    "derived_from": [],
+    "entities": [
+      "ent_4488e0fdf8d04896269e",
+      "ent_c3f9f077f1f3ceaddd2f"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_5c2b03a36555ed887023",
+        "quote": "用户在 agent-memory 相关内容对外传播时,倾向于展示效果和设计思路,但保留核心实现细节以维持商业化壁垒。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_69d9214c889598271da7",
+    "is_temporary": false,
+    "keywords": [
+      "内容策略",
+      "技术保密",
+      "开源边界",
+      "商业化"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_5c2b03a36555ed887023",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "review",
+    "status_reason": "migrated from old agent-memory (candidate)",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-09-25T19:03:04.911406Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_69d9214c889598271da7",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-02T19:06:18.319674Z",
+  "id": "rev_dbb852b26df4565208e7",
+  "memory": {
+    "conditions": "用户询问切换是否完成时，Agent 发现第一次是假启动并重新拉起。",
+    "confidence": 0.9,
+    "content": "模型首次切换失败的直接原因是 macOS 缺少 setsid,后台脚本未实际启动;改用 nohup 后才完成预检、写入、重启和实跑验证。",
+    "created_at": "2026-11-02T19:06:18.319674Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8fc67c0d4c5d64da55b1",
+        "quote": "模型首次切换失败的直接原因是 macOS 缺少 setsid,后台脚本未实际启动;改用 nohup 后才完成预检、写入、重启和实跑验证。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_77bdcb59965922f31f24",
+    "is_temporary": false,
+    "keywords": [
+      "模型切换失败",
+      "setsid",
+      "nohup",
+      "后台启动",
+      "Gateway 重启"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8fc67c0d4c5d64da55b1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-02T19:06:18.319674Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_77bdcb59965922f31f24",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

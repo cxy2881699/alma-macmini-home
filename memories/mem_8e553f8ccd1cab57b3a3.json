@@ -1,0 +1,50 @@
+{
+  "conditions": "用户在小红书帖子获得正向反馈后，讨论后续开源和商业化口径。",
+  "confidence": 0.82,
+  "content": "用户把小红书评论中对 token、实现方式、开源细节的追问视为需求信号,但商业化前会对公开内容做信息裁剪。",
+  "created_at": "2026-10-11T19:01:21.980468Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e",
+    "ent_c3f9f077f1f3ceaddd2f"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_5c2b03a36555ed887023",
+      "quote": "用户把小红书评论中对 token、实现方式、开源细节的追问视为需求信号,但商业化前会对公开内容做信息裁剪。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_8e553f8ccd1cab57b3a3",
+  "is_temporary": false,
+  "keywords": [
+    "内容策略",
+    "开源边界",
+    "收费版",
+    "需求验证"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_5c2b03a36555ed887023",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-11T19:01:21.980468Z",
+  "valid_to": null
+}

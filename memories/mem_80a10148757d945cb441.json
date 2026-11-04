@@ -1,0 +1,36 @@
+{
+  "conditions": "核查合作时间线时需要区分官宣日与实际签约日。",
+  "confidence": 0.9,
+  "content": "梅赛德斯-奔驰中国2024年合作只能表述为8月13日官宣、稿件称“近日签署”,不能把2024-08-13直接写成精确签约日期。",
+  "created_at": "2026-10-27T19:10:36.060080Z",
+  "derived_from": [],
+  "entities": [
+    "ent_7eb36e87c3f9406c9215",
+    "ent_b6e5f07139d194f4aaa5"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_80a10148757d945cb441",
+  "is_temporary": false,
+  "keywords": [
+    "奔驰",
+    "签约日期",
+    "官宣日期",
+    "近日签署"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T19:10:36.060080Z",
+  "valid_to": null
+}

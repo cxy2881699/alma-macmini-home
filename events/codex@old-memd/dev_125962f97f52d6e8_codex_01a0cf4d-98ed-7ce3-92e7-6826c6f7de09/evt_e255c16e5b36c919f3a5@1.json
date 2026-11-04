@@ -1,0 +1,29 @@
+{
+  "agent_id": "codex@old-memd",
+  "assistant_text": "知道，而且问题不是一个，是几层故障叠在一起。 部署完成后，最早暴露出来的大致是这些： 1. **后台服务本身基本正常，但管理页面打不开** Neo4j、memd 和管理服务都已注册为 launchd 常驻服务，`healthz` 正常。问题主要出在管理页面访问时经过了本机代理，代理无法正确处理 Tailscale 私网地址。 2. **本机 Agent 访问 memd 被代理劫持** OpenClaw 原本通过 Tailscale MagicDNS 地址访问记忆服务，但 Gateway 继承了 `127.0.0.1:8118` 的代理环境，导致请求被送进代理，出现 `fetch failed`、`UND_ERR_SOCKET` 等错误。后来改成 `http://127.0.0.1:8787`，绕开了这层问题。 3. **OpenClaw 配置里混入了当前版本不支持的 `hooks` 字段** 这让人一开始误以为是 OpenClaw 版本太旧、需要升级或重新适配。后来确认版本本身支持记忆插件，真正的问题是配置字段不兼容，加上 Gateway 旧进程没有及时重新加载配置。 4. **OpenClaw Gateway 重启造成短暂“挂掉”的假象** 重启 Gateway 后，飞书 WebSocket 会短暂断开，容易误判成 OpenClaw 整体不可用。实际上新进程起来后，插件、飞书连接和记忆召回都恢复了。 5. **Codex CLI 的安装和 hooks 信任流程也出了问题** CLI 一度缺少 ARM64 原生二进制，后来又被 macOS Gatekeeper 隔离，导致 `/hooks` 根本无法正常打开。之后重新用官方 npm 包安装，CLI 才恢复可用。 6. **“对话写入成功”与“每轮自动读取成功”不是同一件事** Codex 和 OpenClaw 的对话保存、整理基本都能进入数据库，但自动召回曾经没有稳定生效。必须检查服务端是否真的出现： `agent_kind=codex` `action=recall` `result=ok` 不能只看 hooks 显示 active，也不能拿 OpenClaw 的成功记录证明 Codex 已经恢复。 7. **管理界面没有展示记忆来源** 数据库其实保存了 `agent_kind`、`device_id`、`cred_id` 和 `session_key`，但早期的 `admin.html` 没把这些字段展示出来，所以看起来无法区分记忆来自 Codex、OpenClaw 还是其他 Agent。 8. **测试数据混进了记忆库** 记忆库里出现过 Claude 的记录，但后来查明那是 memd 自检产生的残留数据，并不代表用户真的通过 Claude 使用过这套系统。 9. **时间线还受到时区设置影响** 电脑显示美国时区，但实际时间按北京时间运行，所以数据库、日志和记忆卡片中的日期可能出现偏移，导致事件顺序看起来不准确。 所以整个过程的真实情况是：后台部署本身成功了，但网络代理、配置兼容、进程重载、CLI 二进制、hooks 信任、自动召回验证、管理界面展示和时区判断连续出现了问题。最后真正修好的关键点，是本机服务改用 `127.0.0.1`、移除不兼容配置、重启 Gateway，并用服务端真实审计记录验证链路。",
+  "content_hash": "52eb3ef9419bec1687e8cd74ccb001a3b77eb359751fd7b7af544c8476fa7a7f",
+  "cwd": "",
+  "device_id": "dev_125962f97f52d6e8",
+  "event_id": "evt_e255c16e5b36c919f3a5",
+  "kind": "conversation",
+  "native_event_id": "04cad92973599e93fc64ffe70cd23bf2",
+  "occurred_at": "2026-09-23T17:37:03.428000Z",
+  "privacy_mode": "normal",
+  "project_id": "",
+  "received_at": "2026-11-04T08:56:48.654771Z",
+  "revision": 1,
+  "session_id": "dev_125962f97f52d6e8:codex:01a0cf4d-98ed-7ce3-92e7-6826c6f7de09",
+  "space": "user/shared",
+  "tools": [
+    {
+      "name": "mcp:agent-memory.memory_recall",
+      "summary": "{\"query\": \"agent-memory 部署完成之后最早出现了哪些问题？请按时间顺序整理后台服务、管理页面、代理/Tailscale、OpenClaw、Codex CLI/hooks、自动召回和对话采集方面的故障及修复情况\", \"deep\": true}"
+    },
+    {
+      "name": "mcp:agent-memory.memory_deep_recall",
+      "summary": "{\"query\": \"请回顾 agent-memory 部署完成之后最早出现的问题，按时间线说明后台部署、管理页面、网络代理、OpenClaw、Codex CLI/hooks、capture 和 recall 的故障与修复\"}"
+    }
+  ],
+  "turn_index": 4,
+  "user_text": "再早点的记忆呢?记忆项目部署之后出现了不少问题,你知道是什么么?"
+}

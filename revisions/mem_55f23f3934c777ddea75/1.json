@@ -1,0 +1,57 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:18:08.319179Z",
+  "id": "rev_34a85a87319ecf514c85",
+  "memory": {
+    "conditions": "在 WebSearch 不可用后，用户明确限定 Bash+curl、API 来源和日志记录。",
+    "confidence": 0.78,
+    "content": "用户在资料不可直接获取时,倾向于改用可审计的 API 检索路径,并要求保留原始检索日志,而不是接受模型凭记忆补全。",
+    "created_at": "2026-10-27T05:18:08.319179Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8d3f3ac718d007dd877d",
+        "quote": "用户在资料不可直接获取时,倾向于改用可审计的 API 检索路径,并要求保留原始检索日志,而不是接受模型凭记忆补全。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_55f23f3934c777ddea75",
+    "is_temporary": false,
+    "keywords": [
+      "API 检索",
+      "可追溯",
+      "检索日志",
+      "禁止编造",
+      "文献核实"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8d3f3ac718d007dd877d",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-27T05:18:08.319179Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_55f23f3934c777ddea75",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

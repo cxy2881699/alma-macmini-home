@@ -1,0 +1,54 @@
+{
+  "conditions": "用户在 Mac mini 上部署个人记忆系统后的收尾验证与排障",
+  "confidence": 0.7,
+  "content": "用户反馈记忆系统管理页面打不开并要求直接完成后台部署;Agent 排查出是 MonoProxy 代理劫持 ts.net 域名所致(本机服务正常),并成功运行部署脚本注册了 neo4j/memd/mem 三个 launchd 常驻项。",
+  "created_at": "2026-09-23T16:53:56.566341Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_9f82bdbcda91e1775def",
+    "ent_f90a16b26a8ab1d551fc",
+    "ent_0674430ba5d897eb2671"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_e9736354e0fd65e97742",
+      "quote": "用户反馈记忆系统管理页面打不开并要求直接完成后台部署;Agent 排查出是 MonoProxy 代理劫持 ts.net 域名所致(本机服务正常),并成功运行部署脚本注册了 neo4j/memd/mem 三个 launchd 常驻项。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_0871412843096e94bfd1",
+  "is_temporary": false,
+  "keywords": [
+    "后台部署",
+    "launchd",
+    "管理页面打不开",
+    "MonoProxy",
+    "ts.net",
+    "代理",
+    "记忆系统"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_e9736354e0fd65e97742",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-23T16:53:56.566341Z",
+  "valid_to": null
+}

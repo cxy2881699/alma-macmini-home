@@ -1,0 +1,65 @@
+{
+  "conditions": "模型切换重启期间用户担心 Agent 挂掉，需要明确说明断线原因和当前状态。",
+  "confidence": 0.75,
+  "content": "在模型切换或服务重启期间,用户希望 Agent 明确区分“服务挂了”和“重启导致短暂断线/回复慢”,并主动确认当前是否恢复正常。",
+  "created_at": "2026-10-27T05:26:58.296570Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_1b0510f6e7579d8f62b3",
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_923b6bbaf5c2fc8363ab",
+      "quote": "在模型切换或服务重启期间,用户希望 Agent 明确区分“服务挂了”和“重启导致短暂断线/回复慢”,并主动确认当前是否恢复正常。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_18f232b79016ed655814",
+  "is_temporary": false,
+  "keywords": [
+    "断线",
+    "重启",
+    "存活确认",
+    "断线确认",
+    "重启恢复",
+    "Gateway 重启",
+    "断线原因区分",
+    "重启短暂断线",
+    "网络故障沟通",
+    "状态确认",
+    "模型切换",
+    "服务挂了",
+    "主动报恢复",
+    "服务挂了吗",
+    "重启断线",
+    "回复慢",
+    "Gateway重启",
+    "模型切换中断",
+    "恢复确认"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_923b6bbaf5c2fc8363ab",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-27T05:26:58.296570Z",
+  "valid_to": null
+}

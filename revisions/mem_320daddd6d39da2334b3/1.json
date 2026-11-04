@@ -1,0 +1,70 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:44:08.832825Z",
+  "id": "rev_bc5fd16ecfa69be161c4",
+  "memory": {
+    "conditions": "用户在管理页看不到来源标签时，排查旧 memd 进程兜底返回旧页面和浏览器缓存。",
+    "confidence": 0.95,
+    "content": "重启 memd 后若管理页改动未生效,应检查 8787 端口是否存在新旧两个 memd 进程;旧进程可能继续返回旧版 admin.html,需要杀掉旧进程并用 Cmd+Shift+R 强制刷新浏览器。",
+    "created_at": "2026-09-23T17:44:08.832825Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_a89c73b5da84ca8372b8",
+      "ent_27ceaaff441cfde0a957"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_fced576e2338a7e33460",
+        "quote": "重启 memd 后若管理页改动未生效,应检查 8787 端口是否存在新旧两个 memd 进程;旧进程可能继续返回旧版 admin.html,需要杀掉旧进程并用 Cmd+Shift+R 强制刷新浏览器。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_320daddd6d39da2334b3",
+    "is_temporary": false,
+    "keywords": [
+      "memd",
+      "旧页面",
+      "强制刷新",
+      "8787端口",
+      "双进程",
+      "端口占用",
+      "8787",
+      "admin.html",
+      "来源列",
+      "强刷",
+      "Cmd+Shift+R",
+      "PID 32274",
+      "PID 38030",
+      "浏览器缓存"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_fced576e2338a7e33460",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-09-23T17:44:08.832825Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_320daddd6d39da2334b3",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

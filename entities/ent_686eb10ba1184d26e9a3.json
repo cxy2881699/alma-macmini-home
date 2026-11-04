@@ -1,0 +1,14 @@
+{
+  "aliases": [
+    "morning-briefing",
+    "晨报"
+  ],
+  "created_at": "2026-09-24T02:05:31.526309Z",
+  "description": "用户通过 cron 定时触发的每日晨报任务，需按 SKILL.md 流程搜索验证新闻、附原文链接、自检后只发送一次",
+  "id": "ent_686eb10ba1184d26e9a3",
+  "name": "晨报任务 morning-briefing",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "concept",
+  "updated_at": "2026-11-04T08:56:50.217643Z"
+}

@@ -1,0 +1,71 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-04T19:02:49.437830Z",
+  "id": "rev_8b9670d167b41a41bade",
+  "memory": {
+    "conditions": "后续 Agent 引用 PRD 中的机制、接口或优先级前，需要确认其只是草案。",
+    "confidence": 0.85,
+    "content": "Codex 在归档时明确把 PRD 定性为“待评审设计提案”,并声明不能视为已实现功能或用户逐条确认的事实,这为后续引用 PRD 内容划定了证据边界。",
+    "created_at": "2026-10-04T19:02:49.437830Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_0dd3ce8f5049183636d7"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_204132bcd438ed41fedc",
+        "quote": "Codex 在归档时明确把 PRD 定性为“待评审设计提案”,并声明不能视为已实现功能或用户逐条确认的事实,这为后续引用 PRD 内容划定了证据边界。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_36bbc82f5cbd881440ef",
+    "is_temporary": false,
+    "keywords": [
+      "PRD 状态",
+      "设计提案",
+      "待评审",
+      "PRD不是已实现功能",
+      "PRD证据边界",
+      "不能视为已实现",
+      "设计草案",
+      "SHA256",
+      "PRD状态",
+      "非已实现功能",
+      "草案",
+      "待评审设计提案",
+      "证据边界",
+      "PRD引用",
+      "未实现功能",
+      "v0.1"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_204132bcd438ed41fedc",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-04T19:02:49.437830Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_36bbc82f5cbd881440ef",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "MINJA 攻击"
+  ],
+  "created_at": "2026-09-28T03:19:09.026710Z",
+  "description": "一类记忆投毒攻击，证明日常查询本身可作为记忆投毒向量；论文未获取原文，精确 arXiv ID 未定位",
+  "id": "ent_12e60967bd71bfb38736",
+  "name": "MINJA",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T08:56:50.226239Z"
+}

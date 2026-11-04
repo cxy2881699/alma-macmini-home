@@ -1,0 +1,56 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T19:07:18.012222Z",
+  "id": "rev_7cc791013df92a4941d4",
+  "memory": {
+    "conditions": "同一天用户先后委托机制文档、文献调研和 Agent 建模选型。",
+    "confidence": 0.82,
+    "content": "用户的个人项目已从概念性的行为-情绪-神经内分泌映射文档,推进到严肃文献证据核验与可计算的逆向推断 Agent 架构设计,形成“机制框架→实证文献→计算建模”的递进工作流。",
+    "created_at": "2026-10-27T19:07:18.012222Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_1627b009151f2cb1840b",
+        "quote": "用户的个人项目已从概念性的行为-情绪-神经内分泌映射文档,推进到严肃文献证据核验与可计算的逆向推断 Agent 架构设计,形成“机制框架→实证文献→计算建模”的递进工作流。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_16b0057b69c7ceebce02",
+    "is_temporary": false,
+    "keywords": [
+      "项目脉络",
+      "计算精神病学",
+      "潜状态模型",
+      "文献调研"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_1627b009151f2cb1840b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T19:07:18.012222Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_16b0057b69c7ceebce02",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

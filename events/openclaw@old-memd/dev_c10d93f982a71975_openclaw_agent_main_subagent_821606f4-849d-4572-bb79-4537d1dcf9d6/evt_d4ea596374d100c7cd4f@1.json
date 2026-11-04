@@ -1,0 +1,181 @@
+{
+  "agent_id": "openclaw@old-memd",
+  "assistant_text": "我会逐案核对签约稿与后续落地稿，重点交叉确认出席人职务，避免把计划写成已交付。 主签约信息已基本找齐；现在补查“后续是否真正落地”，尤其区分四维图新的预研展示、赛力斯的框架协议，以及奔驰后来量产上车。 已确认一个容易漏掉的点：赛力斯凤凰签约有重庆市副市长郑向东明确见证；其余六案的已核稿件未明确写政府官员出席。奔驰2024稿只写“近日签署”，不能硬把8月13日官宣日当签约日。 以下为截至 **2026-10-27** 的公开稿核查结果。“未提及政府官员”仅指所核稿件没有明确写，不等于断言现场没有政府人员。 ### 1. 广汽集团（2024） - **签约日期**：2024-08-02，地点为广汽中心。 - **火山引擎出席**：总裁**谭待**见证；汽车行业总经理**杨立伟**代表签约。 - **广汽出席**：总经理**冯兴亚**见证；副总经理**江秀云**代表签约。 - **合作内容**：云服务、营销数字化、智能座舱、海外协同；海外部分包括营销活动、数字化平台、多语言、多时区及跨境数据合规。 - **政府官员**：签约稿未提及。 - **后续落地**：**2025-12-25**中国日报网披露，双方已建立数据合规治理和跨境管控解决方案，以及配套合规管理平台、工具体系，覆盖海外业务上线、数据本地化和跨境场景，属于已建方案，不只是签约规划。 - 来源：[签约稿（凤凰网/IT之家）](https://i.ifeng.com/c/8bpYHUEi41t)；[后续案例（中国日报网）](https://tech.chinadaily.com.cn/a/202512/25/WS694cebeaa310942cc49988ff.html) ### 2. 梅赛德斯-奔驰中国（2024） - **签约日期**：2024-08-13官宣，但原稿仅称“近日签署”，**未披露精确签约日**，不宜直接把8月13日写成签约日。 - **火山引擎稿件点名人**：总裁**谭待**。 - **奔驰稿件点名人**：奔驰中国执行副总裁、中国研发自动驾驶及车联网负责人、梅赛德斯-奔驰（上海）数字技术有限公司CEO**王忻**。原稿未列完整签约代表名单。 - **合作内容**：大模型、生成式AI、大数据；重点为智舱网络信息检索、语音响应与执行速度、语音/导航/娱乐/资讯个性化场景，以及研发插件和工具链。 - **政府官员**：稿件未提及。 - **后续追加及量产**： - **2025-09-23**，奔驰中国与北京字跳网络技术有限公司签署升级战略合作备忘录，扩展至智能辅助驾驶、智能座舱、智能化研发、数字营销、客户运营；奔驰集团董事会成员、大中华区负责人**佟欧福**与北京字节跳动董事长**张利东**见证。 - **2025-11-05**，全新纯电CLA上市，公开车型稿明确其智能座舱应用豆包大模型，属于量产上车。 - 来源：[2024合作稿（中国质量新闻网）](https://www.cqn.com.cn/auto/content/2024-08/14/content_9061259.htm)；[2025升级合作（中国证券网）](https://www.cnstock.com/commonDetail/545985)；[纯电CLA上市稿（易车）](https://news.m.yiche.com/hao/wenzhang/104964639/) ### 3. 岚图汽车（2025） - **签约日期**：2025-03-03，武汉。 - **火山引擎出席**：汽车行业总经理**杨立伟**。 - **岚图出席**：CEO**卢放**、CTO**汪俊君**、COO**蒋焘**。稿件未分别注明谁执笔签约。 - **合作内容**：座舱大模型、企业数字化、智驾云与座舱云；岚图自研AI语音融合豆包大模型；围绕智驾算法训练、云端仿真提升研发验证效率；另探索研产供销服数字化、海外业务上云及具身智能。 - **政府官员**：签约稿未提及。 - **后续落地**：截至检索日，未找到权威公开稿明确披露该协议项下某一车型量产或具体平台上线。签约稿中的“下一代座舱”“赋能端到端智驾量产”等仍属合作目标，不能当成已经交付。 - 来源：[签约全文（中新车市转载页）](https://baijiahao.baidu.com/s?id=1825738056045263237&wfr=spider&for=pc) ### 4. 四维图新（2025） - **签约日期**：2025-04-23，上海车展期间。 - **火山引擎出席**：汽车总经理、智慧出行和具身研究院院长**杨立伟**代表签约；总裁**谭待**、运营副总裁**兰杰**、汽车行业北区总监**梁民忞**见签。 - **四维图新出席**：副总裁**孔祥来**代表签约；北京亦庄国际投资发展有限公司总经理/四维图新董事长**张鹏**、CEO**程鹏**、COO**梁永杰**见签。 - **合作内容**：辅助驾驶、智能座舱、大模型；以火山云强化工具链并探索汽车智能化数据闭环；把超拟人交互、车娱内容融入四维图新及成员企业软硬件平台。上市公司公告合作期为五年。 - **政府官员**：未提及；张鹏在稿件中以企业职务出席。 - **后续成果**：签约现场展示的是“预研产品”；**2025-06-11**FORCE大会上，四维智联展示AI Agent超级助手，使用豆包进行车内外视频语义解析和服务建议评分，并开展云端训练合作。四维图新称其为战略合作落地成果，但公开稿未称已规模量产上车。 - 来源：[四维图新官方签约稿](https://www.seewayai.com/gongsixinwen/655)；[6月成果稿](https://baijiahao.baidu.com/s?id=1834685417166001746&wfr=spider&for=pc) ### 5. 赛力斯凤凰（2025） - **签约日期**：2025-10-09，北京；协议性质为**具身智能业务合作框架协议**，不涉及具体金额，具体项目另行签约。 - **火山引擎出席**：总裁**谭待**、具身研究院院长**杨立伟**。 - **赛力斯出席**：集团总裁**张正萍**、赛力斯凤凰技术董事长**许林**。 - **政府官员**：**有，重庆市人民政府副市长郑向东明确见证签约。** - **合作内容**：围绕“面向多模态云边协同的智能机器人决策、控制与人机增强技术”联合攻关，构建“技术研发—场景验证”闭环；火山提供语言、视觉、多模态及通用模型算法和算力，赛力斯提供制造、产业场景并推动产业化应用。 - **后续落地**：未找到公开稿明确把后续机器人或车型成果归因于该框架协议。2026年赛力斯“小赛”机器人进厂等属于公司具身智能进展，但稿件没有确认采用火山引擎成果，故不直接列作本协议交付。 - 来源：[赛力斯官方稿](https://www.seres.cn/news/1334.html)；[新华网签约稿及出席名单](http://www.xinhuanet.com/auto/20251010/ed0c882eb7b24e0c9f6152d2df56d0bc/c.html) ### 6. 东风汽车（2026） - **签约日期**：2026-04-23。 - **双方出席人**：所核主签约稿**未列出席或签约代表姓名**。冯长军后来于6月大会视频致辞，不能倒推为4月签约出席人。 - **合作内容**：智能座舱、企业数智化、AI云平台；共同开发新一代AI交互座舱，提升商品定义与生态服务能力，推动豆包大模型、云计算覆盖汽车全价值链，联合打造下一代AI汽车。 - **政府官员**：签约稿未提及。 - **后续追加/进展**： - **2026-06-11**，东风研发总院对“基于AIBOX的端侧智能体平台前期预研究开发项目”进行直接采购批前公示，拟由火山引擎承担，包括OrinY平台AIBOX硬件、端侧全模态模型微调部署和原型Demo上车验证。这是**追加预研采购，不是量产落地**。 - **2026-06-23/24**，新华网称智能座舱大模型、端云一体语音、企业数字化合作“落地成效显著”，但未列具体车型或上线指标。 - 来源：[签约稿（凤凰网/网通社）](https://auto.ifeng.com/c/8sa4dkaA8YS)；[AIBOX采购报道（新浪财经）](http://finance.sina.com.cn/wm/2026-06-16/doc-inicqsxt7743653.shtml)；[后续进展（新华网）](http://www.xinhuanet.com/auto/20260624/e081f2499b2848d9a875c58927df9dff/c.html) ### 7. 奇瑞汽车（2026） - **签约日期**：2026-04-24，北京。 - **火山引擎出席**：总裁**谭待**、副总裁**兰杰**、副总裁**杨立伟**。 - **奇瑞出席**：执行副总裁**高新华**、副总裁**谢保军**。 - **合作内容**： - 豆包及AI应用融入“小奇同学”，提升语义理解、长时记忆、情感交互，规划适配现有及未来全系车型； - “灵犀智舱”联网搜索接入抖音、今日头条内容； - 围绕“猎鹰智驾”研发辅助驾驶大模型； - 探索具身智能、车载机器人、AI BOX、AI后视镜； - 提供企业AI与公有云，覆盖研发、生产、供应链、销售、运营，并协同跨境服务及电商生态出海。 - **政府官员**：签约稿未提及。 - **后续量产**：截至**2026-04-30**公开报道，星途EX7已全球上市，行业首发搭载豆包实时语音模型，“小奇畅聊”支持多人格对话，属于明确量产车型落地；不能据此推定协议内智驾、公有云等其他方向均已完成。 - 来源：[签约全文（中国经济新闻网）](https://www.cet.com.cn/wzsy/cyzx/10347047.shtml)；[星途EX7量产落地（中国日报网）](https://cn.chinadaily.com.cn/a/202604/30/WS69f2fecea310942cc49aa55e.html)",
+  "content_hash": "7917da4a33569b1a017efa89f25ba174c6651385a6d5f88466808fc9d3285bab",
+  "cwd": "",
+  "device_id": "dev_c10d93f982a71975",
+  "event_id": "evt_d4ea596374d100c7cd4f",
+  "kind": "conversation",
+  "native_event_id": "d48ed5d40dcdda55452895eae87e415d",
+  "occurred_at": "2026-10-27T18:34:20.867000Z",
+  "privacy_mode": "normal",
+  "project_id": "",
+  "received_at": "2026-11-04T08:56:50.148772Z",
+  "revision": 1,
+  "session_id": "dev_c10d93f982a71975:openclaw:agent:main:subagent:821606f4-849d-4572-bb79-4537d1dcf9d6",
+  "space": "user/shared",
+  "tools": [
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"火山引擎 广汽集团 战略合作 2024 签约\",\"count\":10,\"country\":\"ALL\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"火山引擎 梅赛德斯 奔驰 中国 战略合作 2024 签约\",\"count\":10,\"country\":\"ALL\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"火山引擎 岚图汽车 战略合作 2025 签约\",\"count\":10,\"country\":\"ALL\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"火山引擎 四维图新 战略合作 2025 签约\",\"count\":10,\"country\":\"ALL\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"火山引擎 赛力斯 凤凰 战略合作 2025 签约\",\"count\":10,\"country\":\"ALL\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"火山引擎 东风汽车 战略合作 2026 签约\",\"count\":10,\"country\":\"ALL\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"火山引擎 奇瑞汽车 战略合作 2026 签约\",\"count\":10,\"country\":\"ALL\"}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"start\",\"profile\":\"openclaw\",\"target\":\"host\"}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"open\",\"profile\":\"openclaw\",\"target\":\"host\",\"url\":\"https://www.baidu.com/s?wd=%E7%81%AB%E5%B1%B1%E5%BC%95%E6%93%8E%20%E5%B9%BF%E6%B1%BD%E9%9B%86%E5%9B%A2%20%E6%88%98%E7%95%A5%E5%90%88%E4%BD%9C%202024%20%E7%AD%BE%E7%BA%A6\"}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"act\",\"profile\":\"openclaw\",\"target\":\"host\",\"targetId\":\"EA92D731BE88BE6760E9B5C27BADF0C2\",\"request\":{\"kind\":\"evaluate\",\"fn\":\"() => Array.from(document.querySelectorAll('div.result, div.c-container')).slice(0,10).map(x => ({text:x.innerText, links:Array.from(x.querySelectorAll('a')).slice(0,"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"navigate\",\"profile\":\"openclaw\",\"target\":\"host\",\"url\":\"https://www.baidu.com/s?wd=%E7%81%AB%E5%B1%B1%E5%BC%95%E6%93%8E%20%E5%B9%BF%E6%B1%BD%E9%9B%86%E5%9B%A2%20%E6%88%98%E7%95%A5%E5%90%88%E4%BD%9C%202024%20%E7%AD%BE%E7%BA%A6\",\"targetId\":\"EA92D731BE88BE6760E9B5C27BADF0C2\"}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"act\",\"profile\":\"openclaw\",\"target\":\"host\",\"targetId\":\"EA92D731BE88BE6760E9B5C27BADF0C2\",\"request\":{\"kind\":\"evaluate\",\"fn\":\"() => Array.from(document.querySelectorAll('div.result, div.c-container')).slice(0,12).map(x => ({text:x.innerText.slice(0,1200), links:Array.from(x.querySelectorAll("
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"navigate\",\"profile\":\"openclaw\",\"target\":\"host\",\"targetId\":\"EA92D731BE88BE6760E9B5C27BADF0C2\",\"url\":\"https://www.baidu.com/s?wd=%E7%81%AB%E5%B1%B1%E5%BC%95%E6%93%8E%20%E6%A2%85%E8%B5%9B%E5%BE%B7%E6%96%AF%20%E5%A5%94%E9%A9%B0%20%E4%B8%AD%E5%9B%BD%20%E6%88%98%E7%95%A5%E5%90%88%E4%BD%9C%20202"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"act\",\"profile\":\"openclaw\",\"target\":\"host\",\"targetId\":\"EA92D731BE88BE6760E9B5C27BADF0C2\",\"request\":{\"kind\":\"evaluate\",\"fn\":\"() => Array.from(document.querySelectorAll('div.result, div.c-container')).slice(0,12).map(x => ({text:x.innerText.slice(0,1400), links:Array.from(x.querySelectorAll("
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"tabs\",\"profile\":\"openclaw\",\"target\":\"host\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 - <<'PY'\\nimport requests\\nfrom bs4 import BeautifulSoup\\nu='https://www.baidu.com/s'\\nr=requests.get(u,params={'wd':'火山引擎 梅赛德斯 奔驰 中国 战略合作 2024 签约'},headers={'User-Agent':'Mozilla/5.0'},timeout=20)\\nprint(r.status_code,len(r.text),r.url)\\ns=BeautifulSoup(r.text,'html.parser')\\nfo"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"node -e \\\"for (let x of ['playwright','puppeteer','chrome-remote-interface']) try {console.log(x,require.resolve(x))} catch(e){}\\\"; python3 - <<'PY'\\ntry: import websocket; print('websocket ok')\\nexcept: pass\\nPY\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":10}"
+    },
+    {
+      "name": "write",
+      "summary": "{\"file_path\":\"/tmp/baidu.mjs\",\"content\":\"const q=process.argv[2];\\nconst url='https://www.baidu.com/s?wd='+encodeURIComponent(q);\\nlet r=await fetch('http://127.0.0.1:18800/json/new?'+encodeURIComponent(url),{method:'PUT'}); let t=await r.json();\\nawait new Promise(r=>setTimeout(r,2500));\\nconst ws="
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"node /tmp/baidu.mjs '火山引擎 梅赛德斯 奔驰 中国 战略合作 2024 签约'\",\"timeout\":20}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"node /tmp/baidu.mjs '火山引擎 岚图汽车 战略合作 2025 签约'\",\"timeout\":20}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"node /tmp/baidu.mjs '火山引擎 四维图新 战略合作 2025 签约'\",\"timeout\":20}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"node /tmp/baidu.mjs '火山引擎 赛力斯 凤凰 战略合作 2025 签约'\",\"timeout\":20}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"node /tmp/baidu.mjs '火山引擎 东风汽车 战略合作 2026 签约'\",\"timeout\":20}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"node /tmp/baidu.mjs '火山引擎 奇瑞汽车 战略合作 2026 签约'\",\"timeout\":20}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"node /tmp/baidu.mjs '广汽集团 火山引擎 签署 战略合作 江秀云 杨立伟' > /tmp/gac-sign.json && cat /tmp/gac-sign.json\",\"timeout\":20}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"node /tmp/baidu.mjs '梅赛德斯 奔驰 火山引擎 签署 合作 备忘录 2024 王忻 谭待' > /tmp/benz-sign.json && cat /tmp/benz-sign.json\",\"timeout\":20}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"node /tmp/baidu.mjs '岚图 火山引擎 签约 2025 出席 谭待 卢放 武汉' > /tmp/voyah-sign.json && cat /tmp/voyah-sign.json\",\"timeout\":20}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"node /tmp/baidu.mjs '四维图新 火山引擎 签约 出席 2025 程鹏 谭待' > /tmp/navinfo-sign.json && cat /tmp/navinfo-sign.json\",\"timeout\":20}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"node /tmp/baidu.mjs '东风汽车 火山引擎 4月23日 2026 出席 签约 谭待' > /tmp/dfm-sign.json && cat /tmp/dfm-sign.json\",\"timeout\":20}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"node /tmp/baidu.mjs '奇瑞 火山引擎 4月24日 2026 出席 签约 谭待 尹同跃' > /tmp/chery-sign.json && cat /tmp/chery-sign.json\",\"timeout\":20}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 - <<'PY'\\nimport requests,glob,json\\nfor fn in glob.glob('/tmp/*sign.json'):\\n d=json.load(open(fn));print('\\\\n',fn)\\n for r in d.get('result') or []:\\n  for a in r.get('links',[]):\\n   u=a['href']\\n   if 'baidu.com/link' in u:\\n    try:\\n     x=requests.get(u,headers={'User-Agen"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.seewayai.com/gongsixinwen/655\",\"extractMode\":\"markdown\",\"maxChars\":12000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://auto.cri.cn/20250427/645450e0-f09b-1eb9-7170-61c2cc8eb834.html\",\"extractMode\":\"markdown\",\"maxChars\":12000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.cqn.com.cn/auto/content/2024-08/14/content_9061259.htm\",\"extractMode\":\"markdown\",\"maxChars\":12000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://weibo.com/ttarticle/p/show?id=2309405140579381280984\",\"extractMode\":\"markdown\",\"maxChars\":12000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.cet.com.cn/wzsy/cyzx/10347047.shtml\",\"extractMode\":\"markdown\",\"maxChars\":12000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"http://www.xinhuanet.com/auto/20260624/e081f2499b2848d9a875c58927df9dff/c.html\",\"extractMode\":\"markdown\",\"maxChars\":12000}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 - <<'PY'\\nimport requests\\nfrom bs4 import BeautifulSoup\\nu='https://www.cet.com.cn/wzsy/cyzx/10347047.shtml'\\nr=requests.get(u);r.encoding='gb18030';s=BeautifulSoup(r.text,'html.parser')\\nprint(s.get_text('\\\\n',strip=True)[-6000:])\\nPY\",\"timeout\":20}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"node /tmp/baidu.mjs '广汽 火山引擎 出海 合规 2025 数据 跨境 合作' > /tmp/gac-follow.json && cat /tmp/gac-follow.json\",\"timeout\":20}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"node /tmp/baidu.mjs '梅赛德斯 奔驰 字节跳动 2025 9月23日 升级 战略合作 出席 豆包 CLA' > /tmp/benz-follow.json && cat /tmp/benz-follow.json\",\"timeout\":20}"
+    }
+  ],
+  "turn_index": 0,
+  "user_text": "[Tue 2026-10-27 11:26 PDT] [Subagent Context] You are running as a subagent (depth 1/1). Results auto-announce to your requester; do not busy-poll for status. [Subagent Task]: 调研火山引擎与汽车企业的战略合作公开PR稿：广汽集团(2024)、梅赛德斯-奔驰中国(2024)、岚图汽车(2025)、四维图新(2025)、赛力斯凤凰(2025)、东风汽车(2026)、奇瑞汽车(2026)。逐案给出：签约日期、火山引擎/字节跳动出席人姓名及职务、对方出席人、合作具体内容、是否有政府官员出席（仅按稿件明确提及，不猜测）、后续公开落地/追加合作（带日期）。优先官方企业/火山引擎/权威媒体来源，提供可直接访问URL。web_search和百度API可能不可用，可用browser打开百度网页搜索并evaluate提取结果，再web_fetch正文。请区分签约计划与已落地，不要编造。输出中文紧凑要点。"
+}

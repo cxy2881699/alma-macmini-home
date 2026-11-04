@@ -1,0 +1,47 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:07:04.557388Z",
+  "id": "rev_c2aaaf15941af041a262",
+  "memory": {
+    "conditions": "用户在设想可进化记忆系统的高情感价值应用时提出数字亲人方向。",
+    "confidence": 0.82,
+    "content": "用户认为可用逝者生前数据与口述经历重建接近本人的赛博生命,但接受讨论时应区分历史还原与后续成长,不能把生成反应冒充逝者真实想法。",
+    "created_at": "2026-10-27T05:07:04.557388Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_b7576fa0a420339337b1",
+    "is_temporary": false,
+    "keywords": [
+      "逝者数据",
+      "人格重建",
+      "数字陪伴",
+      "历史还原",
+      "伦理边界"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "review",
+    "status_reason": "migrated from old agent-memory (candidate)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:07:04.557388Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_b7576fa0a420339337b1",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,65 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-09T19:00:42.547814Z",
+  "id": "rev_c09669911f39a710ab8d",
+  "memory": {
+    "conditions": "解释为什么 Tailscale 私网地址经代理后导致 Agent 网络失败。",
+    "confidence": 0.86,
+    "content": "OpenClaw 卡住的根因之一是 Node/Undici 经本机代理访问 Tailscale 100.64.0.0/10 私网地址失败;应通过本地回环或 NO_PROXY 排除,而不是关闭 Tailscale。",
+    "created_at": "2026-10-09T19:00:42.547814Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_421c00dde9a1b98fc969",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_6a3714757e353acbcb99",
+        "quote": "OpenClaw 卡住的根因之一是 Node/Undici 经本机代理访问 Tailscale 100.64.0.0/10 私网地址失败;应通过本地回环或 NO_PROXY 排除,而不是关闭 Tailscale。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_0ee041ae179abeaf76d1",
+    "is_temporary": false,
+    "keywords": [
+      "代理排除",
+      "UND_ERR_SOCKET",
+      "私网路由",
+      "Tailscale 代理",
+      "Undici",
+      "NO_PROXY",
+      "100.64.0.0/10",
+      "fetch failed",
+      "OpenClaw 卡住"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_6a3714757e353acbcb99",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-09T19:00:42.547814Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_0ee041ae179abeaf76d1",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

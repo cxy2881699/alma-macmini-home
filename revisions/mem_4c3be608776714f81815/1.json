@@ -1,0 +1,65 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:07:36.876409Z",
+  "id": "rev_faa221536db3506e9c51",
+  "memory": {
+    "conditions": "处理生成内容未入库问题时，需要同时查本地保存路径和服务端入库审计。",
+    "confidence": 0.78,
+    "content": "排查新 PRD 未入库时,Agent 的正确路径是同时核对本机文件保存位置与记忆库写入记录,不能只凭其中一侧下结论。",
+    "created_at": "2026-10-27T05:07:36.876409Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e",
+      "ent_13a7ceff9826166f66a5"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_c5b9bc50bc5c913a2dbe",
+        "quote": "排查新 PRD 未入库时,Agent 的正确路径是同时核对本机文件保存位置与记忆库写入记录,不能只凭其中一侧下结论。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_4c3be608776714f81815",
+    "is_temporary": false,
+    "keywords": [
+      "PRD未入库",
+      "保存位置",
+      "审计核查",
+      "PRD排查",
+      "本机文件",
+      "写入记录",
+      "双侧核对",
+      "audit",
+      "记忆库"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_c5b9bc50bc5c913a2dbe",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:07:36.876409Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_4c3be608776714f81815",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

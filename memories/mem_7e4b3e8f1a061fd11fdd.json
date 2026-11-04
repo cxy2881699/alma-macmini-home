@@ -1,0 +1,45 @@
+{
+  "conditions": "",
+  "confidence": 0.95,
+  "content": "调研中 48 篇论文实际抓取 arXiv 摘要 30 篇(含 10 篇 Oral 中的 9 篇),11 篇因 OpenReview 验证墙基于标题和综述上下文撰写并标注\"未获取原文\";MINJA 未定位到精确 arXiv ID,置信度已降级。",
+  "created_at": "2026-09-28T03:19:09.026710Z",
+  "derived_from": [],
+  "entities": [
+    "ent_e44cb152899e6702c87f",
+    "ent_803e29983b18f51d0780",
+    "ent_12e60967bd71bfb38736"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_4ead9e010ef9d7e33330",
+      "quote": "调研中 48 篇论文实际抓取 arXiv 摘要 30 篇(含 10 篇 Oral 中的 9 篇),11 篇因 OpenReview 验证墙基于标题和综述上下文撰写并标注\"未获取原文\";MINJA 未定位到精确 arXiv ID,置信度已降级。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_7e4b3e8f1a061fd11fdd",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_4ead9e010ef9d7e33330",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-28T03:19:09.026710Z",
+  "valid_to": null
+}

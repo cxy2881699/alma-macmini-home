@@ -1,0 +1,50 @@
+{
+  "conditions": "Agent 回报模型切换脚本第一次是假启动，随后修复启动方式。",
+  "confidence": 0.9,
+  "content": "模型切换首次失败的直接技术原因是 macOS 缺少 setsid,后台脚本未实际启动;改用 nohup 后才完成预检、写入、重启和验证。",
+  "created_at": "2026-10-28T19:05:59.718056Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8fc67c0d4c5d64da55b1",
+      "quote": "模型切换首次失败的直接技术原因是 macOS 缺少 setsid,后台脚本未实际启动;改用 nohup 后才完成预检、写入、重启和验证。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_f4d620af302edc2f34da",
+  "is_temporary": false,
+  "keywords": [
+    "setsid",
+    "nohup",
+    "模型切换失败",
+    "macOS",
+    "后台启动"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8fc67c0d4c5d64da55b1",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-28T19:05:59.718056Z",
+  "valid_to": null
+}

@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:36:19.494902Z",
+  "id": "rev_d3e971084d8809302733",
+  "memory": {
+    "conditions": "用户手动把 Wi-Fi 代理写到 Clash Verge 7897，但全局 scutil 仍显示关闭。",
+    "confidence": 0.86,
+    "content": "2026-10-18 晚在手动 networksetup 写入后,scutil 与 networksetup 的代理状态已经出现直接不一致:命令回显成功但全局视图仍为 HTTPEnable:0,因此当时不能仅凭 scutil 判定写入失败。",
+    "created_at": "2026-10-27T05:36:19.494902Z",
+    "derived_from": [],
+    "entities": [
+      "ent_f18082c6c564869030be",
+      "ent_c42dac5ae99195f63d24"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_b513ec84f98cca74efd9",
+        "quote": "2026-10-18 晚在手动 networksetup 写入后,scutil 与 networksetup 的代理状态已经出现直接不一致:命令回显成功但全局视图仍为 HTTPEnable:0,因此当时不能仅凭 scutil 判定写入失败。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_6991047879422e0097a9",
+    "is_temporary": false,
+    "keywords": [
+      "networksetup",
+      "scutil",
+      "HTTPEnable",
+      "7897",
+      "系统代理不一致"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_b513ec84f98cca74efd9",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:36:19.494902Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_6991047879422e0097a9",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

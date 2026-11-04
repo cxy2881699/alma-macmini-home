@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "东风"
+  ],
+  "created_at": "2026-10-27T18:35:13.611211Z",
+  "description": "中国汽车集团，2026-04-23 与火山引擎围绕智能座舱、企业数智化和 AI 云平台合作。",
+  "id": "ent_1002d231aa8e29c9351b",
+  "name": "东风汽车",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "organization",
+  "updated_at": "2026-11-04T08:56:50.221614Z"
+}

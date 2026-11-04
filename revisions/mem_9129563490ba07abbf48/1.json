@@ -1,0 +1,78 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-28T19:07:41.856259Z",
+  "id": "rev_135db724e84752e2b195",
+  "memory": {
+    "conditions": "需要快速判断各车企合作公开落地证据强弱时使用。",
+    "confidence": 0.86,
+    "content": "火山引擎与汽车企业合作中,公开证据可区分出“量产/已建方案”“展示或预研”“仅框架或规划”三类进展;其中奔驰CLA为量产上车,四维图新为大会展示,赛力斯凤凰为框架协议,东风AIBOX为预研采购。",
+    "created_at": "2026-10-28T19:07:41.856259Z",
+    "derived_from": [],
+    "entities": [
+      "ent_7eb36e87c3f9406c9215",
+      "ent_700816e920bebe421d7a",
+      "ent_02d36becfe6f60ace7bf",
+      "ent_1002d231aa8e29c9351b",
+      "ent_b6e5f07139d194f4aaa5"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_d4ea596374d100c7cd4f",
+        "quote": "火山引擎与汽车企业合作中,公开证据可区分出“量产/已建方案”“展示或预研”“仅框架或规划”三类进展;其中奔驰CLA为量产上车,四维图新为大会展示,赛力斯凤凰为框架协议,东风AIBOX为预研采购。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_9129563490ba07abbf48",
+    "is_temporary": false,
+    "keywords": [
+      "合作落地",
+      "公开证据",
+      "预研",
+      "展示落地",
+      "证据分层",
+      "落地证据强弱",
+      "量产",
+      "落地证据等级",
+      "四维图新展示",
+      "东风AIBOX预研",
+      "落地分层",
+      "量产上车",
+      "大会展示",
+      "预研采购",
+      "框架协议",
+      "公开证据强弱",
+      "奔驰CLA",
+      "四维智联",
+      "赛力斯框架",
+      "东风AIBOX"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d4ea596374d100c7cd4f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-28T19:07:41.856259Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9129563490ba07abbf48",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

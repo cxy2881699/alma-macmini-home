@@ -1,0 +1,58 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-25T08:36:35.646025Z",
+  "id": "rev_21446e77707799eae00b",
+  "memory": {
+    "conditions": "用户提到一位现居美国、关系非常好的大学同学回国。",
+    "confidence": 0.9,
+    "content": "用户与一位现居美国的大学同学关系非常好。",
+    "created_at": "2026-09-25T08:36:35.646025Z",
+    "derived_from": [],
+    "entities": [
+      "ent_774067d2559ca01157a7"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_cba7676006be064cd2bd",
+        "quote": "用户与一位现居美国的大学同学关系非常好。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_83284b2bfd67dbe3110b",
+    "is_temporary": false,
+    "keywords": [
+      "美国同学",
+      "大学好友",
+      "关系很好",
+      "回国重聚"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_cba7676006be064cd2bd",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-25T08:36:35.646025Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_83284b2bfd67dbe3110b",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

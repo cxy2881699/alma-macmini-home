@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-28：用户先后派出两个 subagent 完成 ICLR 2026 MemAgents Workshop 论文调研:先基于 arXiv 摘要产出 48 篇初版总结,再基于 PDF 全文重写为 41 篇升级版,均对照宇哥 PRD 标注 FR 落点与 P0/P1/P2 优先级,未改动 PRD。",
+  "created_at": "2026-10-05T19:11:39.408690Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_4ead9e010ef9d7e33330",
+      "quote": "2026-09-28：用户先后派出两个 subagent 完成 ICLR 2026 MemAgents Workshop 论文调研:先基于 arXiv 摘要产出 48 篇初版总结,再基于 PDF 全文重写为 41 篇升级版,均对照宇哥 PRD 标注 FR 落点与 P0/P1/P2 优先级,未改动 PRD。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_4eb493096ea8b7bb5d65",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_4ead9e010ef9d7e33330",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-05T19:11:39.408690Z",
+  "valid_to": null
+}

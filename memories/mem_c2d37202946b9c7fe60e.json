@@ -1,0 +1,49 @@
+{
+  "conditions": "公网化方案讨论中确认现有 memd 应用层已具备 HTTP 与 Bearer token 基础。",
+  "confidence": 0.75,
+  "content": "memd 服务端已经是 FastAPI + Bearer token 架构,公网化时服务端代码无需改动,只需更换 MEMD_PUBLIC_URL 并补充域名、HTTPS 证书、端口暴露等配置。",
+  "created_at": "2026-09-24T03:20:17.224335Z",
+  "derived_from": [],
+  "entities": [
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8fc67c0d4c5d64da55b1",
+      "quote": "memd 服务端已经是 FastAPI + Bearer token 架构,公网化时服务端代码无需改动,只需更换 MEMD_PUBLIC_URL 并补充域名、HTTPS 证书、端口暴露等配置。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_c2d37202946b9c7fe60e",
+  "is_temporary": false,
+  "keywords": [
+    "FastAPI",
+    "Bearer token",
+    "MEMD_PUBLIC_URL",
+    "HTTPS 证书",
+    "服务端零改动"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8fc67c0d4c5d64da55b1",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-24T03:20:17.224335Z",
+  "valid_to": null
+}

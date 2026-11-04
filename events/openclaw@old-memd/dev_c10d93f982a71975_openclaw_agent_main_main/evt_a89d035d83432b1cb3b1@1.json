@@ -1,0 +1,37 @@
+{
+  "agent_id": "openclaw@old-memd",
+  "assistant_text": "**先定义\"干净\"**——不是\"没被封过\"就行，是这四条同时满足： 1. **原生 IP**：whois 归属地 = 机房所在地，不是从别处广播/转租来的段。转租段容易被上游连坐。 2. **段内没人跑代理**：这是最关键的软指标。ColoCrossing、Vultr 东京、DO 新加坡这类段为什么老被封？因为成千上万个机场在上面跑。 3. **有中国优化线路**（CN2 GIA / CMIN2 / 9929）：延迟低、晚高峰不塌，而且走的是运营商优质出口，被 QoS 的概率也低。 4. **商家支持\"IP 被封免费换\"**：这条最实用——再干净的 IP 也可能某天中招，能免费换就是保险。 **供应商和价格（我实抓的，非记忆）** **DMIT**——目前对大陆最靠谱的一家，自持 CN2 GIA 上游，不是转售 - `LAX.Pro.WEE` **$36.9/年**：1C1G/20G/1TB，三网 CN2 GIA，入门首选 - 洛杉矶 Eyeball 系列用码 `LAX-EB-LAUNCH-NON-MONTHLY-RECURRING-20OFF` 永久 8 折 - 香港 `HKG.Pro` **$298/年**，东京有 Tier1 线 - **关键**：IP 被封锁后**每 15 天可免费换一次**，其他情况 $5。这条比便宜 20 美元值钱 - 还有 3 天无理由退款（流量 <30GB），可以先买来实测 **搬瓦工** **$49.99/年** 起，也自持 CN2 GIA，支持免费迁机房，但只有英文工单。 **别碰的**：Vultr / DigitalOcean / Linode 的东京和新加坡——段被机场用烂了，等于高配版抽奖。 **我的建议** - 主力：DMIT `LAX.Pro.WEE` $36.9/年，先买 3 天内实测，不行退款 - 想要低延迟再上香港，但 $298 一年，除非你真的天天开会/打游戏，不值 - 那台 RackNerd 留着做 CF 回源备用落地，$12 就别扔 **一句话判断法** 买之前问客服：\"这个套餐的 IP 是原生 IP 吗？段内中国用户多不多？\" 答得含糊就别买；答\"原生 IP、支持被封免费换\"基本靠谱。 要不要我在你下单前把候选套餐的段先查一遍（ASN + 黑名单 + 是否 hosting 标记），出个对比？",
+  "content_hash": "6f77bd74322dbc9a37c68c9c47548cf6eb2d7cb96858cc622c2663c5ee3bdea4",
+  "cwd": "",
+  "device_id": "dev_c10d93f982a71975",
+  "event_id": "evt_a89d035d83432b1cb3b1",
+  "kind": "conversation",
+  "native_event_id": "8dfce4bc972f755a25d205588ebcf5b6",
+  "occurred_at": "2026-10-27T01:52:57.949000Z",
+  "privacy_mode": "normal",
+  "project_id": "",
+  "received_at": "2026-11-04T08:56:49.644918Z",
+  "revision": 1,
+  "session_id": "dev_c10d93f982a71975:openclaw:agent:main:main",
+  "space": "user/shared",
+  "tools": [
+    {
+      "name": "web_fetch",
+      "summary": "{\"maxChars\":6000,\"url\":\"https://www.bing.com/search?q=2026+%E5%8E%9F%E7%94%9FIP+VPS+%E6%8E%A8%E8%8D%90+%E6%97%A5%E6%9C%AC+%E4%B8%8D%E8%A2%AB%E5%A2%99+%E5%95%86%E5%AE%B6+%E4%BB%B7%E6%A0%BC\"}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"maxChars\":6000,\"url\":\"https://www.bing.com/search?q=DMIT+%E6%97%A5%E6%9C%AC+%E9%A6%99%E6%B8%AF+CN2+GIA+VPS+%E4%BB%B7%E6%A0%BC+2026+%E5%8E%9F%E7%94%9FIP\"}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"maxChars\":7000,\"url\":\"https://www.dmit.io/pages/pricing\"}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"maxChars\":6000,\"url\":\"https://vps.fund/article/dmit-20260507\"}"
+    }
+  ],
+  "turn_index": 39,
+  "user_text": "Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b6134731444b4b0fdf614db0eca2\", \"sender_id\": \"ou_e4a4036df049fc443a923af8b5110ebe\", \"sender\": \"ou_e4a4036df049fc443a923af8b5110ebe\", \"timestamp\": \"Mon 2026-10-26 18:52 PDT\" } ``` Sender (untrusted metadata): ```json { \"label\": \"ou_e4a4036df049fc443a923af8b5110ebe\", \"id\": \"ou_e4a4036df049fc443a923af8b5110ebe\", \"name\": \"ou_e4a4036df049fc443a923af8b5110ebe\" } ``` [message_id: om_x100b6134731444b4b0fdf614db0eca2] ou_e4a4036df049fc443a923af8b5110ebe: 所以什么样的ip最干净？哪家供应商？ 什么价格"
+}

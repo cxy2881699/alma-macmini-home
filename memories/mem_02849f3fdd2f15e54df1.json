@@ -1,0 +1,49 @@
+{
+  "conditions": "用户先派分身做摘要初版，补齐 PDF 后再要求全文重写。",
+  "confidence": 0.8,
+  "content": "用户的两阶段文献工作流包含明确的质量闸门:初版须显式标注未获取原文并降级置信度,全文版须以 PDF 事实覆盖旧结论并点名高冲击论文复核。",
+  "created_at": "2026-11-02T19:02:49.086349Z",
+  "derived_from": [],
+  "entities": [
+    "ent_803e29983b18f51d0780",
+    "ent_12e60967bd71bfb38736"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_3567af8b8693e96c3d81",
+      "quote": "用户的两阶段文献工作流包含明确的质量闸门:初版须显式标注未获取原文并降级置信度,全文版须以 PDF 事实覆盖旧结论并点名高冲击论文复核。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_02849f3fdd2f15e54df1",
+  "is_temporary": false,
+  "keywords": [
+    "两阶段调研",
+    "全文覆盖",
+    "置信度降级",
+    "高冲击论文复核"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_3567af8b8693e96c3d81",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-02T19:02:49.086349Z",
+  "valid_to": null
+}

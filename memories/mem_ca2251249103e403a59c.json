@@ -1,0 +1,53 @@
+{
+  "conditions": "Codex 初步搜索时只找到 ceo-os 中两份 8 月旧 PRD，并明确继续查找本次新文件。",
+  "confidence": 0.85,
+  "content": "排查新 PRD 入库缺口时,已先在 ceo-os 中发现两份 8 月旧 PRD,但助手明确认为它们不能直接当作这次新写的 PRD。",
+  "created_at": "2026-11-01T19:02:18.284208Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_13a7ceff9826166f66a5"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_c5b9bc50bc5c913a2dbe",
+      "quote": "排查新 PRD 入库缺口时,已先在 ceo-os 中发现两份 8 月旧 PRD,但助手明确认为它们不能直接当作这次新写的 PRD。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_ca2251249103e403a59c",
+  "is_temporary": false,
+  "keywords": [
+    "保存位置",
+    "入库缺口",
+    "ceo-os",
+    "旧PRD",
+    "两份8月PRD",
+    "新PRD排查",
+    "文件位置",
+    "audit"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c5b9bc50bc5c913a2dbe",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-01T19:02:18.284208Z",
+  "valid_to": null
+}

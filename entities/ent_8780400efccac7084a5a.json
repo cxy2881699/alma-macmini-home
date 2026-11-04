@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "公司 Mac"
+  ],
+  "created_at": "2026-09-24T03:20:17.224335Z",
+  "description": "用户的公司电脑，计划通过 HTTP+Token 公网模式接入记忆服务，避免安装 Tailscale 与公司安全策略冲突",
+  "id": "ent_8780400efccac7084a5a",
+  "name": "公司电脑",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T08:56:50.227159Z"
+}

@@ -1,0 +1,36 @@
+{
+  "conditions": "用户逐个转发论文 PDF 时前两篇被网关/传输队列卡住。",
+  "confidence": 0.85,
+  "content": "用户转发的两篇 PDF(42 Compute Allocation、07 StructMemEval)在 2026-09-28 11:50 时仅有文件名元数据、文件实体未落盘,主 agent 建议用户检查飞书是否发送失败并重发。",
+  "created_at": "2026-10-06T19:03:07.710259Z",
+  "derived_from": [],
+  "entities": [
+    "ent_22f290112c9557d215ea"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_d80ed93605016f048fbe",
+  "is_temporary": false,
+  "keywords": [
+    "PDF落盘失败",
+    "飞书转发",
+    "42 Compute Allocation",
+    "07 StructMemEval",
+    "重发"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-06T19:03:07.710259Z",
+  "valid_to": null
+}

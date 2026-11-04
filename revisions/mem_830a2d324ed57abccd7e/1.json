@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:59:34.879662Z",
+  "id": "rev_999f38884bdbddfd64a1",
+  "memory": {
+    "conditions": "被墙后用户要求整理可买的干净 IP 及价格",
+    "confidence": 0.7,
+    "content": "用户倾向于购买 IP 段干净、相对贵一些也可接受的新 VPS 做主力,候选方向为 DMIT(LAX Premium TINY $10.9/月 CN2 GIA 或 Tier1 WEE $36.9/年),重视被封可免费换 IP。",
+    "created_at": "2026-10-27T04:59:34.879662Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_830a2d324ed57abccd7e",
+    "is_temporary": false,
+    "keywords": [
+      "DMIT",
+      "CN2 GIA",
+      "原生IP",
+      "买服务器"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-10-27T04:59:34.879662Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_830a2d324ed57abccd7e",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

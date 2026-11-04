@@ -1,0 +1,73 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-26T07:41:45.239657Z",
+  "id": "rev_7e9b6b8389c71d894060",
+  "memory": {
+    "conditions": "后续检查确认此前无法启动的问题已解决，三个 agent-memory 钩子均受信任且激活。",
+    "confidence": 0.7,
+    "content": "曾认为：此前 Codex CLI 因 ARM64 二进制缺失及 Gatekeeper 删除无法启动;2026-09-24 已改用官方 npm 包安装到 /Users/seancao/.local/bin/codex 且 --version 验证成功,下一步是确保 PATH 指向新 CLI 后进入项目目录运行 codex,并在 /hooks 中信任三个 agent-memory 钩子；实际：此前 Codex CLI 曾因 ARM64 二进制缺失及 Gatekeeper 删除无法启动;截至 2026-09-26,Codex CLI 已能启动并进入 /hooks,agent-memory 的 UserPromptSubmit、PostToolUse、Stop 三个钩子均显示 Trusted 且各有 1 个 Active；错误来源：信息过时",
+    "created_at": "2026-09-26T07:41:45.239657Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_f4b6e2340165baec573d",
+        "quote": "曾认为：此前 Codex CLI 因 ARM64 二进制缺失及 Gatekeeper 删除无法启动;2026-09-24 已改用官方 npm 包安装到 /Users/seancao/.local/bin/codex 且 --version 验证成功,下一步是确保 PATH 指向新 CLI 后进入项目目录运行 codex,并在 /hooks 中信任三个 agent-memory 钩子；实际：此前 Codex CLI 曾因 ARM64 二进制缺失及 Gatekeeper 删除无法启动;截至 2026-09-26,Codex CLI 已能启动并进入 /hooks,agent-memory 的 UserPromptSubmit、PostToolUse、Stop 三个钩子均显示 Trusted 且各有 1 个 Active；错误来源：信息过时",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_29cdbc0a4f810441a199",
+    "is_temporary": false,
+    "keywords": [
+      "Codex 修复",
+      "官方安装",
+      ".local/bin",
+      "hooks",
+      "信任钩子",
+      "PATH",
+      "/hooks",
+      "Codex CLI",
+      "npm 安装",
+      "hooks.json",
+      "三个钩子",
+      "ARM64",
+      "Gatekeeper",
+      "三个钩子 Trusted",
+      "UserPromptSubmit",
+      "PostToolUse",
+      "Stop",
+      "Active"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_f4b6e2340165baec573d",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-09-26T07:41:45.239657Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_29cdbc0a4f810441a199",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

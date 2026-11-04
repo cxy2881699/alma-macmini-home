@@ -1,0 +1,58 @@
+{
+  "conditions": "晨报因搜索 API 不可用而只能用官方页面和 RSS 验证来源时检索。",
+  "confidence": 0.8,
+  "content": "截至 2026-10-27 晨报,Brave/百度搜索 API 仍处于缺 key 或鉴权失败状态,晨报来源验证只能依赖官方页面与 RSS 直抓。",
+  "created_at": "2026-10-27T04:42:16.054241Z",
+  "derived_from": [],
+  "entities": [
+    "ent_686eb10ba1184d26e9a3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_21ec0a807d8ab8a39f8f",
+      "quote": "截至 2026-10-27 晨报,Brave/百度搜索 API 仍处于缺 key 或鉴权失败状态,晨报来源验证只能依赖官方页面与 RSS 直抓。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_9048e4da4cc08bacc55f",
+  "is_temporary": false,
+  "keywords": [
+    "晨报",
+    "搜索API",
+    "百度",
+    "Brave",
+    "百度搜索",
+    "API key",
+    "鉴权失败",
+    "RSS",
+    "晨报信源",
+    "Brave API缺key",
+    "百度搜索鉴权失败",
+    "晨报搜索不可用",
+    "RSS直抓",
+    "官方页面验证"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_21ec0a807d8ab8a39f8f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:42:16.054241Z",
+  "valid_to": "2026-10-28"
+}

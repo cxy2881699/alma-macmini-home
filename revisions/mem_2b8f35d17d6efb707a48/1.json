@@ -1,0 +1,76 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:13:24.987245Z",
+  "id": "rev_4a6f117fd31b71470517",
+  "memory": {
+    "conditions": "用户追问更早的记忆和部署后问题,Codex 汇总当时连续暴露的故障层级。",
+    "confidence": 0.85,
+    "content": "记忆项目部署初期的故障是多层叠加而非单点失败:后台服务基本正常,但代理、配置兼容、进程重载、CLI 二进制、hooks 信任、召回验证、管理界面和时区判断连续出问题。",
+    "created_at": "2026-10-27T05:13:24.987245Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_4488e0fdf8d04896269e",
+      "ent_1b0510f6e7579d8f62b3",
+      "ent_1c6b296bc5cb579536f2",
+      "ent_176409fa578ba26c2c5b"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_251281e40be3c2e88a50",
+        "quote": "记忆项目部署初期的故障是多层叠加而非单点失败:后台服务基本正常,但代理、配置兼容、进程重载、CLI 二进制、hooks 信任、召回验证、管理界面和时区判断连续出问题。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_e255c16e5b36c919f3a5",
+        "quote": "记忆项目部署初期的故障是多层叠加而非单点失败:后台服务基本正常,但代理、配置兼容、进程重载、CLI 二进制、hooks 信任、召回验证、管理界面和时区判断连续出问题。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_2b8f35d17d6efb707a48",
+    "is_temporary": false,
+    "keywords": [
+      "部署故障",
+      "多层故障",
+      "记忆系统排障",
+      "代理",
+      "hooks"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_251281e40be3c2e88a50",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_e255c16e5b36c919f3a5",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:13:24.987245Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_2b8f35d17d6efb707a48",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

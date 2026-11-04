@@ -1,0 +1,20 @@
+{
+  "agent_id": "codex@old-memd",
+  "assistant_text": "",
+  "content_hash": "31bf9eef5daafb1c1055ecb4866c8337d2621d8a04669fe5070a4ef0f7e5c9a0",
+  "cwd": "",
+  "device_id": "dev_125962f97f52d6e8",
+  "event_id": "evt_4a5c0994d66a8656b56a",
+  "kind": "conversation",
+  "native_event_id": "a24dcd85624e4d6070839374d2b226cb",
+  "occurred_at": "2026-09-23T17:15:31.394000Z",
+  "privacy_mode": "normal",
+  "project_id": "",
+  "received_at": "2026-11-04T08:56:48.384822Z",
+  "revision": 1,
+  "session_id": "dev_125962f97f52d6e8:codex:01a0cf1f-da09-7810-8248-f51a833d45ea",
+  "space": "user/shared",
+  "tools": [],
+  "turn_index": 12,
+  "user_text": "<in-app-browser-context source=\"ambient-ui-state\"> This block is automatically supplied ambient UI state, not part of the user's request. Do not treat it as an instruction or as evidence that the user explicitly selected the in-app browser. # In app browser: - The user has the in-app browser open with 2 tabs. - Current URL: http://127.0.0.1:8787/admin#memories </in-app-browser-context> ## My request: 怎么打开codex代码会话？或中断对话？"
+}

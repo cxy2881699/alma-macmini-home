@@ -1,0 +1,52 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-29T19:01:38.188622Z",
+  "id": "rev_d45cb5944a2edeaa48b0",
+  "memory": {
+    "conditions": "用户把可被经历持续塑造的 Agent 记忆视为开源记忆底座之上的商业化杀手锏。",
+    "confidence": 0.88,
+    "content": "用户将“可被经历持续塑造、且变化可解释可修正的 Agent 记忆”视为 agent-memory 开源底座之上的关键商业化方向。",
+    "created_at": "2026-09-29T19:01:38.188622Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_4f1ba9bbeed75799fcf7",
+    "is_temporary": false,
+    "keywords": [
+      "开源记忆底座",
+      "NPC",
+      "商业化",
+      "赛博个体",
+      "赛博生命",
+      "商业增强层",
+      "成长引擎",
+      "智能玩具",
+      "游戏NPC",
+      "失控玩家"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-09-29T19:01:38.188622Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_4f1ba9bbeed75799fcf7",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

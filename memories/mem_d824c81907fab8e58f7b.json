@@ -1,0 +1,72 @@
+{
+  "conditions": "定位2026-10-27用户发起的火山引擎非汽车战略合作公开稿核查任务。",
+  "confidence": 0.95,
+  "content": "2026-10-27,用户派出subagent调研火山引擎与亿咖通、中手游、蓝河乳业、九江银行、招商银行、欧莱雅中国、安永等非汽车企业的战略合作公开PR稿,并要求补充华泰证券等重磅案例,逐案核实签约日期、双方出席人、合作内容、政府官员出席和后续落地。",
+  "created_at": "2026-10-27T18:36:31.641604Z",
+  "derived_from": [],
+  "entities": [
+    "ent_b6e5f07139d194f4aaa5",
+    "ent_105fc292e091fe6a4460",
+    "ent_37783a2ec4f76cbda2eb",
+    "ent_1d6d4c9d65e3d798daed",
+    "ent_56a800d185284bc3a07f",
+    "ent_20297c3dafa0a39e0659",
+    "ent_573e3bf566fea86b5f10",
+    "ent_4819fe6349d47c2d4e6c",
+    "ent_af9a54b0d61a7281cb7a"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_58bfeab114e9d0bc2f6a",
+      "quote": "2026-10-27,用户派出subagent调研火山引擎与亿咖通、中手游、蓝河乳业、九江银行、招商银行、欧莱雅中国、安永等非汽车企业的战略合作公开PR稿,并要求补充华泰证券等重磅案例,逐案核实签约日期、双方出席人、合作内容、政府官员出席和后续落地。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_d824c81907fab8e58f7b",
+  "is_temporary": false,
+  "keywords": [
+    "火山引擎",
+    "非汽车企业",
+    "PR稿",
+    "公开PR稿",
+    "战略合作",
+    "出席人",
+    "政府官员",
+    "后续落地",
+    "URL",
+    "非汽车企业调研",
+    "战略合作PR",
+    "公开稿核查",
+    "华泰证券补充案例",
+    "subagent调研",
+    "非汽车PR",
+    "亿咖通",
+    "中手游",
+    "蓝河乳业",
+    "招商银行",
+    "欧莱雅中国"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_58bfeab114e9d0bc2f6a",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-10-27T18:36:31.641604Z",
+  "valid_to": null
+}

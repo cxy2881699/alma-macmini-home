@@ -1,0 +1,86 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:39:38.541425Z",
+  "id": "rev_304cb81416b5e670ae4e",
+  "memory": {
+    "conditions": "助手在不了解同学口味和餐食时直接推荐威士忌，被用户追问并否定其依据。",
+    "confidence": 0.9,
+    "content": "在为熟人聚会选酒或礼物时,用户不接受缺少个人偏好依据的武断推荐,更希望 Agent 先查记忆和审计,再结合关系、餐食和对方口味给建议。",
+    "created_at": "2026-10-27T05:39:38.541425Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_1b0510f6e7579d8f62b3",
+      "ent_774067d2559ca01157a7"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_cba7676006be064cd2bd",
+        "quote": "在为熟人聚会选酒或礼物时,用户不接受缺少个人偏好依据的武断推荐,更希望 Agent 先查记忆和审计,再结合关系、餐食和对方口味给建议。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_16a5121fc9adff39be5f",
+        "quote": "在为熟人聚会选酒或礼物时,用户不接受缺少个人偏好依据的武断推荐,更希望 Agent 先查记忆和审计,再结合关系、餐食和对方口味给建议。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_eb8e22eba28b96270165",
+    "is_temporary": false,
+    "keywords": [
+      "熟人建议",
+      "依据不足",
+      "审计",
+      "酒水推荐",
+      "威士忌推荐",
+      "熟人选酒",
+      "不要武断",
+      "选酒",
+      "武断推荐",
+      "对方口味",
+      "选酒建议",
+      "个人偏好依据",
+      "不要武断推荐",
+      "大学同学",
+      "带什么酒",
+      "熟人礼物",
+      "同学聚会",
+      "口味依据",
+      "先查记忆"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_cba7676006be064cd2bd",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_16a5121fc9adff39be5f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-27T05:39:38.541425Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_eb8e22eba28b96270165",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

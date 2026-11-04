@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-24：凌晨用户核查自建记忆服务在 Codex 与 OpenClaw 中的接入情况,确认写入已通但自动召回存在问题;随后修复 OpenClaw 的 Tailscale/代理与不兼容配置问题并恢复网关,最后指导用户到 Codex CLI 的 /hooks 面板信任钩子。",
+  "created_at": "2026-10-09T19:00:42.547814Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_6db9cf4059e759b01b48",
+      "quote": "2026-09-24：凌晨用户核查自建记忆服务在 Codex 与 OpenClaw 中的接入情况,确认写入已通但自动召回存在问题;随后修复 OpenClaw 的 Tailscale/代理与不兼容配置问题并恢复网关,最后指导用户到 Codex CLI 的 /hooks 面板信任钩子。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_495c8440ba72acbf433d",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_6db9cf4059e759b01b48",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-09T19:00:42.547814Z",
+  "valid_to": null
+}

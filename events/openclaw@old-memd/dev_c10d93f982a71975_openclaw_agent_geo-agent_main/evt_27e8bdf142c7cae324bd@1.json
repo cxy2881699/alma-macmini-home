@@ -1,0 +1,20 @@
+{
+  "agent_id": "openclaw@old-memd",
+  "assistant_text": "正常",
+  "content_hash": "d4d2c8bb047ad216817ebbd03cd0dd377fed1630d4bf9b606619842199a8d841",
+  "cwd": "",
+  "device_id": "dev_c10d93f982a71975",
+  "event_id": "evt_27e8bdf142c7cae324bd",
+  "kind": "conversation",
+  "native_event_id": "13ccfc5ef96b195143c68d0857c8a9bd",
+  "occurred_at": "2026-10-12T16:44:04.205000Z",
+  "privacy_mode": "normal",
+  "project_id": "",
+  "received_at": "2026-11-04T08:56:49.575666Z",
+  "revision": 1,
+  "session_id": "dev_c10d93f982a71975:openclaw:agent:geo-agent:main",
+  "space": "user/shared",
+  "tools": [],
+  "turn_index": 9,
+  "user_text": "[Mon 2026-10-12 09:44 PDT] 只回复两个字：正常"
+}

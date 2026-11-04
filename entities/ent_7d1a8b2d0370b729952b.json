@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "奇瑞"
+  ],
+  "created_at": "2026-10-27T18:35:13.611211Z",
+  "description": "中国汽车集团，2026-04-24 在北京与火山引擎签署战略合作。",
+  "id": "ent_7d1a8b2d0370b729952b",
+  "name": "奇瑞汽车",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "organization",
+  "updated_at": "2026-11-04T08:56:50.223472Z"
+}

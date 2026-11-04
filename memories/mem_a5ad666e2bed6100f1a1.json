@@ -1,0 +1,43 @@
+{
+  "conditions": "",
+  "confidence": 0.95,
+  "content": "用户希望记忆系统能够清楚标识每条记忆来自哪个设备和哪个 Agent,以便区分跨 Agent、跨设备汇入的数据。",
+  "created_at": "2026-09-23T17:32:16.725875Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_f6a8907352cb487592d5",
+      "quote": "用户希望记忆系统能够清楚标识每条记忆来自哪个设备和哪个 Agent,以便区分跨 Agent、跨设备汇入的数据。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_a5ad666e2bed6100f1a1",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_f6a8907352cb487592d5",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-09-23T17:32:16.725875Z",
+  "valid_to": null
+}

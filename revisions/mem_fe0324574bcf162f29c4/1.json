@@ -1,0 +1,57 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-01T19:04:40.803258Z",
+  "id": "rev_f337a0765d0da4b6e8b1",
+  "memory": {
+    "conditions": "用户连续布置框架文档、文献综述、架构调研和 API 元数据检索任务。",
+    "confidence": 0.82,
+    "content": "用户在推进个人逆向映射系统时采用“科普框架→严肃文献核验→计算架构选型→真实文献元数据抓取”的递进式研究路径,且每一步都要求可追溯证据。",
+    "created_at": "2026-11-01T19:04:40.803258Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8d3f3ac718d007dd877d",
+        "quote": "用户在推进个人逆向映射系统时采用“科普框架→严肃文献核验→计算架构选型→真实文献元数据抓取”的递进式研究路径,且每一步都要求可追溯证据。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_fe0324574bcf162f29c4",
+    "is_temporary": false,
+    "keywords": [
+      "研究流程",
+      "证据核验",
+      "架构选型",
+      "文献检索",
+      "逆向映射"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8d3f3ac718d007dd877d",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-01T19:04:40.803258Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_fe0324574bcf162f29c4",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-24：当天主要在排查并打通 Codex 的记忆 hook:先确认桌面窗口与 CLI 的差异,修复 CLI 安装和 Gatekeeper 问题,随后在 CLI 中信任三个 hook 并用审计记录验证 recall/capture 生效;期间还确认了 OpenClaw 的后台清理与来源展示改造,以及一次由 Neo4j 停止引发的记忆服务重启循环。",
+  "created_at": "2026-10-09T19:01:14.865165Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_f43c83f7f1f5cdacef20",
+      "quote": "2026-09-24：当天主要在排查并打通 Codex 的记忆 hook:先确认桌面窗口与 CLI 的差异,修复 CLI 安装和 Gatekeeper 问题,随后在 CLI 中信任三个 hook 并用审计记录验证 recall/capture 生效;期间还确认了 OpenClaw 的后台清理与来源展示改造,以及一次由 Neo4j 停止引发的记忆服务重启循环。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_e58d6740da02647c9990",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_f43c83f7f1f5cdacef20",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-09T19:01:14.865165Z",
+  "valid_to": null
+}

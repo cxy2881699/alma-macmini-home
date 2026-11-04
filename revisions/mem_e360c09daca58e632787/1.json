@@ -1,0 +1,46 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-31T19:05:31.902510Z",
+  "id": "rev_8ae072abbc91151b02d4",
+  "memory": {
+    "conditions": "助手根据 DMIT 三天无理由退款，将采购顺序设计为先验证主通道再扩展。",
+    "confidence": 0.72,
+    "content": "用户在网络方案上偏好可验证、可退款、低试错成本的采购路径:先买主 VPS 并在退款期测试,再决定住宅 IP 和后续配置。",
+    "created_at": "2026-10-31T19:05:31.902510Z",
+    "derived_from": [],
+    "entities": [
+      "ent_51b9c91560022845906c"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_e360c09daca58e632787",
+    "is_temporary": false,
+    "keywords": [
+      "先测后买",
+      "退款期",
+      "低试错成本",
+      "VPS采购",
+      "Claude可达性"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-31T19:05:31.902510Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e360c09daca58e632787",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

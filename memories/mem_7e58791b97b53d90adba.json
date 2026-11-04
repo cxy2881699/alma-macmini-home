@@ -1,0 +1,62 @@
+{
+  "conditions": "整理签约活动名单时，只能采用签约稿明确记载，不能用后续活动人物补推。",
+  "confidence": 0.86,
+  "content": "在火山引擎汽车合作公开稿核查中,出席人信息应严格限定为签约稿明确记载;后续活动致辞或见签不能倒推为签约出席人。",
+  "created_at": "2026-10-29T19:09:51.244344Z",
+  "derived_from": [],
+  "entities": [
+    "ent_1002d231aa8e29c9351b",
+    "ent_b6e5f07139d194f4aaa5"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_d4ea596374d100c7cd4f",
+      "quote": "在火山引擎汽车合作公开稿核查中,出席人信息应严格限定为签约稿明确记载;后续活动致辞或见签不能倒推为签约出席人。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_7e58791b97b53d90adba",
+  "is_temporary": false,
+  "keywords": [
+    "出席人",
+    "倒推",
+    "公开稿核查",
+    "出席人核查",
+    "签约稿",
+    "政府官员见证",
+    "出席名单",
+    "致辞倒推",
+    "政府官员",
+    "签约稿原文",
+    "证据边界",
+    "出席人核对",
+    "签约代表",
+    "见签",
+    "后续致辞",
+    "不能倒推",
+    "职务口径"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d4ea596374d100c7cd4f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-29T19:09:51.244344Z",
+  "valid_to": null
+}

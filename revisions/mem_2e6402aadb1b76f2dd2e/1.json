@@ -1,0 +1,53 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:19:40.101864Z",
+  "id": "rev_0f8cc37ddc352693c1da",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.85,
+    "content": "用户计划购买 dmit.io 的 LAX Premium TINY 作为主 VPS,套餐价格 10.9 美元/月、线路 CN2 GIA,支持 3 天无理由退款且 IP 被封 15 天内可免费换一次。",
+    "created_at": "2026-10-27T04:19:40.101864Z",
+    "derived_from": [],
+    "entities": [
+      "ent_c77a5f5a7949c71398a9"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_af943030f4b33235f412",
+        "quote": "用户计划购买 dmit.io 的 LAX Premium TINY 作为主 VPS,套餐价格 10.9 美元/月、线路 CN2 GIA,支持 3 天无理由退款且 IP 被封 15 天内可免费换一次。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_2e6402aadb1b76f2dd2e",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_af943030f4b33235f412",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:19:40.101864Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_2e6402aadb1b76f2dd2e",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

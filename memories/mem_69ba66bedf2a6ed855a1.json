@@ -1,0 +1,45 @@
+{
+  "conditions": "",
+  "confidence": 0.95,
+  "content": "OpenClaw 经其代理机制访问 Tailscale MagicDNS 地址 seanmac-mini.tail92d6fe.ts.net:8787 时会报 fetch failed / UND_ERR_SOCKET,而访问本机地址 127.0.0.1:8787 返回正常;修复方向是让这台 Mac 上的客户端连接本机地址。",
+  "created_at": "2026-09-23T17:06:32.060349Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_9f82bdbcda91e1775def",
+    "ent_421c00dde9a1b98fc969"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_e592743b9360c4d4c4fb",
+      "quote": "OpenClaw 经其代理机制访问 Tailscale MagicDNS 地址 seanmac-mini.tail92d6fe.ts.net:8787 时会报 fetch failed / UND_ERR_SOCKET,而访问本机地址 127.0.0.1:8787 返回正常;修复方向是让这台 Mac 上的客户端连接本机地址。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_69ba66bedf2a6ed855a1",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_e592743b9360c4d4c4fb",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-23T17:06:32.060349Z",
+  "valid_to": null
+}

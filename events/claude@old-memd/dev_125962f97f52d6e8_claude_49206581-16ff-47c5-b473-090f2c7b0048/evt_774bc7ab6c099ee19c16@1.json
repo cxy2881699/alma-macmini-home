@@ -1,0 +1,20 @@
+{
+  "agent_id": "claude@old-memd",
+  "assistant_text": "OK",
+  "content_hash": "4adfcfd0dcc081cba17a91995c2d87e029894277a0bea4980340dfda53b3417b",
+  "cwd": "",
+  "device_id": "dev_125962f97f52d6e8",
+  "event_id": "evt_774bc7ab6c099ee19c16",
+  "kind": "conversation",
+  "native_event_id": "fae2fad899cdda18e4f59d9760543cee",
+  "occurred_at": "2026-11-04T08:41:48.650000Z",
+  "privacy_mode": "normal",
+  "project_id": "",
+  "received_at": "2026-11-04T08:56:50.172809Z",
+  "revision": 1,
+  "session_id": "dev_125962f97f52d6e8:claude:49206581-16ff-47c5-b473-090f2c7b0048",
+  "space": "user/shared",
+  "tools": [],
+  "turn_index": 0,
+  "user_text": "Reply with exactly OK"
+}

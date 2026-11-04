@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:39:59.973407Z",
+  "id": "rev_977bf4f8d1331ae3f4e3",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-26：当天凌晨继续排查 agent-memory 静默丢消息问题,确认客户端轮次 ID 与服务端冲突处理均有风险,服务端改动暂不定稿;下午确认 Codex hooks 信任状态、读取近期记忆,并深入讨论可成长记忆作为开源底座之上的商业方向,以及数字逝者和 NPC 个体成长的伦理边界。",
+    "created_at": "2026-10-27T04:39:59.973407Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_16d2615f00ae766bb32b",
+        "quote": "2026-09-26：当天凌晨继续排查 agent-memory 静默丢消息问题,确认客户端轮次 ID 与服务端冲突处理均有风险,服务端改动暂不定稿;下午确认 Codex hooks 信任状态、读取近期记忆,并深入讨论可成长记忆作为开源底座之上的商业方向,以及数字逝者和 NPC 个体成长的伦理边界。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_c046cb0c818818ddc5c0",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_16d2615f00ae766bb32b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-27T04:39:59.973407Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_c046cb0c818818ddc5c0",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

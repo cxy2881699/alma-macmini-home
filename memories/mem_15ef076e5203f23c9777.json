@@ -1,0 +1,60 @@
+{
+  "conditions": "用户在本机 admin#audit 页面发现 Agent 新写的 PRD 没有写入记忆库，追问文件实际保存到哪里。",
+  "confidence": 0.86,
+  "content": "用户在 admin audit 页面发现一份由 Agent 新写的 PRD 未成功写入记忆库,并追问该文件实际保存位置;这是一次待排查的入库缺口,不应把旧 PRD 当作答案。",
+  "created_at": "2026-10-27T04:40:36.562120Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e",
+    "ent_13a7ceff9826166f66a5"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_c5b9bc50bc5c913a2dbe",
+      "quote": "用户在 admin audit 页面发现一份由 Agent 新写的 PRD 未成功写入记忆库,并追问该文件实际保存位置;这是一次待排查的入库缺口,不应把旧 PRD 当作答案。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_15ef076e5203f23c9777",
+  "is_temporary": false,
+  "keywords": [
+    "文件落盘",
+    "记忆写入",
+    "PRD未写入",
+    "落盘与入库",
+    "8787",
+    "入库缺口",
+    "文件保存位置",
+    "新PRD",
+    "PRD未入库",
+    "admin audit",
+    "审计页",
+    "保存位置",
+    "ceo-os",
+    "记忆库缺口"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c5b9bc50bc5c913a2dbe",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "disputed",
+  "status_reason": "migrated from old agent-memory (disputed)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:47:21.821022Z",
+  "valid_to": null
+}

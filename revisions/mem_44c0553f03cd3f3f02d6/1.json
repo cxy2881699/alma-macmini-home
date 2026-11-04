@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:19:34.675559Z",
+  "id": "rev_36e3f954ef66c4568522",
+  "memory": {
+    "conditions": "用户要求 Agent 从历史记忆中找出当初购买和部署的服务商。",
+    "confidence": 0.9,
+    "content": "用户的 VPS 购买商被确认为 RackNerd,机房为洛杉矶 DC02,底层走 ColoCrossing/AS36352;该 IP 为 155.94.145.75,约在 2026-10-13 下单。",
+    "created_at": "2026-10-27T05:19:34.675559Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_44c0553f03cd3f3f02d6",
+    "is_temporary": false,
+    "keywords": [
+      "RackNerd",
+      "VPS供应商",
+      "洛杉矶DC02",
+      "AS36352"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:19:34.675559Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_44c0553f03cd3f3f02d6",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

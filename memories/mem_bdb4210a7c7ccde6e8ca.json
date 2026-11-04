@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-10-18：当晚用户持续排查 MacBook 上 Clash Verge 无法接管系统代理的问题:先发现终端残留 8118/8119 代理环境变量,清理后直连 Google 失败;随后尝试手动把 Wi-Fi 代理写入 7897,但 scutil 全局视图仍显示 HTTPEnable:0,问题在该段结束前未闭环。",
+  "created_at": "2026-11-01T19:03:44.551299Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_9b89f58175c1b2aeb7e1",
+      "quote": "2026-10-18：当晚用户持续排查 MacBook 上 Clash Verge 无法接管系统代理的问题:先发现终端残留 8118/8119 代理环境变量,清理后直连 Google 失败;随后尝试手动把 Wi-Fi 代理写入 7897,但 scutil 全局视图仍显示 HTTPEnable:0,问题在该段结束前未闭环。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_bdb4210a7c7ccde6e8ca",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_9b89f58175c1b2aeb7e1",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-11-01T19:03:44.551299Z",
+  "valid_to": null
+}

@@ -1,0 +1,59 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-03T19:07:04.225050Z",
+  "id": "rev_b2559347190640ffa994",
+  "memory": {
+    "conditions": "用户要求逐案核查火山引擎非汽车战略合作PR稿中的政府官员出席情况。",
+    "confidence": 0.9,
+    "content": "非汽车案例中,九江银行是本次所列签约稿里唯一明确记载政府官员见证的案例;其余案例只能表述为稿件未提及政府官员。",
+    "created_at": "2026-11-03T19:07:04.225050Z",
+    "derived_from": [],
+    "entities": [
+      "ent_b6e5f07139d194f4aaa5",
+      "ent_56a800d185284bc3a07f"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_58bfeab114e9d0bc2f6a",
+        "quote": "非汽车案例中,九江银行是本次所列签约稿里唯一明确记载政府官员见证的案例;其余案例只能表述为稿件未提及政府官员。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_94ccf558ded8b12e2dc9",
+    "is_temporary": false,
+    "keywords": [
+      "政府官员",
+      "见证签约",
+      "非汽车案例",
+      "九江银行"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_58bfeab114e9d0bc2f6a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-03T19:07:04.225050Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_94ccf558ded8b12e2dc9",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:19:34.675559Z",
+  "id": "rev_36525939ee64728193cc",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-10-27：用户发现自建 RackNerd 洛杉矶 Reality 节点无法使用,Agent 通过国内外节点、同网段邻居和手机 4G 交叉验证,判断为单 IP 被 GFW 封锁;随后讨论 RackNerd 换 IP、防封、被墙机器改作 Cloudflare 回源,以及购买 DMIT/日本等更干净节点。",
+    "created_at": "2026-10-27T05:19:34.675559Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_876285daee49a79ec31a",
+        "quote": "2026-10-27：用户发现自建 RackNerd 洛杉矶 Reality 节点无法使用,Agent 通过国内外节点、同网段邻居和手机 4G 交叉验证,判断为单 IP 被 GFW 封锁;随后讨论 RackNerd 换 IP、防封、被墙机器改作 Cloudflare 回源,以及购买 DMIT/日本等更干净节点。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_3db0af692decc48973ec",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_876285daee49a79ec31a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-27T05:19:34.675559Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_3db0af692decc48973ec",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

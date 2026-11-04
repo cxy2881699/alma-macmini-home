@@ -1,0 +1,55 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T16:53:56.566341Z",
+  "id": "rev_bafd02ffeb1bfcc19daa",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.9,
+    "content": "用户 Mac 浏览器走 MonoProxy 代理,*.ts.net 的 Tailscale 私网域名流量被代理劫持,导致记忆系统管理页面(http://seanmac-mini.tail92d6fe.ts.net:8787/admin)打不开;本机 127.0.0.1:8787 直连正常(HTTP 200)。解决办法是在 MonoProxy 中把 ts.net 加直连规则,或用 open http://127.0.0.1:8787/admin 访问。",
+    "created_at": "2026-09-23T16:53:56.566341Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_f90a16b26a8ab1d551fc",
+      "ent_0674430ba5d897eb2671"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_e9736354e0fd65e97742",
+        "quote": "用户 Mac 浏览器走 MonoProxy 代理,*.ts.net 的 Tailscale 私网域名流量被代理劫持,导致记忆系统管理页面(http://seanmac-mini.tail92d6fe.ts.net:8787/admin)打不开;本机 127.0.0.1:8787 直连正常(HTTP 200)。解决办法是在 MonoProxy 中把 ts.net 加直连规则,或用 open http://127.0.0.1:8787/admin 访问。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_b35db888a4f82204e11f",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_e9736354e0fd65e97742",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-23T16:53:56.566341Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_b35db888a4f82204e11f",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

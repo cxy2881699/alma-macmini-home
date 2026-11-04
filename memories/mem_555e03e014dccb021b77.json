@@ -1,0 +1,50 @@
+{
+  "conditions": "旧 RackNerd 中国方向被封后，仍可经新 VPS 从境外跳转管理。",
+  "confidence": 0.86,
+  "content": "被封的旧 RackNerd VPS 可通过新 VPS 做 SSH 跳板访问,命令形态为 ssh -J root@新IP root@155.94.145.75,因为境外到境外不经过 GFW。",
+  "created_at": "2026-10-27T04:20:03.808891Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6ebee10dda1843bbd843",
+    "ent_c77a5f5a7949c71398a9"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_af943030f4b33235f412",
+      "quote": "被封的旧 RackNerd VPS 可通过新 VPS 做 SSH 跳板访问,命令形态为 ssh -J root@新IP root@155.94.145.75,因为境外到境外不经过 GFW。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_555e03e014dccb021b77",
+  "is_temporary": false,
+  "keywords": [
+    "ProxyJump",
+    "ssh -J",
+    "旧VPS登录",
+    "境外跳板",
+    "155.94.145.75"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_af943030f4b33235f412",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:20:03.808891Z",
+  "valid_to": null
+}

@@ -1,0 +1,33 @@
+{
+  "conditions": "用户要求 Agent 从记忆中找出当初购买的供应商。",
+  "confidence": 0.9,
+  "content": "用户的自建代理 VPS 是在 RackNerd 购买,机房为洛杉矶 DC02,底层为 ColoCrossing/AS36352;该组合被认为是大陆方向高风险、易被墙段。",
+  "created_at": "2026-10-27T19:08:43.459812Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_8f5bc42d9e95c553e2bf",
+  "is_temporary": false,
+  "keywords": [
+    "RackNerd",
+    "ColoCrossing",
+    "洛杉矶机房",
+    "AS36352"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T19:08:43.459812Z",
+  "valid_to": null
+}

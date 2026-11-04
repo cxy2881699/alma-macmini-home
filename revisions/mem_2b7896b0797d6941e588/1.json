@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-31T19:00:41.062047Z",
+  "id": "rev_0b9652b058238c8888cd",
+  "memory": {
+    "conditions": "用户看到小红书互动后认可做后续，但明确不公开完整实现。",
+    "confidence": 0.72,
+    "content": "用户在公开内容运营上倾向把高互动评论区转化为后续选题,但会控制技术披露深度以服务商业化。",
+    "created_at": "2026-10-31T19:00:41.062047Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e",
+      "ent_c3f9f077f1f3ceaddd2f"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_9325e41c677a9fe03725",
+        "quote": "用户在公开内容运营上倾向把高互动评论区转化为后续选题,但会控制技术披露深度以服务商业化。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_2b7896b0797d6941e588",
+    "is_temporary": false,
+    "keywords": [
+      "内容运营",
+      "后续选题",
+      "技术披露",
+      "开源边界"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_9325e41c677a9fe03725",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-31T19:00:41.062047Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_2b7896b0797d6941e588",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

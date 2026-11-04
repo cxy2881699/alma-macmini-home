@@ -1,0 +1,59 @@
+{
+  "conditions": "该记忆描述修复前的待决策状态，可用于追溯但不再代表当前状态。",
+  "confidence": 0.9,
+  "content": "针对 memd 任务堆积,Agent 建议重启 memd、批量重试 197 个失败任务,并将连接池从 16 提升到 64 且限制 worker 并发;用户尚未选择执行范围。",
+  "created_at": "2026-10-27T04:20:03.808891Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8395beca681a6a0993af",
+      "quote": "针对 memd 任务堆积,Agent 建议重启 memd、批量重试 197 个失败任务,并将连接池从 16 提升到 64 且限制 worker 并发;用户尚未选择执行范围。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_2966297bf93e4cf65820",
+  "is_temporary": true,
+  "keywords": [
+    "重启memd",
+    "197失败任务",
+    "待用户选择",
+    "PoolTimeout恢复方案",
+    "memd重启",
+    "批量重试",
+    "197个失败任务",
+    "连接池64",
+    "worker并发",
+    "PoolTimeout",
+    "已执行方案",
+    "重启 memd",
+    "197 任务重试",
+    "连接池 64",
+    "历史待办"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8395beca681a6a0993af",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-10-27T04:20:03.808891Z",
+  "valid_to": "2026-10-27"
+}

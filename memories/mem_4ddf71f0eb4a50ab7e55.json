@@ -1,0 +1,68 @@
+{
+  "conditions": "文献调研初次运行时联网和执行工具被非交互环境拦截，随后改为限定目录和 API 白名单。",
+  "confidence": 0.86,
+  "content": "在该非交互环境中,最初 WebSearch、WebFetch、curl/python3 等联网或执行权限被自动中止;随后用户将任务隔离到 /tmp/lit-hormone,并明确授权仅用 Bash+curl 调三个文献 API,Crossref 与 PubMed 成为可用检索路径。",
+  "created_at": "2026-10-27T19:07:18.012222Z",
+  "derived_from": [],
+  "entities": [
+    "ent_16155c4beee90c991d14"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8d3f3ac718d007dd877d",
+      "quote": "在该非交互环境中,最初 WebSearch、WebFetch、curl/python3 等联网或执行权限被自动中止;随后用户将任务隔离到 /tmp/lit-hormone,并明确授权仅用 Bash+curl 调三个文献 API,Crossref 与 PubMed 成为可用检索路径。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_7bab4433029e0047b9ba",
+      "quote": "在该非交互环境中,最初 WebSearch、WebFetch、curl/python3 等联网或执行权限被自动中止;随后用户将任务隔离到 /tmp/lit-hormone,并明确授权仅用 Bash+curl 调三个文献 API,Crossref 与 PubMed 成为可用检索路径。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_4ddf71f0eb4a50ab7e55",
+  "is_temporary": false,
+  "keywords": [
+    "API 检索",
+    "文献元数据",
+    "权限中止",
+    "权限限制",
+    "非交互会话",
+    "curl 授权",
+    "权限受限",
+    "自动中止",
+    "WebSearch 不可用",
+    "curl",
+    "Crossref",
+    "PubMed",
+    "Semantic Scholar 429"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8d3f3ac718d007dd877d",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_7bab4433029e0047b9ba",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T19:07:18.012222Z",
+  "valid_to": "2026-10-22"
+}

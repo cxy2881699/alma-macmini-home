@@ -1,0 +1,57 @@
+{
+  "conditions": "PRD 中讨论写入时蒸馏 vs 读取时整理时",
+  "confidence": 0.9,
+  "content": "2026H2 综述显示写入时蒸馏(write-time distillation)被正面挑战:Salesforce JIT Memory 中未训练的 read-time curator 即胜过所有 write-time 方法;EdgeMem 零 LLM 调用构建记忆却在 LoCoMo 上取得最优。",
+  "created_at": "2026-09-29T04:25:24.395722Z",
+  "derived_from": [],
+  "entities": [
+    "ent_7d78c1639a0001d26261",
+    "ent_a009e810e6646b0cf76b"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_56b471b2ce769966e5ab",
+      "quote": "2026H2 综述显示写入时蒸馏(write-time distillation)被正面挑战:Salesforce JIT Memory 中未训练的 read-time curator 即胜过所有 write-time 方法;EdgeMem 零 LLM 调用构建记忆却在 LoCoMo 上取得最优。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_6ab17c4799f73b3c870e",
+  "is_temporary": false,
+  "keywords": [
+    "蒸馏",
+    "write-time",
+    "零 LLM 调用",
+    "写入时蒸馏",
+    "零LLM",
+    "JIT Memory",
+    "EdgeMem",
+    "read-time curator",
+    "write-time distillation",
+    "LoCoMo",
+    "零LLM调用",
+    "Salesforce"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_56b471b2ce769966e5ab",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-29T04:25:24.395722Z",
+  "valid_to": null
+}

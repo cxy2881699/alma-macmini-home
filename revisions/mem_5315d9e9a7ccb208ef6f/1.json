@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:23:13.764573Z",
+  "id": "rev_de024eb4991afc5e36ba",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-29：宇哥通过 subagent 派发 49 篇 2026H2 Agent Memory 论文的全景综述任务;subagent 完成全文提取(含 4 篇损坏修复)、分批阅读并交付 SURVEY-2026H2.md,回报 5 项关键发现。",
+    "created_at": "2026-10-27T05:23:13.764573Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_56b471b2ce769966e5ab",
+        "quote": "2026-09-29：宇哥通过 subagent 派发 49 篇 2026H2 Agent Memory 论文的全景综述任务;subagent 完成全文提取(含 4 篇损坏修复)、分批阅读并交付 SURVEY-2026H2.md,回报 5 项关键发现。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_5315d9e9a7ccb208ef6f",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_56b471b2ce769966e5ab",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-27T05:23:13.764573Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_5315d9e9a7ccb208ef6f",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

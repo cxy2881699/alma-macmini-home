@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-31T19:01:32.857754Z",
+  "id": "rev_090cdae05b272f6d5601",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-26：用户与 Codex 深入讨论可进化记忆系统的重要性判断、总体架构和 PRD 落库;最终 PRD v0.1 已上传记忆库,但普通 Agent 仍可能无法直接读取全文。",
+    "created_at": "2026-10-31T19:01:32.857754Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_8747147e4e4a8cd6b63f",
+        "quote": "2026-09-26：用户与 Codex 深入讨论可进化记忆系统的重要性判断、总体架构和 PRD 落库;最终 PRD v0.1 已上传记忆库,但普通 Agent 仍可能无法直接读取全文。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_4cf49f96aaeab33ba9df",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8747147e4e4a8cd6b63f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-31T19:01:32.857754Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_4cf49f96aaeab33ba9df",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

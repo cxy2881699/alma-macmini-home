@@ -1,0 +1,65 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:38:59.405864Z",
+  "id": "rev_093ff0a0d6bfafd2c49e",
+  "memory": {
+    "conditions": "PoolTimeout 修复后仍有历史 extract 积压，是否调高并发尚未确认。",
+    "confidence": 0.85,
+    "content": "后台记忆任务在修复前仍有约 162 个 extract 待消化;提高 MEMD_LLM_CONCURRENCY 可加快处理,但不是正确性必需项。",
+    "created_at": "2026-10-27T05:38:59.405864Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_1b0510f6e7579d8f62b3"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_9d10a69084bd77edc45a",
+        "quote": "后台记忆任务在修复前仍有约 162 个 extract 待消化;提高 MEMD_LLM_CONCURRENCY 可加快处理,但不是正确性必需项。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_98d0177397ee522fe905",
+    "is_temporary": false,
+    "keywords": [
+      "后台队列",
+      "extract 积压",
+      "162个extract",
+      "worker并发2",
+      "后台队列消化",
+      "162 extract",
+      "MEMD_LLM_CONCURRENCY",
+      "worker 并发",
+      "队列消化",
+      "memd.env"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_9d10a69084bd77edc45a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:38:59.405864Z",
+    "valid_to": "2026-10-27"
+  },
+  "memory_id": "mem_98d0177397ee522fe905",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

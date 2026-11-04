@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-05T19:02:41.049708Z",
+  "id": "rev_d244dda2ae8531d9b448",
+  "memory": {
+    "conditions": "Agent 解释强刷后个别记忆仍可能没有来源标签的原因。",
+    "confidence": 0.78,
+    "content": "旧记忆若缺少 SourceEvent 关系,管理后台来源列可能显示“—”;新对话产生的记忆才会自动带来源标签。",
+    "created_at": "2026-10-05T19:02:41.049708Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_fced576e2338a7e33460",
+        "quote": "旧记忆若缺少 SourceEvent 关系,管理后台来源列可能显示“—”;新对话产生的记忆才会自动带来源标签。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_e0542f0e6a1d4a844bb4",
+    "is_temporary": false,
+    "keywords": [
+      "历史数据",
+      "来源为空",
+      "SourceEvent",
+      "extract",
+      "旧记忆"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_fced576e2338a7e33460",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-05T19:02:41.049708Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e0542f0e6a1d4a844bb4",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

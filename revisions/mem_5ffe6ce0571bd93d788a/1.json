@@ -1,0 +1,57 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-30T19:04:30.064348Z",
+  "id": "rev_21338005f0c57e8654d7",
+  "memory": {
+    "conditions": "用户为文献抓取设置 API、日志和不得自行拼接 DOI 的硬约束。",
+    "confidence": 0.86,
+    "content": "在技术或研究任务中,用户偏好先验证关键事实与外部资料,再形成结论或撰写文档,不能凭记忆补全。",
+    "created_at": "2026-10-30T19:04:30.064348Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8d3f3ac718d007dd877d",
+        "quote": "在技术或研究任务中,用户偏好先验证关键事实与外部资料,再形成结论或撰写文档,不能凭记忆补全。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_5ffe6ce0571bd93d788a",
+    "is_temporary": false,
+    "keywords": [
+      "真实引用",
+      "DOI",
+      "API 返回",
+      "事实核查",
+      "禁止编造"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8d3f3ac718d007dd877d",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-30T19:04:30.064348Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_5ffe6ce0571bd93d788a",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

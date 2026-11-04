@@ -1,0 +1,62 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-05T19:02:24.650794Z",
+  "id": "rev_a050224147e78016ee58",
+  "memory": {
+    "conditions": "用户怀疑记忆搜索慢，Codex 实测并解释轻量召回与深度召回的差异。",
+    "confidence": 0.86,
+    "content": "2026-09-24 凌晨本机轻量记忆召回实测通常约20–40ms、最慢约110ms,且该路径包含 Neo4j 图检索;未完整等待方舟 Embedding 与向量深度检索。",
+    "created_at": "2026-10-05T19:02:24.650794Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e",
+      "ent_1b0510f6e7579d8f62b3",
+      "ent_176409fa578ba26c2c5b"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_b5c4a9b1810f60adccbd",
+        "quote": "2026-09-24 凌晨本机轻量记忆召回实测通常约20–40ms、最慢约110ms,且该路径包含 Neo4j 图检索;未完整等待方舟 Embedding 与向量深度检索。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_e637609223db029cc8b3",
+    "is_temporary": false,
+    "keywords": [
+      "召回延迟",
+      "Neo4j",
+      "向量检索",
+      "Embedding",
+      "性能测试"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_b5c4a9b1810f60adccbd",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-05T19:02:24.650794Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e637609223db029cc8b3",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

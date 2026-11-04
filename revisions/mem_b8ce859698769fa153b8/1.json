@@ -1,0 +1,75 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-28T03:54:20.257364Z",
+  "id": "rev_7ea33022ae195e1027f1",
+  "memory": {
+    "conditions": "用于支撑证据溯源、分层应答和不可变原始日志设计。",
+    "confidence": 0.9,
+    "content": "TierMem(53)为 PRD\"原始记忆不删除\"原则提供工程蓝图:write-before-query barrier + 不可变原始日志 + provenance 指针 + 充分性路由 + 验证写回,在0.851精度下节省54% token;PRD 的 Memory 对象需补 provenance_links,FR-06 应升级为分层应答。",
+    "created_at": "2026-09-28T03:54:20.257364Z",
+    "derived_from": [],
+    "entities": [
+      "ent_0dd3ce8f5049183636d7",
+      "ent_6a242ac46c0b54ee42c0"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_3567af8b8693e96c3d81",
+        "quote": "TierMem(53)为 PRD\"原始记忆不删除\"原则提供工程蓝图:write-before-query barrier + 不可变原始日志 + provenance 指针 + 充分性路由 + 验证写回,在0.851精度下节省54% token;PRD 的 Memory 对象需补 provenance_links,FR-06 应升级为分层应答。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_b8ce859698769fa153b8",
+    "is_temporary": false,
+    "keywords": [
+      "分层记忆",
+      "write-before-query barrier",
+      "FR-06分层应答",
+      "54% token",
+      "分层应答",
+      "TierMem 53",
+      "provenance指针",
+      "不可变原始日志",
+      "省54%token",
+      "TierMem论文53",
+      "provenance_links",
+      "省54% token",
+      "论文53",
+      "节省54% token",
+      "FR-06",
+      "TierMem",
+      "双档记忆",
+      "provenance",
+      "write-before-query",
+      "不可变日志"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_3567af8b8693e96c3d81",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-28T03:54:20.257364Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_b8ce859698769fa153b8",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

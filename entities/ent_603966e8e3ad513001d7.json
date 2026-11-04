@@ -1,0 +1,14 @@
+{
+  "aliases": [
+    "127.0.0.1:7897",
+    "7897"
+  ],
+  "created_at": "2026-10-27T04:21:21.068627Z",
+  "description": "Clash Verge 在本机提供的可用 HTTP 代理端口，最终被设置为 MacBook Wi-Fi 系统代理。",
+  "id": "ent_603966e8e3ad513001d7",
+  "name": "Clash Verge 7897 代理端口",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T08:56:50.220680Z"
+}

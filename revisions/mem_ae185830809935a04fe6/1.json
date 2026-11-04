@@ -1,0 +1,63 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-05T19:01:19.033779Z",
+  "id": "rev_d9f025fe830790043718",
+  "memory": {
+    "conditions": "深夜排查小龙虾无响应，最终重启网关并验证真实召回成功。",
+    "confidence": 0.86,
+    "content": "OpenClaw 卡住的直接原因包括不支持的 plugins.entries.agent-memory.hooks 配置字段,以及 Node/Undici 经本机代理访问 Tailscale MagicDNS 失败;移除字段并改用 127.0.0.1 后恢复。",
+    "created_at": "2026-10-05T19:01:19.033779Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def",
+      "ent_421c00dde9a1b98fc969",
+      "ent_4488e0fdf8d04896269e",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_251281e40be3c2e88a50",
+        "quote": "OpenClaw 卡住的直接原因包括不支持的 plugins.entries.agent-memory.hooks 配置字段,以及 Node/Undici 经本机代理访问 Tailscale MagicDNS 失败;移除字段并改用 127.0.0.1 后恢复。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_ae185830809935a04fe6",
+    "is_temporary": false,
+    "keywords": [
+      "hooks字段",
+      "fetch failed",
+      "MagicDNS",
+      "网关重启",
+      "插件loaded"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_251281e40be3c2e88a50",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-05T19:01:19.033779Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ae185830809935a04fe6",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,74 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-09T19:01:14.865165Z",
+  "id": "rev_7617bda218e22b829fbc",
+  "memory": {
+    "conditions": "复盘部署故障时提到 CLI 缺 ARM64 二进制且被 Gatekeeper 隔离,后用官方 npm 包修复。",
+    "confidence": 0.86,
+    "content": "Codex CLI 启动失败曾由两个连续问题造成:npm 包内 macOS ARM64 二进制缺失导致 ENOENT;手工补回的二进制又因缺少本机 Gatekeeper 下载记录被隔离删除。官方重装到 ~/.local/bin 后才进入正常信任流程。",
+    "created_at": "2026-10-09T19:01:14.865165Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_91a8ea1810469466278d",
+        "quote": "Codex CLI 启动失败曾由两个连续问题造成:npm 包内 macOS ARM64 二进制缺失导致 ENOENT;手工补回的二进制又因缺少本机 Gatekeeper 下载记录被隔离删除。官方重装到 ~/.local/bin 后才进入正常信任流程。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_b16e3e337dbf2a89171b",
+    "is_temporary": false,
+    "keywords": [
+      "恶意软件",
+      "Gatekeeper 隔离",
+      "官方 npm 重装",
+      "ARM64 binary",
+      "UserPromptSubmit",
+      "PostToolUse",
+      "Stop",
+      "/hooks 审核",
+      "Codex 桌面窗口与 CLI 区分",
+      "Gatekeeper",
+      "ARM64 二进制缺失",
+      "@openai/codex",
+      "官方重装",
+      "Codex CLI",
+      "ARM64缺失",
+      "ENOENT",
+      "Gatekeeper隔离",
+      "contains malware",
+      "官方npm重装",
+      "~/.local/bin"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_91a8ea1810469466278d",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-09T19:01:14.865165Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_b16e3e337dbf2a89171b",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

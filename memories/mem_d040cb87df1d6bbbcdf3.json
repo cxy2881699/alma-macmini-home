@@ -1,0 +1,51 @@
+{
+  "conditions": "用户正在为 2026-09-26 晚上与回国好友相聚准备酒水。",
+  "confidence": 0.98,
+  "content": "用户计划于 2026-09-26 晚上与一位从美国回来、关系非常好的大学同学一起喝酒相聚。",
+  "created_at": "2026-09-25T08:33:50.211014Z",
+  "derived_from": [],
+  "entities": [
+    "ent_774067d2559ca01157a7"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_63c357d22847ac53220a",
+      "quote": "用户计划于 2026-09-26 晚上与一位从美国回来、关系非常好的大学同学一起喝酒相聚。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_d040cb87df1d6bbbcdf3",
+  "is_temporary": true,
+  "keywords": [
+    "大学同学",
+    "美国回来",
+    "关系很好",
+    "明天晚上",
+    "一起喝酒",
+    "重聚",
+    "带酒"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_63c357d22847ac53220a",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-25T08:33:50.211014Z",
+  "valid_to": "2026-09-26"
+}

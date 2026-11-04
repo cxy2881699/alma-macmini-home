@@ -1,0 +1,73 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:11:29.069615Z",
+  "id": "rev_bb363b9f6eae1951f8ba",
+  "memory": {
+    "conditions": "用户提供 Kimi K3.1 Pro 官方参数后，Agent 修正 OpenClaw 模型配置并重启生效。",
+    "confidence": 0.9,
+    "content": "ark/kimi-k3-1-pro-261024 的 OpenClaw 配置已从初始估算参数修正为 contextWindow=1048576、maxTokens=131072、input=text+image、reasoning=true,并经 config validate 与重启生效。",
+    "created_at": "2026-10-27T05:11:29.069615Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_1c6b296bc5cb579536f2",
+      "ent_85ac7912658c80484706"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_6bd23e50822556638c98",
+        "quote": "ark/kimi-k3-1-pro-261024 的 OpenClaw 配置已从初始估算参数修正为 contextWindow=1048576、maxTokens=131072、input=text+image、reasoning=true,并经 config validate 与重启生效。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_e2f1992e9f14bb9d941a",
+    "is_temporary": false,
+    "keywords": [
+      "ark",
+      "1024k",
+      "128k",
+      "模型参数",
+      "text+image",
+      "reasoning=true",
+      "Kimi K3.1 Pro",
+      "参数修正",
+      "1024k上下文",
+      "128k输出",
+      "kimi参数",
+      "config validate",
+      "1024k 上下文",
+      "128k 输出",
+      "图片输入",
+      "reasoning",
+      "Kimi 参数"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_6bd23e50822556638c98",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:11:29.069615Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e2f1992e9f14bb9d941a",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

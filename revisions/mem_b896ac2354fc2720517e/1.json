@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-03T19:06:12.022092Z",
+  "id": "rev_10dfc69caa15050a4fb6",
+  "memory": {
+    "conditions": "用户问被封 IP 能否通过新买 VPS 连接，助手给出跳板方案。",
+    "confidence": 0.85,
+    "content": "被封的 RackNerd VPS(155.94.145.75)可通过新买的 DMIT VPS 作 SSH 跳板访问,GFW 只拦中国入境、境外到境外不受影响。",
+    "created_at": "2026-11-03T19:06:12.022092Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_b896ac2354fc2720517e",
+    "is_temporary": false,
+    "keywords": [
+      "ssh跳板",
+      "ProxyJump",
+      "被封VPS",
+      "GFW"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-03T19:06:12.022092Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_b896ac2354fc2720517e",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

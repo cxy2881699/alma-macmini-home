@@ -1,0 +1,54 @@
+{
+  "conditions": "agent-memory 记忆系统 sleep 整理任务反复失败时的排查与修复过程",
+  "confidence": 0.7,
+  "content": "心跳期间 Agent 排查 memd sleep 整理任务连续 9 次 RemoteProtocolError:排除网络/代理后确认为 37k 字符大 payload 内容相关,并修改 sleep.md prompt 让 evidence 可摘要、限制数量以压缩输出,排障记录写入当日 memory 日志。",
+  "created_at": "2026-09-23T23:57:39.612093Z",
+  "derived_from": [],
+  "entities": [
+    "ent_1b0510f6e7579d8f62b3",
+    "ent_ef9eb3e1b52a2169de2d",
+    "ent_921f430c3f87db76501e"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_d55c939bb832758641d3",
+      "quote": "心跳期间 Agent 排查 memd sleep 整理任务连续 9 次 RemoteProtocolError:排除网络/代理后确认为 37k 字符大 payload 内容相关,并修改 sleep.md prompt 让 evidence 可摘要、限制数量以压缩输出,排障记录写入当日 memory 日志。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_202b0a48e237e75b6989",
+  "is_temporary": false,
+  "keywords": [
+    "sleep整理",
+    "RemoteProtocolError",
+    "ModelError",
+    "payload过大",
+    "prompt修改",
+    "evidence",
+    "排障",
+    "memd"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d55c939bb832758641d3",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-23T23:57:39.612093Z",
+  "valid_to": null
+}

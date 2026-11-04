@@ -1,0 +1,51 @@
+{
+  "conditions": "用户在记忆服务 audit 页面发现新 PRD 未入库后追问保存位置。",
+  "confidence": 0.82,
+  "content": "排查该 PRD 入库问题时,Agent 已明确先区分本机文件保存与记忆库写入两条链路,避免把找到本地文件等同于成功入库。",
+  "created_at": "2026-09-30T19:02:05.544715Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_13a7ceff9826166f66a5",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_c5b9bc50bc5c913a2dbe",
+      "quote": "排查该 PRD 入库问题时,Agent 已明确先区分本机文件保存与记忆库写入两条链路,避免把找到本地文件等同于成功入库。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_1d3cdaf222dcdf47b043",
+  "is_temporary": false,
+  "keywords": [
+    "PRD未入库",
+    "本地保存",
+    "审计记录",
+    "文件位置"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c5b9bc50bc5c913a2dbe",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-30T19:02:05.544715Z",
+  "valid_to": null
+}

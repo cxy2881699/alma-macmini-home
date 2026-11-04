@@ -1,0 +1,50 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-04T19:02:22.881918Z",
+  "id": "rev_d69cda25dd8c7a3ad18c",
+  "memory": {
+    "conditions": "检索 agent-memory 客户端链路和待核对代码范围。",
+    "confidence": 0.85,
+    "content": "agent-memory 客户端的事件上传(/v1/events)、recall、mid 接口及 hooks 已核对;服务端抽取、整理、数据库结构尚未核对实际代码,需 GitHub 仓库确认。",
+    "created_at": "2026-10-04T19:02:22.881918Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_de4eefc19ab9eb63e07a",
+    "is_temporary": false,
+    "keywords": [
+      "架构",
+      "服务端",
+      "代码核对",
+      "events接口",
+      "recall接口",
+      "mid接口",
+      "hooks核对",
+      "服务端代码未核对"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-04T19:02:22.881918Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_de4eefc19ab9eb63e07a",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

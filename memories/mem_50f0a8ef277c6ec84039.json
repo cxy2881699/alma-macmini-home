@@ -1,0 +1,55 @@
+{
+  "conditions": "用户复盘并展示自己设计的 agent-memory 记忆系统价值时",
+  "confidence": 0.7,
+  "content": "用户要求深度评价自建 agent-memory 的技术水平,Agent 用运行数据说明其已实现跨 Agent 共享、分层记忆、自我纠错、图检索和安全自控。",
+  "created_at": "2026-09-23T18:02:35.457368Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_176409fa578ba26c2c5b",
+    "ent_d4b635c892abc239ee6b",
+    "ent_4382e946c32aec408a6e"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_d19f515afd548030ebc8",
+      "quote": "用户要求深度评价自建 agent-memory 的技术水平,Agent 用运行数据说明其已实现跨 Agent 共享、分层记忆、自我纠错、图检索和安全自控。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_50f0a8ef277c6ec84039",
+  "is_temporary": false,
+  "keywords": [
+    "记忆系统",
+    "深度总结",
+    "第二大脑",
+    "跨Agent",
+    "认知基础设施",
+    "图数据库"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d19f515afd548030ebc8",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-23T18:02:35.457368Z",
+  "valid_to": null
+}

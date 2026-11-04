@@ -1,0 +1,45 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:10:51.277118Z",
+  "id": "rev_6b9cd5b403cc62b525a2",
+  "memory": {
+    "conditions": "用户反复追问 LAX Premium 能否用 Claude 及稳定方案",
+    "confidence": 0.8,
+    "content": "用户的核心诉求之一是稳定使用 Claude(含 Claude Code/API),现有机房 IP 已遇到使用障碍。",
+    "created_at": "2026-10-27T05:10:51.277118Z",
+    "derived_from": [],
+    "entities": [
+      "ent_51b9c91560022845906c"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_ff403575a7eb2de38a3f",
+    "is_temporary": false,
+    "keywords": [
+      "Claude",
+      "AI访问",
+      "机房IP风控",
+      "住宅IP"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:10:51.277118Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ff403575a7eb2de38a3f",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

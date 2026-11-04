@@ -1,0 +1,62 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-24T19:02:25.898445Z",
+  "id": "rev_a5198490dfa7c67a6da6",
+  "memory": {
+    "conditions": "用户质疑110ms是否真的走了图数据库搜索。",
+    "confidence": 0.9,
+    "content": "轻量记忆召回实测约20–110ms且包含Neo4j图检索,但默认不等待新查询向量生成;该耗时不能代表完整“Embedding API+向量检索”的深度召回。",
+    "created_at": "2026-09-24T19:02:25.898445Z",
+    "derived_from": [],
+    "entities": [
+      "ent_4488e0fdf8d04896269e",
+      "ent_176409fa578ba26c2c5b",
+      "ent_4382e946c32aec408a6e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_b5c4a9b1810f60adccbd",
+        "quote": "轻量记忆召回实测约20–110ms且包含Neo4j图检索,但默认不等待新查询向量生成;该耗时不能代表完整“Embedding API+向量检索”的深度召回。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_df02e1b52ad3bda9a12d",
+    "is_temporary": false,
+    "keywords": [
+      "召回延迟",
+      "Neo4j",
+      "向量检索",
+      "后台预热",
+      "20ms",
+      "110ms"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_b5c4a9b1810f60adccbd",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-24T19:02:25.898445Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_df02e1b52ad3bda9a12d",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

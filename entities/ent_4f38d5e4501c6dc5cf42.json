@@ -1,0 +1,14 @@
+{
+  "aliases": [
+    "模型价格爬虫",
+    "model_price_scraper"
+  ],
+  "created_at": "2026-09-24T16:30:51.482010Z",
+  "description": "用户通过 cron 定时执行的脚本任务，运行 ~/.openclaw/workspace/scripts/model_price_scraper.py --headless，用于爬取大模型 API 价格，完成后要求静默不发送消息",
+  "id": "ent_4f38d5e4501c6dc5cf42",
+  "name": "大模型API价格爬虫",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "concept",
+  "updated_at": "2026-11-04T08:56:50.217351Z"
+}

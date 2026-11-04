@@ -1,0 +1,61 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-30T19:06:28.438179Z",
+  "id": "rev_30e975f869ad12c07366",
+  "memory": {
+    "conditions": "助手诊断出记忆服务连接池问题并询问处理方式后，用户要求直接修复和优化。",
+    "confidence": 0.75,
+    "content": "用户在排查自建系统问题时倾向于让助手直接执行修复并顺手优化整条链路,而不是只给方案。",
+    "created_at": "2026-10-30T19:06:28.438179Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def",
+      "ent_1b0510f6e7579d8f62b3",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_9d10a69084bd77edc45a",
+        "quote": "用户在排查自建系统问题时倾向于让助手直接执行修复并顺手优化整条链路,而不是只给方案。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_fb46957ecfd4a54be95e",
+    "is_temporary": false,
+    "keywords": [
+      "直接执行",
+      "运维偏好",
+      "链路优化",
+      "memd"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_9d10a69084bd77edc45a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-30T19:06:28.438179Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_fb46957ecfd4a54be95e",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

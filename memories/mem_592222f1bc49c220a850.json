@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-29：用户以 subagent 方式派发任务:通读 ~/Downloads/mem-papers-2026H2/ 下 49 篇 2026 年 6 月底至 9 月的 arXiv Agent Memory 论文并写中文全景综述;subagent 完成全文提取(4 篇损坏 PDF 用 PyMuPDF 修复)并产出约 19KB 的 SURVEY-2026H2.md,回报了 5 条最值得关注的研究发现。",
+  "created_at": "2026-10-27T05:08:24.084202Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_56b471b2ce769966e5ab",
+      "quote": "2026-09-29：用户以 subagent 方式派发任务:通读 ~/Downloads/mem-papers-2026H2/ 下 49 篇 2026 年 6 月底至 9 月的 arXiv Agent Memory 论文并写中文全景综述;subagent 完成全文提取(4 篇损坏 PDF 用 PyMuPDF 修复)并产出约 19KB 的 SURVEY-2026H2.md,回报了 5 条最值得关注的研究发现。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_592222f1bc49c220a850",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_56b471b2ce769966e5ab",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-27T05:08:24.084202Z",
+  "valid_to": null
+}

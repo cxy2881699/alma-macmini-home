@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:29:01.623985Z",
+  "id": "rev_e5df8491313dcf6539e8",
+  "memory": {
+    "conditions": "用户要求先写脚本，若切换失败自动回滚。",
+    "confidence": 0.9,
+    "content": "模型切换脚本位于 ~/.openclaw/workspace/tools/switch-model.sh,具备真实 API 预检、备份 openclaw.json、配置校验、重启 Gateway、验证和失败自动回滚能力。",
+    "created_at": "2026-10-27T04:29:01.623985Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_d55c939bb832758641d3",
+        "quote": "模型切换脚本位于 ~/.openclaw/workspace/tools/switch-model.sh,具备真实 API 预检、备份 openclaw.json、配置校验、重启 Gateway、验证和失败自动回滚能力。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_88639161bad46133420c",
+    "is_temporary": false,
+    "keywords": [
+      "switch-model.sh",
+      "自动回滚",
+      "模型切换脚本",
+      "备份",
+      "预检"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d55c939bb832758641d3",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:29:01.623985Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_88639161bad46133420c",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

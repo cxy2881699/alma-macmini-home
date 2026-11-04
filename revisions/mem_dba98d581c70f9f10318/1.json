@@ -1,0 +1,76 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-04T19:01:02.421682Z",
+  "id": "rev_52e6bc369fc4e29f2495",
+  "memory": {
+    "conditions": "公网 HTTPS 可避免公司电脑安装 Tailscale 及 VPN 路由劫持。",
+    "confidence": 0.82,
+    "content": "公网 HTTP+Token 模式可消除公司电脑安装 VPN/Tailscale 的门槛,并减少公司 VPN 全局模式与 Tailscale 路由冲突。",
+    "created_at": "2026-10-04T19:01:02.421682Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_421c00dde9a1b98fc969",
+      "ent_1b0510f6e7579d8f62b3",
+      "ent_8780400efccac7084a5a"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8fc67c0d4c5d64da55b1",
+        "quote": "公网 HTTP+Token 模式可消除公司电脑安装 VPN/Tailscale 的门槛,并减少公司 VPN 全局模式与 Tailscale 路由冲突。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_dba98d581c70f9f10318",
+    "is_temporary": false,
+    "keywords": [
+      "公司网络兼容",
+      "VPN冲突",
+      "公网接入",
+      "公网HTTP Token",
+      "Tailscale替代",
+      "远程设备接入",
+      "公网安装",
+      "免 Tailscale",
+      "公司 VPN",
+      "HTTP Token",
+      "降低安装门槛",
+      "公司VPN冲突",
+      "免VPN",
+      "Tailscale路由",
+      "公司VPN",
+      "全局代理",
+      "Tailscale冲突",
+      "公司电脑",
+      "HTTPS兼容"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8fc67c0d4c5d64da55b1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-04T19:01:02.421682Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_dba98d581c70f9f10318",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

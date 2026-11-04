@@ -1,0 +1,58 @@
+{
+  "conditions": "用户要求把可进化记忆系统 PRD 存入共享记忆，供其他 Agent 后续读取或评审。",
+  "confidence": 0.9,
+  "content": "可进化记忆系统 PRD v0.1 已写入本机文件并上传记忆库,全文事件 ID 为 1460999e575200a46998cd748e7167ea,检索标识 EVOLVING-MEMORY-PRD-v0.1;但普通检索只返回摘要,其他 Agent 不一定能直接取全文。",
+  "created_at": "2026-10-06T19:02:24.163076Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e",
+    "ent_0dd3ce8f5049183636d7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_204132bcd438ed41fedc",
+      "quote": "可进化记忆系统 PRD v0.1 已写入本机文件并上传记忆库,全文事件 ID 为 1460999e575200a46998cd748e7167ea,检索标识 EVOLVING-MEMORY-PRD-v0.1;但普通检索只返回摘要,其他 Agent 不一定能直接取全文。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_5f138973c41517e3c859",
+  "is_temporary": false,
+  "keywords": [
+    "PRD",
+    "记忆库",
+    "检索限制",
+    "PRD全文",
+    "SHA256",
+    "跨Agent读取",
+    "文档归档",
+    "EVOLVING-MEMORY-PRD-v0.1",
+    "可进化记忆系统PRD",
+    "全文事件ID",
+    "Markdown全文",
+    "跨Agent读取限制"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_204132bcd438ed41fedc",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-06T19:02:24.163076Z",
+  "valid_to": null
+}

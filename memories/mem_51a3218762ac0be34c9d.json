@@ -1,0 +1,37 @@
+{
+  "conditions": "用户把可成长记忆扩展到纪念与陪伴场景。",
+  "confidence": 0.82,
+  "content": "用户认为可用逝者生前数据和口述经历重建三观、性格接近的数字亲人并持续陪伴;Agent 建议区分历史还原度与后续成长度,并避免把生成反应改写为逝者真实想法。",
+  "created_at": "2026-10-27T04:31:50.411869Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_51a3218762ac0be34c9d",
+  "is_temporary": false,
+  "keywords": [
+    "数字永生",
+    "逝者数据",
+    "数字亲人",
+    "历史还原",
+    "持续陪伴"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "review",
+  "status_reason": "migrated from old agent-memory (candidate)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:31:50.411869Z",
+  "valid_to": null
+}

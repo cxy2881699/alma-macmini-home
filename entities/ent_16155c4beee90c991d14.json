@@ -1,0 +1,14 @@
+{
+  "aliases": [
+    "/tmp/lit-hormone",
+    "激素神经递质文献元数据收集"
+  ],
+  "created_at": "2026-10-27T04:17:21.444230Z",
+  "description": "用户在 /tmp/lit-hormone 中发起的学术文献元数据收集项目，主题围绕激素/神经递质、情绪、行为与心理结构。",
+  "id": "ent_16155c4beee90c991d14",
+  "name": "lit-hormone 文献检索任务",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "project",
+  "updated_at": "2026-11-04T08:56:50.216017Z"
+}

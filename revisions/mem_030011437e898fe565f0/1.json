@@ -1,0 +1,63 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:20:59.339975Z",
+  "id": "rev_636116e85d6912e8e8c9",
+  "memory": {
+    "conditions": "后续处理 Claude 注册、登录或风控问题时参考。",
+    "confidence": 0.87,
+    "content": "2026-10-18,用户用新注册的 Gmail 注册 Claude 后账号被 hold;当次访问环境包含新邮箱和洛杉矶机房/VPS 类 IP,Agent 判断高风控概率来自全新 Gmail 与数据中心 IP 的组合。",
+    "created_at": "2026-10-27T04:20:59.339975Z",
+    "derived_from": [],
+    "entities": [
+      "ent_51b9c91560022845906c",
+      "ent_6ebee10dda1843bbd843",
+      "ent_b9b685561ffcd2f61570"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_f0ea3e3acc8d7909f32f",
+        "quote": "2026-10-18,用户用新注册的 Gmail 注册 Claude 后账号被 hold;当次访问环境包含新邮箱和洛杉矶机房/VPS 类 IP,Agent 判断高风控概率来自全新 Gmail 与数据中心 IP 的组合。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_030011437e898fe565f0",
+    "is_temporary": false,
+    "keywords": [
+      "Claude",
+      "Gmail",
+      "注册被hold",
+      "风控",
+      "数据中心IP",
+      "新账号",
+      "LA节点"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_f0ea3e3acc8d7909f32f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-10-27T04:20:59.339975Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_030011437e898fe565f0",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

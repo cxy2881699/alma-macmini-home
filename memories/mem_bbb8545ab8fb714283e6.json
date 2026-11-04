@@ -1,0 +1,61 @@
+{
+  "conditions": "用户把长文档存入记忆系统，是希望其他 Agent 能读取完整内容而非只检索摘要。",
+  "confidence": 0.86,
+  "content": "用户期望“存入记忆系统”的文档能被其他 Agent 直接读取全文,这与普通检索仅返回摘要/索引的现状存在能力落差,需要专门的全文归档或读取机制。",
+  "created_at": "2026-09-29T19:02:24.243823Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e",
+    "ent_0dd3ce8f5049183636d7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_204132bcd438ed41fedc",
+      "quote": "用户期望“存入记忆系统”的文档能被其他 Agent 直接读取全文,这与普通检索仅返回摘要/索引的现状存在能力落差,需要专门的全文归档或读取机制。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_bbb8545ab8fb714283e6",
+  "is_temporary": false,
+  "keywords": [
+    "文档归档",
+    "跨Agent共享",
+    "PRD入库",
+    "摘要检索",
+    "跨Agent资料",
+    "归档机制",
+    "全文检索",
+    "跨Agent读取",
+    "摘要索引",
+    "能力落差",
+    "全文读取",
+    "长文档共享",
+    "摘要索引落差",
+    "文档归档机制",
+    "其他Agent读取"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_204132bcd438ed41fedc",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-29T19:02:24.243823Z",
+  "valid_to": null
+}

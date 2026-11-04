@@ -1,0 +1,59 @@
+{
+  "conditions": "MacBook 当晚最终尝试把 Wi-Fi HTTP/HTTPS 代理指向 Clash Verge 本地端口。",
+  "confidence": 0.88,
+  "content": "MacBook 的 Clash Verge 可用本地代理端口是 127.0.0.1:7897;2026-10-18 已通过 networksetup 将 Wi-Fi 的 Web Proxy 与 Secure Web Proxy 写为该地址,networksetup -getwebproxy 显示 Enabled: Yes、Server 127.0.0.1、Port 7897。",
+  "created_at": "2026-10-27T04:20:59.339975Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f18082c6c564869030be",
+    "ent_c42dac5ae99195f63d24"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_10853d0c7dcf8fdb980b",
+      "quote": "MacBook 的 Clash Verge 可用本地代理端口是 127.0.0.1:7897;2026-10-18 已通过 networksetup 将 Wi-Fi 的 Web Proxy 与 Secure Web Proxy 写为该地址,networksetup -getwebproxy 显示 Enabled: Yes、Server 127.0.0.1、Port 7897。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_ab49a8a8d5bd35558cb4",
+  "is_temporary": false,
+  "keywords": [
+    "networksetup -getwebproxy",
+    "Wi-Fi 代理地址",
+    "Wi-Fi",
+    "Clash Verge",
+    "Wi-Fi代理",
+    "MacBook",
+    "Clash Verge端口",
+    "Wi-Fi Web Proxy",
+    "networksetup",
+    "Clash Verge 端口",
+    "7897",
+    "Web Proxy",
+    "Secure Web Proxy",
+    "127.0.0.1:7897"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_10853d0c7dcf8fdb980b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "disputed",
+  "status_reason": "migrated from old agent-memory (disputed)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:17:32.060098Z",
+  "valid_to": null
+}

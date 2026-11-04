@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-27：用户在记忆服务管理后台 audit 页面指出 Codex 新写的 PRD 没有成功写入记忆库,并追问文件保存位置;Codex 开始区分文件落盘与记忆入库两条链路,先在 ceo-os 中查到两份 8 月旧 PRD,未将其误报为本次新 PRD。",
+  "created_at": "2026-10-09T19:03:46.861215Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_c5b9bc50bc5c913a2dbe",
+      "quote": "2026-09-27：用户在记忆服务管理后台 audit 页面指出 Codex 新写的 PRD 没有成功写入记忆库,并追问文件保存位置;Codex 开始区分文件落盘与记忆入库两条链路,先在 ceo-os 中查到两份 8 月旧 PRD,未将其误报为本次新 PRD。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_c471e67d4c446dfa8e08",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c5b9bc50bc5c913a2dbe",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-09T19:03:46.861215Z",
+  "valid_to": null
+}

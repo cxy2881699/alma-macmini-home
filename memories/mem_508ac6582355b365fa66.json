@@ -1,0 +1,55 @@
+{
+  "conditions": "后续遇到 Agent 产物看似生成但未入库时，可复用该排查路径。",
+  "confidence": 0.82,
+  "content": "排查新 PRD 未入库时,应把“浏览器 audit 页面无记录”作为优先线索,先核对 memd 审计与数据库,再反查本机文件和 Codex 任务记录。",
+  "created_at": "2026-10-02T19:02:25.409284Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_c5b9bc50bc5c913a2dbe",
+      "quote": "排查新 PRD 未入库时,应把“浏览器 audit 页面无记录”作为优先线索,先核对 memd 审计与数据库,再反查本机文件和 Codex 任务记录。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_508ac6582355b365fa66",
+  "is_temporary": false,
+  "keywords": [
+    "PRD未入库",
+    "审计页",
+    "本地文件",
+    "保存位置",
+    "PRD排查顺序",
+    "audit无记录",
+    "memd数据库",
+    "Codex任务记录",
+    "本机文件反查"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c5b9bc50bc5c913a2dbe",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-02T19:02:25.409284Z",
+  "valid_to": null
+}

@@ -1,0 +1,65 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:16:54.822324Z",
+  "id": "rev_1183940117dd37f5fcfd",
+  "memory": {
+    "conditions": "用户询问背后模型并用一句话确认模型身份时，Agent 自报为 DeepSeek-V4-1-Flash。",
+    "confidence": 0.55,
+    "content": "2026-10-22,用户询问当前 Agent 知道自己是哪个模型;Agent 自称是 DeepSeek-V4-1-Flash(型号标识 deepseek-v4-1-flash-261017),并在 Claude Code 环境中作为编码代理运行。该信息仅为 Agent 自述,尚未独立核验。",
+    "created_at": "2026-10-27T04:16:54.822324Z",
+    "derived_from": [],
+    "entities": [
+      "ent_c3c27da4175eae3fa03f"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_f08a6d2ba651e1dc6119",
+        "quote": "2026-10-22,用户询问当前 Agent 知道自己是哪个模型;Agent 自称是 DeepSeek-V4-1-Flash(型号标识 deepseek-v4-1-flash-261017),并在 Claude Code 环境中作为编码代理运行。该信息仅为 Agent 自述,尚未独立核验。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_aa47f65191900cf238b4",
+    "is_temporary": false,
+    "keywords": [
+      "ACP",
+      "self-report",
+      "未核验",
+      "自述模型",
+      "自检",
+      "ACP测试",
+      "DeepSeek-V4-1-Flash",
+      "deepseek-v4-1-flash-261017",
+      "Claude Code",
+      "模型身份",
+      "自述未核验"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_f08a6d2ba651e1dc6119",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:16:54.822324Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_aa47f65191900cf238b4",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,20 @@
+{
+  "agent_id": "openclaw@old-memd",
+  "assistant_text": "宇哥？就发个\"1\"，是手滑还是有事？ 要干啥直接说——反射检查我照常看着呢。",
+  "content_hash": "3a3a49571a501320140f15424f1934c37e2839e9480c0b6fa49bf6c1ae647c7c",
+  "cwd": "",
+  "device_id": "dev_c10d93f982a71975",
+  "event_id": "evt_b29cd56d3c2b7ce9a86e",
+  "kind": "conversation",
+  "native_event_id": "6f389fdc7079c7e10ad8440c1a45d636",
+  "occurred_at": "2026-10-27T01:23:30.630000Z",
+  "privacy_mode": "normal",
+  "project_id": "",
+  "received_at": "2026-11-04T08:56:48.839782Z",
+  "revision": 1,
+  "session_id": "dev_c10d93f982a71975:openclaw:agent:main:main",
+  "space": "user/shared",
+  "tools": [],
+  "turn_index": 29,
+  "user_text": "Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b62cb806fd900ce730d44130c0a5\", \"sender_id\": \"ou_e4a4036df049fc443a923af8b5110ebe\", \"sender\": \"ou_e4a4036df049fc443a923af8b5110ebe\", \"timestamp\": \"Mon 2026-10-26 18:23 PDT\" } ``` Sender (untrusted metadata): ```json { \"label\": \"ou_e4a4036df049fc443a923af8b5110ebe\", \"id\": \"ou_e4a4036df049fc443a923af8b5110ebe\", \"name\": \"ou_e4a4036df049fc443a923af8b5110ebe\" } ``` [message_id: om_x100b62cb806fd900ce730d44130c0a5] ou_e4a4036df049fc443a923af8b5110ebe: 1"
+}

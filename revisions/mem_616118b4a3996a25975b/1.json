@@ -1,0 +1,59 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:19:40.101864Z",
+  "id": "rev_81b050bc0266265010e8",
+  "memory": {
+    "conditions": "适用于继续修复 agent-memory 后台记忆抽取、整理任务堆积或连接池配置时。",
+    "confidence": 0.7,
+    "content": "用户询问记忆服务是否正常,Agent 发现 memd 进程和召回正常,但 extract 与 sleep 后台任务大量失败,根因定位为 HTTP 连接池耗尽,等待用户选择恢复方案。",
+    "created_at": "2026-10-27T04:19:40.101864Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_8395beca681a6a0993af",
+        "quote": "用户询问记忆服务是否正常,Agent 发现 memd 进程和召回正常,但 extract 与 sleep 后台任务大量失败,根因定位为 HTTP 连接池耗尽,等待用户选择恢复方案。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_616118b4a3996a25975b",
+    "is_temporary": false,
+    "keywords": [
+      "memd",
+      "记忆服务",
+      "PoolTimeout",
+      "连接池耗尽",
+      "extract失败",
+      "sleep失败",
+      "后台任务"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8395beca681a6a0993af",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-10-27T04:19:40.101864Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_616118b4a3996a25975b",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,35 @@
+{
+  "conditions": "用户两次把讨论从精细安全设计拉回到核心闭环",
+  "confidence": 0.65,
+  "content": "用户做产品优先级判断时倾向先解决\"有没有\"的基础闭环,对超前于市场阶段的精细功能(如多人身份验证)主动砍单,只保留数据模型钩子。",
+  "created_at": "2026-09-28T19:07:31.875170Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_b2b026b0da4a6b4da03e",
+  "is_temporary": false,
+  "keywords": [
+    "产品优先级",
+    "MVP",
+    "功能取舍"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-09-28T19:07:31.875170Z",
+  "valid_to": null
+}

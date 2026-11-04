@@ -1,0 +1,62 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-02T19:02:15.080457Z",
+  "id": "rev_fb730b48718bddb967fe",
+  "memory": {
+    "conditions": "用户要求 Codex 将长篇可进化记忆系统 PRD 存入记忆，供其他 Agent 独立评审。",
+    "confidence": 0.86,
+    "content": "用户期望通过把 PRD 作为事件存入记忆系统,使其他 Agent 能直接读取完整内容;但该期望与当前普通检索仅返回摘要和索引的实际限制存在落差,需要显式全文读取或授权方案。",
+    "created_at": "2026-11-02T19:02:15.080457Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_4488e0fdf8d04896269e",
+      "ent_0dd3ce8f5049183636d7"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_204132bcd438ed41fedc",
+        "quote": "用户期望通过把 PRD 作为事件存入记忆系统,使其他 Agent 能直接读取完整内容;但该期望与当前普通检索仅返回摘要和索引的实际限制存在落差,需要显式全文读取或授权方案。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_36f35124a6836051c261",
+    "is_temporary": false,
+    "keywords": [
+      "PRD共享",
+      "全文读取",
+      "跨Agent",
+      "记忆库权限",
+      "文档归档"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_204132bcd438ed41fedc",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-02T19:02:15.080457Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_36f35124a6836051c261",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

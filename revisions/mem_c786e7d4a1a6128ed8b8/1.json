@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-08T19:03:13.314690Z",
+  "id": "rev_7ca60c84aced6f5b5f4d",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-29：子代理完成 49 篇 2026H2 Agent Memory 论文的批量提取与全景综述撰写,产出 SURVEY-2026H2.md,并汇报 5 项关键发现。",
+    "created_at": "2026-10-08T19:03:13.314690Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_56b471b2ce769966e5ab",
+        "quote": "2026-09-29：子代理完成 49 篇 2026H2 Agent Memory 论文的批量提取与全景综述撰写,产出 SURVEY-2026H2.md,并汇报 5 项关键发现。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_c786e7d4a1a6128ed8b8",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_56b471b2ce769966e5ab",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-08T19:03:13.314690Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_c786e7d4a1a6128ed8b8",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

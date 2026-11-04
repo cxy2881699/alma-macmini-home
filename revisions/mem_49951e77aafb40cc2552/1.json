@@ -1,0 +1,64 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:14:52.646272Z",
+  "id": "rev_c60bba577c5e16297b7a",
+  "memory": {
+    "conditions": "用户确认 OpenClaw 记忆接入是否恢复，Agent 汇报剩余网络配置问题并请求授权修改。",
+    "confidence": 0.7,
+    "content": "用户询问 OpenClaw 是否恢复,Agent 确认插件已注册加载、对话采集权限已开启,但插件仍因 Gateway 环境代理访问 Tailscale 域名报 fetch failed,建议把 ~/.mem/config.json 的 server 改为 127.0.0.1:8787,等待用户确认。",
+    "created_at": "2026-09-23T17:14:52.646272Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def",
+      "ent_f90a16b26a8ab1d551fc",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_20f706d31f40b358e63c",
+        "quote": "用户询问 OpenClaw 是否恢复,Agent 确认插件已注册加载、对话采集权限已开启,但插件仍因 Gateway 环境代理访问 Tailscale 域名报 fetch failed,建议把 ~/.mem/config.json 的 server 改为 127.0.0.1:8787,等待用户确认。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_49951e77aafb40cc2552",
+    "is_temporary": false,
+    "keywords": [
+      "OpenClaw",
+      "记忆插件",
+      "fetch failed",
+      "代理",
+      "127.0.0.1",
+      "Tailscale",
+      "配置修复"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_20f706d31f40b358e63c",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-23T17:14:52.646272Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_49951e77aafb40cc2552",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

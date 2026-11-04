@@ -1,0 +1,84 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:39:49.455964Z",
+  "id": "rev_82ded3caef706a8b7cfa",
+  "memory": {
+    "conditions": "用户要求落实记忆来源可视化并清理自检残留数据时",
+    "confidence": 0.8,
+    "content": "用户授权后,Agent 清理了 memd selftest 残留的 8 条 Claude 测试数据,并在管理界面记忆列表和详情页增加来源 agent@设备 展示,重启 memd 后服务恢复正常。",
+    "created_at": "2026-09-23T17:39:49.455964Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_51b9c91560022845906c",
+      "ent_483ad3dd9ff0f4e4e01c"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_370086805a310084fcd0",
+        "quote": "用户授权后,Agent 清理了 memd selftest 残留的 8 条 Claude 测试数据,并在管理界面记忆列表和详情页增加来源 agent@设备 展示,重启 memd 后服务恢复正常。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_19c4ba76487afdbeeacc",
+        "quote": "用户授权后,Agent 清理了 memd selftest 残留的 8 条 Claude 测试数据,并在管理界面记忆列表和详情页增加来源 agent@设备 展示,重启 memd 后服务恢复正常。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_fced576e2338a7e33460",
+        "quote": "用户授权后,Agent 清理了 memd selftest 残留的 8 条 Claude 测试数据,并在管理界面记忆列表和详情页增加来源 agent@设备 展示,重启 memd 后服务恢复正常。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_f228d816b4e564f927d2",
+    "is_temporary": false,
+    "keywords": [
+      "selftest清理",
+      "来源追溯",
+      "admin界面",
+      "agent@设备",
+      "memd重启",
+      "Claude测试数据"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_370086805a310084fcd0",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_19c4ba76487afdbeeacc",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_fced576e2338a7e33460",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-23T17:39:49.455964Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_f228d816b4e564f927d2",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

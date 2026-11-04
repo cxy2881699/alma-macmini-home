@@ -1,0 +1,67 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T19:10:02.820418Z",
+  "id": "rev_f47f65d234122a270a4b",
+  "memory": {
+    "conditions": "用户直接指出新模型输出速度慢，助手区分回复延迟与模型流式输出速度。",
+    "confidence": 0.72,
+    "content": "用户对新模型的响应延迟较敏感,会把明显变慢直接作为使用问题提出;轻任务可能更适合保留快速模型,重任务再用思考型 Pro 模型。",
+    "created_at": "2026-10-27T19:10:02.820418Z",
+    "derived_from": [],
+    "entities": [
+      "ent_85ac7912658c80484706"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_6bd23e50822556638c98",
+        "quote": "用户对新模型的响应延迟较敏感,会把明显变慢直接作为使用问题提出;轻任务可能更适合保留快速模型,重任务再用思考型 Pro 模型。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_3e66177155ec9ce052b6",
+    "is_temporary": false,
+    "keywords": [
+      "模型速度",
+      "延迟",
+      "思考模型",
+      "轻任务",
+      "响应延迟",
+      "输出速度慢",
+      "轻任务快速模型",
+      "响应慢",
+      "输出速度",
+      "思考型模型",
+      "DeepSeek Flash",
+      "Kimi Pro",
+      "thinking off"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_6bd23e50822556638c98",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-27T19:10:02.820418Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_3e66177155ec9ce052b6",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

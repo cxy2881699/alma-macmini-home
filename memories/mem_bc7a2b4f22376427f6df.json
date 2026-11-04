@@ -1,0 +1,48 @@
+{
+  "conditions": "用户请 Agent 推荐与关系很好的大学同学重聚时带什么酒。",
+  "confidence": 0.9,
+  "content": "2026-09-26 晚用户计划与一位关系很好、从美国回来的大学同学重聚喝酒。",
+  "created_at": "2026-10-02T19:01:23.421087Z",
+  "derived_from": [],
+  "entities": [
+    "ent_774067d2559ca01157a7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_63c357d22847ac53220a",
+      "quote": "2026-09-26 晚用户计划与一位关系很好、从美国回来的大学同学重聚喝酒。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_bc7a2b4f22376427f6df",
+  "is_temporary": false,
+  "keywords": [
+    "同学聚会",
+    "美国回来",
+    "重聚",
+    "喝酒"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_63c357d22847ac53220a",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-02T19:01:23.421087Z",
+  "valid_to": "2026-09-26"
+}

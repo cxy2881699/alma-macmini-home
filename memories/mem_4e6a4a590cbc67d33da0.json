@@ -1,0 +1,51 @@
+{
+  "conditions": "用户要求试用新模型，只换 endpoint，并要求失败自动回滚。",
+  "confidence": 0.95,
+  "content": "用户的 OpenClaw 主模型已于 2026-10-27 从 DeepSeek 切换为 ark/kimi-k3-1-pro-261024;旧 DeepSeek 模型仍保留,可通过回滚脚本切回。",
+  "created_at": "2026-10-27T04:35:07.318622Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_1c6b296bc5cb579536f2",
+    "ent_85ac7912658c80484706"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_3d8e9a54e4b001ea6a33",
+      "quote": "用户的 OpenClaw 主模型已于 2026-10-27 从 DeepSeek 切换为 ark/kimi-k3-1-pro-261024;旧 DeepSeek 模型仍保留,可通过回滚脚本切回。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_4e6a4a590cbc67d33da0",
+  "is_temporary": false,
+  "keywords": [
+    "模型切换",
+    "Kimi K3.1 Pro",
+    "DeepSeek",
+    "回滚",
+    "OpenClaw Gateway"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_3d8e9a54e4b001ea6a33",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:35:07.318622Z",
+  "valid_to": null
+}

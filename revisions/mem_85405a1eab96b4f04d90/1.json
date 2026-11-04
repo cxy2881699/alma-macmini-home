@@ -1,0 +1,66 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-05T19:04:02.628878Z",
+  "id": "rev_920a33deac50499e72be",
+  "memory": {
+    "conditions": "用户分享 agent-memory 帖子在小红书获得正向互动的截图数据。",
+    "confidence": 0.86,
+    "content": "2026-09-25 该条小红书帖子已有 1,427 次浏览、69 个赞、79 个收藏和 17 条评论,收藏数高于点赞数。",
+    "created_at": "2026-10-05T19:04:02.628878Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e",
+      "ent_c3f9f077f1f3ceaddd2f"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_86e36d3877d091b5c09b",
+        "quote": "2026-09-25 该条小红书帖子已有 1,427 次浏览、69 个赞、79 个收藏和 17 条评论,收藏数高于点赞数。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_85405a1eab96b4f04d90",
+    "is_temporary": false,
+    "keywords": [
+      "点赞",
+      "收藏",
+      "评论",
+      "浏览量",
+      "小红书数据",
+      "1427浏览",
+      "69赞",
+      "79收藏",
+      "17评论",
+      "收藏高于点赞"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_86e36d3877d091b5c09b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-05T19:04:02.628878Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_85405a1eab96b4f04d90",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

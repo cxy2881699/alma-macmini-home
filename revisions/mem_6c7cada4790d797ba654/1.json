@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:52:32.598172Z",
+  "id": "rev_2958223590c8f98078cd",
+  "memory": {
+    "conditions": "用户通过本机管理后台审计页发现新 PRD 未写入记忆库并追问文件位置。",
+    "confidence": 0.85,
+    "content": "排查新 PRD 未入库时,Agent 已意识到 ceo-os 中两份 8 月 PRD 是旧文件,不能把它们当作本次新写 PRD 的保存位置。",
+    "created_at": "2026-10-27T04:52:32.598172Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_13a7ceff9826166f66a5"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_c5b9bc50bc5c913a2dbe",
+        "quote": "排查新 PRD 未入库时,Agent 已意识到 ceo-os 中两份 8 月 PRD 是旧文件,不能把它们当作本次新写 PRD 的保存位置。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_6c7cada4790d797ba654",
+    "is_temporary": false,
+    "keywords": [
+      "PRD未入库",
+      "旧PRD",
+      "ceo-os",
+      "审计页",
+      "保存位置"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_c5b9bc50bc5c913a2dbe",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:52:32.598172Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_6c7cada4790d797ba654",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

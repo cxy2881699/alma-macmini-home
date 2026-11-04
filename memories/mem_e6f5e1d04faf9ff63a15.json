@@ -1,0 +1,48 @@
+{
+  "conditions": "10-04 晨报 cron 触发后的执行摘要",
+  "confidence": 0.85,
+  "content": "2026-10-04 北京时间 10:01 cron 晨报执行,Agent 称完成去重检查、改用百度搜索 API 验证来源并附原文链接,仅发送一次;头条为 Gemini 4 Argon(9/30 发布),另含 Claude Code Mods、DeepSeek 开源昇腾组件、Fable 5.5 灰度传闻。",
+  "created_at": "2026-10-04T19:03:51.864864Z",
+  "derived_from": [],
+  "entities": [
+    "ent_686eb10ba1184d26e9a3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_21ec0a807d8ab8a39f8f",
+      "quote": "2026-10-04 北京时间 10:01 cron 晨报执行,Agent 称完成去重检查、改用百度搜索 API 验证来源并附原文链接,仅发送一次;头条为 Gemini 4 Argon(9/30 发布),另含 Claude Code Mods、DeepSeek 开源昇腾组件、Fable 5.5 灰度传闻。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_e6f5e1d04faf9ff63a15",
+  "is_temporary": false,
+  "keywords": [
+    "晨报",
+    "morning-briefing",
+    "百度搜索",
+    "Gemini 4 Argon"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_21ec0a807d8ab8a39f8f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-04T19:03:51.864864Z",
+  "valid_to": null
+}

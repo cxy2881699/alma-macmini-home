@@ -1,0 +1,35 @@
+{
+  "conditions": "用户一句话下达49篇论文综述任务，Agent 派 subagent 完成",
+  "confidence": 0.6,
+  "content": "面对大批量文献任务,用户倾向于让 Agent 自主派分身并行处理、直接交付成品文档,而非逐篇汇报过程。",
+  "created_at": "2026-10-01T19:12:59.360913Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9d3a8e426d91c52fb407"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_adfe9c34e166a7c83abb",
+  "is_temporary": false,
+  "keywords": [
+    "分身",
+    "并行",
+    "直接交付",
+    "文献综述"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-10-01T19:12:59.360913Z",
+  "valid_to": null
+}

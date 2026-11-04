@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-24：用户与 OpenClaw 完成 agent-memory 部署收官验证,确认跨 Agent 共享、来源列和异步记忆流水线正常;睡前布置改进方向调研,并补充多模态、可视化、抽取策略及多设备一键安装路线。",
+  "created_at": "2026-10-05T19:03:14.145445Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_33b2fba39edba1a1fd4a",
+      "quote": "2026-09-24：用户与 OpenClaw 完成 agent-memory 部署收官验证,确认跨 Agent 共享、来源列和异步记忆流水线正常;睡前布置改进方向调研,并补充多模态、可视化、抽取策略及多设备一键安装路线。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_f20d64fe4a339d361096",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_33b2fba39edba1a1fd4a",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-05T19:03:14.145445Z",
+  "valid_to": null
+}

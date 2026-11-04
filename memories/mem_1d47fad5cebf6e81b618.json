@@ -1,0 +1,37 @@
+{
+  "conditions": "用户在阐述赛博生命记忆系统的高情感价值应用时提出逝者数字重建。",
+  "confidence": 0.82,
+  "content": "用户将“用逝者生前数据与口述经历重建接近本人的赛博生命并持续陪伴”视为可进化记忆系统的重要应用方向,但该设想在对话中被技术上区分为历史还原与后续成长两个目标。",
+  "created_at": "2026-10-27T05:14:55.989727Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_1d47fad5cebf6e81b618",
+  "is_temporary": false,
+  "keywords": [
+    "数字重建",
+    "人格还原",
+    "持续陪伴",
+    "生前数据",
+    "伦理边界"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "review",
+  "status_reason": "migrated from old agent-memory (candidate)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:14:55.989727Z",
+  "valid_to": null
+}

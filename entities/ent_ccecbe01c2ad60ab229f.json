@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "/Users/seancao/Desktop/项目文件夹/agent-memory"
+  ],
+  "created_at": "2026-09-25T16:59:25.953709Z",
+  "description": "用户要求保存 agent-memory 历史改动总结和后续云服务改造依据的本地项目文件夹。",
+  "id": "ent_ccecbe01c2ad60ab229f",
+  "name": "agent-memory 项目目录",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "place",
+  "updated_at": "2026-11-04T08:56:50.217200Z"
+}

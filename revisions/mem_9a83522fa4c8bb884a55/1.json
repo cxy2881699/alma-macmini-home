@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-11T19:03:28.770514Z",
+  "id": "rev_a03ebfd0667eab499047",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-28：当天围绕 ICLR 2026 MemAgents Workshop 论文完成两轮调研:先基于 arXiv/OpenReview 摘要产出 48 篇初版,随后在 PDF 全文到位后由分身重写为 41 篇全文版,并系统对照宇哥 PRD 输出 P0/P1/P2 修订建议。",
+    "created_at": "2026-10-11T19:03:28.770514Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_4ead9e010ef9d7e33330",
+        "quote": "2026-09-28：当天围绕 ICLR 2026 MemAgents Workshop 论文完成两轮调研:先基于 arXiv/OpenReview 摘要产出 48 篇初版,随后在 PDF 全文到位后由分身重写为 41 篇全文版,并系统对照宇哥 PRD 输出 P0/P1/P2 修订建议。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_9a83522fa4c8bb884a55",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_4ead9e010ef9d7e33330",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-10-11T19:03:28.770514Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9a83522fa4c8bb884a55",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

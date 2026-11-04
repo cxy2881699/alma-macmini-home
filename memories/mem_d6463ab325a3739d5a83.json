@@ -1,0 +1,53 @@
+{
+  "conditions": "用户询问 Tailscale 转 HTTP+Token 在部署、使用和性能上的差别。",
+  "confidence": 0.82,
+  "content": "公网 HTTP+Token 方案的主要收益之一是公司受管电脑无需安装 Tailscale,从而避免与公司 VPN 或安全策略冲突。",
+  "created_at": "2026-09-29T19:00:35.192296Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_421c00dde9a1b98fc969",
+    "ent_1b0510f6e7579d8f62b3",
+    "ent_a69778123bc4273b8cd3",
+    "ent_8780400efccac7084a5a"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8fc67c0d4c5d64da55b1",
+      "quote": "公网 HTTP+Token 方案的主要收益之一是公司受管电脑无需安装 Tailscale,从而避免与公司 VPN 或安全策略冲突。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_d6463ab325a3739d5a83",
+  "is_temporary": false,
+  "keywords": [
+    "公网化",
+    "公司网络",
+    "VPN 冲突",
+    "受管设备",
+    "Tailscale 替代"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8fc67c0d4c5d64da55b1",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-29T19:00:35.192296Z",
+  "valid_to": null
+}

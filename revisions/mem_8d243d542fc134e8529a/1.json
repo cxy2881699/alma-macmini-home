@@ -1,0 +1,66 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:26:58.296570Z",
+  "id": "rev_5c521d53c1165fd650c9",
+  "memory": {
+    "conditions": "用户询问切换是否完成、是否还活着时，需要确认当前 OpenClaw 主模型和回滚路径。",
+    "confidence": 0.9,
+    "content": "OpenClaw 主模型已成功切换到 ark/kimi-k3-1-pro-261024,DeepSeek 仍保留在模型列表中可切回;切换备份为 pre-model-switch-20261026-194047.json,可用 switch-model.sh --rollback 回滚。",
+    "created_at": "2026-10-27T05:26:58.296570Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_1c6b296bc5cb579536f2",
+      "ent_85ac7912658c80484706"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_3d8e9a54e4b001ea6a33",
+        "quote": "OpenClaw 主模型已成功切换到 ark/kimi-k3-1-pro-261024,DeepSeek 仍保留在模型列表中可切回;切换备份为 pre-model-switch-20261026-194047.json,可用 switch-model.sh --rollback 回滚。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_8d243d542fc134e8529a",
+    "is_temporary": false,
+    "keywords": [
+      "模型切换",
+      "回滚",
+      "备份",
+      "Gateway",
+      "kimi-k3",
+      "K3.1 Pro",
+      "DeepSeek",
+      "模型回滚",
+      "pre-model-switch",
+      "switch-model.sh"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_3d8e9a54e4b001ea6a33",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:26:58.296570Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_8d243d542fc134e8529a",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-10-04：10-04 主要为自动化 cron 任务:上午晨报正常执行并发送一次,两次 HEARTBEAT 检查均无需处理事项。",
+  "created_at": "2026-10-04T19:03:51.864864Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_21ec0a807d8ab8a39f8f",
+      "quote": "2026-10-04：10-04 主要为自动化 cron 任务:上午晨报正常执行并发送一次,两次 HEARTBEAT 检查均无需处理事项。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_4ff4c8334d4348b7e6b9",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_21ec0a807d8ab8a39f8f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-04T19:03:51.864864Z",
+  "valid_to": null
+}

@@ -1,0 +1,66 @@
+{
+  "conditions": "用户明确表示 agent-memory 后续只开源精简版，并计划做收费线上版本。",
+  "confidence": 0.85,
+  "content": "用户计划将 agent-memory 商业化:成熟后开源阉割版,同时推出收费线上版本。",
+  "created_at": "2026-10-02T19:01:23.421087Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e",
+    "ent_c3f9f077f1f3ceaddd2f"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_5c2b03a36555ed887023",
+      "quote": "用户计划将 agent-memory 商业化:成熟后开源阉割版,同时推出收费线上版本。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_898bccf6377a459b387d",
+  "is_temporary": false,
+  "keywords": [
+    "保留实现细节",
+    "小红书需求验证",
+    "精简开源",
+    "线上版收费",
+    "产品化",
+    "agent-memory变现",
+    "开源精简版",
+    "信息裁剪",
+    "小红书需求信号",
+    "阉割版",
+    "收费线上版",
+    "小红书验证",
+    "小红书",
+    "agent-memory",
+    "阉割版开源",
+    "线上收费",
+    "SaaS",
+    "开源策略",
+    "agent-memory商业化",
+    "开源阉割版"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_5c2b03a36555ed887023",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-10-02T19:01:23.421087Z",
+  "valid_to": null
+}

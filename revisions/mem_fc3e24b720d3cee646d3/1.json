@@ -1,0 +1,69 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-09T19:02:09.859670Z",
+  "id": "rev_1c6dbb43ea5b166e97b7",
+  "memory": {
+    "conditions": "agent-memory 帖子的浏览、点赞、收藏和评论被用户视为早期市场兴趣信号。",
+    "confidence": 0.78,
+    "content": "小红书上的正向互动数据与评论追问,被用户视为 agent-memory 方向具备市场兴趣、可支撑后续商业化的早期验证信号。",
+    "created_at": "2026-10-09T19:02:09.859670Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e",
+      "ent_c3f9f077f1f3ceaddd2f"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_9325e41c677a9fe03725",
+        "quote": "小红书上的正向互动数据与评论追问,被用户视为 agent-memory 方向具备市场兴趣、可支撑后续商业化的早期验证信号。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_fc3e24b720d3cee646d3",
+    "is_temporary": false,
+    "keywords": [
+      "收藏",
+      "评论需求",
+      "点赞收藏",
+      "开源问题",
+      "商业化信号",
+      "评论追问",
+      "token问题",
+      "开源兴趣",
+      "小红书数据",
+      "市场验证",
+      "收藏追问",
+      "token",
+      "实现细节"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_9325e41c677a9fe03725",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-09T19:02:09.859670Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_fc3e24b720d3cee646d3",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

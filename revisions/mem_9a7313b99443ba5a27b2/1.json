@@ -1,0 +1,45 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:59:34.879662Z",
+  "id": "rev_684a0011d7d2f931d2fb",
+  "memory": {
+    "conditions": "用户关心新 IP 能否使用 Claude",
+    "confidence": 0.7,
+    "content": "用户有通过该 VPS 使用 Claude 等 AI 服务的需求;机房 IP 对 Claude 网页版风控严格(人机验证/403),稳定方案需住宅 IP,API 通道相对宽松。",
+    "created_at": "2026-10-27T04:59:34.879662Z",
+    "derived_from": [],
+    "entities": [
+      "ent_51b9c91560022845906c"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_9a7313b99443ba5a27b2",
+    "is_temporary": false,
+    "keywords": [
+      "Claude",
+      "住宅IP",
+      "机房IP风控",
+      "API"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:59:34.879662Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9a7313b99443ba5a27b2",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,60 @@
+{
+  "conditions": "管理页出现 Claude 来源或需要解释记忆来源标签时检索。",
+  "confidence": 0.85,
+  "content": "2026-09-24 OpenClaw 曾清理部署自检产生的 8 条 Claude 测试记忆及相关测试设备/空间,并把管理页记忆来源展示改为 openclaw@设备、codex@设备等格式。",
+  "created_at": "2026-10-27T04:30:32.896960Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_19c4ba76487afdbeeacc",
+      "quote": "2026-09-24 OpenClaw 曾清理部署自检产生的 8 条 Claude 测试记忆及相关测试设备/空间,并把管理页记忆来源展示改为 openclaw@设备、codex@设备等格式。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_47cea9dfc4cf500f9d28",
+  "is_temporary": false,
+  "keywords": [
+    "OpenClaw",
+    "测试数据清理",
+    "Claude测试记忆",
+    "8条清理",
+    "记忆来源展示",
+    "admin.html",
+    "OpenClaw清理测试记忆",
+    "8条Claude测试记忆",
+    "来源展示",
+    "管理页面",
+    "Claude 测试记忆",
+    "自检残留",
+    "清理测试数据",
+    "openclaw@设备",
+    "codex@设备"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_19c4ba76487afdbeeacc",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:30:32.896960Z",
+  "valid_to": null
+}

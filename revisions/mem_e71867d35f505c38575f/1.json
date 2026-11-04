@@ -1,0 +1,43 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-27T19:04:03.646115Z",
+  "id": "rev_d070288ab5328e427da9",
+  "memory": {
+    "conditions": "讨论新记忆系统定制化与阈值作用",
+    "confidence": 0.85,
+    "content": "用户认可新记忆系统应在接入时通过伪装成闲聊的校准对话测评用户情感/重要性基线,基线转化为该用户 agent 的个性化 Appraiser 参数;校准对话优先级高于暗号功能。",
+    "created_at": "2026-09-27T19:04:03.646115Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_e71867d35f505c38575f",
+    "is_temporary": false,
+    "keywords": [
+      "个性化校准",
+      "情感基线",
+      "Appraiser",
+      "冷启动"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-09-27T19:04:03.646115Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e71867d35f505c38575f",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

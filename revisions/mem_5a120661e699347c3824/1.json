@@ -1,0 +1,67 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:21:51.525988Z",
+  "id": "rev_bfebf4988987e24ed8b5",
+  "memory": {
+    "conditions": "逆向推断心理 Agent 的建模方法选型文档。",
+    "confidence": 0.95,
+    "content": "2026-10-22,subagent 完成《逆向推断型心理 Agent 的建模方法选型》中文调研文档(8128 字),写入 /Users/seancao/.openclaw/workspace/docs/research/reverse-inference-agent-architecture.md,覆盖监督式深度网络不适用的原因、低维潜变量假设、八类方法族对比、计算精神病学范式、多模态观测编码、主动学习、N=1 可识别性与失败模式。",
+    "created_at": "2026-10-27T04:21:51.525988Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6eb44c32bf523382fd30",
+      "ent_5e9983015c0ee6682456"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_1627b009151f2cb1840b",
+        "quote": "2026-10-22,subagent 完成《逆向推断型心理 Agent 的建模方法选型》中文调研文档(8128 字),写入 /Users/seancao/.openclaw/workspace/docs/research/reverse-inference-agent-architecture.md,覆盖监督式深度网络不适用的原因、低维潜变量假设、八类方法族对比、计算精神病学范式、多模态观测编码、主动学习、N=1 可识别性与失败模式。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_5a120661e699347c3824",
+    "is_temporary": false,
+    "keywords": [
+      "逆向推断",
+      "心理 Agent",
+      "建模选型",
+      "贝叶斯",
+      "调研报告",
+      "多模态观测",
+      "reverse-inference-agent-archi…",
+      "计算精神病学",
+      "主动学习",
+      "N=1",
+      "可识别性",
+      "失败模式"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_1627b009151f2cb1840b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-10-27T04:21:51.525988Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_5a120661e699347c3824",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

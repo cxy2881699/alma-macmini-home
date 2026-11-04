@@ -1,0 +1,50 @@
+{
+  "conditions": "用户想试用新模型并要求切换失败自动回滚",
+  "confidence": 0.8,
+  "content": "用户通过 Ark 平台使用模型,新模型 kimi-k3-1-pro-261024 在其账号上已预检可用(真实 API 调用返回 200),切换只改 endpoint 不改 URL;已备好带自动回滚的切换脚本 ~/.openclaw/workspace/tools/switch-model.sh",
+  "created_at": "2026-10-27T19:09:16.245433Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_1c6b296bc5cb579536f2",
+    "ent_85ac7912658c80484706"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_d55c939bb832758641d3",
+      "quote": "用户通过 Ark 平台使用模型,新模型 kimi-k3-1-pro-261024 在其账号上已预检可用(真实 API 调用返回 200),切换只改 endpoint 不改 URL;已备好带自动回滚的切换脚本 ~/.openclaw/workspace/tools/switch-model.sh",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_76cefb43c0b9c0ad1481",
+  "is_temporary": false,
+  "keywords": [
+    "模型切换",
+    "endpoint",
+    "回滚脚本",
+    "Kimi K3.1"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d55c939bb832758641d3",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T19:09:16.245433Z",
+  "valid_to": null
+}

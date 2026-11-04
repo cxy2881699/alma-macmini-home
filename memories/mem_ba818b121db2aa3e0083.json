@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-27：用户在本机管理后台 audit 页发现一份 Agent 新写的 PRD 没有成功写入记忆库,要求 Codex 查明实际保存位置;Codex 开始同时核对本机 PRD 文件与记忆库写入记录,并指出 ceo-os 中已见的两份 8 月 PRD 可能不是目标文件。",
+  "created_at": "2026-10-27T05:22:15.004142Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_c5b9bc50bc5c913a2dbe",
+      "quote": "2026-09-27：用户在本机管理后台 audit 页发现一份 Agent 新写的 PRD 没有成功写入记忆库,要求 Codex 查明实际保存位置;Codex 开始同时核对本机 PRD 文件与记忆库写入记录,并指出 ceo-os 中已见的两份 8 月 PRD 可能不是目标文件。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_ba818b121db2aa3e0083",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c5b9bc50bc5c913a2dbe",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-27T05:22:15.004142Z",
+  "valid_to": null
+}

@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:21:06.254070Z",
+  "id": "rev_ebcc39e452d88025f501",
+  "memory": {
+    "conditions": "用户分享记忆系统后，Agent 根据评论互动判断可做后续内容。",
+    "confidence": 0.78,
+    "content": "小红书用户对 agent-memory 内容的兴趣不只停留在点赞,评论已进一步追问 token、实现方式和开源细节,可作为需求验证信号。",
+    "created_at": "2026-10-27T05:21:06.254070Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e",
+      "ent_c3f9f077f1f3ceaddd2f"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_9325e41c677a9fe03725",
+        "quote": "小红书用户对 agent-memory 内容的兴趣不只停留在点赞,评论已进一步追问 token、实现方式和开源细节,可作为需求验证信号。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_bbf5fba2df373ede5944",
+    "is_temporary": false,
+    "keywords": [
+      "用户反馈",
+      "需求验证",
+      "评论追问",
+      "内容选题"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_9325e41c677a9fe03725",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:21:06.254070Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_bbf5fba2df373ede5944",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

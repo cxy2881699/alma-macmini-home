@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-26：凌晨用户嗓子疼服头孢休息期间,跨 Agent 排查并修复 memd 首轮对话静默丢弃 bug:定位为 OpenClaw 客户端 u${turnIndex} 兜底在截断窗口下撞 event_id;服务端完成三元组唯一索引与 replaced/rekeyed 改造并写 CHANGES.md,但 Codex 审查认为仍有误覆盖风险,需等小龙虾客户端改完复审。",
+  "created_at": "2026-09-25T19:03:40.412786Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_16d2615f00ae766bb32b",
+      "quote": "2026-09-26：凌晨用户嗓子疼服头孢休息期间,跨 Agent 排查并修复 memd 首轮对话静默丢弃 bug:定位为 OpenClaw 客户端 u${turnIndex} 兜底在截断窗口下撞 event_id;服务端完成三元组唯一索引与 replaced/rekeyed 改造并写 CHANGES.md,但 Codex 审查认为仍有误覆盖风险,需等小龙虾客户端改完复审。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_c2a6289510ce5a3556cc",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_16d2615f00ae766bb32b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-09-25T19:03:40.412786Z",
+  "valid_to": null
+}

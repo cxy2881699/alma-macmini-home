@@ -1,0 +1,78 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-27T11:53:56.415176Z",
+  "id": "rev_43dd779d44cbc4475b6a",
+  "memory": {
+    "conditions": "用户在记忆管理审计页发现 Agent 新生成的 PRD 缺失，追问文件到底保存在哪里。",
+    "confidence": 0.7,
+    "content": "用户发现 Agent 写的 PRD 没有进入记忆库并追问保存位置;Agent 开始在本机文件、Codex 会话和 memd 数据库中检索,初步找到 ceo-os 下两份 8 月旧 PRD,尚未确认新 PRD 位置。",
+    "created_at": "2026-09-27T11:53:56.415176Z",
+    "derived_from": [],
+    "entities": [
+      "ent_13a7ceff9826166f66a5",
+      "ent_1b0510f6e7579d8f62b3",
+      "ent_439553a794c721082879",
+      "ent_f71be7a4de02df16d2ed",
+      "ent_0902535efbae15087648"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_c5b9bc50bc5c913a2dbe",
+        "quote": "用户发现 Agent 写的 PRD 没有进入记忆库并追问保存位置;Agent 开始在本机文件、Codex 会话和 memd 数据库中检索,初步找到 ceo-os 下两份 8 月旧 PRD,尚未确认新 PRD 位置。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_34de3397853bfbc4fe1b",
+    "is_temporary": false,
+    "keywords": [
+      "agent-cloud-memory",
+      "文件检索",
+      "PRD",
+      "产品需求文档",
+      "未入库",
+      "Codex会话",
+      "memd数据库",
+      "新PRD保存位置",
+      "audit页面",
+      "ceo-os旧PRD",
+      "记忆库排查",
+      "audit审计页",
+      "本地文件与记忆库写入区分",
+      "新PRD",
+      "未上传",
+      "记忆库",
+      "PRD未上传",
+      "记忆库缺失",
+      "旧PRD",
+      "PRD未入库"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_c5b9bc50bc5c913a2dbe",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-27T11:53:56.415176Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_34de3397853bfbc4fe1b",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,56 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-08T19:02:20.650454Z",
+  "id": "rev_955772067f5dba9bac57",
+  "memory": {
+    "conditions": "用户从人脑杏仁核和信息论角度提出记忆价值判断。",
+    "confidence": 0.8,
+    "content": "用户认可的重要性判断初始框架包含情感冲击和高信息熵/关联度;讨论后扩展为意义、认知更新、反事实损失、证据强度与持续时间等多维评估。",
+    "created_at": "2026-10-08T19:02:20.650454Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8747147e4e4a8cd6b63f",
+        "quote": "用户认可的重要性判断初始框架包含情感冲击和高信息熵/关联度;讨论后扩展为意义、认知更新、反事实损失、证据强度与持续时间等多维评估。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_17d87e31ff36a5c4bb74",
+    "is_temporary": false,
+    "keywords": [
+      "重要记忆",
+      "情感冲击",
+      "信息熵",
+      "反事实损失"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8747147e4e4a8cd6b63f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-08T19:02:20.650454Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_17d87e31ff36a5c4bb74",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

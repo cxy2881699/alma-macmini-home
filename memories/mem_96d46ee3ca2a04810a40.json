@@ -1,0 +1,51 @@
+{
+  "conditions": "适用于记录 agent-memory/Codex 跨通道探针测试是否发出及是否获得响应。",
+  "confidence": 0.7,
+  "content": "2026-11-04 16:54,用户通过 alma_test 向 Codex 发送第 3 次探针消息,要求只回复“OK”;当前窗口未记录助手回复,测试结果待确认。",
+  "created_at": "2026-11-04T08:54:54.959285Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_c26cbdd36287d334bfb9",
+      "quote": "2026-11-04 16:54,用户通过 alma_test 向 Codex 发送第 3 次探针消息,要求只回复“OK”;当前窗口未记录助手回复,测试结果待确认。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_96d46ee3ca2a04810a40",
+  "is_temporary": false,
+  "keywords": [
+    "alma_test",
+    "codex",
+    "probe",
+    "探针",
+    "只回复OK",
+    "连通性测试",
+    "指令遵从"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c26cbdd36287d334bfb9",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-04T08:54:54.959285Z",
+  "valid_to": null
+}

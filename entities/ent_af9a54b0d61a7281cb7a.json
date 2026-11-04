@@ -1,0 +1,11 @@
+{
+  "aliases": [],
+  "created_at": "2026-10-27T18:36:31.641604Z",
+  "description": "火山引擎在证券行业持续合作与产品落地的补充案例对象",
+  "id": "ent_af9a54b0d61a7281cb7a",
+  "name": "华泰证券",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "organization",
+  "updated_at": "2026-11-04T08:56:50.220825Z"
+}

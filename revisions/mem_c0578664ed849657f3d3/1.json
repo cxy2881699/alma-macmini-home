@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-29T19:10:12.411660Z",
+  "id": "rev_29e00266dec52f0b9f9b",
+  "memory": {
+    "conditions": "晨报项目动态记录了主模型切换和验证完成。",
+    "confidence": 0.8,
+    "content": "OpenClaw 主模型已切换至 kimi-k3-1-pro-261024,并完成预检、备份、重启、实跑验证,保留回滚脚本和配置备份。",
+    "created_at": "2026-10-29T19:10:12.411660Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_1c6b296bc5cb579536f2",
+      "ent_85ac7912658c80484706"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_21ec0a807d8ab8a39f8f",
+        "quote": "OpenClaw 主模型已切换至 kimi-k3-1-pro-261024,并完成预检、备份、重启、实跑验证,保留回滚脚本和配置备份。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_c0578664ed849657f3d3",
+    "is_temporary": false,
+    "keywords": [
+      "模型切换",
+      "回滚脚本",
+      "配置备份",
+      "OpenClaw"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_21ec0a807d8ab8a39f8f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-29T19:10:12.411660Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_c0578664ed849657f3d3",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,60 @@
+{
+  "conditions": "用户在核对 Codex 记忆记录日期不一致时说明机器时区配置。",
+  "confidence": 0.9,
+  "content": "该电脑系统时区设为美国时区,但真实物理时间应按北京时间理解;排查记忆事件时间时需做时区换算,不能直接采信系统显示时间。",
+  "created_at": "2026-10-27T05:12:52.380933Z",
+  "derived_from": [],
+  "entities": [
+    "ent_1b0510f6e7579d8f62b3",
+    "ent_c42dac5ae99195f63d24"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8de82365a1608c4e7c4d",
+      "quote": "该电脑系统时区设为美国时区,但真实物理时间应按北京时间理解;排查记忆事件时间时需做时区换算,不能直接采信系统显示时间。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_e255c16e5b36c919f3a5",
+      "quote": "该电脑系统时区设为美国时区,但真实物理时间应按北京时间理解;排查记忆事件时间时需做时区换算,不能直接采信系统显示时间。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_46fe9747af5fa89635db",
+  "is_temporary": false,
+  "keywords": [
+    "时区偏移",
+    "美国时区",
+    "北京时间",
+    "时间戳"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8de82365a1608c4e7c4d",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_e255c16e5b36c919f3a5",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:12:52.380933Z",
+  "valid_to": null
+}

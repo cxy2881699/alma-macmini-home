@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "PID 32274"
+  ],
+  "created_at": "2026-09-23T17:44:08.832825Z",
+  "description": "2026-09-24 重启 memd 时未死干净的旧服务进程，占用 8787 端口返回修改前的旧版 admin 页面",
+  "id": "ent_a89c73b5da84ca8372b8",
+  "name": "memd 旧进程 32274",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T08:56:50.218385Z"
+}

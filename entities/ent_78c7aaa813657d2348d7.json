@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "kimi"
+  ],
+  "created_at": "2026-09-23T16:47:13.260389Z",
+  "description": "OpenClaw 配置的模型之一，诊断时显示离线（403）",
+  "id": "ent_78c7aaa813657d2348d7",
+  "name": "kimi-k2.5",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T08:56:50.214967Z"
+}

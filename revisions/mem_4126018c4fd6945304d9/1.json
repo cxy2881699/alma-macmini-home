@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:19:40.101864Z",
+  "id": "rev_d31387bf7f0d21f6a2ea",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.95,
+    "content": "2026-10-27 排查时 memd 进程、Neo4j、healthz 和 recall 注入正常,但后台任务有 163 个 extract 失败、34 个 sleep 失败、7 个排队和 1 个运行中。",
+    "created_at": "2026-10-27T04:19:40.101864Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8395beca681a6a0993af",
+        "quote": "2026-10-27 排查时 memd 进程、Neo4j、healthz 和 recall 注入正常,但后台任务有 163 个 extract 失败、34 个 sleep 失败、7 个排队和 1 个运行中。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_4126018c4fd6945304d9",
+    "is_temporary": true,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8395beca681a6a0993af",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:19:40.101864Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_4126018c4fd6945304d9",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

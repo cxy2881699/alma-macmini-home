@@ -1,0 +1,76 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:25:22.595411Z",
+  "id": "rev_9bd78818501e1f0cbe0a",
+  "memory": {
+    "conditions": "用户继续尝试信任 UserPromptSubmit、PostToolUse、Stop 钩子",
+    "confidence": 0.7,
+    "content": "曾认为：要开启 Codex agent-memory hooks,应打开 macOS Terminal,进入 /Users/seancao/Documents/Codex/2026-09-23/users-seancao-desktop-agent-memory 后运行 codex,在 Codex CLI 输入 /hooks,并信任 UserPromptSubmit、PostToolUse、Stop 三个钩子；实际：要开启 Codex agent-memory hooks,原本应在 macOS Terminal 进入项目目录运行 codex 并在 /hooks 中信任三个钩子;但截至 2026-09-24 01:22,Codex CLI 因 ARM64 二进制缺失及 Gatekeeper 删除无法启动,必须先修复 CLI 安装才能执行该流程；错误来源：信息过时",
+    "created_at": "2026-09-23T17:25:22.595411Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_33def429029d95fb6e84"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_2ff0c1defb522ad38c60",
+        "quote": "曾认为：要开启 Codex agent-memory hooks,应打开 macOS Terminal,进入 /Users/seancao/Documents/Codex/2026-09-23/users-seancao-desktop-agent-memory 后运行 codex,在 Codex CLI 输入 /hooks,并信任 UserPromptSubmit、PostToolUse、Stop 三个钩子；实际：要开启 Codex agent-memory hooks,原本应在 macOS Terminal 进入项目目录运行 codex 并在 /hooks 中信任三个钩子;但截至 2026-09-24 01:22,Codex CLI 因 ARM64 二进制缺失及 Gatekeeper 删除无法启动,必须先修复 CLI 安装才能执行该流程；错误来源：信息过时",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_91a8ea1810469466278d",
+        "quote": "曾认为：要开启 Codex agent-memory hooks,应打开 macOS Terminal,进入 /Users/seancao/Documents/Codex/2026-09-23/users-seancao-desktop-agent-memory 后运行 codex,在 Codex CLI 输入 /hooks,并信任 UserPromptSubmit、PostToolUse、Stop 三个钩子；实际：要开启 Codex agent-memory hooks,原本应在 macOS Terminal 进入项目目录运行 codex 并在 /hooks 中信任三个钩子;但截至 2026-09-24 01:22,Codex CLI 因 ARM64 二进制缺失及 Gatekeeper 删除无法启动,必须先修复 CLI 安装才能执行该流程；错误来源：信息过时",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_11787d0db03223d35d0a",
+    "is_temporary": false,
+    "keywords": [
+      "Codex",
+      "hook",
+      "/hooks",
+      "Terminal",
+      "信任",
+      "UserPromptSubmit",
+      "PostToolUse",
+      "Stop",
+      "Codex hooks",
+      "CLI 无法启动"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_2ff0c1defb522ad38c60",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_91a8ea1810469466278d",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-09-23T17:25:22.595411Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_11787d0db03223d35d0a",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

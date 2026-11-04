@@ -1,0 +1,69 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:37:15.253965Z",
+  "id": "rev_4e5e5458ce0a662c72f5",
+  "memory": {
+    "conditions": "用户改用受限目录和三个学术 API 重新启动真实文献收集。",
+    "confidence": 0.85,
+    "content": "截至 2026-10-22 09:56,文献检索的可行路径已从被权限拦截的 WebSearch/WebFetch/curl 转为在 /tmp/lit-hormone 中仅用 Bash+curl 调 API;探测结果为 Semantic Scholar 429、Crossref 与 PubMed 可用。",
+    "created_at": "2026-10-27T05:37:15.253965Z",
+    "derived_from": [],
+    "entities": [
+      "ent_16155c4beee90c991d14"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8d3f3ac718d007dd877d",
+        "quote": "截至 2026-10-22 09:56,文献检索的可行路径已从被权限拦截的 WebSearch/WebFetch/curl 转为在 /tmp/lit-hormone 中仅用 Bash+curl 调 API;探测结果为 Semantic Scholar 429、Crossref 与 PubMed 可用。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_7bab4433029e0047b9ba",
+        "quote": "截至 2026-10-22 09:56,文献检索的可行路径已从被权限拦截的 WebSearch/WebFetch/curl 转为在 /tmp/lit-hormone 中仅用 Bash+curl 调 API;探测结果为 Semantic Scholar 429、Crossref 与 PubMed 可用。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_83dda4eee6ea69b9514a",
+    "is_temporary": false,
+    "keywords": [
+      "API检索",
+      "429",
+      "文献元数据",
+      "curl"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8d3f3ac718d007dd877d",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_7bab4433029e0047b9ba",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:37:15.253965Z",
+    "valid_to": "2026-10-22"
+  },
+  "memory_id": "mem_83dda4eee6ea69b9514a",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

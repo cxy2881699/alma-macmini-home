@@ -1,0 +1,62 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:51:07.793838Z",
+  "id": "rev_ed736a380a84d83ec7f8",
+  "memory": {
+    "conditions": "选酒事件后形成的要求：涉及个人偏好的建议必须先核对自动召回和审计。",
+    "confidence": 0.86,
+    "content": "用户要求 Agent 在回答涉及个人关系或偏好的问题前,先核对自动召回结果和服务端审计;召回为空时应明确说明依据不足,而不是把 MCP 未调用等同于记忆服务未调用。",
+    "created_at": "2026-10-27T04:51:07.793838Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_16a5121fc9adff39be5f",
+        "quote": "用户要求 Agent 在回答涉及个人关系或偏好的问题前,先核对自动召回结果和服务端审计;召回为空时应明确说明依据不足,而不是把 MCP 未调用等同于记忆服务未调用。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_1b6dbe1f06d12bd70c47",
+    "is_temporary": false,
+    "keywords": [
+      "个人偏好",
+      "选酒",
+      "熟人建议",
+      "召回为空",
+      "审计依据",
+      "证据不足"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_16a5121fc9adff39be5f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-27T04:51:07.793838Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_1b6dbe1f06d12bd70c47",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

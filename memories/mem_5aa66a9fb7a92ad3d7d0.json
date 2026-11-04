@@ -1,0 +1,60 @@
+{
+  "conditions": "2026-09-25 截图显示 agent-memory 帖子收藏数高于点赞数。",
+  "confidence": 0.86,
+  "content": "该条小红书 agent-memory 帖子在 2026-09-25 已获得约 1427 浏览、69 赞、79 收藏、17 评论,收藏数高于点赞数,显示出较强的保存/研究意愿。",
+  "created_at": "2026-10-27T05:27:24.342330Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e",
+    "ent_c3f9f077f1f3ceaddd2f"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_86e36d3877d091b5c09b",
+      "quote": "该条小红书 agent-memory 帖子在 2026-09-25 已获得约 1427 浏览、69 赞、79 收藏、17 评论,收藏数高于点赞数,显示出较强的保存/研究意愿。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_5aa66a9fb7a92ad3d7d0",
+  "is_temporary": false,
+  "keywords": [
+    "点赞收藏比",
+    "需求验证",
+    "传播反馈",
+    "1427 浏览",
+    "69 赞",
+    "79 收藏",
+    "17 评论",
+    "收藏高于点赞",
+    "agent-memory帖子",
+    "1427浏览",
+    "69赞",
+    "79收藏",
+    "17评论",
+    "小红书数据"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_86e36d3877d091b5c09b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:27:24.342330Z",
+  "valid_to": null
+}

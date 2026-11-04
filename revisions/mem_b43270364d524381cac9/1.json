@@ -1,0 +1,76 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:31:15.674738Z",
+  "id": "rev_c0b471880b2c6cdcfc1c",
+  "memory": {
+    "conditions": "2026-09-25 选酒事件中核对到 hook 自动 recall 成功，但失败策略仍可能放行。",
+    "confidence": 0.86,
+    "content": "2026-09-25 的 Codex 桌面会话中,UserPromptSubmit hook 已能在提示词送模型前自动 recall,但失败策略仍是搜索超时或服务出错时放行,因此只能证明“每轮尝试搜索”,不能证明“每轮必须搜索成功”。",
+    "created_at": "2026-10-27T04:31:15.674738Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_ddfc3157c195d2617059",
+        "quote": "2026-09-25 的 Codex 桌面会话中,UserPromptSubmit hook 已能在提示词送模型前自动 recall,但失败策略仍是搜索超时或服务出错时放行,因此只能证明“每轮尝试搜索”,不能证明“每轮必须搜索成功”。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_b43270364d524381cac9",
+    "is_temporary": false,
+    "keywords": [
+      "自动召回",
+      "recall",
+      "失败策略",
+      "Codex桌面",
+      "MCP区别",
+      "hook审计",
+      "hook",
+      "MCP",
+      "静默放行",
+      "每轮搜索",
+      "MCP深度查询",
+      "每轮尝试搜索",
+      "hook超时放行",
+      "recall成功",
+      "审计验证",
+      "UserPromptSubmit",
+      "recall=ok",
+      "40ms",
+      "失败放行",
+      "搜索超时"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_ddfc3157c195d2617059",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T04:31:15.674738Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_b43270364d524381cac9",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

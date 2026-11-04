@@ -1,0 +1,66 @@
+{
+  "conditions": "用户在桌面聊天窗口找不到 /hooks，后确认必须打开 macOS Terminal 进入 Codex CLI 审核信任。",
+  "confidence": 0.9,
+  "content": "Codex 桌面聊天窗口与 Codex CLI 是不同运行环境;/hooks 信任面板需在 CLI 中操作,桌面窗口不支持用 /hooks 打开。",
+  "created_at": "2026-09-28T19:02:56.543224Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_ea3bf0959fa2c6d88a4f",
+      "quote": "Codex 桌面聊天窗口与 Codex CLI 是不同运行环境;/hooks 信任面板需在 CLI 中操作,桌面窗口不支持用 /hooks 打开。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_e6eddea38beb8a9abf22",
+  "is_temporary": false,
+  "keywords": [
+    "Codex",
+    "hooks",
+    "CLI",
+    "桌面端",
+    "信任",
+    "Codex桌面",
+    "hooks信任",
+    "macOS",
+    "/hooks",
+    "Trusted",
+    "UserPromptSubmit",
+    "PostToolUse",
+    "Stop",
+    "桌面聊天窗口",
+    "Codex CLI 区别",
+    "/hooks 不支持",
+    "Trust hooks",
+    "Codex 桌面版",
+    "Codex CLI",
+    "/hooks 面板"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ea3bf0959fa2c6d88a4f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-28T19:02:56.543224Z",
+  "valid_to": null
+}

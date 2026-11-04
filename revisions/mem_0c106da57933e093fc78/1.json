@@ -1,0 +1,74 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T04:21:21.068627Z",
+  "id": "rev_fa31b98e374cd25e17ed",
+  "memory": {
+    "conditions": "适用于用户几天后准备注册 Claude 或再次遇到海外服务注册风控时。",
+    "confidence": 0.9,
+    "content": "2026-10-18,用户新注册 Gmail 后立即注册 Claude,结果账号被 hold;用户接受重新注册一个 Gmail、养号 3-5 天后再注册 Claude 的方案。",
+    "created_at": "2026-10-27T04:21:21.068627Z",
+    "derived_from": [],
+    "entities": [
+      "ent_51b9c91560022845906c",
+      "ent_665535bb31cceb52704f"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_f0ea3e3acc8d7909f32f",
+        "quote": "2026-10-18,用户新注册 Gmail 后立即注册 Claude,结果账号被 hold;用户接受重新注册一个 Gmail、养号 3-5 天后再注册 Claude 的方案。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_1cc32c8fffaceabb3bb1",
+        "quote": "2026-10-18,用户新注册 Gmail 后立即注册 Claude,结果账号被 hold;用户接受重新注册一个 Gmail、养号 3-5 天后再注册 Claude 的方案。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_0c106da57933e093fc78",
+    "is_temporary": false,
+    "keywords": [
+      "Gmail",
+      "Claude",
+      "账号被hold",
+      "养号",
+      "风控",
+      "新邮箱",
+      "两步验证",
+      "固定IP"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_f0ea3e3acc8d7909f32f",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_1cc32c8fffaceabb3bb1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-10-27T04:21:21.068627Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_0c106da57933e093fc78",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "01 INFMEM"
+  ],
+  "created_at": "2026-09-28T03:54:20.257364Z",
+  "description": "MemAgents Workshop Demo 论文（编号01），Learning System-2 Memory 架构",
+  "id": "ent_c87b0f368df97ddbb460",
+  "name": "INFMEM",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T08:56:50.214661Z"
+}

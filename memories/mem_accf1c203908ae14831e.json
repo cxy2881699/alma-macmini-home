@@ -1,0 +1,95 @@
+{
+  "conditions": "OpenClaw 模型参数被修正并重启生效，用于后续排查模型配置。",
+  "confidence": 0.9,
+  "content": "kimi-k3-1-pro-261024 的 OpenClaw 配置参数已从初版 262144/32768 修正为 contextWindow 1048576、maxTokens 131072、支持 text+image、reasoning=true,并通过配置校验与重启生效。",
+  "created_at": "2026-10-27T19:10:02.820418Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_1c6b296bc5cb579536f2",
+    "ent_85ac7912658c80484706"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_d55c939bb832758641d3",
+      "quote": "kimi-k3-1-pro-261024 的 OpenClaw 配置参数已从初版 262144/32768 修正为 contextWindow 1048576、maxTokens 131072、支持 text+image、reasoning=true,并通过配置校验与重启生效。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_3d8e9a54e4b001ea6a33",
+      "quote": "kimi-k3-1-pro-261024 的 OpenClaw 配置参数已从初版 262144/32768 修正为 contextWindow 1048576、maxTokens 131072、支持 text+image、reasoning=true,并通过配置校验与重启生效。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_6bd23e50822556638c98",
+      "quote": "kimi-k3-1-pro-261024 的 OpenClaw 配置参数已从初版 262144/32768 修正为 contextWindow 1048576、maxTokens 131072、支持 text+image、reasoning=true,并通过配置校验与重启生效。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_d8256c83941af0aea9e4",
+      "quote": "kimi-k3-1-pro-261024 的 OpenClaw 配置参数已从初版 262144/32768 修正为 contextWindow 1048576、maxTokens 131072、支持 text+image、reasoning=true,并通过配置校验与重启生效。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_accf1c203908ae14831e",
+  "is_temporary": false,
+  "keywords": [
+    "模型参数",
+    "Kimi参数",
+    "模型配置修正",
+    "Kimi K3.1 Pro",
+    "图片输入",
+    "OpenClaw模型参数",
+    "kimi参数",
+    "contextWindow",
+    "maxTokens",
+    "1048576",
+    "131072",
+    "kimi-k3-1-pro-261024",
+    "1024k上下文",
+    "128k输出",
+    "text+image",
+    "reasoning"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d55c939bb832758641d3",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_3d8e9a54e4b001ea6a33",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_6bd23e50822556638c98",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_d8256c83941af0aea9e4",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T19:10:02.820418Z",
+  "valid_to": null
+}

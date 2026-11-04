@@ -1,0 +1,45 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:04:47.516931Z",
+  "id": "rev_0a50f80790ad77d3cbbb",
+  "memory": {
+    "conditions": "排查全机断网时发现 10-18 的分流改动未生效",
+    "confidence": 0.85,
+    "content": "用户客户端(Verge)此前声称已加的 GEOIP,CN,DIRECT 分流规则实际未落盘生效,当前只有广告拦截+MATCH,PROXY,导致节点一死国内网站也无法访问;Agent 多次提议补加但用户尚未确认。",
+    "created_at": "2026-10-27T05:04:47.516931Z",
+    "derived_from": [],
+    "entities": [
+      "ent_f18082c6c564869030be"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_fb831d29ed4040acefe9",
+    "is_temporary": false,
+    "keywords": [
+      "分流规则",
+      "Verge",
+      "国内直连",
+      "配置未落盘"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:04:47.516931Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_fb831d29ed4040acefe9",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

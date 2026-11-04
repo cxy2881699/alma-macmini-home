@@ -1,0 +1,64 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T19:01:32.717567Z",
+  "id": "rev_dc6ff49bfa512a23ddb7",
+  "memory": {
+    "conditions": "用户要求复活“小龙虾”，Agent 修复配置和本机地址后重启网关并验证召回。",
+    "confidence": 0.88,
+    "content": "2026-09-24 凌晨 OpenClaw 卡住的直接链路是:不支持的 hooks 配置字段、Gateway 旧进程未重载,以及本机请求经代理访问 Tailscale MagicDNS 导致 socket 失败;修复后真实 recall 已恢复为 ok。",
+    "created_at": "2026-10-27T19:01:32.717567Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def",
+      "ent_421c00dde9a1b98fc969",
+      "ent_4488e0fdf8d04896269e",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_251281e40be3c2e88a50",
+        "quote": "2026-09-24 凌晨 OpenClaw 卡住的直接链路是:不支持的 hooks 配置字段、Gateway 旧进程未重载,以及本机请求经代理访问 Tailscale MagicDNS 导致 socket 失败;修复后真实 recall 已恢复为 ok。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_082a01254039fc1d0c0a",
+    "is_temporary": false,
+    "keywords": [
+      "OpenClaw卡住",
+      "MagicDNS",
+      "代理",
+      "hooks字段",
+      "gateway重启",
+      "recall ok"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_251281e40be3c2e88a50",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T19:01:32.717567Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_082a01254039fc1d0c0a",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

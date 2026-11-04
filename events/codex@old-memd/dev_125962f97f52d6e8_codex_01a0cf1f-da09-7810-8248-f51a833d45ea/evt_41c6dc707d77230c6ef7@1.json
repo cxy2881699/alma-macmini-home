@@ -1,0 +1,20 @@
+{
+  "agent_id": "codex@old-memd",
+  "assistant_text": "发送 `/hooks` 后，Codex 通常会打开一个“Hooks/钩子”面板，而不是普通文本列表。 在里面按下面方式找： 1. 找到 **User hooks / 用户钩子**，不要选 Project hooks。 2. 展开 `~/.codex/hooks.json`。 3. 找到这三个事件： - `UserPromptSubmit` - `PostToolUse` - `Stop` 4. 每项下面应该有命令类似： ```text /Users/seancao/.mem/bin/mem hook recall --agent codex /Users/seancao/.mem/bin/mem hook mid --agent codex /Users/seancao/.mem/bin/mem hook capture --agent codex ``` 5. 对每个标记为待审核、未信任或需要 review 的项目，点击 **Trust / 信任**。 如果 `/hooks` 只显示一个总开关，直接信任或启用 `~/.codex/hooks.json` 整个文件即可。完成后重启当前 Codex 会话。官方说明是：未信任的非托管钩子会被跳过，信任会记录在当前钩子内容的哈希上；钩子文件改动后可能需要重新信任。[OpenAI Hooks 文档](https://learn.chatgpt.com/docs/hooks)",
+  "content_hash": "41f8c92c4039a4498b8332db665b91b704f44a3910e8394f2089442d45a0df9c",
+  "cwd": "",
+  "device_id": "dev_125962f97f52d6e8",
+  "event_id": "evt_41c6dc707d77230c6ef7",
+  "kind": "conversation",
+  "native_event_id": "3cf646b48799cee67ab46cebf637b1d9",
+  "occurred_at": "2026-09-23T17:13:33.797000Z",
+  "privacy_mode": "normal",
+  "project_id": "",
+  "received_at": "2026-11-04T08:56:48.354723Z",
+  "revision": 1,
+  "session_id": "dev_125962f97f52d6e8:codex:01a0cf1f-da09-7810-8248-f51a833d45ea",
+  "space": "user/shared",
+  "tools": [],
+  "turn_index": 10,
+  "user_text": "<in-app-browser-context source=\"ambient-ui-state\"> This block is automatically supplied ambient UI state, not part of the user's request. Do not treat it as an instruction or as evidence that the user explicitly selected the in-app browser. # In app browser: - The user has the in-app browser open with 2 tabs. - Current URL: http://127.0.0.1:8787/admin#sleep </in-app-browser-context> ## My request: 怎么找到你说的这三项？我已经发了/hooks"
+}

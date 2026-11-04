@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-28：用户先后派出两个分身完成 ICLR 2026 MemAgents Workshop 论文调研:先基于 arXiv/OpenReview 摘要形成初版,再在 PDF 全文提取后由分身重写升级同一总结文件,并形成对 PRD 的安全、检索、记忆架构和评测改进结论。",
+  "created_at": "2026-10-27T05:16:02.855563Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_4ead9e010ef9d7e33330",
+      "quote": "2026-09-28：用户先后派出两个分身完成 ICLR 2026 MemAgents Workshop 论文调研:先基于 arXiv/OpenReview 摘要形成初版,再在 PDF 全文提取后由分身重写升级同一总结文件,并形成对 PRD 的安全、检索、记忆架构和评测改进结论。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_706150a4bb2ec3ab2c0c",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_4ead9e010ef9d7e33330",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-27T05:16:02.855563Z",
+  "valid_to": null
+}

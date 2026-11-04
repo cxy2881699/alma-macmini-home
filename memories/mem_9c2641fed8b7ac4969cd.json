@@ -1,0 +1,34 @@
+{
+  "conditions": "用户写完 PRD 后打算交给其他 agent 分析",
+  "confidence": 0.85,
+  "content": "用户计划用其他 Agent 对可进化记忆系统 PRD 做独立分析评审,因此需要让其他 Agent 能可靠获取完整 PRD 而非仅摘要。",
+  "created_at": "2026-10-11T19:02:25.595013Z",
+  "derived_from": [],
+  "entities": [
+    "ent_0dd3ce8f5049183636d7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_9c2641fed8b7ac4969cd",
+  "is_temporary": false,
+  "keywords": [
+    "评审",
+    "跨Agent",
+    "PRD分析"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-10-11T19:02:25.595013Z",
+  "valid_to": null
+}

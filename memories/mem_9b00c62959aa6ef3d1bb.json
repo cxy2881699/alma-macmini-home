@@ -1,0 +1,63 @@
+{
+  "conditions": "用户要求在 /tmp/lit-hormone 中只用 Bash+curl 抓取 A-O 共 15 个主题的真实文献元数据。",
+  "confidence": 0.7,
+  "content": "用户要求在干净目录中仅用 Bash 与 curl 调用 Semantic Scholar、Crossref、PubMed,检索 15 个主题的真实学术文献元数据并生成 papers-raw.md 与 retrieval-log.md;Agent 已开始执行,Semantic Scholar 探测为 429,Crossref 与 PubMed 正常。",
+  "created_at": "2026-10-27T04:17:21.444230Z",
+  "derived_from": [],
+  "entities": [
+    "ent_16155c4beee90c991d14"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_8d3f3ac718d007dd877d",
+      "quote": "用户要求在干净目录中仅用 Bash 与 curl 调用 Semantic Scholar、Crossref、PubMed,检索 15 个主题的真实学术文献元数据并生成 papers-raw.md 与 retrieval-log.md;Agent 已开始执行,Semantic Scholar 探测为 429,Crossref 与 PubMed 正常。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_9b00c62959aa6ef3d1bb",
+  "is_temporary": false,
+  "keywords": [
+    "文献检索",
+    "学术元数据",
+    "激素",
+    "神经递质",
+    "心理结构",
+    "15个主题",
+    "15 个主题",
+    "API 检索",
+    "Semantic Scholar 429",
+    "Crossref正常",
+    "PubMed正常",
+    "15主题",
+    "papers-raw.md",
+    "retrieval-log.md",
+    "Semantic Scholar",
+    "Crossref",
+    "PubMed",
+    "429",
+    "文献元数据"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8d3f3ac718d007dd877d",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-10-27T04:17:21.444230Z",
+  "valid_to": "2026-10-22"
+}

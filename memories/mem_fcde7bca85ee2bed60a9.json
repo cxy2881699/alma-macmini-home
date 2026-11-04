@@ -1,0 +1,45 @@
+{
+  "conditions": "用户主动提出情感强度和信息论两类重要记忆判断方法。",
+  "confidence": 0.75,
+  "content": "在记忆系统设计上,用户倾向用可量化或理论化框架筛选重要记忆,尤其重视情感冲击、信息量/关联度及其对后续抽取策略的影响。",
+  "created_at": "2026-09-27T19:01:45.641309Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8747147e4e4a8cd6b63f",
+      "quote": "在记忆系统设计上,用户倾向用可量化或理论化框架筛选重要记忆,尤其重视情感冲击、信息量/关联度及其对后续抽取策略的影响。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_fcde7bca85ee2bed60a9",
+  "is_temporary": false,
+  "keywords": [
+    "杏",
+    "仁",
+    "核"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8747147e4e4a8cd6b63f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-09-27T19:01:45.641309Z",
+  "valid_to": null
+}

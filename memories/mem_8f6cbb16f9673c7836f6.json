@@ -1,0 +1,50 @@
+{
+  "conditions": "用户询问 Tailscale 转 HTTP+Token 在部署、使用、性能上的差别。",
+  "confidence": 0.8,
+  "content": "公网化安全方案应包含 token 分级(owner/设备/只读)、限速防枚举、登录审计告警,并前置 CDN/WAF;这些是把 token 作为唯一认证边界后的必要补强。",
+  "created_at": "2026-10-10T19:00:43.930275Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_8fc67c0d4c5d64da55b1",
+      "quote": "公网化安全方案应包含 token 分级(owner/设备/只读)、限速防枚举、登录审计告警,并前置 CDN/WAF;这些是把 token 作为唯一认证边界后的必要补强。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_8f6cbb16f9673c7836f6",
+  "is_temporary": false,
+  "keywords": [
+    "token分级",
+    "限速",
+    "审计告警",
+    "WAF",
+    "公网安全"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8fc67c0d4c5d64da55b1",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-10T19:00:43.930275Z",
+  "valid_to": null
+}

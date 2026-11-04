@@ -1,0 +1,76 @@
+{
+  "conditions": "Agent 在缺少个人偏好和餐饮场景时武断推荐酒水，被用户质疑后纠正。",
+  "confidence": 0.7,
+  "content": "用户请 Agent 为明晚与从美国回来的大学同学重聚推荐带什么酒,Agent 先武断推荐格兰杰 12 年,被用户追问“你确定么”后承认信息不足,转而询问同学口味和晚餐安排。",
+  "created_at": "2026-09-25T08:36:35.646025Z",
+  "derived_from": [],
+  "entities": [
+    "ent_774067d2559ca01157a7"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_63c357d22847ac53220a",
+      "quote": "用户请 Agent 为明晚与从美国回来的大学同学重聚推荐带什么酒,Agent 先武断推荐格兰杰 12 年,被用户追问“你确定么”后承认信息不足,转而询问同学口味和晚餐安排。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_cba7676006be064cd2bd",
+      "quote": "用户请 Agent 为明晚与从美国回来的大学同学重聚推荐带什么酒,Agent 先武断推荐格兰杰 12 年,被用户追问“你确定么”后承认信息不足,转而询问同学口味和晚餐安排。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_16a5121fc9adff39be5f",
+      "quote": "用户请 Agent 为明晚与从美国回来的大学同学重聚推荐带什么酒,Agent 先武断推荐格兰杰 12 年,被用户追问“你确定么”后承认信息不足,转而询问同学口味和晚餐安排。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_dd8e7ab16355c48df706",
+  "is_temporary": false,
+  "keywords": [
+    "带酒",
+    "同学聚会",
+    "推荐",
+    "重聚",
+    "美国回国",
+    "格兰杰12年",
+    "威士忌",
+    "信息不足",
+    "同学口味",
+    "晚餐安排"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_63c357d22847ac53220a",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_cba7676006be064cd2bd",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_16a5121fc9adff39be5f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-25T08:36:35.646025Z",
+  "valid_to": null
+}

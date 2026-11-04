@@ -1,0 +1,46 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-29T19:08:29.135518Z",
+  "id": "rev_40113701a3badfaa2fd8",
+  "memory": {
+    "conditions": "用户追问稳定使用 Claude 的办法，Agent 多次建议利用 DMIT 3 天退款期实测。",
+    "confidence": 0.72,
+    "content": "在代理/VPS 方案上,用户偏好可验证、可退款、低试错成本的采购路径,而不是直接接受“大概率可用”的判断。",
+    "created_at": "2026-10-29T19:08:29.135518Z",
+    "derived_from": [],
+    "entities": [
+      "ent_51b9c91560022845906c"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_c26c21789c36f29c1a17",
+    "is_temporary": false,
+    "keywords": [
+      "可退款",
+      "先测试",
+      "稳定使用",
+      "采购验证",
+      "3天退款"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-29T19:08:29.135518Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_c26c21789c36f29c1a17",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

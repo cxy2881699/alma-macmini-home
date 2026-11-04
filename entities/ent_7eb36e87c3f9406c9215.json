@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "奔驰中国"
+  ],
+  "created_at": "2026-10-27T18:35:13.611211Z",
+  "description": "梅赛德斯-奔驰在华业务主体，2024 年与火山引擎合作，2025 年升级合作并在纯电 CLA 上量产应用豆包大模型。",
+  "id": "ent_7eb36e87c3f9406c9215",
+  "name": "梅赛德斯-奔驰中国",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "organization",
+  "updated_at": "2026-11-04T08:56:50.215380Z"
+}

@@ -1,0 +1,44 @@
+{
+  "conditions": "",
+  "confidence": 0.92,
+  "content": "截至 2026-10-27,OpenClaw 当前主模型为 ark/kimi-k3-1-pro-261024,配置为 1048576 上下文、131072 输出、文本加图片输入并启用 reasoning。",
+  "created_at": "2026-10-27T04:20:03.808891Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6cf84e1c3c276ec690be",
+    "ent_85ac7912658c80484706"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_d8256c83941af0aea9e4",
+      "quote": "截至 2026-10-27,OpenClaw 当前主模型为 ark/kimi-k3-1-pro-261024,配置为 1048576 上下文、131072 输出、文本加图片输入并启用 reasoning。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_253cee9f1b9e6fd04730",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d8256c83941af0aea9e4",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:20:03.808891Z",
+  "valid_to": null
+}

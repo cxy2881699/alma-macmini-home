@@ -1,0 +1,63 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-31T19:06:06.466285Z",
+  "id": "rev_661cc1bef088b8525d35",
+  "memory": {
+    "conditions": "复盘旧 VPS 国内不可达但国外可达，判断为 GFW 单 IP 封锁。",
+    "confidence": 0.86,
+    "content": "LA-Reality 被判定为 GFW 单 IP 封锁的关键依据是国内 ICMP 通但 TCP 全端口超时、国外节点 443 可通、同段邻居 IP 国内可连。",
+    "created_at": "2026-10-31T19:06:06.466285Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6ebee10dda1843bbd843"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_af943030f4b33235f412",
+        "quote": "LA-Reality 被判定为 GFW 单 IP 封锁的关键依据是国内 ICMP 通但 TCP 全端口超时、国外节点 443 可通、同段邻居 IP 国内可连。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_f8a6a0335c134d5f483b",
+    "is_temporary": false,
+    "keywords": [
+      "ICMP",
+      "TCP超时",
+      "LA-Reality",
+      "155.94.145.75",
+      "RackNerd",
+      "GFW",
+      "单IP封锁",
+      "ColoCrossing",
+      "DC02"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_af943030f4b33235f412",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-31T19:06:06.466285Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_f8a6a0335c134d5f483b",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

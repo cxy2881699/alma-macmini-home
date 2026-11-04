@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-29：subagent 完成49篇2026年6-9月arXiv Agent Memory论文的提取与中文全景综述,产出SURVEY-2026H2.md,并汇报交付优先于检索、读取时整理挑战写入时蒸馏、记忆方法需路由、多模态基准与安全攻击等关键发现。",
+  "created_at": "2026-10-03T19:03:25.158493Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_56b471b2ce769966e5ab",
+      "quote": "2026-09-29：subagent 完成49篇2026年6-9月arXiv Agent Memory论文的提取与中文全景综述,产出SURVEY-2026H2.md,并汇报交付优先于检索、读取时整理挑战写入时蒸馏、记忆方法需路由、多模态基准与安全攻击等关键发现。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_0b3de1845e2c16c3c30d",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_56b471b2ce769966e5ab",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-03T19:03:25.158493Z",
+  "valid_to": null
+}

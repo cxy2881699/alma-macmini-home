@@ -1,0 +1,50 @@
+{
+  "conditions": "用户发现 Agent 把未调用 MCP 误说成未调用记忆服务。",
+  "confidence": 0.92,
+  "content": "用户对 agent-memory 的召回架构预期是每轮由 UserPromptSubmit hook 自动 search;MCP 手动查询只能作为补充深度检索,不能替代自动召回。",
+  "created_at": "2026-10-27T05:39:38.541425Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_ddfc3157c195d2617059",
+      "quote": "用户对 agent-memory 的召回架构预期是每轮由 UserPromptSubmit hook 自动 search;MCP 手动查询只能作为补充深度检索,不能替代自动召回。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_682807e63157d448d13d",
+  "is_temporary": false,
+  "keywords": [
+    "hook自动召回",
+    "MCP补充查询",
+    "UserPromptSubmit",
+    "架构预期"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ddfc3157c195d2617059",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T05:39:38.541425Z",
+  "valid_to": null
+}

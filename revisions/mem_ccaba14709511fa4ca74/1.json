@@ -1,0 +1,74 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-07T19:01:56.824089Z",
+  "id": "rev_4eaaadbed16cdc2f6677",
+  "memory": {
+    "conditions": "用户询问从美国回来的好友聚会带什么酒，并追问推荐是否确定。",
+    "confidence": 0.82,
+    "content": "在为熟人重逢选酒时,用户更重视共同记忆和场景适配,不能接受在不了解对方口味与餐食时给出武断的具体酒款。",
+    "created_at": "2026-10-07T19:01:56.824089Z",
+    "derived_from": [],
+    "entities": [
+      "ent_774067d2559ca01157a7"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_cba7676006be064cd2bd",
+        "quote": "在为熟人重逢选酒时,用户更重视共同记忆和场景适配,不能接受在不了解对方口味与餐食时给出武断的具体酒款。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_ccaba14709511fa4ca74",
+    "is_temporary": false,
+    "keywords": [
+      "武断推荐",
+      "不要武断",
+      "熟人重逢",
+      "场景适配",
+      "重逢",
+      "口味",
+      "餐食",
+      "选酒",
+      "威士忌",
+      "格兰杰",
+      "口味餐食",
+      "重逢带酒",
+      "餐食口味",
+      "美国回国",
+      "重逢喝酒",
+      "带什么酒",
+      "共同记忆",
+      "大学同学",
+      "美国回来",
+      "重聚"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_cba7676006be064cd2bd",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-10-07T19:01:56.824089Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ccaba14709511fa4ca74",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

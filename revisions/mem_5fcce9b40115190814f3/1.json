@@ -1,0 +1,65 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-28T19:05:17.684415Z",
+  "id": "rev_338aacad6c1385fde3fd",
+  "memory": {
+    "conditions": "用户指出不能每次都让用户下载 Tailscale，未来可能需要通过 API 方式实现。",
+    "confidence": 0.82,
+    "content": "用户将公网 API 化视为 agent-memory 面向普通用户产品化的必要方向,而不只是解决公司电脑接入问题。",
+    "created_at": "2026-09-28T19:05:17.684415Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_421c00dde9a1b98fc969",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_876285daee49a79ec31a",
+        "quote": "用户将公网 API 化视为 agent-memory 面向普通用户产品化的必要方向,而不只是解决公司电脑接入问题。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_5fcce9b40115190814f3",
+    "is_temporary": false,
+    "keywords": [
+      "安装门槛",
+      "普通用户",
+      "Tailscale替代",
+      "公网API",
+      "普通用户接入",
+      "免Tailscale",
+      "产品化",
+      "远程用户",
+      "API网关"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_876285daee49a79ec31a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-09-28T19:05:17.684415Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_5fcce9b40115190814f3",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

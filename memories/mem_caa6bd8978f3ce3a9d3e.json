@@ -1,0 +1,61 @@
+{
+  "conditions": "用户要求生成社交媒体宣传文案时。",
+  "confidence": 0.9500000000000001,
+  "content": "用户希望把自建 agent-memory 系统的价值包装成适合朋友圈发布的炫耀型文案,重点突出它不同于普通 Agent 的个人长期大脑和自主掌控能力。",
+  "created_at": "2026-09-23T17:36:27.859344Z",
+  "derived_from": [],
+  "entities": [
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_b920a0b921da00c6c3ae",
+      "quote": "用户希望把自建 agent-memory 系统的价值包装成适合朋友圈发布的炫耀型文案,重点突出它不同于普通 Agent 的个人长期大脑和自主掌控能力。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_a70cfaa6e07356943403",
+      "quote": "用户希望把自建 agent-memory 系统的价值包装成适合朋友圈发布的炫耀型文案,重点突出它不同于普通 Agent 的个人长期大脑和自主掌控能力。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_caa6bd8978f3ce3a9d3e",
+  "is_temporary": false,
+  "keywords": [
+    "朋友圈",
+    "炫耀",
+    "文案",
+    "个人大脑",
+    "Agent Memory",
+    "自主可控"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_b920a0b921da00c6c3ae",
+      "type": "derived_from"
+    },
+    {
+      "note": "",
+      "target_id": "evt_a70cfaa6e07356943403",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-09-23T17:39:52.982006Z",
+  "valid_to": null
+}

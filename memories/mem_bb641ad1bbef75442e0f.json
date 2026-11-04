@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-10-28：完成火山引擎与7家非汽车企业战略合作公开PR稿及华泰证券补充案例核查,明确区分签约、MOU计划、局部落地和规模化上线;其余时间为心跳检查。",
+  "created_at": "2026-11-01T19:06:57.102310Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_58bfeab114e9d0bc2f6a",
+      "quote": "2026-10-28：完成火山引擎与7家非汽车企业战略合作公开PR稿及华泰证券补充案例核查,明确区分签约、MOU计划、局部落地和规模化上线;其余时间为心跳检查。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_bb641ad1bbef75442e0f",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_58bfeab114e9d0bc2f6a",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-11-01T19:06:57.102310Z",
+  "valid_to": null
+}

@@ -1,0 +1,46 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-10T19:04:52.171733Z",
+  "id": "rev_27ed3580bde26feeff2e",
+  "memory": {
+    "conditions": "心跳回复结尾提出下一步排查请求",
+    "confidence": 0.6,
+    "content": "Agent 怀疑 capture 中断与 9/23 fetch failed 后插件未恢复或 Gateway 重启后 capture 注册丢失有关,正等待用户确认是否深挖根因。",
+    "created_at": "2026-10-10T19:04:52.171733Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_4488e0fdf8d04896269e",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_29ace02e20c8d0ef1af3",
+    "is_temporary": false,
+    "keywords": [
+      "根因排查",
+      "fetch failed",
+      "插件恢复"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-10-10T19:04:52.171733Z",
+    "valid_to": "2026-09-26"
+  },
+  "memory_id": "mem_29ace02e20c8d0ef1af3",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

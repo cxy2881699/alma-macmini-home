@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-27：用户在管理后台审计页发现一份 Agent 新写的 PRD 未成功写入记忆库,追问文件实际保存位置;Agent 开始同时排查本机 PRD 文件与记忆库写入记录,并注意到 ceo-os 里两份 8 月 PRD 可能只是旧文件。",
+  "created_at": "2026-10-27T05:34:38.161613Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_c5b9bc50bc5c913a2dbe",
+      "quote": "2026-09-27：用户在管理后台审计页发现一份 Agent 新写的 PRD 未成功写入记忆库,追问文件实际保存位置;Agent 开始同时排查本机 PRD 文件与记忆库写入记录,并注意到 ceo-os 里两份 8 月 PRD 可能只是旧文件。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_7b87bc2e15819c1cb021",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c5b9bc50bc5c913a2dbe",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-27T05:34:38.161613Z",
+  "valid_to": null
+}

@@ -1,0 +1,65 @@
+{
+  "conditions": "用户要求把文档已生成和记忆已成功写入分开核实。",
+  "confidence": 0.78,
+  "content": "用户将“PRD 已生成”与“PRD 已成功写入记忆库”区分对待;即使文件存在,也需要回答实际保存位置和入库链路状态。",
+  "created_at": "2026-10-27T19:04:33.284421Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_1b0510f6e7579d8f62b3"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_c5b9bc50bc5c913a2dbe",
+      "quote": "用户将“PRD 已生成”与“PRD 已成功写入记忆库”区分对待;即使文件存在,也需要回答实际保存位置和入库链路状态。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_b2693a2967237bbf3f4b",
+  "is_temporary": false,
+  "keywords": [
+    "PRD未入库",
+    "文件定位",
+    "写入链路",
+    "PRD位置",
+    "PRD已生成",
+    "PRD已写入记忆库",
+    "保存位置",
+    "文件存在不等于入库",
+    "PRD入库",
+    "文件保存位置",
+    "admin audit",
+    "审计页",
+    "旧PRD误报",
+    "ceo-os",
+    "PRD保存位置",
+    "审计核查",
+    "文件存在",
+    "审计记录",
+    "PRD",
+    "生成不等于入库"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c5b9bc50bc5c913a2dbe",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T19:04:33.284421Z",
+  "valid_to": null
+}

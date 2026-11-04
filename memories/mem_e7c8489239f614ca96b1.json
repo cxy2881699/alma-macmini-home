@@ -1,0 +1,59 @@
+{
+  "conditions": "适用于用户继续整理火山引擎行业合作案例、客户落地证据或对外材料时。",
+  "confidence": 0.7,
+  "content": "用户派出subagent系统调研火山引擎与多家非汽车企业的战略合作公开稿,要求逐案核实日期、出席人、合作内容、政府官员和后续落地,并严格区分MOU计划与实际落地。",
+  "created_at": "2026-10-27T18:36:31.641604Z",
+  "derived_from": [],
+  "entities": [
+    "ent_b6e5f07139d194f4aaa5",
+    "ent_105fc292e091fe6a4460",
+    "ent_37783a2ec4f76cbda2eb",
+    "ent_1d6d4c9d65e3d798daed",
+    "ent_56a800d185284bc3a07f",
+    "ent_20297c3dafa0a39e0659",
+    "ent_573e3bf566fea86b5f10",
+    "ent_4819fe6349d47c2d4e6c",
+    "ent_af9a54b0d61a7281cb7a"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_58bfeab114e9d0bc2f6a",
+      "quote": "用户派出subagent系统调研火山引擎与多家非汽车企业的战略合作公开稿,要求逐案核实日期、出席人、合作内容、政府官员和后续落地,并严格区分MOU计划与实际落地。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_e7c8489239f614ca96b1",
+  "is_temporary": false,
+  "keywords": [
+    "火山引擎",
+    "战略合作",
+    "非汽车企业",
+    "PR稿",
+    "MOU",
+    "实际落地",
+    "subagent调研"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_58bfeab114e9d0bc2f6a",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-10-27T18:36:31.641604Z",
+  "valid_to": null
+}

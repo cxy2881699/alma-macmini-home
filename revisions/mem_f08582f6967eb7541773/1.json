@@ -1,0 +1,60 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-10-27T05:33:00.014239Z",
+  "id": "rev_d30aef797803cbebbbfe",
+  "memory": {
+    "conditions": "用户追问模型切换是否完成时，Agent 解释第一次是假启动。",
+    "confidence": 0.86,
+    "content": "macOS 上首次后台启动失败的直接原因是系统没有 setsid 命令;后续改用 nohup 才让切换脚本真正运行。",
+    "created_at": "2026-10-27T05:33:00.014239Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_8fc67c0d4c5d64da55b1",
+        "quote": "macOS 上首次后台启动失败的直接原因是系统没有 setsid 命令;后续改用 nohup 才让切换脚本真正运行。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_f08582f6967eb7541773",
+    "is_temporary": false,
+    "keywords": [
+      "setsid",
+      "nohup",
+      "macOS",
+      "后台启动",
+      "模型切换"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8fc67c0d4c5d64da55b1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-10-27T05:33:00.014239Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_f08582f6967eb7541773",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

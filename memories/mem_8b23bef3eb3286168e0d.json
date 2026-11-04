@@ -1,0 +1,51 @@
+{
+  "conditions": "需要理解成长引擎第一阶段实验目标时使用。",
+  "confidence": 0.9,
+  "content": "可进化记忆系统 PRD 提出在现有 agent-memory 基础上增量构建成长引擎,首期目标是在文本环境中验证重要经历能否造成可追踪、跨会话持续、可修正并影响未来行为的个体状态差异。",
+  "created_at": "2026-09-27T11:56:07.958485Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_0dd3ce8f5049183636d7"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_204132bcd438ed41fedc",
+      "quote": "可进化记忆系统 PRD 提出在现有 agent-memory 基础上增量构建成长引擎,首期目标是在文本环境中验证重要经历能否造成可追踪、跨会话持续、可修正并影响未来行为的个体状态差异。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_8b23bef3eb3286168e0d",
+  "is_temporary": false,
+  "keywords": [
+    "成长验证",
+    "文本环境",
+    "状态差异",
+    "跨会话持续",
+    "可修正行为",
+    "首期实验"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_204132bcd438ed41fedc",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-27T11:56:07.958485Z",
+  "valid_to": null
+}

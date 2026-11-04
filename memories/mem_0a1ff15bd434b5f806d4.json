@@ -1,0 +1,38 @@
+{
+  "conditions": "用户转发记忆 Agent 论文合集，要求先读后对照 PRD 提价值点",
+  "confidence": 0.85,
+  "content": "用户正在用 40+ 篇记忆系统相关论文(含 MINJA、Diagnosing、TierMem 等)为 EVOLVING-MEMORY PRD 做文献调研,要求逐篇总结并对照 PRD 的 FR 编号提炼价值点,暂不修改 PRD。",
+  "created_at": "2026-09-28T19:08:51.686885Z",
+  "derived_from": [],
+  "entities": [
+    "ent_0dd3ce8f5049183636d7",
+    "ent_803e29983b18f51d0780",
+    "ent_12e60967bd71bfb38736",
+    "ent_6a242ac46c0b54ee42c0"
+  ],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_0a1ff15bd434b5f806d4",
+  "is_temporary": false,
+  "keywords": [
+    "论文综述",
+    "文献调研",
+    "paper-summaries",
+    "FR对照"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-09-28T19:08:51.686885Z",
+  "valid_to": "2026-09-28"
+}

@@ -1,0 +1,58 @@
+{
+  "conditions": "2026-09-26 下午在新 Codex CLI 会话中复查三个 agent-memory hook 均已信任且活跃。",
+  "confidence": 0.9,
+  "content": "2026-09-24 约 01:34,Codex CLI 的三个记忆 hook 已完成信任并经实际消息验证:recall、capture 与后台整理均在服务端产生记录。",
+  "created_at": "2026-10-27T19:02:11.557532Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_3d2f68a038ff0d2b8362",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_b920a0b921da00c6c3ae",
+      "quote": "2026-09-24 约 01:34,Codex CLI 的三个记忆 hook 已完成信任并经实际消息验证:recall、capture 与后台整理均在服务端产生记录。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_a53bc8cacf73be903a04",
+  "is_temporary": false,
+  "keywords": [
+    "hook active",
+    "信任审核",
+    "recall ok",
+    "capture",
+    "Codex CLI",
+    "Codex hooks",
+    "UserPromptSubmit",
+    "PostToolUse",
+    "Stop",
+    "Trusted",
+    "Active",
+    "钩子信任"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_b920a0b921da00c6c3ae",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T19:02:11.557532Z",
+  "valid_to": null
+}

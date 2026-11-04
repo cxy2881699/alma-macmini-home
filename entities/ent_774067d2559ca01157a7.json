@@ -1,0 +1,14 @@
+{
+  "aliases": [
+    "大学同学",
+    "老同学"
+  ],
+  "created_at": "2026-09-25T08:33:50.211014Z",
+  "description": "用户关系非常好的大学同学，2026-09-26 晚上从美国回来与用户相聚饮酒",
+  "id": "ent_774067d2559ca01157a7",
+  "name": "从美国回来的大学同学",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "person",
+  "updated_at": "2026-11-04T08:56:50.222396Z"
+}

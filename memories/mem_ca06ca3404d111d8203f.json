@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 0.8,
+  "content": "2026-09-26：凌晨继续排查 agent-memory 静默丢消息与 event_id 冲突,确认服务端改动仍需配合客户端修复;下午检查 Codex hooks,并深入讨论可进化记忆作为开源底座之上的商业成长引擎及逝者数字陪伴场景。",
+  "created_at": "2026-10-04T19:02:04.145748Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_16d2615f00ae766bb32b",
+      "quote": "2026-09-26：凌晨继续排查 agent-memory 静默丢消息与 event_id 冲突,确认服务端改动仍需配合客户端修复;下午检查 Codex hooks,并深入讨论可进化记忆作为开源底座之上的商业成长引擎及逝者数字陪伴场景。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_ca06ca3404d111d8203f",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_16d2615f00ae766bb32b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "insight",
+  "updated_at": "2026-10-04T19:02:04.145748Z",
+  "valid_to": null
+}

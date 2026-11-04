@@ -1,0 +1,33 @@
+{
+  "conditions": "凌晨讨论四个记忆机制是否与现有体系冲突",
+  "confidence": 0.85,
+  "content": "用户正在为 AI Memory 产品设计记忆生命周期状态机,核心概念包括闭环原语、写入即加工、单边提交、不可逆封印,且明确要求先深度论证再写入 PRD。",
+  "created_at": "2026-10-06T19:04:03.474745Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "inferred",
+  "evidence": [],
+  "id": "mem_a5cd3fd7306ff98cebf1",
+  "is_temporary": false,
+  "keywords": [
+    "记忆生命周期",
+    "状态机",
+    "sealing",
+    "reconsolidation"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-10-06T19:04:03.474745Z",
+  "valid_to": null
+}

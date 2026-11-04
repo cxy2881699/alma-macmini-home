@@ -1,0 +1,49 @@
+{
+  "conditions": "用户明确要求 Agent 直接完成后台部署而非给脚本让自己执行",
+  "confidence": 0.85,
+  "content": "用户希望 Agent 直接代为完成后台部署等操作,而不是让用户自己双击脚本手动执行。",
+  "created_at": "2026-09-23T16:53:56.566341Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_e9736354e0fd65e97742",
+      "quote": "用户希望 Agent 直接代为完成后台部署等操作,而不是让用户自己双击脚本手动执行。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_f6513800289f4ef4c6c2",
+  "is_temporary": false,
+  "keywords": [
+    "代劳",
+    "直接部署",
+    "不要手动双击",
+    "自动化偏好",
+    "完成后台部署.command"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_e9736354e0fd65e97742",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-09-23T16:53:56.566341Z",
+  "valid_to": null
+}

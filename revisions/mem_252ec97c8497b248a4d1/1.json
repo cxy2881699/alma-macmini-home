@@ -1,0 +1,64 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T16:47:13.260389Z",
+  "id": "rev_2e2f20037c7ad1258737",
+  "memory": {
+    "conditions": "解释用户感觉 OpenClaw 突然不能用的直接原因",
+    "confidence": 0.85,
+    "content": "2026-09-23 约 16:35-16:44,OpenClaw 主会话执行一个 9 步安装脚本(涉及 memd、Neo4j、Tailscale),期间千帆报连接错误、模型超时约 9 分钟(typing TTL reached),导致用户飞书消息排队未及时回复;当天 9:31 和 9:34 网关还重启过两次。",
+    "created_at": "2026-09-23T16:47:13.260389Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_573ec267d203533979f7",
+      "ent_22f290112c9557d215ea"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_65495d2ba5242fb6dfc1",
+        "quote": "2026-09-23 约 16:35-16:44,OpenClaw 主会话执行一个 9 步安装脚本(涉及 memd、Neo4j、Tailscale),期间千帆报连接错误、模型超时约 9 分钟(typing TTL reached),导致用户飞书消息排队未及时回复;当天 9:31 和 9:34 网关还重启过两次。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_252ec97c8497b248a4d1",
+    "is_temporary": false,
+    "keywords": [
+      "安装脚本",
+      "千帆超时",
+      "typing TTL",
+      "飞书消息延迟",
+      "网关重启",
+      "memd",
+      "Neo4j",
+      "Tailscale"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_65495d2ba5242fb6dfc1",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-23T16:47:13.260389Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_252ec97c8497b248a4d1",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

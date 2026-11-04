@@ -1,0 +1,54 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:32:16.725875Z",
+  "id": "rev_d797b598222612aa9823",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.9,
+    "content": "用户已经删除 Claude Code app;记忆库中的 Claude 记录是部署自检的残留数据,不代表用户正在使用 Claude。",
+    "created_at": "2026-09-23T17:32:16.725875Z",
+    "derived_from": [],
+    "entities": [
+      "ent_51b9c91560022845906c",
+      "ent_483ad3dd9ff0f4e4e01c"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_f6a8907352cb487592d5",
+        "quote": "用户已经删除 Claude Code app;记忆库中的 Claude 记录是部署自检的残留数据,不代表用户正在使用 Claude。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_17690b3c5c2b379a5ef8",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_f6a8907352cb487592d5",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-09-23T17:32:16.725875Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_17690b3c5c2b379a5ef8",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

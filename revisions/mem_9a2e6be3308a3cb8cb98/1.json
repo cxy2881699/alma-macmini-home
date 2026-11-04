@@ -1,0 +1,47 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-28T19:07:31.875170Z",
+  "id": "rev_117bfb9738dbe042a2a1",
+  "memory": {
+    "conditions": "用户提出新记忆系统需要定制化，通过对话测评用户阈值",
+    "confidence": 0.8,
+    "content": "用户认可记忆系统接入时做\"校准对话\":以伪装成闲聊的方式测评用户情绪与事件重要性阈值,生成个性化 Appraiser 参数,解决冷启动和通用阈值不准的问题;优先级排在 M0 核对仓库之后。",
+    "created_at": "2026-09-28T19:07:31.875170Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [],
+    "id": "mem_9a2e6be3308a3cb8cb98",
+    "is_temporary": false,
+    "keywords": [
+      "校准对话",
+      "个性化",
+      "情感基线",
+      "冷启动",
+      "Appraiser"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "todo",
+    "updated_at": "2026-09-28T19:07:31.875170Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9a2e6be3308a3cb8cb98",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

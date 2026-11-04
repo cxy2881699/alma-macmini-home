@@ -1,0 +1,52 @@
+{
+  "conditions": "用户指出每次记忆读取也应持久化，便于快速判断 Codex/OpenClaw 是 hook 没跑还是召回为空。",
+  "confidence": 0.82,
+  "content": "排查记忆链路时,读取审计日志本身应被持久化;用户认为若每次 recall 的日志都保存,定位 Codex/OpenClaw 故障会更快。",
+  "created_at": "2026-10-27T04:49:27.207725Z",
+  "derived_from": [],
+  "entities": [
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_0796872cfc79a9328bad",
+      "quote": "排查记忆链路时,读取审计日志本身应被持久化;用户认为若每次 recall 的日志都保存,定位 Codex/OpenClaw 故障会更快。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_d2578ae65b1452873ca9",
+  "is_temporary": false,
+  "keywords": [
+    "审计记录",
+    "recall审计",
+    "读取日志",
+    "可观测性",
+    "codex recall",
+    "故障定位",
+    "audit"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_0796872cfc79a9328bad",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-10-27T04:49:27.207725Z",
+  "valid_to": null
+}

@@ -1,0 +1,65 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-23T17:44:29.226415Z",
+  "id": "rev_49aebf60ecf003e385f6",
+  "memory": {
+    "conditions": "agent-memory 部署收尾、等待用户强刷管理页确认来源标签。",
+    "confidence": 0.9,
+    "content": "2026-09-24 用户追问进度时,Agent 确认 memd 以单进程 PID 38030 运行、healthz 正常,admin 页面已包含来源列代码,selftest 的 Claude 假数据已清光,库内为 codex 27 条、openclaw 8 条、cursor 1 条真人数据,等待用户强刷页面验证。",
+    "created_at": "2026-09-23T17:44:29.226415Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_1e8088308ba9691af4dc",
+      "ent_483ad3dd9ff0f4e4e01c"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_33b2fba39edba1a1fd4a",
+        "quote": "2026-09-24 用户追问进度时,Agent 确认 memd 以单进程 PID 38030 运行、healthz 正常,admin 页面已包含来源列代码,selftest 的 Claude 假数据已清光,库内为 codex 27 条、openclaw 8 条、cursor 1 条真人数据,等待用户强刷页面验证。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_94fc9ea9e7a28e134588",
+    "is_temporary": false,
+    "keywords": [
+      "memd",
+      "单进程",
+      "38030",
+      "来源列",
+      "selftest清理",
+      "codex 27条",
+      "收官"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "doubao-seed-evolving-latest-version",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_33b2fba39edba1a1fd4a",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "superseded",
+    "status_reason": "migrated from old agent-memory (superseded)",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-09-23T17:44:29.226415Z",
+    "valid_to": "2026-09-24"
+  },
+  "memory_id": "mem_94fc9ea9e7a28e134588",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}

@@ -1,0 +1,49 @@
+{
+  "conditions": "用户尝试处理 Codex hooks，但命令被发送到当前 Agent 聊天窗口。",
+  "confidence": 0.7,
+  "content": "2026-09-26,用户再次在当前聊天窗口发送 `/hooks`;Agent 检查后回复当前 hooks 目录为空,并询问是要查看/配置 Codex hooks 还是创建 hook。",
+  "created_at": "2026-09-26T07:37:44.975306Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_2b08cb8eba106b36a8cf",
+      "quote": "2026-09-26,用户再次在当前聊天窗口发送 `/hooks`;Agent 检查后回复当前 hooks 目录为空,并询问是要查看/配置 Codex hooks 还是创建 hook。",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_5332943e0cff97c13b54",
+  "is_temporary": false,
+  "keywords": [
+    "Codex",
+    "hooks",
+    "/hooks",
+    "钩子配置",
+    "空目录"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "doubao-seed-evolving-latest-version",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_2b08cb8eba106b36a8cf",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "old-memd@legacy",
+  "space": "user/shared",
+  "status": "superseded",
+  "status_reason": "migrated from old agent-memory (superseded)",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-09-26T07:37:44.975306Z",
+  "valid_to": null
+}

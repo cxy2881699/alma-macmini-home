@@ -1,0 +1,51 @@
+{
+  "actor": "import@alma-test",
+  "base_revision": null,
+  "created_at": "2026-09-27T19:04:03.646115Z",
+  "id": "rev_55bfd005e73b40c431c5",
+  "memory": {
+    "conditions": "",
+    "confidence": 0.8,
+    "content": "2026-09-27：晨报 cron 正常执行;晚间用户补发可进化记忆系统 PRD v0.1(此前 Codex Stop hook 未入库),完成双路归档;随后围绕 PRD 评审、记忆泄漏风险、校准对话与暗号机制展开深入讨论,确定校准优先、暗号搁置。",
+    "created_at": "2026-09-27T19:04:03.646115Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_21ec0a807d8ab8a39f8f",
+        "quote": "2026-09-27：晨报 cron 正常执行;晚间用户补发可进化记忆系统 PRD v0.1(此前 Codex Stop hook 未入库),完成双路归档;随后围绕 PRD 评审、记忆泄漏风险、校准对话与暗号机制展开深入讨论,确定校准优先、暗号搁置。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_efe3fbe0c390cfcdb2ef",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_21ec0a807d8ab8a39f8f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "insight",
+    "updated_at": "2026-09-27T19:04:03.646115Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_efe3fbe0c390cfcdb2ef",
+  "policy_version": "legacy-import-v1",
+  "reason": "migrated from old agent-memory",
+  "revision": 1
+}
