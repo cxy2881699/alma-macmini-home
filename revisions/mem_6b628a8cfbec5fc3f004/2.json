@@ -1,0 +1,77 @@
+{
+  "actor": "openclaw@old-memd",
+  "base_revision": 1,
+  "created_at": "2026-11-04T14:15:45.597505Z",
+  "id": "rev_4e5a9333749dc7b17c9a",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "用户新 Gmail 立刻注册 Claude 被 hold，判断风险来自新邮箱和数据中心 IP 等组合。",
+    "confidence": 0.78,
+    "content": "2026-10-18 用户新注册 Gmail 后立即注册 Claude 被 hold,主要风险组合被判断为全新邮箱、机房 IP 与连续注册行为,而非缺少外国手机号。",
+    "created_at": "2026-10-27T05:09:27.989002Z",
+    "derived_from": [],
+    "entities": [
+      "ent_51b9c91560022845906c"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_f0ea3e3acc8d7909f32f",
+        "quote": "2026-10-18 用户新注册 Gmail 后立即注册 Claude 被 hold,主要风险组合被判断为全新邮箱、机房 IP 与连续注册行为,而非缺少外国手机号。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_f0ea3e3acc8d7909f32f",
+        "quote": "刚刚我注册了一个gmail，然后新注册claude，居然被hold了，是因为我的IP问题么",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_6b628a8cfbec5fc3f004",
+    "is_temporary": false,
+    "keywords": [
+      "Claude风控",
+      "Gmail养号",
+      "账号hold",
+      "新Gmail风控",
+      "机房IP注册",
+      "连续注册",
+      "RackNerd 机房 IP",
+      "机房IP",
+      "RackNerd风控",
+      "Claude注册被hold",
+      "全新Gmail",
+      "机房IP风控",
+      "RackNerd注册Claude",
+      "数据中心IP",
+      "新 Gmail",
+      "RackNerd"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_f0ea3e3acc8d7909f32f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 2,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T14:15:45.597258Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_6b628a8cfbec5fc3f004",
+  "policy_version": "extract-v2",
+  "reason": "确认",
+  "revision": 2
+}

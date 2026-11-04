@@ -1,4 +1,5 @@
 {
+  "claim": "user_fact",
   "conditions": "用户新 Gmail 立刻注册 Claude 被 hold，判断风险来自新邮箱和数据中心 IP 等组合。",
   "confidence": 0.78,
   "content": "2026-10-18 用户新注册 Gmail 后立即注册 Claude 被 hold,主要风险组合被判断为全新邮箱、机房 IP 与连续注册行为,而非缺少外国手机号。",
@@ -12,6 +13,12 @@
     {
       "event_id": "evt_f0ea3e3acc8d7909f32f",
       "quote": "2026-10-18 用户新注册 Gmail 后立即注册 Claude 被 hold,主要风险组合被判断为全新邮箱、机房 IP 与连续注册行为,而非缺少外国手机号。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_f0ea3e3acc8d7909f32f",
+      "quote": "刚刚我注册了一个gmail，然后新注册claude，居然被hold了，是因为我的IP问题么",
       "revision": 1,
       "role": "user"
     }
@@ -34,16 +41,12 @@
     "RackNerd注册Claude",
     "数据中心IP",
     "新 Gmail",
-    "RackNerd",
-    "注册风控",
-    "Claude 注册 hold",
-    "数据中心 IP",
-    "Claude hold"
+    "RackNerd"
   ],
   "layer": "memory",
   "level": 0,
   "model_version": "",
-  "policy_version": "extract-v2",
+  "policy_version": "extract-v3",
   "project_id": "",
   "relations": [
     {
@@ -52,13 +55,13 @@
       "type": "derived_from"
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "source_agent": "old-memd@legacy",
   "space": "user/shared",
   "status": "active",
   "status_reason": "",
   "sync_remote": true,
   "type": "fact",
-  "updated_at": "2026-10-27T05:09:27.989002Z",
+  "updated_at": "2026-11-04T14:15:45.597258Z",
   "valid_to": null
 }
