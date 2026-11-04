@@ -1,0 +1,58 @@
+{
+  "claim": "agent_action",
+  "conditions": "针对该版本的 Streisand 无法添加订阅的替代方案",
+  "confidence": 0.8,
+  "content": "2026-11-03 晚 Agent 在用户手机 Streisand 上改用剪贴板导入单节点的方式配置代理，选用的节点为 DMIT-443（服务器 179.253.235.134:443，VLESS/Reality，SNI 伪装为 www.samsung.com）。",
+  "created_at": "2026-11-04T06:58:46.433000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_8a5a692819c05da247be",
+    "ent_b380c2c962bff526d724"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_c518d97b78a23dae5fb5",
+      "quote": "那就别走订阅了，直接导入单节点，最省事。",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_c518d97b78a23dae5fb5",
+      "quote": "cfg=yaml.safe_load(open('/tmp/vpn-check/dmit.yaml'))",
+      "revision": 1,
+      "role": "tool"
+    }
+  ],
+  "id": "mem_a8b98c70e9887b93e9e8",
+  "is_temporary": false,
+  "keywords": [
+    "DMIT-443",
+    "Streisand",
+    "vless",
+    "Reality",
+    "剪贴板导入",
+    "手机代理"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c518d97b78a23dae5fb5",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-04T14:27:55.921150Z",
+  "valid_to": null
+}

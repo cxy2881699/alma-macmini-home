@@ -14,7 +14,8 @@
     "ent_51b9c91560022845906c",
     "ent_d7f7439272ef6024e4d3",
     "ent_ce78bf334c2c4d063359",
-    "ent_8a5a692819c05da247be"
+    "ent_8a5a692819c05da247be",
+    "ent_b380c2c962bff526d724"
   ],
   "follows": "ep_4748c615bf327ac13f77",
   "goal": "恢复用户开启 VPN 后整个电脑无法上网的问题，并避免节点故障时国内网络一起瘫痪",
@@ -33,7 +34,9 @@
     "mem_2e1fddd3113eeadfdd8e",
     "mem_1ab28204a9ac4c6f9589",
     "mem_0da29c70f5d386ba10b6",
-    "mem_d5fd1c33b58c742e7150"
+    "mem_d5fd1c33b58c742e7150",
+    "mem_361c7ec14defaa2e0af1",
+    "mem_a8b98c70e9887b93e9e8"
   ],
   "outcome": "",
   "project_id": "",
@@ -221,9 +224,19 @@
       "quote": "更新订阅，节点选 **DMIT-443**（刚才实测延迟最低）",
       "revision": 1,
       "text": "用户要求把朋友给的新 DMIT 订阅也配到手机 Streisand 上，Agent 说明桌面端已可用，并给出手机端添加订阅、更新节点、选 DMIT-443、路由选规则模式、避开 IPv6 节点的步骤。"
+    },
+    {
+      "agent_id": "openclaw@old-memd",
+      "at": "2026-11-04T06:58:46.433000Z",
+      "event_id": "evt_c518d97b78a23dae5fb5",
+      "kind": "obstacle",
+      "order": 19,
+      "quote": "这个app是这样的界面，没找到你说的订阅",
+      "revision": 1,
+      "text": "用户在手机上找不到「添加订阅」入口，Agent 改为让用户从剪贴板导入 DMIT-443 单节点链接"
     }
   ],
   "sync_remote": true,
   "title": "排查开启 VPN 后整机断网",
-  "updated_at": "2026-11-04T14:27:36.737512Z"
+  "updated_at": "2026-11-04T14:27:55.912417Z"
 }
