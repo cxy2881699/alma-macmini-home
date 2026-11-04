@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "macmini"
+  ],
+  "created_at": "2026-11-04T14:32:26.517326Z",
+  "description": "用户家里的台式 Mac",
+  "id": "ent_d3a0798d7ba2a1807d36",
+  "name": "Mac mini",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T14:32:26.521696Z"
+}

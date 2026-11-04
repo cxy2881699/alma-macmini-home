@@ -1,0 +1,62 @@
+{
+  "actor": "openclaw@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:32:26.525494Z",
+  "id": "rev_cf13bab7f229e04290cc",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "",
+    "confidence": 0.85,
+    "content": "用户家里有一台 Mac mini，作为接入记忆系统的设备，命名时用 macmini-home 而不是单纯的 macmini，以免以后加第二台 Mac mini 时重名。",
+    "created_at": "2026-11-04T11:02:30.996000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_d3a0798d7ba2a1807d36",
+      "ent_3c7d331efc1a9e33a4c5"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_5e3f741041edd4df113b",
+        "quote": "但是这个macmini是我家里的，所以是不是应该叫 macmini-home？",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_8d881333e1c14b1c763e",
+    "is_temporary": false,
+    "keywords": [
+      "Mac mini",
+      "家里",
+      "设备",
+      "macmini-home",
+      "命名",
+      "多设备"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_5e3f741041edd4df113b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@alma-test",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T14:32:26.525299Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_8d881333e1c14b1c763e",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

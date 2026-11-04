@@ -1,0 +1,24 @@
+{
+  "actor": "openclaw@alma-test",
+  "created_at": "2026-11-04T14:32:26.530100Z",
+  "episode_ids": [],
+  "event_refs": [
+    "evt_5e3f741041edd4df113b@1"
+  ],
+  "id": "cog_e863d117ff76cd8ea49a",
+  "kind": "extract",
+  "memory_ids": [
+    "mem_8d881333e1c14b1c763e"
+  ],
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v2",
+  "relation_ids": [],
+  "repository_head": "",
+  "revision_ids": [
+    "rev_cf13bab7f229e04290cc"
+  ],
+  "summary": {
+    "add": 1
+  },
+  "sync_remote": true
+}
