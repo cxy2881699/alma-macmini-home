@@ -1,0 +1,66 @@
+{
+  "actor": "codex@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:11:10.001842Z",
+  "id": "rev_e80361f0ff5d78a47cc0",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "用户阐述开源与商业化的关系时成立。",
+    "confidence": 0.88,
+    "content": "用户把 agent-memory 的商业路线定为:先开源当前记忆系统作为底座,商业增强层则以“能塑造赛博生命的 Agent 记忆”作为杀手锏;上层策略是基础记忆系统的加强版,而非另起炉灶。",
+    "created_at": "2026-09-26T08:24:06.884000Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_891a83b3945d844c7343",
+        "quote": "但如果我选择开源当前的记忆系统，在未来我商业化的路上我需要有一些杀手锏",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_891a83b3945d844c7343",
+        "quote": "这些策略是基于当前的记忆系统搭建的，而是会是这个基础记忆系统的加强版",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_86d74fb975aab00033ed",
+    "is_temporary": false,
+    "keywords": [
+      "开源",
+      "商业化",
+      "杀手锏",
+      "赛博生命",
+      "成长引擎",
+      "加强版",
+      "open source"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_891a83b3945d844c7343",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "codex@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T14:11:10.001526Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_86d74fb975aab00033ed",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

@@ -1,0 +1,30 @@
+{
+  "entities": [],
+  "follows": "ep_bf823bcd4faaaf9a8b2e",
+  "goal": "确定 agent-memory 开源版与商业化增强层各自提供什么能力，并找出可验证的商业卖点",
+  "id": "ep_b29747dbd966f0be5011",
+  "memory_ids": [
+    "mem_86d74fb975aab00033ed"
+  ],
+  "outcome": "",
+  "project_id": "",
+  "source_agent": "codex@old-memd",
+  "space": "user/shared",
+  "started_at": "2026-09-26T08:24:06.884000Z",
+  "status": "ongoing",
+  "steps": [
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-26T08:24:06.884000Z",
+      "event_id": "evt_891a83b3945d844c7343",
+      "kind": "note",
+      "order": 1,
+      "quote": "当前只是解决了工作生活上面的问题",
+      "revision": 1,
+      "text": "用户说明当前记忆系统只解决了工作与生活场景的问题，未来开源后需要在商业化路径上保留“能塑造赛博生命的 Agent 记忆”作为杀手锏，Agent 据此提出开源底座/成长引擎/运行平台三层划分并建议用三个 NPC 的经历分化做演示。"
+    }
+  ],
+  "sync_remote": true,
+  "title": "划定开源记忆底座与商业成长层的边界",
+  "updated_at": "2026-11-04T14:11:09.998948Z"
+}
