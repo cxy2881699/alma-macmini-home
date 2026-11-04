@@ -1,0 +1,20 @@
+{
+  "agent_id": "claude-code@alma-test",
+  "assistant_text": "",
+  "content_hash": "d012b98ded8a48f9f87a0d8708fbbfb19433ba46949c7b7e0620c5a95f291e96",
+  "cwd": "",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_5cc6f7a581fe10e8e968",
+  "kind": "explicit",
+  "native_event_id": "",
+  "occurred_at": "2026-11-04T09:04:52.547569Z",
+  "privacy_mode": "normal",
+  "project_id": "",
+  "received_at": "2026-11-04T09:04:52.547576Z",
+  "revision": 1,
+  "session_id": "alma_test",
+  "space": "user/shared",
+  "tools": [],
+  "turn_index": 0,
+  "user_text": "alma_test cross-agent marker ALMA_CLAUDE_SHARED_8842"
+}

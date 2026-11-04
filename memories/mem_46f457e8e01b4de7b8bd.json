@@ -1,0 +1,41 @@
+{
+  "conditions": "",
+  "confidence": 1.0,
+  "content": "alma_test cross-agent marker ALMA_CLAUDE_SHARED_8842",
+  "created_at": "2026-11-04T09:04:52.560590Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_5cc6f7a581fe10e8e968",
+      "quote": "alma_test cross-agent marker ALMA_CLAUDE_SHARED_8842",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_46f457e8e01b4de7b8bd",
+  "is_temporary": false,
+  "keywords": [],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_5cc6f7a581fe10e8e968",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "claude-code@alma-test",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-04T09:04:52.560636Z",
+  "valid_to": null
+}

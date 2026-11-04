@@ -1,0 +1,24 @@
+{
+  "actor": "claude-code@alma-test",
+  "created_at": "2026-11-04T09:04:52.561213Z",
+  "episode_ids": [],
+  "event_refs": [
+    "evt_5cc6f7a581fe10e8e968@1"
+  ],
+  "id": "cog_aeceeab0c710ee29f4d0",
+  "kind": "explicit",
+  "memory_ids": [
+    "mem_46f457e8e01b4de7b8bd"
+  ],
+  "model_version": "",
+  "policy_version": "extract-v2",
+  "relation_ids": [],
+  "repository_head": "",
+  "revision_ids": [
+    "rev_8cd848f64205d8dd89d6"
+  ],
+  "summary": {
+    "explicit": 1
+  },
+  "sync_remote": true
+}
