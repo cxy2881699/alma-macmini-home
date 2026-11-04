@@ -1,0 +1,20 @@
+{
+  "agent_id": "claude-code@alma-test",
+  "assistant_text": "OK-ALMA-CLAUDE2",
+  "content_hash": "aaadcc53508f907749ca52a08acb676e9713ed35f6f5184b793688e8551e8d5b",
+  "cwd": "/Users/seancao/Desktop/项目文件夹/alma-memory-system",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_2cdbee2a11ac6ac5d578",
+  "kind": "conversation",
+  "native_event_id": "b01b70a9-86ec-4390-86f0-ecc6075a3a5d",
+  "occurred_at": "2026-11-04T09:04:33.425000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_f98e218e8fd28baa6780",
+  "received_at": "2026-11-04T09:04:35.589688Z",
+  "revision": 1,
+  "session_id": "4c0654e4-cf6c-4c1d-9661-3ae9708e0a92",
+  "space": "project/proj_f98e218e8fd28baa6780",
+  "tools": [],
+  "turn_index": 0,
+  "user_text": "alma_test claude probe 2: reply with the exact single token OK-ALMA-CLAUDE2 and nothing else."
+}
