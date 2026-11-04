@@ -1,4 +1,5 @@
 {
+  "claim": "user_fact",
   "conditions": "用户用“小龙虾”称呼 OpenClaw Gateway，卡住或复活均指该服务及消息连接状态。",
   "confidence": 0.85,
   "content": "“小龙虾”是用户对 OpenClaw Gateway/OpenClaw 服务的昵称;询问“小龙虾还活着么”是在确认该 Gateway 是否在线、是否正常写入记忆。",
@@ -15,6 +16,12 @@
       "quote": "“小龙虾”是用户对 OpenClaw Gateway/OpenClaw 服务的昵称;询问“小龙虾还活着么”是在确认该 Gateway 是否在线、是否正常写入记忆。",
       "revision": 1,
       "role": "user"
+    },
+    {
+      "event_id": "evt_1a78cb8802066868b605",
+      "quote": "小龙虾还活着么",
+      "revision": 1,
+      "role": "user"
     }
   ],
   "id": "mem_d36c144ef38e371ae205",
@@ -28,12 +35,14 @@
     "OpenClaw复活",
     "Gateway在线",
     "ws client ready",
-    "飞书WebSocket"
+    "飞书WebSocket",
+    "在线",
+    "健康检查"
   ],
   "layer": "memory",
   "level": 0,
   "model_version": "",
-  "policy_version": "extract-v2",
+  "policy_version": "extract-v3",
   "project_id": "",
   "relations": [
     {
@@ -42,13 +51,13 @@
       "type": "derived_from"
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "source_agent": "old-memd@legacy",
   "space": "user/shared",
   "status": "active",
   "status_reason": "",
   "sync_remote": true,
   "type": "fact",
-  "updated_at": "2026-10-27T05:12:52.380933Z",
+  "updated_at": "2026-11-04T14:07:17.818599Z",
   "valid_to": null
 }

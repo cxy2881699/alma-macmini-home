@@ -1,0 +1,27 @@
+{
+  "actor": "codex@old-memd",
+  "created_at": "2026-11-04T14:07:17.823186Z",
+  "episode_ids": [
+    "ep_20d071003c97600046cb"
+  ],
+  "event_refs": [
+    "evt_1a78cb8802066868b605@1"
+  ],
+  "id": "cog_906f0f862151adb97c6d",
+  "kind": "extract",
+  "memory_ids": [
+    "mem_d36c144ef38e371ae205"
+  ],
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v2",
+  "relation_ids": [],
+  "repository_head": "",
+  "revision_ids": [
+    "rev_6a9857eaf075654d9ec8"
+  ],
+  "summary": {
+    "episode": 1,
+    "support": 1
+  },
+  "sync_remote": true
+}
