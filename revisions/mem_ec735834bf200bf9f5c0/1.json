@@ -1,0 +1,67 @@
+{
+  "actor": "claude-code@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:30:53.231520Z",
+  "id": "rev_e091529132854406aecf",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "用于核实 alma_test 到 Claude 通道的消息送达与极简指令遵从。",
+    "confidence": 0.95,
+    "content": "2026-11-04，用户再次通过 alma_test 向 Claude 发送 claude probe 2 探针，要求只回复固定字符串“OK-ALMA-CLAUDE2”且不输出其他内容；Claude 的回复与该字符串完全一致，本次探针再次通过。",
+    "created_at": "2026-11-04T09:04:33.425000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_bdf46bd69b3bf1ceedc6",
+      "ent_51b9c91560022845906c"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_2cdbee2a11ac6ac5d578",
+        "quote": "reply with the exact single token OK-ALMA-CLAUDE2 and nothing else.",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_2cdbee2a11ac6ac5d578",
+        "quote": "OK-ALMA-CLAUDE2",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_ec735834bf200bf9f5c0",
+    "is_temporary": false,
+    "keywords": [
+      "alma_test",
+      "claude probe 2",
+      "OK-ALMA-CLAUDE2",
+      "探针",
+      "通道测试"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_f98e218e8fd28baa6780",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_2cdbee2a11ac6ac5d578",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "claude-code@alma-test",
+    "space": "project/proj_f98e218e8fd28baa6780",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-11-04T14:30:53.231249Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ec735834bf200bf9f5c0",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
