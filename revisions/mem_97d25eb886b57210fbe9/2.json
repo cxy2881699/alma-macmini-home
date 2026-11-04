@@ -1,0 +1,76 @@
+{
+  "actor": "codex@old-memd",
+  "base_revision": 1,
+  "created_at": "2026-11-04T14:01:43.390297Z",
+  "id": "rev_5d8212e226b9759621a5",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "用户不知道如何信任三个 agent-memory 钩子，并误把斜杠命令发到当前聊天窗口。",
+    "confidence": 0.9,
+    "content": "用户在当前聊天窗口多次发送 /hooks 只会被当作普通消息;必须在 Codex 代码任务或终端 Codex CLI 的输入框中执行,才可能打开钩子审核面板。",
+    "created_at": "2026-10-27T19:01:32.717567Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_252ca75591c5d6dd0331",
+        "quote": "用户在当前聊天窗口多次发送 /hooks 只会被当作普通消息;必须在 Codex 代码任务或终端 Codex CLI 的输入框中执行,才可能打开钩子审核面板。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_ddacf54dfa56f7da9177",
+        "quote": "/hooks",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_ddacf54dfa56f7da9177",
+        "quote": "请在当前 Codex 对话的输入框中发送",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_97d25eb886b57210fbe9",
+    "is_temporary": false,
+    "keywords": [
+      "/hooks",
+      "钩子面板",
+      "Codex代码会话",
+      "终端会话",
+      "Trust",
+      "钩子信任",
+      "聊天窗口",
+      "斜杠命令",
+      "Codex 输入框"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_252ca75591c5d6dd0331",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 2,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T14:01:43.390087Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_97d25eb886b57210fbe9",
+  "policy_version": "extract-v2",
+  "reason": "确认",
+  "revision": 2
+}
