@@ -1,6 +1,8 @@
 {
   "aliases": [
-    "Alma"
+    "Alma",
+    "alma-test",
+    "记忆系统"
   ],
   "created_at": "2026-11-04T14:29:25.213331Z",
   "description": "用户开发的隔离部署记忆系统",
@@ -9,5 +11,5 @@
   "space": "user/shared",
   "sync_remote": true,
   "type": "component",
-  "updated_at": "2026-11-04T14:29:25.215105Z"
+  "updated_at": "2026-11-04T14:31:58.570692Z"
 }

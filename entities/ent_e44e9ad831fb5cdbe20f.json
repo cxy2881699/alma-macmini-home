@@ -1,5 +1,7 @@
 {
-  "aliases": [],
+  "aliases": [
+    "小龙虾"
+  ],
   "created_at": "2026-11-04T14:19:40.461610Z",
   "description": "当前运行 Agent 的会话/代理平台",
   "id": "ent_e44e9ad831fb5cdbe20f",
@@ -7,5 +9,5 @@
   "space": "user/shared",
   "sync_remote": true,
   "type": "tool",
-  "updated_at": "2026-11-04T14:19:40.462129Z"
+  "updated_at": "2026-11-04T14:31:58.572996Z"
 }

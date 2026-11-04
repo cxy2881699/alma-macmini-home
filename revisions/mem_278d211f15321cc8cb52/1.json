@@ -1,0 +1,67 @@
+{
+  "actor": "alma-mem@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:31:58.576761Z",
+  "id": "rev_ccaf453b1db2cafc3ec4",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "凡是从对话中提取长期记忆时",
+    "confidence": 0.95,
+    "content": "用户要求记忆提取时必须标记行为主体，明确区分「用户指令 / 用户事实 / Agent 行为」；Agent 收到指令后自己执行的操作不能被记录成用户的行为、偏好或经历，并需要加回归测试防止这种语义污染再次出现。",
+    "created_at": "2026-11-04T10:42:39.833000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_e1a174d95438503423a9"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_80be0c7e9b5d62d98b88",
+        "quote": "在总结提取的时候要区分是用户自己的问题还是agent接收到用户指令之后的自己的操作。要标记出来用户的指令还是agent自己的行为。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_80be0c7e9b5d62d98b88",
+        "quote": "把 Agent 自己的行为改写成“用户做了什么”，属于记忆语义污染",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_278d211f15321cc8cb52",
+    "is_temporary": false,
+    "keywords": [
+      "记忆提取",
+      "行为主体",
+      "agent_action",
+      "用户指令",
+      "语义污染",
+      "回归测试"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_80be0c7e9b5d62d98b88",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "alma-mem@alma-test",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "convention",
+    "updated_at": "2026-11-04T14:31:58.576573Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_278d211f15321cc8cb52",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

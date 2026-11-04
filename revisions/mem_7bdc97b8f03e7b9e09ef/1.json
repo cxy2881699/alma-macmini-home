@@ -1,0 +1,67 @@
+{
+  "actor": "alma-mem@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:31:58.583815Z",
+  "id": "rev_8a87e6f00fd03f6f1209",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "Alma 记忆管理界面的设计与验收",
+    "confidence": 0.85,
+    "content": "用户对 Alma 记忆管理界面的体验要求：记忆列表需要分页；点击查看“依据与版本”应在该条记忆内就地展开，而不是跳到页面底部；记忆图谱要能看出记忆的流动方向（保留发光滑块并让方向粒子清晰可见）。",
+    "created_at": "2026-11-04T10:42:39.833000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_e1a174d95438503423a9"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_80be0c7e9b5d62d98b88",
+        "quote": "一个是记忆没有分页，第二个是点击查看依据与版本的时候，直接滑到了最下面才展示，其实应该是在本条记忆直接展开。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_80be0c7e9b5d62d98b88",
+        "quote": "记忆图谱里面，怎么没有看到记忆的流动？",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_7bdc97b8f03e7b9e09ef",
+    "is_temporary": false,
+    "keywords": [
+      "分页",
+      "条目内展开",
+      "依据与版本",
+      "记忆图谱",
+      "流动方向",
+      "UI"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_80be0c7e9b5d62d98b88",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "alma-mem@alma-test",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-11-04T14:31:58.583727Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_7bdc97b8f03e7b9e09ef",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

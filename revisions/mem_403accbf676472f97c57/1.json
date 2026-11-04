@@ -1,0 +1,67 @@
+{
+  "actor": "alma-mem@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:31:58.580396Z",
+  "id": "rev_9904fa30efc7abd42ca4",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "OpenClaw 接入 Alma 记忆系统的注册与来源显示",
+    "confidence": 0.9,
+    "content": "管理后台已在记忆列表和详情页展示来源 agent 与设备，格式为 agent@设备；但 OpenClaw 的接入名被错误注册成了 alma-mem@alma-test，用户指出接入名不只是安装别名，会直接显示在活动页，正确名称应为 openclaw@alma-test。",
+    "created_at": "2026-11-04T10:42:39.833000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_e44e9ad831fb5cdbe20f",
+      "ent_e1a174d95438503423a9"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_80be0c7e9b5d62d98b88",
+        "quote": "我以为这个接入名字只是为了更方便的安装。其实应该叫openclaw@alma-test",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_80be0c7e9b5d62d98b88",
+        "quote": "在活动页面中，我发现多出来一个alma-mem@alma-test",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_403accbf676472f97c57",
+    "is_temporary": false,
+    "keywords": [
+      "接入名",
+      "来源显示",
+      "openclaw@alma-test",
+      "alma-mem",
+      "活动页"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_80be0c7e9b5d62d98b88",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "alma-mem@alma-test",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T14:31:58.580298Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_403accbf676472f97c57",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
