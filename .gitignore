@@ -1,0 +1,10 @@
+.DS_Store
+*.tmp
+private_events/
+private_memories/
+private_revisions/
+private_commits/
+private_deprecations/
+private_entities/
+private_episodes/
+private_relations/
