@@ -1,0 +1,20 @@
+{
+  "agent_id": "codex@alma-test",
+  "assistant_text": "OK",
+  "content_hash": "779de956227b664d35fdd82c8f05897acf231bff540798c2a28bca384c8f6e4b",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_933dcf515740fa505496",
+  "kind": "conversation",
+  "native_event_id": "01a1a73d-7724-7ae1-8d20-c4a9f353c459",
+  "occurred_at": "2026-11-04T15:46:40.670000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-04T15:47:25.103608Z",
+  "revision": 1,
+  "session_id": "01a1a73d-7654-7e03-aaae-3bd27839e3f5",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [],
+  "turn_index": 0,
+  "user_text": "Reply only OK and do not call tools."
+}
