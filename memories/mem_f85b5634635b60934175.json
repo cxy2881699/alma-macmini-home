@@ -1,0 +1,58 @@
+{
+  "claim": "agent_action",
+  "conditions": "在 OpenClaw 客户端缺少原生消息 ID、按窗口内序号兜底生成 turn ID 的前提下成立。",
+  "confidence": 0.85,
+  "content": "2026-11-04 审查发现：memd 服务端把相同 native_turn_id、不同内容当作“同一轮被修订”并原地替换旧记录（审计已出现一次 replaced:1）；由于服务端无法仅凭两个相同的错误轮次 ID 判断是旧轮更新还是新的一轮，在客户端仍可能因消息窗口截断算出重复 turn ID 的情况下，只改服务端而不修客户端身份生成，无法彻底解决 silent drop，且冲突处理不能继续静默记为 ok。",
+  "created_at": "2026-09-25T16:50:56.136000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_16d2615f00ae766bb32b",
+      "quote": "把相同 `native_turn_id`、不同内容视为“同一轮被修订”",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_16d2615f00ae766bb32b",
+      "quote": "所以“小龙虾客户端不改，单靠服务端就彻底修好”的判断不成立",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_f85b5634635b60934175",
+  "is_temporary": false,
+  "keywords": [
+    "native_turn_id",
+    "silent drop",
+    "replaced",
+    "静默丢弃",
+    "去重",
+    "client",
+    "event_id"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_16d2615f00ae766bb32b",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "codex@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-11-04T14:09:25.165327Z",
+  "valid_to": null
+}

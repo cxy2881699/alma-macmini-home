@@ -1,0 +1,61 @@
+{
+  "actor": "codex@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:09:25.161499Z",
+  "id": "rev_76c5c7902573e13bbc9d",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "评估 memd 当前服务端代码状态、决定是否以其为云服务版本基础时适用。",
+    "confidence": 0.85,
+    "content": "2026-11-04，Agent 为修复 memd ingest 去重问题改动了服务端 insert_event 与 schema 迁移，改动前备份数据库、重启 memd，selftest 与鉴权验证均通过；但该版改动随后被 Agent 判定未通过审查，保存了备份，暂不作为云服务版本的基线。",
+    "created_at": "2026-09-25T16:50:56.136000Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_16d2615f00ae766bb32b",
+        "quote": "备份文件已创建，服务也重启了；但核心去重问题没有被彻底解决。",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_4d916a963d57ec31b2ee",
+    "is_temporary": false,
+    "keywords": [
+      "memd",
+      "ingest",
+      "去重",
+      "insert_event",
+      "schema 迁移",
+      "备份",
+      "selftest",
+      "云服务基线"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_16d2615f00ae766bb32b",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "codex@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-11-04T14:09:25.161349Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_4d916a963d57ec31b2ee",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
