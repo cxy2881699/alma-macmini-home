@@ -1,0 +1,57 @@
+{
+  "claim": "agent_action",
+  "conditions": "仅表示当时切换到 Kimi 后的运行状态，非永久保证。",
+  "confidence": 0.85,
+  "content": "2026-10-26 晚 OpenClaw 主模型 ark/kimi-k3-1-pro-261024 已生效并恢复正常回复：参数为 1024k 上下文 / 128k 输出、支持图片，Gateway 健康检查通过。",
+  "created_at": "2026-10-27T03:28:33.103000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_85ac7912658c80484706"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_d8256c83941af0aea9e4",
+      "quote": "主模型：`ark/kimi-k3-1-pro-261024`",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_d8256c83941af0aea9e4",
+      "quote": "Gateway 健康检查 OK",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_aa801a1985dff585bdde",
+  "is_temporary": false,
+  "keywords": [
+    "OpenClaw",
+    "kimi-k3-1-pro-261024",
+    "主模型",
+    "Gateway",
+    "健康检查",
+    "恢复"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d8256c83941af0aea9e4",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-04T14:24:36.921754Z",
+  "valid_to": null
+}
