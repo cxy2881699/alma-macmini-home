@@ -1,0 +1,52 @@
+{
+  "claim": "agent_action",
+  "conditions": "改动 admin.js 分页逻辑或新增分页列表时",
+  "confidence": 0.85,
+  "content": "在 alma-memory-system 的 admin.js 分页实现中，setPage 只重新渲染列表而不刷新页码状态文本（只有 measure 会刷新），导致 Playwright 校验页码状态失败；解决办法是在 setPage 中同步刷新状态文本。",
+  "created_at": "2026-11-04T14:49:49.394000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_964bba6ca8a5770cd150",
+    "ent_8ba18cd6c65fd6080914"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_e1780309de65e3392bff",
+      "quote": "Found it: `setPage` re-renders but doesn't refresh the status text (only `measure` does). Fixing.",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_cd61f3161a5f1bd819b7",
+  "is_temporary": false,
+  "keywords": [
+    "setPage",
+    "measure",
+    "页码状态",
+    "pagination",
+    "Playwright",
+    "admin.js"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_f98e218e8fd28baa6780",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_e1780309de65e3392bff",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "claude-code@alma-test",
+  "space": "project/proj_f98e218e8fd28baa6780",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-11-04T15:05:27.338791Z",
+  "valid_to": null
+}
