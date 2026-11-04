@@ -1,4 +1,5 @@
 {
+  "claim": "user_fact",
   "conditions": "用户打开记忆网页看到要求输入 memo_ 开头凭据时询问这是什么",
   "confidence": 0.95,
   "content": "记忆系统管理员登录密钥(memo_ 开头)在 memd init 时自动生成,保存在 /Users/seancao/memd/owner.token,可用 pbcopy < /Users/seancao/memd/owner.token 复制,用于登录 http://127.0.0.1:8787/admin 管理页面;该密钥可管理全部记忆和设备。",
@@ -15,6 +16,18 @@
       "quote": "记忆系统管理员登录密钥(memo_ 开头)在 memd init 时自动生成,保存在 /Users/seancao/memd/owner.token,可用 pbcopy < /Users/seancao/memd/owner.token 复制,用于登录 http://127.0.0.1:8787/admin 管理页面;该密钥可管理全部记忆和设备。",
       "revision": 1,
       "role": "user"
+    },
+    {
+      "event_id": "evt_286909b89212be632d79",
+      "quote": "这是什么？打开网页显示的",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_286909b89212be632d79",
+      "quote": "这是记忆系统的**管理员登录密钥**，不是你提供的方舟 API Key。",
+      "revision": 1,
+      "role": "assistant"
     }
   ],
   "id": "mem_c92a407d73372c43717a",
@@ -25,12 +38,16 @@
     "管理员密钥",
     "管理页面登录",
     "pbcopy",
-    "8787/admin"
+    "8787/admin",
+    "memo_",
+    "管理员登录密钥",
+    "memd init",
+    "admin 登录"
   ],
   "layer": "memory",
   "level": 0,
   "model_version": "doubao-seed-evolving-latest-version",
-  "policy_version": "extract-v2",
+  "policy_version": "extract-v3",
   "project_id": "",
   "relations": [
     {
@@ -39,13 +56,13 @@
       "type": "derived_from"
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "source_agent": "old-memd@legacy",
   "space": "user/shared",
   "status": "active",
   "status_reason": "",
   "sync_remote": true,
   "type": "fact",
-  "updated_at": "2026-09-23T17:02:17.067652Z",
+  "updated_at": "2026-11-04T13:56:59.021413Z",
   "valid_to": null
 }
