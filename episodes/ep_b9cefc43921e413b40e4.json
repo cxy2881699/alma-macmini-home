@@ -1,14 +1,16 @@
 {
   "entities": [
     "ent_bdf46bd69b3bf1ceedc6",
-    "ent_51b9c91560022845906c"
+    "ent_51b9c91560022845906c",
+    "ent_3d2f68a038ff0d2b8362"
   ],
   "follows": "",
   "goal": "验证 alma_test 到各 Agent（Codex、Claude 等）通道的消息送达与极简指令遵从",
   "id": "ep_b9cefc43921e413b40e4",
   "memory_ids": [
     "mem_b3e97cb6b5268cfbc8b2",
-    "mem_5758f6f88e3a7174fd80"
+    "mem_5758f6f88e3a7174fd80",
+    "mem_c9b7f7dd75ec5e7a976a"
   ],
   "outcome": "",
   "project_id": "proj_f98e218e8fd28baa6780",
@@ -46,9 +48,19 @@
       "quote": "alma_test codex probe 3: 只回复 OK",
       "revision": 1,
       "text": "用户再次通过 alma_test 向 Codex 发送第 3 次探针，要求只回复“OK”；本轮窗口仍无助手回复记录。"
+    },
+    {
+      "agent_id": "codex@alma-test",
+      "at": "2026-11-04T08:53:58.478000Z",
+      "event_id": "evt_b39bd1c837bec33d8ba7",
+      "kind": "attempt",
+      "order": 4,
+      "quote": "alma_test codex probe 2: 只回复 OK",
+      "revision": 1,
+      "text": "用户再次通过 alma_test 向 Codex 发送 probe 2 探针，要求只回复“OK”；本轮窗口仍无助手回复记录。"
     }
   ],
   "sync_remote": true,
   "title": "alma_test 跨通道极简探针测试",
-  "updated_at": "2026-11-04T10:21:03.312479Z"
+  "updated_at": "2026-11-04T10:21:09.871239Z"
 }

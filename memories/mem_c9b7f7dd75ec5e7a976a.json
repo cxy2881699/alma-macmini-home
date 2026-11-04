@@ -1,0 +1,51 @@
+{
+  "conditions": "用户正在测试 Codex 通道是否能严格执行极简固定回复指令。",
+  "confidence": 0.9,
+  "content": "2026-11-04,用户在 alma_test codex probe 2 中要求 Codex 只回复“OK”;当前窗口未记录助手回复,测试结果尚未确认。",
+  "created_at": "2026-11-04T08:53:58.478000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_bdf46bd69b3bf1ceedc6",
+    "ent_3d2f68a038ff0d2b8362"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_b39bd1c837bec33d8ba7",
+      "quote": "alma_test codex probe 2: 只回复 OK",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_c9b7f7dd75ec5e7a976a",
+  "is_temporary": false,
+  "keywords": [
+    "codex probe 2",
+    "探针",
+    "极简回复",
+    "OK",
+    "alma_test",
+    "指令遵从"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v2",
+  "project_id": "proj_f98e218e8fd28baa6780",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_b39bd1c837bec33d8ba7",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "codex@alma-test",
+  "space": "project/proj_f98e218e8fd28baa6780",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-04T10:21:09.872266Z",
+  "valid_to": null
+}
