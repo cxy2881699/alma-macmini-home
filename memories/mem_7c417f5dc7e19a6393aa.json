@@ -1,0 +1,59 @@
+{
+  "claim": "agent_action",
+  "conditions": "OpenClaw 接入 Alma 记忆系统的注册与来源显示",
+  "confidence": 0.9,
+  "content": "2026-11-04 Agent 将 OpenClaw 接入 Alma 的注册名由 openclaw@alma-test 改为 openclaw@macmini-home（agent 为 openclaw、设备为 macmini-home，环境单独记为 test），旧身份已停用，历史记录未批量改写，并用当前 OpenClaw 凭据真实调用写入接口确认落盘来源为新身份；此前的 openclaw@alma-test 名称不再使用。",
+  "created_at": "2026-11-04T12:27:07.559000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_e44e9ad831fb5cdbe20f",
+    "ent_3c7d331efc1a9e33a4c5",
+    "ent_e1a174d95438503423a9"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_0ac1dfeef402b0cb3d20",
+      "quote": "身份已改成 **`openclaw@macmini-home`**，真实写入也验证过了；旧错误身份已停用",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_0ac1dfeef402b0cb3d20",
+      "quote": "旧 `openclaw@alma-test` 已停用",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_7c417f5dc7e19a6393aa",
+  "is_temporary": false,
+  "keywords": [
+    "openclaw@macmini-home",
+    "openclaw@alma-test",
+    "接入名",
+    "来源身份",
+    "注册",
+    "设备"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_0ac1dfeef402b0cb3d20",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-04T14:33:10.499429Z",
+  "valid_to": null
+}

@@ -1,0 +1,54 @@
+{
+  "claim": "agent_action",
+  "conditions": "Alma 管理后台前端与记忆抽取链路",
+  "confidence": 0.9,
+  "content": "2026-11-04 Alma 管理页修复通过验收：记忆列表改为每页 20 条分页（1788 条记忆共 90 页）且详情在条内展开、新增用户指令/用户事实/Agent 操作三类主体并升级提取策略为 extract-v3、图谱改用固定屏幕像素的彗星粒子显示流向、发光滑块保 0–100%（默认 60%，自动记住设置）；测试结果 135 passed / 4 skipped，其中 4 个跳过项是需要独立 Neo4j 环境的专项测试。",
+  "created_at": "2026-11-04T12:27:07.559000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_d470e82d81fd9b9a6747",
+    "ent_176409fa578ba26c2c5b"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_0ac1dfeef402b0cb3d20",
+      "quote": "**135 passed / 4 skipped**",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_7919597eb3583b3bf3c8",
+  "is_temporary": false,
+  "keywords": [
+    "分页",
+    "extract-v3",
+    "主体",
+    "claim",
+    "图谱流动",
+    "发光滑块",
+    "135 passed",
+    "Neo4j"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_0ac1dfeef402b0cb3d20",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-04T14:33:10.502545Z",
+  "valid_to": null
+}

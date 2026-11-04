@@ -1,0 +1,68 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:33:10.496110Z",
+  "id": "rev_2c5316d6a94f542afdc4",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "",
+    "confidence": 0.95,
+    "content": "2026-11-04 Alma 四项修复完成后，Agent 已将改动提交并推送到 GitHub 仓库 cxy2881699/alma-memory-system 的 main 分支，commit 为 692285d，本地与远端完全一致，推送前做了凭据扫描，测试数据、令牌、数据库与日志均未推送。",
+    "created_at": "2026-11-04T12:27:07.559000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_d470e82d81fd9b9a6747",
+      "ent_5510d6f408cb181c5c42"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_0ac1dfeef402b0cb3d20",
+        "quote": "推送完成了，远端 `main` 和本地完全一致",
+        "revision": 1,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_0ac1dfeef402b0cb3d20",
+        "quote": "代码已推到 GitHub `main`",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_e80bde50b70fc7e3b830",
+    "is_temporary": false,
+    "keywords": [
+      "推送",
+      "main",
+      "692285d",
+      "GitHub",
+      "alma-memory-system",
+      "commit"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_0ac1dfeef402b0cb3d20",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@macmini-home",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-11-04T14:33:10.495948Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e80bde50b70fc7e3b830",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

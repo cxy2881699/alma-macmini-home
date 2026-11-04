@@ -1,0 +1,61 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:33:10.505712Z",
+  "id": "rev_4e35be6a0113b21eb5ed",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "长任务交由子进程/session 自主执行且中途断连时",
+    "confidence": 0.8,
+    "content": "在 claude -p 异步跑长任务时，若上一轮 session 断在收尾阶段，会出现代码已改完、测试已通过但未 commit/未推送、最终报告也没发出的情况；恢复时应先核对 FIX_TASK/FIX_REPORT 与 git 状态、远端一致性，再补完收尾步骤并重跑测试。",
+    "created_at": "2026-11-04T12:27:07.559000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_d470e82d81fd9b9a6747"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_0ac1dfeef402b0cb3d20",
+        "quote": "刚才没反应是上一轮 session 断在收尾，最终报告没发出来",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_4b654fbc20031a56bf3e",
+    "is_temporary": false,
+    "keywords": [
+      "session 断开",
+      "收尾",
+      "未推送",
+      "FIX_TASK",
+      "git status",
+      "长任务"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_0ac1dfeef402b0cb3d20",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@macmini-home",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-04T14:33:10.505646Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_4b654fbc20031a56bf3e",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

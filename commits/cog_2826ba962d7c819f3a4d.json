@@ -1,0 +1,18 @@
+{
+  "actor": "openclaw@alma-test",
+  "created_at": "2026-11-04T14:32:43.669671Z",
+  "episode_ids": [],
+  "event_refs": [
+    "evt_895b7ea56cabe7944301@1"
+  ],
+  "id": "cog_2826ba962d7c819f3a4d",
+  "kind": "extract",
+  "memory_ids": [],
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v2",
+  "relation_ids": [],
+  "repository_head": "",
+  "revision_ids": [],
+  "summary": {},
+  "sync_remote": true
+}
