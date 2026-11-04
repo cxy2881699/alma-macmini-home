@@ -1,0 +1,61 @@
+{
+  "claim": "user_fact",
+  "conditions": "旧节点中国方向 TCP 被封导致整机断网；关掉系统代理/TUN 后直连正常。",
+  "confidence": 0.92,
+  "content": "2026-10-26 晚用户开启 VPN 后整机断网，根因是代理节点 LA-Reality(155.94.145.75:443，VLESS/Reality 协议)ICMP 通、164ms，但 TCP 443/80/8080/2053 全部超时，mihomo 延迟测试返回 Timeout；本机 TUN 与系统代理均已关闭后直连恢复(百度 200，68ms)，Tailscale 处于 Running 但无 exit node、DNS 100.100.100.100，已排除。",
+  "created_at": "2026-10-27T01:25:40.478000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6ebee10dda1843bbd843",
+    "ent_421c00dde9a1b98fc969",
+    "ent_f18082c6c564869030be"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_1cd898a27b168e387484",
+      "quote": "但 TCP 443/80/8080/2053 **全部超时**，一个端口都不通",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_1cd898a27b168e387484",
+      "quote": "Tailscale：Running 无 exit node，DNS 100.100.100.100 正常，不是它搞的",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_818ae4f44600a6cd6173",
+  "is_temporary": false,
+  "keywords": [
+    "LA-Reality",
+    "155.94.145.75",
+    "断网",
+    "TCP 超时",
+    "VLESS",
+    "Reality",
+    "Tailscale",
+    "exit node"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1cd898a27b168e387484",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-04T14:20:03.551736Z",
+  "valid_to": null
+}
