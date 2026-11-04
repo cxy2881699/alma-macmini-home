@@ -1,0 +1,20 @@
+{
+  "agent_id": "codex@alma-test",
+  "assistant_text": "",
+  "content_hash": "465faf7a1fece2bff7d6e39ba9ba2dd604993843d1e95a5569b4c0fd7c8953a2",
+  "cwd": "/Users/seancao/Documents/Codex/2026-11-04/unexpected-status-404-not-found-message",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_93ef2138d9ace9826847",
+  "kind": "conversation",
+  "native_event_id": "01a1a737-dffe-7770-9ea5-d5eab7069cb1",
+  "occurred_at": "2026-11-04T15:40:19.489000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_ddf4863f57640a1a3299",
+  "received_at": "2026-11-04T15:40:58.680750Z",
+  "revision": 1,
+  "session_id": "01a1a737-de1d-7e22-9041-977772f5ec8e",
+  "space": "project/proj_ddf4863f57640a1a3299",
+  "tools": [],
+  "turn_index": 0,
+  "user_text": "能用了么"
+}
