@@ -1,0 +1,66 @@
+{
+  "actor": "codex@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:06:20.983811Z",
+  "id": "rev_cda3c868e376f749b9df",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "需要还原某个 Agent 在过去某段时间实际执行的操作时",
+    "confidence": 0.75,
+    "content": "Agent 复盘某个 Agent（如 OpenClaw）具体做了什么时，最有效的方式是直接查 memd 的 SQLite 库 /Users/seancao/memd/memd.db：audit 表按 actor/action/result/detail 记录操作审计，events 表按 agent_kind、session_key 存对话原文，可直接取出某 Agent 最近一轮的 user_text 与 assistant_text。",
+    "created_at": "2026-09-23T17:40:01.742000Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_19c4ba76487afdbeeacc",
+        "quote": "sqlite3 /Users/seancao/memd/memd.db '.tables'",
+        "revision": 1,
+        "role": "tool"
+      },
+      {
+        "event_id": "evt_19c4ba76487afdbeeacc",
+        "quote": "select datetime(occurred_at,'unixepoch','localtime') as time,agent_kind,session_key",
+        "revision": 1,
+        "role": "tool"
+      }
+    ],
+    "id": "mem_e1885b7917d69d980b26",
+    "is_temporary": false,
+    "keywords": [
+      "memd",
+      "sqlite",
+      "audit",
+      "events",
+      "agent_kind",
+      "记忆库",
+      "跨 Agent 复盘"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_19c4ba76487afdbeeacc",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "codex@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-04T14:06:20.983498Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e1885b7917d69d980b26",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
