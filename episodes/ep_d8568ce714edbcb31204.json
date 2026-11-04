@@ -5,7 +5,8 @@
     "ent_6cf84e1c3c276ec690be",
     "ent_9f82bdbcda91e1775def",
     "ent_421c00dde9a1b98fc969",
-    "ent_4488e0fdf8d04896269e"
+    "ent_4488e0fdf8d04896269e",
+    "ent_22f290112c9557d215ea"
   ],
   "follows": "ep_0152c14c051d0e196c57",
   "goal": "确认记忆服务是否真正接入 Codex、OpenClaw,每一轮对话是否都经过记忆服务检索",
@@ -14,14 +15,16 @@
     "mem_040ce5f984b22caece8f",
     "mem_a2f0891629102127dacc",
     "mem_882015ff4fe736a473e7",
-    "mem_68a44faaf0bbbbca38d5"
+    "mem_68a44faaf0bbbbca38d5",
+    "mem_81d44333fb960426903b",
+    "mem_67c3f0f3dc0f32e11cf7"
   ],
-  "outcome": "",
+  "outcome": "网关重启后飞书重连、插件 loaded、服务端 recall 记录 ok,“小龙虾”已恢复;仅剩飞书插件重复加载与旧 self-improvement hook 两条与记忆服务无关的警告,不阻塞消息收发。",
   "project_id": "",
   "source_agent": "codex@old-memd",
   "space": "user/shared",
   "started_at": "2026-09-23T16:55:37.134000Z",
-  "status": "ongoing",
+  "status": "succeeded",
   "steps": [
     {
       "agent_id": "codex@old-memd",
@@ -52,9 +55,19 @@
       "quote": "配置已经修好，重启 OpenClaw Gateway 后即可生效。",
       "revision": 1,
       "text": "删除不兼容 hooks 字段并把记忆服务改为本机地址后,OpenClaw 插件 loaded、直接测试召回成功,但 gateway 旧进程未重载配置,仍需手动重启才能让自动召回真正生效。"
+    },
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-23T17:10:08.201000Z",
+      "event_id": "evt_251281e40be3c2e88a50",
+      "kind": "result",
+      "order": 4,
+      "quote": "OpenClaw 最近一次真实召回已经成功，服务端记录为 `ok`。",
+      "revision": 1,
+      "text": "网关以新进程重启后,飞书两个账号 WebSocket 显示 ws client ready、Agent Memory 插件 loaded,服务端审计最近一次 recall 记录为 ok,自动召回真正生效"
     }
   ],
   "sync_remote": true,
   "title": "验证 Codex 与 OpenClaw 的自动召回是否真正生效",
-  "updated_at": "2026-11-04T14:00:34.025930Z"
+  "updated_at": "2026-11-04T14:01:18.335692Z"
 }

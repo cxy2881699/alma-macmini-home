@@ -1,0 +1,60 @@
+{
+  "claim": "agent_action",
+  "conditions": "",
+  "confidence": 0.85,
+  "content": "2026-11-04 Agent 重启 OpenClaw 网关(新 PID)复活“小龙虾”:飞书两个账号 WebSocket 重新连接并显示 ws client ready,Agent Memory 插件状态 loaded,最近一次真实召回服务端记录 ok,因代理访问 Tailscale 私网导致的记忆服务连接错误已停止。",
+  "created_at": "2026-09-23T17:10:08.201000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_1c6b296bc5cb579536f2",
+    "ent_22f290112c9557d215ea",
+    "ent_4488e0fdf8d04896269e"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_251281e40be3c2e88a50",
+      "quote": "OpenClaw 网关已重新启动，当前进程是新的 PID。",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_251281e40be3c2e88a50",
+      "quote": "飞书两个账号的 WebSocket 都已重新连接并显示 `ws client ready`。",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_81d44333fb960426903b",
+  "is_temporary": false,
+  "keywords": [
+    "小龙虾",
+    "OpenClaw",
+    "Gateway",
+    "重启",
+    "ws client ready",
+    "recall ok",
+    "飞书"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_251281e40be3c2e88a50",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "codex@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-04T14:01:18.338795Z",
+  "valid_to": null
+}
