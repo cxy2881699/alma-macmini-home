@@ -1,0 +1,58 @@
+{
+  "actor": "codex@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T13:56:50.022748Z",
+  "id": "rev_968ecda753706e3a49fb",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "涉及 agent-memory 等后台服务部署时。",
+    "confidence": 0.7,
+    "content": "用户希望 Agent 对后台部署直接执行、把部署做完，不必事先反复征求其确认。",
+    "created_at": "2026-09-23T16:48:47.120000Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_5b883889d29d5bd320af",
+        "quote": "并且后台部署直接帮我部署就好了",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_329ac4c16e9c0f82eaac",
+    "is_temporary": false,
+    "keywords": [
+      "部署",
+      "直接部署",
+      "无需确认",
+      "授权",
+      "后台"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_5b883889d29d5bd320af",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "codex@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-11-04T13:56:50.022651Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_329ac4c16e9c0f82eaac",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

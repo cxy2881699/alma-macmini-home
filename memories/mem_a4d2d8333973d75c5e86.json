@@ -1,0 +1,58 @@
+{
+  "claim": "agent_action",
+  "conditions": "在需要让 agent-memory 服务开机自启、后台常驻时检索。",
+  "confidence": 0.85,
+  "content": "Agent 为 agent-memory 记忆服务申请写入系统启动项（launchd 自启）时被自动权限审核拒绝且未说明原因，Agent 无法绕过；需由用户手动运行一次「完成后台部署.command」脚本才能完成后台常驻。",
+  "created_at": "2026-09-23T16:48:47.120000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d1f76652927e5b17fdd"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_5b883889d29d5bd320af",
+      "quote": "但自动权限审核再次拒绝写入系统启动项，未说明原因；这不是缺少你的授权，我也无法绕过。",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_5b883889d29d5bd320af",
+      "quote": "当前只能由你运行一次[后台部署脚本]",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_a4d2d8333973d75c5e86",
+  "is_temporary": false,
+  "keywords": [
+    "launchd",
+    "启动项",
+    "后台常驻",
+    "部署",
+    "权限审核",
+    "完成后台部署.command",
+    "memd"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_5b883889d29d5bd320af",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "codex@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-11-04T13:56:50.020069Z",
+  "valid_to": null
+}

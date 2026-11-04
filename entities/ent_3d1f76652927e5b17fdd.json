@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "后台部署脚本"
+  ],
+  "created_at": "2026-11-04T13:56:50.013874Z",
+  "description": "需用户手动运行以完成后台常驻的部署脚本",
+  "id": "ent_3d1f76652927e5b17fdd",
+  "name": "完成后台部署.command",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "tool",
+  "updated_at": "2026-11-04T13:56:50.018574Z"
+}
