@@ -1,0 +1,32 @@
+{
+  "entities": [
+    "ent_176409fa578ba26c2c5b"
+  ],
+  "follows": "ep_8f8b6e659dda66ef3a14",
+  "goal": "找出记忆服务挂掉的原因并按正确顺序恢复",
+  "id": "ep_4873c08674d165a84ac5",
+  "memory_ids": [
+    "mem_ba773798517ba0d02d48"
+  ],
+  "outcome": "",
+  "project_id": "",
+  "source_agent": "codex@old-memd",
+  "space": "user/shared",
+  "started_at": "2026-09-23T17:46:20.615000Z",
+  "status": "ongoing",
+  "steps": [
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-23T17:46:20.615000Z",
+      "event_id": "evt_d7255c0fedb42db38d51",
+      "kind": "obstacle",
+      "order": 1,
+      "quote": "直接原因是 Neo4j 在 10:43 左右被停止",
+      "revision": 1,
+      "text": "定位到 Neo4j 在 10:43 左右被停止,memd 连续连不上 127.0.0.1:7687 并进入重启循环"
+    }
+  ],
+  "sync_remote": true,
+  "title": "排查记忆服务再次宕机",
+  "updated_at": "2026-11-04T14:06:38.823237Z"
+}

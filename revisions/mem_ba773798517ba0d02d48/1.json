@@ -1,0 +1,74 @@
+{
+  "actor": "codex@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:06:38.827401Z",
+  "id": "rev_6e21066e58e797423041",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "与 2026-09-24 那次故障属于同一类根因的再次发生。",
+    "confidence": 0.75,
+    "content": "2026-11-04 早上记忆服务(agent-memory/memd)再次宕机:Agent 排查后确认不是 Tailscale 问题,直接原因是 Neo4j 在约 10:43 被停止,memd 连续连接 127.0.0.1:7687 失败并进入重启循环;随后 Agent 按依赖顺序重新拉起 Neo4j 与 memd 并复核。",
+    "created_at": "2026-09-23T17:46:20.615000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_176409fa578ba26c2c5b"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_d7255c0fedb42db38d51",
+        "quote": "目前看不是 Tailscale：记忆服务的后台任务仍在运行，但它刚经历了一次重启循环。",
+        "revision": 1,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_d7255c0fedb42db38d51",
+        "quote": "直接原因是 Neo4j 在 10:43 左右被停止",
+        "revision": 1,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_d7255c0fedb42db38d51",
+        "quote": "现在我把依赖和主服务按正确顺序重新拉起并复核。",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_ba773798517ba0d02d48",
+    "is_temporary": false,
+    "keywords": [
+      "记忆服务",
+      "memd",
+      "Neo4j",
+      "宕机",
+      "重启循环",
+      "7687",
+      "agent-memory"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_d7255c0fedb42db38d51",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "codex@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-11-04T14:06:38.827177Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ba773798517ba0d02d48",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
