@@ -1,4 +1,5 @@
 {
+  "claim": "user_fact",
   "conditions": "",
   "confidence": 0.96,
   "content": "用户计划将调研成果写入主文档 hormone-psych-lit-review.md 和文献索引 papers-index.md,主文档每章需包含核心结论、关键文献、争议点及对个人追踪系统的可操作启示。",
@@ -16,15 +17,33 @@
       "quote": "用户计划将调研成果写入主文档 hormone-psych-lit-review.md 和文献索引 papers-index.md,主文档每章需包含核心结论、关键文献、争议点及对个人追踪系统的可操作启示。",
       "revision": 1,
       "role": "user"
+    },
+    {
+      "event_id": "evt_7bab4433029e0047b9ba",
+      "quote": "主文档 /Users/seancao/.openclaw/workspace/docs/research/hormone-psych-lit-review.md",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_7bab4433029e0047b9ba",
+      "quote": "文献索引 /Users/seancao/.openclaw/workspace/docs/research/papers-index.md",
+      "revision": 1,
+      "role": "user"
     }
   ],
   "id": "mem_7c87c67be3e60348a5b4",
   "is_temporary": false,
-  "keywords": [],
+  "keywords": [
+    "hormone-psych-lit-review.md",
+    "papers-index.md",
+    "文献索引",
+    "可操作启示",
+    "证据强度"
+  ],
   "layer": "memory",
   "level": 0,
   "model_version": "doubao-seed-evolving-latest-version",
-  "policy_version": "extract-v2",
+  "policy_version": "extract-v3",
   "project_id": "",
   "relations": [
     {
@@ -33,13 +52,13 @@
       "type": "derived_from"
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "source_agent": "old-memd@legacy",
   "space": "user/shared",
   "status": "active",
   "status_reason": "",
   "sync_remote": true,
   "type": "fact",
-  "updated_at": "2026-10-27T04:18:07.879408Z",
+  "updated_at": "2026-11-04T14:17:59.154236Z",
   "valid_to": null
 }

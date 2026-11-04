@@ -1,0 +1,70 @@
+{
+  "actor": "claude@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:17:59.157821Z",
+  "id": "rev_f2abe8138eb31ed876ce",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "在权限需人工确认的非交互(无人值守)会话中,任何需要授权的联网工具都会失败;后续需在交互会话或预先在 settings 中放行工具权限。",
+    "confidence": 0.9,
+    "content": "2026-10-21 在非交互会话中执行文献调研时,工具权限弹窗被自动中断,WebSearch、WebFetch 与 curl/python3 网络请求全部返回 \"Tool use aborted\",Agent 无法实际检索文献,只能创建 docs/research 目录并转而询问用户是放行权限还是先写框架留 TODO。",
+    "created_at": "2026-10-21T19:14:08.902000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9e54ce68e96140c823fd",
+      "ent_feb5f1d16da90edb7207",
+      "ent_43fc36c1fb990c957aba"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_7bab4433029e0047b9ba",
+        "quote": "Tool permission request failed: Error: Tool use aborted",
+        "revision": 1,
+        "role": "tool"
+      },
+      {
+        "event_id": "evt_7bab4433029e0047b9ba",
+        "quote": "Permission prompts are being auto-aborted in this non-interactive session",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_fb6335c09e2b4b05a4f5",
+    "is_temporary": false,
+    "keywords": [
+      "Tool use aborted",
+      "权限中断",
+      "非交互会话",
+      "WebSearch",
+      "WebFetch",
+      "curl",
+      "文献检索受阻"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_7bab4433029e0047b9ba",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "claude@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-04T14:17:59.157632Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_fb6335c09e2b4b05a4f5",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

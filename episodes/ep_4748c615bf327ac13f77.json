@@ -1,0 +1,39 @@
+{
+  "entities": [
+    "ent_54bc249ce41248cb6af7",
+    "ent_868b6b7b308b553adaaf",
+    "ent_ac75cb66690cacf39d3f",
+    "ent_9e54ce68e96140c823fd",
+    "ent_feb5f1d16da90edb7207",
+    "ent_43fc36c1fb990c957aba"
+  ],
+  "follows": "ep_1915dc418d81cb2f9f45",
+  "goal": "完成六方向实证文献调研,产出 hormone-psych-lit-review.md 主文档与 papers-index.md 文献索引,只收录可核实的真实文献",
+  "id": "ep_4748c615bf327ac13f77",
+  "memory_ids": [
+    "mem_a1ef2fb952f8b380db90",
+    "mem_7c87c67be3e60348a5b4",
+    "mem_fb6335c09e2b4b05a4f5"
+  ],
+  "outcome": "",
+  "project_id": "",
+  "source_agent": "claude@old-memd",
+  "space": "user/shared",
+  "started_at": "2026-10-21T19:14:08.902000Z",
+  "status": "ongoing",
+  "steps": [
+    {
+      "agent_id": "claude@old-memd",
+      "at": "2026-10-21T19:14:08.902000Z",
+      "event_id": "evt_7bab4433029e0047b9ba",
+      "kind": "obstacle",
+      "order": 1,
+      "quote": "Tool permission request failed: Error: Tool use aborted",
+      "revision": 1,
+      "text": "工具权限请求在非交互会话中被自动中断,WebSearch/WebFetch/curl 全部失败,Agent 无法实际检索,先建目录并询问用户是放行权限还是只写框架"
+    }
+  ],
+  "sync_remote": true,
+  "title": "撰写激素/神经递质与情绪行为的严肃文献综述",
+  "updated_at": "2026-11-04T14:17:59.145033Z"
+}
