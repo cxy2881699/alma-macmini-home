@@ -1,0 +1,58 @@
+{
+  "claim": "user_fact",
+  "conditions": "讨论 agent-memory 的记忆重要性判断标准或抽取策略时。",
+  "confidence": 0.85,
+  "content": "用户提出判断记忆重要性的两个维度：一是情感冲击强度（类比大脑杏仁核，冲击越大越重要），二是信息量（新事情熵高、或与当前记忆存在特殊关联度）。",
+  "created_at": "2026-09-26T08:13:36.422000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_58b1a5853970180b2855"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_8747147e4e4a8cd6b63f",
+      "quote": "类似于人的杏仁核，来判断一件事情对于一个人冲击有多大",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_8747147e4e4a8cd6b63f",
+      "quote": "一个新的事情熵很高，类似于信息论的方法，一个事情有巨大的信息",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_437b0f97b1e14a75a382",
+  "is_temporary": false,
+  "keywords": [
+    "记忆重要性",
+    "杏仁核",
+    "情感冲击",
+    "信息熵",
+    "关联度",
+    "抽取策略",
+    "importance"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8747147e4e4a8cd6b63f",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "codex@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "preference",
+  "updated_at": "2026-11-04T14:10:39.644852Z",
+  "valid_to": null
+}

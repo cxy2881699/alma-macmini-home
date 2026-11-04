@@ -1,0 +1,33 @@
+{
+  "entities": [
+    "ent_58b1a5853970180b2855"
+  ],
+  "follows": "ep_6ed418d19b720ab3a578",
+  "goal": "确定什么样的记忆值得长期保存，并让重要记忆反过来影响未来的记忆抽取策略",
+  "id": "ep_bf823bcd4faaaf9a8b2e",
+  "memory_ids": [
+    "mem_437b0f97b1e14a75a382",
+    "mem_da4fffc6662c7bce1ba7"
+  ],
+  "outcome": "",
+  "project_id": "",
+  "source_agent": "codex@old-memd",
+  "space": "user/shared",
+  "started_at": "2026-09-26T08:13:36.422000Z",
+  "status": "ongoing",
+  "steps": [
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-26T08:13:36.422000Z",
+      "event_id": "evt_8747147e4e4a8cd6b63f",
+      "kind": "note",
+      "order": 1,
+      "quote": "大的就是非常重要的记忆，并且会产生深远影响，甚至会影响未来记忆抽取策略",
+      "revision": 1,
+      "text": "用户提出以情感冲击强度（杏仁核类比）和信息熵/信息量作为判断记忆重要性的两个维度，并强调重要记忆会影响未来抽取策略。"
+    }
+  ],
+  "sync_remote": true,
+  "title": "确定记忆重要性判断框架",
+  "updated_at": "2026-11-04T14:10:39.640347Z"
+}
