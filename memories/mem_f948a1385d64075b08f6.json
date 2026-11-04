@@ -1,0 +1,51 @@
+{
+  "conditions": "用于追踪用户通过 alma_test 对 Codex 进行的第 5 次极简响应探针。",
+  "confidence": 0.85,
+  "content": "2026-11-04,用户在 alma_test codex probe 5 中要求 Codex 只回复固定字符串“OK-ALMA-CODEX5”;当前窗口未记录助手回复,本次探针结果尚未确认。",
+  "created_at": "2026-11-04T09:04:16.589000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_bdf46bd69b3bf1ceedc6",
+    "ent_3d2f68a038ff0d2b8362"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_3d5f3e6b95b2d9a4b1f4",
+      "quote": "alma_test codex probe 5: reply with the exact single word OK-ALMA-CODEX5",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_f948a1385d64075b08f6",
+  "is_temporary": false,
+  "keywords": [
+    "probe 5",
+    "探针",
+    "Codex",
+    "alma_test",
+    "OK-ALMA-CODEX5",
+    "极简指令"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v2",
+  "project_id": "proj_f98e218e8fd28baa6780",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_3d5f3e6b95b2d9a4b1f4",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "codex@alma-test",
+  "space": "project/proj_f98e218e8fd28baa6780",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-04T10:21:27.699517Z",
+  "valid_to": null
+}
