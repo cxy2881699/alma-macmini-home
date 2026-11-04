@@ -1,0 +1,52 @@
+{
+  "claim": "user_fact",
+  "conditions": "",
+  "confidence": 0.95,
+  "content": "用户对记忆系统的设计预期是每一轮对话都必须通过 hook 自动执行记忆 search，MCP 只能作为额外的深度查询手段，不能替代每轮自动检索。",
+  "created_at": "2026-09-25T08:37:15.872000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3d2f68a038ff0d2b8362"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_ddfc3157c195d2617059",
+      "quote": "我之前设计的是hook，每一轮都必须要走记忆的search",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_24e7867bc87f7df697ef",
+  "is_temporary": false,
+  "keywords": [
+    "hook",
+    "UserPromptSubmit",
+    "每轮搜索",
+    "MCP",
+    "记忆检索",
+    "agent-memory",
+    "recall"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ddfc3157c195d2617059",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "codex@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-04T14:08:38.915421Z",
+  "valid_to": null
+}

@@ -1,19 +1,21 @@
 {
   "entities": [
-    "ent_9f3a7bf9cfd8e30c3e74"
+    "ent_9f3a7bf9cfd8e30c3e74",
+    "ent_3d2f68a038ff0d2b8362"
   ],
   "follows": "ep_4873c08674d165a84ac5",
   "goal": "确认 Agent 给出选酒建议前是否调用了记忆服务、是否有个人偏好依据",
   "id": "ep_9550aa9fd661bc11d944",
   "memory_ids": [
-    "mem_1215f70aeebf0663c0ae"
+    "mem_1215f70aeebf0663c0ae",
+    "mem_24e7867bc87f7df697ef"
   ],
-  "outcome": "",
+  "outcome": "确认每轮 hook 已触发记忆搜索（recall=ok、40ms、结果为空），MCP 只是补充查询；遗留问题是当前配置在超时或服务出错时仍会放行对话，且 Agent 应先核对审计再回答。",
   "project_id": "",
   "source_agent": "codex@old-memd",
   "space": "user/shared",
   "started_at": "2026-09-25T08:36:22.796000Z",
-  "status": "ongoing",
+  "status": "succeeded",
   "steps": [
     {
       "agent_id": "codex@old-memd",
@@ -24,9 +26,19 @@
       "quote": "刚才推荐酒时，我没有主动调用记忆服务。",
       "revision": 1,
       "text": "Agent 承认先前推荐威士忌时没有主动调用记忆服务，本轮补做 memory_recall 深度检索，结果没有任何饮酒偏好记录"
+    },
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-25T08:37:15.872000Z",
+      "event_id": "evt_ddfc3157c195d2617059",
+      "kind": "result",
+      "order": 2,
+      "quote": "记录为 `recall=ok`，耗时 **40 毫秒**；只是返回的相关记忆为空。",
+      "revision": 1,
+      "text": "核对 Codex hooks.json 与服务端 audit 后确认：推荐酒那轮开始前 UserPromptSubmit hook 已执行搜索，审计为 recall=ok、耗时 40ms，只是相关记忆为空；后续 MCP 调用只是补充深度查询，真正的问题是 Agent 没有先核对审计。"
     }
   ],
   "sync_remote": true,
   "title": "核对选酒建议前是否调用了记忆服务",
-  "updated_at": "2026-11-04T14:08:13.643102Z"
+  "updated_at": "2026-11-04T14:08:38.912640Z"
 }
