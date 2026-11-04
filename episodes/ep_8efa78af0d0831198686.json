@@ -1,0 +1,28 @@
+{
+  "entities": [],
+  "follows": "ep_16afac2ab4f4643361c8",
+  "goal": "核实亿咖通、中手游、蓝河乳业、九江银行、招商银行、欧莱雅中国、安永等非汽车案例的签约日期、双方出席人、合作内容、政府官员出席与后续落地,并补充华泰证券等重磅案例",
+  "id": "ep_8efa78af0d0831198686",
+  "memory_ids": [],
+  "outcome": "输出七案(亿咖通、中手游、蓝河乳业、九江银行、招商银行、欧莱雅中国、安永)加华泰证券补充的紧凑要点,每条附官方或权威媒体可访问URL,未披露人名与政府出席不作推断",
+  "project_id": "",
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "started_at": "2026-10-27T18:35:41.105000Z",
+  "status": "succeeded",
+  "steps": [
+    {
+      "agent_id": "openclaw@old-memd",
+      "at": "2026-10-27T18:35:41.105000Z",
+      "event_id": "evt_58bfeab114e9d0bc2f6a",
+      "kind": "result",
+      "order": 1,
+      "quote": "首轮原文已核实：九江银行稿明确有九江市财政局官员出席",
+      "revision": 1,
+      "text": "完成七案逐条核查并补充华泰证券,明确只有九江银行签约稿提到政府官员(九江市财政局罗峰),并区分签约/MOU、后续采购与实际上线"
+    }
+  ],
+  "sync_remote": true,
+  "title": "火山引擎非汽车企业战略合作公开稿核查",
+  "updated_at": "2026-11-04T14:26:29.104344Z"
+}
