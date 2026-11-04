@@ -1,0 +1,68 @@
+{
+  "actor": "codex@old-memd",
+  "base_revision": 1,
+  "created_at": "2026-11-04T14:10:53.592023Z",
+  "id": "rev_fad2347cba97b8240b19",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "用户阐述记忆作为 Agent 生命来源，以及不同 Agent 应保留各自亲历和自我认识。",
+    "confidence": 0.85,
+    "content": "用户的赛博生命观核心命题:记忆是可进化 Agent 的生命来源,目标是让经历通过“经历→记忆→改变理解与关注→改变行动→新经历”的闭环持续塑造个体;并强调未来要区分共享的人的记忆与每个 Agent 各自的亲历和自我认识,避免多 NPC 变成同一个声音。",
+    "created_at": "2026-10-27T04:26:32.379876Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_4488e0fdf8d04896269e",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_1e8088308ba9691af4dc"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_fe1d8adf1f86b41cf6a0",
+        "quote": "而且未来记忆系统不只是用在我的codex、cursor里面，而是会应用在各种各样的智能玩具、游戏NPC里面",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_26bc120024e197475840",
+    "is_temporary": false,
+    "keywords": [
+      "个体经历隔离",
+      "NPC差异化",
+      "共享记忆与亲历记忆",
+      "NPC",
+      "个体经历",
+      "数字逝者",
+      "NPC 个体差异",
+      "成长闭环",
+      "NPC个体差异",
+      "亲历记忆",
+      "游戏NPC",
+      "个体连续性",
+      "赛博生命",
+      "可进化记忆",
+      "经历闭环",
+      "NPC个体性"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [],
+    "revision": 2,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T14:10:53.591900Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_26bc120024e197475840",
+  "policy_version": "extract-v2",
+  "reason": "确认",
+  "revision": 2
+}

@@ -1,0 +1,70 @@
+{
+  "actor": "codex@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:10:53.587407Z",
+  "id": "rev_73faa47c652a6e05c11b",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "用户阐述自己研究可进化记忆系统的根本动机时成立。",
+    "confidence": 0.92,
+    "content": "用户把记忆看作个体全部认知的载体,认为可自我进化的“记忆”是赛博生命的生命来源;其最终想造出的不是局限在 Codex/Cursor 里的工作记忆,而是像电影《失控玩家》那样看起来像有生命的赛博 agent,未来应用于智能玩具和游戏 NPC。",
+    "created_at": "2026-09-26T08:20:35.647000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_b40e479e33de45ac6bea",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_1e8088308ba9691af4dc"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_fe1d8adf1f86b41cf6a0",
+        "quote": "记忆是个体全部认知的载体，如果我要创建出一个能自我进化的赛博生命，那么一个能进化的“记忆”是这个agent的生命来源",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_fe1d8adf1f86b41cf6a0",
+        "quote": "像电影失控玩家一样，拥有看起来很像生命的赛博agent",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_da910b3329779b5de743",
+    "is_temporary": false,
+    "keywords": [
+      "赛博生命",
+      "记忆载体",
+      "失控玩家",
+      "NPC",
+      "智能玩具",
+      "自我进化",
+      "Free Guy"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_fe1d8adf1f86b41cf6a0",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "codex@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T14:10:53.587208Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_da910b3329779b5de743",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

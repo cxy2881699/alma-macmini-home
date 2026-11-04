@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "Free Guy"
+  ],
+  "created_at": "2026-11-04T14:10:53.565431Z",
+  "description": "用户用来类比有生命赛博 NPC 的电影",
+  "id": "ent_b40e479e33de45ac6bea",
+  "name": "失控玩家",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T14:10:53.583194Z"
+}
