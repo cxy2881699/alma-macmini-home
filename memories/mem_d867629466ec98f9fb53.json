@@ -1,0 +1,55 @@
+{
+  "claim": "user_fact",
+  "conditions": "在 MacBook 上清空 shell 代理变量后测试外网连通性时成立。",
+  "confidence": 0.95,
+  "content": "2026-10-18：用户在 MacBook 上完整 unset 全部代理变量（含 all_proxy、no_proxy、ftp_proxy 等）后，`env | grep -i proxy` 已无任何输出，但 curl 访问 www.google.com:443 仍报 LibreSSL SSL_ERROR_SYSCALL，说明终端代理环境已清干净，出口卡在系统/TUN 层。",
+  "created_at": "2026-10-18T15:15:29.603000Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_99f1279db034d4a6a0a2",
+      "quote": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to www.google.com:443",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_99f1279db034d4a6a0a2",
+      "quote": "unset all_proxy ALL_PROXY http_proxy https_proxy HTTP_PROXY HTTPS_PROXY no_proxy NO_PROXY ftp_proxy FTP_PROXY",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_d867629466ec98f9fb53",
+  "is_temporary": false,
+  "keywords": [
+    "代理环境变量",
+    "unset",
+    "SSL_ERROR_SYSCALL",
+    "LibreSSL",
+    "直连失败",
+    "TUN"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_99f1279db034d4a6a0a2",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-04T14:15:05.770002Z",
+  "valid_to": null
+}
