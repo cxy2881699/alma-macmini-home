@@ -1,0 +1,65 @@
+{
+  "claim": "user_fact",
+  "conditions": "在 DMIT LAX Premium 的 IP 未被额外标记为滥用的前提下；Claude Code/API 通道主要看账号与付费方式",
+  "confidence": 0.75,
+  "content": "用户在具体评估 DMIT LAX Premium 套餐能否用于 Claude 等 AI；该套餐是美国 IP，Claude 的地区限制可通过，但仍是机房 IP，无法保证稳定登录 Claude 网页版，风险表现为人机验证更频繁或使用几天后被风控踢掉。",
+  "created_at": "2026-10-27T02:02:11.227000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_76ac53ec2a482696425b",
+    "ent_51b9c91560022845906c"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "evt_9befdb88a0676457c82d",
+      "quote": "我是说lax premium",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_9befdb88a0676457c82d",
+      "quote": "美国 IP 是 Claude 支持地区，所以**地区这关过了**",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_9befdb88a0676457c82d",
+      "quote": "**LAX Premium 能开 Claude 的概率不低，但不能打包票。**",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_ca72cac1de512364041f",
+  "is_temporary": false,
+  "keywords": [
+    "DMIT",
+    "LAX Premium",
+    "Claude",
+    "机房IP",
+    "住宅IP",
+    "地区限制",
+    "风控"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_9befdb88a0676457c82d",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-04T14:22:52.190503Z",
+  "valid_to": null
+}
