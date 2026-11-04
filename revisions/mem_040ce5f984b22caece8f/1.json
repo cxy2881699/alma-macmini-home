@@ -1,0 +1,76 @@
+{
+  "actor": "codex@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T13:59:57.315088Z",
+  "id": "rev_ca692635f8d2c2dddce3",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "仅反映 2026-11-04 当次检查时的状态,后续修复后需重新核对审计。",
+    "confidence": 0.9,
+    "content": "2026-11-04 检查记忆接入状态的结果:Codex 侧对话写入已生效,但自动读取未生效,当前任务只有两条对话上传、没有实际的 codex recall 审计记录,成功的召回都来自 mem-doctor 自检;OpenClaw 侧有对话写入但召回失败,插件日志持续出现 recall failed: fetch failed,且当前插件版本不接受配置中的 hooks 字段。",
+    "created_at": "2026-09-23T16:55:37.134000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_6db9cf4059e759b01b48",
+        "quote": "Codex：对话写入已生效，自动读取尚未生效。",
+        "revision": 1,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_6db9cf4059e759b01b48",
+        "quote": "成功的召回都来自 `mem-doctor` 自检",
+        "revision": 1,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_6db9cf4059e759b01b48",
+        "quote": "recall failed: fetch failed",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_040ce5f984b22caece8f",
+    "is_temporary": true,
+    "keywords": [
+      "Codex",
+      "OpenClaw",
+      "自动召回",
+      "recall",
+      "审计",
+      "hooks",
+      "mem-doctor",
+      "记忆注入"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_6db9cf4059e759b01b48",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "codex@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-11-04T13:59:57.314835Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_040ce5f984b22caece8f",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
