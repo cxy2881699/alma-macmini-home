@@ -1,0 +1,67 @@
+{
+  "actor": "claude@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:18:43.276397Z",
+  "id": "rev_f496e657e6b6486efc85",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "文献检索、资料核验类任务。",
+    "confidence": 0.95,
+    "content": "在技术或研究任务中，用户偏好先验证关键事实与外部资料，再形成结论或撰写文档，不能凭记忆补全；文献类任务要求 DOI、元数据必须来自 API 真实返回，查不到就写「未检索到」。",
+    "created_at": "2026-10-22T01:56:39.545000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_43fc36c1fb990c957aba"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_8d3f3ac718d007dd877d",
+        "quote": "只写 API 真实返回的内容。查不到的主题，明确写「未检索到」，绝对不要凭记忆补全。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_8d3f3ac718d007dd877d",
+        "quote": "DOI 必须来自 API 返回，不要自己拼。",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_0332cda63fa2a8012536",
+    "is_temporary": false,
+    "keywords": [
+      "不凭记忆补全",
+      "DOI",
+      "API 返回",
+      "未检索到",
+      "可核实",
+      "hallucination"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8d3f3ac718d007dd877d",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "claude@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-11-04T14:18:43.276230Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_0332cda63fa2a8012536",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

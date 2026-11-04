@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "S2"
+  ],
+  "created_at": "2026-11-04T14:18:43.259311Z",
+  "description": "返回 429 限流的文献 API",
+  "id": "ent_6b6da8afca177738ebdd",
+  "name": "Semantic Scholar",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "tool",
+  "updated_at": "2026-11-04T14:18:43.268523Z"
+}

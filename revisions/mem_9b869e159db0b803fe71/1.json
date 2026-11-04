@@ -1,0 +1,69 @@
+{
+  "actor": "claude@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:18:43.279721Z",
+  "id": "rev_a99cc60c526236015cdb",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "只用 Bash+curl 直连学术 API 时；该可用性仅代表当次探测。",
+    "confidence": 0.8,
+    "content": "文献检索环境中 Semantic Scholar 会返回 429（需换源），Crossref 与 PubMed E-utilities 无需 key、可作为稳定的替代检索源。",
+    "created_at": "2026-10-22T01:56:39.545000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6b6da8afca177738ebdd",
+      "ent_2675df74442919eb165e",
+      "ent_c0b9b8abd119baf9bc03"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_8d3f3ac718d007dd877d",
+        "quote": "Semantic Scholar（可能 429，失败就换下一个）",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_8d3f3ac718d007dd877d",
+        "quote": "三个 API 已探测：Semantic Scholar 返回 429，Crossref 和 PubMed 正常。",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_9b869e159db0b803fe71",
+    "is_temporary": true,
+    "keywords": [
+      "Semantic Scholar",
+      "429",
+      "Crossref",
+      "PubMed",
+      "E-utilities",
+      "API 可用性"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8d3f3ac718d007dd877d",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "claude@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T14:18:43.279639Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9b869e159db0b803fe71",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

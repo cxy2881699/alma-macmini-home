@@ -1,0 +1,57 @@
+{
+  "claim": "user_fact",
+  "conditions": "该用户的文献调研与逆向映射系统项目。",
+  "confidence": 0.9,
+  "content": "用户的「激素/神经递质 ↔ 情绪 ↔ 行为 ↔ 心理结构」文献任务覆盖 15 个主题：A 多巴胺奖赏预测误差（Schultz）与 wanting/liking（Berridge）、B 血清素-反刍-冲动与 SSRI 起效延迟、C 皮质醇/HPA 与 McEwen 稳态负荷、D 催产素信任（Kosfeld 2005 复现失败）与群际偏倚（De Dreu）、E 催乳素与不应期、F 睾酮挑战假说与双激素假说、G DRD2/DRD4/5-HTTLPR/COMT/OXTR 多态性、H Lazarus 认知评价与威胁/挑战、I 成人依恋与 HPA 反应性、J ACE 方法学批评、K 经验取样/EMA、L Borsboom 网络分析、M 单被试实验设计 SCED、N 数字表型被动感知、O Moncrieff 2022 血清素失衡伞式综述；每个主题至少 8 条，优先元分析、系统综述与里程碑研究。",
+  "created_at": "2026-10-22T01:56:39.545000Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_8d3f3ac718d007dd877d",
+      "quote": "任务：收集真实存在的学术文献元数据，主题「激素/神经递质 ↔ 情绪 ↔ 行为 ↔ 心理结构」。",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_8d3f3ac718d007dd877d",
+      "quote": "要检索的主题（每个至少 8 条结果，优先元分析/系统综述/里程碑研究）",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_645d6e56641aaf3c90c2",
+  "is_temporary": false,
+  "keywords": [
+    "文献主题",
+    "15 个主题",
+    "多巴胺",
+    "催产素",
+    "HPA",
+    "网络分析",
+    "数字表型",
+    "伞式综述"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8d3f3ac718d007dd877d",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "claude@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-04T14:18:43.282395Z",
+  "valid_to": null
+}

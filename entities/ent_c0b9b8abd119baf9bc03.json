@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "E-utilities"
+  ],
+  "created_at": "2026-11-04T14:18:43.265659Z",
+  "description": "NCBI 文献检索 API",
+  "id": "ent_c0b9b8abd119baf9bc03",
+  "name": "PubMed",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "tool",
+  "updated_at": "2026-11-04T14:18:43.273123Z"
+}
