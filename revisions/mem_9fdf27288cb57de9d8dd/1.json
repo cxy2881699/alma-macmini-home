@@ -1,0 +1,58 @@
+{
+  "actor": "memory-hub@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:52:53.881547Z",
+  "id": "rev_9d69ba5e9a86938d81eb",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "memd/记忆服务反复重启或怀疑记忆检索拖慢对话时。",
+    "confidence": 0.9,
+    "content": "记忆服务若出现重启循环，先检查其依赖 Neo4j 是否停止；按 Neo4j→memd 顺序恢复，再实测召回延迟。实测召回通常 20–40ms、最慢 110ms，不应先怀疑记忆检索导致整体卡顿。",
+    "created_at": "2026-11-04T14:51:57.420864Z",
+    "derived_from": [
+      "ep_4873c08674d165a84ac5"
+    ],
+    "entities": [
+      "ent_176409fa578ba26c2c5b",
+      "ent_1c6b296bc5cb579536f2",
+      "ent_421c00dde9a1b98fc969",
+      "ent_3d2f68a038ff0d2b8362"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "ep_4873c08674d165a84ac5",
+        "quote": "排查记忆服务再次宕机：Neo4j 停止导致的重启循环已修复，记忆服务恢复稳定；随后本机实测对话前召回 20–40ms、最慢 110ms，排除记忆检索作为 OpenClaw 变慢的原因",
+        "revision": 1,
+        "role": "memory"
+      }
+    ],
+    "id": "mem_9fdf27288cb57de9d8dd",
+    "is_temporary": false,
+    "keywords": [
+      "Neo4j",
+      "memd",
+      "重启循环",
+      "召回延迟"
+    ],
+    "layer": "core",
+    "level": 1,
+    "model_version": "",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "memory-hub@alma-test",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-04T14:52:53.881450Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9fdf27288cb57de9d8dd",
+  "policy_version": "extract-v2",
+  "reason": "2026-11-04",
+  "revision": 1
+}

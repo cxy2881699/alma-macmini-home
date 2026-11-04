@@ -1,0 +1,53 @@
+{
+  "claim": "user_fact",
+  "conditions": "切换 OpenClaw 等生产 Agent 的主模型时。",
+  "confidence": 0.9,
+  "content": "切换生产主模型应使用带真实 API 预检、配置备份、config validate、Gateway 重启、失败自动恢复和 --rollback 的脚本；切换后要实跑 agent 验证，并复核上下文窗口/输出上限是否与官方值一致。",
+  "created_at": "2026-11-04T14:51:57.422388Z",
+  "derived_from": [
+    "ep_d0304c6db006fee77290",
+    "ep_f77d31e7c72e0bf700ce"
+  ],
+  "entities": [
+    "ent_85ac7912658c80484706",
+    "ent_e44e9ad831fb5cdbe20f"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "ep_d0304c6db006fee77290",
+      "quote": "编写切换到 kimi-k3-1-pro-261024 的自动回滚脚本：OpenClaw 主模型已从 DeepSeek 切换到 ark/kimi-k3-1-pro-261024 并完成验证，保留备份与 --rollback 回滚手段；上下文窗口/输出上限参数需按官方值复核。",
+      "revision": 1,
+      "role": "memory"
+    },
+    {
+      "event_id": "ep_f77d31e7c72e0bf700ce",
+      "quote": "确认 OpenClaw 切换到 Kimi 后恢复响应：主模型 ark/kimi-k3-1-pro-261024 生效，1024k 上下文 / 128k 输出、支持图片，回复慢的问题已消失。",
+      "revision": 1,
+      "role": "memory"
+    }
+  ],
+  "id": "mem_a57491012f12362e7fb7",
+  "is_temporary": false,
+  "keywords": [
+    "模型切换",
+    "回滚",
+    "预检",
+    "OpenClaw"
+  ],
+  "layer": "core",
+  "level": 1,
+  "model_version": "",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "memory-hub@alma-test",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-11-04T14:52:53.893447Z",
+  "valid_to": null
+}

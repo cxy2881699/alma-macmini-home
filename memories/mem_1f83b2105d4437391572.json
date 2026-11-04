@@ -1,0 +1,51 @@
+{
+  "claim": "user_fact",
+  "conditions": "长任务交给子进程/session 自主执行，或上一轮 session 中途断连时",
+  "confidence": 0.8,
+  "content": "把长任务交给 claude -p 这类自主 session 执行时，要在任务文件里写明收尾检查点（提交、推送、输出报告）；若 session 断在收尾阶段（代码已改、测试已过但未 commit/推送、报告未发），恢复时先核对任务文件、git 状态与远端一致性，再补完推送并重跑测试。",
+  "created_at": "2026-11-04T14:52:53.872052Z",
+  "derived_from": [
+    "ep_cb76ece566f8926236a8"
+  ],
+  "entities": [
+    "ent_e1a174d95438503423a9",
+    "ent_e44e9ad831fb5cdbe20f",
+    "ent_d470e82d81fd9b9a6747",
+    "ent_5510d6f408cb181c5c42",
+    "ent_3c7d331efc1a9e33a4c5",
+    "ent_176409fa578ba26c2c5b"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "ep_cb76ece566f8926236a8",
+      "quote": "修复 Alma 记忆系统的四个 UI 与语义问题：四项修复（含追加的图谱流动与发光滑块）全部完成并验收，代码已推送到 GitHub main（692285d），Alma 8790 与旧 memd 8787 均健康。",
+      "revision": 1,
+      "role": "memory"
+    }
+  ],
+  "id": "mem_1f83b2105d4437391572",
+  "is_temporary": false,
+  "keywords": [
+    "claude -p",
+    "长任务",
+    "收尾",
+    "git 推送",
+    "断连恢复"
+  ],
+  "layer": "core",
+  "level": 1,
+  "model_version": "",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "memory-hub@alma-test",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-11-04T14:52:53.898644Z",
+  "valid_to": null
+}

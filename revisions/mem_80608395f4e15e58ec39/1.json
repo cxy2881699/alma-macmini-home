@@ -1,0 +1,56 @@
+{
+  "actor": "memory-hub@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:52:53.890678Z",
+  "id": "rev_3fdcc49bb7ba5026d535",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "大批量论文调研并映射到产品 PRD 时。",
+    "confidence": 0.8,
+    "content": "批量论文对标 PRD 时，先用摘要覆盖并标注未获取原文，再尽可能用全文覆盖重写，最后输出按 P0/P1/P2 的修订总表；注意剔除任务清单中混入的非论文文件。",
+    "created_at": "2026-11-04T14:51:57.421926Z",
+    "derived_from": [
+      "ep_880b3a50c98918e62bc0"
+    ],
+    "entities": [
+      "ent_e44cb152899e6702c87f",
+      "ent_803e29983b18f51d0780",
+      "ent_6a242ac46c0b54ee42c0"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "ep_880b3a50c98918e62bc0",
+        "quote": "为 ICLR 2026 MemAgents Workshop 论文做逐篇总结并对标 PRD：全文版总结覆盖写入同一 Markdown 文件，产出 P0/P1/P2 修订总表；任务所称 42 篇中有一份为保理合同已排除，实际覆盖 41 篇。",
+        "revision": 1,
+        "role": "memory"
+      }
+    ],
+    "id": "mem_80608395f4e15e58ec39",
+    "is_temporary": false,
+    "keywords": [
+      "论文调研",
+      "PRD",
+      "P0/P1/P2"
+    ],
+    "layer": "core",
+    "level": 1,
+    "model_version": "",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "memory-hub@alma-test",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-04T14:52:53.890344Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_80608395f4e15e58ec39",
+  "policy_version": "extract-v2",
+  "reason": "2026-11-04",
+  "revision": 1
+}

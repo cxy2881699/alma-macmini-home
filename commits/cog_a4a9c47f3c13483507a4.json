@@ -1,0 +1,34 @@
+{
+  "actor": "memory-hub@alma-test",
+  "created_at": "2026-11-04T14:52:53.904283Z",
+  "episode_ids": [],
+  "event_refs": [],
+  "id": "cog_a4a9c47f3c13483507a4",
+  "kind": "consolidate",
+  "memory_ids": [
+    "mem_d844c4bbf5fb2067eea7",
+    "mem_9fdf27288cb57de9d8dd",
+    "mem_5b5fe1c33b2b86afaa5a",
+    "mem_80608395f4e15e58ec39",
+    "mem_a57491012f12362e7fb7",
+    "mem_fe5b32faf46db1272d1c",
+    "mem_1f83b2105d4437391572"
+  ],
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v2",
+  "relation_ids": [],
+  "repository_head": "",
+  "revision_ids": [
+    "rev_be765aa416821552cb56",
+    "rev_9d69ba5e9a86938d81eb",
+    "rev_54b349b69678f8c2b380",
+    "rev_3fdcc49bb7ba5026d535",
+    "rev_ede9a5e3bcbe40787e4a",
+    "rev_dd6ca2fff834d7f3ff01",
+    "rev_fbed6abd5f612b1d9419"
+  ],
+  "summary": {
+    "insight": 7
+  },
+  "sync_remote": true
+}

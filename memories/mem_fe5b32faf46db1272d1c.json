@@ -1,0 +1,48 @@
+{
+  "claim": "user_fact",
+  "conditions": "Alma 或其他工具访问 GitHub 报连接/认证失败时",
+  "confidence": 0.85,
+  "content": "工具（如 Alma）的 git 操作报连接或认证失败时，先排查是否继承了全局失效代理，再仅对该仓库把 http.proxy/https.proxy 置空并复用已有的 gh 凭据，而不是改动全局 Git 配置或系统代理。",
+  "created_at": "2026-11-04T14:52:53.870213Z",
+  "derived_from": [
+    "ep_fc6783354df4ee1912b4"
+  ],
+  "entities": [
+    "ent_d470e82d81fd9b9a6747",
+    "ent_5510d6f408cb181c5c42"
+  ],
+  "epistemic": "inferred",
+  "evidence": [
+    {
+      "event_id": "ep_fc6783354df4ee1912b4",
+      "quote": "Alma 记忆仓库无法访问排查：Alma 仓库状态 synced，本地与 GitHub main 一致在 eff400b",
+      "revision": 1,
+      "role": "memory"
+    }
+  ],
+  "id": "mem_fe5b32faf46db1272d1c",
+  "is_temporary": false,
+  "keywords": [
+    "git",
+    "代理",
+    "http.proxy",
+    "gh 凭据",
+    "Alma",
+    "GitHub"
+  ],
+  "layer": "core",
+  "level": 1,
+  "model_version": "",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [],
+  "revision": 1,
+  "source_agent": "memory-hub@alma-test",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-11-04T14:52:53.896086Z",
+  "valid_to": null
+}

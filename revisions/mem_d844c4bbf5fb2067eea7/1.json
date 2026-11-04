@@ -1,0 +1,61 @@
+{
+  "actor": "memory-hub@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:52:53.875012Z",
+  "id": "rev_be765aa416821552cb56",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "排查 Codex、OpenClaw 等 Agent 的记忆自动召回接入时。",
+    "confidence": 0.9,
+    "content": "接入自动召回时，修完客户端 hooks 配置还不够，必须重启 gateway 让新进程加载配置，并用服务端 recall 审计验证端到端生效；否则会出现插件 loaded 但自动召回仍 failed 或未生效。",
+    "created_at": "2026-11-04T14:51:57.419954Z",
+    "derived_from": [
+      "ep_d8568ce714edbcb31204"
+    ],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_1c6b296bc5cb579536f2",
+      "ent_6cf84e1c3c276ec690be",
+      "ent_9f82bdbcda91e1775def",
+      "ent_421c00dde9a1b98fc969",
+      "ent_4488e0fdf8d04896269e",
+      "ent_22f290112c9557d215ea"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "ep_d8568ce714edbcb31204",
+        "quote": "验证 Codex 与 OpenClaw 的自动召回是否真正生效：网关重启后飞书重连、插件 loaded、服务端 recall 记录 ok,“小龙虾”已恢复;仅剩飞书插件重复加载与旧 self-improvement hook 两条与记忆服务无关的警告,不阻塞消息收发。",
+        "revision": 1,
+        "role": "memory"
+      }
+    ],
+    "id": "mem_d844c4bbf5fb2067eea7",
+    "is_temporary": false,
+    "keywords": [
+      "自动召回",
+      "gateway",
+      "hooks",
+      "recall审计"
+    ],
+    "layer": "core",
+    "level": 1,
+    "model_version": "",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "memory-hub@alma-test",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-04T14:52:53.874704Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_d844c4bbf5fb2067eea7",
+  "policy_version": "extract-v2",
+  "reason": "2026-11-04",
+  "revision": 1
+}

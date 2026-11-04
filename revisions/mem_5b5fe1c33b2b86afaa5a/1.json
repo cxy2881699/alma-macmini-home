@@ -1,0 +1,55 @@
+{
+  "actor": "memory-hub@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:52:53.887219Z",
+  "id": "rev_54b349b69678f8c2b380",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "回答依赖个人偏好或历史记录的问题前。",
+    "confidence": 0.85,
+    "content": "用户问个性化建议时，即使最终没有相关记忆，也要先核对服务端 recall 审计再回答；recall=ok 但结果为空与未调用 recall 是两种情况。当前配置在记忆服务超时或出错时仍放行对话，是可靠性隐患。",
+    "created_at": "2026-11-04T14:51:57.421471Z",
+    "derived_from": [
+      "ep_9550aa9fd661bc11d944"
+    ],
+    "entities": [
+      "ent_9f3a7bf9cfd8e30c3e74",
+      "ent_3d2f68a038ff0d2b8362"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "ep_9550aa9fd661bc11d944",
+        "quote": "核对选酒建议前是否调用了记忆服务：确认每轮 hook 已触发记忆搜索（recall=ok、40ms、结果为空），MCP 只是补充查询；遗留问题是当前配置在超时或服务出错时仍会放行对话，且 Agent 应先核对审计再回答。",
+        "revision": 1,
+        "role": "memory"
+      }
+    ],
+    "id": "mem_5b5fe1c33b2b86afaa5a",
+    "is_temporary": false,
+    "keywords": [
+      "recall审计",
+      "个性化建议",
+      "fail-open"
+    ],
+    "layer": "core",
+    "level": 1,
+    "model_version": "",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [],
+    "revision": 1,
+    "source_agent": "memory-hub@alma-test",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-04T14:52:53.887018Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_5b5fe1c33b2b86afaa5a",
+  "policy_version": "extract-v2",
+  "reason": "2026-11-04",
+  "revision": 1
+}
