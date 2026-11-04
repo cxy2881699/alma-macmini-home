@@ -1,0 +1,59 @@
+{
+  "actor": "openclaw@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:15:14.055731Z",
+  "id": "rev_79869c0366f9e08e51ab",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "仅指该时刻的观测结果",
+    "confidence": 0.9,
+    "content": "2026-10-18 08:16 PDT，用户在 MacBook 上执行 scutil --proxy | grep -E \"HTTPEnable|HTTPPort\" 仍只返回 HTTPEnable : 0，说明 Clash Verge 依旧没把系统代理写入 macOS。",
+    "created_at": "2026-10-18T15:16:28.360000Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_9a8bdce8b8532a163c1c",
+        "quote": "HTTPEnable : 0",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_93c9a7818fa7130b0e26",
+    "is_temporary": true,
+    "keywords": [
+      "scutil",
+      "HTTPEnable",
+      "系统代理",
+      "Clash Verge",
+      "macOS",
+      "7897"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_9a8bdce8b8532a163c1c",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T14:15:14.055521Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_93c9a7818fa7130b0e26",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

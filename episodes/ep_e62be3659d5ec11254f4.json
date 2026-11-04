@@ -10,7 +10,8 @@
   "id": "ep_e62be3659d5ec11254f4",
   "memory_ids": [
     "mem_2f028eb8c48c6e56d7c0",
-    "mem_83c65b5c683e844733c6"
+    "mem_83c65b5c683e844733c6",
+    "mem_93c9a7818fa7130b0e26"
   ],
   "outcome": "",
   "project_id": "",
@@ -58,9 +59,19 @@
       "quote": "unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY",
       "revision": 1,
       "text": "用户 unset 四个常见代理变量后重跑 curl，发现请求转而连向 127.0.0.1:8119 仍失败，说明 shell 里还有其他代理变量残留未清。"
+    },
+    {
+      "agent_id": "openclaw@old-memd",
+      "at": "2026-10-18T15:16:28.360000Z",
+      "event_id": "evt_9a8bdce8b8532a163c1c",
+      "kind": "obstacle",
+      "order": 5,
+      "quote": "HTTPEnable : 0",
+      "revision": 1,
+      "text": "用户回显 scutil --proxy 只有 HTTPEnable : 0，说明之前建议的两条 networksetup 未真正执行或未生效，Agent 改为要求一整块复制粘贴并自动验证。"
     }
   ],
   "sync_remote": true,
   "title": "排查 MacBook 上 Clash Verge 未接管系统代理",
-  "updated_at": "2026-11-04T14:14:56.565006Z"
+  "updated_at": "2026-11-04T14:15:14.053178Z"
 }
