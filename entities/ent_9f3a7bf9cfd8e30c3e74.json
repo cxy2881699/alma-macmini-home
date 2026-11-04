@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "mcp:agent-memory.memory_recall"
+  ],
+  "created_at": "2026-11-04T14:08:13.635723Z",
+  "description": "记忆服务的召回工具，支持深度检索",
+  "id": "ent_9f3a7bf9cfd8e30c3e74",
+  "name": "memory_recall",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "tool",
+  "updated_at": "2026-11-04T14:08:13.643154Z"
+}

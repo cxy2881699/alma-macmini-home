@@ -1,0 +1,67 @@
+{
+  "actor": "codex@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:08:13.646956Z",
+  "id": "rev_754b86345fdf43387f9f",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "仅代表该时间点记忆库的检索结果，之后可能补充。",
+    "confidence": 0.85,
+    "content": "2026-11-04 Agent 用 memory_recall 做深度检索，想查用户本人及从美国回来的大学同学的饮酒偏好、酒量与禁忌，结果为空，记忆库里没有相关记录。",
+    "created_at": "2026-09-25T08:36:22.796000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f3a7bf9cfd8e30c3e74"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_16a5121fc9adff39be5f",
+        "quote": "没有找到你或这位同学喜欢喝什么酒的记录",
+        "revision": 1,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_16a5121fc9adff39be5f",
+        "quote": "mcp:agent-memory.memory_recall",
+        "revision": 1,
+        "role": "tool"
+      }
+    ],
+    "id": "mem_1215f70aeebf0663c0ae",
+    "is_temporary": true,
+    "keywords": [
+      "memory_recall",
+      "记忆检索",
+      "饮酒偏好",
+      "选酒",
+      "空结果",
+      "recall"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_16a5121fc9adff39be5f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "codex@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-11-04T14:08:13.646743Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_1215f70aeebf0663c0ae",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

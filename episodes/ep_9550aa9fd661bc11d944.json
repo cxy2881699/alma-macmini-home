@@ -1,0 +1,32 @@
+{
+  "entities": [
+    "ent_9f3a7bf9cfd8e30c3e74"
+  ],
+  "follows": "ep_4873c08674d165a84ac5",
+  "goal": "确认 Agent 给出选酒建议前是否调用了记忆服务、是否有个人偏好依据",
+  "id": "ep_9550aa9fd661bc11d944",
+  "memory_ids": [
+    "mem_1215f70aeebf0663c0ae"
+  ],
+  "outcome": "",
+  "project_id": "",
+  "source_agent": "codex@old-memd",
+  "space": "user/shared",
+  "started_at": "2026-09-25T08:36:22.796000Z",
+  "status": "ongoing",
+  "steps": [
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-25T08:36:22.796000Z",
+      "event_id": "evt_16a5121fc9adff39be5f",
+      "kind": "result",
+      "order": 1,
+      "quote": "刚才推荐酒时，我没有主动调用记忆服务。",
+      "revision": 1,
+      "text": "Agent 承认先前推荐威士忌时没有主动调用记忆服务，本轮补做 memory_recall 深度检索，结果没有任何饮酒偏好记录"
+    }
+  ],
+  "sync_remote": true,
+  "title": "核对选酒建议前是否调用了记忆服务",
+  "updated_at": "2026-11-04T14:08:13.643102Z"
+}
