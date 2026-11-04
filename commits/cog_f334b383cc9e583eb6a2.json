@@ -1,0 +1,18 @@
+{
+  "actor": "codex@old-memd",
+  "created_at": "2026-11-04T14:30:27.833221Z",
+  "episode_ids": [],
+  "event_refs": [
+    "evt_c26cbdd36287d334bfb9@1"
+  ],
+  "id": "cog_f334b383cc9e583eb6a2",
+  "kind": "extract",
+  "memory_ids": [],
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v2",
+  "relation_ids": [],
+  "repository_head": "",
+  "revision_ids": [],
+  "summary": {},
+  "sync_remote": true
+}
