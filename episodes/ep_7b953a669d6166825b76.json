@@ -13,7 +13,8 @@
     "ent_8952517056092c2b27cb",
     "ent_51b9c91560022845906c",
     "ent_d7f7439272ef6024e4d3",
-    "ent_ce78bf334c2c4d063359"
+    "ent_ce78bf334c2c4d063359",
+    "ent_8a5a692819c05da247be"
   ],
   "follows": "ep_4748c615bf327ac13f77",
   "goal": "恢复用户开启 VPN 后整个电脑无法上网的问题，并避免节点故障时国内网络一起瘫痪",
@@ -31,7 +32,8 @@
     "mem_ca72cac1de512364041f",
     "mem_2e1fddd3113eeadfdd8e",
     "mem_1ab28204a9ac4c6f9589",
-    "mem_0da29c70f5d386ba10b6"
+    "mem_0da29c70f5d386ba10b6",
+    "mem_d5fd1c33b58c742e7150"
   ],
   "outcome": "",
   "project_id": "",
@@ -209,9 +211,19 @@
       "quote": "我朋友给了新的VPN地址，http://179.253.235.134:2082/sub/dmit.yaml",
       "revision": 1,
       "text": "用户拿到朋友给的新 DMIT 订阅，Agent 先拉取订阅实测节点，再新增配置 DMIT-new 切过去，三个 IPv4 节点可用、IPv6 不通，分流验证正常，旧配置保留可回滚。"
+    },
+    {
+      "agent_id": "openclaw@old-memd",
+      "at": "2026-11-04T06:52:04.329000Z",
+      "event_id": "evt_2922ff87181b495005a3",
+      "kind": "attempt",
+      "order": 18,
+      "quote": "更新订阅，节点选 **DMIT-443**（刚才实测延迟最低）",
+      "revision": 1,
+      "text": "用户要求把朋友给的新 DMIT 订阅也配到手机 Streisand 上，Agent 说明桌面端已可用，并给出手机端添加订阅、更新节点、选 DMIT-443、路由选规则模式、避开 IPv6 节点的步骤。"
     }
   ],
   "sync_remote": true,
   "title": "排查开启 VPN 后整机断网",
-  "updated_at": "2026-11-04T14:27:15.363518Z"
+  "updated_at": "2026-11-04T14:27:36.737512Z"
 }

@@ -1,0 +1,67 @@
+{
+  "actor": "openclaw@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:27:36.741893Z",
+  "id": "rev_08a1c2c85b21973cb0c1",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "",
+    "confidence": 0.85,
+    "content": "用户手机（iOS）上的代理客户端是 Streisand，需要通过订阅地址导入节点使用。",
+    "created_at": "2026-11-04T06:52:04.329000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_8a5a692819c05da247be"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_2922ff87181b495005a3",
+        "quote": "我手机里面的streisand怎么配置来着",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_2922ff87181b495005a3",
+        "quote": "打开 **Streisand → 首页右上角「＋」→「添加订阅」**",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_d5fd1c33b58c742e7150",
+    "is_temporary": false,
+    "keywords": [
+      "Streisand",
+      "iOS",
+      "iPhone",
+      "手机",
+      "代理客户端",
+      "订阅"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_2922ff87181b495005a3",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T14:27:36.741723Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_d5fd1c33b58c742e7150",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
