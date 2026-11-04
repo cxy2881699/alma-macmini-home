@@ -99,9 +99,19 @@
       "quote": "最近一次明确的 Codex 召回记录是",
       "revision": 1,
       "text": "Agent 检查 hooks.json 与服务端审计，确认三类钩子已配置、对话事件持续写入，但 10:04 后无新的 codex recall 记录，最近成功召回来自 OpenClaw，据此判定是桌面客户端钩子触发问题"
+    },
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-23T17:19:08.304000Z",
+      "event_id": "evt_ea3bf0959fa2c6d88a4f",
+      "kind": "attempt",
+      "order": 9,
+      "quote": "现在需要你告诉我怎么才能让hook成功开启",
+      "revision": 1,
+      "text": "Agent 给出完整开启路径：在 macOS 系统终端（不是 Codex 桌面窗口）中 cd 到项目目录运行 codex，进入 CLI 后用 /hooks 信任 UserPromptSubmit、PostToolUse、Stop 三个钩子，再 /exit 并完全重启 Codex 桌面应用，最后发一条普通消息，通过审计里是否出现 agent_kind=codex、action=recall、result=ok 来判断是否生效；同时提醒不要长期使用 --dangerously-bypass-hook-trust。"
     }
   ],
   "sync_remote": true,
   "title": "确认 Codex 每轮自动读取记忆是否生效",
-  "updated_at": "2026-11-04T14:02:43.126569Z"
+  "updated_at": "2026-11-04T14:02:57.109164Z"
 }
