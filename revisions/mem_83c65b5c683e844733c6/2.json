@@ -1,0 +1,102 @@
+{
+  "actor": "openclaw@old-memd",
+  "base_revision": 1,
+  "created_at": "2026-11-04T14:14:56.568038Z",
+  "id": "rev_8acae18cffe240b4cdd9",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "排查终端 curl 仍连接失效 MonoProxy 端口时，可通过完整 unset 代理变量复现和定位。",
+    "confidence": 0.86,
+    "content": "2026-10-18 终端 curl 曾继承旧代理环境,先指向失效的 127.0.0.1:8118,清理四个常见变量后又暴露 8119,直到 unset all_proxy 等完整变量后才转为直连 SSL 失败;这证明旧代理残留不止 http_proxy/https_proxy 两项。",
+    "created_at": "2026-10-27T05:03:35.872677Z",
+    "derived_from": [],
+    "entities": [
+      "ent_b1d51f89b3518adf7781",
+      "ent_f90a16b26a8ab1d551fc",
+      "ent_be07139e0614ab262534",
+      "ent_f18082c6c564869030be"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_b609b98e2176b3bff378",
+        "quote": "2026-10-18 终端 curl 曾继承旧代理环境,先指向失效的 127.0.0.1:8118,清理四个常见变量后又暴露 8119,直到 unset all_proxy 等完整变量后才转为直连 SSL 失败;这证明旧代理残留不止 http_proxy/https_proxy 两项。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_3656396aede1ecca622c",
+        "quote": "2026-10-18 终端 curl 曾继承旧代理环境,先指向失效的 127.0.0.1:8118,清理四个常见变量后又暴露 8119,直到 unset all_proxy 等完整变量后才转为直连 SSL 失败;这证明旧代理残留不止 http_proxy/https_proxy 两项。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_99f1279db034d4a6a0a2",
+        "quote": "2026-10-18 终端 curl 曾继承旧代理环境,先指向失效的 127.0.0.1:8118,清理四个常见变量后又暴露 8119,直到 unset all_proxy 等完整变量后才转为直连 SSL 失败;这证明旧代理残留不止 http_proxy/https_proxy 两项。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_3656396aede1ecca622c",
+        "quote": "curl: (7) Failed to connect to 127.0.0.1 port 8119 after 0 ms: Couldn't connect to server",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_83c65b5c683e844733c6",
+    "is_temporary": false,
+    "keywords": [
+      "env proxy",
+      "curl 8118",
+      "curl 8119",
+      "环境变量残留",
+      "LibreSSL SSL_connect",
+      "8118 8119 残留",
+      "curl LibreSSL",
+      "all_proxy",
+      "ALL_PROXY",
+      "8118",
+      "8119",
+      "curl 代理残留",
+      "unset proxy",
+      "LibreSSL SSL_ERROR_SYSCALL",
+      "代理环境变量",
+      "curl"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_b609b98e2176b3bff378",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_3656396aede1ecca622c",
+        "type": "derived_from"
+      },
+      {
+        "note": "",
+        "target_id": "evt_99f1279db034d4a6a0a2",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 2,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T14:14:56.567769Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_83c65b5c683e844733c6",
+  "policy_version": "extract-v2",
+  "reason": "确认",
+  "revision": 2
+}
