@@ -21,7 +21,8 @@
     "mem_97e30483e817efe65538",
     "mem_ec60812da6f6e4c8bf03",
     "mem_12ec4c11e685663d5d17",
-    "mem_9a2636a75210f482e7e8"
+    "mem_9a2636a75210f482e7e8",
+    "mem_792804fedb027260364d"
   ],
   "outcome": "",
   "project_id": "",
@@ -209,9 +210,19 @@
       "quote": "那这个速度相当快了啊",
       "revision": 1,
       "text": "用户听完轻量召回 20–110ms 与深度召回的解释后，评价该速度相当快，认可现有召回延迟可接受。"
+    },
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-26T07:37:20.028000Z",
+      "event_id": "evt_2b08cb8eba106b36a8cf",
+      "kind": "note",
+      "order": 19,
+      "quote": "/hooks",
+      "revision": 1,
+      "text": "用户再次在当前聊天窗口输入 /hooks；Agent 把它当成目录，回复说 hooks 目录为空并反问意图，未推进 hook 信任相关操作。"
     }
   ],
   "sync_remote": true,
   "title": "确认 Codex 每轮自动读取记忆是否生效",
-  "updated_at": "2026-11-04T14:07:10.786756Z"
+  "updated_at": "2026-11-04T14:09:45.366308Z"
 }

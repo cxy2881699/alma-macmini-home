@@ -1,0 +1,67 @@
+{
+  "actor": "codex@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:09:45.369754Z",
+  "id": "rev_c4f2c6ccc4183306d02f",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "",
+    "confidence": 0.75,
+    "content": "/hooks 是 Codex 命令行版本的命令,在用户当前的 Codex 桌面聊天窗口中输入不会打开钩子审核面板;2026-11-04 用户再次直接在当前聊天窗口输入 /hooks,Agent 未识别为 CLI 命令,而是把它当作本机 hooks 目录来处理并发现目录为空。",
+    "created_at": "2026-09-26T07:37:20.028000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3d2f68a038ff0d2b8362"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_2b08cb8eba106b36a8cf",
+        "quote": "/hooks",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_2b08cb8eba106b36a8cf",
+        "quote": "当前 `hooks` 目录是空的。你是想查看或配置 Codex hooks，还是让我在这个目录里创建某个 hook？",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_792804fedb027260364d",
+    "is_temporary": false,
+    "keywords": [
+      "/hooks",
+      "Codex",
+      "钩子审核面板",
+      "hooks 目录",
+      "桌面聊天窗口",
+      "CLI"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_2b08cb8eba106b36a8cf",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "codex@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T14:09:45.369552Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_792804fedb027260364d",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
