@@ -36,9 +36,19 @@
       "quote": "要我改规则加 `GEOIP,CN,DIRECT` 不？还是你先去 Verge 里换个节点试试？",
       "revision": 1,
       "text": "用户只发“在么”确认在线，Agent 复述结论：VPS 的 TCP 全端口被封，只能换节点，本机直连正常；仍在等用户决定是加 GEOIP,CN,DIRECT 规则还是自行在 Verge 里换节点"
+    },
+    {
+      "agent_id": "openclaw@old-memd",
+      "at": "2026-10-27T01:35:41.247000Z",
+      "event_id": "evt_876285daee49a79ec31a",
+      "kind": "obstacle",
+      "order": 3,
+      "quote": "vps挂了？ 我刚买这么几天，这怎么办",
+      "revision": 1,
+      "text": "用户担心刚买几天的 VPS 是不是挂了；Agent 用 check-host 从 6 国节点复测 TCP 443 全部可达，确认服务器存活，故障是单 IP 被 GFW 封锁，建议先找商家换 IP 并考虑加 GEOIP,CN,DIRECT 规则"
     }
   ],
   "sync_remote": true,
   "title": "排查开启 VPN 后整机断网",
-  "updated_at": "2026-11-04T14:20:08.237964Z"
+  "updated_at": "2026-11-04T14:20:24.517867Z"
 }
