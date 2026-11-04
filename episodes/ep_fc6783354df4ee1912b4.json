@@ -1,0 +1,34 @@
+{
+  "entities": [
+    "ent_d470e82d81fd9b9a6747",
+    "ent_5510d6f408cb181c5c42"
+  ],
+  "follows": "",
+  "goal": "让 Alma 接入新建的 GitHub 记忆仓库并完成同步",
+  "id": "ep_fc6783354df4ee1912b4",
+  "memory_ids": [
+    "mem_d1a93066570a3728e79f",
+    "mem_2c2a011f24c4cc453846"
+  ],
+  "outcome": "Alma 仓库状态 synced，本地与 GitHub main 一致在 eff400b",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "source_agent": "alma-mem@alma-test",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "started_at": "2026-11-04T10:29:58.292000Z",
+  "status": "succeeded",
+  "steps": [
+    {
+      "agent_id": "alma-mem@alma-test",
+      "at": "2026-11-04T10:29:58.292000Z",
+      "event_id": "evt_8b69cea79a5193695892",
+      "kind": "result",
+      "order": 1,
+      "quote": "禁用仓库级 `http.proxy / https.proxy`",
+      "revision": 1,
+      "text": "定位为全局 8118 代理被 Alma 仓库继承，禁用仓库级代理并复用 gh 凭据后同步成功"
+    }
+  ],
+  "sync_remote": true,
+  "title": "Alma 记忆仓库无法访问排查",
+  "updated_at": "2026-11-04T14:31:08.257317Z"
+}

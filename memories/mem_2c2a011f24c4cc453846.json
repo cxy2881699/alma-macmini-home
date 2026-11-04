@@ -1,0 +1,58 @@
+{
+  "claim": "agent_action",
+  "conditions": "",
+  "confidence": 0.88,
+  "content": "2026-11-04，Alma 的记忆仓库修复代理后完成首次同步，状态为 synced，本地与 GitHub main 一致在提交 eff400b，领先 0、落后 0。",
+  "created_at": "2026-11-04T10:29:58.292000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_d470e82d81fd9b9a6747",
+    "ent_5510d6f408cb181c5c42"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_8b69cea79a5193695892",
+      "quote": "远程访问和首次同步均已成功",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_8b69cea79a5193695892",
+      "quote": "本地与 GitHub",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_2c2a011f24c4cc453846",
+  "is_temporary": false,
+  "keywords": [
+    "Alma",
+    "同步",
+    "synced",
+    "eff400b",
+    "GitHub main",
+    "记忆仓库"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8b69cea79a5193695892",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "alma-mem@alma-test",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-04T14:31:08.263627Z",
+  "valid_to": null
+}

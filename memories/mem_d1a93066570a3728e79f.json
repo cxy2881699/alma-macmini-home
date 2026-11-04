@@ -1,0 +1,59 @@
+{
+  "claim": "agent_action",
+  "conditions": "Alma 或其他工具的 git 操作报连接/认证失败时，先确认是否继承了全局 8118 代理。",
+  "confidence": 0.9,
+  "content": "2026-11-04，Alma（alma-memory-system）访问新建 GitHub 记忆仓库时报错，根因不是 GitHub 未配对，而是 Alma 的 Git 请求继承了全局 Git 中已失效的 8118 代理；解决方式为仅对该仓库把 http.proxy/https.proxy 置空并使用已有的 gh 登录凭据，不改动全局 Git 配置与系统代理。",
+  "created_at": "2026-11-04T10:29:58.292000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_d470e82d81fd9b9a6747",
+    "ent_5510d6f408cb181c5c42"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_8b69cea79a5193695892",
+      "quote": "根因不是 GitHub 没配对，而是 Alma 继承了全局 Git 的失效代理",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_8b69cea79a5193695892",
+      "quote": "我给了git的新建的记忆仓库，但是由于没有配对，导致无法访问",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_d1a93066570a3728e79f",
+  "is_temporary": false,
+  "keywords": [
+    "Alma",
+    "8118",
+    "代理",
+    "git proxy",
+    "gh auth",
+    "记忆仓库",
+    "同步失败"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_8b69cea79a5193695892",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "alma-mem@alma-test",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-11-04T14:31:08.259461Z",
+  "valid_to": null
+}
