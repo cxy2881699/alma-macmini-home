@@ -1,0 +1,69 @@
+{
+  "actor": "openclaw@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:21:21.419200Z",
+  "id": "rev_adecd5f42d8f47a9dbfc",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "涉及自建代理节点的商家来源与部署经过时适用",
+    "confidence": 0.88,
+    "content": "用户的代理 VPS 是 Agent 在 2026 年 10 月教用户放弃机场、改为自建并协助完成部署设置的；服务器购自 RackNerd，约 2026-10-13 下单，洛杉矶 DC02（ColoCrossing AS36352），即被封的 155.94.145.75。",
+    "created_at": "2026-10-27T01:44:01.901000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_be51c4e273656ae35fd2",
+      "ent_634c2fa5acd1948b45e8"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_22bd0e1eeeb51aae70bf",
+        "quote": "你从记忆里找一下不就知道我哪家买的了，是你教我的并且帮我部署设置的",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_22bd0e1eeeb51aae70bf",
+        "quote": "10-12 你决定弃机场自建，10-13 左右下的单，洛杉矶 DC02，就是这台",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_c14a8b8b5c5eea5c77cc",
+    "is_temporary": false,
+    "keywords": [
+      "RackNerd",
+      "VPS",
+      "自建代理",
+      "洛杉矶 DC02",
+      "ColoCrossing",
+      "Reality",
+      "节点部署"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_22bd0e1eeeb51aae70bf",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T14:21:21.419007Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_c14a8b8b5c5eea5c77cc",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
