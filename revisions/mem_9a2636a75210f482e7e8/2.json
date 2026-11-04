@@ -1,0 +1,73 @@
+{
+  "actor": "codex@old-memd",
+  "base_revision": 1,
+  "created_at": "2026-11-04T14:05:46.582561Z",
+  "id": "rev_52a91f38c17d4124a84d",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "用户在确认 hooks 信任后追问当前聊天能否保存以及是否每轮先搜索。",
+    "confidence": 0.86,
+    "content": "用户对记忆链路的预期是当前对话内容应能进入记忆库,并且每轮新消息前都应先执行记忆搜索;同时也接受需要通过审计确认实际成功。",
+    "created_at": "2026-11-03T19:01:42.381511Z",
+    "derived_from": [],
+    "entities": [
+      "ent_9f82bdbcda91e1775def",
+      "ent_3d2f68a038ff0d2b8362",
+      "ent_4488e0fdf8d04896269e"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_91c7280992f4a13aa52f",
+        "quote": "用户对记忆链路的预期是当前对话内容应能进入记忆库,并且每轮新消息前都应先执行记忆搜索;同时也接受需要通过审计确认实际成功。",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_b73a6dfce0a7d7c1fafe",
+        "quote": "很好,现在看起来codex cli中的对话内容也成功进入数据库了,但是你在跟我对话的时候是否每次都搜索了记忆内容?",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_9a2636a75210f482e7e8",
+    "is_temporary": false,
+    "keywords": [
+      "每轮搜索",
+      "自动召回",
+      "对话入库",
+      "审计确认",
+      "hook链路",
+      "记忆召回",
+      "recall",
+      "写入数据库",
+      "用户预期",
+      "hook"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_91c7280992f4a13aa52f",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 2,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T14:05:46.582375Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_9a2636a75210f482e7e8",
+  "policy_version": "extract-v2",
+  "reason": "确认",
+  "revision": 2
+}

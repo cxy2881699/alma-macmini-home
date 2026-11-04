@@ -20,7 +20,8 @@
     "mem_778955c8f5855041657d",
     "mem_97e30483e817efe65538",
     "mem_ec60812da6f6e4c8bf03",
-    "mem_12ec4c11e685663d5d17"
+    "mem_12ec4c11e685663d5d17",
+    "mem_9a2636a75210f482e7e8"
   ],
   "outcome": "",
   "project_id": "",
@@ -168,9 +169,19 @@
       "quote": "刚才我在codex cli中发了指令内容，记忆服务有记录下来么？",
       "revision": 1,
       "text": "用户追问 Codex CLI 里发的指令是否被记录,Agent 查服务端确认 10:29 召回、10:31 保存、10:33 召回 7 条并保存 1 条对话事件、另生成 8 条记忆卡片,CLI 侧读写闭环成立;桌面聊天窗口是否共用同一套 hook 仍待单独确认。"
+    },
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-23T17:35:44.221000Z",
+      "event_id": "evt_b73a6dfce0a7d7c1fafe",
+      "kind": "note",
+      "order": 15,
+      "quote": "现在看起来codex cli中的对话内容也成功进入数据库了",
+      "revision": 1,
+      "text": "用户确认 Codex CLI 对话内容已进入数据库，追问 Agent 是否每轮都搜索记忆、今天最早发生了什么；Agent 指出保存成功不等于每轮召回成功，仍需 agent_kind=codex、action=recall、result=ok 的服务端审计，并说明因时区偏移无法确定当天最早事件的准确时间。"
     }
   ],
   "sync_remote": true,
   "title": "确认 Codex 每轮自动读取记忆是否生效",
-  "updated_at": "2026-11-04T14:05:14.488114Z"
+  "updated_at": "2026-11-04T14:05:46.579466Z"
 }
