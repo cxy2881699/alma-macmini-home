@@ -1,0 +1,14 @@
+{
+  "aliases": [
+    "VPS IP",
+    "被封的 IP"
+  ],
+  "created_at": "2026-11-04T14:20:45.223573Z",
+  "description": "用户的 RackNerd 洛杉矶 VPS 公网 IP,已被 GFW 封锁",
+  "id": "ent_634c2fa5acd1948b45e8",
+  "name": "155.94.145.75",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "other",
+  "updated_at": "2026-11-04T14:20:45.226543Z"
+}

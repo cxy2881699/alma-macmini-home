@@ -1,0 +1,58 @@
+{
+  "actor": "openclaw@old-memd",
+  "base_revision": 1,
+  "created_at": "2026-11-04T14:20:45.231055Z",
+  "id": "rev_b5d88a231e18bf53975a",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "用户手机4G和家里宽带均无法连接服务器，诊断为IP级封锁",
+    "confidence": 0.9,
+    "content": "用户的 RackNerd VPS(IP 155.94.145.75,洛杉矶 DC02,ColoCrossing AS36352)于 2026-10-26 被 GFW 在 IP 层封锁:国内多网络 ICMP 通但所有 TCP 端口超时,同段邻居 155.94.145.100:443 仍可达,国外可达。",
+    "created_at": "2026-10-28T19:05:26.427989Z",
+    "derived_from": [],
+    "entities": [
+      "ent_634c2fa5acd1948b45e8"
+    ],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_60267af433344983eaf8",
+        "quote": "手机也不能用了",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_44166119fbe0177ed656",
+    "is_temporary": false,
+    "keywords": [
+      "VPS被墙",
+      "IP封锁",
+      "RackNerd",
+      "换IP",
+      "155.94.145.75",
+      "GFW",
+      "IP被墙",
+      "手机4G",
+      "Reality"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [],
+    "revision": 2,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T14:20:45.230839Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_44166119fbe0177ed656",
+  "policy_version": "extract-v2",
+  "reason": "确认",
+  "revision": 2
+}

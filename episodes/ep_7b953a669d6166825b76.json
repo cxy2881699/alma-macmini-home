@@ -2,13 +2,15 @@
   "entities": [
     "ent_6ebee10dda1843bbd843",
     "ent_421c00dde9a1b98fc969",
-    "ent_f18082c6c564869030be"
+    "ent_f18082c6c564869030be",
+    "ent_634c2fa5acd1948b45e8"
   ],
   "follows": "ep_4748c615bf327ac13f77",
   "goal": "恢复用户开启 VPN 后整个电脑无法上网的问题，并避免节点故障时国内网络一起瘫痪",
   "id": "ep_7b953a669d6166825b76",
   "memory_ids": [
-    "mem_818ae4f44600a6cd6173"
+    "mem_818ae4f44600a6cd6173",
+    "mem_44166119fbe0177ed656"
   ],
   "outcome": "",
   "project_id": "",
@@ -56,9 +58,19 @@
       "quote": "手机也连不上 → GFW 封 IP（换 IP 解决）",
       "revision": 1,
       "text": "用户追问“谁把我墙了”；Agent 指出除 GFW 单 IP 封锁外，还存在服务器侧 iptables/fail2ban 按源 IP 封禁的可能，二者现象一样，建议用手机 4G 关 Wi-Fi 直连该 IP 来区分"
+    },
+    {
+      "agent_id": "openclaw@old-memd",
+      "at": "2026-10-27T01:40:11.599000Z",
+      "event_id": "evt_60267af433344983eaf8",
+      "kind": "result",
+      "order": 5,
+      "quote": "手机也不能用了",
+      "revision": 1,
+      "text": "用户用手机 4G 测试同样不通,与家庭宽带两个不同出口都不通,基本排除服务器侧按源 IP 封禁,判定为 GFW 单 IP 黑名单;Agent 给出向 RackNerd 申请换 IP 的英文工单模板,并建议换 IP 后先测连通性再动配置、改用 443 以外的端口"
     }
   ],
   "sync_remote": true,
   "title": "排查开启 VPN 后整机断网",
-  "updated_at": "2026-11-04T14:20:32.712919Z"
+  "updated_at": "2026-11-04T14:20:45.226485Z"
 }
