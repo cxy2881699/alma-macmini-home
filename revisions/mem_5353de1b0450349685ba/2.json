@@ -1,0 +1,57 @@
+{
+  "actor": "openclaw@old-memd",
+  "base_revision": 1,
+  "created_at": "2026-11-04T14:21:39.934377Z",
+  "id": "rev_c556394396ca8f644452",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "回顾被封可能诱因",
+    "confidence": 0.7,
+    "content": "用户约在 10-12 决定弃用商业机场改为自建代理,10-13 前后在 RackNerd 下单,助手参与了部署配置;期间曾用该服务器搬手机数据,疑似产生类似爬虫的大流量行为。",
+    "created_at": "2026-10-29T19:06:14.981995Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "inferred",
+    "evidence": [
+      {
+        "event_id": "evt_afa8990f2d33c32ee2c9",
+        "quote": "可能之前让你帮我手机数据的时候，行为像爬虫",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_5353de1b0450349685ba",
+    "is_temporary": false,
+    "keywords": [
+      "自建",
+      "弃机场",
+      "手机数据",
+      "大流量",
+      "部署历史",
+      "搬手机数据",
+      "爬虫",
+      "封 IP",
+      "RackNerd",
+      "自建代理"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [],
+    "revision": 2,
+    "source_agent": "old-memd@legacy",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T14:21:39.934290Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_5353de1b0450349685ba",
+  "policy_version": "extract-v2",
+  "reason": "确认",
+  "revision": 2
+}
