@@ -131,9 +131,19 @@
       "quote": "“codex” was not opened because it contains malware.",
       "revision": 1,
       "text": "Agent 从 npm 包补回的 Codex ARM64 二进制被 macOS 判定含恶意软件并隔离删除，无法进入 CLI 信任 /hooks；Agent 提出需经用户同意后重装官方 @openai/codex"
+    },
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-23T17:26:56.688000Z",
+      "event_id": "evt_3e8b16a61a76158abaf9",
+      "kind": "note",
+      "order": 12,
+      "quote": "目前三个hook成功选中了，状态是active",
+      "revision": 1,
+      "text": "用户报告重装官方 Codex CLI 后三个 hook 已成功选中且状态为 active；Agent 查服务端审计发现最新召回仍来自 OpenClaw、尚无新的 Codex 召回，因此要求在运行 codex 的终端里发一条普通消息、/exit 重新进入后再发一条，并检查是否出现 actor=cred:cred_45e362dcfbd6c2e4、action=recall、result=ok，同时提醒桌面聊天窗口与 CLI 是两个不同运行环境。"
     }
   ],
   "sync_remote": true,
   "title": "确认 Codex 每轮自动读取记忆是否生效",
-  "updated_at": "2026-11-04T14:03:43.326470Z"
+  "updated_at": "2026-11-04T14:04:23.541501Z"
 }
