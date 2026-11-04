@@ -1,0 +1,51 @@
+{
+  "claim": "user_fact",
+  "conditions": "仅适用于 MacBook 上从 MonoProxy/8118 迁到 Clash Verge/7897 的这次代理故障排查。",
+  "confidence": 0.75,
+  "content": "2026-10-18 早上（PDT），Agent 以“浏览器通了就是最终验收”判定 MacBook 代理问题已修复并宣布收工后，用户随即又反馈“还是不行”；这说明当时 MacBook 上 Clash Verge/7897 的代理故障并未真正解决，用户口头说“可以用了”不能直接当作验收通过的依据。",
+  "created_at": "2026-10-18T15:37:16.916000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_c42dac5ae99195f63d24"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_d2cb6dbcd0c6043abf52",
+      "quote": "还是不行",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_2edfa6bce3f7066d4e60",
+  "is_temporary": false,
+  "keywords": [
+    "MacBook",
+    "Clash Verge",
+    "系统代理",
+    "还是不行",
+    "验收",
+    "7897"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_d2cb6dbcd0c6043abf52",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-11-04T14:16:55.542223Z",
+  "valid_to": null
+}
