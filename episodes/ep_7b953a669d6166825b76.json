@@ -68,9 +68,19 @@
       "quote": "手机也不能用了",
       "revision": 1,
       "text": "用户用手机 4G 测试同样不通,与家庭宽带两个不同出口都不通,基本排除服务器侧按源 IP 封禁,判定为 GFW 单 IP 黑名单;Agent 给出向 RackNerd 申请换 IP 的英文工单模板,并建议换 IP 后先测连通性再动配置、改用 443 以外的端口"
+    },
+    {
+      "agent_id": "openclaw@old-memd",
+      "at": "2026-10-27T01:43:34.820000Z",
+      "event_id": "evt_06c748fb20cacae19c63",
+      "kind": "obstacle",
+      "order": 6,
+      "quote": "所以封禁的是我的vps地址对吧，就算我找他们换ip，怎么能防止被封呢",
+      "revision": 1,
+      "text": "用户认为单纯换 IP 治标不治本，追问在换 IP 后怎样才能防止再次被封；Agent 承认换 IP 只是拖延，给出换网段而非只换 IP、避开 ColoCrossing 等脏段、把端口从 443 改掉、不在机器上跑爬虫/批量下载/扫端口、用中转机与落地机分离架构等防封措施。"
     }
   ],
   "sync_remote": true,
   "title": "排查开启 VPN 后整机断网",
-  "updated_at": "2026-11-04T14:20:45.226485Z"
+  "updated_at": "2026-11-04T14:20:58.818641Z"
 }
