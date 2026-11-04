@@ -1,4 +1,5 @@
 {
+  "claim": "user_fact",
   "conditions": "用户要求总结记忆系统价值，用于对外炫耀和非技术受众传播。",
   "confidence": 0.9,
   "content": "用户希望对外展示 agent-memory 时,把它包装成跨 Agent、跨设备、数据自主且可追溯的个人智能基础设施,而不是普通聊天记录或单一产品功能。",
@@ -26,6 +27,18 @@
       "quote": "用户希望对外展示 agent-memory 时,把它包装成跨 Agent、跨设备、数据自主且可追溯的个人智能基础设施,而不是普通聊天记录或单一产品功能。",
       "revision": 1,
       "role": "user"
+    },
+    {
+      "event_id": "evt_b920a0b921da00c6c3ae",
+      "quote": "帮我总结一下这个记忆系统的真正的作用和价值",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_b920a0b921da00c6c3ae",
+      "quote": "我要发一个朋友圈炫耀一 下",
+      "revision": 1,
+      "role": "user"
     }
   ],
   "id": "mem_12ec4c11e685663d5d17",
@@ -41,12 +54,16 @@
     "跨 Agent 记忆",
     "数据自主",
     "可追溯",
-    "个人智能基础设施"
+    "个人智能基础设施",
+    "agent-memory",
+    "朋友圈",
+    "对外展示",
+    "记忆基础设施"
   ],
   "layer": "memory",
   "level": 0,
   "model_version": "",
-  "policy_version": "extract-v2",
+  "policy_version": "extract-v3",
   "project_id": "",
   "relations": [
     {
@@ -60,13 +77,13 @@
       "type": "derived_from"
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "source_agent": "old-memd@legacy",
   "space": "user/shared",
   "status": "active",
   "status_reason": "",
   "sync_remote": true,
   "type": "preference",
-  "updated_at": "2026-10-27T04:50:34.388355Z",
+  "updated_at": "2026-11-04T14:05:14.492916Z",
   "valid_to": null
 }

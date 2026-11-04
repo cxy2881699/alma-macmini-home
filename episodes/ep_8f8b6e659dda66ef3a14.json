@@ -2,7 +2,12 @@
   "entities": [
     "ent_3d2f68a038ff0d2b8362",
     "ent_1c6b296bc5cb579536f2",
-    "ent_092e79276be1572146d8"
+    "ent_092e79276be1572146d8",
+    "ent_6cf84e1c3c276ec690be",
+    "ent_9f82bdbcda91e1775def",
+    "ent_4488e0fdf8d04896269e",
+    "ent_51b9c91560022845906c",
+    "ent_1e8088308ba9691af4dc"
   ],
   "follows": "ep_d8568ce714edbcb31204",
   "goal": "让 Codex 每轮对话自动召回记忆并保存，并可借审计日志快速排查故障",
@@ -13,7 +18,9 @@
     "mem_98788de2a22c723961da",
     "mem_495ec9aee3a617bc5cd7",
     "mem_778955c8f5855041657d",
-    "mem_97e30483e817efe65538"
+    "mem_97e30483e817efe65538",
+    "mem_ec60812da6f6e4c8bf03",
+    "mem_12ec4c11e685663d5d17"
   ],
   "outcome": "",
   "project_id": "",
@@ -151,9 +158,19 @@
       "quote": "Codex 仍需要单独确认，不能用 OpenClaw 的成功记录代替。",
       "revision": 1,
       "text": "应用户要求复核 agent-memory 部署记忆后，重申三个 launchd 服务与 healthz 正常、OpenClaw 已修复并恢复召回，但 Codex 的自动召回仍未获服务端确认，必须用 agent_kind=codex、action=recall、result=ok 的审计记录单独验证"
+    },
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-23T17:34:05.895000Z",
+      "event_id": "evt_b920a0b921da00c6c3ae",
+      "kind": "result",
+      "order": 14,
+      "quote": "刚才我在codex cli中发了指令内容，记忆服务有记录下来么？",
+      "revision": 1,
+      "text": "用户追问 Codex CLI 里发的指令是否被记录,Agent 查服务端确认 10:29 召回、10:31 保存、10:33 召回 7 条并保存 1 条对话事件、另生成 8 条记忆卡片,CLI 侧读写闭环成立;桌面聊天窗口是否共用同一套 hook 仍待单独确认。"
     }
   ],
   "sync_remote": true,
   "title": "确认 Codex 每轮自动读取记忆是否生效",
-  "updated_at": "2026-11-04T14:04:36.263612Z"
+  "updated_at": "2026-11-04T14:05:14.488114Z"
 }
