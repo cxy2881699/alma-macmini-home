@@ -26,7 +26,8 @@
     "mem_a46def9a871f4043df0d",
     "mem_2a7cb50166a80e55bf85",
     "mem_42eb8bcc1e799cc0e6d7",
-    "mem_ca72cac1de512364041f"
+    "mem_ca72cac1de512364041f",
+    "mem_2e1fddd3113eeadfdd8e"
   ],
   "outcome": "",
   "project_id": "",
@@ -164,9 +165,19 @@
       "quote": "调研完了，分五条路，我把成本和靠谱程度都摆出来。",
       "revision": 1,
       "text": "用户要求调研各路 VPN 让 Claude 稳定运行；Agent 用网页检索比对后给出五条路线（商业机场带 AI 节点、自建 VPS+静态住宅代理分流、全流量住宅代理、Cloudflare WARP、海外云桌面），推荐方案 B，并询问是否现在就写 Clash 分流配置。"
+    },
+    {
+      "agent_id": "openclaw@old-memd",
+      "at": "2026-10-27T02:14:50.676000Z",
+      "event_id": "evt_3aea939282788967b477",
+      "kind": "decision",
+      "order": 14,
+      "quote": "所有ai都走静态IP，其他的走vps，涉及到爬虫就让之前那个垃圾ip的vps去跑",
+      "revision": 1,
+      "text": "用户确定具体架构：所有 AI 走静态住宅/ISP IP，其他流量走优质 VPS，爬虫交给被墙的 RackNerd；Agent 确认架构可行，并指出静态机房 IP 仍会被风控识别、AI 分流域名需全覆盖并加入 fake-ip-filter、旧机需用 Tailscale DERP 中继才能控制。"
     }
   ],
   "sync_remote": true,
   "title": "排查开启 VPN 后整机断网",
-  "updated_at": "2026-11-04T14:23:03.447389Z"
+  "updated_at": "2026-11-04T14:23:19.884577Z"
 }
