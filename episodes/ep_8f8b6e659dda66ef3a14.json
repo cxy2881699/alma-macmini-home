@@ -7,7 +7,8 @@
     "ent_9f82bdbcda91e1775def",
     "ent_4488e0fdf8d04896269e",
     "ent_51b9c91560022845906c",
-    "ent_1e8088308ba9691af4dc"
+    "ent_1e8088308ba9691af4dc",
+    "ent_0dd3ce8f5049183636d7"
   ],
   "follows": "ep_d8568ce714edbcb31204",
   "goal": "让 Codex 每轮对话自动召回记忆并保存，并可借审计日志快速排查故障",
@@ -22,7 +23,8 @@
     "mem_ec60812da6f6e4c8bf03",
     "mem_12ec4c11e685663d5d17",
     "mem_9a2636a75210f482e7e8",
-    "mem_792804fedb027260364d"
+    "mem_792804fedb027260364d",
+    "mem_715b861473652b4cebbb"
   ],
   "outcome": "",
   "project_id": "",
@@ -240,9 +242,19 @@
       "quote": "你现在跟我对话的内容也能存进去吧，并且每轮对话的时候你是否都会先searh一下",
       "revision": 1,
       "text": "用户再次确认当前这段对话能否入库、每轮提交前是否都会先搜索记忆；Agent 说明由 UserPromptSubmit 钩子尝试召回、Stop 钩子尝试保存，超时或服务出错会放行，需服务端审计逐轮确认。"
+    },
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-26T08:53:43.327000Z",
+      "event_id": "evt_db210a730b34fc3df5c6",
+      "kind": "obstacle",
+      "order": 22,
+      "quote": "这个新的记忆系统的prd你保存到哪里了？记忆系统里面没有",
+      "revision": 1,
+      "text": "用户反馈可进化记忆系统 PRD 在记忆系统里查不到，Agent 重新上传全文并回读检索索引确认可检索，但指出普通检索只返回摘要、全文接口需所有者权限。"
     }
   ],
   "sync_remote": true,
   "title": "确认 Codex 每轮自动读取记忆是否生效",
-  "updated_at": "2026-11-04T14:10:16.493133Z"
+  "updated_at": "2026-11-04T14:12:54.292867Z"
 }

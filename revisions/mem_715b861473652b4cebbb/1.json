@@ -1,0 +1,75 @@
+{
+  "actor": "codex@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:12:54.296528Z",
+  "id": "rev_904e1b8340b5c5b09622",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "需要让其他 Agent 读取该 PRD 全文时适用;若只做关键词检索,摘要与索引足够。",
+    "confidence": 0.85,
+    "content": "2026-11-04 Agent 重新把《可进化记忆系统 PRD v0.1》全文上传到 agent-memory 记忆服务(服务端返回 inserted),并回读检索索引确认用 EVOLVING-MEMORY-PRD-v0.1 可搜到;但普通记忆检索只返回摘要与索引,全文读取接口需要所有者权限,因此其他 Agent 无法保证直接取出完整 PRD,要完整评审应直接提供本机 Markdown 文件 /Users/seancao/Documents/Codex/2026-09-26/hooks/outputs/可进化记忆系统_PRD_v0.1.md。",
+    "created_at": "2026-09-26T08:53:43.327000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_0dd3ce8f5049183636d7"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_db210a730b34fc3df5c6",
+        "quote": "全文读取接口需要所有者权限；要立即做完整评审，先把上面的 Markdown 文件交给它最可靠。",
+        "revision": 1,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_db210a730b34fc3df5c6",
+        "quote": "已回读确认，搜索 `EVOLVING-MEMORY-PRD-v0.1` 即可找到。",
+        "revision": 1,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_db210a730b34fc3df5c6",
+        "quote": "把这份PRD存到记忆系统里面，这样其他agent就能直接读取了",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_715b861473652b4cebbb",
+    "is_temporary": false,
+    "keywords": [
+      "PRD",
+      "归档",
+      "全文",
+      "记忆库",
+      "EVOLVING-MEMORY-PRD-v0.1",
+      "检索索引",
+      "所有者权限",
+      "inserted"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_db210a730b34fc3df5c6",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "codex@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-04T14:12:54.296309Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_715b861473652b4cebbb",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
