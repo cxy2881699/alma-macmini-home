@@ -1,0 +1,51 @@
+{
+  "actor": "codex@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-04T08:55:05.443353Z",
+  "id": "rev_64f4aee1ab4d22eb82f4",
+  "memory": {
+    "conditions": "",
+    "confidence": 1.0,
+    "content": "alma_test 跨 Agent 共享记忆校验：标记 ALMA_SHARED_5521，由 Codex 写入，Claude Code 应能召回",
+    "created_at": "2026-11-04T08:55:05.443259Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_345e42401a6c0da9ead4",
+        "quote": "alma_test 跨 Agent 共享记忆校验：标记 ALMA_SHARED_5521，由 Codex 写入，Claude Code 应能召回",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_8c70af9188584e83eb96",
+    "is_temporary": false,
+    "keywords": [],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "",
+    "policy_version": "extract-v2",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_345e42401a6c0da9ead4",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "codex@alma-test",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T08:55:05.443306Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_8c70af9188584e83eb96",
+  "policy_version": "extract-v2",
+  "reason": "记住",
+  "revision": 1
+}

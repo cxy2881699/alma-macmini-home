@@ -1,0 +1,20 @@
+{
+  "agent_id": "codex@alma-test",
+  "assistant_text": "",
+  "content_hash": "e154e410d029c3ca71287f09f68b9a8da0cf452f9ef7cc5d210e544f02222fce",
+  "cwd": "",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_345e42401a6c0da9ead4",
+  "kind": "explicit",
+  "native_event_id": "",
+  "occurred_at": "2026-11-04T08:55:05.426739Z",
+  "privacy_mode": "normal",
+  "project_id": "",
+  "received_at": "2026-11-04T08:55:05.426744Z",
+  "revision": 1,
+  "session_id": "manual",
+  "space": "user/shared",
+  "tools": [],
+  "turn_index": 0,
+  "user_text": "alma_test 跨 Agent 共享记忆校验：标记 ALMA_SHARED_5521，由 Codex 写入，Claude Code 应能召回"
+}
