@@ -1,0 +1,52 @@
+{
+  "claim": "user_fact",
+  "conditions": "仅指当时这一时刻的观测结果，说明 macOS 系统代理处于全关状态",
+  "confidence": 0.85,
+  "content": "2026-10-18 早上（PDT）用户在 MacBook 上执行 scutil --proxy | grep HTTPPort 没有任何输出，据此判断 Clash Verge 没有把系统代理写进去。",
+  "created_at": "2026-10-18T14:23:20.157000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f18082c6c564869030be"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_9b89f58175c1b2aeb7e1",
+      "quote": "scutil --proxy | grep HTTPPort 输入了没反应，是不是clash没有成功写入",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_2f028eb8c48c6e56d7c0",
+  "is_temporary": true,
+  "keywords": [
+    "scutil",
+    "HTTPPort",
+    "系统代理",
+    "Clash Verge",
+    "Verge",
+    "macOS",
+    "代理未写入"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_9b89f58175c1b2aeb7e1",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@old-memd",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-04T14:14:28.144179Z",
+  "valid_to": null
+}
