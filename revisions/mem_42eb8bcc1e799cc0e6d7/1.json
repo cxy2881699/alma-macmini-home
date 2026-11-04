@@ -1,0 +1,70 @@
+{
+  "actor": "openclaw@old-memd",
+  "base_revision": null,
+  "created_at": "2026-11-04T14:22:34.122741Z",
+  "id": "rev_a23d43bfc1092a19f089",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "适用于用户评估 VPS、代理能否用于 Claude 网页版；API 通道还需账号本身未被风控",
+    "confidence": 0.9,
+    "content": "用户需要稳定使用 Claude 等按 IP 信誉风控的 AI 服务；机房 IP（包括 DMIT）对 Claude 网页版只能靠运气，会出现 Cloudflare 人机验证循环、Unable to verify 或 403；Claude Code 与 API 较宽松，主要取决于账号和付费方式，而不取决于 IP；只有静态住宅 IP 才能稳定使用。",
+    "created_at": "2026-10-27T02:01:30.713000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_51b9c91560022845906c",
+      "ent_76ac53ec2a482696425b",
+      "ent_cb721ade93b583ee5181"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_378c051dc451e9425bea",
+        "quote": "这个ip能不能用claude 这些ai",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_378c051dc451e9425bea",
+        "quote": "DMIT 解决不了：**Claude/ChatGPT 这类按 IP 信誉风控的服务**",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_42eb8bcc1e799cc0e6d7",
+    "is_temporary": false,
+    "keywords": [
+      "Claude",
+      "DMIT",
+      "机房 IP",
+      "住宅 IP",
+      "风控",
+      "Claude Code",
+      "API"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_378c051dc451e9425bea",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@old-memd",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-04T14:22:34.122538Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_42eb8bcc1e799cc0e6d7",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
