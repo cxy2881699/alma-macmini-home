@@ -189,9 +189,19 @@
       "quote": "再早点的记忆呢?记忆项目部署之后出现了不少问题,你知道是什么么?",
       "revision": 1,
       "text": "用户追问更早的记忆，问记忆项目部署后出现过哪些问题；Agent 依据记忆库复述了九层叠加故障（代理访问 Tailscale 私网失败、OpenClaw 请求被 8118 代理劫持、不兼容 hooks 字段、Gateway 重启假象、Codex CLI 缺 ARM64 二进制并被 Gatekeeper 隔离、召回需服务端审计、admin.html 未展示来源字段、selftest 残留数据、时区偏移），内容与已有记忆一致，未产生新信息。"
+    },
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-23T17:52:53.518000Z",
+      "event_id": "evt_b5c4a9b1810f60adccbd",
+      "kind": "note",
+      "order": 17,
+      "quote": "最慢的一次才110ms？走了图数据库搜索了么？",
+      "revision": 1,
+      "text": "用户追问最慢 110ms 的召回是否真的走了图数据库；Agent 依据 recall.py 代码检索确认轻量召回路径包含 Neo4j 实体查询、全文检索与关系扩展，但默认不等待新向量生成，完整深度召回（方舟 Embedding + Neo4j 向量检索）是另一条更慢的路径。"
     }
   ],
   "sync_remote": true,
   "title": "确认 Codex 每轮自动读取记忆是否生效",
-  "updated_at": "2026-11-04T14:06:03.904322Z"
+  "updated_at": "2026-11-04T14:07:06.942428Z"
 }
