@@ -1,6 +1,7 @@
 {
   "entities": [
-    "ent_1c6b296bc5cb579536f2"
+    "ent_1c6b296bc5cb579536f2",
+    "ent_6cf84e1c3c276ec690be"
   ],
   "follows": "ep_9550aa9fd661bc11d944",
   "goal": "修掉对话轮次被服务端静默丢弃的问题，并让方案在云服务器、多设备、第三方接入场景下也成立",
@@ -8,7 +9,8 @@
   "memory_ids": [
     "mem_4d916a963d57ec31b2ee",
     "mem_f85b5634635b60934175",
-    "mem_533fc43d68ea49f34def"
+    "mem_533fc43d68ea49f34def",
+    "mem_699b7e533afa03674ce5"
   ],
   "outcome": "",
   "project_id": "",
@@ -26,9 +28,19 @@
       "quote": "这次服务端改动还不能算 OK，先别以它作为云服务版本的基础。",
       "revision": 1,
       "text": "Agent 已改服务端 insert_event 与 schema 迁移并备份重启，但审查发现服务端无法区分“旧轮修订”与“新的一轮”，可能误覆盖，遂停在审查阶段，暂不定稿"
+    },
+    {
+      "agent_id": "codex@old-memd",
+      "at": "2026-09-25T16:58:01.469000Z",
+      "event_id": "evt_257e1393bfbdd5bcdedb",
+      "kind": "decision",
+      "order": 2,
+      "quote": "目前小龙虾正在修改中，修改再看",
+      "revision": 1,
+      "text": "用户决定先等小龙虾客户端改完再复审服务端去重修复，Agent 暂停改代码和服务。"
     }
   ],
   "sync_remote": true,
   "title": "修复 memd ingest 去重导致的 silent drop",
-  "updated_at": "2026-11-04T14:09:25.157596Z"
+  "updated_at": "2026-11-04T14:09:33.583940Z"
 }
