@@ -1,4 +1,5 @@
 {
+  "claim": "user_fact",
   "conditions": "用户计划产品成熟后开源精简版，同时推出收费线上版本。",
   "confidence": 0.9,
   "content": "用户的 agent-memory 商业化策略是:产品成熟后开源功能精简/阉割版,同时提供收费线上版本;现阶段可展示效果与思路,但不公开完整实现。",
@@ -22,6 +23,12 @@
       "quote": "用户的 agent-memory 商业化策略是:产品成熟后开源功能精简/阉割版,同时提供收费线上版本;现阶段可展示效果与思路,但不公开完整实现。",
       "revision": 1,
       "role": "user"
+    },
+    {
+      "event_id": "evt_5c2b03a36555ed887023",
+      "quote": "我准备后面做好了之后阉割一部分开源，然后搞一个线上版本收费",
+      "revision": 1,
+      "role": "user"
     }
   ],
   "id": "mem_1d4046cfa60e8650cc54",
@@ -42,16 +49,12 @@
     "技术披露",
     "阉割版",
     "精简版",
-    "SaaS",
-    "不公开完整实现",
-    "阉割版开源",
-    "线上收费",
-    "保留核心实现"
+    "SaaS"
   ],
   "layer": "memory",
   "level": 0,
   "model_version": "",
-  "policy_version": "extract-v2",
+  "policy_version": "extract-v3",
   "project_id": "",
   "relations": [
     {
@@ -65,13 +68,13 @@
       "type": "derived_from"
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "source_agent": "old-memd@legacy",
   "space": "user/shared",
   "status": "active",
   "status_reason": "",
   "sync_remote": true,
   "type": "fact",
-  "updated_at": "2026-10-27T05:27:24.342330Z",
+  "updated_at": "2026-11-04T14:07:34.600251Z",
   "valid_to": null
 }
