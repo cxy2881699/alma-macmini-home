@@ -1,0 +1,20 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "",
+  "content_hash": "5ce8f6a64101746001f05421f0ef8f363c83fe5454b67d3d201d2a1860abfe20",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_c45892b795cc2de04d64",
+  "kind": "conversation",
+  "native_event_id": "4d09e8389304d2fee0ea7fa2",
+  "occurred_at": "2026-11-08T02:00:54.492000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-08T02:00:54.541437Z",
+  "revision": 4,
+  "session_id": "agent:main:cron:b39fb4b0-2aaa-4dd6-8121-9b0fc0d715ec",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [],
+  "turn_index": 0,
+  "user_text": "[cron:b39fb4b0-2aaa-4dd6-8121-9b0fc0d715ec morning-briefing] 严格按照 SKILL.md 流程执行晨报。强制规则：①每条新闻必须通过搜索验证来源，逐条附直接原文链接；②禁止编造任何信息，不确定等于不写；③发之前执行自检清单逐项勾选；④只发一次，禁止重复发送。\nCurrent time: Saturday, November 7th, 2026 — 6:00 PM (America/Los_Angeles)\n\nReturn your summary as plain text; it will be delivered automatically. If the task explicitly calls for messaging a specific external recipient, note who/where it should go instead of sending it yourself."
+}
