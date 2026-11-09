@@ -1,0 +1,25 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "HEARTBEAT_OK",
+  "content_hash": "b2fb2be96a207a2c550856329292d425d56939489f4b881f6d054283d9a30a18",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_0ac1dfeef402b0cb3d20",
+  "kind": "conversation",
+  "native_event_id": "71cbd87e42020bb65745eede",
+  "occurred_at": "2026-11-09T21:58:23.354000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-09T21:58:23.406748Z",
+  "revision": 130,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"printf '%s\\\\n' '--- last reflection ---'; cat memory/.last_reflection 2>/dev/null || echo MISSING; printf '%s\\\\n' '--- learning status counts ---'; if [ -f .learnings/LEARNINGS.md ]; then awk '/^\\\\*\\\\*Priority\\\\*\\\\*:/{p=$2} /^\\\\*\\\\*Status\\\\*\\\\*: pending/{c[p]++} END {for (p in c) print p"
+    }
+  ],
+  "turn_index": 1,
+  "user_text": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nCurrent time: Monday, November 9th, 2026 — 1:58 PM (America/Los_Angeles)"
+}
