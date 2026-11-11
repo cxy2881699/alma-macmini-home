@@ -1,0 +1,25 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "你截图里**没有那个插件按钮**，可能没装，或者被隐藏了。\n\n不折腾插件也行：你现在选的是「**本月**」，所以显示的是 **¥820,301.8448**，不是今天。\n\n你点一下上面的「**今天**」，再点「**查询 / 刷新**」，把页面截图发我，我直接给你读准确金额。",
+  "content_hash": "b5aa071dc25548a47f621635b84ab0afaf777f39639418726d4f5b5665c2ab66",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_2b308e81d106b76339c3",
+  "kind": "conversation",
+  "native_event_id": "b216d66d7143037829a6f1e8",
+  "occurred_at": "2026-11-11T17:52:47.525000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-11T17:52:47.577873Z",
+  "revision": 6,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"tabs\",\"profile\":\"chrome\",\"target\":\"host\"}"
+    }
+  ],
+  "turn_index": 2,
+  "user_text": "[media attached: /Users/seancao/.openclaw/media/inbound/4760f484-9f4a-4899-b4ee-2e67cfc1e992.jpg (image/jpeg) | /Users/seancao/.openclaw/media/inbound/4760f484-9f4a-4899-b4ee-2e67cfc1e992.jpg]\nTo send an image back, prefer the message tool (media/path/filePath). If you must inline, use MEDIA:https://example.com/image.jpg (spaces ok, quote if needed) or a safe relative path like MEDIA:./image.jpg. Avoid absolute paths (MEDIA:/...) and ~ paths — they are blocked for security. Keep caption in the text body.\nConversation info (untrusted metadata):\n```json\n{\n  \"message_id\": \"om_x100b607efbae88a0cf264c2d7ea6317\",\n  \"sender_id\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"sender\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"timestamp\": \"Wed 2026-11-11 09:52 PST\"\n}\n```\n\nSender (untrusted metadata):\n```json\n{\n  \"label\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"id\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"name\": \"ou_e4a4036df049fc443a923af8b5110ebe\"\n}\n```\n\n[message_id: om_x100b607efbae88a0cf264c2d7ea6317]\nou_e4a4036df049fc443a923af8b5110ebe: ![image]\n你说的按钮在哪"
+}
