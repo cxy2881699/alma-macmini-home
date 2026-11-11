@@ -1,0 +1,25 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "HEARTBEAT_OK",
+  "content_hash": "87347a413bde092bfa295dc6f88dcb8b411589a47b74f3d471bbedbec2a4d36e",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_0ac1dfeef402b0cb3d20",
+  "kind": "conversation",
+  "native_event_id": "71cbd87e42020bb65745eede",
+  "occurred_at": "2026-11-11T03:34:00.828000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-11T03:34:00.881019Z",
+  "revision": 194,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"printf 'last_reflection='; cat memory/.last_reflection 2>/dev/null || echo MISSING; python3 - <<'PY'\\nfrom pathlib import Path\\nimport re\\np=Path('.learnings/LEARNINGS.md')\\nif p.exists():\\n s=p.read_text(errors='replace')\\n blocks=re.split(r'(?=^##?\\\\s+\\\\[?(?:LRN|ERR)-)',s,flags=re.M)\\n"
+    }
+  ],
+  "turn_index": 1,
+  "user_text": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nCurrent time: Tuesday, November 10th, 2026 — 7:33 PM (America/Los_Angeles)"
+}
