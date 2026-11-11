@@ -1,0 +1,25 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "HEARTBEAT_OK",
+  "content_hash": "f2d1f870f911a4e63f3d7d8ee9851ac4ecbd3b14698e827b0137e22d42780c50",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_0ac1dfeef402b0cb3d20",
+  "kind": "conversation",
+  "native_event_id": "71cbd87e42020bb65745eede",
+  "occurred_at": "2026-11-11T01:58:04.907000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-11T01:58:04.960127Z",
+  "revision": 189,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"printf '%s\\\\n' '--- last reflection ---'; cat memory/.last_reflection 2>/dev/null || echo MISSING; printf '%s\\\\n' '--- daily notes ---'; for f in memory/2026-11-10.md memory/2026-11-09.md; do if [ -f \\\"$f\\\" ]; then echo \\\"FOUND $f\\\"; tail -n 40 \\\"$f\\\"; else echo \\\"MISSING $f\\\"; fi; done;"
+    }
+  ],
+  "turn_index": 1,
+  "user_text": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nCurrent time: Tuesday, November 10th, 2026 — 5:57 PM (America/Los_Angeles)"
+}
