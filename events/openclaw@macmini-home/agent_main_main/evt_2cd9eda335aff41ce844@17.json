@@ -1,0 +1,29 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "截至**北京时间今天 07:54**，全站消耗：\n\n**¥34,871.0554**，约 **3.49 万元**。\n\n全部用户、全部 Key；调用 **104,400 次**，消耗 **118,337,071 Tokens**。",
+  "content_hash": "a1aa26d300edcac84146502f9f210c8f95ebdf75ad710f84f3b35edec0972cd6",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_2cd9eda335aff41ce844",
+  "kind": "conversation",
+  "native_event_id": "ab5ed42fc72cebbfc8b7e1b4",
+  "occurred_at": "2026-11-11T23:54:32.241000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-11T23:54:32.288921Z",
+  "revision": 17,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"START_END=$(python3 - <<'PY'\\nfrom datetime import datetime, timezone\\nfrom zoneinfo import ZoneInfo\\nnow=datetime.now(timezone.utc)\\nstart=now.astimezone(ZoneInfo('Asia/Shanghai')).replace(hour=0,minute=0,second=0,microsecond=0)\\nprint(int(start.timestamp()),int(now.timestamp()),now.ast"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 - <<'PY'\\nq=[3144034897,920416,3076809201,699132,2981264824,694898,2159135601,252330,2895660710,543136,2264981948,870024,892008165,684334,1083958,15884138]\\nt=[35450973,10344,24044768,7974,19030382,7782,9272085,3210,14189034,6251,11957925,9625,4283470,7543,11864,43841]\\nc=[17967,"
+    }
+  ],
+  "turn_index": 6,
+  "user_text": "Conversation info (untrusted metadata):\n```json\n{\n  \"message_id\": \"om_x100b60644fe38ca4de62a53fe03d408\",\n  \"sender_id\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"sender\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"timestamp\": \"Wed 2026-11-11 15:53 PST\"\n}\n```\n\nSender (untrusted metadata):\n```json\n{\n  \"label\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"id\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"name\": \"ou_e4a4036df049fc443a923af8b5110ebe\"\n}\n```\n\n[message_id: om_x100b60644fe38ca4de62a53fe03d408]\nou_e4a4036df049fc443a923af8b5110ebe: 按北京时间今天多少钱了"
+}
