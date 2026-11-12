@@ -1,0 +1,181 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "🦐 晨报 2026年11月12日 周四\n\n🚀 模型发布动态\n- Google DeepMind｜AlphaGenome 2｜参数规模未披露；输入100万字母DNA序列及目标生物条件｜11月11日发布。模型按具体细胞类型和状态预测遗传变异影响，训练数据包括68种组织、超过1.07亿份单细胞数据；在TenK10K数据集上，因果变异识别率由前代及专用工具的16%提高到30%。现已通过API向非商业研究开放，商业研究为有限私人预览。原文：https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/\n- Google DeepMind｜Gemini Robotics 2.5｜参数规模及文本上下文不适用，属于视觉-语言-动作模型｜11月10日发布。官方在200多项任务中测试，任务成功率较此前基线提高30%～100%、完成速度提高20%～30%；与Gemini Robotics ER配合，在奔驰产线概念验证中实现96%的汽车零件分拣成功率。目前仅向机器人合作伙伴开放。原文：https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/\n- 近7天补充｜Anthropic｜Claude Fable 5.2 / Mythos 5.2｜参数规模未披露；上下文100万tokens、最大输出12.8万tokens｜11月9日发布，面向长周期Agent、复杂推理和科研工程任务；标准价输入8美元、输出40美元/百万tokens，输出速度最高比5.1快30%。Fable面向普通用户，Mythos面向经认证的网络安全和生命科学机构。原文：https://www.anthropic.com/claude-fable-and-mythos-5-2\n\n💲 模型价格变动\n- 今日未检索到新的可核验API调价公告；不拿仍有效的旧优惠凑数。\n\n🌍 欧美科技新闻\n- 英国AI芯片公司Fractile完成7.2亿美元C轮融资，英国政府确认本轮超过5亿英镑、投后估值超过50亿英镑。公司采用芯片上堆叠DRAM的设计，并配套机器学习编译器，目标是在2027年交付首批芯片和系统。英国政府原文：https://www.gov.uk/government/news/sovereign-ai-and-british-business-bank-invest-in-british-firm-developing-the-next-generation-of-ai-hardware\n- CoreWeave第三季度营收36.6亿美元，同比增长168%，但净亏损7.09亿美元、季度利息支出8.46亿美元。公司预计未来三个月获得约90亿美元客户预付款和定金，并更多采用特定客户合同抵押贷款及高价短期算力合同，为1325亿美元积压订单建设基础设施。原文：https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/\n- Databricks更新Genie Agent：依托企业数据本体理解业务上下文，可无人监督执行多步骤、长耗时任务，例如分析员工满意度低分原因、复盘失败销售演示并提取客户缺失功能需求。企业可通过Unity Gateway设置用量上限或切换低成本开放权重模型。原文：https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/\n- 据彭博社援引匿名消息，OpenAI第三季度收入首次超过100亿美元，较第二季度67亿美元增长近50%，调整后经营利润率由-150%收窄至-109%。这些数字并非OpenAI正式财报披露。原文：https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/\n\n🇨🇳 中国科技要闻\n- 腾讯上线“元宝搜索”：覆盖全网网页、公众号、视频号及学术文献，接入157个权威信源；支持文字、语音、拍照搜索和连续追问，广告以独立模块标注并可收起。普通用户可获得论文结论通俗解读，专业用户支持英文标题和摘要翻译。原文：https://www.cnbeta.com.tw/articles/tech/1585966.htm\n- 中汽协发布10月数据：汽车总销量301.6万辆，同比下降9.2%；国内销量195万辆，同比下降26.6%，出口106.6万辆，同比增长60.2%。新能源汽车销量194万辆，同比增长13.1%，占新车总销量64.3%；中汽协预计2026年国内乘用车销量不足1900万辆。原文：https://www.cnbeta.com.tw/articles/tech/1585982.htm\n\n🛠️ 项目动态\n- 11月11日完成CheapTokens消耗查询口径校正：固定按北京时间当天、全部用户和全部Key查询，不再直接采用网页按美国时区显示的“今天”。除此之外，未见新的项目决策记录。\n\n🌤️ 今日天气\n- 北京1.5～11.3℃，早间有雾、午后转晴；10:00约4.9℃。来源：https://api.open-meteo.com/v1/forecast?latitude=39.9042&longitude=116.4074&daily=temperature_2m_max,temperature_2m_min,weather_code&hourly=temperature_2m,weather_code&timezone=Asia%2FShanghai&forecast_days=1\n\n🎯 你的赛道（Agent Infra / Memory）\n- 💰 Plurai完成1300万美元种子轮融资，Team8领投：为企业知识库和工具建立数字孪生，模拟Agent工作流并生成边缘案例，用于评测、修复及后训练小型开放权重模型；可配合Claude Code、Codex、Copilot和Cursor使用。原文：https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/\n- 💰 Helix完成620万美元融资，Chicago Ventures领投，Siri联创Dag Kittlaus投资并担任顾问：通过约4秒语音挑战在设备端判断用户是否为真人并估算年龄，可替代或补充CAPTCHA；公司明确称目前不能可靠识别实时通话中的AI Agent，也不用于识别具体个人身份。原文：https://techcrunch.com/2026/11/11/siri-co-founder-backs-helix-for-its-voice-id-tech/\n- 🏢 美联航开始限制未经授权的第三方AI代理订票及账户操作，同时通过官网、App、旅行社和票务聚合平台执行限制；仍允许AI用于目的地研究和行程规划。对Agent赛道的信号很直接：用户授权不等于平台必须接受Agent成为交易主体。原文：https://www.cnbeta.com.tw/articles/tech/1586008.htm\n\n🔗 信源：Google DeepMind、Anthropic、英国政府、CoreWeave/TechCrunch、Databricks/TechCrunch、cnBeta、Open-Meteo、Hacker News及公开RSS/API；另核查OpenAI、Google、DeepSeek、阿里模型页和主流厂商定价页。Brave缺少API key、百度接口鉴权失败，未采用其结果。\n\n✅ 发送前自检\n- [x] 每条新闻均经官方原文、具体报道或公开API抓取核验\n- [x] 每条新闻附直达原文URL，无首页或聚合页替代\n- [x] 无编造信息；传闻及概念验证均已明确限定\n- [x] 模型条目含厂商、模型、参数/上下文、亮点及开放状态\n- [x] 无新调价时不虚构原价、新价或生效日期\n- [x] 科技新闻含产品、功能或关键数据细节\n- [x] 信源标注清楚，天气含具体数值，无空板块\n- [x] Watchlist已执行，仅保留增量，空板块已省略\n- [x] 所有web_search调用均带freshness；百度关键词含当天日期\n- [x] 北京时间防重复检查通过：上次发送2026-11-11，今日2026-11-12",
+  "content_hash": "fc651023cae2b73f94444322b28b64e6f7c6ac4885904489f3d9b1680bd5be3b",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_c45892b795cc2de04d64",
+  "kind": "conversation",
+  "native_event_id": "4d09e8389304d2fee0ea7fa2",
+  "occurred_at": "2026-11-12T02:06:29.421000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-12T02:06:29.470914Z",
+  "revision": 8,
+  "session_id": "agent:main:cron:b39fb4b0-2aaa-4dd6-8121-9b0fc0d715ec",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "memory_search",
+      "summary": "{\"query\":\"晨报 morning briefing SKILL.md 流程 自检清单 接收人 栏目\",\"maxResults\":10}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"pwd; find . -maxdepth 4 -iname 'SKILL.md' -o -iname '*morning*' -o -iname '*briefing*'; date '+%Y-%m-%d %H:%M:%S %Z'; ls memory | tail -5\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"yieldMs\":10000}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"path\":\"/Users/seancao/.openclaw/workspace/MEMORY.md\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"path\":\"/Users/seancao/.openclaw/workspace/memory/2026-11-11.md\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"path\":\"/Users/seancao/.openclaw/workspace/memory/2026-11-10.md\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"find ~/.openclaw ~/.agents -path '*/node_modules' -prune -o -iname 'SKILL.md' -print 2>/dev/null | grep -Ei 'morning|brief|news' || true; ls -la memory/morning-briefings | tail -8; ls -la memory/.morning-briefing-*\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"yieldMs\":10000}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"path\":\"/Users/seancao/.openclaw/workspace/memory/morning-briefings/2026-11-09.md\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"path\":\"/Users/seancao/.openclaw/workspace/cron-briefing-analysis.md\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"path\":\"/Users/seancao/.openclaw/skills/morning-briefing/SKILL.md\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"printf 'sent='; cat memory/.morning-briefing-sent; printf 'today='; TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M %A'; printf 'mtime='; stat -f %m memory/.morning-briefing-sent; grep -Ei 'morning-briefing.*deliver|晨报.*send|delivery.*morning' ~/.openclaw/logs/gateway.log 2>/dev/null | tail -5 ||"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"AI model release announcement new launch November 11 2026\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"OpenAI Anthropic Google DeepSeek Qwen new model November 2026\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"LLM model launch preview upcoming release\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"AI artificial intelligence news technology\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"tech startup product launch\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"API pricing change LLM model price drop increase\",\"count\":10,\"freshness\":\"pw\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"path\":\"/Users/seancao/.openclaw/workspace/memory/morning-briefings/2026-11-11.md\"}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://docs.anthropic.com/en/docs/about-claude/models\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.openai.com/docs/models\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://cloud.google.com/vertex-ai/docs/generative-ai/learn/models\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.deepseek.com/api-docs/\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://help.aliyun.com/zh/model-studio/developer-reference/\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://techcrunch.com/category/artificial-intelligence/feed/\",\"maxChars\":30000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.cnbeta.com.tw/backend.php\",\"maxChars\":30000}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"for q in '大模型 发布 新模型 上线 2026年11月12日' 'OpenAI Claude Gemini DeepSeek 通义千问 新模型 2026年11月12日' 'AI模型 发布 预告 即将上线 2026年11月12日' 'API 价格 调整 降价 涨价 大模型 2026年11月12日' '科技公司 最新动态 2026年11月12日' 'AI 人工智能 大模型 2026年11月12日' '北京 天气 2026年11月12日'; do echo \\\"=== $q ===\\\"; python3 tools/baidu_search.py \\\"$q\\\" --"
+    },
+    {
+      "name": "process",
+      "summary": "{\"action\":\"poll\",\"sessionId\":\"quiet-meadow\",\"timeout\":1000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.anthropic.com/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://openai.com/api/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://cloud.google.com/vertex-ai/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.deepseek.com/api-docs/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://help.aliyun.com/zh/model-studio/billing-for-model-studio\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.moonshot.cn/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://open.bigmodel.cn/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.minimax.io/document/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://api.open-meteo.com/v1/forecast?latitude=39.9042&longitude=116.4074&daily=temperature_2m_max,temperature_2m_min,weather_code&hourly=temperature_2m,weather_code&timezone=Asia%2FShanghai&forecast_days=1\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.cnbeta.com.tw/articles/tech/1585976.htm\",\"maxChars\":15000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.cnbeta.com.tw/articles/tech/1585920.htm\",\"maxChars\":15000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/\",\"maxChars\":15000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/\",\"maxChars\":15000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/\",\"maxChars\":15000}"
+    }
+  ],
+  "turn_index": 0,
+  "user_text": "[cron:b39fb4b0-2aaa-4dd6-8121-9b0fc0d715ec morning-briefing] 严格按照 SKILL.md 流程执行晨报。强制规则：①每条新闻必须通过搜索验证来源，逐条附直接原文链接；②禁止编造任何信息，不确定等于不写；③发之前执行自检清单逐项勾选；④只发一次，禁止重复发送。\nCurrent time: Wednesday, November 11th, 2026 — 6:00 PM (America/Los_Angeles)\n\nReturn your summary as plain text; it will be delivered automatically. If the task explicitly calls for messaging a specific external recipient, note who/where it should go instead of sending it yourself."
+}
