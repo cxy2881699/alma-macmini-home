@@ -1,0 +1,25 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "HEARTBEAT_OK",
+  "content_hash": "9842ef9226db632f997b67fb5cb37d2486f07aef027ce7f5f95f5ca5d77bff23",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_4e24f0577847a60870d1",
+  "kind": "conversation",
+  "native_event_id": "c070acfec21829dabe21f4f6",
+  "occurred_at": "2026-11-12T00:28:00.798000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-12T00:28:00.833842Z",
+  "revision": 5,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"printf 'LAST_REFLECTION='; cat memory/.last_reflection 2>/dev/null || true; printf '\\\\nTODAY/YESTERDAY\\\\n'; for f in memory/2026-11-11.md memory/2026-11-10.md; do if [ -f \\\"$f\\\" ]; then echo \\\"---$f\\\"; tail -80 \\\"$f\\\"; fi; done; printf '\\\\nPENDING_LEARNINGS\\\\n'; grep -E '^\\\\[(LRN|ERR)-.*"
+    }
+  ],
+  "turn_index": 7,
+  "user_text": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nCurrent time: Wednesday, November 11th, 2026 — 4:27 PM (America/Los_Angeles)"
+}
