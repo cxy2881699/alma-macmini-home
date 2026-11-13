@@ -1,0 +1,33 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "对，**路线计算只是后端，真正开车时必须是一个能跟着你走的导航 App**。\n\n不是给你一条线就完事，而是要有定位、朝向、转弯播报、偏航重算。普通地图链接代替不了，因为高德一旦自己重新规划，就可能又把你带回摄像头方向。\n[[reply_to_current]]对，所以最终形态必须是**手机上的专用导航 App**，不是网页，也不是导出一张路线图。\n\n你开车时大概这样用：\n\n## 使用流程\n\n**1. 输入目的地**\n- 搜索或地图选点\n- 选择车辆、进京证状态、出发时间\n- 点“查找完全避让路线”\n\n**2. 路线确认**\n- 有路线：显示“**已知触发点 0**”、里程、时间、数据版本\n- 没路线：直接显示“**当前无可验证避让路线**”\n- 不提供“仍然出发但会被拍”的降级按钮\n\n**3. 开始导航**\n界面和普通导航差不多：\n- 车头朝上，地图跟着车走\n- 显示下一条转向和距离\n- “前方 300 米右转进入 XX 路”\n- 剩余时间、距离、当前车速\n- 锁屏或后台继续语音播报\n\n**4. 行驶中实时判断**\n- GPS 判断你在哪条路上、朝哪个方向开\n- 对向经过摄像头，不误报\n- 主辅路、桥上桥下尽量按位置区分\n- 偏航后，之前那条 `CLEAR` 路线立即作废\n- 从当前位置重新计算一条新的 0 触发路线\n\n**最关键的一条：**\n\n> 偏航后，新路线还没算出来之前，App 必须显示“当前路线未验证”，不能继续装安全。\n\n## App 里面分两层\n\n**我们自研的部分**\n- 严格路线计算\n- GPS 与路线匹配\n- 偏航识别\n- 转弯指令生成\n- 摄像头方向判断\n- 数据更新与路线重新校验\n\n**可以复用高德 SDK 的部分**\n- 地图显示\n- POI 搜索\n- 定位\n- 离线地图\n- 地图手势和渲染\n\n不直接用高德的路线结果，因为它不知道我们的有向禁行规则，可能自动给你绕回摄像头。\n\n## 为什么不建议只做网页\n\n网页能做路线预览，但真开车时不稳：\n- 后台定位受限制\n- 锁屏后容易停\n- 语音播报不可靠\n- 车头朝向和持续定位不好处理\n\n所以最终应该做原生 App：\n- iPhone → Swift\n- Android → Kotlin\n- 后端路线服务共用，不用写两套算法\n\n前期验证可以把算好的路线导出成 GPX，放进 OsmAnd 之类的导航软件试跑。**但那只能验证路线，偏航后的严格避让保证不了，不能当最终版。**\n\n第一版建议就三个页面：\n1. 目的地搜索\n2. 路线确认\n3. 实时导航\n\n你平时开车用的是 **iPhone 还是 Android**？这个决定第一版 App 从哪边开始。",
+  "content_hash": "22e485a7acb10b7bee4bf10991fcc8322a25a9abffce5243ea7bd555592a673a",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_7a3e082cb335d48c2602",
+  "kind": "conversation",
+  "native_event_id": "64dfa0540038662322f785c7",
+  "occurred_at": "2026-11-13T18:40:56.054000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-13T18:40:56.097170Z",
+  "revision": 7,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "memory_search",
+      "summary": "{\"query\":\"宇哥 手机 iPhone Android 开车 导航 高德 地图 使用偏好\",\"maxResults\":6}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://osmand.net/docs/user/navigation/gpx-navigation\",\"extractMode\":\"text\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://lbs.amap.com/api/ios-sdk/summary\",\"extractMode\":\"text\",\"maxChars\":10000}"
+    }
+  ],
+  "turn_index": 9,
+  "user_text": "Conversation info (untrusted metadata):\n```json\n{\n  \"message_id\": \"om_x100b6041dd4ff4a4c4aec87c3843431\",\n  \"sender_id\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"sender\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"timestamp\": \"Fri 2026-11-13 10:38 PST\"\n}\n```\n\nSender (untrusted metadata):\n```json\n{\n  \"label\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"id\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"name\": \"ou_e4a4036df049fc443a923af8b5110ebe\"\n}\n```\n\n[message_id: om_x100b6041dd4ff4a4c4aec87c3843431]\nou_e4a4036df049fc443a923af8b5110ebe: 这种东西要怎么使用呢？ 就算是有路线，我肯定也得有类似地图导航的东西，才能开车时候使用"
+}
