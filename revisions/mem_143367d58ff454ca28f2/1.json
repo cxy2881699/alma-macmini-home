@@ -1,0 +1,69 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": null,
+  "created_at": "2026-11-15T15:49:30.838825Z",
+  "id": "rev_3db250586be494175bdc",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "指 2026-11-15 时 Mac mini 上的这份 Claude Code 安装配置。",
+    "confidence": 0.85,
+    "content": "用户在本机（Mac mini）安装的 Claude Code 接入的是第三方 API 服务商 cheaptokens.cn，模型填写为 claude-opus-5-5，配置位于 ~/.claude/settings.json 的 env 中（ANTHROPIC_BASE_URL / ANTHROPIC_AUTH_TOKEN / ANTHROPIC_MODEL）。",
+    "created_at": "2026-11-15T15:04:50.493000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_51b9c91560022845906c",
+      "ent_50af3bcecec866a62601",
+      "ent_d3a0798d7ba2a1807d36"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_0ac1dfeef402b0cb3d20",
+        "quote": "为什么我安装的claude code（接入了第三方api），不能用呢？",
+        "revision": 294,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_0ac1dfeef402b0cb3d20",
+        "quote": "现在接的是 `https://cheaptokens.cn`，模型填的 `claude-opus-5-5`。",
+        "revision": 294,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_143367d58ff454ca28f2",
+    "is_temporary": false,
+    "keywords": [
+      "Claude Code",
+      "第三方 API",
+      "cheaptokens",
+      "ANTHROPIC_BASE_URL",
+      "claude-opus-5-5",
+      "settings.json"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_0ac1dfeef402b0cb3d20",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@macmini-home",
+    "space": "user/shared",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-15T15:49:30.838698Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_143367d58ff454ca28f2",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
