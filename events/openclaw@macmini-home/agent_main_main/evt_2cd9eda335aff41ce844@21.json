@@ -1,0 +1,89 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "这篇值得看，尤其跟你现在 Alma 的「原始对话 → 提取 → 整理 → 召回」链路直接相关。\n\n我先找官网原文，别拿二手解读瞎研究。然后对照 Alma，提炼哪些能直接抄作业、哪些不适合。\n原文拿到了，Anthropic 2026-11-06 发的。  \n这篇不是“加个长期记忆”那种软文，核心是在讲：**记忆需要离线的整理、纠错和重组，而不只是检索。**\n\n我对照一下 Alma 现有实现，给你挑真正值得改的。\n读完了。这篇确实值得研究，而且**正好打在 Alma 下一步的点上**。\n\n原文：[The components of agent memory](https://www.anthropic.com/research/components-of-agent-memory)\n\n核心不是“记忆检索”，而是：\n\n> **在线记录经验，离线通过 dreaming 对照原始经历，持续纠错、合并和重组记忆。**\n\n几个重要结论：\n\n- **记忆不是越多越好。** 实验里写 413 个文件的模型只拿 1 个徽章；只维护少量策略笔记的模型拿了 4 个。\n- **原始 transcript 是 ground truth。** 记忆写错后，后续 Agent 会反复踩坑；dreaming 能回到原始对话纠错。\n- **wiki + search 优于单独 search。** 实验得分 `61% vs 53%`，还节约约 2 万 token/题；但单文档检索没必要硬上 wiki。\n- **顶层注入必须小。** Claude Code 也只加载 `MEMORY.md` 前 200 行或 25KB，作为索引，不是全量塞入。\n- **强模型不适合“只记失败”这类死板规则。** 告诉它记忆的目的，让它自己判断什么值得记，效果更好。\n\n**对照 Alma，我们已经有骨架，但还差关键一刀：**\n\n现在 `consolidate` 主要读取 **memories + episodes**，能合并、产生洞察、标记冲突。\n\n但它没有系统地重新读取 **原始 SourceEvent/transcript**。\n\n也就是说：\n\n> 目前能发现“记忆之间互相矛盾”，不一定能发现“这条记忆第一次提取时就写错了”。\n\n我建议 Alma 下一步先做这个：\n\n**Dream Preview**\n- 输入：当前记忆 + 最近原始对话 + 一个整理目标\n- 输出：候选修正、合并、过期和新洞察\n- 每条必须带 `event/revision + 逐字 evidence`\n- 生成独立报告，**先不改正式记忆**\n- 审核后再接受或拒绝\n\n别一上来搞大 wiki。先把“对照原文纠错”跑通，价值最大。\n\n详细对照和落地路线我整理好了：  \n`docs/research/anthropic-components-of-agent-memory-2026-11-15.md`",
+  "content_hash": "e08daf56ddba9ad784f34940824ea411e15873ff652d3beedd51435aea3142e6",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_2cd9eda335aff41ce844",
+  "kind": "conversation",
+  "native_event_id": "ab5ed42fc72cebbfc8b7e1b4",
+  "occurred_at": "2026-11-15T16:35:46.341000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-15T16:35:46.376714Z",
+  "revision": 21,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"~/.openclaw/skills/summarize/SKILL.md\"}"
+    },
+    {
+      "name": "memory_search",
+      "summary": "{\"query\":\"The components of agent memory Anthropic Claude 官方 记忆 文章 研究 Alma\",\"maxResults\":6}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"site:anthropic.com \\\"The components of agent memory\\\"\",\"count\":5,\"country\":\"US\",\"search_lang\":\"en\"}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.anthropic.com/engineering/the-components-of-agent-memory\",\"extractMode\":\"markdown\",\"maxChars\":30000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://claude.com/blog/the-components-of-agent-memory\",\"extractMode\":\"markdown\",\"maxChars\":30000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.anthropic.com/news/the-components-of-agent-memory\",\"extractMode\":\"markdown\",\"maxChars\":30000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.google.com/search?q=%22The+components+of+agent+memory%22\",\"extractMode\":\"markdown\",\"maxChars\":15000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.bing.com/search?q=%22The+components+of+agent+memory%22\",\"extractMode\":\"markdown\",\"maxChars\":15000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://html.duckduckgo.com/html/?q=%22The+components+of+agent+memory%22\",\"extractMode\":\"markdown\",\"maxChars\":15000}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"open\",\"profile\":\"openclaw\",\"url\":\"https://www.google.com/search?q=%22The+components+of+agent+memory%22+Claude\"}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"snapshot\",\"profile\":\"openclaw\",\"targetId\":\"97D2078048C8A13E1C338B98704E95C4\",\"refs\":\"aria\",\"maxChars\":12000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.anthropic.com/research/components-of-agent-memory\",\"extractMode\":\"markdown\",\"maxChars\":50000}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"rg -n \\\"async def consolidate|def consolidate|core|access|last_recalled|recall_count|wiki|dream\\\" memhub/cognitive.py memhub/models.py memhub/recall.py memhub/hub.py | head -220; sed -n '690,800p' memhub/cognitive.py\",\"workdir\":\"/Users/seancao/Desktop/项目文件夹/alma-memory-system\",\"timeout\":"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://code.claude.com/docs/en/memory\",\"extractMode\":\"markdown\",\"maxChars\":18000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.claude.com/docs/en/managed-agents/dreams\",\"extractMode\":\"markdown\",\"maxChars\":18000}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/Desktop/项目文件夹/alma-memory-system/memhub/cognitive.py\",\"offset\":845,\"limit\":145}"
+    },
+    {
+      "name": "write",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/docs/research/anthropic-components-of-agent-memory-2026-11-15.md\",\"content\":\"# Anthropic《The components of agent memory》研究笔记\\n\\n- 研究日期：2026-11-15\\n- 原文发布：2026-11-06\\n- 原文：https://www.anthropic.com/research/components-of-agent-memory\\n- Dreaming 文档：htt"
+    }
+  ],
+  "turn_index": 6,
+  "user_text": "Conversation info (untrusted metadata):\n```json\n{\n  \"message_id\": \"om_x100b60a99802b4a4c0c618ddb873d32\",\n  \"sender_id\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"sender\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"timestamp\": \"Sun 2026-11-15 08:27 PST\"\n}\n```\n\nSender (untrusted metadata):\n```json\n{\n  \"label\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"id\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"name\": \"ou_e4a4036df049fc443a923af8b5110ebe\"\n}\n```\n\n[message_id: om_x100b60a99802b4a4c0c618ddb873d32]\nou_e4a4036df049fc443a923af8b5110ebe: 《the components of agent Memory》 这个是claude官网写的一个关于记忆的文章，我觉得可以研究一下"
+}
