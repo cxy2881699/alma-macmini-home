@@ -1,0 +1,58 @@
+{
+  "claim": "user_fact",
+  "conditions": "",
+  "confidence": 0.9,
+  "content": "用户计划做一个自用的地图导航，能根据路线需求避开已归档的进京证摄像头点位，涉及“哪些方向通行会被拍”这类有向拍摄规则的 GIS 问题；2026-11-13 先与 Agent 讨论实现思路，尚未开始实现。",
+  "created_at": "2026-11-13T17:50:01.774000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_c1230d7f007b72e69523"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_4e24f0577847a60870d1",
+      "quote": "我想做的东西是一个给自己用的地图导航，这个导航能够根据我的路线需求避开这些摄像头",
+      "revision": 24,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_4e24f0577847a60870d1",
+      "quote": "比如哪些方向通行会被拍，哪些方向走不会被拍",
+      "revision": 24,
+      "role": "user"
+    }
+  ],
+  "id": "mem_cbec09de4a5708198e63",
+  "is_temporary": false,
+  "keywords": [
+    "导航",
+    "避让",
+    "摄像头",
+    "进京证",
+    "GIS",
+    "有向规则",
+    "路线规划"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_4e24f0577847a60870d1",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-11-15T15:47:48.504373Z",
+  "valid_to": null
+}
