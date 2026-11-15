@@ -1,0 +1,50 @@
+{
+  "claim": "user_fact",
+  "conditions": "历史合作数据，用于推算金山云的量级",
+  "confidence": 0.9,
+  "content": "2026 年 7 月末用户给金山云供货时，金山云单日消费约 27-28 万人民币，当时用户给金山云的售价是 5.6 折。",
+  "created_at": "2026-11-15T15:15:05.008000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_b9c4fe508da4bee92ff3"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_161b6190f913328b0909",
+      "quote": "在7月末的时候，我当时给金山供货，金山一天能消费27-28万人民币，当时的价格是5.6折",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_6508086003d264e37fbe",
+  "is_temporary": false,
+  "keywords": [
+    "供货记录",
+    "5.6折",
+    "单日消费",
+    "2026年7月",
+    "金山云"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_649e5ae04ce8aed2e06f",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_161b6190f913328b0909",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "claude-code@alma-test",
+  "space": "project/proj_649e5ae04ce8aed2e06f",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-15T15:39:05.515968Z",
+  "valid_to": null
+}

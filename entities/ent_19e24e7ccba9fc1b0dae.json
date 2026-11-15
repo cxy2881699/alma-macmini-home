@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "fable模型"
+  ],
+  "created_at": "2026-11-15T15:39:05.497356Z",
+  "description": "用户明确不纳入 5 折报价的模型",
+  "id": "ent_19e24e7ccba9fc1b0dae",
+  "name": "Fable",
+  "space": "project/proj_649e5ae04ce8aed2e06f",
+  "sync_remote": true,
+  "type": "concept",
+  "updated_at": "2026-11-15T15:39:05.513392Z"
+}

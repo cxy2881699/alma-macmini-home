@@ -1,0 +1,70 @@
+{
+  "actor": "claude-code@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-15T15:39:05.514620Z",
+  "id": "rev_c94d3ed64b18b32b7d65",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "前提是金山云恢复下单并爬到 1000 万/月流水",
+    "confidence": 0.9,
+    "content": "用户制定的 awsb-claude 转售计划：把供应商拿货价继续压低到 4.8 折，以 5 折（不含 Fable 模型）卖给金山云，目标月流水 1000 万人民币、月利约 40 万，年利润 480 万～500-600 万人民币（约 80 万美元）。",
+    "created_at": "2026-11-15T15:15:05.008000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_b9c4fe508da4bee92ff3",
+      "ent_06f1e3d7b146a040bdac",
+      "ent_19e24e7ccba9fc1b0dae"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_161b6190f913328b0909",
+        "quote": "压到4.8折，然后我卖给金山5折（不含fable模型）",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_161b6190f913328b0909",
+        "quote": "一年我的目标是500-600万人民币，美金大概就是80万美金",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_676a32d054cadf67399e",
+    "is_temporary": false,
+    "keywords": [
+      "商业计划",
+      "定价",
+      "4.8折",
+      "5折",
+      "年利润",
+      "流水目标",
+      "Fable"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_649e5ae04ce8aed2e06f",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_161b6190f913328b0909",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "claude-code@alma-test",
+    "space": "project/proj_649e5ae04ce8aed2e06f",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "decision",
+    "updated_at": "2026-11-15T15:39:05.514594Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_676a32d054cadf67399e",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

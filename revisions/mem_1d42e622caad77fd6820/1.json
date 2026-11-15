@@ -1,0 +1,62 @@
+{
+  "actor": "claude-code@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-15T15:39:05.514163Z",
+  "id": "rev_d904f5f69a25094d64da",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "针对金山云 awsb-claude 转售业务",
+    "confidence": 0.9,
+    "content": "用户当前阶段的商业判断：awsb-claude 转售生意现在不是追求利润率的时候，而是要扩大利润规模——先做最低价供应商拿量，而非守高毛利。",
+    "created_at": "2026-11-15T15:15:05.008000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_b9c4fe508da4bee92ff3",
+      "ent_06f1e3d7b146a040bdac"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_161b6190f913328b0909",
+        "quote": "我现在认为这个生意对于我当前的情况来说并不是一个攫取利润率的时候，而是要扩大我自己的利润",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_1d42e622caad77fd6820",
+    "is_temporary": false,
+    "keywords": [
+      "定价策略",
+      "规模优先",
+      "利润率",
+      "金山云",
+      "awsb-claude",
+      "低价供应商"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_649e5ae04ce8aed2e06f",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_161b6190f913328b0909",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "claude-code@alma-test",
+    "space": "project/proj_649e5ae04ce8aed2e06f",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "decision",
+    "updated_at": "2026-11-15T15:39:05.514120Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_1d42e622caad77fd6820",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
