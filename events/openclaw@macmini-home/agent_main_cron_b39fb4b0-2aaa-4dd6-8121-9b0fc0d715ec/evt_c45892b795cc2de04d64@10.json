@@ -1,0 +1,181 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "我先按流程做当天检索和交叉验证；没有直达原文、或无法确认的内容会直接剔除。\n两家搜索接口都不可用（Brave 缺 key、百度鉴权失败），我已切到官方公告、RSS 和公开 API；下面只保留能打开并核对正文的项目。\n核验完成，疑似刷星的 GitHub 重复仓库和只有传闻参数的内容都已剔除。现在做最终自检并归档，正文只由 cron 自动回复投递一次。\n🦐 晨报 2026年11月15日 周日\n\n🚀 模型发布动态\n- 今日未检索到可核验的新模型发布。\n- 近7日重要发布回顾：Google｜Gemini 4 Hydrogen｜参数规模未披露；输入与输出合计上限1,048,576 tokens，单段输出最高65,536 tokens｜11月12日GA，面向日常编码与Agent工作流，支持文本、图片、音频、视频输入及计算机操作；属于短期GA版本，官方承诺至少提前45天通知下线。官方公告：https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/ ｜模型文档：https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/4-hydrogen.md.txt\n\n💲 模型价格变动\n- 今日未检索到可核验的存量模型新调价公告；新模型上市定价不计入存量调价。已核查官方定价页：Anthropic https://platform.claude.com/docs/en/about-claude/pricing ｜阿里云百炼 https://help.aliyun.com/zh/model-studio/model-pricing ｜Kimi https://platform.kimi.com/docs/pricing/chat\n\n🌍 欧美科技新闻\n- SpaceX首次用“Mechazilla”发射塔机械臂捕获星舰飞船本体，而非此前的Super Heavy助推器；本次助推器放弃回收并在墨西哥湾上空爆炸，原因仍在调查，因此并非整枚火箭完整回收。原文：https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch\n- Tesla向部分客户开放Cybercab个人购买邀请：标价29,990美元，强制搭配每月299美元Autonomy订阅，仅限已支持Robotaxi服务的区域；订单条款禁止商业用途，1,000美元订金不可退，12月交付窗口也不保证。原文：https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print\n- Cloudflare开源实验性Agent浏览器引擎Kitesurf：在Cloudflare Workers上解析HTML、应用CSS、执行JavaScript并渲染截图，无需Chrome或浏览器容器，支持CDP及Puppeteer；采用Apache-2.0许可证，云端运行需要Workers付费计划。原文：https://github.com/cloudflare/kitesurf\n\n🇨🇳 中国科技要闻\n- 华为余承东正式预告Mate X8“就要来了”并公开外观，确认屏幕、拍照和性能将有新突破；具体发布日期及网传硬件参数尚未获官方确认，不纳入晨报。原文：https://www.ithome.com/1/027/274.htm\n- 超聚变创业板IPO于11月12日过会，从受理到过会用时174天；公司前身为华为x86服务器业务，2024年营收435亿元，2025年上半年营收超过300亿元，募资将投向新一代算力产品和关键技术。原文：https://www.ithome.com/1/027/255.htm\n- 台积电通过6-K文件确认部分现任及前任员工个人资料遭未经授权发布，现有信息指向第三方云服务商保存的数据；公司称暂无证据显示内部系统被入侵，也未发现生产运营或客户数据受影响，涉事服务商及受影响人数尚未披露。原文：https://www.cnbeta.com.tw/articles/tech/1586436.htm\n\n🛠️ 项目动态\n- 截至本地最新记录（11月13日），严格避让导航已明确“已知触发规则=0，找不到就不开”的硬约束，并确定有向硬禁行、独立路线校验、CLEAR/NO_CLEAR_ROUTE/UNVERIFIED三态及偏航作废旧CLEAR等原则；详细功能性PRD已启动，仍待完成和审校。\n- jjz365每周增量检测已创建并通过dry-run及调试运行；全站归档的最终完整数和失败清单仍待核验，不把中途进度写成完成。\n\n🌤️ 今日天气\n- 北京5～12℃，白天阴到多云，早晚有霾；10时查询约6℃，湿度62%，北风8km/h。来源：https://wttr.in/Beijing?format=j1\n\n🎯 你的赛道（Agent Infra / Memory）\n- 💰 融资：LangChain完成3亿美元C轮融资，估值30亿美元，由CapitalG领投；官方称LangSmith已有超过7,000个组织使用，产品覆盖Agent Runtime、Improvement和Governance三层。「已跟踪」原文：https://www.langchain.com/blog/series-c\n- 🏢 新产品：OpenAI推出ChatGPT Wallet，先向美国18岁及以上、持合格美国银行卡的ChatGPT Pro用户开放，通过dots让Agent代购；Agent和商家拿不到真实卡号，支付使用令牌，且当前每笔购买都需用户通过Face ID或指纹等安全检查授权。原文：https://openai.com/index/introducing-chatgpt-wallet/\n- 🧠 记忆层专项：Gemini新增可查看、编辑和删除的Memory Summary，并提供按时间排列的Memory history；需个人账号、年满18岁、开启Keep Activity和Memory，暂不在欧洲经济区、尼日利亚、瑞士和英国提供。原文：https://support.google.com/gemini/answer/18617127\n\n🔗 信源：Google、OpenAI、LangChain、Cloudflare官方公告/文档，The Verge，IT之家，cnBeta，wttr.in及本地项目记录；Watchlist使用TechCrunch RSS、Hacker News和GitHub公开API。Brave缺少API key、百度接口鉴权失败，未采用其结果；疑似刷星的重复GitHub仓库已剔除。\n\n✅ 发送前自检\n- [x] 每条新闻均经官方原文、公开RSS/API或具体报道正文核验\n- [x] 每条新闻附直达原文/具体公告URL，无首页或列表页冒充\n- [x] 无编造或未经验证信息，不确定内容已删除或明确限定\n- [x] 模型条目含厂商、模型、参数/上下文、亮点及发布状态\n- [x] 价格条目区分新模型上市定价与存量调价，无调价时不虚构原价/新价\n- [x] 科技新闻含产品/功能细节，信源标注清楚，天气含具体数值\n- [x] Watchlist已执行并保存docs/watchlist-scan/2026-11-15.md，仅保留已核验增量，空板块省略\n- [x] 所有web_search调用均带freshness；因缺key失败后改用官方页面及公开RSS/API\n- [x] 百度搜索关键词含当天日期；接口鉴权失败，未采用其结果\n- [x] 北京时间防重复检查通过：上次发送2026-11-13，今日2026-11-15\n- [x] 本次仅准备一份正文，由cron自动回复单次投递，不调用message重复发送",
+  "content_hash": "3bdc4e7aaa977634fd0f4b8b84a22b0ca90ac2a4d8bb0dfaaa912fa8bffc8dd8",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_c45892b795cc2de04d64",
+  "kind": "conversation",
+  "native_event_id": "4d09e8389304d2fee0ea7fa2",
+  "occurred_at": "2026-11-15T02:08:06.216000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-15T02:08:06.258471Z",
+  "revision": 10,
+  "session_id": "agent:main:cron:b39fb4b0-2aaa-4dd6-8121-9b0fc0d715ec",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"find /Users/seancao/.openclaw/workspace -name 'SKILL.md' -o -iname '*morning*' -o -iname '*briefing*' | head -100\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":30}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"find /Users/seancao/.openclaw -path '*/SKILL.md' -maxdepth 6 2>/dev/null | grep -Ei 'morning|brief|news|daily' | head -50; printf '\\\\nWorkspace top-level:\\\\n'; ls -la /Users/seancao/.openclaw/workspace | sed -n '1,120p'\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":30}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/skills/morning-briefing/SKILL.md\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"printf 'Marker:\\\\n'; cat memory/.morning-briefing-sent 2>/dev/null || true; printf '\\\\nBeijing date:\\\\n'; TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S %A'; printf '\\\\nMarker mtime:\\\\n'; stat -f %m memory/.morning-briefing-sent 2>/dev/null || echo 0; printf '\\\\nRecent log:\\\\n'; tail -10 memo"
+    },
+    {
+      "name": "memory_search",
+      "summary": "{\"query\":\"最近项目动态 项目进展 2026年11月 晨报\",\"maxResults\":8,\"minScore\":0.3}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"AI model release announcement new launch November 15 2026\",\"count\":10,\"freshness\":\"pd\",\"country\":\"ALL\",\"search_lang\":\"en\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"OpenAI Anthropic Google DeepSeek Qwen new model November 2026\",\"count\":10,\"freshness\":\"pd\",\"country\":\"ALL\",\"search_lang\":\"en\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"LLM model launch preview upcoming release November 2026\",\"count\":10,\"freshness\":\"pd\",\"country\":\"ALL\",\"search_lang\":\"en\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"AI artificial intelligence news technology November 15 2026\",\"count\":10,\"freshness\":\"pd\",\"country\":\"ALL\",\"search_lang\":\"en\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"tech startup product launch November 15 2026\",\"count\":10,\"freshness\":\"pd\",\"country\":\"ALL\",\"search_lang\":\"en\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"API pricing change LLM model price drop increase November 2026\",\"count\":10,\"freshness\":\"pw\",\"country\":\"ALL\",\"search_lang\":\"en\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 tools/baidu_search.py '大模型 发布 新模型 上线 2026年11月15日' --max_results 10 > /tmp/brief-baidu-model1.txt 2>&1; python3 tools/baidu_search.py 'OpenAI Claude Gemini DeepSeek 通义千问 新模型 2026年11月15日' --max_results 10 > /tmp/brief-baidu-model2.txt 2>&1; python3 tools/baidu_search.py 'AI模型 发布 预告"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 tools/watchlist_scan.py --days 2 > /tmp/brief-watchlist.txt 2>&1; status=$?; echo \\\"exit=$status\\\"; sed -n '1,240p' /tmp/brief-watchlist.txt\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":180}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://docs.anthropic.com/en/docs/about-claude/models\",\"maxChars\":12000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.openai.com/docs/models\",\"maxChars\":12000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://cloud.google.com/vertex-ai/docs/generative-ai/learn/models\",\"maxChars\":12000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.deepseek.com/api-docs/\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://help.aliyun.com/zh/model-studio/developer-reference/\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.anthropic.com/pricing\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://openai.com/api/pricing\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.deepseek.com/api-docs/pricing\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.moonshot.cn/pricing\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://open.bigmodel.cn/pricing\",\"maxChars\":10000}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/memory/morning-briefings/2026-11-13.md\",\"limit\":400}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://cloud.google.com/vertex-ai/pricing\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://help.aliyun.com/zh/model-studio/billing-for-model-studio\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.minimax.io/document/pricing\",\"maxChars\":10000}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 tools/baidu_search.py 'API 价格 调整 降价 涨价 大模型 2026年11月15日' --max_results 10 > /tmp/brief-baidu-price.txt 2>&1; python3 tools/baidu_search.py '科技公司 最新动态 2026年11月15日' --max_results 10 > /tmp/brief-baidu-cn1.txt 2>&1; python3 tools/baidu_search.py 'AI 人工智能 大模型 2026年11月15日' --max_result"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"ls -1t memory/2026-11-*.md 2>/dev/null | head -7; printf '\\\\nMEMORY recent headings:\\\\n'; grep -nE '^##|^###' MEMORY.md | tail -60\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":30}"
+    },
+    {
+      "name": "process",
+      "summary": "{\"action\":\"poll\",\"sessionId\":\"fresh-gulf\",\"timeout\":1000,\"limit\":20000}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/tmp/brief-watchlist.txt\",\"limit\":500}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/memory/2026-11-13.md\",\"limit\":350}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"curl -L --max-time 30 -s 'https://wttr.in/Beijing?format=j1' -o /tmp/brief-weather.json && python3 - <<'PY'\\nimport json\\np='/tmp/brief-weather.json'\\nd=json.load(open(p))\\nc=d['current_condition'][0]\\nprint('CURRENT', {k:c.get(k) for k in ['temp_C','feelslike_C','humidity','weatherDesc'"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 - <<'PY'\\nimport urllib.request, xml.etree.ElementTree as ET\\nfeeds={\\n 'TechCrunch':'https://techcrunch.com/feed/',\\n 'TheVerge':'https://www.theverge.com/rss/index.xml',\\n 'GoogleBlog':'https://blog.google/rss/',\\n 'OpenAI':'https://openai.com/news/rss.xml',\\n 'Anthropic':'http"
+    },
+    {
+      "name": "process",
+      "summary": "{\"action\":\"poll\",\"sessionId\":\"cool-breeze\",\"timeout\":1000,\"limit\":30000}"
+    },
+    {
+      "name": "process",
+      "summary": "{\"action\":\"log\",\"sessionId\":\"cool-breeze\",\"offset\":0,\"limit\":40000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://openai.com/index/introducing-chatgpt-wallet\",\"maxChars\":16000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/\",\"maxChars\":12000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch\",\"maxChars\":14000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/\",\"maxChars\":16000}"
+    }
+  ],
+  "turn_index": 0,
+  "user_text": "[cron:b39fb4b0-2aaa-4dd6-8121-9b0fc0d715ec morning-briefing] 严格按照 SKILL.md 流程执行晨报。强制规则：①每条新闻必须通过搜索验证来源，逐条附直接原文链接；②禁止编造任何信息，不确定等于不写；③发之前执行自检清单逐项勾选；④只发一次，禁止重复发送。\nCurrent time: Saturday, November 14th, 2026 — 6:00 PM (America/Los_Angeles)\n\nReturn your summary as plain text; it will be delivered automatically. If the task explicitly calls for messaging a specific external recipient, note who/where it should go instead of sending it yourself."
+}
