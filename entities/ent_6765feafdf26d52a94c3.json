@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "agent-memory"
+  ],
+  "created_at": "2026-11-15T15:46:36.049611Z",
+  "description": "本机运行的 agent-memory 记忆服务进程",
+  "id": "ent_6765feafdf26d52a94c3",
+  "name": "memd",
+  "space": "project/proj_649e5ae04ce8aed2e06f",
+  "sync_remote": true,
+  "type": "component",
+  "updated_at": "2026-11-15T15:46:36.058168Z"
+}

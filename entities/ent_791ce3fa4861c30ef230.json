@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "httpx.AsyncClient"
+  ],
+  "created_at": "2026-11-15T15:46:36.055728Z",
+  "description": "memd 调 ark 用的 Python HTTP 客户端",
+  "id": "ent_791ce3fa4861c30ef230",
+  "name": "httpx",
+  "space": "project/proj_649e5ae04ce8aed2e06f",
+  "sync_remote": true,
+  "type": "tool",
+  "updated_at": "2026-11-15T15:46:36.062422Z"
+}

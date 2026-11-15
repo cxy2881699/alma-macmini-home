@@ -1,0 +1,77 @@
+{
+  "actor": "claude-code@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-15T15:46:36.064604Z",
+  "id": "rev_75d37b32a48e130ce569",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "在本机 HTTP(S)_PROXY 未注入进程环境、系统代理监听 127.0.0.1:7897 的情况下成立",
+    "confidence": 0.72,
+    "content": "2026-11-15 排查 agent-memory 向量召回不可用时发现：在本机清除 HTTP_PROXY/HTTPS_PROXY 等代理变量后，httpx 直连 https://ark.cn-beijing.volces.com 会报 ConnectError；而走 127.0.0.1:7897 代理可以建立 CONNECT 隧道。因此该机器访问火山方舟 ark 需要经过代理，排查 memd 的 embedding 调用失败时要先确认进程环境里是否带有代理变量。",
+    "created_at": "2026-11-04T15:40:13.116000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6765feafdf26d52a94c3",
+      "ent_f26263c9722cf552a58d",
+      "ent_791ce3fa4861c30ef230"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_7f0ce0f47cc232c6e0e2",
+        "quote": "no-proxy FAIL: ConnectError",
+        "revision": 1,
+        "role": "tool"
+      },
+      {
+        "event_id": "evt_7f0ce0f47cc232c6e0e2",
+        "quote": "* Connected to 127.0.0.1 (127.0.0.1) port 7897",
+        "revision": 1,
+        "role": "tool"
+      },
+      {
+        "event_id": "evt_7f0ce0f47cc232c6e0e2",
+        "quote": "7897 open",
+        "revision": 1,
+        "role": "tool"
+      }
+    ],
+    "id": "mem_ee86728092356f36c534",
+    "is_temporary": false,
+    "keywords": [
+      "向量召回",
+      "embedding",
+      "ConnectError",
+      "ark",
+      "代理",
+      "7897",
+      "memd",
+      "httpx"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_649e5ae04ce8aed2e06f",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_7f0ce0f47cc232c6e0e2",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "claude-code@alma-test",
+    "space": "project/proj_649e5ae04ce8aed2e06f",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-15T15:46:36.064473Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ee86728092356f36c534",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

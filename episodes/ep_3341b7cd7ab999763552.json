@@ -7,7 +7,10 @@
     "ent_51b9c91560022845906c",
     "ent_1e8088308ba9691af4dc",
     "ent_ee47c2b3853ef9cc5da2",
-    "ent_2b5b63536b796d00dc7b"
+    "ent_2b5b63536b796d00dc7b",
+    "ent_6765feafdf26d52a94c3",
+    "ent_f26263c9722cf552a58d",
+    "ent_791ce3fa4861c30ef230"
   ],
   "follows": "",
   "goal": "弄清 agent-memory 如何区分不同 Agent 的对话、召回链路如何工作，并修复 deep_recall 的向量召回故障",
@@ -17,7 +20,8 @@
     "mem_c10de317cdb2ffe1db0b",
     "mem_33608ff06317fe4ddcec",
     "mem_77157547fb984d87503d",
-    "mem_0e27de236d5d6b4fe2c3"
+    "mem_0e27de236d5d6b4fe2c3",
+    "mem_ee86728092356f36c534"
   ],
   "outcome": "",
   "project_id": "proj_649e5ae04ce8aed2e06f",
@@ -35,9 +39,19 @@
       "quote": "还有,记忆你是以什么方法召回的",
       "revision": 1,
       "text": "用户追问如何区分每句话来自哪个 Agent、记忆以什么方式召回，Agent 从事件三元组、三层召回架构、各 Agent 接入量与 deep_recall 报错审计进行了完整说明"
+    },
+    {
+      "agent_id": "claude-code@alma-test",
+      "at": "2026-11-04T15:40:13.116000Z",
+      "event_id": "evt_7f0ce0f47cc232c6e0e2",
+      "kind": "attempt",
+      "order": 2,
+      "quote": "no-proxy FAIL: ConnectError",
+      "revision": 1,
+      "text": "排查向量召回不可用的原因：检查 memd 的 env 配置与日志、系统与进程代理变量、7897 等代理端口监听状态，并分别用直连和代理测试 ark 连通性，发现无代理直连报 ConnectError。"
     }
   ],
   "sync_remote": true,
   "title": "核查 agent-memory 跨 Agent 区分与召回链路及 deep_recall 故障",
-  "updated_at": "2026-11-04T15:39:58.069103Z"
+  "updated_at": "2026-11-15T15:46:36.058114Z"
 }
