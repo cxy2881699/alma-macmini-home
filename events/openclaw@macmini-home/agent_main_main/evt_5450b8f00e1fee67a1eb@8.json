@@ -1,0 +1,37 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "现在**真实对话队列基本清完了**：\n\n- 筛出的 **13 段真实对话**：✅ 12 段完成，🏃 最后 1 段正在跑\n- 等待中：**0**\n- 运行中：**1**\n- Alma 总记忆：**1958 条**，活跃 **1411 条**\n- 今天 Claude 的 CEO 讨论已整理出 **20 条记忆**\n\n刚才最后一条还是重启前留下的“假 running”，我已经重新排队，现在由新进程真正执行。\n\n至于界面还显示 **608 failed / 593 unprocessed**：主要是 11 月 4 日以来心跳、cron 产生的重复 revision，**不是没处理的真实聊天**，所以我没有拿它们批量重试烧额度。\n\n心跳/cron 的过滤代码也补了，**下次重启 OpenClaw Gateway 后生效**，不会再持续制造这种垃圾积压。",
+  "content_hash": "92cf433628a7e368dea2cc99701445f7230330edb20ff3f53235968dde76fc62",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_5450b8f00e1fee67a1eb",
+  "kind": "conversation",
+  "native_event_id": "bea21bb18d8aeb7b35f1bcd9",
+  "occurred_at": "2026-11-15T16:26:57.524000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-15T16:26:57.563863Z",
+  "revision": 8,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "memory_search",
+      "summary": "{\"query\":\"Alma 整理记忆 队列 PoolTimeout 重放 真实对话 2026-11-15\",\"maxResults\":4}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"printf '%s\\\\n' '=== status ==='; NO_PROXY='*' no_proxy='*' curl -sS --max-time 15 http://127.0.0.1:8790/v1/status > /tmp/alma-status-now.json; python3 - <<'PY'\\nimport json\\nx=json.load(open('/tmp/alma-status-now.json'))\\nprint(json.dumps({k:x[k] for k in ['ready','memories','active_memo"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"NO_PROXY='*' no_proxy='*' .alma-test/venv/bin/python - <<'PY'\\nfrom memhub.runtime import RuntimeStore\\nfrom pathlib import Path\\ns=RuntimeStore(Path('.alma-test/home/runtime.db'))\\ns.release_job('job_e865bf881122e83c3cb5')\\ns.close()\\nprint('stale job released to pending')\\nPY\\nsleep 65"
+    },
+    {
+      "name": "process",
+      "summary": "{\"action\":\"poll\",\"sessionId\":\"nimble-crustacean\",\"timeout\":80000,\"limit\":5000}"
+    }
+  ],
+  "turn_index": 5,
+  "user_text": "Conversation info (untrusted metadata):\n```json\n{\n  \"message_id\": \"om_x100b60a98bf938a4de839db85433d3d\",\n  \"sender_id\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"sender\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"timestamp\": \"Sun 2026-11-15 08:22 PST\"\n}\n```\n\nSender (untrusted metadata):\n```json\n{\n  \"label\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"id\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"name\": \"ou_e4a4036df049fc443a923af8b5110ebe\"\n}\n```\n\n[message_id: om_x100b60a98bf938a4de839db85433d3d]\nou_e4a4036df049fc443a923af8b5110ebe: 整理记忆的队列现在怎么样"
+}
