@@ -1,0 +1,52 @@
+{
+  "claim": "user_fact",
+  "conditions": "",
+  "confidence": 0.92,
+  "content": "用户对自用避摄像头导航的核心要求是硬约束：只接受“已知拍摄触发点为 0”的路线；如果找不到完全避开的路线，就明确放弃出行，不接受“尽量少经过摄像头”的降级方案；用户也希望尽可能借助合法小路绕行。",
+  "created_at": "2026-11-13T18:20:22.263000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3dbe5e3475b5f1f55a2c"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_9917db389b4c52e78629",
+      "quote": "做这个东西，核心目的就是我要到完全能避开的路，如果无法避开，那就不开了。",
+      "revision": 9,
+      "role": "user"
+    }
+  ],
+  "id": "mem_1ec71691b760154377b1",
+  "is_temporary": false,
+  "keywords": [
+    "避摄像头",
+    "硬约束",
+    "零触发",
+    "NO_CLEAR_ROUTE",
+    "路线导航",
+    "小路",
+    "GIS"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_9917db389b4c52e78629",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "decision",
+  "updated_at": "2026-11-15T15:47:56.064050Z",
+  "valid_to": null
+}

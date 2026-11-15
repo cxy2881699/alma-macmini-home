@@ -1,0 +1,14 @@
+{
+  "aliases": [
+    "进京证摄像头",
+    "点位"
+  ],
+  "created_at": "2026-11-15T15:47:56.059320Z",
+  "description": "已归档的进京证拍摄点位，需转成有向禁行规则",
+  "id": "ent_3dbe5e3475b5f1f55a2c",
+  "name": "摄像头",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "sync_remote": true,
+  "type": "concept",
+  "updated_at": "2026-11-15T15:47:56.060561Z"
+}
