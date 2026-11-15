@@ -50,9 +50,19 @@
       "quote": "就算是有路线，我肯定也得有类似地图导航的东西，才能开车时候使用",
       "revision": 7,
       "text": "用户指出只有路线不够，必须做成开车时可跟随使用的导航工具；Agent 据此提出原生 App 形态：自研严格路线计算与偏航重算，复用高德 SDK 只做地图显示、定位、POI 与离线地图，早期可导出 GPX 用 OsmAnd 试跑验证路线"
+    },
+    {
+      "agent_id": "openclaw@macmini-home",
+      "at": "2026-11-13T18:54:49.587000Z",
+      "event_id": "evt_338b43837473915f7ae8",
+      "kind": "note",
+      "order": 4,
+      "quote": "真的能做到么？ 需要花钱吗？ 准确度怎么样？",
+      "revision": 10,
+      "text": "用户对可行性、成本与准确度提出疑问；Agent 说明验证阶段可零成本，包括使用已获取的摄像头数据、开放的 OSM 路网数据、开源的 GraphHopper 和 PostGIS、现有 Mac mini 以及用 GPX 实车测试；主要成本是 iPhone 安装（Apple Developer 99 美元/年）、可选的 VPS 和人工校准，并提议先用 3 条常用路线和 100～200 个摄像头做零成本实车验证"
     }
   ],
   "sync_remote": true,
   "title": "设计避开摄像头的自用地图导航",
-  "updated_at": "2026-11-15T15:48:04.848580Z"
+  "updated_at": "2026-11-15T15:48:13.883778Z"
 }
