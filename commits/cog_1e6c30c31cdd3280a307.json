@@ -1,0 +1,18 @@
+{
+  "actor": "claude-code@alma-test",
+  "created_at": "2026-11-15T15:38:12.555844Z",
+  "episode_ids": [],
+  "event_refs": [
+    "evt_76ff379ba544328eea20@1"
+  ],
+  "id": "cog_1e6c30c31cdd3280a307",
+  "kind": "extract",
+  "memory_ids": [],
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v2",
+  "relation_ids": [],
+  "repository_head": "",
+  "revision_ids": [],
+  "summary": {},
+  "sync_remote": true
+}

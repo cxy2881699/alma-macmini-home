@@ -1,0 +1,14 @@
+{
+  "aliases": [
+    "awsb",
+    "Bedrock"
+  ],
+  "created_at": "2026-11-15T15:38:39.225850Z",
+  "description": "用户转售的 Claude 模型资源口径",
+  "id": "ent_06f1e3d7b146a040bdac",
+  "name": "awsb-claude",
+  "space": "project/proj_649e5ae04ce8aed2e06f",
+  "sync_remote": true,
+  "type": "tool",
+  "updated_at": "2026-11-15T15:38:39.241265Z"
+}

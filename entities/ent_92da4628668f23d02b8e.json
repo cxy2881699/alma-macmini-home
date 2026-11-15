@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "香港公司"
+  ],
+  "created_at": "2026-11-15T15:38:39.228646Z",
+  "description": "用户已开通的香港主体，用于收取美金与海外直采",
+  "id": "ent_92da4628668f23d02b8e",
+  "name": "香港升维引擎科技公司",
+  "space": "project/proj_649e5ae04ce8aed2e06f",
+  "sync_remote": true,
+  "type": "organization",
+  "updated_at": "2026-11-15T15:38:39.241735Z"
+}

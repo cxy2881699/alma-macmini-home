@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "Kingsoft Cloud"
+  ],
+  "created_at": "2026-11-15T15:38:39.229642Z",
+  "description": "用户最大的模型转售客户",
+  "id": "ent_b9c4fe508da4bee92ff3",
+  "name": "金山云",
+  "space": "project/proj_649e5ae04ce8aed2e06f",
+  "sync_remote": true,
+  "type": "organization",
+  "updated_at": "2026-11-15T15:38:39.241922Z"
+}

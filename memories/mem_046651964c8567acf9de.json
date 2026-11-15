@@ -1,0 +1,51 @@
+{
+  "claim": "user_fact",
+  "conditions": "",
+  "confidence": 0.95,
+  "content": "用户已开通香港公司「香港升维引擎科技公司」，并与金山云签订了香港公司的合作合同。",
+  "created_at": "2026-11-15T15:08:59.191000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_92da4628668f23d02b8e",
+    "ent_b9c4fe508da4bee92ff3"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_1a2f3643c0a96dbc8cfa",
+      "quote": "当前我已经开通了香港公司，香港升维引擎科技公司，也跟金山云签了香港公司的合作合同",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_046651964c8567acf9de",
+  "is_temporary": false,
+  "keywords": [
+    "香港公司",
+    "升维引擎",
+    "金山云",
+    "合同",
+    "HK"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_649e5ae04ce8aed2e06f",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_1a2f3643c0a96dbc8cfa",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "claude-code@alma-test",
+  "space": "project/proj_649e5ae04ce8aed2e06f",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-15T15:38:39.245546Z",
+  "valid_to": null
+}
