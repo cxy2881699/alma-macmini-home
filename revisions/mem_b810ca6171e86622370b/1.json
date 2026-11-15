@@ -1,0 +1,78 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": null,
+  "created_at": "2026-11-15T16:26:28.460080Z",
+  "id": "rev_39017f6a4b0d691f7dd8",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "在 Mac mini 上从 Cursor 内置终端启动 Claude Code 且 shell/Cursor 配置残留旧代理时成立。",
+    "confidence": 0.9,
+    "content": "2026-11-15 在 Mac mini 上排查 Claude Code（接入 cheaptokens.cn 第三方 API）报 \"API Error: Connection refused (ECONNREFUSED)\" 时，定位原因是：通过 Cursor 内置终端启动的 Claude Code 继承了失效代理环境变量 HTTP_PROXY/HTTPS_PROXY=http://127.0.0.1:8118、ALL_PROXY=socks5://127.0.0.1:8119，而这两个端口没有进程监听，请求在本机就被拒；直接在普通环境跑 claude -p 则正常，说明安装与第三方接口都可用。临时解法是在当前终端 unset 全部代理变量后重启 claude；永久解法是清掉 ~/.zshrc 第 7–14 行的旧代理和 Cursor 设置里的 http.proxy=127.0.0.1:8118，再完全退出重开 Cursor（已开的终端不会自动生效）。",
+    "created_at": "2026-11-15T15:08:15.115000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_51b9c91560022845906c",
+      "ent_1e8088308ba9691af4dc",
+      "ent_d3a0798d7ba2a1807d36",
+      "ent_f126b31e1cad6ab63262"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_2b308e81d106b76339c3",
+        "quote": "就是 Cursor 终端继承了失效代理",
+        "revision": 10,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_2b308e81d106b76339c3",
+        "quote": "所以 Claude 请求先撞到本机代理端口，直接 `ECONNREFUSED`",
+        "revision": 10,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_2b308e81d106b76339c3",
+        "quote": "第 7–14 行还在写死这套旧代理",
+        "revision": 10,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_b810ca6171e86622370b",
+    "is_temporary": false,
+    "keywords": [
+      "ECONNREFUSED",
+      "Connection refused",
+      "Cursor 终端",
+      "代理",
+      "8118",
+      "8119",
+      "http.proxy",
+      "Claude Code"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_2b308e81d106b76339c3",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@macmini-home",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-15T16:26:28.459878Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_b810ca6171e86622370b",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

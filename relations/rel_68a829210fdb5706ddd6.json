@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-11-15T16:26:28.454074Z",
+  "evidence": [
+    {
+      "event_id": "evt_2b308e81d106b76339c3",
+      "quote": "也写着 `127.0.0.1:8118`",
+      "revision": 10,
+      "role": "assistant"
+    }
+  ],
+  "id": "rel_68a829210fdb5706ddd6",
+  "object": "ent_b1d51f89b3518adf7781",
+  "predicate": "http.proxy 指向",
+  "source_agent": "openclaw@macmini-home",
+  "space": "user/shared",
+  "status": "active",
+  "subject": "ent_1e8088308ba9691af4dc",
+  "sync_remote": true,
+  "updated_at": "2026-11-15T16:26:28.454080Z",
+  "valid_from": "2026-11-15",
+  "valid_to": ""
+}
