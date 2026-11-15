@@ -31,9 +31,19 @@
       "quote": "我建议 Alma 下一步先做这个：",
       "revision": 21,
       "text": "Agent 完成原文研读与代码对照，产出研究笔记，并建议 Alma 下一步先实现 Dream Preview（对照原始对话纠错，只生成报告不改正式记忆）"
+    },
+    {
+      "agent_id": "openclaw@macmini-home",
+      "at": "2026-11-15T16:37:27.659000Z",
+      "event_id": "evt_4e24f0577847a60870d1",
+      "kind": "note",
+      "order": 2,
+      "quote": "Alma 下一步该补「Dream Preview：拿原始对话纠正记忆」，不是继续堆检索和记忆数量。",
+      "revision": 25,
+      "text": "用户仅回复「？」追问，Agent 重申研究结论并再次指出 Alma 下一步应优先补 Dream Preview（对照原始对话纠错），而非继续堆检索和记忆数量，并提出可将其拆成 PRD"
     }
   ],
   "sync_remote": true,
   "title": "研究 Anthropic 记忆组件文章并规划 Alma 纠错机制",
-  "updated_at": "2026-11-15T16:37:08.326441Z"
+  "updated_at": "2026-11-15T16:38:37.478877Z"
 }
