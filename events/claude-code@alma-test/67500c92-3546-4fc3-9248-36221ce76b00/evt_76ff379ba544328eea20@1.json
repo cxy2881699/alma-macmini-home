@@ -1,0 +1,20 @@
+{
+  "agent_id": "claude-code@alma-test",
+  "assistant_text": "",
+  "content_hash": "c14ae9bff0e234b1f7afefd28be19dde6e840efd23d99130218be7bec75de83e",
+  "cwd": "/Users/seancao/Desktop/项目文件夹/ceo-os",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_76ff379ba544328eea20",
+  "kind": "conversation",
+  "native_event_id": "983aed62-5d71-4805-9e0d-3367d00ba7d5",
+  "occurred_at": "2026-11-15T15:08:46.835000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_649e5ae04ce8aed2e06f",
+  "received_at": "2026-11-15T15:14:04.477982Z",
+  "revision": 1,
+  "session_id": "67500c92-3546-4fc3-9248-36221ce76b00",
+  "space": "project/proj_649e5ae04ce8aed2e06f",
+  "tools": [],
+  "turn_index": 0,
+  "user_text": "1"
+}
