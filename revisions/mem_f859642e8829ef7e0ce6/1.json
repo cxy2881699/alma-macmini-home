@@ -1,0 +1,61 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": null,
+  "created_at": "2026-11-15T16:27:13.168368Z",
+  "id": "rev_b56fd54ae39230aca196",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "查看 alma-memory-system 整理队列的 failed/unprocessed 计数时",
+    "confidence": 0.8,
+    "content": "Alma 记忆整理队列界面显示的大量 failed/unprocessed（当时为 608 failed / 593 unprocessed）主要来自 2026-11-04 以来心跳和 cron 产生的重复 revision，并非未处理的真实对话，不应把它们批量重试以免浪费额度。",
+    "created_at": "2026-11-15T16:26:57.524000Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_5450b8f00e1fee67a1eb",
+        "quote": "主要是 11 月 4 日以来心跳、cron 产生的重复 revision",
+        "revision": 8,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_f859642e8829ef7e0ce6",
+    "is_temporary": false,
+    "keywords": [
+      "Alma",
+      "整理队列",
+      "failed",
+      "unprocessed",
+      "心跳",
+      "cron",
+      "重复revision",
+      "重试"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_5450b8f00e1fee67a1eb",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@macmini-home",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-15T16:27:13.168204Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_f859642e8829ef7e0ce6",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

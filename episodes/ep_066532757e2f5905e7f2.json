@@ -1,0 +1,33 @@
+{
+  "entities": [
+    "ent_1c6b296bc5cb579536f2"
+  ],
+  "follows": "ep_641ba76b218150240702",
+  "goal": "确认 Alma 记忆整理队列的真实进度并清理垃圾积压",
+  "id": "ep_066532757e2f5905e7f2",
+  "memory_ids": [
+    "mem_f859642e8829ef7e0ce6",
+    "mem_0ba429b193754b32a2b0"
+  ],
+  "outcome": "",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "started_at": "2026-11-15T16:26:57.524000Z",
+  "status": "ongoing",
+  "steps": [
+    {
+      "agent_id": "openclaw@macmini-home",
+      "at": "2026-11-15T16:26:57.524000Z",
+      "event_id": "evt_5450b8f00e1fee67a1eb",
+      "kind": "note",
+      "order": 1,
+      "quote": "整理记忆的队列现在怎么样",
+      "revision": 8,
+      "text": "用户询问整理记忆队列状态；Agent 报 13 段真实对话 12 完成 1 运行中，释放重启前遗留的假 running 并重新排队，指出界面 failed/unprocessed 多为心跳/cron 重复 revision，已补过滤代码待重启 Gateway 生效"
+    }
+  ],
+  "sync_remote": true,
+  "title": "梳理 Alma 记忆整理队列状态",
+  "updated_at": "2026-11-15T16:27:13.166469Z"
+}
