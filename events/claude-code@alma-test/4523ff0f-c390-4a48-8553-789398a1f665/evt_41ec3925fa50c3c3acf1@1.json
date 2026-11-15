@@ -1,0 +1,20 @@
+{
+  "agent_id": "claude-code@alma-test",
+  "assistant_text": "OK",
+  "content_hash": "7612de8dbe8ee123cb316769e44adbd01a47e18e9a2b39def40dca8ba73e92f3",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_41ec3925fa50c3c3acf1",
+  "kind": "conversation",
+  "native_event_id": "4feca3da-94fd-416e-8c48-8efe2ae7cbd6",
+  "occurred_at": "2026-11-15T15:04:10.136000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-15T15:04:17.334662Z",
+  "revision": 1,
+  "session_id": "4523ff0f-c390-4a48-8553-789398a1f665",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [],
+  "turn_index": 0,
+  "user_text": "只回复 OK，不要调用任何工具。\nimport subprocess, os\ncmd=['claude','-p','只回复 OK，不要调用任何工具。','--output-format','json']\ntry:\n    p=subprocess.run(cmd,capture_output=True,text=True,timeout=120)\n    print('exit_code:',p.returncode)\n    print('stdout:',p.stdout[:5000])\n    print('stderr:',p.stderr[:5000])\nexcept subprocess.TimeoutExpired as e:\n    print('TIMEOUT after 120s')\n    print('stdout:',(e.stdout or b'')[:2000] if isinstance(e.stdout,bytes) else (e.stdout or '')[:2000])\n    print('stderr:',(e.stderr or b'')[:2000] if isinstance(e.stderr,bytes) else (e.stderr or '')[:2000])"
+}
