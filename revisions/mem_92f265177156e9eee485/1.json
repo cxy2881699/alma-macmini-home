@@ -1,0 +1,62 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": null,
+  "created_at": "2026-11-15T15:48:22.859238Z",
+  "id": "rev_aa010fdc55197c171185",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "针对该导航产品的 PRD 交付物。",
+    "confidence": 0.65,
+    "content": "用户要求摄像头避让导航产品的 PRD 写成功能性、非常详细的规格，能直接用于开发和验收，而不是概念性提纲；并要求交付可编辑的 Markdown 原文。",
+    "created_at": "2026-11-14T05:04:05.821000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3dbe5e3475b5f1f55a2c"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_8de792827bb4411d59ec",
+        "quote": "帮我写一份功能性的prd，要非常详细",
+        "revision": 11,
+        "role": "user"
+      }
+    ],
+    "id": "mem_92f265177156e9eee485",
+    "is_temporary": false,
+    "keywords": [
+      "PRD",
+      "功能性PRD",
+      "详细",
+      "可编辑",
+      "Markdown",
+      "验收",
+      "摄像头避让导航"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_8de792827bb4411d59ec",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@macmini-home",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "preference",
+    "updated_at": "2026-11-15T15:48:22.859078Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_92f265177156e9eee485",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
