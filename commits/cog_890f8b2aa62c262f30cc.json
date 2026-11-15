@@ -1,0 +1,27 @@
+{
+  "actor": "openclaw@macmini-home",
+  "created_at": "2026-11-15T15:48:04.854116Z",
+  "episode_ids": [
+    "ep_16feefad02ff06d98ef7"
+  ],
+  "event_refs": [
+    "evt_7a3e082cb335d48c2602@7"
+  ],
+  "id": "cog_890f8b2aa62c262f30cc",
+  "kind": "extract",
+  "memory_ids": [
+    "mem_53d1da8fd20b3d42d32a"
+  ],
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v2",
+  "relation_ids": [],
+  "repository_head": "",
+  "revision_ids": [
+    "rev_e98b818df47cba1344eb"
+  ],
+  "summary": {
+    "add": 1,
+    "episode": 1
+  },
+  "sync_remote": true
+}

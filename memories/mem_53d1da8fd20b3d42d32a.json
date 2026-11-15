@@ -1,0 +1,52 @@
+{
+  "claim": "user_fact",
+  "conditions": "",
+  "confidence": 0.88,
+  "content": "用户要求这个避开进京证摄像头的自用产品最终必须是开车时能实际跟着走的导航工具，而不只是算出一条路线交给用户；2026-11-13 用户明确提出需要有类似地图导航的东西才能在开车时使用。",
+  "created_at": "2026-11-13T18:40:56.054000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_f62f3e19f9f3988a19a9"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_7a3e082cb335d48c2602",
+      "quote": "就算是有路线，我肯定也得有类似地图导航的东西，才能开车时候使用",
+      "revision": 7,
+      "role": "user"
+    }
+  ],
+  "id": "mem_53d1da8fd20b3d42d32a",
+  "is_temporary": false,
+  "keywords": [
+    "导航App",
+    "地图导航",
+    "开车使用",
+    "产品形态",
+    "navigation",
+    "iOS",
+    "Android"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_7a3e082cb335d48c2602",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "decision",
+  "updated_at": "2026-11-15T15:48:04.851879Z",
+  "valid_to": null
+}

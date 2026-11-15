@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "导航"
+  ],
+  "created_at": "2026-11-15T15:48:04.847373Z",
+  "description": "开车时跟随使用的导航产品形态",
+  "id": "ent_f62f3e19f9f3988a19a9",
+  "name": "地图导航",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "sync_remote": true,
+  "type": "concept",
+  "updated_at": "2026-11-15T15:48:04.848683Z"
+}
