@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "进京证365"
+  ],
+  "created_at": "2026-11-15T15:46:53.312620Z",
+  "description": "提供进京证摄像头点位与违章截图查询的网站",
+  "id": "ent_208369f56bb8790445bd",
+  "name": "jjz365.cn",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "sync_remote": true,
+  "type": "tool",
+  "updated_at": "2026-11-15T15:46:53.316458Z"
+}
