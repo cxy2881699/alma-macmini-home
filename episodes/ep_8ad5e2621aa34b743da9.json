@@ -6,7 +6,8 @@
   "goal": "把 jjz365.cn 的公开点位详情、评论、违章截图与更新记录全量下载为本地归档",
   "id": "ep_8ad5e2621aa34b743da9",
   "memory_ids": [
-    "mem_4dea0db6633f966add02"
+    "mem_4dea0db6633f966add02",
+    "mem_043e6cadcb4b7679c154"
   ],
   "outcome": "",
   "project_id": "proj_44e381f71d50cb6ce0c0",
@@ -24,9 +25,19 @@
       "quote": "能否将这些数据都下载下来",
       "revision": 47,
       "text": "用户要求全量下载，Agent 以限速、断点续传方式启动全站 7006 点位的归档子任务"
+    },
+    {
+      "agent_id": "openclaw@macmini-home",
+      "at": "2026-11-13T17:20:41.696000Z",
+      "event_id": "evt_ed94b2eede47a01e4dbb",
+      "kind": "note",
+      "order": 2,
+      "quote": "点位完成：**2013 / 7006**，约 **28.7%**",
+      "revision": 15,
+      "text": "用户询问进度与是否会通知；Agent 查日志确认进程正常，点位完成 2013/7006（约 28.7%），已下 1928 张图片约 471MB，2 张图片失败待统一核验，预计剩余约 4 小时，并另挂完成监视子任务。"
     }
   ],
   "sync_remote": true,
   "title": "全量归档 jjz365.cn 摄像头数据",
-  "updated_at": "2026-11-15T15:46:53.316408Z"
+  "updated_at": "2026-11-15T15:47:01.798864Z"
 }
