@@ -15,6 +15,12 @@
       "quote": "当前我手中有大概100万可用资金，在国内的公司账户上",
       "revision": 1,
       "role": "user"
+    },
+    {
+      "event_id": "evt_3b84453f0a304eb12a4b",
+      "quote": "当前我手中有大概100万可用资金，在国内的公司账户上",
+      "revision": 1,
+      "role": "user"
     }
   ],
   "id": "mem_82d84d7c4bc437ff4647",
@@ -25,7 +31,9 @@
     "100万",
     "公司账户",
     "可用资金",
-    "cash"
+    "cash",
+    "国内公司账户",
+    "现金流"
   ],
   "layer": "memory",
   "level": 0,
@@ -39,13 +47,13 @@
       "type": "derived_from"
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "source_agent": "claude-code@alma-test",
   "space": "project/proj_649e5ae04ce8aed2e06f",
   "status": "active",
   "status_reason": "",
   "sync_remote": true,
   "type": "fact",
-  "updated_at": "2026-11-15T15:38:39.243856Z",
+  "updated_at": "2026-11-15T15:42:41.253163Z",
   "valid_to": null
 }

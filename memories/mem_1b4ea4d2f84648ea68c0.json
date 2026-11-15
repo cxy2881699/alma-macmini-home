@@ -17,6 +17,18 @@
       "quote": "现在opus 5.5这个模型的请求也停了，本月客户消费了99万人民币，并且会在下个月走香港支付给我美金，但是因为ttft不达标，所以暂停了请求",
       "revision": 1,
       "role": "user"
+    },
+    {
+      "event_id": "evt_3b84453f0a304eb12a4b",
+      "quote": "本月客户消费了99万人民币，并且会在下个月走香港支付给我美金",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_3b84453f0a304eb12a4b",
+      "quote": "因为ttft不达标，所以暂停了请求",
+      "revision": 1,
+      "role": "user"
     }
   ],
   "id": "mem_1b4ea4d2f84648ea68c0",
@@ -27,7 +39,10 @@
     "美金结算",
     "TTFT",
     "暂停请求",
-    "回款"
+    "回款",
+    "香港收款",
+    "请求暂停",
+    "金山云"
   ],
   "layer": "memory",
   "level": 0,
@@ -41,13 +56,13 @@
       "type": "derived_from"
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "source_agent": "claude-code@alma-test",
   "space": "project/proj_649e5ae04ce8aed2e06f",
   "status": "active",
   "status_reason": "",
   "sync_remote": true,
   "type": "event",
-  "updated_at": "2026-11-15T15:38:39.246614Z",
+  "updated_at": "2026-11-15T15:42:41.256142Z",
   "valid_to": null
 }

@@ -16,6 +16,12 @@
       "quote": "前我的供应商给我的模型价格是5折，我5.4折卖给金山云",
       "revision": 1,
       "role": "user"
+    },
+    {
+      "event_id": "evt_3b84453f0a304eb12a4b",
+      "quote": "前我的供应商给我的模型价格是5折，我5.4折卖给金山云",
+      "revision": 1,
+      "role": "user"
     }
   ],
   "id": "mem_bf9761fbd33b27230124",
@@ -26,7 +32,8 @@
     "毛利",
     "价差",
     "火豹",
-    "报价"
+    "报价",
+    "拿货价"
   ],
   "layer": "memory",
   "level": 0,
@@ -40,13 +47,13 @@
       "type": "derived_from"
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "source_agent": "claude-code@alma-test",
   "space": "project/proj_649e5ae04ce8aed2e06f",
   "status": "active",
   "status_reason": "",
   "sync_remote": true,
   "type": "fact",
-  "updated_at": "2026-11-15T15:38:39.245905Z",
+  "updated_at": "2026-11-15T15:42:41.255003Z",
   "valid_to": null
 }

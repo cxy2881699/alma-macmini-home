@@ -1,0 +1,69 @@
+{
+  "actor": "claude-code@alma-test",
+  "base_revision": 1,
+  "created_at": "2026-11-15T15:42:41.253270Z",
+  "id": "rev_7407847c78a4bebc2f40",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "资金规模为 2026-11-15 快照，会随采购充值和运营消耗变化",
+    "confidence": 0.9,
+    "content": "2026-11-15 时点，用户可动用资金约 100 万人民币，存放在国内公司账户。",
+    "created_at": "2026-11-15T15:08:59.191000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_13a7ceff9826166f66a5"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_1a2f3643c0a96dbc8cfa",
+        "quote": "当前我手中有大概100万可用资金，在国内的公司账户上",
+        "revision": 1,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_3b84453f0a304eb12a4b",
+        "quote": "当前我手中有大概100万可用资金，在国内的公司账户上",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_82d84d7c4bc437ff4647",
+    "is_temporary": true,
+    "keywords": [
+      "资金",
+      "现金",
+      "100万",
+      "公司账户",
+      "可用资金",
+      "cash",
+      "国内公司账户",
+      "现金流"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_649e5ae04ce8aed2e06f",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_1a2f3643c0a96dbc8cfa",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 2,
+    "source_agent": "claude-code@alma-test",
+    "space": "project/proj_649e5ae04ce8aed2e06f",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-15T15:42:41.253163Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_82d84d7c4bc437ff4647",
+  "policy_version": "extract-v2",
+  "reason": "确认",
+  "revision": 2
+}
