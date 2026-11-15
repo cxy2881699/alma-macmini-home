@@ -1,0 +1,64 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": null,
+  "created_at": "2026-11-15T15:49:20.533875Z",
+  "id": "rev_0f1929fcf9f5467bb934",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "基于 2026-11-13 快照，后续数据会随每周新增变化。",
+    "confidence": 0.85,
+    "content": "摄像头避让导航的数据源为 jjz365.cn 公开点位，2026-11-13 全站快照共 7006 个点位，其中进京证相关 6679 个；86.7% 为单一 cardinal 方向，9.1% 简单双向，其余为复杂/未知；坐标采用 GCJ-02，方向信息混在 Address 字段中。",
+    "created_at": "2026-11-14T05:20:42.228000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_208369f56bb8790445bd",
+      "ent_3dbe5e3475b5f1f55a2c",
+      "ent_c1230d7f007b72e69523"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_30488b65ded338ebccfd",
+        "quote": "2026-11-13 快照全站7006点，进京证相关6679点；86.7%为单 cardinal 方向",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_b8cf5c984d951e6ebd48",
+    "is_temporary": false,
+    "keywords": [
+      "jjz365",
+      "摄像头",
+      "快照",
+      "7006",
+      "GCJ-02",
+      "进京证",
+      "数据源"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_30488b65ded338ebccfd",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@macmini-home",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-15T15:49:20.533837Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_b8cf5c984d951e6ebd48",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

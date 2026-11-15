@@ -1,0 +1,53 @@
+{
+  "claim": "user_fact",
+  "conditions": "",
+  "confidence": 0.9,
+  "content": "用户要求严格模式对不确定数据一律保守：方向未知按双向封禁；道路匹配存在多个候选时全部封；位置待校准的摄像头相关路线不能标记为已验证安全（只能 UNVERIFIED），误封需靠人工校准释放。",
+  "created_at": "2026-11-14T05:20:42.228000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_3dbe5e3475b5f1f55a2c",
+    "ent_c1230d7f007b72e69523"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_30488b65ded338ebccfd",
+      "quote": "方向未知按双向；道路匹配有多个候选时全部封；位置待校准则路线不能称为已验证安全",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_f82351c1947e0da063b6",
+  "is_temporary": false,
+  "keywords": [
+    "严格模式",
+    "不确定",
+    "双向",
+    "多候选",
+    "待校准",
+    "UNVERIFIED",
+    "保守"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_30488b65ded338ebccfd",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "convention",
+  "updated_at": "2026-11-15T15:49:20.532300Z",
+  "valid_to": null
+}

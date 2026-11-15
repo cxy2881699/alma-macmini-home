@@ -1,0 +1,56 @@
+{
+  "claim": "user_fact",
+  "conditions": "技术倾向，尚未最终确认；首发平台、地图许可等仍为开放问题。",
+  "confidence": 0.85,
+  "content": "用户对该导航产品的技术倾向为 OSM 路网 + GraphHopper + PostGIS + FastAPI，手机端用 iOS/Android 原生 App（首发平台待定），高德仅用于地图显示/POI/定位，核心路线求算自研；这些是倾向而非已最终拍板的不可变更决策。",
+  "created_at": "2026-11-14T05:20:42.228000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_d80d5dad6222b22d5cea",
+    "ent_3e8b944fe6aa761f4d24",
+    "ent_8884b2bd754a4af49e1c",
+    "ent_69964c89796293a6f6c6",
+    "ent_8cafa124d6ed68336573"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_30488b65ded338ebccfd",
+      "quote": "技术倾向 OSM + GraphHopper + PostGIS + FastAPI；手机原生 iOS/Android",
+      "revision": 1,
+      "role": "user"
+    }
+  ],
+  "id": "mem_60c35887baf60c4f94c4",
+  "is_temporary": false,
+  "keywords": [
+    "OSM",
+    "GraphHopper",
+    "PostGIS",
+    "FastAPI",
+    "高德",
+    "原生App",
+    "技术栈"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_30488b65ded338ebccfd",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "decision",
+  "updated_at": "2026-11-15T15:49:20.533057Z",
+  "valid_to": null
+}

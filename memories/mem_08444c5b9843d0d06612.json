@@ -1,0 +1,56 @@
+{
+  "claim": "agent_action",
+  "conditions": "",
+  "confidence": 0.92,
+  "content": "2026-11-13 Agent 完成《清路导航》严格摄像头避让导航系统功能性 PRD v1.0，保存至 /Users/seancao/.openclaw/workspace/docs/prd/PRD-严格摄像头避让导航系统-v1.0.md，共 1,185 行、约 2.18 万汉字、26 个章节、20 条 FR、64 个验收测试用例。",
+  "created_at": "2026-11-14T05:20:42.228000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_60c87022862735e4c608"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_30488b65ded338ebccfd",
+      "quote": "1,185 行",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_30488b65ded338ebccfd",
+      "quote": "64 个可执行验收测试用例",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_08444c5b9843d0d06612",
+  "is_temporary": false,
+  "keywords": [
+    "PRD",
+    "清路导航",
+    "严格摄像头避让导航系统",
+    "文档",
+    "验收用例"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_30488b65ded338ebccfd",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-15T15:49:20.529720Z",
+  "valid_to": null
+}

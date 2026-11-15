@@ -1,0 +1,63 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": null,
+  "created_at": "2026-11-15T15:49:20.530784Z",
+  "id": "rev_a504914ab167a486651d",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "",
+    "confidence": 0.9,
+    "content": "用户要求摄像头限制按有向道路/转弯规则建模，而不是简单圆形禁行区：例如『北向南』只限制北向南方向、对向可通过；只封禁触发点前的必要短路段，不封整条街。",
+    "created_at": "2026-11-14T05:20:42.228000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_3dbe5e3475b5f1f55a2c",
+      "ent_c1230d7f007b72e69523"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_30488b65ded338ebccfd",
+        "quote": "摄像头不是简单圆形禁行区，而是有向道路/转弯规则",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_e4edaba16eb4e6c19652",
+    "is_temporary": false,
+    "keywords": [
+      "有向边",
+      "触发规则",
+      "短边",
+      "方向",
+      "cardinal",
+      "禁行区",
+      "turn restriction"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_30488b65ded338ebccfd",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@macmini-home",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "decision",
+    "updated_at": "2026-11-15T15:49:20.530735Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_e4edaba16eb4e6c19652",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
