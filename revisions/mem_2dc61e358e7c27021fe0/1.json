@@ -1,0 +1,63 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": null,
+  "created_at": "2026-11-15T16:37:08.335658Z",
+  "id": "rev_5671b6a6ca72dd7b228e",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "围绕 Alma 记忆系统的演进方向",
+    "confidence": 0.85,
+    "content": "用户认为 Anthropic 官网发布的《The components of agent memory》值得研究，希望用它对照参考 Alma 记忆系统的设计。",
+    "created_at": "2026-11-15T16:35:46.341000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_495ab30641241950fa62",
+      "ent_a7d3231c74a564c69ea6",
+      "ent_d470e82d81fd9b9a6747"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_2cd9eda335aff41ce844",
+        "quote": "这个是claude官网写的一个关于记忆的文章，我觉得可以研究一下",
+        "revision": 21,
+        "role": "user"
+      }
+    ],
+    "id": "mem_2dc61e358e7c27021fe0",
+    "is_temporary": false,
+    "keywords": [
+      "The components of agent memory",
+      "Anthropic",
+      "agent memory",
+      "记忆组件",
+      "Alma",
+      "研究"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_2cd9eda335aff41ce844",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@macmini-home",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-15T16:37:08.335511Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_2dc61e358e7c27021fe0",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

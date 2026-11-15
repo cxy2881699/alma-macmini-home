@@ -1,0 +1,53 @@
+{
+  "claim": "agent_action",
+  "conditions": "评估 Alma 记忆整理链路时",
+  "confidence": 0.8,
+  "content": "Agent 于 2026-11-15 对照 Anthropic《The components of agent memory》检查 Alma 代码后发现：Alma 的 consolidate 只读取 memories 和 episodes，没有系统性重读原始 SourceEvent/transcript，因此能发现记忆之间互相矛盾，却发现不了某条记忆在第一次提取时就写错了。",
+  "created_at": "2026-11-15T16:35:46.341000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_d470e82d81fd9b9a6747",
+    "ent_af1abdbd0539d220395d",
+    "ent_e656365edb519dbec72f"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_2cd9eda335aff41ce844",
+      "quote": "但它没有系统地重新读取 **原始 SourceEvent/transcript**。",
+      "revision": 21,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_60a4475c7b7371b7b9fd",
+  "is_temporary": false,
+  "keywords": [
+    "consolidate",
+    "SourceEvent",
+    "transcript",
+    "纠错",
+    "dreaming",
+    "Alma"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_2cd9eda335aff41ce844",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-11-15T16:37:08.338598Z",
+  "valid_to": null
+}

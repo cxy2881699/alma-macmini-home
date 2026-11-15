@@ -1,0 +1,68 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": null,
+  "created_at": "2026-11-15T16:37:08.339683Z",
+  "id": "rev_7df2281099a414f70a5f",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "该方案目前只是 Agent 的提议，用户尚未确认采纳",
+    "confidence": 0.8,
+    "content": "2026-11-15 Agent 研读了 Anthropic 2026-11-06 发布的《The components of agent memory》，把与 Alma 的对照分析和实施路线写入 docs/research/anthropic-components-of-agent-memory-2026-11-15.md，并建议 Alma 下一步先做 Dream Preview：输入当前记忆、最近原始对话和整理目标，输出带 event/revision 与逐字 evidence 的候选修正报告，先不改动正式记忆。",
+    "created_at": "2026-11-15T16:35:46.341000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_495ab30641241950fa62",
+      "ent_d470e82d81fd9b9a6747",
+      "ent_5e8a7fa4e8416173ec0c"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_2cd9eda335aff41ce844",
+        "quote": "别一上来搞大 wiki。先把“对照原文纠错”跑通，价值最大。",
+        "revision": 21,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_2cd9eda335aff41ce844",
+        "quote": "docs/research/anthropic-components-of-agent-memory-2026-11-15.md",
+        "revision": 21,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_ba96d6298df3ae7cacbb",
+    "is_temporary": false,
+    "keywords": [
+      "Dream Preview",
+      "研究笔记",
+      "anthropic-components-of-agent-memory",
+      "dreaming",
+      "Alma"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_2cd9eda335aff41ce844",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@macmini-home",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-11-15T16:37:08.339625Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ba96d6298df3ae7cacbb",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

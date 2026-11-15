@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "记忆组件文章"
+  ],
+  "created_at": "2026-11-15T16:37:08.299321Z",
+  "description": "Anthropic 官网关于 agent 记忆组件的文章",
+  "id": "ent_a7d3231c74a564c69ea6",
+  "name": "The components of agent memory",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "sync_remote": true,
+  "type": "concept",
+  "updated_at": "2026-11-15T16:37:08.328337Z"
+}
