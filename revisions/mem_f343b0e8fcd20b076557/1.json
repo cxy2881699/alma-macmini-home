@@ -1,0 +1,63 @@
+{
+  "actor": "claude-code@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-15T15:40:03.548296Z",
+  "id": "rev_73d2b3de96f6b92c7c3a",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "在涉及 Claude Opus 5.5 的 TTFT 要求时成立",
+    "confidence": 0.9,
+    "content": "供应商火豹提供的 Claude Opus 5.5 要满足 5 秒 TTFT 较难，因为火豹本身也是采购方而非最上游；TTFT 需由火豹侧解决，用户侧无法操作。该 5 秒 TTFT 要求只来自火豹的其中一个客户（并非金山的所有客户），coding 场景对 TTFT 要求不高。",
+    "created_at": "2026-11-15T15:23:05.909000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_4b569cad0d0e2e17bc9f",
+      "ent_b9c4fe508da4bee92ff3",
+      "ent_3f3d80a412ad0407fc7a"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_4814771a2446bb88accc",
+        "quote": "ttft是火豹来解决的,我们这边无法操作.但是火豹那边只是对于opus5.5有ttft要求(并且也只是其中一个客户,并非金山的所有客户),coding场景下对于ttft要求是不高的.",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_f343b0e8fcd20b076557",
+    "is_temporary": false,
+    "keywords": [
+      "TTFT",
+      "Opus 5.5",
+      "火豹",
+      "5秒",
+      "coding场景",
+      "延迟"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_649e5ae04ce8aed2e06f",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_4814771a2446bb88accc",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "claude-code@alma-test",
+    "space": "project/proj_649e5ae04ce8aed2e06f",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-15T15:40:03.548187Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_f343b0e8fcd20b076557",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

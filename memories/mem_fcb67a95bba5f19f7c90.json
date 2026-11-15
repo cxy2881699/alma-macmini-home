@@ -7,13 +7,20 @@
   "derived_from": [],
   "entities": [
     "ent_b9c4fe508da4bee92ff3",
-    "ent_06f1e3d7b146a040bdac"
+    "ent_06f1e3d7b146a040bdac",
+    "ent_4b569cad0d0e2e17bc9f"
   ],
   "epistemic": "explicit",
   "evidence": [
     {
       "event_id": "evt_161b6190f913328b0909",
       "quote": "金山云awsb-claude一个月大概有5000万-8000万人民币的水平，但是不会都给单一一家供应商，会分散风险。我估计核心供应商也就是3-5家",
+      "revision": 1,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_4814771a2446bb88accc",
+      "quote": "金山云整体盘子有5000-8000万,所以价格一旦够低,量会很大",
       "revision": 1,
       "role": "user"
     }
@@ -26,7 +33,9 @@
     "5000万",
     "8000万",
     "核心供应商",
-    "分散风险"
+    "分散风险",
+    "规模",
+    "供应商"
   ],
   "layer": "memory",
   "level": 0,
@@ -40,13 +49,13 @@
       "type": "derived_from"
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "source_agent": "claude-code@alma-test",
   "space": "project/proj_649e5ae04ce8aed2e06f",
   "status": "active",
   "status_reason": "",
   "sync_remote": true,
   "type": "fact",
-  "updated_at": "2026-11-15T15:39:05.515514Z",
+  "updated_at": "2026-11-15T15:40:03.554617Z",
   "valid_to": null
 }

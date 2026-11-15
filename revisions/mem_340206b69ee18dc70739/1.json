@@ -1,0 +1,60 @@
+{
+  "actor": "claude-code@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-15T15:40:03.551469Z",
+  "id": "rev_c28351a1e21481727b04",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "",
+    "confidence": 0.85,
+    "content": "用户与金山云之间可以按需通过邮件快速调整价格（例如市场整体价格升高时）。",
+    "created_at": "2026-11-15T15:23:05.909000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_b9c4fe508da4bee92ff3"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_4814771a2446bb88accc",
+        "quote": "如果市场上整体价格都升高,我可以跟金山通过邮件来快速改价格的.",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_340206b69ee18dc70739",
+    "is_temporary": false,
+    "keywords": [
+      "金山云",
+      "改价",
+      "邮件",
+      "价格",
+      "报价"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_649e5ae04ce8aed2e06f",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_4814771a2446bb88accc",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "claude-code@alma-test",
+    "space": "project/proj_649e5ae04ce8aed2e06f",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-15T15:40:03.551419Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_340206b69ee18dc70739",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

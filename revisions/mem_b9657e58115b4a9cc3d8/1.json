@@ -1,0 +1,63 @@
+{
+  "actor": "claude-code@alma-test",
+  "base_revision": null,
+  "created_at": "2026-11-15T15:40:03.554164Z",
+  "id": "rev_c40df05325727e179bba",
+  "memory": {
+    "claim": "user_fact",
+    "conditions": "按用户现行计划执行；Agent 提示该做法等同于单方面违约、有断供风险",
+    "confidence": 0.85,
+    "content": "用户的资金腾挪方案：给供应商回款时只付 75%，剩余 25% 用于自主采购更低价资源混入以提升利润，并在下个月还给供应商，相当于占用供应商约 250 万人民币（30 多万美元）的无息资金；因金山付款延迟约两个月且账期为一个月/次月月底结账，用户认为该 25% 操作需非常精确地计算时间差。",
+    "created_at": "2026-11-15T15:23:05.909000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_4b569cad0d0e2e17bc9f",
+      "ent_b9c4fe508da4bee92ff3"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_4814771a2446bb88accc",
+        "quote": "所以25%这个操作,要非常精确的计算时间差",
+        "revision": 1,
+        "role": "user"
+      }
+    ],
+    "id": "mem_b9657e58115b4a9cc3d8",
+    "is_temporary": false,
+    "keywords": [
+      "25%",
+      "资金腾挪",
+      "无息资金",
+      "占用",
+      "时间差",
+      "火豹",
+      "金山云"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_649e5ae04ce8aed2e06f",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_4814771a2446bb88accc",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "claude-code@alma-test",
+    "space": "project/proj_649e5ae04ce8aed2e06f",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "decision",
+    "updated_at": "2026-11-15T15:40:03.554143Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_b9657e58115b4a9cc3d8",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
