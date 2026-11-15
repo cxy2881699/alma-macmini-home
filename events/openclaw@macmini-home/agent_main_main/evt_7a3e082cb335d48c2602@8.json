@@ -1,0 +1,20 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "没挂，活着 🦐\n\n刚才一边补 Alma 队列，一边读 Anthropic 原文，回复慢了，我的锅。\n\n现在在线，你直接说。",
+  "content_hash": "130601c2e9367bf12b2d3fcd716c9dab60e44125a3c3ac76eefba6a2fdf2ca26",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_7a3e082cb335d48c2602",
+  "kind": "conversation",
+  "native_event_id": "64dfa0540038662322f785c7",
+  "occurred_at": "2026-11-15T16:38:53.942000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-15T16:38:53.985542Z",
+  "revision": 8,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [],
+  "turn_index": 9,
+  "user_text": "[Queued messages while agent was busy]\n\n---\nQueued #1\nConversation info (untrusted metadata):\n```json\n{\n  \"message_id\": \"om_x100b60a9babdf0a0c0b8371cd2d6e82\",\n  \"sender_id\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"sender\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"timestamp\": \"Sun 2026-11-15 08:35 PST\"\n}\n```\n\nSender (untrusted metadata):\n```json\n{\n  \"label\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"id\": \"ou_e4a4036df049fc443a923af8b5110ebe\",\n  \"name\": \"ou_e4a4036df049fc443a923af8b5110ebe\"\n}\n```\n\n[message_id: om_x100b60a9babdf0a0c0b8371cd2d6e82]\nou_e4a4036df049fc443a923af8b5110ebe: 你挂了？"
+}
