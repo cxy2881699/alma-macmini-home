@@ -1,0 +1,37 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "HEARTBEAT_OK",
+  "content_hash": "0fe3fb0ed58985bd252386dd1ccffb387bf7e2cb356eca6477a6ce1b1acea176",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_0ac1dfeef402b0cb3d20",
+  "kind": "conversation",
+  "native_event_id": "71cbd87e42020bb65745eede",
+  "occurred_at": "2026-11-16T05:03:11.234000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-16T05:03:11.275619Z",
+  "revision": 320,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/skills/self-reflection/SKILL.md\"}"
+    },
+    {
+      "name": "memory_search",
+      "summary": "{\"query\":\"2026-11-15 今日 重要事件 用户互动 项目 决策 心跳 反思\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"printf '%s\\\\n' '--- reflection ---'; cat memory/.last_reflection 2>/dev/null || true; printf '%s\\\\n' '--- today ---'; cat memory/2026-11-15.md 2>/dev/null || true; printf '%s\\\\n' '--- yesterday ---'; cat memory/2026-11-14.md 2>/dev/null || true; printf '%s\\\\n' '--- learnings counts ---';"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"tail -n 140 .learnings/LEARNINGS.md; printf '\\\\n--- errors ---\\\\n'; tail -n 60 .learnings/ERRORS.md\",\"workdir\":\"/Users/seancao/.openclaw/workspace\"}"
+    }
+  ],
+  "turn_index": 1,
+  "user_text": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nCurrent time: Sunday, November 15th, 2026 — 9:02 PM (America/Los_Angeles)"
+}
