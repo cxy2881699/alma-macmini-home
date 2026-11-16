@@ -61,9 +61,19 @@
       "quote": "可以创建一个定时脚本，每周跑一次，爬一下是否有新增点位，如果有，下载下来，并且通知我",
       "revision": 19,
       "text": "用户要求在归档基础上建立每周运行的增量任务，只检测并下载新增点位；Agent 创建了每周一北京时间 09:00 的 cron 任务，仅处理差集并在有新增时通知，实测基线 7006/7006 无新增"
+    },
+    {
+      "agent_id": "openclaw@macmini-home",
+      "at": "2026-11-16T01:00:22.109000Z",
+      "event_id": "evt_1063c2e2e0d3ea0f78d2",
+      "kind": "note",
+      "order": 5,
+      "quote": "python3 weekly_incremental.py",
+      "revision": 2,
+      "text": "2026-11-15 每周增量任务在 full-archive 目录执行，Agent 轮询进程后按状态规则只回复 NO_REPLY（无新增点位，未向用户发送通知）"
     }
   ],
   "sync_remote": true,
   "title": "全量归档 jjz365.cn 摄像头数据",
-  "updated_at": "2026-11-15T15:47:32.013042Z"
+  "updated_at": "2026-11-16T01:00:32.724235Z"
 }
