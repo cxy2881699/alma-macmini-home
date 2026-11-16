@@ -1,0 +1,25 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "HEARTBEAT_OK",
+  "content_hash": "9c334f6fcdc7ff2927ffa02e3d189a25826fbf7e995782bde57784cce6c35744",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_0ac1dfeef402b0cb3d20",
+  "kind": "conversation",
+  "native_event_id": "71cbd87e42020bb65745eede",
+  "occurred_at": "2026-11-16T13:03:02.508000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-16T13:03:02.550039Z",
+  "revision": 335,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"printf '%s\\\\n' '--- last reflection ---'; cat memory/.last_reflection 2>/dev/null || true; printf '%s\\\\n' '--- learning items ---'; find .learnings -maxdepth 1 -type f -print 2>/dev/null | sort; printf 'pending='; grep -RhiE '^\\\\s*[-*]*\\\\s*\\\\*?\\\\*?(status|状态)\\\\*?\\\\*?\\\\s*:\\\\s*pending|^\\\\s"
+    }
+  ],
+  "turn_index": 1,
+  "user_text": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nCurrent time: Monday, November 16th, 2026 — 5:02 AM (America/Los_Angeles)"
+}
