@@ -1,0 +1,59 @@
+{
+  "claim": "agent_action",
+  "conditions": "Brave 与百度搜索工具同时不可用、晨报 cron 触发时成立。",
+  "confidence": 0.9,
+  "content": "2026-11-16 北京时间 cron 晨报执行一次：Brave 仍缺 API key、百度搜索接口鉴权失败，web_search 不可用；Agent 改用官方文档/定价页、公开 RSS 和各站原文逐条核验降级产出晨报，搜不到实锤的条目不写，天气取 wttr.in，Watchlist 结果保存到 docs/watchlist-scan/2026-11-16.md，并单次投递未重复发送。",
+  "created_at": "2026-11-16T02:06:33.914000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_8af30aaf05c25f7a6c8a",
+    "ent_ce78bf334c2c4d063359"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_c45892b795cc2de04d64",
+      "quote": "搜索接口今天还是掉链子：Brave 缺 key、百度鉴权失败。",
+      "revision": 11,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_c45892b795cc2de04d64",
+      "quote": "本次仅准备一份正文，由cron自动回复单次投递，不调用message重复发送",
+      "revision": 11,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_e71651ee4ae4abbb569e",
+  "is_temporary": false,
+  "keywords": [
+    "晨报",
+    "morning-briefing",
+    "Brave",
+    "百度",
+    "搜索接口故障",
+    "降级核验",
+    "防重复"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c45892b795cc2de04d64",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-11-16T02:06:48.797743Z",
+  "valid_to": null
+}
