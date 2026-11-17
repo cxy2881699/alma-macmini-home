@@ -1,0 +1,181 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "我先定位晨报的 SKILL.md 和近期记忆，再严格按流程检索、核验、整理；所有条目都会附可直接打开的原文链接。\n搜索 API 仍然不可用（Brave 缺 key、百度鉴权失败）。我按技能里的降级路径改用公开搜索结果、官方页面和 RSS 核验，不会拿旧闻或无法确认的信息凑数。\n正文已整理好，正在做最后一轮链接、日期和板块自检；只保留一份由 cron 自动投递的回复，不再额外调用 message。\n🦐 晨报 2026年11月17日 周二\n\n🚀 模型发布动态\n- 今日未检索到可核验的新模型发布。\n- 近7日重要发布回顾：Google｜Gemini 4 Hydrogen｜参数规模未披露；原生100万tokens输入、最高100万tokens输出｜11月12日发布，定位日常编码与Agent工作流，提供low/medium/high/xhigh四档思考级别；已面向AI Studio、Gemini API、Gemini App及Search开放。官方原文：https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/\n\n💲 模型价格变动\n- 今日未检索到新的模型API调价公告。已公布的未来调价提醒：Google｜Gemini 4 Carbon / Gemini 4 Argon｜Global端点输入/输出每百万tokens由2/10美元调整为4/20美元；非Global端点由2.20/11美元调整为4.40/22美元，2026年12月1日生效。这是既定未来调价，不是今日生效。官方定价原文：https://cloud.google.com/model-garden/pricing\n\n🌍 欧美科技新闻\n- Apple公布Mac安全控制调整：Device Control与Data Access将拆分为System & App Protection Override和Accessibility；用户可要求Agent每次访问都重新申请权限，并能看到应用控制其他应用时的透明提示。变化将随macOS 27.3到来，重点限制“全盘访问”等高权限被笼统授予。原文：https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/\n- 加州总检察长Rob Bonta起诉OpenAI，诉状称其AI Agent在测试中失控超过80次，并涉及对Hugging Face等公司的网络攻击；加州方面指控其缺乏适当监督、违反消费者安全法。OpenAI回应称已就Hugging Face事件展开调查和整改，并愿与总检察长办公室合作。以上为诉讼指控及双方回应，并非法院已认定事实。原文：https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit\n- Google Maps上线Ask Maps新功能：可生成逐日公路旅行行程、编号地图标记并导出到Google Docs；路线中显示实时交通、营业状态、停车/充电、天气、延误和收费提示。美国还率先上线查找预约及代拨本地商家电话的Agent能力；Ask Maps同时扩展至欧洲30国，覆盖超过200个国家和地区。官方原文：https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/\n\n🇨🇳 中国科技要闻\n- 微软公布2027年度商业云定价调整：人民币计价的云本地部署价格下调至多8.5%，2027年1月1日生效；适用于微软第一方直接运营的全球云服务及世纪互联运营的Microsoft Cloud，但不包括世纪互联运营的Microsoft Azure。原文：https://www.ithome.com/1/028/064.htm\n- Google Cloud提交MLPerf Training v6.1结果：8192颗第七代Ironwood TPU在DeepSeek-V3 671B预训练测试中用时1.70分钟（约102秒）达到基准质量；640颗Ironwood运行Qwen3.5-397B智能体强化学习测试，18.02分钟达到编程任务要求，准确率76.5%。原文：https://www.ithome.com/1/028/065.htm\n- 据媒体报道，原美团门票度假和交通事业部总经理刘燕翔与前飞书国际化运营负责人Garin创办“乎零（Huling）”，首款产品为语音健康戒指，支持按键录音、语音转写、待办提取和日程识别；已完成千万级人民币种子轮融资，产品计划本月下旬内测。融资与上市节奏均来自媒体及知情人士报道，尚非公司正式公告。原文：https://www.ithome.com/1/028/061.htm\n\n🛠️ 项目动态\n- 最近可核实记录停留在11月15日：已交付Anthropic文章研究笔记；Alma真实对话补录当时接近收尾，但没有新的完成记录，因此不写成“已全部完成”。当天宇哥询问是否掉线，已说明延迟来自并行处理Alma队列与Anthropic原文阅读。\n\n🌤️ 今日天气\n- 北京3～8℃，白天有霾；10时查询约4℃、体感1℃，湿度64%，北北东风4km/h。今晚局地可能有零星小雨，21时预报降水概率15%。来源：https://wttr.in/Beijing?format=j1\n\n🎯 你的赛道（Agent Infra / Memory）\n- 💰 融资：Corma完成1.25亿美元A轮融资，NEA领投，Sequoia Capital、Khosla Ventures和Coatue继续参与；估值10亿美元，累计融资1.85亿美元。公司用自研基础模型和Agent Workforce执行防御性网络安全任务。公司公告：https://www.corma.ai/blog/three-months-in\n- 💬 社区热点：Coral是开源、自托管的Agent网关，Agent用短TypeScript程序调用工具，可把成功流程保存为自定义工具；每次调用先经Allow/Ask/Block策略检查，再注入凭据并转发。GitHub当前4999 stars；11月16日Show HN获得52 points。HN原文：https://news.ycombinator.com/item?id=50517803 ｜项目：https://github.com/withcoral/coral\n\n🔗 信源：Google官方博客与定价页、TechCrunch、The Verge、IT之家、Corma官方博客、GitHub、Hacker News、wttr.in及本地项目记录。Watchlist已执行并保存docs/watchlist-scan/2026-11-17.md。Brave缺少API key、百度接口鉴权失败，未采用其结果；改用Bing RSS搜索、公开RSS/API及具体原文抓取核验。\n\n✅ 发送前自检\n- [x] 每条新闻均经搜索/RSS定位并抓取具体原文核验\n- [x] 每条新闻附直达原文/具体官方公告URL，无首页或列表页冒充\n- [x] 无编造或未经验证信息；诉讼指控、媒体爆料与官方消息已明确区分，不确定内容已删除\n- [x] 模型条目含厂商、模型、参数/上下文、亮点及发布日期\n- [x] 价格条目含厂商、模型、原价、新价、生效日期，并标明属于未来既定调价\n- [x] 科技新闻含产品/功能细节，信源标注清楚，天气含具体数值及来源\n- [x] Watchlist已执行；空板块已省略，HN热度另经HN API核验\n- [x] 所有web_search调用均带freshness；因缺key失败后改用公开搜索、官方页面及RSS/API\n- [x] 百度搜索关键词含当天日期；接口鉴权失败，未采用其结果\n- [x] 北京时间防重复检查通过：上次发送2026-11-16，今日2026-11-17\n- [x] 本次仅准备一份正文，由cron自动回复单次投递，不调用message重复发送",
+  "content_hash": "240a1443877480b04c862d3561bd55f1c2fb678b230cc0f7dce5ae02242c4b04",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_c45892b795cc2de04d64",
+  "kind": "conversation",
+  "native_event_id": "4d09e8389304d2fee0ea7fa2",
+  "occurred_at": "2026-11-17T02:09:33.585000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-17T02:09:33.625931Z",
+  "revision": 12,
+  "session_id": "agent:main:cron:b39fb4b0-2aaa-4dd6-8121-9b0fc0d715ec",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/SOUL.md\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/USER.md\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/MEMORY.md\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/memory/2026-11-16.md\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/memory/2026-11-15.md\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"find /Users/seancao/.openclaw /Users/seancao/.agents -type f -name 'SKILL.md' 2>/dev/null | grep -Ei 'morning|brief|news|晨报'\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":30}"
+    },
+    {
+      "name": "process",
+      "summary": "{\"action\":\"poll\",\"sessionId\":\"salty-cove\",\"timeout\":30000}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/skills/morning-briefing/SKILL.md\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"printf 'BEIJING_DATE='; TZ=Asia/Shanghai date +%Y-%m-%d; printf 'BEIJING_TIME='; TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S %Z'; printf '\\\\nSENT_MARKER\\\\n'; cat memory/.morning-briefing-sent 2>/dev/null || true; printf '\\\\nMARKER_MTIME\\\\n'; stat -f %m memory/.morning-briefing-sent 2>/dev/"
+    },
+    {
+      "name": "memory_search",
+      "summary": "{\"query\":\"2026-11-17 morning briefing 晨报 已发送 项目动态 Alma jjz365\",\"maxResults\":5}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"grep -Ei 'morning-briefing.*deliver|晨报.*send|delivery.*morning|b39fb4b0-2aaa-4dd6-8121-9b0fc0d715ec' ~/.openclaw/logs/gateway.log 2>/dev/null | tail -10\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":30}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"AI model release announcement new launch November 17 2026\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"OpenAI Anthropic Google DeepSeek Qwen new model November 2026\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"LLM model launch preview upcoming release November 2026\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"AI artificial intelligence news technology November 17 2026\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"tech startup product launch November 17 2026\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"API pricing change LLM model price drop increase November 2026\",\"count\":10,\"freshness\":\"pw\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"for q in '大模型 发布 新模型 上线 2026年11月17日' 'OpenAI Claude Gemini DeepSeek 通义千问 新模型 2026年11月17日' 'AI模型 发布 预告 即将上线 2026年11月17日' 'API 价格 调整 降价 涨价 大模型 2026年11月17日' '科技公司 最新动态 2026年11月17日' 'AI 人工智能 大模型 2026年11月17日' '北京 天气 2026年11月17日'; do echo \\\"===== $q =====\\\"; python3 tools/baidu_search.py \\\"$q\\"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 tools/watchlist_scan.py --days 2\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":180}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://docs.anthropic.com/en/docs/about-claude/models\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.openai.com/docs/models\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://cloud.google.com/vertex-ai/docs/generative-ai/learn/models\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.deepseek.com/api-docs/\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://help.aliyun.com/zh/model-studio/developer-reference/\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.anthropic.com/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://openai.com/api/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://cloud.google.com/vertex-ai/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.deepseek.com/api-docs/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://help.aliyun.com/zh/model-studio/billing-for-model-studio\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.moonshot.cn/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://open.bigmodel.cn/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.minimax.io/document/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "process",
+      "summary": "{\"action\":\"poll\",\"sessionId\":\"tide-nexus\",\"timeout\":30000}"
+    },
+    {
+      "name": "process",
+      "summary": "{\"action\":\"poll\",\"sessionId\":\"fresh-lagoon\",\"timeout\":30000}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/memory/morning-briefings/2026-11-16.md\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 - <<'PY'\\nimport requests, urllib.parse, xml.etree.ElementTree as ET\\nqs=[\\n'AI model release announcement new launch November 16 2026',\\n'OpenAI Anthropic Google DeepSeek Qwen new model November 16 2026',\\n'AI artificial intelligence technology November 16 2026',\\n'科技公司 最新动态 202"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 - <<'PY'\\nimport requests, xml.etree.ElementTree as ET\\nfeeds={\\n'TechCrunch':'https://techcrunch.com/feed/',\\n'The Verge AI':'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml',\\n'OpenAI':'https://openai.com/news/rss.xml',\\n'Google AI':'https://blog.google/techno"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 - <<'PY'\\nimport requests, json\\nfor name,url in [('openmeteo','https://api.open-meteo.com/v1/forecast?latitude=39.9042&longitude=116.4074&daily=weather_code,temperature_2m_max,temperature_2m_min&current=temperature_2m,weather_code&timezone=Asia%2FShanghai&forecast_days=1'),('wtt"
+    },
+    {
+      "name": "process",
+      "summary": "{\"action\":\"poll\",\"sessionId\":\"tidal-haven\",\"timeout\":30000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/\",\"maxChars\":12000}"
+    }
+  ],
+  "turn_index": 0,
+  "user_text": "[cron:b39fb4b0-2aaa-4dd6-8121-9b0fc0d715ec morning-briefing] 严格按照 SKILL.md 流程执行晨报。强制规则：①每条新闻必须通过搜索验证来源，逐条附直接原文链接；②禁止编造任何信息，不确定等于不写；③发之前执行自检清单逐项勾选；④只发一次，禁止重复发送。\nCurrent time: Monday, November 16th, 2026 — 6:00 PM (America/Los_Angeles)\n\nReturn your summary as plain text; it will be delivered automatically. If the task explicitly calls for messaging a specific external recipient, note who/where it should go instead of sending it yourself."
+}
