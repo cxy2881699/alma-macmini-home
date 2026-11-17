@@ -1,0 +1,71 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": null,
+  "created_at": "2026-11-17T02:09:55.062494Z",
+  "id": "rev_a16eed484a6b6fcc10c1",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "在晨报类需要联网核验来源的任务中成立，直到 Brave key 与百度鉴权被修复。",
+    "confidence": 0.9,
+    "content": "晨报检索阶段的搜索工具故障仍在持续：Brave 因缺 API key、百度搜索因鉴权失败而不可用（至少持续到 2026-11-17 晨报）；Agent 改用 Bing RSS 搜索、官方页面、公开 RSS/API 与具体原文抓取核验，晨报仍能完成交付。",
+    "created_at": "2026-11-17T02:09:33.585000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_8af30aaf05c25f7a6c8a",
+      "ent_ce78bf334c2c4d063359",
+      "ent_2e3bdc4de708d308de71"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_c45892b795cc2de04d64",
+        "quote": "搜索 API 仍然不可用（Brave 缺 key、百度鉴权失败）。我按技能里的降级路径改用公开搜索结果、官方页面和 RSS 核验",
+        "revision": 12,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_c45892b795cc2de04d64",
+        "quote": "改用Bing RSS搜索、公开RSS/API及具体原文抓取核验",
+        "revision": 12,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_f9907c1d7fa335a5c186",
+    "is_temporary": false,
+    "keywords": [
+      "Brave",
+      "百度搜索",
+      "API key",
+      "鉴权失败",
+      "降级",
+      "Bing RSS",
+      "晨报",
+      "来源核验"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_c45892b795cc2de04d64",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@macmini-home",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-17T02:09:55.062332Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_f9907c1d7fa335a5c186",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

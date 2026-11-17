@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "Bing RSS"
+  ],
+  "created_at": "2026-11-17T02:09:55.057950Z",
+  "description": "降级使用的公开搜索来源",
+  "id": "ent_2e3bdc4de708d308de71",
+  "name": "Bing",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "sync_remote": true,
+  "type": "tool",
+  "updated_at": "2026-11-17T02:09:55.060548Z"
+}

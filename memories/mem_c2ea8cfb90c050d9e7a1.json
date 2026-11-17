@@ -1,0 +1,55 @@
+{
+  "claim": "agent_action",
+  "conditions": "2026-11-17 早上 cron 触发的晨报执行。",
+  "confidence": 0.85,
+  "content": "2026-11-17（北京时间）cron 晨报任务按 SKILL.md 执行并只投递一次，含模型发布回顾、未来调价提醒、欧美与中国科技新闻、天气及 Agent Infra 赛道动态；Watchlist 结果保存到 docs/watchlist-scan/2026-11-17.md。",
+  "created_at": "2026-11-17T02:09:33.585000Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_c45892b795cc2de04d64",
+      "quote": "🦐 晨报 2026年11月17日 周二",
+      "revision": 12,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_c45892b795cc2de04d64",
+      "quote": "Watchlist已执行并保存docs/watchlist-scan/2026-11-17.md",
+      "revision": 12,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_c2ea8cfb90c050d9e7a1",
+  "is_temporary": false,
+  "keywords": [
+    "晨报",
+    "cron",
+    "2026-11-17",
+    "Watchlist",
+    "自检",
+    "单次投递"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c45892b795cc2de04d64",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-17T02:09:55.065899Z",
+  "valid_to": null
+}
