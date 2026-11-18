@@ -1,0 +1,20 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "",
+  "content_hash": "f59b7d209d16c2a27684af46ddde8407f0bb7c8ba630193d2f90df1bbcf3ad6b",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_7c9210bd13dfdb6eacd6",
+  "kind": "conversation",
+  "native_event_id": "13d6f1653d6c962319eaf49e",
+  "occurred_at": "2026-11-18T09:07:33.012000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-18T09:07:33.052525Z",
+  "revision": 2,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [],
+  "turn_index": 42,
+  "user_text": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nCurrent time: Wednesday, November 18th, 2026 — 1:06 AM (America/Los_Angeles)"
+}
