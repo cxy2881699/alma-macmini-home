@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "能源"
+  ],
+  "created_at": "2026-11-19T17:43:53.840106Z",
+  "description": "作为类比参照的历史能源产业",
+  "id": "ent_6783158cd75490f503b9",
+  "name": "电力",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "concept",
+  "updated_at": "2026-11-19T17:43:53.863332Z"
+}

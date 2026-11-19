@@ -1,0 +1,59 @@
+{
+  "claim": "user_instruction",
+  "conditions": "",
+  "confidence": 0.9,
+  "content": "用户委托 Agent 系统梳理电力这种能源出现之后全球电力市场的发展脉络，并延伸到各行各业的变化，覆盖经济、政治、生产、人类生活等大维度，以及战争、金融、制造等行业和电力本身催生的全新行业，用于类比和判断 AI 算力/token 生意。",
+  "created_at": "2026-11-19T17:40:29.036000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_6783158cd75490f503b9",
+    "ent_d0e5824a00142e18beb9",
+    "ent_d986b14027db79d4a11c"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_af449f4b8b4853f75f65",
+      "quote": "帮我收集一下在电力这种能源出现之后，全球的电力市场是如何发展的",
+      "revision": 10,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_af449f4b8b4853f75f65",
+      "quote": "从经济、政治、生产、人类生活等大的维度，再到战争、金融、制造等行业，或者是电力本身催生出来的全新的行业",
+      "revision": 10,
+      "role": "user"
+    }
+  ],
+  "id": "mem_dd1910f802cbe9c34054",
+  "is_temporary": false,
+  "keywords": [
+    "电力史",
+    "电力市场",
+    "产业变革",
+    "能源",
+    "AI类比",
+    "研究报告"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_af449f4b8b4853f75f65",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "todo",
+  "updated_at": "2026-11-19T17:43:53.865584Z",
+  "valid_to": null
+}

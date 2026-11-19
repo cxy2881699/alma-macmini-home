@@ -1,0 +1,61 @@
+{
+  "claim": "user_fact",
+  "conditions": "",
+  "confidence": 0.85,
+  "content": "用户计划要做一件大事，方向仍是 AI、算力、token 相关的生意；在动手之前，用户希望先研究电力出现之后的历史，从中总结出可用于理解 AI 这门生意的经验。",
+  "created_at": "2026-11-19T17:40:29.036000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_fb3c625ad9092049b0d5",
+    "ent_d986b14027db79d4a11c",
+    "ent_d0e5824a00142e18beb9",
+    "ent_6783158cd75490f503b9"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_af449f4b8b4853f75f65",
+      "quote": "我要干一件大事，还是ai、算力、token这门生意，但是干这件事情之前，我想了解一下历史",
+      "revision": 10,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_af449f4b8b4853f75f65",
+      "quote": "我的目的是从电力的发展中学习一些经验，来看透ai这件事情",
+      "revision": 10,
+      "role": "user"
+    }
+  ],
+  "id": "mem_90d6f2ef61ae7304f605",
+  "is_temporary": false,
+  "keywords": [
+    "AI",
+    "算力",
+    "token",
+    "电力史",
+    "能源",
+    "创业计划",
+    "类比研究"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_af449f4b8b4853f75f65",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-19T17:43:53.864373Z",
+  "valid_to": null
+}

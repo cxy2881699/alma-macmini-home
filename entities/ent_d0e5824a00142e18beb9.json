@@ -1,0 +1,11 @@
+{
+  "aliases": [],
+  "created_at": "2026-11-19T17:43:53.826412Z",
+  "description": "生意中的计量与计价单位",
+  "id": "ent_d0e5824a00142e18beb9",
+  "name": "token",
+  "space": "user/shared",
+  "sync_remote": true,
+  "type": "concept",
+  "updated_at": "2026-11-19T17:43:53.862852Z"
+}
