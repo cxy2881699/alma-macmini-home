@@ -1,0 +1,25 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "HEARTBEAT_OK",
+  "content_hash": "faa36ca032dea29f48360d240e269e95e377a20edb5b91c804f0ad46688a1200",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_f4f7d5d4553144be2b8f",
+  "kind": "conversation",
+  "native_event_id": "bdab6ba82f251a26a0c4ff5b",
+  "occurred_at": "2026-11-20T07:38:44.545000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-20T07:38:44.585944Z",
+  "revision": 21,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"printf '%s\\\\n' '--- last reflection ---'; cat memory/.last_reflection 2>/dev/null || true; printf '%s\\\\n' '--- today ---'; cat memory/2026-11-19.md 2>/dev/null || true; printf '%s\\\\n' '--- yesterday ---'; cat memory/2026-11-18.md 2>/dev/null || true; printf '%s\\\\n' '--- pending learning "
+    }
+  ],
+  "turn_index": 17,
+  "user_text": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nCurrent time: Thursday, November 19th, 2026 — 11:38 PM (America/Los_Angeles)"
+}
