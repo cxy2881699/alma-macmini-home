@@ -1,0 +1,33 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "HEARTBEAT_OK",
+  "content_hash": "30a4c01bbd9ec8812bb119ca8036d6d5d55c70ee744f2cf11006cd3959c7b4e4",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_0ac1dfeef402b0cb3d20",
+  "kind": "conversation",
+  "native_event_id": "71cbd87e42020bb65745eede",
+  "occurred_at": "2026-11-20T14:08:26.783000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-20T14:08:26.824201Z",
+  "revision": 376,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "read",
+      "summary": "{\"limit\":20,\"path\":\"/Users/seancao/.openclaw/workspace/memory/.last_reflection\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"limit\":300,\"path\":\"/Users/seancao/.openclaw/workspace/memory/2026-11-20.md\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 - <<'PY'\\nfrom pathlib import Path\\nimport re\\np=Path('.learnings/LEARNINGS.md')\\ntext=p.read_text(errors='replace') if p.exists() else ''\\nentries=re.findall(r'(?ms)^##?\\\\s+.*?(?:LRN|ERR)-\\\\d{8}-\\\\d{3}.*?(?=^##?\\\\s+|\\\\Z)',text)\\npending=[b for b in entries if re.search(r'(?:\\\\*\\"
+    }
+  ],
+  "turn_index": 1,
+  "user_text": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nCurrent time: Friday, November 20th, 2026 — 6:08 AM (America/Los_Angeles)"
+}
