@@ -1,0 +1,57 @@
+{
+  "claim": "user_instruction",
+  "conditions": "适用于让 subagent 一次性产出长篇研究底稿的场景。",
+  "confidence": 0.6,
+  "content": "Agent 执行 electricity-history-research 这个 subagent 任务时，运行满 10 分钟被判定 timed out，返回的报告在「1907—1945 规模扩张」一节中途被截断；说明长报告类研究任务不能依赖单次 subagent 输出完整交付，需要分章节落盘或拆分成多个子任务。",
+  "created_at": "2026-11-20T01:35:05.459000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_5f25b0543702a0f1a038"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_38afa5f9bfe1a4f66ff2",
+      "quote": "status: timed out",
+      "revision": 8,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_38afa5f9bfe1a4f66ff2",
+      "quote": "Stats: runtime 10m0s • tokens 101.5k (in 83.6k / out 17.9k)",
+      "revision": 8,
+      "role": "user"
+    }
+  ],
+  "id": "mem_21cbdf4bcff6284b50e9",
+  "is_temporary": false,
+  "keywords": [
+    "subagent",
+    "timed out",
+    "超时",
+    "截断",
+    "长报告",
+    "research"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_38afa5f9bfe1a4f66ff2",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-11-20T01:35:23.403639Z",
+  "valid_to": null
+}

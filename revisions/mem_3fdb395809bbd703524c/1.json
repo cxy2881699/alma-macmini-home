@@ -1,0 +1,66 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": null,
+  "created_at": "2026-11-20T01:35:23.402576Z",
+  "id": "rev_19c4475488b0c34811d2",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "",
+    "confidence": 0.85,
+    "content": "2026-11-19，Agent 完成全球电力产业史研究底稿（时间范围 19 世纪末至 2025 年，按【事实】/【解释】/【AI 映射】分层标注），写入 research/ELECTRICITY-TO-AI-2026-11-20.md，并通过飞书发送 Markdown 原文与六条核心结论。",
+    "created_at": "2026-11-20T01:35:05.459000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_6783158cd75490f503b9",
+      "ent_d986b14027db79d4a11c",
+      "ent_d0e5824a00142e18beb9",
+      "ent_fb3c625ad9092049b0d5",
+      "ent_5085b9a98f3f9d33d2e8",
+      "ent_bca4c5922c18c122d8bd"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_38afa5f9bfe1a4f66ff2",
+        "quote": "完整报告已写入 `research/ELECTRICITY-TO-AI-2026-11-20.md`",
+        "revision": 8,
+        "role": "tool"
+      }
+    ],
+    "id": "mem_3fdb395809bbd703524c",
+    "is_temporary": false,
+    "keywords": [
+      "电力史",
+      "电力产业史",
+      "ELECTRICITY-TO-AI",
+      "研究底稿",
+      "飞书交付",
+      "AI 映射"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_38afa5f9bfe1a4f66ff2",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@macmini-home",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-11-20T01:35:23.402492Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_3fdb395809bbd703524c",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
