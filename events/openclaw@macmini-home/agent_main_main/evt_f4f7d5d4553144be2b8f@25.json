@@ -1,0 +1,29 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "HEARTBEAT_OK",
+  "content_hash": "0304ada4bea69a3215a169c5142c38775eadbf9bedd53854c16249d9a6a42dfb",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_f4f7d5d4553144be2b8f",
+  "kind": "conversation",
+  "native_event_id": "bdab6ba82f251a26a0c4ff5b",
+  "occurred_at": "2026-11-20T09:38:44.393000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-20T09:38:44.432615Z",
+  "revision": 25,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"printf '%s\\\\n' '--- last reflection ---'; cat memory/.last_reflection 2>/dev/null || true; printf '%s\\\\n' '--- today ---'; cat memory/2026-11-20.md 2>/dev/null || true; printf '%s\\\\n' '--- yesterday ---'; tail -80 memory/2026-11-19.md 2>/dev/null || true; printf '%s\\\\n' '--- learnings fi"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 - <<'PY'\\nimport re\\nfrom pathlib import Path\\np=Path('.learnings/LEARNINGS.md')\\ns=p.read_text() if p.exists() else ''\\nentries=re.split(r'(?=^##?\\\\s+\\\\[?(?:LRN|ERR)-)',s,flags=re.M)\\npending=[]\\nfor e in entries:\\n    if re.search(r'\\\\bstatus\\\\s*[:：]\\\\s*pending\\\\b|\\\\*\\\\*状态\\\\*\\\\"
+    }
+  ],
+  "turn_index": 17,
+  "user_text": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nCurrent time: Friday, November 20th, 2026 — 1:38 AM (America/Los_Angeles)"
+}
