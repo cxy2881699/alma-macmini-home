@@ -1,0 +1,68 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": null,
+  "created_at": "2026-11-21T02:09:23.250506Z",
+  "id": "rev_405527fd24d4ac63c3a0",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "cron 触发的 morning-briefing 晨报任务，且搜索接口部分不可用。",
+    "confidence": 0.9,
+    "content": "2026-11-21 北京时间晨报（cron morning-briefing）执行一次：Agent 按 SKILL.md 逐条核验来源并附直达原文链接，完成发送前自检，中文搜索接口鉴权失败时未用无法核实的内容补写，仅在今日此前未发送的情况下向宇哥飞书交付一次。",
+    "created_at": "2026-11-21T02:09:08.548000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_c40fcc1d8ece988ca353"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_c45892b795cc2de04d64",
+        "quote": "发送前自检已完成：入选条目均核验来源并附直达链接；不确定内容已剔除或明确限定",
+        "revision": 15,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_c45892b795cc2de04d64",
+        "quote": "今日无重大更新。中文搜索接口鉴权失败，未用无法核实的内容填充。",
+        "revision": 15,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_1828a2d05d60a6c60095",
+    "is_temporary": false,
+    "keywords": [
+      "晨报",
+      "morning-briefing",
+      "cron",
+      "自检",
+      "飞书",
+      "来源核验",
+      "鉴权失败"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_c45892b795cc2de04d64",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@macmini-home",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-11-21T02:09:23.250213Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_1828a2d05d60a6c60095",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
