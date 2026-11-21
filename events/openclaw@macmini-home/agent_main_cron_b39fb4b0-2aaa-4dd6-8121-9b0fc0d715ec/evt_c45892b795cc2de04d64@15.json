@@ -1,0 +1,181 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "已完成逐条来源核验；搜索接口异常的部分不补写、不猜测，只保留能打开并核对正文的条目。\n🦐 晨报 2026年11月21日 周六\n\n🚀 模型发布动态\n今日无新发布；以下为近7天重要发布：\n\n1. Google DeepMind｜Gemini 4 Neon｜100万 token 上下文\n面向复杂软件工程、知识工作和科学流程，强调快速端到端任务完成。API 定价：输入 $3/百万 token、缓存输入 $0.15/百万 token、输出 $15/百万 token；11月18日开始开放。\n原文：https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/\n\n2. Google DeepMind｜Genie 4｜世界模型\n11月18日随新版 Project Genie 向符合条件的 Google AI Ultra 用户开放。支持探索过程中用自然语言实时修改环境，并加入随场景变化的实时原生音频。\n原文：https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/\n\n💲 模型价格变动\n\nDeepSeek｜模型调用触发的服务端搜索与网页抓取工具：按次收费 → 不再单独收费。返回结果并入模型上下文，按 token 计费；2026年11月18日12:00（北京时间）生效。\n注意：独立 Search API / Fetch API 仍按 $0.75/1000次成功请求收费，别和模型内置工具计费混淆。\n原文：https://api-docs.deepseek.com/quick_start/pricing/\n\n🌍 欧美科技新闻\n\n1. OpenAI 发布药化学推理基准 MedChemBench\n包含99道题，素材来自117篇论文和专利、761种分子结构，考察结构重建、证据解释、候选化合物排序与性质预测。\n原文：https://openai.com/index/introducing-medchembench/\n\n2. Google 公布智能家居迁移时间表\nNest App 计划于2027年1月25日停用；2027年8月2日，Gemini for Home 将取代智能音箱和智能屏上的 Google Assistant。\n原文：https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down\n\n3. 特朗普提出海外数据中心税收威胁\n他公开表示，拟对美国企业在海外建设数据中心征收“巨额税”，但尚未公布税率或实施机制。目前只能确认公开表态，不能当成已落地政策。\n原文：https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax\n\n🇨🇳 中国科技要闻\n\n今日无重大更新。中文搜索接口鉴权失败，未用无法核实的内容填充。\n\n🛠️ 项目动态\n\n“全球电力百年史 → AI/算力/Token”研究报告已于11月19日交付，原文保存在 research/ELECTRICITY-TO-AI-2026-11-20.md。\n核心判断：通用技术价值来自系统重组；需求增长不等于上游资本回报；重资产应绑定真实负荷；价值会从 token 计量转向可靠任务结果。报告反馈及下一步决策尚待确认。\n\n🌤️ 今日天气\n\n北京：晴，-0.4～5.3℃；10:00 当前约2.6℃，今日降水概率最高0%。\n数据源：https://api.open-meteo.com/v1/forecast?latitude=39.9042&longitude=116.4074&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weather_code&current=temperature_2m,weather_code&timezone=Asia%2FShanghai&forecast_days=1\n\n🎯 你的赛道（Agent Infra / Memory）\n\n1. Apple 被报道正在早期研发可操作 Mac 的 AI Agent\n可跨应用、浏览器、命令行、代码和 API 执行多步任务。信息源自招聘启事，Apple 未向 TechCrunch 回应，产品时间与最终形态仍不确定。\n原文：https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/\n\n2. OpenComputer：开源 Devin 替代品\n11月20日登上 Hacker News，扫描时68 points。\n项目：https://github.com/diggerhq/opencomputer\n\n3. Onlook（YC W25）：面向设计师的开源开发工具\n11月19日登上 Hacker News，扫描时124 points。\n项目：https://github.com/onlook-dev/onlook/\n\n✅ 发送前自检已完成：入选条目均核验来源并附直达链接；不确定内容已剔除或明确限定；天气有具体数值；Watchlist 已执行；今日此前未发送；本次仅交付一次。\n\n投递目标：宇哥飞书，由 cron 自动交付。",
+  "content_hash": "8a613cf5b9b56b9ed00e909d6b1ab8dd8734512118d63e004ee4ec6fbc8a298d",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_c45892b795cc2de04d64",
+  "kind": "conversation",
+  "native_event_id": "4d09e8389304d2fee0ea7fa2",
+  "occurred_at": "2026-11-21T02:09:08.548000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-21T02:09:08.589399Z",
+  "revision": 15,
+  "session_id": "agent:main:cron:b39fb4b0-2aaa-4dd6-8121-9b0fc0d715ec",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"ls -la && find . -maxdepth 4 -iname 'SKILL.md' -o -iname '*morning*' -o -iname '*briefing*' | head -80\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":10}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"find ~/.openclaw -path '*/SKILL.md' -print | grep -Ei 'morning|brief|news' || true; grep -R \\\"morning-briefing\\\\|b39fb4b0\\\" -n ~/.openclaw --exclude='*.log' --exclude='*.jsonl' 2>/dev/null | head -80\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":20}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/cron-briefing-analysis.md\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/memory/2026-11-20.md\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/memory/2026-11-19.md\"}"
+    },
+    {
+      "name": "process",
+      "summary": "{\"action\":\"poll\",\"sessionId\":\"brisk-shell\",\"timeout\":20000}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/skills/morning-briefing/SKILL.md\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"printf 'marker='; cat memory/.morning-briefing-sent 2>/dev/null || true; printf '\\\\nbeijing='; TZ=Asia/Shanghai date +%Y-%m-%d; printf 'mtime='; stat -f %m memory/.morning-briefing-sent 2>/dev/null || echo 0; printf '\\\\nnewer_sessions\\\\n'; TZ=Asia/Shanghai find ~/.openclaw/agents/main/se"
+    },
+    {
+      "name": "memory_search",
+      "summary": "{\"query\":\"最近项目进展 电力 AI 算力 token 记忆系统 2026年11月19日 11月20日\",\"maxResults\":5}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"AI model release announcement new launch\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"OpenAI Anthropic Google DeepSeek Qwen new model\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"LLM model launch preview upcoming release\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 tools/baidu_search.py '大模型 发布 新模型 上线 2026年11月21日' --max_results 10\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":60}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 tools/baidu_search.py 'OpenAI Claude Gemini DeepSeek 通义千问 新模型 2026年11月21日' --max_results 10\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":60}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 tools/baidu_search.py 'AI模型 发布 预告 即将上线 2026年11月21日' --max_results 10\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":60}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 tools/watchlist_scan.py --days 2\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":120}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://docs.anthropic.com/en/docs/about-claude/models\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.openai.com/docs/models\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://cloud.google.com/vertex-ai/docs/generative-ai/learn/models\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.deepseek.com/api-docs/\",\"maxChars\":8000}"
+    },
+    {
+      "name": "process",
+      "summary": "{\"action\":\"poll\",\"sessionId\":\"glow-dune\",\"timeout\":120000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.anthropic.com/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://openai.com/api/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://cloud.google.com/vertex-ai/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.deepseek.com/api-docs/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://help.aliyun.com/zh/model-studio/billing-for-model-studio\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.moonshot.cn/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://open.bigmodel.cn/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.minimax.io/document/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 - <<'PY'\\nimport requests,feedparser,concurrent.futures\\nfeeds=['https://openai.com/news/rss.xml','https://www.anthropic.com/news/rss.xml','https://deepmind.google/blog/rss.xml','https://qwen.ai/blog/rss.xml','https://techcrunch.com/feed/','https://www.theverge.com/rss/index.xml'"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 - <<'PY'\\nimport requests,feedparser,concurrent.futures,urllib.parse\\nqs=['大模型 新模型 发布 when:2d','中国 科技 人工智能 when:2d','AI 模型 价格 调整 when:7d']\\ndef get(q):\\n u='https://news.google.com/rss/search?q='+urllib.parse.quote(q)+'&hl=zh-CN&gl=CN&ceid=CN:zh-Hans'\\n try:\\n  r=requests.get(u,t"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"curl -sS --max-time 30 'https://api.open-meteo.com/v1/forecast?latitude=39.9042&longitude=116.4074&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weather_code&current=temperature_2m,weather_code&timezone=Asia%2FShanghai&forecast_days=1'\",\"workdir\":\"/Users/seanc"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/\",\"maxChars\":6000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://github.com/diggerhq/opencomputer\",\"maxChars\":5000}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 - <<'PY'\\nimport requests,concurrent.futures,xml.etree.ElementTree as ET\\nfeeds=['https://openai.com/news/rss.xml','https://www.anthropic.com/news/rss.xml','https://deepmind.google/blog/rss.xml','https://qwen.ai/blog/rss.xml','https://techcrunch.com/feed/','https://www.theverge.c"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 - <<'PY'\\nimport requests,concurrent.futures,urllib.parse,xml.etree.ElementTree as ET\\nqs=['大模型 新模型 发布 when:2d','中国 科技 人工智能 when:2d','AI 模型 价格 调整 when:7d']\\ndef get(q):\\n u='https://news.google.com/rss/search?q='+urllib.parse.quote(q)+'&hl=zh-CN&gl=CN&ceid=CN:zh-Hans'\\n try:\\n  r"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 tools/baidu_search.py 'API 价格 调整 降价 涨价 大模型 2026年11月21日' --max_results 10; python3 tools/baidu_search.py '科技公司 最新动态 2026年11月21日' --max_results 10; python3 tools/baidu_search.py 'AI 人工智能 大模型 2026年11月21日' --max_results 10; python3 tools/baidu_search.py '北京 天气 2026年11月21日' --max_resu"
+    },
+    {
+      "name": "process",
+      "summary": "{\"action\":\"poll\",\"sessionId\":\"tender-lobster\",\"timeout\":60000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://deepmind.google/blog/introducing-gemini-4-neon/\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://deepmind.google/blog/genie-4-is-now-available/\",\"maxChars\":8000}"
+    }
+  ],
+  "turn_index": 0,
+  "user_text": "[cron:b39fb4b0-2aaa-4dd6-8121-9b0fc0d715ec morning-briefing] 严格按照 SKILL.md 流程执行晨报。强制规则：①每条新闻必须通过搜索验证来源，逐条附直接原文链接；②禁止编造任何信息，不确定等于不写；③发之前执行自检清单逐项勾选；④只发一次，禁止重复发送。\nCurrent time: Friday, November 20th, 2026 — 6:00 PM (America/Los_Angeles)\n\nReturn your summary as plain text; it will be delivered automatically. If the task explicitly calls for messaging a specific external recipient, note who/where it should go instead of sending it yourself."
+}
