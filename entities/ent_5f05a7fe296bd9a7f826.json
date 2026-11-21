@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    ".learnings/LEARNINGS.md"
+  ],
+  "created_at": "2026-11-21T03:08:29.310005Z",
+  "description": "记录经验与错误的学习日志文件",
+  "id": "ent_5f05a7fe296bd9a7f826",
+  "name": "LEARNINGS.md",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "sync_remote": true,
+  "type": "component",
+  "updated_at": "2026-11-21T03:08:29.310567Z"
+}

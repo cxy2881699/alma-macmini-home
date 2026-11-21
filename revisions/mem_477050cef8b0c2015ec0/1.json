@@ -1,0 +1,67 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": null,
+  "created_at": "2026-11-21T03:08:29.312925Z",
+  "id": "rev_43607be5d9007c5cb36f",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "仅当心跳轮次本应只输出 HEARTBEAT_OK 时成立",
+    "confidence": 0.7,
+    "content": "Agent 在 2026-11-20 04:08（PST）的心跳轮次中先回复 HEARTBEAT_OK，随后又追加完整晨报内容，被记为第 40 次心跳违规，并以 LRN-20261120-001（critical / pending）追加到 .learnings/LEARNINGS.md。",
+    "created_at": "2026-11-21T03:08:20.739000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_5f05a7fe296bd9a7f826"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_0ac1dfeef402b0cb3d20",
+        "quote": "第40次心跳违规（HEARTBEAT_OK 后追加完整晨报）",
+        "revision": 407,
+        "role": "tool"
+      },
+      {
+        "event_id": "evt_0ac1dfeef402b0cb3d20",
+        "quote": "HEARTBEAT_OK",
+        "revision": 407,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_477050cef8b0c2015ec0",
+    "is_temporary": false,
+    "keywords": [
+      "心跳违规",
+      "HEARTBEAT_OK",
+      "LEARNINGS.md",
+      "LRN-20261120-001",
+      "heartbeat discipline",
+      "晨报"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_0ac1dfeef402b0cb3d20",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@macmini-home",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-21T03:08:29.312665Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_477050cef8b0c2015ec0",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
