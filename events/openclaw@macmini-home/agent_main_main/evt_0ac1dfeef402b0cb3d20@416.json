@@ -1,0 +1,45 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "HEARTBEAT_OK",
+  "content_hash": "fa550129de878eeabeb4a0515b5d40989448bb6373e20ac62bed1b07c1ebcce3",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_0ac1dfeef402b0cb3d20",
+  "kind": "conversation",
+  "native_event_id": "71cbd87e42020bb65745eede",
+  "occurred_at": "2026-11-21T07:38:04.294000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-21T07:38:04.336121Z",
+  "revision": 416,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "read",
+      "summary": "{\"path\":\"/Users/seancao/.openclaw/skills/self-reflection/SKILL.md\",\"limit\":400}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"path\":\"/Users/seancao/.openclaw/workspace/memory/.last_reflection\",\"limit\":20}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"path\":\"/Users/seancao/.openclaw/workspace/memory/2026-11-20.md\",\"limit\":500}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"path\":\"/Users/seancao/.openclaw/workspace/memory/2026-11-19.md\",\"limit\":500}"
+    },
+    {
+      "name": "memory_search",
+      "summary": "{\"query\":\"2026年11月20日 最近 用户互动 项目决策 电力 AI 算力 token 研究报告\",\"maxResults\":8}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 - <<'PY'\\nfrom pathlib import Path\\nimport re\\nbase=Path('/Users/seancao/.openclaw/workspace')\\np=base/'.learnings/LEARNINGS.md'\\ntext=p.read_text(errors='replace') if p.exists() else ''\\nfor line in text.splitlines():\\n    if '20261120' in line or '2026-11-20' in line or '11/20'"
+    }
+  ],
+  "turn_index": 1,
+  "user_text": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nCurrent time: Friday, November 20th, 2026 — 11:37 PM (America/Los_Angeles)"
+}
