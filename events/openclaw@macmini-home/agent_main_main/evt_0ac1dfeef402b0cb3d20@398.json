@@ -1,0 +1,41 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "HEARTBEAT_OK",
+  "content_hash": "a90b08994de95bd410ecfb869070fb8cadce9ab4583b2ae87bb5ed2fdbf1240a",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_0ac1dfeef402b0cb3d20",
+  "kind": "conversation",
+  "native_event_id": "71cbd87e42020bb65745eede",
+  "occurred_at": "2026-11-21T00:57:43.252000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-21T00:57:43.296459Z",
+  "revision": 398,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "read",
+      "summary": "{\"path\":\"/Users/seancao/.openclaw/skills/self-reflection/SKILL.md\",\"limit\":400}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"path\":\"/Users/seancao/.openclaw/workspace/memory/2026-11-20.md\",\"limit\":500}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"path\":\"/Users/seancao/.openclaw/workspace/memory/.last_reflection\",\"limit\":20}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"path\":\"/Users/seancao/.openclaw/workspace/memory/2026-11-19.md\",\"limit\":500}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 - <<'PY'\\nfrom pathlib import Path\\nimport re\\np=Path('/Users/seancao/.openclaw/workspace/.learnings/LEARNINGS.md')\\nif not p.exists():\\n    print('LEARNINGS.md missing')\\nelse:\\n    text=p.read_text(errors='replace')\\n    ids=list(re.finditer(r'\\\\b(LRN|ERR)-\\\\d{8}-\\\\d{3}\\\\b',tex"
+    }
+  ],
+  "turn_index": 1,
+  "user_text": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nCurrent time: Friday, November 20th, 2026 — 4:57 PM (America/Los_Angeles)"
+}
