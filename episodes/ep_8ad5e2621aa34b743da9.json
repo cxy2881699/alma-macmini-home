@@ -3,7 +3,9 @@
     "ent_208369f56bb8790445bd",
     "ent_8dbf95aab272c9255b41",
     "ent_e44e9ad831fb5cdbe20f",
-    "ent_dd5c8bdca4d9d7cca7f6"
+    "ent_dd5c8bdca4d9d7cca7f6",
+    "ent_9d3a8e426d91c52fb407",
+    "ent_c1230d7f007b72e69523"
   ],
   "follows": "ep_1e7abde76707491e706c",
   "goal": "把 jjz365.cn 的公开点位详情、评论、违章截图与更新记录全量下载为本地归档",
@@ -13,7 +15,8 @@
     "mem_043e6cadcb4b7679c154",
     "mem_2a98029f56c599f38558",
     "mem_36041d0fb76b73f4ac60",
-    "mem_7dbaa7e490dab1848a65"
+    "mem_7dbaa7e490dab1848a65",
+    "mem_e5b9aa4ddb5d84a3faf9"
   ],
   "outcome": "",
   "project_id": "proj_44e381f71d50cb6ce0c0",
@@ -75,5 +78,5 @@
   ],
   "sync_remote": true,
   "title": "全量归档 jjz365.cn 摄像头数据",
-  "updated_at": "2026-11-16T01:00:32.724235Z"
+  "updated_at": "2026-11-23T01:01:34.633559Z"
 }
