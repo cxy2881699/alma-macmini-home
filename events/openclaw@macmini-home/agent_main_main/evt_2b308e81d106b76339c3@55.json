@@ -1,0 +1,37 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "HEARTBEAT_OK",
+  "content_hash": "a2d4f0911f79acef42af6ec5f18af8794c586f323fea144bf36798dd885f1046",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_2b308e81d106b76339c3",
+  "kind": "conversation",
+  "native_event_id": "b216d66d7143037829a6f1e8",
+  "occurred_at": "2026-11-23T11:32:24.295000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-23T11:32:24.339793Z",
+  "revision": 55,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "read",
+      "summary": "{\"path\":\"/Users/seancao/.openclaw/skills/self-reflection/SKILL.md\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"path\":\"/Users/seancao/.openclaw/workspace/memory/2026-11-23.md\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"path\":\"/Users/seancao/.openclaw/workspace/memory/2026-11-22.md\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"path\":\"/Users/seancao/.openclaw/workspace/memory/.last_reflection\"}"
+    }
+  ],
+  "turn_index": 2,
+  "user_text": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nCurrent time: Monday, November 23rd, 2026 — 3:32 AM (America/Los_Angeles)"
+}
