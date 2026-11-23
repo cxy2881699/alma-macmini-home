@@ -1,0 +1,181 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "🦐 晨报 2026年11月23日 周一\n\n🚀 模型发布动态\n- 众数文鳐＋哈工程＋厦门理工｜新一代“文鳐”海洋原生多模态大模型｜参数及上下文长度未披露｜统一解析船舶图纸、AIS 轨迹与装备工况数据，支持态势推演、风险预判及装备协同控制。已实船运行7个月，覆盖59个监测点，误报率由79%降至15%。\n原文：https://fjnews.fjsen.com/2026-11/23/content_32287352.htm\n\n💲 模型价格变动\n- 今日未检索到可由官方定价页或公告验证的 API 价格调整；第三方价格追踪站未作为变动依据。\n\n🌍 欧美科技新闻\n- OpenAI 首席科学家 Jakub Pachocki 提议将预训练困惑度作为跨厂商衡量通用智能进展的指标之一，并围绕约0.68～0.70的 log-perplexity 区间研究共同安全限制。目前只是治理建议，并非已生效的行业规则。\n原文：https://openai.com/index/perplexity-and-intelligence/\n\n- Anthropic 数学家 Levent Alpöge 发布 Claude 辅助完成、可由 Lean 编译的黎曼猜想证明。多名数学家已独立确认其能够编译，但证明仍需数学界继续审查和消化，不能直接写成“黎曼猜想已被正式解决”。\n原文：https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/\n\n- 美国近期连续发生 FAA 地面停飞、Outlook 多日故障及摩根大通银行服务中断。美国国家情报总监与微软总裁均警告，基础设施升级、AI 辅助漏洞利用及网络攻击可能令未来数月出现更多故障。\n原文：https://www.theverge.com/tech/1039851/major-tech-outages\n\n🇨🇳 中国科技要闻\n- MiniMax 公布内部模型自动化密码分析成果：发现多处此前未知的算法构造缺陷，将部分理论攻击推进至秒级或分钟级执行，并攻破多个 NIST 历史竞赛候选算法。官方明确称，研究不影响 AES、RSA、SHA-256 等现行主流标准的安全性。\n原文：https://www.thepaper.cn/newsDetail_forward_34536334\n\n- 国家中医药管理局中医师资格认证中心声明：从未与任何大模型企业合作或开展测评，也未授权任何主体使用其考试资料进行模型训练、产品宣传或商业推广。\n原文：https://tech.ifeng.com/c/8yFwwo4zei9\n\n🛠️ 项目动态\n- 最近已核实的交付仍是“全球电力百年史 → AI／算力／Token”研究报告，保存于 research/ELECTRICITY-TO-AI-2026-11-20.md。核心判断包括：通用技术价值来自系统重组；需求增长不必然带来上游资本回报；长期价值可能从 token 计量转向可靠任务结果。暂无可确认的新反馈或后续决策。\n\n🌤️ 今日天气\n- 北京 0～7℃；当前约4℃、有霾，中午转晴，西北风约17km/h，湿度34%，体感约0℃。\n来源：https://wttr.in/Beijing\n\n🎯 你的赛道（Agent Infra / Memory）\n- 产品观察：短信正在成为 Agent 的直接交互入口。TechCrunch 梳理了 Ask Proxy、Caddy、Comma 等产品；其中 Comma 可通过 Signal、Telegram、WeChat 远程操作浏览器、电脑和文件，保留跨设备与跨对话上下文，并且开源。重点不是“又一个聊天机器人”，而是消息入口＋持久记忆＋真实任务执行正在合并。\n原文：https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/\n\n自检：✓ 新闻均经搜索及原文抓取核验｜✓ 均为具体文章链接｜✓ 未采用无法交叉验证的新模型传闻｜✓ 不确定信息已剔除｜✓ Watchlist 已执行并过滤噪音｜✓ 北京时间今日未发｜✓ 本次仅输出一次",
+  "content_hash": "7b829ca8f80cf1a38383cc718858a32eaf9df847dcdda25b46a7ab1b12ae5ca5",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_c45892b795cc2de04d64",
+  "kind": "conversation",
+  "native_event_id": "4d09e8389304d2fee0ea7fa2",
+  "occurred_at": "2026-11-23T02:06:34.640000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-23T02:06:34.681094Z",
+  "revision": 16,
+  "session_id": "agent:main:cron:b39fb4b0-2aaa-4dd6-8121-9b0fc0d715ec",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"find /Users/seancao/.openclaw/workspace /Users/seancao/.openclaw/skills -iname 'SKILL.md' -o -iname '*morning*' -o -iname '*briefing*' | head -100\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":20}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/skills/morning-briefing/SKILL.md\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"printf '%s\\\\n' '--- marker ---'; cat memory/.morning-briefing-sent 2>/dev/null || true; printf '%s\\\\n' '--- Beijing date ---'; TZ=Asia/Shanghai date +%Y-%m-%d; printf '%s\\\\n' '--- marker mtime ---'; stat -f %m memory/.morning-briefing-sent 2>/dev/null || echo 0\",\"workdir\":\"/Users/seancao"
+    },
+    {
+      "name": "memory_search",
+      "summary": "{\"query\":\"最近项目动态 项目进展 2026年11月 晨报\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"ls memory/2026-11-22.md memory/2026-11-21.md 2>/dev/null; for f in memory/2026-11-22.md memory/2026-11-21.md; do if [ -f \\\"$f\\\" ]; then echo \\\"--- $f ---\\\"; cat \\\"$f\\\"; fi; done\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":20}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"AI model release announcement new launch November 23 2026\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"OpenAI Anthropic Google DeepSeek Qwen new model\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"LLM model launch preview upcoming release\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"API pricing change LLM model price drop increase\",\"count\":10,\"freshness\":\"pw\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"AI artificial intelligence news technology\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"tech startup product launch\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"set -o pipefail\\nfor q in '大模型 发布 新模型 上线 2026年11月23日' 'OpenAI Claude Gemini DeepSeek 通义千问 新模型 2026年11月23日' 'AI模型 发布 预告 即将上线 2026年11月23日' 'API 价格 调整 降价 涨价 大模型 2026年11月23日' '科技公司 最新动态 2026年11月23日' 'AI 人工智能 大模型 2026年11月23日' '北京 天气 2026年11月23日'; do echo \\\"=== $q ===\\\"; python3 tools/baidu_se"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 tools/watchlist_scan.py --days 2\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":300}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"tail -200 MEMORY.md 2>/dev/null\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":20}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://docs.anthropic.com/en/docs/about-claude/models\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.openai.com/docs/models\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://cloud.google.com/vertex-ai/docs/generative-ai/learn/models\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.deepseek.com/api-docs/\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://help.aliyun.com/zh/model-studio/developer-reference/\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.anthropic.com/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://openai.com/api/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.deepseek.com/api-docs/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.moonshot.cn/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://open.bigmodel.cn/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.minimax.io/document/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://wttr.in/Beijing?format=%l:+%C,+%t,+%f,+%w,+%h&lang=zh\",\"maxChars\":1000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://news.google.com/rss/search?q=%28OpenAI%20OR%20Anthropic%20OR%20Google%20OR%20DeepSeek%20OR%20Qwen%29%20model%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen\",\"maxChars\":20000,\"extractMode\":\"text\"}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://news.google.com/rss/search?q=%28AI%20OR%20artificial%20intelligence%20OR%20technology%29%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen\",\"maxChars\":20000,\"extractMode\":\"text\"}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://news.google.com/rss/search?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%20OR%20%E5%A4%A7%E6%A8%A1%E5%9E%8B%20OR%20%E7%A7%91%E6%8A%80%20when%3A1d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans\",\"maxChars\":20000,\"extractMode\":\"text\"}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://news.google.com/rss/search?q=%28LLM%20OR%20AI%20model%29%20%28pricing%20OR%20price%29%20when%3A7d&hl=en-US&gl=US&ceid=US%3Aen\",\"maxChars\":20000,\"extractMode\":\"text\"}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://wttr.in/Beijing?format=j1\",\"maxChars\":10000,\"extractMode\":\"text\"}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"open\",\"profile\":\"openclaw\",\"url\":\"https://www.google.com/search?q=AI+model+release+announcement+new+launch&tbs=qdr:d\",\"target\":\"host\"}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"snapshot\",\"profile\":\"openclaw\",\"targetId\":\"3354E3DD4117A6E3DE1C19B8E51AB35E\",\"target\":\"host\",\"maxChars\":20000,\"refs\":\"aria\"}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"navigate\",\"profile\":\"openclaw\",\"targetId\":\"3354E3DD4117A6E3DE1C19B8E51AB35E\",\"target\":\"host\",\"url\":\"https://www.bing.com/search?q=AI+model+release+announcement+new+launch&filters=ex1%3a%22ez1%22\"}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"snapshot\",\"profile\":\"openclaw\",\"targetId\":\"3354E3DD4117A6E3DE1C19B8E51AB35E\",\"target\":\"host\",\"maxChars\":30000,\"refs\":\"aria\"}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"open\",\"profile\":\"openclaw\",\"target\":\"host\",\"url\":\"https://www.bing.com/search?q=OpenAI+Anthropic+Google+DeepSeek+Qwen+new+model&filters=ex1%3a%22ez1%22\"}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"open\",\"profile\":\"openclaw\",\"target\":\"host\",\"url\":\"https://www.bing.com/search?q=AI+artificial+intelligence+news+technology&filters=ex1%3a%22ez1%22\"}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"open\",\"profile\":\"openclaw\",\"target\":\"host\",\"url\":\"https://www.bing.com/search?q=AI+%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD+%E5%A4%A7%E6%A8%A1%E5%9E%8B+2026%E5%B9%B411%E6%9C%8823%E6%97%A5&filters=ex1%3a%22ez1%22\"}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"open\",\"profile\":\"openclaw\",\"target\":\"host\",\"url\":\"https://www.bing.com/search?q=API+pricing+change+LLM+model+price+drop+increase&filters=ex1%3a%22ez2%22\"}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"snapshot\",\"profile\":\"openclaw\",\"target\":\"host\",\"targetId\":\"6709F843AD9FDD3789F20BB2D7E529B4\",\"maxChars\":18000,\"refs\":\"aria\"}"
+    }
+  ],
+  "turn_index": 0,
+  "user_text": "[cron:b39fb4b0-2aaa-4dd6-8121-9b0fc0d715ec morning-briefing] 严格按照 SKILL.md 流程执行晨报。强制规则：①每条新闻必须通过搜索验证来源，逐条附直接原文链接；②禁止编造任何信息，不确定等于不写；③发之前执行自检清单逐项勾选；④只发一次，禁止重复发送。\nCurrent time: Sunday, November 22nd, 2026 — 6:00 PM (America/Los_Angeles)\n\nReturn your summary as plain text; it will be delivered automatically. If the task explicitly calls for messaging a specific external recipient, note who/where it should go instead of sending it yourself."
+}
