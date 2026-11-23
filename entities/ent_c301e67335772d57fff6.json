@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    ".learnings/ERRORS.md"
+  ],
+  "created_at": "2026-11-23T16:27:58.172889Z",
+  "description": "Agent 记录错误与待处理问题的学习日志文件",
+  "id": "ent_c301e67335772d57fff6",
+  "name": "ERRORS.md",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "sync_remote": true,
+  "type": "component",
+  "updated_at": "2026-11-23T16:27:58.173008Z"
+}
