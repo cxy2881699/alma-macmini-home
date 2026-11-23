@@ -1,0 +1,37 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "HEARTBEAT_OK",
+  "content_hash": "010c9bb1a5f101747cd6d40e0f18b6e431b5d1c8bb9b0de363671c3a31a1b13b",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_62fe54782393211eef61",
+  "kind": "conversation",
+  "native_event_id": "2735641658730aaa232b4a50",
+  "occurred_at": "2026-11-23T12:02:50.419000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-23T12:02:50.461338Z",
+  "revision": 19,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/skills/self-reflection/SKILL.md\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"printf '%s\\\\n' '--- last reflection ---'; cat memory/.last_reflection 2>/dev/null || echo MISSING; printf '%s\\\\n' '--- recent daily notes ---'; ls -1 memory/2026-11-2[0-3].md 2>/dev/null || true; printf '%s\\\\n' '--- learning pending counts ---'; if [ -d .learnings ]; then grep -Rho 'stat"
+    },
+    {
+      "name": "memory_search",
+      "summary": "{\"query\":\"2026-11-22 2026-11-23 用户互动 项目决策 重要事件 最近一天\",\"maxResults\":5}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"printf '%s\\\\n' '--- learning files ---'; ls -1 .learnings/*.md 2>/dev/null || true; printf '%s\\\\n' '--- pending entries ---'; grep -RniE 'pending|高优先级|critical|high' .learnings --include='*.md' 2>/dev/null | tail -80\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":10}"
+    }
+  ],
+  "turn_index": 0,
+  "user_text": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nCurrent time: Monday, November 23rd, 2026 — 4:02 AM (America/Los_Angeles)"
+}
