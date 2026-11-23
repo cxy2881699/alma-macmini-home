@@ -13,6 +13,12 @@
       "quote": "①每条新闻必须通过搜索验证来源，逐条附直接原文链接；②禁止编造任何信息，不确定等于不写；③发之前执行自检清单逐项勾选；④只发一次，禁止重复发送。",
       "revision": 12,
       "role": "user"
+    },
+    {
+      "event_id": "evt_c45892b795cc2de04d64",
+      "quote": "每条新闻必须通过搜索验证来源，逐条附直接原文链接；②禁止编造任何信息，不确定等于不写；③发之前执行自检清单逐项勾选；④只发一次，禁止重复发送。",
+      "revision": 16,
+      "role": "user"
     }
   ],
   "id": "mem_ffb6ab48750c3f3113d9",
@@ -24,7 +30,9 @@
     "原文链接",
     "禁止编造",
     "自检清单",
-    "防重复"
+    "防重复",
+    "硬性规则",
+    "来源核验"
   ],
   "layer": "memory",
   "level": 0,
@@ -38,13 +46,13 @@
       "type": "derived_from"
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "source_agent": "openclaw@macmini-home",
   "space": "project/proj_44e381f71d50cb6ce0c0",
   "status": "active",
   "status_reason": "",
   "sync_remote": true,
   "type": "convention",
-  "updated_at": "2026-11-17T02:09:55.068439Z",
+  "updated_at": "2026-11-23T02:06:46.866588Z",
   "valid_to": null
 }

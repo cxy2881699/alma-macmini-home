@@ -1,0 +1,68 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": 1,
+  "created_at": "2026-11-23T02:06:46.867010Z",
+  "id": "rev_0ddae5b7806956c0d8c5",
+  "memory": {
+    "claim": "user_instruction",
+    "conditions": "每次 cron 触发 morning-briefing 晨报任务时。",
+    "confidence": 0.9,
+    "content": "用户对晨报的长期强制规则：每条新闻必须经搜索验证并附直达原文链接；禁止编造，不确定就不写；发送前逐项执行自检清单；同一份晨报只发一次，禁止重复发送。",
+    "created_at": "2026-11-17T02:09:33.585000Z",
+    "derived_from": [],
+    "entities": [],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_c45892b795cc2de04d64",
+        "quote": "①每条新闻必须通过搜索验证来源，逐条附直接原文链接；②禁止编造任何信息，不确定等于不写；③发之前执行自检清单逐项勾选；④只发一次，禁止重复发送。",
+        "revision": 12,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_c45892b795cc2de04d64",
+        "quote": "每条新闻必须通过搜索验证来源，逐条附直接原文链接；②禁止编造任何信息，不确定等于不写；③发之前执行自检清单逐项勾选；④只发一次，禁止重复发送。",
+        "revision": 16,
+        "role": "user"
+      }
+    ],
+    "id": "mem_ffb6ab48750c3f3113d9",
+    "is_temporary": false,
+    "keywords": [
+      "晨报",
+      "morning-briefing",
+      "来源验证",
+      "原文链接",
+      "禁止编造",
+      "自检清单",
+      "防重复",
+      "硬性规则",
+      "来源核验"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_c45892b795cc2de04d64",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 2,
+    "source_agent": "openclaw@macmini-home",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "convention",
+    "updated_at": "2026-11-23T02:06:46.866588Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ffb6ab48750c3f3113d9",
+  "policy_version": "extract-v2",
+  "reason": "确认",
+  "revision": 2
+}

@@ -1,0 +1,64 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": null,
+  "created_at": "2026-11-23T02:06:46.871781Z",
+  "id": "rev_3d0fd4ab7e8263ac0a9f",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "cron 触发的 morning-briefing 晨报交付记录，用于日后追溯当期选题与信息状态。",
+    "confidence": 0.85,
+    "content": "2026-11-23 北京时间晨报由 Agent 执行并只输出一次；头条为众数文鳐新一代海洋原生多模态大模型，另含 OpenAI 以困惑度衡量通用智能的治理建议、Anthropic 数学家借助 Claude 完成的 Lean 黎曼猜想证明、MiniMax 自动化密码分析成果，项目动态仅复述 research/ELECTRICITY-TO-AI-2026-11-20.md 的既有结论。",
+    "created_at": "2026-11-23T02:06:34.640000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_495ab30641241950fa62",
+      "ent_51b9c91560022845906c",
+      "ent_5085b9a98f3f9d33d2e8"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_c45892b795cc2de04d64",
+        "quote": "✓ Watchlist 已执行并过滤噪音｜✓ 北京时间今日未发｜✓ 本次仅输出一次",
+        "revision": 16,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_13c40acb91c30116b5a4",
+    "is_temporary": false,
+    "keywords": [
+      "晨报",
+      "2026-11-23",
+      "文鳐",
+      "黎曼猜想",
+      "MiniMax",
+      "自检",
+      "去重"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_c45892b795cc2de04d64",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@macmini-home",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "event",
+    "updated_at": "2026-11-23T02:06:46.871648Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_13c40acb91c30116b5a4",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
