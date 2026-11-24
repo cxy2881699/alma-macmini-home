@@ -1,0 +1,25 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "HEARTBEAT_OK",
+  "content_hash": "3577385233e6c9ea6deeae9e9cfaa0f418027a18bec2c8d23249064b4933cb9a",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_0ac1dfeef402b0cb3d20",
+  "kind": "conversation",
+  "native_event_id": "71cbd87e42020bb65745eede",
+  "occurred_at": "2026-11-24T15:32:50.266000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-24T15:32:50.307318Z",
+  "revision": 544,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 - <<'PY'\\nfrom pathlib import Path\\nimport re\\nfrom collections import Counter\\nprint('last_reflection='+Path('memory/.last_reflection').read_text().strip())\\nfor d in ('2026-11-24','2026-11-23'):\\n    p=Path(f'memory/{d}.md')\\n    print(f'{d}_note='+('present' if p.exists() else"
+    }
+  ],
+  "turn_index": 1,
+  "user_text": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nCurrent time: Tuesday, November 24th, 2026 — 7:32 AM (America/Los_Angeles)"
+}
