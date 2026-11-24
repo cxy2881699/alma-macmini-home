@@ -1,0 +1,51 @@
+{
+  "claim": "agent_action",
+  "conditions": "适用于在手机 Streisand 上配置 Clash 格式的 YAML 节点",
+  "confidence": 0.86,
+  "content": "Agent 在帮用户把 YAML 代理配置导入手机 Streisand 时确认：Streisand 不能直接导入 Clash 的 YAML，需要先把节点转换成 vless:// 链接，再从剪贴板逐个导入。",
+  "created_at": "2026-11-24T16:29:05.475000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_8a5a692819c05da247be"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_5450b8f00e1fee67a1eb",
+      "quote": "Streisand **不能直接导入 Clash 的 YAML**。要把节点转成 `vless://` 链接，再从剪贴板导入。",
+      "revision": 15,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_acaa83e5db9d7c33455f",
+  "is_temporary": false,
+  "keywords": [
+    "Streisand",
+    "Clash YAML",
+    "vless",
+    "剪贴板导入",
+    "代理配置",
+    "手机"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_5450b8f00e1fee67a1eb",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-11-24T16:29:38.537970Z",
+  "valid_to": null
+}

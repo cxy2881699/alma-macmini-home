@@ -52,9 +52,19 @@
       "quote": "三个 IPv4 节点全挂，你判断对了",
       "revision": 20,
       "text": "用户给出微信文件夹中的 dmit.yaml，Agent 隔离实测确认 3 个 IPv4 节点全挂、DMIT-IPv6 与 5 个 Cloudflare 备用节点可用，Google 204、百度直连 200，随后备份现有 Clash Verge 配置并切入新配置"
+    },
+    {
+      "agent_id": "openclaw@macmini-home",
+      "at": "2026-11-24T16:29:05.475000Z",
+      "event_id": "evt_5450b8f00e1fee67a1eb",
+      "kind": "attempt",
+      "order": 4,
+      "quote": "用这个yaml怎么在手机的streisand进行设置呢？",
+      "revision": 15,
+      "text": "用户询问如何在手机 Streisand 中使用新 YAML；Agent 说明不能直接导入 Clash YAML，改为把节点转成 vless:// 链接后从剪贴板导入，并优先给出不依赖 IPv6 的 Cloudflare 优选节点。"
     }
   ],
   "sync_remote": true,
   "title": "排查代理再次不可用并尝试切到 IPv6",
-  "updated_at": "2026-11-24T16:07:18.933684Z"
+  "updated_at": "2026-11-24T16:29:38.537142Z"
 }
