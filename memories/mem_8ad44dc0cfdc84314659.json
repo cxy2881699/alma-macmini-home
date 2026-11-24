@@ -1,0 +1,53 @@
+{
+  "claim": "user_fact",
+  "conditions": "该问题在记录时为未解决状态，代理可用性可能随后恢复或改变",
+  "confidence": 0.85,
+  "content": "2026-11-24 用户反馈其代理（DMIT 订阅）再次不能用，怀疑是 IPv4 被封，询问如何把连接调整到 IPv6。",
+  "created_at": "2026-11-24T15:58:05.917000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_76ac53ec2a482696425b",
+    "ent_0dbcb0541cf6b7f47a1f",
+    "ent_3e938a9fb6db9439692e"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_0ac1dfeef402b0cb3d20",
+      "quote": "我的vpn又不能用了，应该是ipv4被封了，怎么调整到ipv6呢？",
+      "revision": 545,
+      "role": "user"
+    }
+  ],
+  "id": "mem_8ad44dc0cfdc84314659",
+  "is_temporary": true,
+  "keywords": [
+    "VPN",
+    "代理",
+    "DMIT",
+    "IPv4 被封",
+    "IPv6",
+    "翻墙"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_0ac1dfeef402b0cb3d20",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-24T16:00:25.546233Z",
+  "valid_to": null
+}
