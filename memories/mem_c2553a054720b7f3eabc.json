@@ -1,0 +1,51 @@
+{
+  "claim": "user_instruction",
+  "conditions": "该问题在记录时为未解决状态，代理可用性可能随后恢复或改变",
+  "confidence": 0.9,
+  "content": "2026-11-24 用户反馈其代理（DMIT 订阅）再次不能用，怀疑是 IPv4 被封，要求改用新的 dmit.yaml 配置（位于微信接收文件夹）。",
+  "created_at": "2026-11-24T16:07:06.651000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_76ac53ec2a482696425b",
+    "ent_452fd2744c547b174a75"
+  ],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_ed94b2eede47a01e4dbb",
+      "quote": "在这个文件夹下面有个dmit.yaml，用这个",
+      "revision": 20,
+      "role": "user"
+    }
+  ],
+  "id": "mem_c2553a054720b7f3eabc",
+  "is_temporary": false,
+  "keywords": [
+    "VPN",
+    "代理不可用",
+    "DMIT",
+    "IPv6",
+    "dmit.yaml"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ed94b2eede47a01e4dbb",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-24T16:07:18.936692Z",
+  "valid_to": null
+}

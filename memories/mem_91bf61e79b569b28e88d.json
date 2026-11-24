@@ -1,0 +1,48 @@
+{
+  "claim": "user_fact",
+  "conditions": "在需要查找用户从微信发来的文件时使用",
+  "confidence": 0.75,
+  "content": "用户在 Mac 上通过微信接收的文件存放在 /Users/seancao/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/cxy362946152_a038/msg/file/ 下，按月份分子目录（如 2026-11）保存。",
+  "created_at": "2026-11-24T16:07:06.651000Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_ed94b2eede47a01e4dbb",
+      "quote": "/Users/seancao/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/cxy362946152_a038/msg/file/2026-11",
+      "revision": 20,
+      "role": "user"
+    }
+  ],
+  "id": "mem_91bf61e79b569b28e88d",
+  "is_temporary": false,
+  "keywords": [
+    "微信",
+    "WeChat",
+    "文件目录",
+    "xwechat_files",
+    "macOS 路径"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_ed94b2eede47a01e4dbb",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "user/shared",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-24T16:07:18.938599Z",
+  "valid_to": null
+}
