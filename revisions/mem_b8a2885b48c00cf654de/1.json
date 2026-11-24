@@ -1,0 +1,68 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": null,
+  "created_at": "2026-11-24T16:01:55.820294Z",
+  "id": "rev_946d4de0f1586601bc61",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "该结论仅反映该次测试时本机 IPv6 出口不通；IPv6 线路或网络环境变化后可能不成立。",
+    "confidence": 0.85,
+    "content": "2026-11-24 排查 DMIT 代理时，Agent 发现 Clash Verge 旧配置中已存在 DMIT-IPv6 节点，但本机 IPv6 直连测试（curl -6 访问 Google 的 IPv6 地址）也超时，因此无法据此判断换到 IPv6 后代理是否可用。",
+    "created_at": "2026-11-24T16:01:46.744000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_452fd2744c547b174a75",
+      "ent_3e938a9fb6db9439692e"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_5cbe5576d8f06b39b4f0",
+        "quote": "但本机 IPv6 直连测试也超时，暂时不能确定换过去就能用",
+        "revision": 52,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_5cbe5576d8f06b39b4f0",
+        "quote": "IPv6 literal test",
+        "revision": 52,
+        "role": "tool"
+      }
+    ],
+    "id": "mem_b8a2885b48c00cf654de",
+    "is_temporary": false,
+    "keywords": [
+      "DMIT-IPv6",
+      "IPv6",
+      "Clash Verge",
+      "直连测试",
+      "超时",
+      "代理节点"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_5cbe5576d8f06b39b4f0",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@macmini-home",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-24T16:01:55.820137Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_b8a2885b48c00cf654de",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}
