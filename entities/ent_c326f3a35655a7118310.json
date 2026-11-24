@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "百度搜索 API"
+  ],
+  "created_at": "2026-11-24T02:04:25.287349Z",
+  "description": "晨报备用搜索源，鉴权失败",
+  "id": "ent_c326f3a35655a7118310",
+  "name": "百度 AI Search",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "sync_remote": true,
+  "type": "tool",
+  "updated_at": "2026-11-24T02:04:25.293528Z"
+}

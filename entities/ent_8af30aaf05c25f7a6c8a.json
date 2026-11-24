@@ -1,5 +1,7 @@
 {
-  "aliases": [],
+  "aliases": [
+    "Brave Search"
+  ],
   "created_at": "2026-11-04T14:26:57.250677Z",
   "description": "搜索 API 服务，当前缺 API key",
   "id": "ent_8af30aaf05c25f7a6c8a",
@@ -7,5 +9,5 @@
   "space": "user/shared",
   "sync_remote": true,
   "type": "tool",
-  "updated_at": "2026-11-04T14:26:57.258102Z"
+  "updated_at": "2026-11-24T02:04:25.290815Z"
 }

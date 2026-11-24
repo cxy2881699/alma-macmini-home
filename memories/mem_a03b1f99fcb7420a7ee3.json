@@ -1,0 +1,55 @@
+{
+  "claim": "agent_action",
+  "conditions": "在该 Mac 环境执行 morning-briefing 晨报任务、且搜索类工具仍不可用时成立。",
+  "confidence": 0.85,
+  "content": "在 workspace 的定时晨报任务中，Brave Search 缺少 API key、百度 AI Search 鉴权失败，Agent 只能改用官方 RSS、官方页面、公开数据 API 和本地 watchlist_scan.py（TechCrunch RSS / HN / GitHub）来核验来源；凡是无法验证的内容一律不写入晨报。",
+  "created_at": "2026-11-24T02:04:12.271000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_8af30aaf05c25f7a6c8a",
+    "ent_c326f3a35655a7118310",
+    "ent_0511984898097966d971"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_c45892b795cc2de04d64",
+      "quote": "注：Brave Search 缺少 API key，百度 AI Search 鉴权失败；未采用无法验证的搜索结果。",
+      "revision": 17,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_a03b1f99fcb7420a7ee3",
+  "is_temporary": false,
+  "keywords": [
+    "晨报",
+    "morning-briefing",
+    "Brave Search",
+    "百度 AI Search",
+    "API key",
+    "鉴权失败",
+    "降级核验",
+    "watchlist_scan.py"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c45892b795cc2de04d64",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-11-24T02:04:25.296249Z",
+  "valid_to": null
+}
