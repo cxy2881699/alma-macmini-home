@@ -1,0 +1,181 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "自检已过：入选条目均逐项打开原文核验，链接全部为直达文章或官方数据页；搜索接口不可用的部分未用来补写内容，GitHub 误命中的游戏项目也已剔除。\n🦐 晨报 2026年11月24日 周二\n\n🚀 模型发布动态\n今日未检索到可验证的新模型发布；近 7 天重要发布：\n\n• OpenAI｜GPT-6.2 Astra / Sol｜参数及上下文长度：官方公告未披露｜Astra 面向复杂专业工作，Sol 面向日常任务；两者已上线 ChatGPT Work、Codex 和 API。Astra 强化专业文档、编码、计算机操作与科研能力，Sol 保持 GPT-6.1 Sol 的 API 价格。\nhttps://openai.com/index/introducing-gpt-6-2-astra-sol\n\n💲 模型价格变动\n今日未检索到新的调价公告；近 7 天已核实变动：\n\n• OpenAI GPT-6.2 Astra：输入 $10 → $8/百万 tokens，缓存输入 $1 → $0.40，输出 $50 → $40；11 月 17 日随模型上线生效。\nhttps://openai.com/index/introducing-gpt-6-2-astra-sol\n\n• DeepSeek 模型调用触发的服务端搜索/网页抓取：按次收费 → 0 元/次，返回结果按模型 token 计费；11 月 18 日 12:00（北京时间）生效。独立 Search API 与 Fetch API 仍为每千次成功请求 $0.75。\nhttps://api-docs.deepseek.com/quick_start/pricing/\n\n🌍 欧美科技新闻\n• Anthropic 推出 Claude Ship：Code Review 已正式可用，PR Steward 可处理 CI 失败、合并冲突和评审意见，Claude Approvals 可按仓库策略自动批准常规变更；后两者处于 beta，面向 Team/Enterprise 的 GitHub 仓库。\nhttps://claude.com/resources/articles/introducing-claude-ship\n\n• Google 搜索 AI Mode 接入 Drive、Wallet 和 Gemini：可在用户主动连接后利用文件、财务目标及 Gemini 上下文生成个性化回答；Wallet 仅可读取，不能转移或管理资金。\nhttps://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/\n\n• Amazon 将以 75 亿美元收购 Decart 的 AI 优化技术、创始团队及研发人员；其 DOS 软件可提升模型在 Nvidia、Amazon 和 Google 硬件上的运行效率，为 Trainium 芯片对外销售铺路。\nhttps://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/\n\n• OpenAI 与 Cisco 开源 Linux 运行时 Shirudo：利用 eBPF 在正式补丁落地前部署临时防护，无需重启服务；防护组件经过签名验证，并可用 TPM 留存加载/移除记录。\nhttps://openai.com/index/introducing-shirudo\n\n🇨🇳 中国科技要闻\n• 神舟二十四号瞄准 11 月 25 日 8:18 发射，乘组包含巴基斯坦航天员，将是中国载人航天首次中外航天员联合飞行；任务计划开展 90 项实验和试验，其中 4 项为中巴合作项目。\nhttps://www.ithome.com/1/031/293.htm\n\n• 神舟二十三号公布在轨阶段成果：首次在空间站获得毫米级深紫外非线性光学晶体氟硼铍酸钾，并完成首批半固态电池空间验证。\nhttps://www.ithome.com/1/031/285.htm\n\n• Ainos 获日月光 900 万美元追加订单，新增 5000 套 AI Nose；系统将化学特征转成 Smell ID，用于识别半导体工厂泄漏、线缆过热及设备异常，双方两份协议合计 1110 万美元、6400 套。\nhttps://www.ithome.com/1/031/290.htm\n\n🛠️ 项目动态\n• 最近已确认进展：11 月 19 日完成“全球电力百年史 → AI/算力/Token”研究并交付，原文保存在 research/ELECTRICITY-TO-AI-2026-11-20.md。此后本地记忆中暂无新的项目进展记录，不补写未确认事项。\n\n🌤️ 今日天气\n• 北京：-1～6℃，当前 1℃、体感 -2℃，烟雾霾，西北风 8km/h；日出 07:09，日落 16:53。\nhttps://wttr.in/Beijing\n\n🎯 你的赛道（Agent Infra / Memory）\n• 💰 Supertake 完成 2000 万美元种子轮，Adjacent 领投，Coinbase Ventures、USV 等参投；产品用前沿模型和交易 Agent 把自然语言市场观点转成股票组合，目前处于 waitlist beta。\nhttps://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/\n\n• 🏢 已跟踪 Anthropic：Claude Ship 将 Agent 从写代码扩展到 PR 修复与策略化审批，详见上方欧美科技新闻。\n\n信源：OpenAI、Anthropic、DeepSeek 官方页面；TechCrunch；IT之家；wttr.in；本地 MEMORY.md；watchlist_scan.py（TechCrunch RSS / HN / GitHub）。\n\n注：Brave Search 缺少 API key，百度 AI Search 鉴权失败；未采用无法验证的搜索结果。",
+  "content_hash": "e56929fed2539d251d5eca1b4a371122bd40eed349fbc771a2fe4059112bc329",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_c45892b795cc2de04d64",
+  "kind": "conversation",
+  "native_event_id": "4d09e8389304d2fee0ea7fa2",
+  "occurred_at": "2026-11-24T02:04:12.271000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-24T02:04:12.312578Z",
+  "revision": 17,
+  "session_id": "agent:main:cron:b39fb4b0-2aaa-4dd6-8121-9b0fc0d715ec",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"ls -la && find . -maxdepth 3 -iname 'SKILL.md' -o -iname '*morning*' -o -iname '*brief*'\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"yieldMs\":10000}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"find ~/.openclaw ~/coding/nodejs/node-v22.16.0-darwin-arm64/lib/node_modules/openclaw -path '*/SKILL.md' 2>/dev/null | grep -Ei 'morning|brief|news|daily' ; printf '\\\\n--- cron analysis ---\\\\n'; cat cron-briefing-analysis.md; printf '\\\\n--- recent memory files ---\\\\n'; ls memory | tail -"
+    },
+    {
+      "name": "process",
+      "summary": "{\"action\":\"poll\",\"sessionId\":\"quick-gulf\",\"timeout\":20000}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/skills/morning-briefing/SKILL.md\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"AI model release announcement new launch November 24 2026\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"OpenAI Anthropic Google DeepSeek Qwen new model announcement\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"AI artificial intelligence news technology\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"tech startup product launch AI\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "memory_search",
+      "summary": "{\"query\":\"最近项目进展 项目动态 2026年11月\",\"maxResults\":8}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 tools/baidu_search.py '大模型 发布 新模型 上线 2026年11月24日' --max_results 10 > /tmp/baidu-models.txt 2>&1; python3 tools/baidu_search.py 'AI 人工智能 大模型 2026年11月24日' --max_results 10 > /tmp/baidu-china.txt 2>&1; python3 tools/baidu_search.py '北京 天气 2026年11月24日' --max_results 3 > /tmp/baidu-we"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://docs.anthropic.com/en/docs/about-claude/models\",\"maxChars\":12000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.openai.com/docs/models\",\"maxChars\":12000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.deepseek.com/api-docs/\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://openai.com/news/rss.xml\",\"maxChars\":15000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://techcrunch.com/category/artificial-intelligence/feed/\",\"maxChars\":20000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.ithome.com/rss/\",\"maxChars\":20000}"
+    },
+    {
+      "name": "process",
+      "summary": "{\"action\":\"poll\",\"sessionId\":\"lucky-nudibranch\",\"timeout\":20000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://openai.com/index/introducing-gpt-6-2-astra-sol\",\"maxChars\":16000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://openai.com/index/introducing-shirudo\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/\",\"maxChars\":12000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.ithome.com/1/031/293.htm\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.ithome.com/1/031/290.htm\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://wttr.in/Beijing?format=%l:+%C+%t+%f+%w&lang=zh\",\"maxChars\":1000}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"printf '%s\\\\n' '--- memory tail ---'; tail -120 MEMORY.md; printf '%s\\\\n' '--- recent dailies ---'; for f in memory/2026-11-2{1,2,3,4}.md; do [ -f \\\"$f\\\" ] && { echo \\\"### $f\\\"; tail -80 \\\"$f\\\"; }; done\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"yieldMs\":10000}"
+    },
+    {
+      "name": "process",
+      "summary": "{\"action\":\"poll\",\"sessionId\":\"lucky-nudibranch\",\"timeout\":30000}"
+    },
+    {
+      "name": "process",
+      "summary": "{\"action\":\"log\",\"sessionId\":\"lucky-nudibranch\",\"limit\":100}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/tmp/watchlist.txt\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/tmp/baidu-models.txt\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/tmp/baidu-china.txt\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/tmp/baidu-weather.txt\"}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://claude.com/resources/articles/introducing-claude-ship\",\"maxChars\":12000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://wttr.in/Beijing?format=j1\",\"maxChars\":5000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://api-docs.deepseek.com/quick_start/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://openai.com/api/pricing/\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.ithome.com/1/031/285.htm\",\"maxChars\":8000}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 - <<'PY'\\nimport json,urllib.request\\nj=json.load(urllib.request.urlopen('https://wttr.in/Beijing?format=j1'))\\nw=j['weather'][0]\\nprint(w['date'],w['mintempC'],w['maxtempC'],w['avgtempC'],w['sunrise'] if 'sunrise' in w else w['astronomy'][0])\\nPY\",\"workdir\":\"/Users/seancao/.open"
+    },
+    {
+      "name": "write",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/memory/morning-briefings/2026-11-24.md\",\"content\":\"🦐 晨报 2026年11月24日 周二\\n\\n🚀 模型发布动态\\n今日未检索到可验证的新模型发布；近 7 天重要发布：\\n• OpenAI｜GPT-6.2 Astra / Sol｜参数及上下文长度：官方公告未披露｜Astra 面向复杂专业工作，Sol 面向日常任务；两者已上线 ChatGPT Work、Codex 和 API，Astra 强化专业文档、编码、计算机操作与科研能力，Sol 保持 "
+    }
+  ],
+  "turn_index": 0,
+  "user_text": "[cron:b39fb4b0-2aaa-4dd6-8121-9b0fc0d715ec morning-briefing] 严格按照 SKILL.md 流程执行晨报。强制规则：①每条新闻必须通过搜索验证来源，逐条附直接原文链接；②禁止编造任何信息，不确定等于不写；③发之前执行自检清单逐项勾选；④只发一次，禁止重复发送。\nCurrent time: Monday, November 23rd, 2026 — 6:00 PM (America/Los_Angeles)\n\nReturn your summary as plain text; it will be delivered automatically. If the task explicitly calls for messaging a specific external recipient, note who/where it should go instead of sending it yourself."
+}
