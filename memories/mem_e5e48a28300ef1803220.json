@@ -1,0 +1,54 @@
+{
+  "claim": "user_fact",
+  "conditions": "定时心跳只处理 HEARTBEAT.md 指示，无待办时回复 HEARTBEAT_OK。",
+  "confidence": 0.95,
+  "content": "用户的 OpenClaw 工作区设有 HEARTBEAT.md 心跳机制：心跳时执行每日反思、检查学习项提醒和金融交易检查，无待办则回复 HEARTBEAT_OK；不得从旧对话推断或重复旧任务。",
+  "created_at": "2026-11-25T01:08:31.510000Z",
+  "derived_from": [],
+  "entities": [],
+  "epistemic": "explicit",
+  "evidence": [
+    {
+      "event_id": "evt_2cd9eda335aff41ce844",
+      "quote": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly.",
+      "revision": 43,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_2cd9eda335aff41ce844",
+      "quote": "HEARTBEAT_OK",
+      "revision": 43,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_e5e48a28300ef1803220",
+  "is_temporary": false,
+  "keywords": [
+    "HEARTBEAT.md",
+    "心跳",
+    "HEARTBEAT_OK",
+    "OpenClaw",
+    "定时任务"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_2cd9eda335aff41ce844",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-25T01:08:36.509513Z",
+  "valid_to": null
+}
