@@ -1,0 +1,52 @@
+{
+  "claim": "agent_action",
+  "conditions": "仅为 Agent 在晨报中的自报结果，尚未见用户端复测确认。",
+  "confidence": 0.7,
+  "content": "2026-11-24 Agent 报告 DMIT 配置切换已完成：生产代理与系统代理访问 Google 均返回 204、百度返回 200，另有 5 个 Cloudflare WS 备用节点可用。",
+  "created_at": "2026-11-25T02:09:21.432000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_76ac53ec2a482696425b",
+    "ent_cb721ade93b583ee5181"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_c45892b795cc2de04d64",
+      "quote": "本地网络环境：DMIT 配置切换已完成，生产代理与系统代理访问 Google 均返回 204、百度返回 200；5 个 Cloudflare WS 备用节点可用。",
+      "revision": 18,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_0d5972898f2eda8b7210",
+  "is_temporary": false,
+  "keywords": [
+    "DMIT",
+    "代理",
+    "Clash Verge",
+    "Cloudflare",
+    "204",
+    "IPv6"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c45892b795cc2de04d64",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-25T02:09:40.930433Z",
+  "valid_to": null
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "百度搜索 API"
+    "百度搜索 API",
+    "百度"
   ],
   "created_at": "2026-11-24T02:04:25.287349Z",
   "description": "晨报备用搜索源，鉴权失败",
@@ -9,5 +10,5 @@
   "space": "project/proj_44e381f71d50cb6ce0c0",
   "sync_remote": true,
   "type": "tool",
-  "updated_at": "2026-11-24T02:04:25.293528Z"
+  "updated_at": "2026-11-25T02:09:40.926929Z"
 }

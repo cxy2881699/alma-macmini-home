@@ -1,0 +1,57 @@
+{
+  "claim": "agent_action",
+  "conditions": "定时晨报在搜索工具部分不可用时的执行记录，可对照后续晨报判断故障是否持续。",
+  "confidence": 0.8,
+  "content": "2026-11-25（北京时间）cron 晨报执行一次并完成自检；当日 Brave Search 仍缺 API key、百度 AI Search 仍鉴权失败，Agent 改用官方页面、Hacker News、TechCrunch 等公开来源逐条核验并附直达链接，昨日已发的 Supertake 未重复。",
+  "created_at": "2026-11-25T02:09:21.432000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_c326f3a35655a7118310"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_c45892b795cc2de04d64",
+      "quote": "自检已过：只保留已逐条打开原文或官方来源核实的内容；所有新闻均附直达链接；watchlist 已去重，昨日已发的 Supertake 不再重复。",
+      "revision": 18,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_c45892b795cc2de04d64",
+      "quote": "注：Brave Search 缺少 API key，百度 AI Search 鉴权失败；未采用无法核实的内容。",
+      "revision": 18,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_dbe5104e348d55bdbdd4",
+  "is_temporary": false,
+  "keywords": [
+    "晨报",
+    "morning-briefing",
+    "Brave",
+    "百度搜索",
+    "自检",
+    "去重"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_c45892b795cc2de04d64",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-25T02:09:40.929200Z",
+  "valid_to": null
+}
