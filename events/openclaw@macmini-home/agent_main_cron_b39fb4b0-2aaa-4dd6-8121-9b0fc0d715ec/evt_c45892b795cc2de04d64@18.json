@@ -1,0 +1,181 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "自检已过：只保留已逐条打开原文或官方来源核实的内容；所有新闻均附直达链接；watchlist 已去重，昨日已发的 Supertake 不再重复。\n🦐 晨报 2026年11月25日 周三\n\n🚀 模型发布动态\n今日未检索到新的官方发布；近 7 天已核实的重要发布：\n• Z.ai｜GLM-5.4｜750B 基座、1M 上下文｜首款 Loop Transformer 旗舰模型，将 28 层循环执行两轮，在不增加参数量的情况下加深推理；主打通用编程与视觉能力，API 仍标注“即将上线”。\nhttps://z.ai/blog/glm-5.4\n• OpenAI｜GPT-Live-1.1｜上下文长度未披露｜11 月 20 日开放 API，强化多语言口音一致性、字母与数字识别及指令遵循；新增待机模式，WebRTC 空闲时 $0.02/分钟，活跃状态 $0.05/分钟。\nhttps://community.openai.com/t/gpt-live-1-1-has-arrived-in-the-api/1418537\n\n💲 模型价格变动\n今日未检索到新的、可验证的 API 调价公告。\n\n🌍 欧美科技新闻\n• 三名 xAI 创始成员成立 Epochal，目标是训练预测未来事件的模型；其首个产品“time portal”让 Agent 浏览特定日期的互联网存档，以模拟过去并学习预测。\nhttps://www.bloomberg.com/news/articles/2026-11-24/xai-founders-unveil-new-ai-startup-to-predict-future-events\n• Meta 将 Muse 接入 Instagram 私信，可围绕帖子、地点和商品问答并执行行程、购物等操作；开始向美国、加拿大、墨西哥、日本和新加坡的 iOS/Android 用户推送。\nhttps://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/\n• Exein 发布固件安全 Agent「Ray」：嵌入 Exein Analyzer，可对话式查询扫描结果，并结合漏洞可达性与合规发现确定修复优先级，还支持对照欧盟《网络弹性法案》要求。\nhttps://siliconangle.com/2026/11/24/exein-launches-ray-ai-agent-to-show-manufacturers-which-firmware-weaknesses-to-fix-first/\n\n🇨🇳 中国科技要闻\n• 香港科技园与腾讯云 TVP 启动“OPC BUILD”一人公司培育计划，为学生和创业者提供导师、AI 工具、课程、共享空间及大模型调用优惠。\nhttps://www.chinanews.com.cn/cj/2026/11-24/10737216.shtml\n• 工信部披露：2026 年上半年我国 AI 核心产业规模预计超 7500 亿元，核心企业超 6600 家，智算规模超 2592 EFLOPS；后续将推进大模型、具身智能和多智能体协同等标准研制与国际互认。\nhttps://m.sohu.com/a/1105855320_161795\n\n🛠️ 项目动态\n• 本地网络环境：DMIT 配置切换已完成，生产代理与系统代理访问 Google 均返回 204、百度返回 200；5 个 Cloudflare WS 备用节点可用。\n\n🌤️ 今日天气\n• 北京：-1～7℃，当前 1℃、体感 -3℃，烟雾，东北偏东风 4km/h；日出 07:10，日落 16:52。\nhttps://wttr.in/Beijing\n\n🎯 你的赛道（Agent Infra / Memory）\n• 💰 Maple 完成 530 万美元种子轮，Epic Ventures 领投；其 AI 应用通过端到端加密与可信执行环境让企业自身也无法读取用户明文数据，桌面 Agent 可操作文件、应用和浏览器。\nhttps://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/\n• 🏢 ShellBench 发布：基于超 1000 万次匿名真实 Agent 交互，测试 12 个模型、5 种 harness、100 项任务；最高平均完成率仅 62.5%，全部 53,100 次运行中 15.7% 至少未通过一项安全检查。\nhttps://openclaw.ai/blog/shellbench\n• 💬 Versine（YC F26）登上 HN：通过 MCP 让 Agent 经用户 passkey 批准后收发款，支持最多 100 人批量请求；当前底层为 Base 上的自托管 USDC 钱包。\nhttps://news.ycombinator.com/item?id=50634426\n\n信源：Z.ai、OpenAI 官方开发者社区、Bloomberg、TechCrunch、SiliconANGLE、中国新闻网、南方都市报（搜狐转载）、OpenClaw、Hacker News、wttr.in、本地 memory/2026-11-24.md、watchlist_scan.py。\n注：Brave Search 缺少 API key，百度 AI Search 鉴权失败；未采用无法核实的内容。",
+  "content_hash": "7855fe0953cf61adfc9d1fad11ac3a8c0dc2a7838b0700642fc02e50debea4f6",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_c45892b795cc2de04d64",
+  "kind": "conversation",
+  "native_event_id": "4d09e8389304d2fee0ea7fa2",
+  "occurred_at": "2026-11-25T02:09:21.432000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-25T02:09:21.474403Z",
+  "revision": 18,
+  "session_id": "agent:main:cron:b39fb4b0-2aaa-4dd6-8121-9b0fc0d715ec",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"find /Users/seancao/.openclaw/workspace -name SKILL.md -o -name 'HEARTBEAT.md' | head -80\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":20}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/skills-lobster-academy/SKILL.md\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/skills-commercial-strategy/SKILL.md\"}"
+    },
+    {
+      "name": "memory_search",
+      "summary": "{\"query\":\"晨报 SKILL.md 流程 自检清单 morning briefing\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"find /Users/seancao/.openclaw /Users/seancao/.agents -name SKILL.md 2>/dev/null | while read f; do if grep -qiE '晨报|morning.brief' \\\"$f\\\"; then echo \\\"$f\\\"; fi; done\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":30}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/skills/morning-briefing/SKILL.md\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"printf '%s\\\\n' '--- marker ---'; cat memory/.morning-briefing-sent 2>/dev/null || true; printf '%s\\\\n' '--- today ---'; TZ=Asia/Shanghai date +%Y-%m-%d; printf '%s\\\\n' '--- marker mtime ---'; stat -f %m memory/.morning-briefing-sent 2>/dev/null || echo 0; printf '%s\\\\n' '--- delivery log"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"AI model release announcement new launch November 25 2026\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"OpenAI Anthropic Google DeepSeek Qwen new model announcement\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"LLM model launch preview upcoming release\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 tools/baidu_search.py \\\"大模型 发布 新模型 上线 2026年11月25日\\\" --max_results 10\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":90}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 tools/baidu_search.py \\\"OpenAI Claude Gemini DeepSeek 通义千问 新模型 2026年11月25日\\\" --max_results 10\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":90}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 tools/watchlist_scan.py --days 2\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":120}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://docs.anthropic.com/en/docs/about-claude/models\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.openai.com/docs/models\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://cloud.google.com/vertex-ai/docs/generative-ai/learn/models\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.deepseek.com/api-docs/\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://help.aliyun.com/zh/model-studio/developer-reference/\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.anthropic.com/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://openai.com/api/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.deepseek.com/api-docs/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "process",
+      "summary": "{\"action\":\"poll\",\"sessionId\":\"salty-breeze\",\"timeout\":1000,\"limit\":20000}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"start\",\"profile\":\"openclaw\",\"target\":\"host\"}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"open\",\"profile\":\"openclaw\",\"target\":\"host\",\"url\":\"https://www.google.com/search?q=AI+model+release+announcement&tbm=nws&tbs=qdr:d\"}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"snapshot\",\"profile\":\"openclaw\",\"target\":\"host\",\"targetId\":\"2915422D49092CE64F1CB574C2EB21DF\",\"compact\":true,\"maxChars\":15000}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"navigate\",\"profile\":\"openclaw\",\"target\":\"host\",\"targetId\":\"2915422D49092CE64F1CB574C2EB21DF\",\"url\":\"https://www.google.com/search?q=GLM-5.4+Z.ai+official+November+23+2026\"}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"snapshot\",\"profile\":\"openclaw\",\"target\":\"host\",\"targetId\":\"2915422D49092CE64F1CB574C2EB21DF\",\"compact\":true,\"maxChars\":16000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://z.ai/blog/glm-5.4\",\"maxChars\":12000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://docs.z.ai/guides/llm/glm-5.4\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.investing.com/news/stock-market-news/former-xai-cofounders-launch-epochal-to-build-predictive-ai-models-5048830\",\"maxChars\":10000}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"navigate\",\"profile\":\"openclaw\",\"target\":\"host\",\"targetId\":\"2915422D49092CE64F1CB574C2EB21DF\",\"url\":\"https://z.ai/blog/glm-5.4\"}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"snapshot\",\"profile\":\"openclaw\",\"target\":\"host\",\"targetId\":\"2915422D49092CE64F1CB574C2EB21DF\",\"compact\":true,\"maxChars\":20000}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"API pricing change LLM model price drop increase November 2026\",\"count\":10,\"freshness\":\"pw\"}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://cloud.google.com/vertex-ai/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://help.aliyun.com/zh/model-studio/billing-for-model-studio\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.moonshot.cn/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://open.bigmodel.cn/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.minimax.io/document/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 tools/baidu_search.py \\\"API 价格 调整 降价 涨价 大模型 2026年11月25日\\\" --max_results 10\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":90}"
+    }
+  ],
+  "turn_index": 0,
+  "user_text": "[cron:b39fb4b0-2aaa-4dd6-8121-9b0fc0d715ec morning-briefing] 严格按照 SKILL.md 流程执行晨报。强制规则：①每条新闻必须通过搜索验证来源，逐条附直接原文链接；②禁止编造任何信息，不确定等于不写；③发之前执行自检清单逐项勾选；④只发一次，禁止重复发送。\nCurrent time: Tuesday, November 24th, 2026 — 6:00 PM (America/Los_Angeles)\n\nReturn your summary as plain text; it will be delivered automatically. If the task explicitly calls for messaging a specific external recipient, note who/where it should go instead of sending it yourself."
+}
