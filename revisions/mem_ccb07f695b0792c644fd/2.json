@@ -1,0 +1,75 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": 1,
+  "created_at": "2026-11-25T16:27:17.623825Z",
+  "id": "rev_9b9fd5b78700018ad395",
+  "memory": {
+    "claim": "user_instruction",
+    "conditions": "需要识别价格爬虫定时任务的命令及其完成后不发送消息的要求。",
+    "confidence": 0.95,
+    "content": "用户配置了一个 cron 定时任务“大模型API价格爬虫”,执行命令为 cd ~/.openclaw/workspace && python3 scripts/model_price_scraper.py --headless;任务完成后不需要发送消息,应保持静默。",
+    "created_at": "2026-11-16T16:27:53.731000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_4f38d5e4501c6dc5cf42",
+      "ent_1c6b296bc5cb579536f2"
+    ],
+    "epistemic": "explicit",
+    "evidence": [
+      {
+        "event_id": "evt_439bbcaaf9315ef92cba",
+        "quote": "执行模型价格爬虫脚本: cd ~/.openclaw/workspace && python3 scripts/model_price_scraper.py --headless",
+        "revision": 13,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_439bbcaaf9315ef92cba",
+        "quote": "执行模型价格爬虫脚本: cd ~/.openclaw/workspace && python3 scripts/model_price_scraper.py --headless。爬取完成后不需要发送任何消息，保持静默。",
+        "revision": 22,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_439bbcaaf9315ef92cba",
+        "quote": "NO_REPLY",
+        "revision": 22,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_ccb07f695b0792c644fd",
+    "is_temporary": false,
+    "keywords": [
+      "cron",
+      "大模型API价格爬虫",
+      "model_price_scraper",
+      "静默",
+      "定时任务",
+      "模型价格爬虫",
+      "NO_REPLY"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_439bbcaaf9315ef92cba",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 2,
+    "source_agent": "openclaw@macmini-home",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "fact",
+    "updated_at": "2026-11-25T16:27:17.623654Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_ccb07f695b0792c644fd",
+  "policy_version": "extract-v2",
+  "reason": "确认",
+  "revision": 2
+}

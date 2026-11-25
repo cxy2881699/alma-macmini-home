@@ -16,6 +16,18 @@
       "quote": "执行模型价格爬虫脚本: cd ~/.openclaw/workspace && python3 scripts/model_price_scraper.py --headless",
       "revision": 13,
       "role": "user"
+    },
+    {
+      "event_id": "evt_439bbcaaf9315ef92cba",
+      "quote": "执行模型价格爬虫脚本: cd ~/.openclaw/workspace && python3 scripts/model_price_scraper.py --headless。爬取完成后不需要发送任何消息，保持静默。",
+      "revision": 22,
+      "role": "user"
+    },
+    {
+      "event_id": "evt_439bbcaaf9315ef92cba",
+      "quote": "NO_REPLY",
+      "revision": 22,
+      "role": "assistant"
     }
   ],
   "id": "mem_ccb07f695b0792c644fd",
@@ -25,7 +37,9 @@
     "大模型API价格爬虫",
     "model_price_scraper",
     "静默",
-    "定时任务"
+    "定时任务",
+    "模型价格爬虫",
+    "NO_REPLY"
   ],
   "layer": "memory",
   "level": 0,
@@ -39,13 +53,13 @@
       "type": "derived_from"
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "source_agent": "openclaw@macmini-home",
   "space": "project/proj_44e381f71d50cb6ce0c0",
   "status": "active",
   "status_reason": "",
   "sync_remote": true,
   "type": "fact",
-  "updated_at": "2026-11-16T16:28:00.420795Z",
+  "updated_at": "2026-11-25T16:27:17.623654Z",
   "valid_to": null
 }
