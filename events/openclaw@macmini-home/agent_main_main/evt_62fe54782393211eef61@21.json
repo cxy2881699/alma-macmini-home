@@ -1,0 +1,53 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "HEARTBEAT_OK",
+  "content_hash": "bcd7cd9e3827bc5cfda570a922b2238b6507a91466e300961c14d63376c3ac4e",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_62fe54782393211eef61",
+  "kind": "conversation",
+  "native_event_id": "2735641658730aaa232b4a50",
+  "occurred_at": "2026-11-25T12:03:54.303000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-25T12:03:54.343848Z",
+  "revision": 21,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/skills/self-reflection/SKILL.md\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/memory/2026-11-25.md\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/memory/2026-11-24.md\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/memory/.last_reflection\"}"
+    },
+    {
+      "name": "memory_search",
+      "summary": "{\"query\":\"2026-11-24 2026-11-25 用户互动 项目决策 晨报 心跳 反思\",\"maxResults\":8}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 - <<'PY'\\nfrom pathlib import Path\\nimport re\\nroot=Path('/Users/seancao/.openclaw/workspace/.learnings')\\nfiles=list(root.glob('*.md')) if root.exists() else []\\ntext='\\\\n'.join(p.read_text(errors='ignore') for p in files)\\nids=re.findall(r'\\\\[(?:LRN|ERR)-\\\\d{8}-\\\\d{3}\\\\]',text)"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/.learnings/LEARNINGS.md\",\"limit\":80}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 - <<'PY'\\nfrom pathlib import Path\\nimport re\\nroot=Path('/Users/seancao/.openclaw/workspace/.learnings')\\ntext='\\\\n'.join(p.read_text(errors='ignore') for p in root.glob('*.md'))\\npending=len(re.findall(r'(?i)\\\\*\\\\*Status\\\\*\\\\*\\\\s*:\\\\s*pending',text))\\nhigh_pending=len(re.findal"
+    }
+  ],
+  "turn_index": 0,
+  "user_text": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nCurrent time: Wednesday, November 25th, 2026 — 4:03 AM (America/Los_Angeles)"
+}
