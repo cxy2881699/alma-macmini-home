@@ -1,0 +1,181 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "我先读取晨报技能和自检清单，再逐条搜索验证来源；无法核实的信息直接不写。\nBrave 和百度搜索都不可用，我改用 Google 新闻检索、官方页面和公开 RSS/API；来源不足的板块会明确写“未检索到可验证更新”。\n已核实完入选条目，正在做最后自检：直达链接、参数细节、天气数值、Watchlist 增量和今日防重复标记。\n🦐 晨报 2026年11月26日 周四\n\n🚀 模型发布动态\n• Sand.ai｜MAGI-2｜480B 总参数、约 28B 激活，4T tokens 预训练｜原生同步生成最长 30 秒、1080p/25fps 音视频；单次最多组合 20 个图片/视频/音频参考，支持时间线与镜头切换控制、局部视频编辑。官方称开放权重和完整技术报告后续发布，目前别把它当成已可本地下载。\nhttps://sand.ai/blog/magi-2/\n• KRAFTON｜Raon-1 mini 正式版｜30B 总参数、4B 激活，MoE + Linear Attention｜强化推理和 Agent 任务执行，提供五档推理长度及无推理直答模式；Apache 2.0 开源，已上 Hugging Face，并提供 API。\nhttps://www.invenglobal.com/articles/29095/krafton-officially-launches-in-house-llm-raon-1-mini\n• Chariot｜Chariot-1 基础模型系列｜参数及上下文未披露｜印度本土从零训练，覆盖英语和 10 种印度语言；IndicShift 共享字母方案将印度文本 token 数降至约 1/2.5，Nested Training 与混合词表分别宣称提升训练效率 62% 和 38%。\nhttps://www.unite.ai/chariot-launches-sovereign-foundation-models-under-indiaai-mission/\n• Harrison.ai｜Harrison.Rad 2 研究预览｜参数及上下文未披露｜单一放射科基础模型同时处理 2D X 光和 3D CT，按医生模板起草报告，并把文字结论定位到对应影像区域，方便复核。\nhttps://itwire.com/science-news/health/harrison-ai-launches-harrison-rad-2-a-unified-radiology-foundation-model\n\n💲 模型价格变动\n• 今日未检索到新的、可验证的 API 调价公告；已检查厂商官方定价页及近 7 日相关新闻，未采用无生效日期或缺少新旧价格对比的信息。\n\n🌍 欧美科技新闻\n• FCC 有条件批准 SpaceX 部署最多 100 万颗 Starmind 轨道数据中心卫星。首颗运营卫星须在 7 年内入轨、全部星座须在 14 年内完成；600 公里以上卫星的碎片处理方案仍未获批，因此这不等于太空数据中心马上落地。\nhttps://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/\n• OpenAI 开始向少数 Pro 用户合并 ChatGPT 的 Chat 与 Work，并统一用量计数；极少数重度用户可能更早触顶，Instant 模型仍不限量。更广泛共享额度预计 12 月推出。\nhttps://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/\n• 1Password 确认内部系统遭入侵：攻击者通过员工 GitHub 企业账户推送恶意代码，窃取部分客户姓名、登录邮箱、账户创建及最近登录时间；公司称密码库、账户密码和 Secret Key 均未被访问，受影响人数尚未披露。\nhttps://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/\n• 纽约州签署为期五年的 AI 聊天机器人玩具禁令，覆盖相关玩具的制造、分销和销售；法律在签署 90 天后生效，违规执法成本可达每天 1.5 万美元。\nhttps://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/\n\n🇨🇳 中国科技要闻\n• 华为与 23 家鸿蒙生态伙伴发布“AI×鸿蒙场景化解决方案”，面向城市治理、工业制造、民生服务、应急安全、医疗康养等场景；方案依托鸿蒙生态（长沙）创新中心推进落地。\nhttps://sti.xizang.gov.cn/xwdt/kjdt/202611/t20261126_570626.html\n• 据观点网转引 CNBC、彭博报道，美国收紧 AI 芯片远程访问及出口限制后，部分银行暂停或重审涉及字节跳动、阿里、腾讯等相关数据中心的数十亿美元贷款；其中包括 Bridge Data Centres 的 66 亿美元扩贷计划和 Digital Halo 的 3.7 亿美元贷款。\nhttps://www.guandian.cn/article/20261126/633326.html\n\n🛠️ 项目动态\n• 本地记录暂无 11 月 25 日后的新增项目进展；最近一项仍是 DMIT 配置切换完成，生产代理与系统代理访问 Google 均返回 204、百度返回 200，5 个 Cloudflare WS 备用节点可用。\n\n🌤️ 今日天气\n• 北京：1～11℃，当前 4℃、体感 1℃，烟雾；湿度 46%，能见度 3 公里，东北偏北风 4km/h。日出 07:11，日落 16:52。\nhttps://wttr.in/Beijing\n\n🎯 你的赛道（Agent Infra / Memory）\n• 🏢 Amazon 与 Meta 正就多轮谈判解除对购物 Agent Muse 的封锁，让其可连接 Amazon 商店；搜索结果展示和广告如何处理仍是核心分歧，协议尚需双方 CEO 批准，目前不是已达成交易。\nhttps://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/\n• 🔥 Brickie｜132⭐｜在自有云或 Kubernetes 集群运行持久化 Agent 沙箱；支持 Kata、gVisor、AWS Nitro，每次工作区变更都会生成不可变、可 fork 的快照，任务可重试且可观测，目前处于 beta。\nhttps://github.com/hatchet-dev/brickie\n\n信源：Sand.ai 官方技术博客、Inven Global、Unite.AI、iTWire、TechCrunch、科技日报（西藏自治区科技厅转载）、观点网、GitHub API、wttr.in、本地 memory/2026-11-24.md、watchlist_scan.py。\n注：Brave Search 缺少 API key，百度 AI Search 鉴权失败；已改用 Google 新闻检索、官方页面及公开 RSS/API 验证。昨日已发的 Versine 不重复收录。",
+  "content_hash": "212fa243ebfea465b4e6190bafa7946a2d77e8f2ef92e3b9b58dce9a6cb2b46e",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_c45892b795cc2de04d64",
+  "kind": "conversation",
+  "native_event_id": "4d09e8389304d2fee0ea7fa2",
+  "occurred_at": "2026-11-26T02:08:19.616000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-26T02:08:19.657503Z",
+  "revision": 19,
+  "session_id": "agent:main:cron:b39fb4b0-2aaa-4dd6-8121-9b0fc0d715ec",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"find . -maxdepth 4 -type f \\\\( -name 'SKILL.md' -o -name 'HEARTBEAT.md' \\\\) -print && printf '\\\\n--- workspace ---\\\\n' && ls -la && printf '\\\\n--- memory recent ---\\\\n' && find memory -maxdepth 1 -type f 2>/dev/null | sort | tail -5\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeou"
+    },
+    {
+      "name": "memory_search",
+      "summary": "{\"query\":\"晨报 morning briefing SKILL.md 流程 自检清单 新闻 天气 项目动态\",\"maxResults\":10}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"find ~/.openclaw ~/.agents -type f -name 'SKILL.md' 2>/dev/null | grep -Ei 'morning|brief|news|daily|晨报' || true; printf '\\\\n--- cron analysis ---\\\\n'; sed -n '1,240p' cron-briefing-analysis.md; printf '\\\\n--- recent daily files ---\\\\n'; find memory -maxdepth 1 -type f -name '2026-11-2*."
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/HEARTBEAT.md\"}"
+    },
+    {
+      "name": "process",
+      "summary": "{\"action\":\"poll\",\"sessionId\":\"tender-shoal\",\"timeout\":1000}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/skills/morning-briefing/SKILL.md\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/memory/2026-11-24.md\"}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/MEMORY.md\",\"offset\":1,\"limit\":200}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"printf '%s\\\\n' '--- marker ---'; cat memory/.morning-briefing-sent 2>/dev/null || true; printf '%s\\\\n' '--- Beijing today ---'; TZ=Asia/Shanghai date +%Y-%m-%d; printf '%s\\\\n' '--- marker mtime ---'; stat -f %m memory/.morning-briefing-sent 2>/dev/null || echo 0; printf '%s\\\\n' '--- rece"
+    },
+    {
+      "name": "process",
+      "summary": "{\"action\":\"poll\",\"sessionId\":\"gentle-otter\",\"timeout\":1000}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"AI model release announcement new launch November 25 2026\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"OpenAI Anthropic Google DeepSeek Qwen new model announcement\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"LLM model launch preview upcoming release\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"API pricing change LLM model price drop increase\",\"count\":10,\"freshness\":\"pw\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"AI artificial intelligence news technology November 25 2026\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "web_search",
+      "summary": "{\"query\":\"tech startup product launch November 25 2026\",\"count\":10,\"freshness\":\"pd\"}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 tools/baidu_search.py '大模型 发布 新模型 上线 2026年11月26日' --max_results 10 > /tmp/brief-baidu-models-1.json 2>&1; python3 tools/baidu_search.py 'OpenAI Claude Gemini DeepSeek 通义千问 新模型 2026年11月26日' --max_results 10 > /tmp/brief-baidu-models-2.json 2>&1; python3 tools/baidu_search.py 'AI模型"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"python3 tools/watchlist_scan.py --days 2\",\"workdir\":\"/Users/seancao/.openclaw/workspace\",\"timeout\":180}"
+    },
+    {
+      "name": "read",
+      "summary": "{\"file_path\":\"/Users/seancao/.openclaw/workspace/memory/morning-briefings/2026-11-25.md\"}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://docs.anthropic.com/en/docs/about-claude/models\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.openai.com/docs/models\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://cloud.google.com/vertex-ai/docs/generative-ai/learn/models\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.deepseek.com/api-docs/\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://help.aliyun.com/zh/model-studio/developer-reference/\",\"maxChars\":8000}"
+    },
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"ls -la tools; printf '\\\\n--- scripts ---\\\\n'; ls -la scripts; printf '\\\\n--- briefing archives ---\\\\n'; ls -la memory/morning-briefings | tail -10; printf '\\\\n--- possible news tooling ---\\\\n'; grep -RIl 'TechCrunch\\\\|news.google\\\\|morning-briefing' tools scripts 2>/dev/null | head -30\","
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"status\",\"profile\":\"openclaw\"}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"open\",\"profile\":\"openclaw\",\"url\":\"https://www.google.com/search?q=AI+model+release+announcement+new+launch&tbm=nws&tbs=qdr:d\"}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"snapshot\",\"profile\":\"openclaw\",\"targetId\":\"9CE78799FB12E4615DFB9D34A17DB4C2\",\"maxChars\":20000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.anthropic.com/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://openai.com/api/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://cloud.google.com/vertex-ai/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.deepseek.com/api-docs/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://help.aliyun.com/zh/model-studio/billing-for-model-studio\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://platform.moonshot.cn/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://open.bigmodel.cn/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.minimax.io/document/pricing\",\"maxChars\":8000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://pandaily.com/sand-ai-full-magi-2-video-model-open-weights-planned\",\"maxChars\":10000}"
+    },
+    {
+      "name": "web_fetch",
+      "summary": "{\"url\":\"https://www.unite.ai/chariot-launches-sovereign-foundation-models-under-indiaai-mission/\",\"maxChars\":10000}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"navigate\",\"profile\":\"openclaw\",\"targetId\":\"9CE78799FB12E4615DFB9D34A17DB4C2\",\"url\":\"https://www.google.com/search?q=OpenAI+Anthropic+Google+DeepSeek+Qwen+new+model&tbm=nws&tbs=qdr:d\"}"
+    },
+    {
+      "name": "browser",
+      "summary": "{\"action\":\"snapshot\",\"profile\":\"openclaw\",\"targetId\":\"9CE78799FB12E4615DFB9D34A17DB4C2\",\"maxChars\":16000}"
+    }
+  ],
+  "turn_index": 0,
+  "user_text": "[cron:b39fb4b0-2aaa-4dd6-8121-9b0fc0d715ec morning-briefing] 严格按照 SKILL.md 流程执行晨报。强制规则：①每条新闻必须通过搜索验证来源，逐条附直接原文链接；②禁止编造任何信息，不确定等于不写；③发之前执行自检清单逐项勾选；④只发一次，禁止重复发送。\nCurrent time: Wednesday, November 25th, 2026 — 6:00 PM (America/Los_Angeles)\n\nReturn your summary as plain text; it will be delivered automatically. If the task explicitly calls for messaging a specific external recipient, note who/where it should go instead of sending it yourself."
+}
