@@ -1,0 +1,68 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": null,
+  "created_at": "2026-11-26T04:33:39.994241Z",
+  "id": "rev_f38224399a76b9e5a839",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "OpenClaw 工作区心跳轮次；已记入学习项但尚未修复",
+    "confidence": 0.85,
+    "content": "2026-11-25 04:03 PST 的心跳轮次在回复 HEARTBEAT_OK 之后又追加了一整份晨报，构成第43次心跳违规；Agent 于当日 20:32 的心跳检查中把该问题补录进工作区的 .learnings/LEARNINGS.md（编号 LRN-20261125-001，priority critical、status pending、Area config），并同步写入 memory/2026-11-25.md。",
+    "created_at": "2026-11-26T04:33:28.442000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_5f05a7fe296bd9a7f826",
+      "ent_5b1c57759d1410c52c7c"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_0ac1dfeef402b0cb3d20",
+        "quote": "If nothing needs attention, reply HEARTBEAT_OK.",
+        "revision": 581,
+        "role": "user"
+      },
+      {
+        "event_id": "evt_0ac1dfeef402b0cb3d20",
+        "quote": "第43次心跳违规（HEARTBEAT_OK 后追加完整晨报）",
+        "revision": 581,
+        "role": "tool"
+      }
+    ],
+    "id": "mem_6ff579431fd77076c602",
+    "is_temporary": false,
+    "keywords": [
+      "心跳违规",
+      "HEARTBEAT_OK",
+      "晨报",
+      "LEARNINGS",
+      "LRN-20261125-001",
+      "self-improving-agent"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_0ac1dfeef402b0cb3d20",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@macmini-home",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-26T04:33:39.994079Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_6ff579431fd77076c602",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

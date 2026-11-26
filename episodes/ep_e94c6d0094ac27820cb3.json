@@ -1,0 +1,33 @@
+{
+  "entities": [
+    "ent_5f05a7fe296bd9a7f826",
+    "ent_5b1c57759d1410c52c7c"
+  ],
+  "follows": "ep_dc3d2920d4864c2c8066",
+  "goal": "让心跳轮次在无待办时只回复 HEARTBEAT_OK，不再追加晨报等额外内容",
+  "id": "ep_e94c6d0094ac27820cb3",
+  "memory_ids": [
+    "mem_6ff579431fd77076c602"
+  ],
+  "outcome": "",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "started_at": "2026-11-26T04:33:28.442000Z",
+  "status": "ongoing",
+  "steps": [
+    {
+      "agent_id": "openclaw@macmini-home",
+      "at": "2026-11-26T04:33:28.442000Z",
+      "event_id": "evt_0ac1dfeef402b0cb3d20",
+      "kind": "note",
+      "order": 1,
+      "quote": "第43次心跳违规（HEARTBEAT_OK 后追加完整晨报）",
+      "revision": 581,
+      "text": "Agent 在心跳检查中把 2026-11-25 04:03 的心跳违例（HEARTBEAT_OK 后追加完整晨报）作为第43次补录进 .learnings/LEARNINGS.md，状态 pending"
+    }
+  ],
+  "sync_remote": true,
+  "title": "消除心跳轮次在 HEARTBEAT_OK 后追加晨报的违规",
+  "updated_at": "2026-11-26T04:33:39.990839Z"
+}
