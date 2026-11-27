@@ -1,0 +1,14 @@
+{
+  "aliases": [
+    "旧导出",
+    "permit-cameras"
+  ],
+  "created_at": "2026-11-27T07:18:47.794875Z",
+  "description": "11-13 版本的进京证点位导出文件，已过期",
+  "id": "ent_07af0c3587e6b0726937",
+  "name": "permit-cameras-gcj02.csv",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "sync_remote": true,
+  "type": "component",
+  "updated_at": "2026-11-27T07:18:47.813644Z"
+}

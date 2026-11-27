@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "六环"
+  ],
+  "created_at": "2026-11-27T07:18:47.808658Z",
+  "description": "需穿越的环形高速边界",
+  "id": "ent_e67c5031d20d6e5a6afa",
+  "name": "北六环",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "sync_remote": true,
+  "type": "place",
+  "updated_at": "2026-11-27T07:18:47.815694Z"
+}

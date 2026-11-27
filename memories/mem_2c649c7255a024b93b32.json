@@ -1,0 +1,57 @@
+{
+  "claim": "agent_action",
+  "conditions": "在需要给出绕过摄像头的安全结论时成立。",
+  "confidence": 0.85,
+  "content": "jjz365 归档里 data/jjz365/permit-cameras-gcj02.csv 仍停留在 2026-11-13 版本（6679 个进京证点位），manifest.json 也仍记录初始 7006 点；用它们做路线安全结论会漏掉 2026-11-23 新增的 9 个进京证点位，因此判断必须改用 aggregates/cameras.csv。",
+  "created_at": "2026-11-27T07:18:08.535000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_07af0c3587e6b0726937",
+    "ent_5784e9c3d352cbd6e05f"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_6f0f710bcdd54e20e713",
+      "quote": "仍是 11 月 13 日版本，共 **6679** 个进京证点位。",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_6f0f710bcdd54e20e713",
+      "quote": "`manifest.json` 也仍记录初始 7006 点，不能用于判断当前 aggregates 版本。",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_2c649c7255a024b93b32",
+  "is_temporary": false,
+  "keywords": [
+    "permit-cameras-gcj02.csv",
+    "manifest.json",
+    "过期",
+    "旧导出",
+    "版本"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_6f0f710bcdd54e20e713",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "experience",
+  "updated_at": "2026-11-27T07:18:47.818256Z",
+  "valid_to": null
+}

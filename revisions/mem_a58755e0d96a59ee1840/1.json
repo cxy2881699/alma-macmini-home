@@ -1,0 +1,67 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": null,
+  "created_at": "2026-11-27T07:18:47.819040Z",
+  "id": "rev_f56693af8e714eb62d7c",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "使用 jjz365 点表做空间或通行判断时成立。",
+    "confidence": 0.85,
+    "content": "读 jjz365 归档时有两个易误判点：PicCount=0 或 EvidenceTotal=0 只代表归档没有证据图片，不等于该处没有摄像头或不拍；IsSixRingOut 只是网站区域标签，不是可靠的六环内外道路拓扑关系，方向只能从 Address 文本解析。",
+    "created_at": "2026-11-27T07:18:08.535000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_5784e9c3d352cbd6e05f"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_6f0f710bcdd54e20e713",
+        "quote": "`PicCount=0` 或 `EvidenceTotal=0` **不等于没有摄像头或不拍**",
+        "revision": 1,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_6f0f710bcdd54e20e713",
+        "quote": "`IsSixRingOut` 是网站区域标签，不是可靠的道路拓扑关系。",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_a58755e0d96a59ee1840",
+    "is_temporary": false,
+    "keywords": [
+      "PicCount",
+      "EvidenceTotal",
+      "IsSixRingOut",
+      "字段含义",
+      "方向解析",
+      "六环"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_6f0f710bcdd54e20e713",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@macmini-home",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-27T07:18:47.819002Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_a58755e0d96a59ee1840",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

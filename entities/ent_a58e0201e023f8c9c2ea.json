@@ -1,0 +1,11 @@
+{
+  "aliases": [],
+  "created_at": "2026-11-27T07:18:47.804965Z",
+  "description": "向北经北七家的通道，南向北连续设点",
+  "id": "ent_a58e0201e023f8c9c2ea",
+  "name": "立汤路",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "sync_remote": true,
+  "type": "component",
+  "updated_at": "2026-11-27T07:18:47.814933Z"
+}

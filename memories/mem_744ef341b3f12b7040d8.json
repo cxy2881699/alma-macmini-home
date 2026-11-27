@@ -1,0 +1,59 @@
+{
+  "claim": "agent_action",
+  "conditions": "",
+  "confidence": 0.85,
+  "content": "2026-11-23 的 jjz365 周增量已合并进 aggregates/cameras.csv：source_count 7019、baseline_count 7006、新增 13 个点位（其中 9 个为进京证相关，含北清路与七小路交叉口东的东向西点 116.322750,40.098456），pending_count=0，13 个新 ID 已全部落表。",
+  "created_at": "2026-11-27T07:18:08.535000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_5784e9c3d352cbd6e05f",
+    "ent_a7526d24a584c3235e1a"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_6f0f710bcdd54e20e713",
+      "quote": "新增 13 个，`pending_count=0`",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_6f0f710bcdd54e20e713",
+      "quote": "13 个 ID 已全部在 `cameras.csv` 中。",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_744ef341b3f12b7040d8",
+  "is_temporary": false,
+  "keywords": [
+    "weekly",
+    "增量",
+    "合并",
+    "pending_count",
+    "北清路",
+    "七小路",
+    "新增"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_6f0f710bcdd54e20e713",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "event",
+  "updated_at": "2026-11-27T07:18:47.817385Z",
+  "valid_to": null
+}

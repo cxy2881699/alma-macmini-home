@@ -1,0 +1,60 @@
+{
+  "claim": "user_fact",
+  "conditions": "随每周增量任务更新，点位数量会变化。",
+  "confidence": 0.9,
+  "content": "摄像头避让导航的数据源为 jjz365.cn 公开点位，当前主表是 data/jjz365/full-archive/aggregates/cameras.csv；截至 2026-11-23 周增量合并后共 7019 个点位（ID 全部唯一），其中进京证相关 6688 个；坐标为 GCJ-02，空间筛选须用 Lng/Lat（Detail_camLng/Detail_camLat 多为空），方向信息混在 Address 字段中。",
+  "created_at": "2026-11-27T07:18:08.535000Z",
+  "derived_from": [],
+  "entities": [
+    "ent_5784e9c3d352cbd6e05f",
+    "ent_c1230d7f007b72e69523"
+  ],
+  "epistemic": "observed",
+  "evidence": [
+    {
+      "event_id": "evt_6f0f710bcdd54e20e713",
+      "quote": "当前共 **7019** 个点位，ID 全部唯一。",
+      "revision": 1,
+      "role": "assistant"
+    },
+    {
+      "event_id": "evt_6f0f710bcdd54e20e713",
+      "quote": "其中进京证相关 **6688** 个：`CameraType` 含“进京证”。",
+      "revision": 1,
+      "role": "assistant"
+    }
+  ],
+  "id": "mem_2f2beaab56437e1d0200",
+  "is_temporary": false,
+  "keywords": [
+    "jjz365",
+    "aggregates",
+    "cameras.csv",
+    "进京证",
+    "点位",
+    "GCJ-02",
+    "7019",
+    "6688"
+  ],
+  "layer": "memory",
+  "level": 0,
+  "model_version": "ark/deepseek-v4-1-flash-261017",
+  "policy_version": "extract-v3",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "relations": [
+    {
+      "note": "",
+      "target_id": "evt_6f0f710bcdd54e20e713",
+      "type": "derived_from"
+    }
+  ],
+  "revision": 1,
+  "source_agent": "openclaw@macmini-home",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "status": "active",
+  "status_reason": "",
+  "sync_remote": true,
+  "type": "fact",
+  "updated_at": "2026-11-27T07:18:47.816465Z",
+  "valid_to": null
+}

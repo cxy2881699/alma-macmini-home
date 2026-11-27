@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "G7"
+  ],
+  "created_at": "2026-11-27T07:18:47.803575Z",
+  "description": "出京方向有明确点位约束",
+  "id": "ent_19aa774c5b2c4392b679",
+  "name": "京新高速",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "sync_remote": true,
+  "type": "component",
+  "updated_at": "2026-11-27T07:18:47.814645Z"
+}

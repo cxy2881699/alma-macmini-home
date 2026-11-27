@@ -1,0 +1,76 @@
+{
+  "actor": "openclaw@macmini-home",
+  "base_revision": null,
+  "created_at": "2026-11-27T07:18:47.819756Z",
+  "id": "rev_f925e7dae6c2751c634f",
+  "memory": {
+    "claim": "agent_action",
+    "conditions": "结论基于当前点表与道路关键词初筛，引入真实路网后可细化。",
+    "confidence": 0.8,
+    "content": "2026-11-26 仅用 jjz365 点位表加道路名称初筛（缺道路中心线、匝道与辅路连接、转弯拓扑）分析从霍营地铁站出北京六环的路线，结论是无法产出可验证的 CLEAR 路线：G6 京藏主路与辅路、G7 京新、立汤路—北七家、京承高速、北清路各方向，以及回昌路、纪流路、流研所路、赴沟路、秦北路、裕安路等北六环通道均存在进京证点位，局部空隙最多标 UNVERIFIED。",
+    "created_at": "2026-11-27T07:18:08.535000Z",
+    "derived_from": [],
+    "entities": [
+      "ent_ba858772521638591bc3",
+      "ent_0024eabf220035ea6b58",
+      "ent_19aa774c5b2c4392b679",
+      "ent_a58e0201e023f8c9c2ea",
+      "ent_1b89f1bab763a199cd84",
+      "ent_a7526d24a584c3235e1a",
+      "ent_e67c5031d20d6e5a6afa",
+      "ent_c1230d7f007b72e69523"
+    ],
+    "epistemic": "observed",
+    "evidence": [
+      {
+        "event_id": "evt_6f0f710bcdd54e20e713",
+        "quote": "**目前没有可验证为 CLEAR 的完整路线。**",
+        "revision": 1,
+        "role": "assistant"
+      },
+      {
+        "event_id": "evt_6f0f710bcdd54e20e713",
+        "quote": "这些全部不能作为“穿六环即安全”的候选。",
+        "revision": 1,
+        "role": "assistant"
+      }
+    ],
+    "id": "mem_60b378c8f96161df71f2",
+    "is_temporary": false,
+    "keywords": [
+      "霍营",
+      "六环",
+      "G6",
+      "京藏高速",
+      "G7",
+      "立汤路",
+      "京承",
+      "NO_CLEAR_ROUTE"
+    ],
+    "layer": "memory",
+    "level": 0,
+    "model_version": "ark/deepseek-v4-1-flash-261017",
+    "policy_version": "extract-v3",
+    "project_id": "proj_44e381f71d50cb6ce0c0",
+    "relations": [
+      {
+        "note": "",
+        "target_id": "evt_6f0f710bcdd54e20e713",
+        "type": "derived_from"
+      }
+    ],
+    "revision": 1,
+    "source_agent": "openclaw@macmini-home",
+    "space": "project/proj_44e381f71d50cb6ce0c0",
+    "status": "active",
+    "status_reason": "",
+    "sync_remote": true,
+    "type": "experience",
+    "updated_at": "2026-11-27T07:18:47.819720Z",
+    "valid_to": null
+  },
+  "memory_id": "mem_60b378c8f96161df71f2",
+  "policy_version": "extract-v2",
+  "reason": "新增",
+  "revision": 1
+}

@@ -1,0 +1,14 @@
+{
+  "aliases": [
+    "cameras.csv",
+    "最新主表"
+  ],
+  "created_at": "2026-11-27T07:18:47.769894Z",
+  "description": "jjz365 全量归档合并后的摄像头点位主表",
+  "id": "ent_5784e9c3d352cbd6e05f",
+  "name": "aggregates/cameras.csv",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "sync_remote": true,
+  "type": "component",
+  "updated_at": "2026-11-27T07:18:47.812248Z"
+}

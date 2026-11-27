@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "霍营"
+  ],
+  "created_at": "2026-11-27T07:18:47.801358Z",
+  "description": "分析起点，GCJ-02 约 116.392,40.070",
+  "id": "ent_ba858772521638591bc3",
+  "name": "霍营地铁站",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "sync_remote": true,
+  "type": "place",
+  "updated_at": "2026-11-27T07:18:47.814003Z"
+}
