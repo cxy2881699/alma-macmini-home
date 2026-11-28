@@ -1,0 +1,29 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "HEARTBEAT_OK",
+  "content_hash": "2e62bff74f45d31966e79691c111a2565bdcd89dd43562fa14c48e3e483f509a",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_0ac1dfeef402b0cb3d20",
+  "kind": "conversation",
+  "native_event_id": "71cbd87e42020bb65745eede",
+  "occurred_at": "2026-11-28T09:35:30.286000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-28T09:35:30.328142Z",
+  "revision": 680,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"printf '%s\\\\n' '--- last_reflection ---'; cat memory/.last_reflection 2>/dev/null || echo MISSING; for f in memory/2026-11-28.md memory/2026-11-27.md; do if [ -f \\\"$f\\\" ]; then printf '%s\\\\n' \\\"--- $f ---\\\"; cat \\\"$f\\\"; else printf '%s\\\\n' \\\"--- $f MISSING ---\\\"; fi; done; printf '%s\\\\n'"
+    },
+    {
+      "name": "memory_search",
+      "summary": "{\"query\":\"2026年11月27日 11月28日 今日 重要事件 用户互动 项目决策 反思\",\"maxResults\":8}"
+    }
+  ],
+  "turn_index": 1,
+  "user_text": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nCurrent time: Saturday, November 28th, 2026 — 1:34 AM (America/Los_Angeles)"
+}
