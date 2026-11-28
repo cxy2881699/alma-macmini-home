@@ -1,0 +1,25 @@
+{
+  "agent_id": "openclaw@macmini-home",
+  "assistant_text": "HEARTBEAT_OK",
+  "content_hash": "3f100c8981a3d9e92f4f180d2e61309e960c363d37670e1d94046c972b274586",
+  "cwd": "/Users/seancao/.openclaw/workspace",
+  "device_id": "dev_ed490f1b8999",
+  "event_id": "evt_2b308e81d106b76339c3",
+  "kind": "conversation",
+  "native_event_id": "b216d66d7143037829a6f1e8",
+  "occurred_at": "2026-11-28T10:45:02.793000Z",
+  "privacy_mode": "normal",
+  "project_id": "proj_44e381f71d50cb6ce0c0",
+  "received_at": "2026-11-28T10:45:02.833745Z",
+  "revision": 68,
+  "session_id": "agent:main:main",
+  "space": "project/proj_44e381f71d50cb6ce0c0",
+  "tools": [
+    {
+      "name": "exec",
+      "summary": "{\"command\":\"printf '%s\\\\n' '--- last_reflection ---'; cat memory/.last_reflection 2>/dev/null || echo MISSING; printf '%s\\\\n' '--- today ---'; cat memory/2026-11-28.md 2>/dev/null || echo MISSING; printf '%s\\\\n' '--- pending_high ---'; python3 - <<'PY'\\nfrom pathlib import Path\\nimport re\\np=Path('."
+    }
+  ],
+  "turn_index": 2,
+  "user_text": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nCurrent time: Saturday, November 28th, 2026 — 2:44 AM (America/Los_Angeles)"
+}
